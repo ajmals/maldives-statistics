@@ -1,0 +1,36 @@
+{
+  "table_id": "16.7",
+  "title_en": "Table 16.7 : CONTRIBUTION TO GROWTH (AT CURRENT PRICES), BY KIND OF ACTIVITY, 2004 - 2020",
+  "title_dv": "ތާވަލް 16.7: އިޤްތިޞާދީ ބައިތަކުން ޤައުމީ އުފެއްދުންތެރިކަމުގެ މިންގަނޑު އިތުރުވި މިންވަރަށް ހިއްސާކުރާ މިންވަރު، 2004 -2020",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "1_/ Revised on 29th September 2020",
+    "Published on 29th September 2020",
+    "2_/ Revised on 27th September 2021",
+    "Published on 27th September 2021"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "Industry / Economic Activity - 2004",
+    "Industry / Economic Activity - 2005",
+    "Industry / Economic Activity - 2006",
+    "Industry / Economic Activity - 2007",
+    "Industry / Economic Activity - 2008",
+    "Industry / Economic Activity - 2009",
+    "Industry / Economic Activity - 2010",
+    "Industry / Economic Activity - 2011",
+    "Industry / Economic Activity - 2012",
+    "Industry / Economic Activity - 2013",
+    "Industry / Economic Activity - 2014",
+    "Industry / Economic Activity - 2015",
+    "Industry / Economic Activity - 2016",
+    "Industry / Economic Activity - 2017 1_/",
+    "Industry / Economic Activity - 2018 2_/",
+    "Industry / Economic Activity - 2019 2_/",
+    "Industry / Economic Activity - 2020"
+  ],
+  "row_count": 33
+}

@@ -1,0 +1,51 @@
+Location,Category,Inpatient,Outpatient,Inpatient Beds
+TOTAL,,2002773,41929,2581
+MALE',,,,
+Indhira Gandhi Memorial Hospital,Tertiary,196692,10901,587
+Hulhumale' Hospital,Hospital,87400,1291,62
+Villimale Hospital,Hospital,30117,NA,2
+Senahiya Hospital,Hospital,61677,53,8
+ADK Hospital,Tertiary,205391,5521,137
+Treetop Hospital,Tertiary,98005,2130,202
+Medica Hospital,Hospital,33899,76,NA
+Dhamanveshi,Public Health,26042,NA,NA
+ATOLLS,,,,
+HA,Atoll Hospital,32529,732,23
+HA,Health Centre,44104,242,66
+HDh,Regional Hospital,80610,2532,32
+HDh,Health Centre,44587,310,62
+Sh,Atoll Hospital,15870,671,8
+Sh,Health Centre,44267,293,72
+N,Atoll Hospital,12366,395,16
+N,Health Centre,36800,115,61
+R,Regional Hospital,57594,1497,50
+R,Health Centre,58393,827,102
+B,Atoll Hospital,23133,472,12
+B,Health Centre,35661,125,48
+Lh,Atoll Hospital,34042,921,27
+Lh,Health Centre,14752,214,28
+K,Health Centre,56703,202,67
+AA,Atoll Hospital,12801,237,16
+AA,Health Centre,32126,112,30
+A Dh,Atoll Hospital,18652,385,20
+A Dh,Health Centre,34319,518,49
+V,Atoll Hospital,4173,60,6
+V,Health Centre,3180,,12
+M,Regional Hospital,16938,365,34
+M,Health Centre,15505,278,33
+F,Atoll Hospital,16819,655,20
+F,Health Centre,17439,202,26
+Dh,Atoll Hospital,16859,400,17
+Dh,Health Centre,15668,30,23
+Th,Atoll Hospital,17932,704,28
+Th,Health Centre,48124,810,73
+L,Regional Hospital,68324,1338,88
+L,Health Centre,45475,489,69
+GA,Atoll Hospital,13377,522,24
+GA,Health Centre,31242,257,52
+GDh,Regional Hospital,51499,1461,40
+GDh,Health Centre,33366,322,56
+Gn,Atoll Hospital,35834,889,51
+S,Tertiary*,73806,2115,79
+S,Health Centre,31000,82,42
+S,Hospital **,17681,178,21

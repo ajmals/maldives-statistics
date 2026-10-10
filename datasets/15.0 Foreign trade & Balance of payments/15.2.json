@@ -1,0 +1,38 @@
+{
+  "table_id": "15.2",
+  "title_en": "Table 15:2 : SUMMARY OF IMPORTS CLASSIFIED BY HARMONIZED SYSTEM, 2016 - 2020",
+  "title_dv": "2020 - 2016 ,WsWluh egukwtctwvWbegulwdum uDnwgiawm unuverukeretea cSwaejcaWr ,cnutog egukwtiawb egcmwTcsis cDcziawnomWh : 15:2 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [
+    "Note: (*) - Indicates if the percentage change is greater than 100.",
+    "Table Compiled: Maldives Bureau of Statistics"
+  ],
+  "columns": [
+    "Harmonized System",
+    "Harmonized System_2",
+    "Harmonized System - C.I.F. Value (in MVR. '000) - 2014",
+    "Harmonized System - C.I.F. Value (in MVR. '000) - 2015",
+    "Harmonized System - C.I.F. Value (in MVR. '000) - 2016",
+    "Harmonized System - C.I.F. Value (in MVR. '000) - 2017",
+    "Harmonized System - C.I.F. Value (in MVR. '000) - 2018",
+    "Harmonized System - C.I.F. Value (in MVR. '000) - 2019",
+    "Harmonized System - C.I.F. Value (in MVR. '000) - 2020",
+    "Harmonized System - Percentage Share - 2014",
+    "Harmonized System - Percentage Share - 2015",
+    "Harmonized System - Percentage Share - 2016",
+    "Harmonized System - Percentage Share - 2017",
+    "Harmonized System - Percentage Share - 2018",
+    "Harmonized System - Percentage Share - 2019",
+    "Harmonized System - Percentage Share - 2020",
+    "Harmonized System - % Change Over Previous Year - 2014",
+    "Harmonized System - % Change Over Previous Year - 2015",
+    "Harmonized System - % Change Over Previous Year - 2016",
+    "Harmonized System - % Change Over Previous Year - 2017",
+    "Harmonized System - % Change Over Previous Year - 2018",
+    "Harmonized System - % Change Over Previous Year - 2019",
+    "Harmonized System - % Change Over Previous Year - 2020",
+    "Column_Z"
+  ],
+  "row_count": 23
+}

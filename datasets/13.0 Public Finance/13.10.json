@@ -1,0 +1,27 @@
+{
+  "table_id": "13.10",
+  "title_en": "Table 13.10 : SUMMARY OF PUBLICLY GUARANTEED EXTERNAL DEBT, 2015 - 2020",
+  "title_dv": "ތާވަލު 13.10: ސަރުކާރުން ގެރެންޓީކޮށްދީފައިވާ ބޭރުގެ ދަރަނި ތާވަލު، 2015 - 2020",
+  "unit": "",
+  "source": "1/ Data Source: Ministry of Finance",
+  "notes": [
+    "1_/ Total outstanding disbursed (M & L/T)",
+    "2_/ Disbursement of loans during the year",
+    "3_/ Repayments of loans (principal only)",
+    "4_/ Interest on loans (M & L / T)",
+    "5_/ Sum of Principal repayments and interest",
+    "cscnEnif cfoa IrcTcsinim :ctWrwf ivcaedutWmUluAwm",
+    "Additonal Notes:",
+    "2/ Difference in historical data due to reconciliations"
+  ],
+  "columns": [
+    "(In millions of Rufiyaa) - Particular",
+    "(In millions of Rufiyaa) - 2015",
+    "(In millions of Rufiyaa) - 2016",
+    "(In millions of Rufiyaa) - 2017",
+    "(In millions of Rufiyaa) - 2018",
+    "(In millions of Rufiyaa) - 2019",
+    "(In millions of Rufiyaa) - 2020"
+  ],
+  "row_count": 9
+}

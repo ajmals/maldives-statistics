@@ -1,0 +1,25 @@
+{
+  "table_id": "10.6",
+  "title_en": "Table 10.6: BED CAPACITY AND UTILIZATION OF GUEST HOUSES BY MONTH, 2019 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country."
+  ],
+  "columns": [
+    "Month",
+    "2019 - Registered Bed Capacity",
+    "2019 - Beds in operation",
+    "2019 - % share of registered beds in operation",
+    "2019 - Bed Capacity Utilization Rate %",
+    "2019 - Tourist Bednights",
+    "2020 - Registered Bed Capacity",
+    "2020 - Beds in operation",
+    "2020 - % share of registered beds in operation",
+    "2020 - Bed Capacity Utilization Rate %",
+    "2020 - Tourist Bednights"
+  ],
+  "row_count": 13
+}

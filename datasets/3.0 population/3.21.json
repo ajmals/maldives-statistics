@@ -1,0 +1,20 @@
+{
+  "table_id": "3.21",
+  "title_en": "TABLE 3.21: NUMBER OF MARRIAGES BY NUMBER OF TIMES MARRIED BY SEX, 2017 - 2020",
+  "title_dv": "ތާވަލު 3.21: ކައިވެނީގެ އަދަދާއި ކައިވެނި ކުރި ފަހަރު އަދި ޖިންސު، 2017 - 2020",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Number of times married",
+    "2017 - Male",
+    "2017 - Female",
+    "2018 - Male",
+    "2018 - Female",
+    "2019 - Male",
+    "2019 - Female",
+    "2020 - Male",
+    "2020 - Female"
+  ],
+  "row_count": 5
+}

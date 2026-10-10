@@ -1,0 +1,29 @@
+{
+  "table_id": "10.8",
+  "title_en": "TABLE 10.8: MONTHLY ARRIVAL OF TOURISTS BY SEX, 2015 - 2020",
+  "title_dv": "ތާވަލު 10.8: ޖިންސުގެ ގޮތުން އެކިމަސްމަހު ރާއްޖެއައި ފަތުރުވެރިންގެ އަދަދު، 2015 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country."
+  ],
+  "columns": [
+    "2015",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Dec - 2015"
+  ],
+  "row_count": 23
+}

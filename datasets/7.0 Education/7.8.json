@@ -1,0 +1,21 @@
+{
+  "table_id": "7.8",
+  "title_en": "TABLE 7.8: LOCAL AND EXPATRIATE TEACHERS SERVING IN SCHOOLS OF MALE' AND ATOLLS BY LOCALITY, 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: No untrained expatriate teachers"
+  ],
+  "columns": [
+    "Locality",
+    "Total",
+    "Trained - Total - Permanant",
+    "Trained - Total - Temporary",
+    "Untrained - Total - Temporary",
+    "Untrained - Total expatriate - Teachers",
+    "Untrained - Total Local - Teachers",
+    "Untrained - Expatriate - as a % of total"
+  ],
+  "row_count": 23
+}

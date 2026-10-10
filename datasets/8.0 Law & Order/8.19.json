@@ -1,0 +1,28 @@
+{
+  "table_id": "8.19",
+  "title_en": "Table 8.19: NUMBER OF VICTIMS BY TYPE OF OFFENCE AND SEX, 2018 - 2020",
+  "title_dv": "2020 - 2018 ،ތާވަލު 8.19: ހުށަހެޅިފައިވާ މައްސަލަތަކުގައި އަނިޔާލިބިފައިވާ މީހުން",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of offence",
+    "2018 - Number of Logged cases",
+    "2018 - Number of Logged cases_2",
+    "2018 - Number of Victims - Both Sexes",
+    "2018 - Number of Victims - Male",
+    "2018 - Number of Victims - Female",
+    "2019 - Number of Logged cases",
+    "2019 - Number of Logged cases_2",
+    "2019 - Number of Victims - Both Sexes",
+    "2019 - Number of Victims - Male",
+    "2019 - Number of Victims - Female",
+    "2020 - Number of Logged cases",
+    "2020 - Number of Logged cases_2",
+    "2020 - Number of Victims - Both Sexes",
+    "2020 - Number of Victims - Male",
+    "2020 - Number of Victims - Female",
+    "2020 - Number of Victims - Female_2"
+  ],
+  "row_count": 27
+}

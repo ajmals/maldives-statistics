@@ -1,0 +1,20 @@
+{
+  "table_id": "11.20",
+  "title_en": "Table 11.20 : AIRCRAFT MOVEMENT AT HANIMAADHOO INTERNATIONAL AIRPORT BY MONTH, 2020",
+  "title_dv": "ތާވަލު 11.20: މަސްމަހުގެ ގޮތުން ގަން އިންޓަރނޭޝަނަލް އެއަރޕޯޓުން ދަތުރުކުރި ފްލައިޓްތައް، 2020",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Grand total",
+    "International Flights - Total",
+    "International Flights - Scheduled",
+    "International Flights - Chartered",
+    "International Flights - Non-Scheduled",
+    "Domestic Flights - Total",
+    "Domestic Flights - Scheduled",
+    "Domestic Flights - Non-Scheduled"
+  ],
+  "row_count": 13
+}

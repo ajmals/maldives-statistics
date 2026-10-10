@@ -1,0 +1,35 @@
+{
+  "table_id": "13.13",
+  "title_en": "Table 13.13: REVENUE COLLECTED IN US DOLLARS, 2015 -2020",
+  "title_dv": "ތާވަލު 13.13: ޢާމްދަނީގެ ގޮތުގައި ލިބުނު ފައިސާ، ޑޮލަރުން، 2015 - 2020",
+  "unit": "",
+  "source": "Source: Maldives Inland Revenue Authority",
+  "notes": [
+    "Note:",
+    "** Airport Developmenet Fee, Construction Period Extension Fee, Corporate Social Responsibility Fee, Ownership Transfer Tax & Remittance Tax added",
+    "* 2017 figures are revised by MIRA",
+    "1 Revenue Collected (MVR) shows only the Maldivian Rufiyaa (MVR) value of USD collections.",
+    "2 Others: Long-term Agricultural Leased Islands Rent, Fines, Foreign Investment Administration Annual Fee, Sale of Government Land, Fines, Vessel Fee, Guest house registration fee, Other registration and license fees, Sale of tender documents, Vessel Fee, Other fees and charges (Latter added by MIRA)",
+    "2018 Figures revised as per Internal Audit reconciliation on 31s March 2019",
+    "2019 Figures reconciled as of 02.03.2020"
+  ],
+  "columns": [
+    "Description",
+    "Revenue collected (USD) - 2014",
+    "Revenue collected (USD) - 2015",
+    "Revenue collected (USD) - 2016",
+    "Revenue collected (USD) - 2017",
+    "Revenue collected (USD) - 2018",
+    "Revenue collected (USD) - 2019",
+    "Revenue collected (USD) - 2020",
+    "Revenue collected (MVR)1 - 2013",
+    "Revenue collected (MVR)1 - 2014",
+    "Revenue collected (MVR)1 - 2015",
+    "Revenue collected (MVR)1 - 2016",
+    "Revenue collected (MVR)1 - 2017",
+    "Revenue collected (MVR)1 - 2018",
+    "Revenue collected (MVR)1 - 2019",
+    "Revenue collected (MVR)1 - 2020"
+  ],
+  "row_count": 18
+}

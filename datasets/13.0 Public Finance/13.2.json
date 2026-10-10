@@ -1,0 +1,35 @@
+{
+  "table_id": "13.2",
+  "title_en": "Table 13.2 : SUMMARY OF CENTRAL GOVERNMENT FINANCE, 2012 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance.",
+  "notes": [
+    "1_/ Excludes grants for direct expenditure by donors.",
+    "2_/ Overall Balance including Grants (Starting from 2012, Overall balance is calculated excluding net lending)",
+    "3_/ Primary Balance is excluding Loan repayment",
+    "4_/ Data Updated",
+    "5_/ Domestic Financing primarily reflects borrowings from MMA"
+  ],
+  "columns": [
+    "(In million MVR) - Particulars",
+    "(In million MVR) - 2008",
+    "(In million MVR) - 2009",
+    "(In million MVR) - 2010",
+    "(In million MVR) - 2011",
+    "(In million MVR) - Actuals - 2012",
+    "(In million MVR) - Actuals - 2013",
+    "(In million MVR) - Actual - 2014",
+    "(In million MVR) - Actual - 2015",
+    "(In million MVR) - Actual - 2016",
+    "(In million MVR) - Actual - 2017",
+    "(In million MVR) - Actual - 2018",
+    "(In million MVR) - Revised - 2019",
+    "(In million MVR) - Revised - 2020",
+    "(In million MVR) - Approved - 2021",
+    "(In million MVR) - Approved - 2022",
+    "(In million MVR) - Approved - 2023",
+    "(In million MVR) - Percentage Change - 2019-2020"
+  ],
+  "row_count": 19
+}

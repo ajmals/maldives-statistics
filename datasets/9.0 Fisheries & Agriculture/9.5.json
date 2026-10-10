@@ -1,0 +1,41 @@
+{
+  "table_id": "9.5",
+  "title_en": "Table 9.5 : MONTHLY FISH CATCH BY TYPE , 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [
+    "2019 ,urwvcnim iaWtwvcaWb eguhwminEb wtwvun ifih iawguhwmcswmikea :9.5 ulwvWt",
+    "(cnunwT ckircTem)",
+    "(In metric tons)",
+    "Type of fish",
+    "wlcmuj",
+    "Month",
+    "Total",
+    "Longline",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "columns": [
+    "(In metric tons) - Month",
+    "(In metric tons) - Total",
+    "(In metric tons) - Type of fish - Skipjack",
+    "(In metric tons) - Type of fish - Yellowfin tuna",
+    "(In metric tons) - Type of fish - Bigeye tuna",
+    "(In metric tons) - Type of fish - Dogtooth tuna",
+    "(In metric tons) - Type of fish - Little tuna",
+    "(In metric tons) - Type of fish - Frigate tuna",
+    "(In metric tons) - Type of fish - Other marine fish"
+  ],
+  "row_count": 14
+}

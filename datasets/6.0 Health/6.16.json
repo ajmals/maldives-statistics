@@ -1,0 +1,23 @@
+{
+  "table_id": "6.16",
+  "title_en": "Table 6.16 : TUBERCULOSIS CASES BY SEX, 2010 - 2020",
+  "title_dv": "ތާވަލު 6.16: ޓީ.ބީގެ ބަލި މީހުންގެ ޢަދަދު، ޖިންސުގެ ގޮތުން، 2010 - 2020",
+  "unit": "",
+  "source": "Source: Center for Commununity Health Disease Control",
+  "notes": [],
+  "columns": [
+    "Type - Both sexes",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "row_count": 33
+}

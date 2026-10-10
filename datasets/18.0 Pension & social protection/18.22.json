@@ -1,0 +1,21 @@
+{
+  "table_id": "18.22",
+  "title_en": "Table 18.22 : EXPENDITURE ON AASANDHA SERVICES BY TYPE OF INSTITUTION AND ATOLL , 2020",
+  "title_dv": "ތާވަލް 18.22: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން އަތޮޅުތަކުން ދެވޭ ޙިދުމަތްތައް ފޯރުކޮށްދޭ ތަންތަނަށް ކުރެވިފައިވާ ޚަރަދު، 2020",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total Expenditure (MVR)",
+    "Hospitals",
+    "Pharmacies",
+    "Opticals",
+    "Clinics",
+    "Airfare Tickets 1_/",
+    "Emergency Evacuation - Air_/",
+    "Emergency Evacuation - Sea2_/",
+    "Emergency Evacuation - Sea2_/_2"
+  ],
+  "row_count": 26
+}

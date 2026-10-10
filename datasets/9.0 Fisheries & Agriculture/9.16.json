@@ -1,0 +1,22 @@
+{
+  "table_id": "9.16",
+  "title_en": "Table 9.16: Status of Uninhabited Islands, 2011 - 2020",
+  "title_dv": "ތާވަލު 9.16: އެކި ކަންކަމުގައި ފަޅުރަށްތައް ދޫކުރެވިފައިވާ އަދަދު، 2011 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Status of Uninhabited Islands - Total Number of Islands",
+    "Number of islands - 2011",
+    "Number of islands - 2012",
+    "Number of islands - 2013",
+    "Number of islands - 2014",
+    "Number of islands - 2015",
+    "Number of islands - 2016",
+    "Number of islands - 2017",
+    "Number of islands - 2018",
+    "Number of islands - 2019",
+    "Number of islands - 2020"
+  ],
+  "row_count": 6
+}

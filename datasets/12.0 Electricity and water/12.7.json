@@ -1,0 +1,23 @@
+{
+  "table_id": "12.7",
+  "title_en": "Table 12.7 : BILLED WATER CONSUMPTION IN VILIMALE', 2010 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Private Limited",
+  "notes": [],
+  "columns": [
+    "Type",
+    "(In '000 metric tons) - 2010",
+    "(In '000 metric tons) - 2011",
+    "(In '000 metric tons) - 2012",
+    "(In '000 metric tons) - 2013",
+    "(cnunwT ckircTem '000) - 2014",
+    "(cnunwT ckircTem '000) - 2015",
+    "(cnunwT ckircTem '000) - 2016",
+    "(cnunwT ckircTem '000) - 2017",
+    "(cnunwT ckircTem '000) - 2018",
+    "(cnunwT ckircTem '000) - 2019",
+    "(cnunwT ckircTem '000) - 2020"
+  ],
+  "row_count": 12
+}

@@ -1,0 +1,26 @@
+{
+  "table_id": "12.1",
+  "title_en": "Table 12.1 : ELECTRICITY UTILIZATION IN MALE', 2010 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Company Limited",
+  "notes": [
+    "Note: 1_/ - The increase of electricity utilization in Public Places and schools in 2017 and 2018 is is due to Includes TERTIARY HOSPITAL"
+  ],
+  "columns": [
+    "Load Distribution",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "row_count": 15
+}

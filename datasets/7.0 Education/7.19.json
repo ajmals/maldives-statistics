@@ -1,0 +1,20 @@
+{
+  "table_id": "7.19",
+  "title_en": "TABLE 7.19: NUMBER OF CANDIDATES SAT IN HIGHER SECONDARY EXAM BY SEX , 2018 - 2019",
+  "title_dv": "ތާވަލް 7.19: ޖިންސުގެ ގޮތުން މަތީ ޘާނަވީ އިމްތިހާނުގައި ސްކޫލްތަކުން ދަރިވަރުން ބައިވެރިކުރި އަދަދު 2018 - 2019",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Due to Covid 19 pandemic no exams where held during 2020"
+  ],
+  "columns": [
+    "Locality",
+    "2018 - Both sex",
+    "2018 - Male",
+    "2018 - Female",
+    "2019 - Both sex",
+    "2019 - Male",
+    "2019 - Female"
+  ],
+  "row_count": 3
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "5.9",
+  "title_en": "Table 5.9: Civil Servants Classified by sector, 2020",
+  "title_dv": "ތާވަލު 5.9: ވަޒީފާ އަދާކުރާ ދާއިރާގެ ގޮތުން ސިވިލް ސަރވަންޓުން ބެހިފައިވާ ގޮތް، 2020",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Schools",
+    "Hospitals",
+    "Atoll / City Councils",
+    "Island Councils",
+    "Government Ministries",
+    "other offices"
+  ],
+  "row_count": 23
+}

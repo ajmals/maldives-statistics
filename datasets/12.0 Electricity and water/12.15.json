@@ -1,0 +1,21 @@
+{
+  "table_id": "12.15",
+  "title_en": "TABLE 12.15: SUPPLY OF WATER ON EMERGENCY BY NUMBER OF ISLANDS , QUANTITY AND EXPENDITURE , 2005 - 2020",
+  "title_dv": "ތާވަލު 12.15: އެމަޖެންސީ ފެންފޯރުކޮށްދެވުނު ރަށްތަކުގެ އަދަދާއި މިންވަރު އަދި ހިނގި ޚަރަދު، 2005 - 2020",
+  "unit": "",
+  "source": "Source: National Dissaster Management Centre (2005 - 2016)",
+  "notes": [
+    "Note: * Expenditure on water and transport that cannot be separated are given under total cost",
+    "Ministry of Environment (2017 - 2020)"
+  ],
+  "columns": [
+    "Column_A",
+    "Number of islands",
+    "Number of tons supplied",
+    "Total Expenses - Cost of water (MVR)",
+    "Total Expenses - Cost of transport (MVR)",
+    "Total Expenses - Total cost* (MVR)",
+    "Expenses on average for ton (MVR)"
+  ],
+  "row_count": 16
+}

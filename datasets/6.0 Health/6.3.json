@@ -1,0 +1,21 @@
+{
+  "table_id": "6.3",
+  "title_en": "Table 6.3 : OUT- PATIENT FLOW, INPATIENT FLOW AND BED OCCUPANCY RATE OF GOVERNMENT HOSPITALS, 2020",
+  "title_dv": "ތާވަލު 6.3: މާލެއާއި އަތޮޅުތަކުގައިވާ ސަރުކާރު ހޮސްޕިޓަލްތަކުގައި ބެލުނު ބަލިމީހުންނާއި އެނދުމަތިކުރެވުނު ބަލި މީހުން، 2020",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note:",
+    "*SRH (prv)",
+    "** IMDC/ Addu",
+    "10/19/2021"
+  ],
+  "columns": [
+    "Location",
+    "Category",
+    "Inpatient",
+    "Outpatient",
+    "Inpatient Beds"
+  ],
+  "row_count": 50
+}

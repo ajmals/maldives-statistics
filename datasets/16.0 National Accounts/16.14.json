@@ -1,0 +1,22 @@
+{
+  "table_id": "16.14",
+  "title_en": "Table 16.14: GROSS DOMESTIC PRODUCT (AT CONSTANT PRICES), BY KIND OF ACTIVITY, 2014 - 2020",
+  "title_dv": "ތާވަލް 16.14: އިޤްތިޞާދީ ބައިތަކުން ޤައުމީ އުފެއްދުންތެރިކަމުގެ މިންގަނޑު (ދާއިމީ އަގުން)، 2014-2020",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics / Ministry of National Planning, Housing and Infrastructure",
+  "notes": [
+    "Note :",
+    "Published on September 2021"
+  ],
+  "columns": [
+    "(Estimated using Expenditure approach) - Industry / Economic Activity",
+    "(Estimated using Expenditure approach) - 2014",
+    "(Estimated using Expenditure approach) - 2015",
+    "(Estimated using Expenditure approach) - 2016",
+    "(Estimated using Expenditure approach) - 2017",
+    "(Estimated using Expenditure approach) - 2018",
+    "(Estimated using Expenditure approach) - 2019",
+    "(Estimated using Expenditure approach) - 2020"
+  ],
+  "row_count": 14
+}

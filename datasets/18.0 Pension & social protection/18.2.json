@@ -1,0 +1,29 @@
+{
+  "table_id": "18.2",
+  "title_en": "TABLE 18.2: MONTHLY PENSION PAYOUTS BY SCHEME, 2017- 2020",
+  "title_dv": "ތާވަލު 18.2: އެކި މަސްމަހު ޕެންޝަންގެ ގޮތުގައި ސްކީމްތަކުން ދެވުނު މިންވަރު، 2017 - 2020",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [
+    "Note: Senior Citizen Allowance was introduced in February 2014 and discontinued in March 2019."
+  ],
+  "columns": [
+    "(In MVR) - Month",
+    "(In MVR) - Basic pension - 2017",
+    "(In MVR) - Basic pension - 2018",
+    "(In MVR) - Basic pension - 2019",
+    "(In MVR) - Basic pension - 2020",
+    "(In MVR) - Retirement pension - 2017",
+    "(In MVR) - Retirement pension - 2018",
+    "(In MVR) - Retirement pension - 2019",
+    "(In MVR) - Retirement pension - 2020",
+    "(In MVR) - Other pension - 2017",
+    "(In MVR) - Other pension - 2018",
+    "(In MVR) - Other pension - 2019",
+    "(In MVR) - Other pension - 2020",
+    "(In MVR) - Senior Citizen Allowance - 2017",
+    "(In MVR) - Senior Citizen Allowance - 2018",
+    "(In MVR) - Senior Citizen Allowance - 2019"
+  ],
+  "row_count": 13
+}

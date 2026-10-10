@@ -1,0 +1,39 @@
+{
+  "table_id": "14.13",
+  "title_en": "Table 14.13: Key Indicators of General Insurance Business, 2015 - 2020",
+  "title_dv": "ތާވަލު 14.13: އިންޝޫރެންސް ކުންފުނިތަކުގެ މުހިންމު ތަފާސްހިސާބުތައް: (2015 - 2020)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "Figures are from unaudited quarterly returns submitted to the MMA."
+  ],
+  "columns": [
+    "(millions of MVR) - Particulars - Premium",
+    "(millions of MVR) - 2015 - Mar",
+    "(millions of MVR) - 2015 - Jun",
+    "(millions of MVR) - 2015 - Sep",
+    "(millions of MVR) - 2015 - Dec",
+    "(millions of MVR) - 2016 - Mar",
+    "(millions of MVR) - 2016 - Jun",
+    "(millions of MVR) - 2016 - Sep",
+    "(millions of MVR) - 2016 - Dec",
+    "(millions of MVR) - 2017 - Mar",
+    "(millions of MVR) - 2017 - Jun",
+    "(millions of MVR) - 2017 - Sep",
+    "(millions of MVR) - 2017 - Dec",
+    "(millions of MVR) - 2018 - Mar",
+    "(millions of MVR) - 2018 - Jun",
+    "(millions of MVR) - 2018 - Sep",
+    "(millions of MVR) - 2018 - Dec",
+    "(millions of MVR) - 2019 - Mar",
+    "(millions of MVR) - 2019 - Jun",
+    "(millions of MVR) - 2019 - Sep",
+    "(millions of MVR) - 2019 - Dec",
+    "(millions of MVR) - 2020 - Mar",
+    "(millions of MVR) - 2020 - Jun",
+    "(millions of MVR) - 2020 - Sep",
+    "(millions of MVR) - 2020 - Dec"
+  ],
+  "row_count": 24
+}

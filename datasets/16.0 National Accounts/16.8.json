@@ -1,0 +1,37 @@
+{
+  "table_id": "16.8",
+  "title_en": "Table 16.8 : IMPLICIT PRICE DEFLATOR, BY KIND OF ACTIVITY, 2003 - 2020",
+  "title_dv": "ތާވަލް 16.8: އިމްޕްލިސިޓް ޕްރައިސް ޑީފްލޭޓަރ ، 2003-2020",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "1_/ Revised on 29th September 2020",
+    "Published on 29th September 2020",
+    "2_/ Revised on 27th September 2021",
+    "Published on 27th September 2021"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2003",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2004",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2005",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2006",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2007",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2008",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2009",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2010",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2011",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2012",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2013",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2014",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2015",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2016",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2017 1_/",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2018 2_/",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2019 2_/",
+    "(In percent , 2014 =100) - Industry / Economic Activity - 2020"
+  ],
+  "row_count": 33
+}

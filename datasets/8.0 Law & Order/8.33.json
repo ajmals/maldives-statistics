@@ -1,0 +1,22 @@
+{
+  "table_id": "8.33",
+  "title_en": "Table 8.33: SUMMARY OF ALL NEW CASES FILED IN COURTS IN MALE' AND ATOLLS, 2019 - 2020",
+  "title_dv": "ތާވަލް 8.33: މާލެއާއި ރަށްރަށުގެ ކޯޓުތަކަށް ހުށައެޅިފައިވާ މައްސަލަތައް، 2019 -2020",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "2019 - Criminal Cases",
+    "2019 - Civil Cases",
+    "2019 - Family Cases",
+    "2019 - Marriage",
+    "2019 - Divorce",
+    "2020 - Criminal Cases",
+    "2020 - Civil Cases",
+    "2020 - Family Cases",
+    "2020 - Marriage",
+    "2020 - Divorce"
+  ],
+  "row_count": 29
+}

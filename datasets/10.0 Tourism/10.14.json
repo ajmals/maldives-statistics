@@ -1,0 +1,35 @@
+{
+  "table_id": "10.14",
+  "title_en": "Table 10.14 BED CAPACITY OF TOURIST RESORTS AND THE DISTANCE FROM MALE' INTERNATIONAL AIRPORT, 2013 - 2020",
+  "title_dv": "ތާވަލު 10.14: ރިސޯޓްތަކުގެ އެނދުގެ ޖާގައާއި ބައިނަލްއަޤަވާމީ ވައިގެ ބަނދަރާއިހުރި ދުރުމިން، 2013 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country."
+  ],
+  "columns": [
+    "Column_A",
+    "Resorts",
+    "Island Name",
+    "Year of Initial - Operation",
+    "Initial Bed - Capacity",
+    "Distance from - Airport (in Km)",
+    "Distance from - 2007",
+    "Distance from - 2008",
+    "Distance from - 2009",
+    "Distance from - 2010",
+    "Bed Capacity (end year)* - 2011",
+    "Bed Capacity (end year)* - 2012",
+    "Bed Capacity (end year)* - 2013",
+    "Bed Capacity (end year)* - 2014",
+    "Bed Capacity (end year)* - 2015",
+    "Bed Capacity (end year)* - 2016",
+    "Bed Capacity (end year)* - 2017",
+    "Bed Capacity (end year)* - 2018",
+    "Bed Capacity (end year)* - 2019",
+    "Bed Capacity (end year)* - 2020",
+    "% Share - in 2020"
+  ],
+  "row_count": 188
+}

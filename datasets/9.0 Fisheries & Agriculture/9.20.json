@@ -1,0 +1,26 @@
+{
+  "table_id": "9.20",
+  "title_en": "Table 9.20: AGRICULTURAL PRODUCTS TRADED IN MALE' MARKET BY ATOLLS, 2019",
+  "title_dv": "ތާވަލު 9.20: އަތޮޅުތަކުން މާލެ މާރުކޭޓަށް ވިއްކި ދަނޑުވެރިކަމުގެ ތަކެތި ، 2019",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވި ފަރާތް: އެގްރިކަލްޗަރ ޑާޓާ މެނޭޖްމަންޓް ޔުނިޓް/ މައުލޫމާތު ދެއްވި ފަރާތް: މިނިސްޓްރީ އޮފް ފިޝަރީޒް، މެރިން ރިސޯސަސް އެންޑް އެގްރިކަލްޗަރ",
+  "notes": [
+    "Note: 2020 data are missing as unable to take data on the Male’ Local Market due to the COVID pandemic."
+  ],
+  "columns": [
+    "Agricultural Crops",
+    "Total",
+    "Producing by Atolls - Total - HA",
+    "Producing by Atolls - Total - Sh",
+    "B",
+    "K",
+    "AA",
+    "ADh",
+    "M",
+    "Th",
+    "L",
+    "Gn",
+    "S"
+  ],
+  "row_count": 17
+}

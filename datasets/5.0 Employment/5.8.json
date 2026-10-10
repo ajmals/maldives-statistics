@@ -1,0 +1,21 @@
+{
+  "table_id": "5.8",
+  "title_en": "Table 5.8: CIVIL SERVANTS CLASSIFIED BY OCCUPATION, NATIONALITY AND SEX, 2020",
+  "title_dv": "ތާވަލު 5.8: އަދާކުރާ ވަޒީފާގެ ގޮތުން ދިވެހިންނާއި އަދި ބިދޭސީ ސިވިލް ސަރވަންޓުން ބެހިފައިވާ ގޮތް އަދި ޖިންސް، 2020",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Occupation",
+    "Total - Both Sexes",
+    "Total - Male",
+    "Total - Female",
+    "Locals - Both Sexes",
+    "Locals - Male",
+    "Locals - Female",
+    "Foreigners - Both Sexes",
+    "Foreigners - Male",
+    "Foreigners - Female"
+  ],
+  "row_count": 39
+}

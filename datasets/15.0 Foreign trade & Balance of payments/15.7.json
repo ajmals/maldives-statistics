@@ -1,0 +1,29 @@
+{
+  "table_id": "15.7",
+  "title_en": "Table 15.7 : MARINE PRODUCT EXPORTS BY THE PRIVATE SECTOR BY COUNTRY OF DESTINATION, 2015 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [
+    "Table Compiled: Maldives Bureau of Statistics"
+  ],
+  "columns": [
+    "Country",
+    "Value ( in Rf. ' 000 ) - 2014",
+    "Value ( in Rf. ' 000 ) - 2015",
+    "Value ( in Rf. ' 000 ) - 2016",
+    "Value ( in Rf. ' 000 ) - 2017",
+    "Value ( in Rf. ' 000 ) - 2018",
+    "Value ( in Rf. ' 000 ) - 2019",
+    "Value ( in Rf. ' 000 ) - 2020",
+    "% Share - 2012",
+    "% Share - 2014",
+    "% Share - 2015",
+    "% Share - 2016",
+    "% Share - 2017",
+    "% Share - 2018",
+    "% Share - 2019",
+    "% Share - 2020"
+  ],
+  "row_count": 23
+}

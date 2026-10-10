@@ -1,0 +1,18 @@
+{
+  "table_id": "18.27",
+  "title_en": "Table 18.27: Aasandha Services provided by type and Atoll, 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "Note: Both Emergency evacuation and sent abroad figures had been given by number of cases, and may include multiple cases of same patient. Sent abroad cases includes both cases referred from Maldives and patient's who seeked treatment from abroad."
+  ],
+  "columns": [
+    "Atolls",
+    "Number of - Emergency Evacuation",
+    "Number of - Sent Abroad",
+    "Number of - Empaneled Hospitals and clinics",
+    "Number of - Empaneled Pharmacies"
+  ],
+  "row_count": 24
+}

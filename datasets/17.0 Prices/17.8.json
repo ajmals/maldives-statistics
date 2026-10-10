@@ -1,0 +1,24 @@
+{
+  "table_id": "17.8",
+  "title_en": "Table 17.8 : PERCENTAGE CHANGE OF CONSUMER PRICE INDEX FROM CORRESPONDING MONTH OF PREVIOUS YEAR , 2020",
+  "title_dv": "ތާވަލު 17.8: ވޭތުވެދިޔަ އަހަރުގެ މިމަހާއި އަޅާބަލާއިރު އިންފްލޭޝަން ރޭޓް 2020",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: Aug 2019=100) - Major Groups - Republic",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Jan",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Feb",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Mar",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Apr",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - May",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Jun",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Jul",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Aug",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Sep",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Oct",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Nov",
+    "(Index - base: Aug 2019=100) - Month on Month Inflation rates , 2020 - Dec"
+  ],
+  "row_count": 60
+}

@@ -1,0 +1,40 @@
+{
+  "table_id": "6.10",
+  "title_en": "Table 6.10: Number of Inpatients by speciality and sex, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Indira Gandhi Memorial Hospital",
+  "notes": [
+    "Outpatients",
+    "Total",
+    "Paediatrics",
+    "Obstetrics and gynaecology",
+    "Surgery",
+    "Internal medicine",
+    "Orthopaedics",
+    "Pulmonology",
+    "Cardiology",
+    "Neurology",
+    "ENT",
+    "Urology",
+    "Onco surgery",
+    "Psychiatry",
+    "Nephrology",
+    "Ophthalmology",
+    "Post interventional clinic",
+    "Neuro Surgery",
+    "Dental",
+    "Dermatology",
+    "Oncology",
+    "Gastroenterology",
+    "Respiratory medicine",
+    "Prosthetics and Orthotics"
+  ],
+  "columns": [
+    "Outpatients",
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "row_count": 25
+}

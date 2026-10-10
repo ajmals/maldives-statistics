@@ -1,0 +1,20 @@
+{
+  "table_id": "8.13",
+  "title_en": "Table 8.13: NUMBER OF DETAINEES REPORTED BY TYPE OF OFFENCE AND SEX, 2019 - 2020",
+  "title_dv": "2020 - 2019 ،ތާވަލު 8.13: ހުށަހެޅިފައިވާ މައްސަލަތަކުގެ ތެރެއިން ހައްޔަރުކުރެވުނު މީހުންގެ އަދަދު އަދި ޖިންސް",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of offence",
+    "2019 - Number of Logged cases",
+    "2019 - Number of Detainees - Both Sexes",
+    "2019 - Number of Detainees - Male",
+    "2019 - Number of Detainees - Female",
+    "2020 - Number of Logged cases",
+    "2020 - Number of Detainees - Both Sexes",
+    "2020 - Number of Detainees - Male",
+    "2020 - Number of Detainees - Female"
+  ],
+  "row_count": 26
+}

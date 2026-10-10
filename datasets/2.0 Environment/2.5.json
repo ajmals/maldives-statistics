@@ -1,0 +1,43 @@
+{
+  "table_id": "2.5",
+  "title_en": "Table 2.5: Monthly Waste collected by type, 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Waste Management Corporation Limited (WAMCO)",
+  "notes": [
+    "Month",
+    "Month",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+    "Note: Registrations vary due to cancellation or change of place",
+    "Month",
+    "Month",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+    "Note: Registrations vary due to cancellation or change of place"
+  ],
+  "columns": [
+    "Month"
+  ],
+  "row_count": 13
+}

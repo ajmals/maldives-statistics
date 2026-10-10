@@ -1,0 +1,20 @@
+{
+  "table_id": "12.17",
+  "title_en": "Table 12.19: Number of Islands and quanity of emergency water supplied by Atolls, 2017 - 2020",
+  "title_dv": "ތާވަލު 12.19: އެމަޖެންސީގައި ފެންފޯރުކޮށްދެވުނު އަތޮޅުތަކާއި ފޮނުވުނު އަދަދު، 2017 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Environment",
+  "notes": [],
+  "columns": [
+    "Atoll",
+    "No. of islands - 2017",
+    "No. of islands - 2018",
+    "No. of islands - 2019",
+    "No. of islands - 2020",
+    "Quantity (ton) - 2017",
+    "Quantity (ton) - 2018",
+    "Quantity (ton) - 2019",
+    "Quantity (ton) - 2020"
+  ],
+  "row_count": 21
+}

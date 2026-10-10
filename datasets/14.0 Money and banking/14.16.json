@@ -1,0 +1,40 @@
+{
+  "table_id": "14.16",
+  "title_en": "Table 14.16: RESERVE DATA TEMPLATE, 2015 - 2020 1/",
+  "title_dv": "ތާވަލު 14.16: ރިޒާވް ޑޭޓާ ޓެމްޕްލޭޓް 2015- 2020 1/",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1/ This table includes reserve data compiled as per the International Reserves and Foreign Currency Liquidity data template guideline by IMF (2013). It includes only on-balance sheet items of Maldives Monetary Authority.",
+    "2/ This includes net of repos, reverse repos, trade credit, accounts payable and accounts receivable."
+  ],
+  "columns": [
+    "(In millions of USD) - Particulars",
+    "(In millions of USD) - 2015 - Mar",
+    "(In millions of USD) - 2015 - Jun",
+    "(In millions of USD) - 2015 - Sep",
+    "(In millions of USD) - 2015 - Dec",
+    "(In millions of USD) - 2016 - Mar",
+    "(In millions of USD) - 2016 - Jun",
+    "(In millions of USD) - 2016 - Sep",
+    "(In millions of USD) - 2016 - Dec",
+    "(In millions of USD) - 2017 - Mar",
+    "(In millions of USD) - 2017 - Jun",
+    "(In millions of USD) - 2017 - Sep",
+    "(In millions of USD) - 2017 - Dec",
+    "(In millions of USD) - 2018 - Mar",
+    "(In millions of USD) - 2018 - Jun",
+    "(In millions of USD) - 2018 - Sep",
+    "(In millions of USD) - 2018 - Dec",
+    "(In millions of USD) - 2019 - Mar",
+    "(In millions of USD) - 2019 - Jun",
+    "(In millions of USD) - 2019 - Sep",
+    "(In millions of USD) - 2019 - Dec",
+    "(In millions of USD) - 2020 - Mar",
+    "(In millions of USD) - 2020 - Jun",
+    "(In millions of USD) - 2020 - Sep",
+    "(In millions of USD) - 2020 - Dec"
+  ],
+  "row_count": 22
+}

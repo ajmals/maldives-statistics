@@ -1,0 +1,17 @@
+{
+  "table_id": "2.6",
+  "title_en": "Table 2.6: WASTE TRANSPORTED TO THILAFUSHI , 2018 - 2020, (in tons)",
+  "title_dv": "ތާވަލް 2.6 : ތިލަފުއްޓަށް ގެންދެވުނު ކުނި، 2018 - 2020 (ޓަނުން)",
+  "unit": "",
+  "source": "Source: Waste Management Corporation Limited (WAMCO)",
+  "notes": [
+    "Note: 2018 Data for Villimale is not available."
+  ],
+  "columns": [
+    "Type of waste",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "row_count": 4
+}

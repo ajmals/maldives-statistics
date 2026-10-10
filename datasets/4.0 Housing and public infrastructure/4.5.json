@@ -1,0 +1,18 @@
+{
+  "table_id": "4.5",
+  "title_en": "TABLE 4.5: AREA OF BUILDINGS AUTHORISED FOR CONSTRUCTION BY MONTH, 2018 -2020",
+  "title_dv": "ތާވަލު 4.5: މަސްމަހުގެ ގޮތުން އިމާރާތްކުރުމުގެ ހުއްދަ ދެވުނު ތަނުގެ ބޮޑުމިން، 2018 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Housing and Infrastructure",
+  "notes": [
+    "Note: The decline inMay 2015 is due to the hold in the authorizations along with the amendments made in administrative process.",
+    "Male' City Council"
+  ],
+  "columns": [
+    "Month",
+    "Area in sqm - 2018",
+    "Area in sqm - 2019",
+    "Area in sqm - 2020"
+  ],
+  "row_count": 13
+}

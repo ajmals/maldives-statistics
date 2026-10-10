@@ -1,0 +1,37 @@
+{
+  "table_id": "16.4",
+  "title_en": "Table 16.4 : GROSS DOMESTIC PRODUCT (AT CURRENT PRICES), BY KIND OF ACTIVITY , 2003 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "1_/ Revised on 29th September 2020",
+    "Published on 29th September 2020",
+    "2_/ Revised on 27th September 2021",
+    "Published on 27th September 2021"
+  ],
+  "columns": [
+    "(Estimated using production approach) - ISIC",
+    "(Estimated using production approach) - Industry / Economic Activity",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2003",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2004",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2005",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2006",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2007",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2008",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2009",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2010",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2011",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2012",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2013",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2014",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2015",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2016",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2017 1_/",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2018 2_/",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2019 2_/",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2020"
+  ],
+  "row_count": 39
+}

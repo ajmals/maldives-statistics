@@ -1,0 +1,25 @@
+{
+  "table_id": "17.7",
+  "title_en": "Table 17.7 : MONTHLY INFLATION RATE, 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: Aug 2019=100) - Major Groups - Republic",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Jan",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Feb",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Mar",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Apr",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - May",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Jun",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Jul",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Aug",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Sep",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Oct",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Nov",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - Dec",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2020 - 2019 - 2020"
+  ],
+  "row_count": 60
+}

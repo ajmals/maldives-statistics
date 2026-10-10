@@ -1,0 +1,28 @@
+{
+  "table_id": "7.30",
+  "title_en": "TABLE 7.30: STUDENT ENROLMENT AND GRADUATE OUTPUT IN HIGHER EDUCATION INSTITUTIONS IN MALDIVES BY SEX, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Higher Education",
+  "notes": [],
+  "columns": [
+    "MAIN FIELD",
+    "FIELD OF EDUCATION AND TRAINING",
+    "2019 Enrollment - Both sexes",
+    "2019 Enrollment - Male",
+    "2019 Enrollment - Female",
+    "Total Enrollment - Both sexes",
+    "Total Enrollment - Male",
+    "Total Enrollment - Female",
+    "Graduate Output - Both sexes",
+    "Graduate Output - Male",
+    "Graduate Output - Female",
+    "Repeaters - Both sexes",
+    "Repeaters - Male",
+    "Repeaters - Female",
+    "Dropout - Both sexes",
+    "Dropout - Male",
+    "Dropout - Female"
+  ],
+  "row_count": 45
+}

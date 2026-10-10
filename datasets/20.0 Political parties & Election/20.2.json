@@ -1,0 +1,41 @@
+{
+  "table_id": "20.2",
+  "title_en": "TABLE 20.2: EXPENDITURE ON ELECTIONS, 2008 - 2019",
+  "title_dv": "ތާވަލު 20.2: އިންތިޚާބުތަކަށް ހިނގި ޚަރަދު، 2008 - 2019",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [
+    "Note: Presidential Election & Parlament Election is held every 5 years. Local Council election is held every 3 years. Hence, there were no elections in 2010, 2012, 2015 & 2016.",
+    "million Rf",
+    "Presidential election, 2008",
+    "Parliamentary election,2009",
+    "No election in 2010",
+    "Local Council elections ,2011",
+    "No election in 2012",
+    "Presidential election, 2013",
+    "Local Council elections, 2014",
+    "Parliamentary election,2014",
+    "No election in 2015",
+    "No election in 2016",
+    "Local Council elections 2017",
+    "Presidential election, 2018",
+    "Parliamentary election,2019",
+    "male",
+    "773000001855477300000185547730000018554",
+    "600",
+    "2014",
+    "Presidential election, 2008",
+    "61.599485",
+    "kk",
+    "kkk",
+    "iko"
+  ],
+  "columns": [
+    "Column_A",
+    "Column_B",
+    "Column_C",
+    "Presidential election, 2008",
+    "million Rf - 61.599485"
+  ],
+  "row_count": 12
+}

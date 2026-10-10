@@ -1,0 +1,26 @@
+{
+  "table_id": "20.7",
+  "title_en": "TABLE 20.7: NUMBER OF PARLIAMENT MEMBERS ELECTED AND FINANCIAL RESOURCES, 2011- 2020",
+  "title_dv": "ތާވަލު 20.7: ރައްޔިތުންގެ މަޖިލީހުގެ މެމްބަރުންގެ އަދަދު އަދި މަޖިލީހުގެ ޚަރަދު، 2011 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "moomooi",
+    "book.n"
+  ],
+  "columns": [
+    "Details",
+    "Column_B",
+    "Column_C",
+    "Column_D",
+    "Column_E",
+    "Column_F",
+    "Column_G",
+    "Column_H",
+    "Column_I",
+    "Column_J",
+    "Actuals",
+    "Budget"
+  ],
+  "row_count": 6
+}

@@ -1,0 +1,32 @@
+{
+  "table_id": "6.2",
+  "title_en": "Table 6.2: HEALTH PERSONNEL BY LOCALS AND EXPATRIATES, 2020",
+  "title_dv": "2020, udwdwA egcnIsEdib iaWncnihevid Wrukctwkcawswm iawgWriaWd IHcaiB : 6.2 clwvWt",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "Data as of : 01 January to 31 December 2020",
+    "Data taken from the HR reports collected from health facilities via DHIS2",
+    "Atoll data includes hospitals and Health Centers",
+    "Pvt. Sector data includes ADK,IMDC,TreeTop hospital only ,IMDC is the only private hospital in periphery",
+    "1_/: Non-Medical staff are refered as Administrative staff working at the Health Sector",
+    "19th Oct 2021"
+  ],
+  "columns": [
+    "Categories of Health Personnel",
+    "TOTAL - Total",
+    "TOTAL - Expatriates",
+    "TOTAL - Locals",
+    "PUBLIC SECTOR MALE' - Total",
+    "PUBLIC SECTOR MALE' - Expatriates",
+    "PUBLIC SECTOR MALE' - Locals",
+    "PUBLIC SECTOR ATOLLS - Total",
+    "PUBLIC SECTOR ATOLLS - Expatriates",
+    "PUBLIC SECTOR ATOLLS - Locals",
+    "PRIVATE SECTOR - Total",
+    "PRIVATE SECTOR - Expatriates",
+    "PRIVATE SECTOR - Locals"
+  ],
+  "row_count": 6
+}

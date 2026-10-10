@@ -1,0 +1,27 @@
+{
+  "table_id": "3.23",
+  "title_en": "TABLE 3.23: NUMBER OF MARRIAGES, 2017 - 2020",
+  "title_dv": "ތާވަލު 3.23: ކައިވެނީގެ އަދަދު، 2017 - 2020",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "Note: 1_/ : Included Marriages with foreign females and Marriages with foreign males"
+  ],
+  "columns": [
+    "Atoll/island",
+    "Court",
+    "2017 - Total",
+    "2017 - Monogamous",
+    "2017 - Polygamous",
+    "2018 - Total",
+    "2018 - Monogamous",
+    "2018 - Polygamous",
+    "2019 - Total",
+    "2019 - Monogamous 1_/",
+    "2019 - Polygamous",
+    "2020 - Total",
+    "2020 - Monogamous 1_/",
+    "2020 - Polygamous"
+  ],
+  "row_count": 4
+}
