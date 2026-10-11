@@ -54,32 +54,38 @@ statistical-year-book-2021/
 ├── app.js                                 # Dashboard state, search, and Chart.js logic
 ├── styles.css                             # Dark/light theme & responsive styling
 ├── dashboard_data.js                      # Pre-bundled dashboard dataset & catalog
-├── datasets/                              # 309 clean CSV datasets organized in 20 chapters + Indicators
-│   ├── catalog.json                       # Master schema & metadata index
-│   ├── README.md                          # Comprehensive table of contents
-│   ├── indicators/                        # 18 thematic indicator summaries (incl. Poverty)
-│   ├── 1.0 Geography/                     # Sunshine, rainfall, land area, population density
-│   ├── 10.0 Tourism/                      # Tourist arrivals by market/month, bed capacity
-│   ├── 13.0 Public Finance/               # Revenue, expenditure, foreign debt, grants
-│   ├── 16.0 National Accounts/            # Real GDP (2003-2020), sectoral GVA, growth rates
-│   └── ... (20 chapters total)
+├── data/                                  # Multi-year statistical repository
+│   ├── raw/                               # Official original files (PDFs, Excel, HTML)
+│   │   ├── manifest.json                  # Multi-year collection metadata index
+│   │   ├── 2026/ ... 2008/                # 18 Yearbook editions (7,147 files, 1.37 GB)
+│   │   └── 2021/                          # 2021 raw PDFs & Excel files (20 chapters)
+│   └── processed/                         # Extracted, standardized datasets
+│       └── 2021/                          # 309 clean CSVs + JSON schema & metadata
+├── datasets/ -> data/processed/2021/      # Symlink for backward-compatibility
+├── raw_stats_data/ -> data/raw/2021/      # Symlink for backward-compatibility
 ├── figures/                               # Publication-grade visualization figures (PNG)
-│   ├── fig1_catalog_breakdown.png
-│   ├── fig2_geographic_concentration.png
-│   ├── fig3_tourism_shock_2020.png
-│   ├── fig4_gdp_structural_shock.png
-│   ├── fig5_public_finance_deficit.png
-│   ├── fig6_fisheries_production_utilization.png
-│   └── fig7_emergency_water_vulnerability.png
 ├── notebooks/
 │   └── exploratory_data_analysis.ipynb   # Interactive analysis Jupyter Notebook
 ├── scripts/
+│   ├── download_yearbooks.py             # Multi-year scraper & downloader (2008-2026)
+│   ├── prepare_dashboard_data.py          # Dashboard bundling script
 │   ├── generate_eda_visualizations.py    # Figure generation pipeline
 │   └── build_eda_notebook.py             # Notebook generation pipeline
 ├── EXPLORATORY_DATA_ANALYSIS.md          # Full in-depth research report
 ├── requirements.txt                      # Python dependencies
 └── README.md                             # Repository overview
 ```
+
+### 📥 Downloading Additional Yearbooks
+You can run the multi-year downloader anytime to update or download specific editions:
+```bash
+# Download all available editions (2008-2026)
+python scripts/download_yearbooks.py --years all
+
+# Download specific yearbooks (e.g. 2026 and 2025)
+python scripts/download_yearbooks.py --years 2026,2025
+```
+
 
 ---
 
