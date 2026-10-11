@@ -1,33 +1,34 @@
 # Statistical Yearbook 2021 Maldives — Interactive Dashboard & Analysis
 
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://ajmals.github.io/maldives-statistics-2021/)
 [![Datasets](https://img.shields.io/badge/Datasets-309%20Tables-blue.svg)](datasets/)
 [![Chapters](https://img.shields.io/badge/Chapters-20%20Thematic%20Areas-green.svg)](datasets/catalog.json)
 [![Indicators](https://img.shields.io/badge/Indicators-18%20Series%20%28incl.%20Poverty%29-purple.svg)](datasets/indicators/)
 [![Analysis](https://img.shields.io/badge/EDA-Comprehensive%20Report-orange.svg)](EXPLORATORY_DATA_ANALYSIS.md)
 [![Python](https://img.shields.io/badge/Python-3.14%20%7C%20Pandas-yellow.svg)](requirements.txt)
 
+> 🚀 **Live Interactive Web Application**: [https://ajmals.github.io/maldives-statistics-2021/](https://ajmals.github.io/maldives-statistics-2021/)
+
 A complete, machine-readable, open-data repository and interactive dashboard of the **Statistical Yearbook of Maldives 2021**, originally published by the **National Bureau of Statistics (NBS)**, Maldives.
 
-This repository transforms the official annual statistical compendium into **309 clean, tabular UTF-8 CSV datasets** with structured JSON metadata, accompanied by **18 Indicator datasets** (including Poverty), an **Interactive Web Dashboard (ready for GitHub Pages)**, extensive **Exploratory Data Analysis (EDA)**, interactive Jupyter Notebook, and visualization figures.
+This repository transforms the official annual statistical compendium into **309 clean, tabular UTF-8 CSV datasets** with structured JSON metadata, accompanied by **18 Indicator datasets** (including Poverty), an **Interactive Web Dashboard hosted live on GitHub Pages**, extensive **Exploratory Data Analysis (EDA)**, interactive Jupyter Notebook, and visualization figures.
 
 ---
 
-## 🌐 Interactive Dashboard (GitHub Pages Ready)
+## 🌐 Live Interactive Dashboard
 
-The repository includes a web dashboard built with HTML5, Vanilla CSS3, modern JavaScript, and Chart.js.
+Explore the interactive web application directly in your browser:  
+👉 **[https://ajmals.github.io/maldives-statistics-2021/](https://ajmals.github.io/maldives-statistics-2021/)**
+
+The dashboard is built with HTML5, Vanilla CSS3, modern JavaScript, and Chart.js, requiring zero backend or complex build pipeline.
 
 ### 🌟 Key Features:
-- **Zero-Build GitHub Pages Deployment**: Fully static and self-contained in both root (`/`) and `docs/`. Works immediately by enabling GitHub Pages in repo settings.
+- **Zero-Build Deployment**: Hosted live via GitHub Pages directly from the repository.
 - **Global Benchmarking Suite**: Directly contrasts Maldives data against international indicators (Paris, Manhattan, Manila, Tokyo, Spain, Iceland, World averages).
 - **Curated Trivia & Interesting Facts**: Interactive categorized flashcards revealing geographic, economic, and demographic extremes.
 - **Dynamic Chart Suite**: Interactive radar, line, bar, and doughnut charts with dark/light mode toggle.
 - **190-Island Interactive Directory**: Live search and sort across all 190 inhabited localities by population, land area, density, and distance to Malé.
 - **309-Table Master Catalog Explorer**: Filter by chapter or search any table to immediately access and download clean CSVs.
-
-To host on GitHub Pages:
-1. Go to repository **Settings** → **Pages**.
-2. Under **Build and deployment**, select `Deploy from a branch`.
-3. Choose branch `main` and folder `/ (root)` or `/docs`, then click **Save**.
 
 ---
 
@@ -48,6 +49,10 @@ A detailed empirical investigation is available in **[`EXPLORATORY_DATA_ANALYSIS
 
 ```text
 statistical-year-book-2021/
+├── index.html                             # Interactive Web Dashboard UI
+├── app.js                                 # Dashboard state, search, and Chart.js logic
+├── styles.css                             # Dark/light theme & responsive styling
+├── dashboard_data.js                      # Pre-bundled dashboard dataset & catalog
 ├── datasets/                              # 309 clean CSV datasets organized in 20 chapters + Indicators
 │   ├── catalog.json                       # Master schema & metadata index
 │   ├── README.md                          # Comprehensive table of contents
@@ -82,8 +87,8 @@ statistical-year-book-2021/
 ### 1. Installation
 Clone the repository and install dependencies in a virtual environment:
 ```bash
-git clone https://github.com/your-username/statistical-year-book-2021.git
-cd statistical-year-book-2021
+git clone https://github.com/ajmals/maldives-statistics-2021.git
+cd maldives-statistics-2021
 
 python3 -m venv .venv
 source .venv/bin/activate
