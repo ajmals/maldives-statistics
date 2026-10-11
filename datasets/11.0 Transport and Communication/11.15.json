@@ -1,0 +1,16 @@
+{
+  "table_id": "11.15",
+  "title_en": "Table 11.15 : PASSENGER MOVEMENT AT MAAFARU INTERNATIONAL AIRPORT BY MONTH, 2020",
+  "title_dv": "ތާވަލް 11.15: މަސްމަހުގެ ގޮތުން މާފަރު ބައިނަލްއަޤްވާމީ ވައިގެ ބަނދަރުގައި ފަސިންޖަރުންގެ ދަތުރުފަތުރު ހުރިގޮތް، 2020",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "Month",
+    "International Flights - Arrival",
+    "International Flights - Departure",
+    "Domestic Flights - Arrival",
+    "Domestic Flights - Departure"
+  ],
+  "row_count": 13
+}

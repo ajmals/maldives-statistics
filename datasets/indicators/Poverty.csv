@@ -1,0 +1,21 @@
+POVERTY INDICATORS,,,,,
+Poverty & inequality measures (using Consumption Aggregate) 1_/,,,,2016,
+,,,Republic,Male',Atolls
+Headcount ratios (population below the defined poverty line) 2_/,,,,,
+National Poverty Line,Half the median of total expenditure per person per day (MVR 74),,0.082,0.017,0.128
+High Poverty Line,Median of total expenditure per person per day (MVR 148),,0.465,0.213,0.647
+International poverty line of $5.5,$-a-day poverty line for Upper Middle Income Countries (MVR 70),,0.066,0.015,0.104
+Poverty Gap ratios (population below the defined poverty line) 3_/,,,,,
+National Poverty Line,Half the median of total expenditure per person per day (MVR 74),,0.016,0.003,0.026
+High Poverty Line,Median of total expenditure per person per day (MVR 148),,0.139,0.043,0.208
+International poverty line of $5.5,$-a-day poverty line for Upper Middle Income Countries (MVR 70),,0.013,0.002,0.021
+Inequality Measures  4_/,,,,,
+Gini Coefficient,,,0.313,0.284,0.276
+Source: Household Income and Expenditure Survey 2016,,,,,
+"1/ Consumption aggregate is the measure of welfare adopted to assess population's living standard based on household expenditure. It is derived by aggregating households’ expenditures on goods and services that contribute to the welfare of the population and excludes lumpy expenditures such as on weddings, housing constructions, health.",,,,,
+2/ National Poverty Line is set at half the median of total Expenditure in the Consumption Aggregate (which is MVR 74),,,,,
+2/ High Poverty Line is set at median of total Expenditure in the Consumption Aggregate (which is MVR 148),,,,,
+2/ International Poverty Line takes the value given for Upper Middle-income country of $5.50 (After adjustment for PPP and inflation gives MVR 70),,,,,
+2/ Poverty rate or the headcount ratio is the percentage of population living below a given poverty line (the % of poor people),,,,,
+3/ Poverty Gap Index measures the depth of poverty by determining the gap between the actual state of an individual and the poverty line(how far the poor are from a given poverty line),,,,,
+4/ Inequality is measured using Gini Coefficient. Gini Coefficient measures the extent to which the distribution of consumption among individuals/households differs from a perfectly equal one. Gini coefficient takes the value between 0 and 1. A value of 0 represents absolute equality with everybody consuming the same amount. A value of 1 represent inequality where all consumption is concentrated in one person.,,,,,

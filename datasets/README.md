@@ -4,7 +4,7 @@ This directory contains clean, machine-readable CSV datasets and structured JSON
 
 ## Dataset Overview
 - **Total Chapters**: 20
-- **Total Tables / CSV Files**: 303
+- **Total Tables / CSV Files**: 309
 - **Encoding**: UTF-8
 - **Format**: Clean Tabular Matrix (English headers, pure numeric/category data rows, chart clutter and empty spacer columns stripped)
 - **Metadata**: Companion `.json` for each table capturing Table ID, English Title, Dhivehi Title, Units, Source citations, and Footnotes.
@@ -39,6 +39,7 @@ This directory contains clean, machine-readable CSV datasets and structured JSON
 | 11.0 Transport and Communication | 11.12 | Table 11.12 TRANSPORT MOVEMENTS AT GAN INTERNATIONAL AIRPORT BY AIRLINE, CROSS-CLASSIFIED BY PASSENGER, CARGO AND MAIL, 2020 | 12 | 10 | [`11.12.csv`](11.0 Transport and Communication/11.12.csv) |
 | 11.0 Transport and Communication | 11.13 | Table 11.13 : PASSENGER MOVEMENT AT VELANA INTERNATIONAL AIRPORT BY MONTH, 2020 | 13 | 5 | [`11.13.csv`](11.0 Transport and Communication/11.13.csv) |
 | 11.0 Transport and Communication | 11.14 | Table 11.14 : PASSENGER MOVEMENT AT HANIMAADHOO INTERNATIONAL AIRPORT BY MONTH, 2020 | 13 | 5 | [`11.14.csv`](11.0 Transport and Communication/11.14.csv) |
+| 11.0 Transport and Communication | 11.15 | Table 11.15 : PASSENGER MOVEMENT AT MAAFARU INTERNATIONAL AIRPORT BY MONTH, 2020 | 13 | 5 | [`11.15.csv`](11.0 Transport and Communication/11.15.csv) |
 | 11.0 Transport and Communication | 11.16 | Table 11.16 : PASSENGER MOVEMENTS (PASSENGER IN / OUT) AT DOMESTIC AIRPORTS BY MONTH, 2015 - 2020 | 30 | 55 | [`11.16.csv`](11.0 Transport and Communication/11.16.csv) |
 | 11.0 Transport and Communication | 11.17 | Table 11.17 : NUMBER OF AIRCRAFT MOVEMENTS AT DOMESTIC AIRPORTS BY MONTH, 2015-2020 | 13 | 71 | [`11.17.csv`](11.0 Transport and Communication/11.17.csv) |
 | 11.0 Transport and Communication | 11.18 | Table 11.18 : AIRCRAFT MOVEMENT AT VELANA INTERNATIONAL AIRPORT BY MONTH, 2020 | 13 | 8 | [`11.18.csv`](11.0 Transport and Communication/11.18.csv) |
@@ -95,10 +96,12 @@ This directory contains clean, machine-readable CSV datasets and structured JSON
 | 14.0 Money and banking | 14.2 | Table 14.2: OTHER DEPOSITORY CORPORATIONS SURVEY, 2014 - 2020 | 24 | 29 | [`14.2.csv`](14.0 Money and banking/14.2.csv) |
 | 14.0 Money and banking | 14.3 | Table 14.3 : DEPOSITORY CORPORATIONS SURVEY, 2014 - 2020 | 27 | 29 | [`14.3.csv`](14.0 Money and banking/14.3.csv) |
 | 14.0 Money and banking | 14.4 | Table 14.4: OTHER FINANCIAL CORPORATIONS SURVEY, 2014 - 2020 | 17 | 29 | [`14.4.csv`](14.0 Money and banking/14.4.csv) |
+| 14.0 Money and banking | 14.5 | Table 14.5: FINANCIAL CORPORATIONS SURVEY, 2014 - 2020 | 16 | 29 | [`14.5.csv`](14.0 Money and banking/14.5.csv) |
 | 14.0 Money and banking | 14.6 | Table 14.6: ASSETS AND LIABILITIES OF MALDIVES MONETARY AUTHORITY, 2014 - 2020 | 22 | 29 | [`14.6.csv`](14.0 Money and banking/14.6.csv) |
 | 14.0 Money and banking | 14.7 | Table 14.7 :ASSETS AND LIABILITIES OF OTHER DEPOSITORY CORPORATIONS, 2014 - 2020 | 26 | 29 | [`14.7.csv`](14.0 Money and banking/14.7.csv) |
 | 14.0 Money and banking | 14.8 | Table 14.8: ASSETS AND LIABILITIES OF OTHER FINANCIAL CORPORATIONS, 2014 - 2020 | 23 | 29 | [`14.8.csv`](14.0 Money and banking/14.8.csv) |
 | 14.0 Money and banking | 14.9 | Table 14.9 : PRIVATE SECTOR LOANS AND ADVANCES BY OTHER DEPOSITORY CORPORATIONS (BY ECONOMIC GROUP), 2014 - 2020 | 30 | 29 | [`14.9.csv`](14.0 Money and banking/14.9.csv) |
+| 15.0 Foreign trade & Balance of payments | 15.1 | Table 15.1 : IMPORTS BY COUNTRY OF CONSIGNMENT, 2016 - 2020 | 42 | 17 | [`15.1.csv`](15.0 Foreign trade & Balance of payments/15.1.csv) |
 | 15.0 Foreign trade & Balance of payments | 15.10 | Table 15.10 : BALANCE OF PAYMENTS, 2011 - 2020 | 26 | 11 | [`15.10.csv`](15.0 Foreign trade & Balance of payments/15.10.csv) |
 | 15.0 Foreign trade & Balance of payments | 15.2 | Table 15:2 : SUMMARY OF IMPORTS CLASSIFIED BY HARMONIZED SYSTEM, 2016 - 2020 | 23 | 24 | [`15.2.csv`](15.0 Foreign trade & Balance of payments/15.2.csv) |
 | 15.0 Foreign trade & Balance of payments | 15.4 | Table 15.4 : SUMMARY OF MARINE PRODUCT EXPORTS BY COMMODITY, 2020 | 11 | 6 | [`15.4.csv`](15.0 Foreign trade & Balance of payments/15.4.csv) |
@@ -152,6 +155,7 @@ This directory contains clean, machine-readable CSV datasets and structured JSON
 | 18.0 Pension & social protection | 18.21 | Table 18.21 : EXPENDITURE ON AASANDHA SERVICES BY TYPE OF INSTITUTION , 2020 | 4 | 8 | [`18.21.csv`](18.0 Pension & social protection/18.21.csv) |
 | 18.0 Pension & social protection | 18.22 | Table 18.22 : EXPENDITURE ON AASANDHA SERVICES BY TYPE OF INSTITUTION AND ATOLL , 2020 | 26 | 10 | [`18.22.csv`](18.0 Pension & social protection/18.22.csv) |
 | 18.0 Pension & social protection | 18.23 | Table 18.23 : EXPENDITURE ON PERSONS COVERED UNDER AASANDHA POLICIES BY TYPE OF SERVICE, 2014 - 2020 | 12 | 8 | [`18.23.csv`](18.0 Pension & social protection/18.23.csv) |
+| 18.0 Pension & social protection | 18.24 | Table 18.24 : EXPENDITURE UNDER HEALTH INSURANCE SCHEMES BY ATOLLS, 2014 - 2020 | 24 | 8 | [`18.24.csv`](18.0 Pension & social protection/18.24.csv) |
 | 18.0 Pension & social protection | 18.25 | Table 18.25 : EXPENDITURE UNDER HEALTH INSURANCE SCHEMES BY ISLAND, 2014 - 2020 | 231 | 9 | [`18.25.csv`](18.0 Pension & social protection/18.25.csv) |
 | 18.0 Pension & social protection | 18.26 | Table 18.26: Aasandha Services provided by type, 2018 -2020 | 4 | 4 | [`18.26.csv`](18.0 Pension & social protection/18.26.csv) |
 | 18.0 Pension & social protection | 18.27 | Table 18.27: Aasandha Services provided by type and Atoll, 2020 | 24 | 5 | [`18.27.csv`](18.0 Pension & social protection/18.27.csv) |
@@ -206,6 +210,7 @@ This directory contains clean, machine-readable CSV datasets and structured JSON
 | 4.0 Housing and public infrastructure | 4.5 | TABLE 4.5: AREA OF BUILDINGS AUTHORISED FOR CONSTRUCTION BY MONTH, 2018 -2020 | 13 | 4 | [`4.5.csv`](4.0 Housing and public infrastructure/4.5.csv) |
 | 5.0 Employment | 5.1 | Table 5.1 : CIVIL SERVANTS CLASSIFIED BY JOB RANK AND SEX, 2020 | 102 | 11 | [`5.1.csv`](5.0 Employment/5.1.csv) |
 | 5.0 Employment | 5.12 | Table 5.12: Expatriate Employment by Industry and Sex, 2020 | 20 | 5 | [`5.12.csv`](5.0 Employment/5.12.csv) |
+| 5.0 Employment | 5.13 | Table 5.13: Expatriate employment by locality, 2020 | 25 | 5 | [`5.13.csv`](5.0 Employment/5.13.csv) |
 | 5.0 Employment | 5.2 | Table 5.2 : CIVIL SERVANTS CLASSIFIED BY AGE AND SEX, 2020 | 12 | 10 | [`5.2.csv`](5.0 Employment/5.2.csv) |
 | 5.0 Employment | 5.3 | Table 5.3: CIVIL SERVANTS BY ATOLL AND SEX, 2020 | 23 | 4 | [`5.3.csv`](5.0 Employment/5.3.csv) |
 | 5.0 Employment | 5.4 | Table 5.4: CIVIL SERVANTS BY ISLAND AND SEX, 2019 - 2020 | 219 | 7 | [`5.4.csv`](5.0 Employment/5.4.csv) |
@@ -259,6 +264,7 @@ This directory contains clean, machine-readable CSV datasets and structured JSON
 | 7.0 Education | 7.9 | Table 7.9: TEACHERS SERVING IN SCHOOLS OF MALE' AND ATOLLS BY LOCALITY AND SEX, 2020 | 23 | 11 | [`7.9.csv`](7.0 Education/7.9.csv) |
 | 8.0 Law & Order | 8.1 | Table 8.1: LOGGED CASES FROM THE YEAR, 2016 - 2020 | 26 | 9 | [`8.1.csv`](8.0 Law & Order/8.1.csv) |
 | 8.0 Law & Order | 8.10 | Table 8.10: ASSAULT CASES LOGGED BY TYPE, 2016 - 2020 | 6 | 8 | [`8.10.csv`](8.0 Law & Order/8.10.csv) |
+| 8.0 Law & Order | 8.11 | Table 8.11 : LOGGED CASES OF DEATH , 2016 - 2020 | 8 | 7 | [`8.11.csv`](8.0 Law & Order/8.11.csv) |
 | 8.0 Law & Order | 8.12 | Table 8.12: COMPLETED CASES BY TYPE, 2016 - 2020 | 13 | 8 | [`8.12.csv`](8.0 Law & Order/8.12.csv) |
 | 8.0 Law & Order | 8.13 | Table 8.13: NUMBER OF DETAINEES REPORTED BY TYPE OF OFFENCE AND SEX, 2019 - 2020 | 26 | 9 | [`8.13.csv`](8.0 Law & Order/8.13.csv) |
 | 8.0 Law & Order | 8.14 | TABLE 8.14: NUMBER OF LOGGED CASES BY ISLAND , 2018 - 2020 | 218 | 4 | [`8.14.csv`](8.0 Law & Order/8.14.csv) |

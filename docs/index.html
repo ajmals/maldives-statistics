@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistical Yearbook 2021 Maldives</title>
+  <meta name="description" content="Minimalist dashboard exploring demographics, macroeconomics, tourism shocks, and fisheries of the Maldives with international comparative benchmarks.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇲🇻</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <script src="dashboard_data.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="#" class="brand" id="brand-logo" aria-label="Statistical Yearbook 2021 Maldives">
+        <span class="brand-badge">SYB 2021</span>
+        <span class="brand-title">Statistical Yearbook 2021 Maldives</span>
+      </a>
+      
+      <div class="nav-actions">
+        <span class="brand-badge" style="display: none; @media(min-width: 640px){display: inline-block;}">309 Tables • 20 Chapters</span>
+        <button id="theme-toggle-btn" class="btn-ghost btn-icon" aria-label="Toggle theme" title="Toggle Theme">
+          <svg id="theme-icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <a href="https://github.com" target="_blank" class="btn-ghost" id="github-repo-link" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          <span>Repository</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Editorial Hero Section -->
+  <section class="hero" id="hero-section">
+    <div class="container">
+      <div class="hero-meta">
+        <span>National Bureau of Statistics</span>
+        <span class="hero-meta-dot"></span>
+        <span>Statistical Yearbook 2021</span>
+        <span class="hero-meta-dot"></span>
+        <span>Republic of Maldives</span>
+      </div>
+      <h1 class="hero-title">Statistical Yearbook 2021 Maldives</h1>
+      <p class="hero-description">
+        Analyzing decadal macroeconomic baselines, extreme urban density, and the 2020 COVID-19 pandemic contraction across 309 standardized tables with global comparative benchmarks.
+      </p>
+
+      <!-- KPI Metrics Strip -->
+      <div class="kpi-grid" id="kpi-banner-grid">
+        <div class="kpi-card" id="kpi-gdp-drop">
+          <div class="kpi-label">2020 GDP Contraction</div>
+          <div class="kpi-value negative font-mono">-33.5%</div>
+          <div class="kpi-sub">vs -3.1% Global Avg</div>
+        </div>
+
+        <div class="kpi-card" id="kpi-tourist-arrivals">
+          <div class="kpi-label">2020 Tourist Arrivals</div>
+          <div class="kpi-value font-mono">555,494</div>
+          <div class="kpi-sub">-67.4% from 1.70M peak</div>
+        </div>
+
+        <div class="kpi-card" id="kpi-male-density">
+          <div class="kpi-label">Malé City Density</div>
+          <div class="kpi-value negative font-mono">74,879<small style="font-size: 0.75rem; color: var(--text-muted)">/km²</small></div>
+          <div class="kpi-sub">3.7× denser than Paris</div>
+        </div>
+
+        <div class="kpi-card" id="kpi-tuna-catch">
+          <div class="kpi-label">2020 Fish Catch</div>
+          <div class="kpi-value positive font-mono">148.6k<small style="font-size: 0.75rem; color: var(--text-muted)"> MT</small></div>
+          <div class="kpi-sub">+10.2% YoY growth record</div>
+        </div>
+
+        <div class="kpi-card" id="kpi-water-stress">
+          <div class="kpi-label">Dry Season Relief</div>
+          <div class="kpi-value font-mono">73 Islands</div>
+          <div class="kpi-sub">Emergency maritime water</div>
+        </div>
+
+        <div class="kpi-card" id="kpi-catalog-size">
+          <div class="kpi-label">Dataset Tables</div>
+          <div class="kpi-value font-mono">309 Tables</div>
+          <div class="kpi-sub">20 thematic chapters</div>
+        </div>
+      </div>
+
+      <!-- Curated Insights Deck -->
+      <div class="facts-section" id="facts-interactive-banner">
+        <div class="facts-header">
+          <span class="facts-title-label">Curated Insights & Benchmarks</span>
+          <div class="pill-group">
+            <button class="pill-btn fact-filter-btn active" data-category="All">All</button>
+            <button class="pill-btn fact-filter-btn" data-category="Urban Density">Density</button>
+            <button class="pill-btn fact-filter-btn" data-category="Macroeconomic Shock">Economy</button>
+            <button class="pill-btn fact-filter-btn" data-category="Tourism Footprint">Tourism</button>
+            <button class="pill-btn fact-filter-btn" data-category="Blue Economy">Fisheries</button>
+            <button class="pill-btn fact-filter-btn" data-category="Climate Vulnerability">Climate</button>
+          </div>
+        </div>
+        <div class="facts-grid" id="facts-cards-row">
+          <!-- Dynamically populated from data -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Segmented Tabs Navigation -->
+  <nav class="tabs-wrapper" id="sticky-tabs-nav" aria-label="Dashboard Navigation">
+    <div class="container">
+      <div class="tabs-segmented">
+        <button class="tab-trigger active" data-tab="tab-executive" id="tab-btn-exec">Overview</button>
+        <button class="tab-trigger" data-tab="tab-geography" id="tab-btn-geo">Geography & Density</button>
+        <button class="tab-trigger" data-tab="tab-tourism" id="tab-btn-tour">Tourism Shock</button>
+        <button class="tab-trigger" data-tab="tab-gdp" id="tab-btn-gdp">Macroeconomy & GDP</button>
+        <button class="tab-trigger" data-tab="tab-fisheries" id="tab-btn-fish">Fisheries & Ocean</button>
+        <button class="tab-trigger" data-tab="tab-finance" id="tab-btn-fin">Public Finance</button>
+        <button class="tab-trigger" data-tab="tab-water" id="tab-btn-water">Climate & Water</button>
+        <button class="tab-trigger" data-tab="tab-catalog" id="tab-btn-cat">Catalog Explorer (303)</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Panes -->
+  <main class="container" style="flex-grow: 1; padding-bottom: 4rem;">
+
+    <!-- TAB 1: EXECUTIVE OVERVIEW -->
+    <section id="tab-executive" class="tab-pane active" aria-labelledby="tab-btn-exec">
+      <div class="section-intro">
+        <h2 class="section-title">Macroeconomic & Demographic Profile</h2>
+        <p class="section-desc">Key structural vulnerabilities and counter-cyclical stabilizing mechanisms across the archipelago.</p>
+      </div>
+
+      <div class="grid-layout">
+        <div class="panel col-7">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Socio-Economic Structural Vulnerability</h3>
+              <p class="panel-desc">Normalized index comparison vs global average baselines</p>
+            </div>
+          </div>
+          <div class="chart-viewport" style="min-height: 360px;">
+            <canvas id="execRadarChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-5">
+          <div class="panel-head">
+            <h3 class="panel-title">Comparative Global Highlights</h3>
+          </div>
+          <div class="benchmark-card" style="margin-top: 0;">
+            <div class="benchmark-row highlight">
+              <span>Urban Density</span>
+              <span class="font-mono">74,879/km² (3.7× Paris)</span>
+            </div>
+            <div class="benchmark-row highlight">
+              <span>Peacetime GDP Shock</span>
+              <span class="font-mono negative">-33.5% (Global: -3.1%)</span>
+            </div>
+            <div class="benchmark-row highlight">
+              <span>Fish Consumption</span>
+              <span class="font-mono positive">~142 kg/capita (World #1)</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Tourism Intensity</span>
+              <span class="font-mono">3.4 tourists / resident</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Territorial Ocean Ratio</span>
+              <span class="font-mono">99.7% ocean / 0.3% land</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Average Ground Level</span>
+              <span class="font-mono">1.5 meters above sea</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: GEOGRAPHY & DENSITY -->
+    <section id="tab-geography" class="tab-pane" aria-labelledby="tab-btn-geo">
+      <div class="section-intro">
+        <h2 class="section-title">Geography & Urban Primacy</h2>
+        <p class="section-desc">Analysis of inhabited island distribution, Malé capital primacy, and extreme density disparities.</p>
+      </div>
+
+      <div class="grid-layout">
+        <div class="panel col-6">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Urban Density vs Global Megacities</h3>
+              <p class="panel-desc">Logarithmic scale (Persons per km²)</p>
+            </div>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="densityBenchmarkChart"></canvas>
+          </div>
+          <div class="benchmark-card">
+            <div class="benchmark-card-title">Spatial Concentration Insight</div>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+              Malé holds <strong>153,904 residents</strong> on <strong>2.05 km²</strong>. At this density, the entire world population of 8 billion people would occupy an area the size of Ohio (106,000 km²).
+            </p>
+          </div>
+        </div>
+
+        <div class="panel col-6">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Top 10 Populated Inhabited Islands</h3>
+              <p class="panel-desc">Census 2014 resident counts</p>
+            </div>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="topIslandsPopChart"></canvas>
+          </div>
+          <div class="benchmark-card">
+            <div class="benchmark-card-title">Island Dispersion</div>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+              While Malé concentrates 39.4% of the population, the median outer island holds only <strong>1,009 residents</strong>, resulting in steep per-capita costs for schools, hospitals, and water infrastructure.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel col-12">
+          <div class="panel-head">
+            <div>
+              <h3 class="panel-title">Inhabited Localities Directory (190 Localities)</h3>
+              <p class="panel-desc">Census records of population, land area, density, and distance to Malé</p>
+            </div>
+            <div class="controls-bar" style="margin-bottom: 0;">
+              <input type="text" id="island-search-input" class="input-clean" placeholder="Filter locality name..." style="width: 200px;">
+              <select id="island-sort-select" class="select-clean">
+                <option value="pop-desc">Population (High to Low)</option>
+                <option value="pop-asc">Population (Low to High)</option>
+                <option value="dens-desc">Density (High to Low)</option>
+                <option value="dist-desc">Distance from Malé (Far to Near)</option>
+              </select>
+            </div>
+          </div>
+          <div class="table-container" style="max-height: 420px;">
+            <table class="table-clean">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Locality</th>
+                  <th class="num">Population</th>
+                  <th class="num">Area (ha)</th>
+                  <th class="num">Density (/km²)</th>
+                  <th class="num">Distance to Malé</th>
+                </tr>
+              </thead>
+              <tbody id="islands-table-body">
+                <!-- Dynamically loaded -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: TOURISM & COVID SHOCK -->
+    <section id="tab-tourism" class="tab-pane" aria-labelledby="tab-btn-tour">
+      <div class="section-intro">
+        <h2 class="section-title">Tourism Dynamics & Pandemic Impact</h2>
+        <p class="section-desc">Tracking decadal expansion, the 2020 border lockdown, and the high-end winter recovery.</p>
+      </div>
+
+      <div class="grid-layout">
+        <div class="panel col-6">
+          <div class="panel-head">
+            <h3 class="panel-title">Annual Tourist Arrivals (2012 - 2020)</h3>
+            <span class="panel-desc">Peak of 1.70M in 2019 to 555k in 2020</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="tourAnnualChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-6">
+          <div class="panel-head">
+            <h3 class="panel-title">2020 Monthly Arrivals: Lockdown to Rebound</h3>
+            <span class="panel-desc">Total of 55 arrivals in Q2 (Apr - Jun)</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="tourMonthlyChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-7">
+          <div class="panel-head">
+            <h3 class="panel-title">Top Source Markets Shift (2019 vs 2020)</h3>
+            <span class="panel-desc">Ascent of India and Russia as China dropped</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="tourMarketShiftChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-5">
+          <div class="panel-head">
+            <h3 class="panel-title">Global Tourism Decline Comparison (2020)</h3>
+          </div>
+          <div class="benchmark-card" style="margin-top: 0;">
+            <div class="benchmark-row highlight">
+              <span>Maldives</span>
+              <span class="font-mono negative">-67.4%</span>
+            </div>
+            <div class="benchmark-row">
+              <span>World Average (UNWTO)</span>
+              <span class="font-mono">-73.0%</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Asia-Pacific</span>
+              <span class="font-mono">-84.0%</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Thailand</span>
+              <span class="font-mono">-83.2%</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Spain</span>
+              <span class="font-mono">-77.3%</span>
+            </div>
+          </div>
+          <div class="benchmark-card">
+            <div class="benchmark-card-title">Resort Bubble Model</div>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+              Borders reopened on <strong>15 July 2020</strong> without quarantine requirements. The isolated geographical resort model allowed December arrivals to rebound to 96,412.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: MACROECONOMY & GDP -->
+    <section id="tab-gdp" class="tab-pane" aria-labelledby="tab-btn-gdp">
+      <div class="section-intro">
+        <h2 class="section-title">Macroeconomic Accounts & Real GDP</h2>
+        <p class="section-desc">Real GDP time series (2003–2020 at 2014 constant prices) and sectoral contraction/growth.</p>
+      </div>
+
+      <div class="grid-layout">
+        <div class="panel col-8">
+          <div class="panel-head">
+            <h3 class="panel-title">Real GDP at 2014 Constant Prices (2003 - 2020)</h3>
+            <span class="panel-desc">In Billion MVR</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="gdpTrendChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-4">
+          <div class="panel-head">
+            <h3 class="panel-title">2020 GDP Contraction vs World</h3>
+            <span class="panel-desc">YoY Real Growth (%)</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="gdpBenchmarkChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-12">
+          <div class="panel-head">
+            <h3 class="panel-title">2020 Sectoral Divergence</h3>
+            <span class="panel-desc">Plunging service sectors vs counter-cyclical fisheries and financial services</span>
+          </div>
+          <div class="chart-viewport" style="min-height: 340px;">
+            <canvas id="gdpSectorChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: FISHERIES & BLUE ECONOMY -->
+    <section id="tab-fisheries" class="tab-pane" aria-labelledby="tab-btn-fish">
+      <div class="section-intro">
+        <h2 class="section-title">Marine Resources & The Blue Economy</h2>
+        <p class="section-desc">Artisanal pole-and-line tuna fisheries, production surge in 2020, and export orientation.</p>
+      </div>
+
+      <div class="grid-layout">
+        <div class="panel col-7">
+          <div class="panel-head">
+            <h3 class="panel-title">Annual Fish Catch by Species (2013 - 2020)</h3>
+            <span class="panel-desc">Skipjack vs Yellowfin tuna in Metric Tons</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="fishCatchChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-5">
+          <div class="panel-head">
+            <h3 class="panel-title">Global Fish Consumption Benchmark</h3>
+            <span class="panel-desc">kg per person per year</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="fishBenchmarkChart"></canvas>
+          </div>
+          <div class="benchmark-card">
+            <div class="benchmark-card-title">Sustainable Artisanal Practice</div>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+              100% of commercial tuna is caught with one-by-one pole-and-line gear. Over 70% of the annual catch is exported to international markets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: PUBLIC FINANCE & DEFICIT -->
+    <section id="tab-finance" class="tab-pane" aria-labelledby="tab-btn-fin">
+      <div class="section-intro">
+        <h2 class="section-title">Public Finance & Fiscal Vulnerability</h2>
+        <p class="section-desc">Central government revenue, expenditure expansion, and structural deficit.</p>
+      </div>
+
+      <div class="grid-layout">
+        <div class="panel col-8">
+          <div class="panel-head">
+            <h3 class="panel-title">Revenue vs Expenditure & Overall Fiscal Deficit (2012 - 2020)</h3>
+            <span class="panel-desc">In Billion MVR</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="pfBalanceChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-4">
+          <div class="panel-head">
+            <h3 class="panel-title">Tourism Share of Central Budget</h3>
+            <span class="panel-desc">% direct contribution to revenue</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="pfTourismShareChart"></canvas>
+          </div>
+          <div class="benchmark-card">
+            <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+              Direct tourism taxes and fees contribute between <strong>23% and 34%</strong> of central government revenues, amplifying fiscal volatility during international travel shocks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 7: CLIMATE & WATER INFRASTRUCTURE -->
+    <section id="tab-water" class="tab-pane" aria-labelledby="tab-btn-water">
+      <div class="section-intro">
+        <h2 class="section-title">Archipelagic Climate & Freshwater Stresses</h2>
+        <p class="section-desc">Seasonal island water exhaustion and maritime delivery logistics costs.</p>
+      </div>
+
+      <div class="grid-layout">
+        <div class="panel col-7">
+          <div class="panel-head">
+            <h3 class="panel-title">Islands Supplied with Emergency Water & Cost per Ton</h3>
+            <span class="panel-desc">2005 - 2020 time series</span>
+          </div>
+          <div class="chart-viewport">
+            <canvas id="waterEmergencyChart"></canvas>
+          </div>
+        </div>
+
+        <div class="panel col-5">
+          <div class="panel-head">
+            <h3 class="panel-title">Physical & Environmental Realities</h3>
+          </div>
+          <div class="benchmark-card" style="margin-top: 0;">
+            <div class="benchmark-row highlight">
+              <span>Average Elevation</span>
+              <span class="font-mono">1.5m (Lowest on Earth)</span>
+            </div>
+            <div class="benchmark-row highlight">
+              <span>Territorial Ocean Area</span>
+              <span class="font-mono">99.7% of 90,000 km²</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Permanent Rivers/Lakes</span>
+              <span class="font-mono">0 (Zero)</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Emergency Water Cost</span>
+              <span class="font-mono">~$178 USD / m³</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 8: MASTER CATALOG EXPLORER -->
+    <section id="tab-catalog" class="tab-pane" aria-labelledby="tab-btn-cat">
+      <div class="section-intro">
+        <h2 class="section-title">Master Dataset Catalog (309 Tables)</h2>
+        <p class="section-desc">Search, filter, and inspect all 309 structured tables across 20 chapters.</p>
+      </div>
+
+      <div class="controls-bar">
+        <input type="text" id="catalog-search-input" class="input-clean" placeholder="Search tables by title or ID (e.g. 10.1, tuna, gdp)..." style="flex: 1; min-width: 260px;">
+        <select id="catalog-chapter-select" class="select-clean">
+          <option value="">All 20 Chapters</option>
+        </select>
+        <span class="badge-pill" id="catalog-count-badge" style="align-self: center;">Loading tables...</span>
+      </div>
+
+      <div class="table-container">
+        <table class="table-clean">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Chapter</th>
+              <th>English Title</th>
+              <th class="num">Rows</th>
+              <th class="num">Cols</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="catalog-table-body">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span>Statistical Yearbook of Maldives 2021 • National Bureau of Statistics</span>
+      </div>
+      <div class="footer-links">
+        <a href="EXPLORATORY_DATA_ANALYSIS.md">EDA Report</a>
+        <a href="notebooks/exploratory_data_analysis.ipynb">Notebook</a>
+        <a href="datasets/catalog.json">Catalog JSON</a>
+        <a href="datasets/README.md">Tables Index</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
