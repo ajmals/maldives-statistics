@@ -662,6 +662,51 @@ body {
   border: 1px solid var(--border-subtle);
 }
 
+.badge-atoll-tag {
+  display: inline-block;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.1rem 0.42rem;
+  border-radius: var(--radius-xs);
+  background-color: rgba(56, 189, 248, 0.12);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  margin-right: 0.45rem;
+  letter-spacing: 0.02em;
+}
+
+.badge-capital {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.1rem 0.42rem;
+  border-radius: var(--radius-xs);
+  background-color: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.28);
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.badge-atoll-cap {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.1rem 0.42rem;
+  border-radius: var(--radius-xs);
+  background-color: rgba(168, 85, 247, 0.12);
+  color: #c084fc;
+  border: 1px solid rgba(168, 85, 247, 0.28);
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.atoll-meta-text {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 1px;
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */

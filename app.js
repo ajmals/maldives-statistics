@@ -309,7 +309,7 @@ function renderGeographySection(geo) {
     charts['topIslandsPopChart'] = new Chart(ctxTop, {
       type: 'bar',
       data: {
-        labels: top10.map(i => i.name),
+        labels: top10.map(i => i.display_name || i.name),
         datasets: [{
           label: 'Resident Population (Census 2014)',
           data: top10.map(i => i.population),
@@ -343,6 +343,10 @@ function renderGeographySection(geo) {
             titleColor: theme.tooltipText,
             bodyColor: theme.tooltipText,
             callbacks: {
+              title: items => {
+                const item = top10[items[0].dataIndex];
+                return `${item.display_name || item.name} • ${item.atoll_name || item.atoll_code}`;
+              },
               label: c => `Population: ${formatNum(c.raw)} residents`
             }
           }
@@ -354,16 +358,50 @@ function renderGeographySection(geo) {
   // Inhabited Islands Table
   const tableBody = document.getElementById('islands-table-body');
   const searchInput = document.getElementById('island-search-input');
+  const atollSelect = document.getElementById('island-atoll-select');
   const sortSelect = document.getElementById('island-sort-select');
+  const countBadge = document.getElementById('islands-count-badge');
+
+  // Populate Atoll filter dropdown
+  if (atollSelect && geo.atolls && atollSelect.options.length <= 1) {
+    geo.atolls.forEach(att => {
+      const opt = document.createElement('option');
+      opt.value = att.code;
+      opt.textContent = att.code === 'Male'
+        ? `Malé City (${att.island_count})`
+        : `${att.code} - ${att.name} (${att.island_count})`;
+      atollSelect.appendChild(opt);
+    });
+  }
 
   function renderTable(list) {
     if (!tableBody) return;
     tableBody.innerHTML = '';
-    list.slice(0, 50).forEach((loc, idx) => {
+    if (countBadge) {
+      countBadge.textContent = `Showing ${list.length} of ${geo.localities.length}`;
+    }
+    if (list.length === 0) {
+      tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 2.5rem; color: var(--text-muted);">No matching localities found. Try clearing filters.</td></tr>`;
+      return;
+    }
+    list.forEach((loc, idx) => {
       const tr = document.createElement('tr');
+      const atollPrefix = loc.atoll_code && loc.atoll_code !== 'Male'
+        ? `<span class="badge-atoll-tag" title="Administrative Atoll Code">${loc.atoll_code}</span>`
+        : '';
+      const capitalBadge = loc.is_capital ? '<span class="badge-capital" title="National Capital Area">Capital</span>' : '';
+      const atollCapBadge = loc.is_atoll_capital ? '<span class="badge-atoll-cap" title="Atoll Administrative Capital">Atoll Capital</span>' : '';
+
       tr.innerHTML = `
         <td class="num">${idx + 1}</td>
-        <td><strong>${loc.name}</strong> ${loc.is_capital ? '<span class="badge-pill">Capital</span>' : ''}</td>
+        <td>
+          ${atollPrefix}<strong>${loc.name}</strong>
+          ${capitalBadge}${atollCapBadge}
+        </td>
+        <td>
+          <span style="font-weight: 500;">${loc.atoll_name || 'Malé City'}</span>
+          ${loc.atoll_code !== 'Male' && loc.atoll_geo ? `<span class="atoll-meta-text">${loc.atoll_geo}</span>` : ''}
+        </td>
         <td class="num font-mono">${formatNum(loc.population)}</td>
         <td class="num font-mono">${loc.land_area_ha ? formatNum(loc.land_area_ha) : '—'}</td>
         <td class="num font-mono">${loc.density_km2 ? formatNum(loc.density_km2) : '—'}</td>
@@ -376,18 +414,43 @@ function renderGeographySection(geo) {
   function filterAndSort() {
     let list = [...geo.localities];
     const q = searchInput?.value.toLowerCase().trim() || '';
-    if (q) {
-      list = list.filter(l => l.name.toLowerCase().includes(q));
+    const atollVal = atollSelect?.value || 'all';
+
+    if (atollVal !== 'all') {
+      list = list.filter(l => l.atoll_code === atollVal);
     }
+
+    if (q) {
+      list = list.filter(l =>
+        l.name.toLowerCase().includes(q) ||
+        (l.display_name && l.display_name.toLowerCase().includes(q)) ||
+        (l.atoll_code && l.atoll_code.toLowerCase().includes(q)) ||
+        (l.atoll_name && l.atoll_name.toLowerCase().includes(q)) ||
+        (l.atoll_geo && l.atoll_geo.toLowerCase().includes(q))
+      );
+    }
+
     const sortVal = sortSelect?.value || 'pop-desc';
     if (sortVal === 'pop-desc') list.sort((a, b) => b.population - a.population);
     if (sortVal === 'pop-asc') list.sort((a, b) => a.population - b.population);
+    if (sortVal === 'name-asc') list.sort((a, b) => a.name.localeCompare(b.name));
+    if (sortVal === 'atoll-asc') {
+      const atollOrder = ['Male', 'HA', 'HDh', 'Sh', 'N', 'R', 'B', 'Lh', 'K', 'AA', 'ADh', 'V', 'M', 'F', 'Dh', 'Th', 'L', 'GA', 'GDh', 'Gn', 'S'];
+      list.sort((a, b) => {
+        const idxA = atollOrder.indexOf(a.atoll_code);
+        const idxB = atollOrder.indexOf(b.atoll_code);
+        if (idxA !== idxB) return idxA - idxB;
+        return a.name.localeCompare(b.name);
+      });
+    }
     if (sortVal === 'dens-desc') list.sort((a, b) => (b.density_km2 || 0) - (a.density_km2 || 0));
     if (sortVal === 'dist-desc') list.sort((a, b) => (b.distance_km || 0) - (a.distance_km || 0));
+
     renderTable(list);
   }
 
   searchInput?.addEventListener('input', filterAndSort);
+  atollSelect?.addEventListener('change', filterAndSort);
   sortSelect?.addEventListener('change', filterAndSort);
   renderTable(geo.localities);
 }

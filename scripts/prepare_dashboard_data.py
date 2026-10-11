@@ -29,9 +29,159 @@ def extract_all():
 
     # 1. GEOGRAPHY & POPULATION
     print("Extracting geography & demographics...")
+    
+    ATOLL_METADATA = {
+        'Male': {
+            'code': 'Male',
+            'atoll_name': "Malé City",
+            'geo_name': "Malé City",
+            'full_name': "Malé City",
+            'short_prefix': ''
+        },
+        'HA': {
+            'code': 'HA',
+            'atoll_name': 'Haa Alifu',
+            'geo_name': 'North Thiladhunmathi',
+            'full_name': 'Haa Alifu (North Thiladhunmathi)',
+            'short_prefix': 'HA.'
+        },
+        'HDh': {
+            'code': 'HDh',
+            'atoll_name': 'Haa Dhaalu',
+            'geo_name': 'South Thiladhunmathi',
+            'full_name': 'Haa Dhaalu (South Thiladhunmathi)',
+            'short_prefix': 'HDh.'
+        },
+        'Sh': {
+            'code': 'Sh',
+            'atoll_name': 'Shaviyani',
+            'geo_name': 'North Miladhunmadulu',
+            'full_name': 'Shaviyani (North Miladhunmadulu)',
+            'short_prefix': 'Sh.'
+        },
+        'N': {
+            'code': 'N',
+            'atoll_name': 'Noonu',
+            'geo_name': 'South Miladhunmadulu',
+            'full_name': 'Noonu (South Miladhunmadulu)',
+            'short_prefix': 'N.'
+        },
+        'R': {
+            'code': 'R',
+            'atoll_name': 'Raa',
+            'geo_name': 'North Maalhosmadulu',
+            'full_name': 'Raa (North Maalhosmadulu)',
+            'short_prefix': 'R.'
+        },
+        'B': {
+            'code': 'B',
+            'atoll_name': 'Baa',
+            'geo_name': 'South Maalhosmadulu',
+            'full_name': 'Baa (South Maalhosmadulu)',
+            'short_prefix': 'B.'
+        },
+        'Lh': {
+            'code': 'Lh',
+            'atoll_name': 'Lhaviyani',
+            'geo_name': 'Faadhippolhu',
+            'full_name': 'Lhaviyani (Faadhippolhu)',
+            'short_prefix': 'Lh.'
+        },
+        'K': {
+            'code': 'K',
+            'atoll_name': 'Kaafu',
+            'geo_name': "Male' Atoll",
+            'full_name': "Kaafu (Male' Atoll)",
+            'short_prefix': 'K.'
+        },
+        'AA': {
+            'code': 'AA',
+            'atoll_name': 'Alif Alif',
+            'geo_name': 'North Ari Atoll',
+            'full_name': 'Alif Alif (North Ari Atoll)',
+            'short_prefix': 'AA.'
+        },
+        'ADh': {
+            'code': 'ADh',
+            'atoll_name': 'Alif Dhaal',
+            'geo_name': 'South Ari Atoll',
+            'full_name': 'Alif Dhaal (South Ari Atoll)',
+            'short_prefix': 'ADh.'
+        },
+        'V': {
+            'code': 'V',
+            'atoll_name': 'Vaavu',
+            'geo_name': 'Felidhu Atoll',
+            'full_name': 'Vaavu (Felidhu Atoll)',
+            'short_prefix': 'V.'
+        },
+        'M': {
+            'code': 'M',
+            'atoll_name': 'Meemu',
+            'geo_name': 'Mulakatholhu',
+            'full_name': 'Meemu (Mulakatholhu)',
+            'short_prefix': 'M.'
+        },
+        'F': {
+            'code': 'F',
+            'atoll_name': 'Faafu',
+            'geo_name': 'North Nilandhe Atoll',
+            'full_name': 'Faafu (North Nilandhe Atoll)',
+            'short_prefix': 'F.'
+        },
+        'Dh': {
+            'code': 'Dh',
+            'atoll_name': 'Dhaalu',
+            'geo_name': 'South Nilandhe Atoll',
+            'full_name': 'Dhaalu (South Nilandhe Atoll)',
+            'short_prefix': 'Dh.'
+        },
+        'Th': {
+            'code': 'Th',
+            'atoll_name': 'Thaa',
+            'geo_name': 'Kolhumadulu',
+            'full_name': 'Thaa (Kolhumadulu)',
+            'short_prefix': 'Th.'
+        },
+        'L': {
+            'code': 'L',
+            'atoll_name': 'Laamu',
+            'geo_name': 'Hadhdhunmathi',
+            'full_name': 'Laamu (Hadhdhunmathi)',
+            'short_prefix': 'L.'
+        },
+        'GA': {
+            'code': 'GA',
+            'atoll_name': 'Gaafu Alifu',
+            'geo_name': 'North Huvadhu Atoll',
+            'full_name': 'Gaafu Alifu (North Huvadhu Atoll)',
+            'short_prefix': 'GA.'
+        },
+        'GDh': {
+            'code': 'GDh',
+            'atoll_name': 'Gaafu Dhaalu',
+            'geo_name': 'South Huvadhu Atoll',
+            'full_name': 'Gaafu Dhaalu (South Huvadhu Atoll)',
+            'short_prefix': 'GDh.'
+        },
+        'Gn': {
+            'code': 'Gn',
+            'atoll_name': 'Gnaviyani',
+            'geo_name': 'Fuvahmulah',
+            'full_name': 'Gnaviyani (Fuvahmulah)',
+            'short_prefix': 'Gn.'
+        },
+        'S': {
+            'code': 'S',
+            'atoll_name': 'Seenu (Addu City)',
+            'geo_name': 'Addu Atoll',
+            'full_name': 'Seenu / Addu City (Addu Atoll)',
+            'short_prefix': 'S.'
+        }
+    }
+
+    import re
     df_geo = pd.read_csv('datasets/1.0 Geography/1.5.csv')
-    valid_geo = df_geo.dropna(subset=['Locality', 'Population (census 2014) - Resident Population']).copy()
-    valid_geo['Locality_Clean'] = valid_geo['Locality'].str.replace('*', '').str.strip()
     
     def clean_float(val):
         if pd.isna(val):
@@ -44,29 +194,67 @@ def extract_all():
         except ValueError:
             return None
 
+    current_code = 'Male'
     localities = []
-    for _, r in valid_geo.iterrows():
+
+    for idx, r in df_geo.iterrows():
+        col_a = str(r['Column_A']).strip() if pd.notna(r['Column_A']) else ''
+        loc = str(r['Locality']).strip() if pd.notna(r['Locality']) else ''
         pop = clean_float(r['Population (census 2014) - Resident Population'])
-        if pop is None:
+        
+        if 'Table 1.5' in col_a:
             continue
-        area = clean_float(r['Locality - Land Area ( in hectares )_2'])
-        dens_ha = clean_float(r['Population Density (population per hectar) - Resident Population'])
-        dens_km2 = dens_ha * 100 if dens_ha else None
-        dist = clean_float(r["Population Density (population per hectar) - Distance to Male' ( in km)"])
-        
-        localities.append({
-            'name': r['Locality_Clean'],
-            'is_capital': r['Locality_Clean'] in ["Male'", "Villingili", "Hulhumale'"],
-            'population': int(pop),
-            'land_area_ha': round(area, 2) if area else None,
-            'density_km2': round(dens_km2, 1) if dens_km2 else None,
-            'distance_km': round(dist, 1) if dist else 0.0
-        })
-        
+            
+        m = re.search(r'\(([A-Za-z]+)\)', col_a)
+        if m and pop is None:
+            current_code = m.group(1)
+            continue
+            
+        if pop is not None and loc:
+            is_atoll_cap = '*' in loc
+            clean_name = loc.replace('*', '').strip()
+            atoll_info = ATOLL_METADATA.get(current_code, {})
+            short_p = atoll_info.get('short_prefix', '')
+            display_name = f"{short_p} {clean_name}".strip() if short_p else clean_name
+            
+            area = clean_float(r['Locality - Land Area ( in hectares )_2'])
+            dens_ha = clean_float(r['Population Density (population per hectar) - Resident Population'])
+            dens_km2 = dens_ha * 100 if dens_ha else None
+            dist = clean_float(r["Population Density (population per hectar) - Distance to Male' ( in km)"])
+            
+            localities.append({
+                'name': clean_name,
+                'display_name': display_name,
+                'atoll_code': atoll_info.get('code', current_code),
+                'atoll_name': atoll_info.get('atoll_name', ''),
+                'atoll_geo': atoll_info.get('geo_name', ''),
+                'is_capital': clean_name in ["Male'", "Villingili", "Hulhumale'"],
+                'is_atoll_capital': is_atoll_cap,
+                'population': int(pop),
+                'land_area_ha': round(area, 2) if area else None,
+                'density_km2': round(dens_km2, 1) if dens_km2 else None,
+                'distance_km': round(dist, 1) if dist else 0.0
+            })
+            
     localities.sort(key=lambda x: x['population'], reverse=True)
     total_pop = sum(x['population'] for x in localities)
     male_item = next(x for x in localities if x['name'] == "Male'")
     
+    # Atolls list in geographic sequence (North to South)
+    atoll_order = ['Male', 'HA', 'HDh', 'Sh', 'N', 'R', 'B', 'Lh', 'K', 'AA', 'ADh', 'V', 'M', 'F', 'Dh', 'Th', 'L', 'GA', 'GDh', 'Gn', 'S']
+    atolls_summary = []
+    for code in atoll_order:
+        meta = ATOLL_METADATA[code]
+        atoll_locs = [l for l in localities if l['atoll_code'] == code]
+        atolls_summary.append({
+            'code': meta['code'],
+            'name': meta['atoll_name'],
+            'geo_name': meta['geo_name'],
+            'short_prefix': meta['short_prefix'],
+            'island_count': len(atoll_locs),
+            'total_population': sum(l['population'] for l in atoll_locs)
+        })
+
     geo_data = {
         'total_resident_pop': total_pop,
         'male_pop': male_item['population'],
@@ -74,6 +262,7 @@ def extract_all():
         'male_density_km2': male_item['density_km2'],
         'median_island_pop': int(np.median([x['population'] for x in localities if not x['is_capital']])),
         'total_inhabited_islands': len(localities),
+        'atolls': atolls_summary,
         'localities': localities,
         'global_benchmarks': [
             {'entity': "Malé City (Maldives)", 'density': 74879, 'highlight': True, 'type': 'Capital Island'},
