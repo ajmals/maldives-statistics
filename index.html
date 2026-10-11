@@ -128,6 +128,7 @@
     <div class="container">
       <div class="tabs-segmented">
         <button class="tab-trigger active" data-tab="tab-executive" id="tab-btn-exec">Overview</button>
+        <button class="tab-trigger" data-tab="tab-demographics" id="tab-btn-demo">Population Pyramid</button>
         <button class="tab-trigger" data-tab="tab-geography" id="tab-btn-geo">Geography & Density</button>
         <button class="tab-trigger" data-tab="tab-tourism" id="tab-btn-tour">Tourism Shock</button>
         <button class="tab-trigger" data-tab="tab-gdp" id="tab-btn-gdp">Macroeconomy & GDP</button>
@@ -179,6 +180,10 @@
               <span>Fish Consumption</span>
               <span class="font-mono positive">~142 kg/capita (World #1)</span>
             </div>
+            <div class="benchmark-row highlight">
+              <span>Foreign Expat Sex Ratio</span>
+              <span class="font-mono positive">1,017 M / 100 F (10.2:1)</span>
+            </div>
             <div class="benchmark-row">
               <span>Tourism Intensity</span>
               <span class="font-mono">3.4 tourists / resident</span>
@@ -191,12 +196,245 @@
               <span>Average Ground Level</span>
               <span class="font-mono">1.5 meters above sea</span>
             </div>
+            <a href="#tab-demographics" onclick="document.getElementById('tab-btn-demo').click(); return false;" class="btn-ghost" style="margin-top: 0.85rem; display: flex; align-items: center; justify-content: center; gap: 0.4rem; border: 1px solid var(--accent-border); color: var(--accent); font-weight: 500; font-size: 0.8rem; text-decoration: none;">
+              <span>Explore Animated Population Pyramid (2014–2030) →</span>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- TAB 2: GEOGRAPHY & DENSITY -->
+    <!-- TAB 2: DEMOGRAPHICS & POPULATION PYRAMID -->
+    <section id="tab-demographics" class="tab-pane" aria-labelledby="tab-btn-demo">
+      <div class="section-intro">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+          <h2 class="section-title">Demographics & Animated Population Pyramid</h2>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge-pill">Tables 3.13, 3.14, 3.15 & 3.2</span>
+            <span class="badge-pill">17 Consecutive Years (2014–2030)</span>
+          </div>
+        </div>
+        <p class="section-desc">Interactive year-on-year demographic transitions across 17 age cohorts, unveiling the massive expatriate workforce bulge, capital urban migration, and progressive aging.</p>
+      </div>
+
+      <div class="grid-layout">
+        <!-- Main Animated Pyramid Workbench -->
+        <div class="panel col-12">
+          <!-- Pyramid Header & Filter Deck -->
+          <div class="pyramid-header-bar">
+            <div class="pyramid-year-display">
+              <span class="pyramid-year-number font-mono" id="pyramid-year-val">2021</span>
+              <div style="display: flex; flex-direction: column; gap: 2px;">
+                <span id="pyramid-series-badge" class="badge-pill">Official Series</span>
+                <span id="pyramid-scope-subtext" style="font-size: 0.75rem; color: var(--text-muted);">Republic of Maldives • Total Resident</span>
+              </div>
+            </div>
+
+            <div class="pyramid-filter-deck">
+              <!-- Sub-population Pill Filter -->
+              <div class="pyramid-filter-item">
+                <span class="pyramid-filter-label">Population Segment</span>
+                <div class="pill-group" id="pyramid-subpop-pills" role="radiogroup" aria-label="Population segment">
+                  <button type="button" class="pill-btn active" data-subpop="Total" id="subpop-total-btn">Total Resident</button>
+                  <button type="button" class="pill-btn" data-subpop="Maldivian" id="subpop-maldivian-btn">Maldivians Only</button>
+                  <button type="button" class="pill-btn" data-subpop="Foreigner" id="subpop-foreigner-btn">Foreign Nationals</button>
+                </div>
+              </div>
+
+              <!-- Locality Filter -->
+              <div class="pyramid-filter-item">
+                <span class="pyramid-filter-label">Geographic Scope</span>
+                <div class="pill-group" id="pyramid-scope-pills" role="radiogroup" aria-label="Geographic scope">
+                  <button type="button" class="pill-btn active" data-scope="national" id="scope-national-btn">Republic of Maldives</button>
+                  <button type="button" class="pill-btn" data-scope="male_city" id="scope-male-btn">Malé Capital City</button>
+                  <button type="button" class="pill-btn" data-scope="atolls" id="scope-atolls-btn">Outer Atolls</button>
+                </div>
+              </div>
+
+              <!-- Dataset Mode Filter -->
+              <div class="pyramid-filter-item">
+                <span class="pyramid-filter-label">Dataset</span>
+                <div class="pill-group" id="pyramid-mode-pills" role="radiogroup" aria-label="Dataset mode">
+                  <button type="button" class="pill-btn active" data-mode="annual" id="mode-annual-btn">2014–2030 (Annual)</button>
+                  <button type="button" class="pill-btn" data-mode="census" id="mode-census-btn">1995–2014 (Census)</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Real-Time Demographic KPI Bar -->
+          <div class="pyramid-kpi-row" id="pyramid-kpi-deck">
+            <div class="pyramid-kpi-card">
+              <span class="pyramid-kpi-label">Total Population</span>
+              <span class="pyramid-kpi-val" id="pyramid-kpi-total">—</span>
+              <span class="pyramid-kpi-sub" id="pyramid-kpi-total-sub">Year-on-year growth</span>
+            </div>
+            <div class="pyramid-kpi-card">
+              <span class="pyramid-kpi-label">Sex Ratio</span>
+              <span class="pyramid-kpi-val" id="pyramid-kpi-ratio">—</span>
+              <span class="pyramid-kpi-sub" id="pyramid-kpi-ratio-sub">Males per 100 Females</span>
+            </div>
+            <div class="pyramid-kpi-card">
+              <span class="pyramid-kpi-label">Estimated Median Age</span>
+              <span class="pyramid-kpi-val" id="pyramid-kpi-median">—</span>
+              <span class="pyramid-kpi-sub" id="pyramid-kpi-median-sub">Cohort interpolation</span>
+            </div>
+            <div class="pyramid-kpi-card">
+              <span class="pyramid-kpi-label">Working-Age (15–64)</span>
+              <span class="pyramid-kpi-val" id="pyramid-kpi-working">—</span>
+              <span class="pyramid-kpi-sub" id="pyramid-kpi-working-sub">Productive cohort</span>
+            </div>
+            <div class="pyramid-kpi-card">
+              <span class="pyramid-kpi-label">Total Dependency Ratio</span>
+              <span class="pyramid-kpi-val" id="pyramid-kpi-dep">—</span>
+              <span class="pyramid-kpi-sub" id="pyramid-kpi-dep-sub">(0-14 + 65+) / (15-64)</span>
+            </div>
+            <div class="pyramid-kpi-card">
+              <span class="pyramid-kpi-label">Youth vs Elderly</span>
+              <span class="pyramid-kpi-val" id="pyramid-kpi-youth-elderly">—</span>
+              <span class="pyramid-kpi-sub" id="pyramid-kpi-youth-elderly-sub">0-14 vs 65+ cohorts</span>
+            </div>
+          </div>
+
+          <!-- Playback & Scrubbing Controller Bar -->
+          <div class="pyramid-controls-bar">
+            <div class="pyramid-controls-top">
+              <div class="pyramid-playback-buttons">
+                <button type="button" id="pyramid-play-btn" class="btn-play-pyramid" aria-label="Play timeline animation">
+                  <svg id="pyramid-play-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span id="pyramid-play-text">Play Timeline</span>
+                </button>
+                <button type="button" id="pyramid-prev-btn" class="btn-step-pyramid" title="Previous Year (Step Back)" aria-label="Previous year">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="19 20 9 12 19 4 19 20"></polygon>
+                    <line x1="5" y1="19" x2="5" y2="5"></line>
+                  </svg>
+                </button>
+                <button type="button" id="pyramid-next-btn" class="btn-step-pyramid" title="Next Year (Step Forward)" aria-label="Next year">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 4 15 12 5 20 5 4"></polygon>
+                    <line x1="19" y1="5" x2="19" y2="19"></line>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Quick Milestone Jump Buttons -->
+              <div class="pyramid-quick-milestones" id="pyramid-milestones-container">
+                <span>Jump to:</span>
+                <button type="button" class="btn-milestone" data-jump="2014">2014 Census</button>
+                <button type="button" class="btn-milestone" data-jump="2019">2019 Pre-Covid</button>
+                <button type="button" class="btn-milestone active" data-jump="2021">2021 Yearbook</button>
+                <button type="button" class="btn-milestone" data-jump="2025">2025 Mid</button>
+                <button type="button" class="btn-milestone" data-jump="2030">2030 Horizon</button>
+              </div>
+
+              <!-- Speed and Options -->
+              <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+                <div class="pill-group" id="pyramid-speed-pills">
+                  <button type="button" class="pill-btn" data-speed="1600" id="speed-05x-btn">0.5×</button>
+                  <button type="button" class="pill-btn active" data-speed="900" id="speed-1x-btn">1.0×</button>
+                  <button type="button" class="pill-btn" data-speed="450" id="speed-2x-btn">2.0×</button>
+                </div>
+                <label style="font-size: 0.75rem; color: var(--text-muted); display: inline-flex; align-items: center; gap: 0.35rem; cursor: pointer;">
+                  <input type="checkbox" id="pyramid-loop-chk" checked style="cursor: pointer; accent-color: var(--accent);">
+                  <span>Loop</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Timeline Slider Scrubber -->
+            <div class="pyramid-slider-container">
+              <input type="range" id="pyramid-range-slider" min="2014" max="2030" step="1" value="2021" class="pyramid-range-slider" aria-label="Year timeline scrubber">
+              <div class="pyramid-slider-ticks" id="pyramid-slider-ticks">
+                <!-- Injected via JS based on mode -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Dual-sided Chart Legend -->
+          <div class="pyramid-chart-legend">
+            <div class="legend-item">
+              <span class="legend-color-dot dot-male"></span>
+              <span style="font-weight: 600; color: var(--text-main);">Male (← Left)</span>
+              <span id="pyramid-legend-male-count" class="font-mono" style="color: var(--text-muted); font-size: 0.75rem;">—</span>
+            </div>
+            <span style="color: var(--border-active); font-size: 0.8rem;">|</span>
+            <div class="legend-item">
+              <span class="legend-color-dot dot-female"></span>
+              <span style="font-weight: 600; color: var(--text-main);">Female (Right →)</span>
+              <span id="pyramid-legend-female-count" class="font-mono" style="color: var(--text-muted); font-size: 0.75rem;">—</span>
+            </div>
+          </div>
+
+          <!-- The Population Pyramid Canvas -->
+          <div class="chart-viewport" style="min-height: 520px; position: relative;">
+            <canvas id="pyramidChart"></canvas>
+          </div>
+        </div>
+
+        <!-- 3 Editorial Discovery Cards -->
+        <div class="panel col-4">
+          <div class="panel-head">
+            <h3 class="panel-title">1. Expatriate Male Asymmetry</h3>
+          </div>
+          <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.55; margin-bottom: 0.75rem;">
+            Notice the colossal asymmetry between ages <strong>20 and 39</strong> in the Total view. Non-Maldivian residents have a sex ratio of over <strong>1,017 men per 100 women</strong> (162,210 foreign men vs 15,946 women in 2020), primarily employed in resort operations and infrastructure construction.
+          </p>
+          <div class="benchmark-card" style="margin-top: auto;">
+            <div class="benchmark-row highlight">
+              <span>Foreign Sex Ratio</span>
+              <span class="font-mono positive">10.2 : 1 (M:F)</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Maldivian Sex Ratio</span>
+              <span class="font-mono">1.05 : 1 (M:F)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel col-4">
+          <div class="panel-head">
+            <h3 class="panel-title">2. Malé Capital Urban Siphon</h3>
+          </div>
+          <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.55; margin-bottom: 0.75rem;">
+            Toggle between <strong>Malé Capital City</strong> and <strong>Outer Atolls</strong>. Young working-age adults (20–34) cluster disproportionately in the capital for higher education and white-collar commerce, leaving the Outer Atolls with a higher child and elderly dependency ratio.
+          </p>
+          <div class="benchmark-card" style="margin-top: auto;">
+            <div class="benchmark-row highlight">
+              <span>Malé Working-Age (15-64)</span>
+              <span class="font-mono positive">81.4%</span>
+            </div>
+            <div class="benchmark-row">
+              <span>Outer Atolls Working-Age</span>
+              <span class="font-mono">68.2%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel col-4">
+          <div class="panel-head">
+            <h3 class="panel-title">3. Demographic Dividend & Aging</h3>
+          </div>
+          <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.55; margin-bottom: 0.75rem;">
+            Switch to the <strong>1995–2014 Census</strong> mode. In 1995, children aged 0–14 comprised <strong>47.0%</strong> of Maldivians. By 2021, that dropped to <strong>27.7%</strong>, expanding the prime-age productive workforce and gradually shifting median age from 16.5 to over 33 years by 2030.
+          </p>
+          <div class="benchmark-card" style="margin-top: auto;">
+            <div class="benchmark-row highlight">
+              <span>1995 Youth (0–14)</span>
+              <span class="font-mono">47.0% of population</span>
+            </div>
+            <div class="benchmark-row">
+              <span>2030 Youth (0–14) Proj.</span>
+              <span class="font-mono positive">24.5% of population</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: GEOGRAPHY & DENSITY -->
     <section id="tab-geography" class="tab-pane" aria-labelledby="tab-btn-geo">
       <div class="section-intro">
         <h2 class="section-title">Geography & Urban Primacy</h2>

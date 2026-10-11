@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Render initial dashboard view
   renderInterestingFacts(data.interesting_facts);
   renderCatalogExplorer(data.catalog);
+  renderDemographicsSection(data.demographics);
   renderGeographySection(data.geography);
   renderTourismSection(data.tourism);
   renderGdpSection(data.gdp);
@@ -117,6 +118,7 @@ function updateThemeIcon(theme) {
 function refreshAllCharts() {
   const data = window.MALDIVES_DATA;
   if (!data) return;
+  renderDemographicsSection(data.demographics);
   renderGeographySection(data.geography);
   renderTourismSection(data.tourism);
   renderGdpSection(data.gdp);
@@ -146,6 +148,11 @@ function initTabs() {
       if (targetContent) {
         targetContent.classList.add('active');
         window.dispatchEvent(new Event('resize'));
+        if (targetId === 'tab-demographics' && charts['pyramidChart']) {
+          setTimeout(() => {
+            charts['pyramidChart'].resize();
+          }, 40);
+        }
       }
     });
   });
@@ -240,6 +247,637 @@ function renderExecutiveSection(data) {
       }
     }
   });
+}
+
+// ==========================================================================
+// 1.5. Demographics & Animated Population Pyramid (Tables 3.13, 3.14, 3.15, 3.2)
+// ==========================================================================
+const pyramidState = {
+  initialized: false,
+  isPlaying: false,
+  year: 2021,
+  speed: 900,
+  scope: 'national',      // 'national', 'male_city', 'atolls'
+  subpop: 'Total',        // 'Total', 'Maldivian', 'Foreigner'
+  mode: 'annual',         // 'annual' or 'census'
+  loop: true,
+  timer: null,
+  data: null
+};
+
+function renderDemographicsSection(demographics) {
+  if (!demographics) return;
+  pyramidState.data = demographics;
+
+  const canvas = document.getElementById('pyramidChart');
+  if (!canvas) return;
+
+  if (!pyramidState.initialized) {
+    setupPyramidEventListeners();
+    pyramidState.initialized = true;
+  }
+
+  updatePyramidSliderTicks();
+  updatePyramidUI(false);
+}
+
+function setupPyramidEventListeners() {
+  const playBtn = document.getElementById('pyramid-play-btn');
+  const prevBtn = document.getElementById('pyramid-prev-btn');
+  const nextBtn = document.getElementById('pyramid-next-btn');
+  const slider = document.getElementById('pyramid-range-slider');
+  const loopChk = document.getElementById('pyramid-loop-chk');
+
+  // Play / Pause
+  playBtn?.addEventListener('click', togglePyramidPlayback);
+
+  // Prev / Next Steps
+  prevBtn?.addEventListener('click', () => stepPyramidYear(-1));
+  nextBtn?.addEventListener('click', () => stepPyramidYear(1));
+
+  // Range Slider
+  slider?.addEventListener('input', (e) => {
+    pausePyramidPlayback();
+    pyramidState.year = parseInt(e.target.value, 10);
+    updatePyramidUI(false);
+  });
+
+  // Loop toggle
+  loopChk?.addEventListener('change', (e) => {
+    pyramidState.loop = e.target.checked;
+  });
+
+  // Speed Pills
+  const speedBtns = document.querySelectorAll('#pyramid-speed-pills .pill-btn');
+  speedBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      speedBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      pyramidState.speed = parseInt(btn.getAttribute('data-speed'), 10) || 900;
+      if (pyramidState.isPlaying) {
+        clearInterval(pyramidState.timer);
+        pyramidState.timer = setInterval(advancePyramidFrame, pyramidState.speed);
+      }
+    });
+  });
+
+  // Sub-population Pills
+  const subpopBtns = document.querySelectorAll('#pyramid-subpop-pills .pill-btn');
+  subpopBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      subpopBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      pyramidState.subpop = btn.getAttribute('data-subpop') || 'Total';
+      updatePyramidUI(false);
+    });
+  });
+
+  // Scope Pills
+  const scopeBtns = document.querySelectorAll('#pyramid-scope-pills .pill-btn');
+  scopeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      scopeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      pyramidState.scope = btn.getAttribute('data-scope') || 'national';
+      updatePyramidUI(false);
+    });
+  });
+
+  // Dataset Mode Pills (Annual vs Census)
+  const modeBtns = document.querySelectorAll('#pyramid-mode-pills .pill-btn');
+  modeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      modeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      pausePyramidPlayback();
+      pyramidState.mode = btn.getAttribute('data-mode') || 'annual';
+      
+      const subpopFilter = document.getElementById('pyramid-subpop-pills')?.closest('.pyramid-filter-item');
+      const scopeFilter = document.getElementById('pyramid-scope-pills')?.closest('.pyramid-filter-item');
+      
+      if (pyramidState.mode === 'census') {
+        pyramidState.year = 2014;
+        if (subpopFilter) subpopFilter.style.display = 'none';
+        if (scopeFilter) scopeFilter.style.display = 'none';
+      } else {
+        pyramidState.year = 2021;
+        if (subpopFilter) subpopFilter.style.display = 'flex';
+        if (scopeFilter) scopeFilter.style.display = 'flex';
+      }
+      
+      updatePyramidSliderTicks();
+      updatePyramidUI(false);
+    });
+  });
+
+  // Milestone Buttons
+  const milestoneBtns = document.querySelectorAll('#pyramid-milestones-container .btn-milestone');
+  milestoneBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      pausePyramidPlayback();
+      const targetYear = parseInt(btn.getAttribute('data-jump'), 10);
+      if (targetYear) {
+        pyramidState.year = targetYear;
+        updatePyramidUI(false);
+      }
+    });
+  });
+}
+
+function updatePyramidSliderTicks() {
+  const slider = document.getElementById('pyramid-range-slider');
+  const ticksContainer = document.getElementById('pyramid-slider-ticks');
+  const milestonesContainer = document.getElementById('pyramid-milestones-container');
+  if (!slider || !ticksContainer) return;
+
+  if (pyramidState.mode === 'census') {
+    const years = pyramidState.data.historical_census.years; // [1995, 2000, 2006, 2014]
+    slider.min = 1995;
+    slider.max = 2014;
+    slider.step = 1;
+    slider.value = pyramidState.year;
+
+    ticksContainer.innerHTML = years.map(y => `
+      <span class="slider-tick-label ${y === pyramidState.year ? 'active' : ''}" data-year="${y}">${y}</span>
+    `).join('');
+
+    if (milestonesContainer) {
+      milestonesContainer.innerHTML = `
+        <span>Census Years:</span>
+        <button type="button" class="btn-milestone ${pyramidState.year === 1995 ? 'active' : ''}" data-jump="1995">1995</button>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2000 ? 'active' : ''}" data-jump="2000">2000</button>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2006 ? 'active' : ''}" data-jump="2006">2006</button>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2014 ? 'active' : ''}" data-jump="2014">2014</button>
+      `;
+      milestonesContainer.querySelectorAll('.btn-milestone').forEach(b => {
+        b.addEventListener('click', () => {
+          pausePyramidPlayback();
+          pyramidState.year = parseInt(b.getAttribute('data-jump'), 10);
+          updatePyramidUI(false);
+        });
+      });
+    }
+  } else {
+    slider.min = 2014;
+    slider.max = 2030;
+    slider.step = 1;
+    slider.value = pyramidState.year;
+
+    const displayTicks = [2014, 2016, 2018, 2020, 2022, 2024, 2026, 2028, 2030];
+    ticksContainer.innerHTML = displayTicks.map(y => `
+      <span class="slider-tick-label ${y === pyramidState.year ? 'active' : ''}" data-year="${y}">${y}</span>
+    `).join('');
+
+    if (milestonesContainer) {
+      milestonesContainer.innerHTML = `
+        <span>Jump to:</span>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2014 ? 'active' : ''}" data-jump="2014">2014 Census</button>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2019 ? 'active' : ''}" data-jump="2019">2019 Pre-Covid</button>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2021 ? 'active' : ''}" data-jump="2021">2021 Baseline</button>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2025 ? 'active' : ''}" data-jump="2025">2025 Mid</button>
+        <button type="button" class="btn-milestone ${pyramidState.year === 2030 ? 'active' : ''}" data-jump="2030">2030 Horizon</button>
+      `;
+      milestonesContainer.querySelectorAll('.btn-milestone').forEach(b => {
+        b.addEventListener('click', () => {
+          pausePyramidPlayback();
+          pyramidState.year = parseInt(b.getAttribute('data-jump'), 10);
+          updatePyramidUI(false);
+        });
+      });
+    }
+  }
+
+  ticksContainer.querySelectorAll('.slider-tick-label').forEach(t => {
+    t.addEventListener('click', () => {
+      pausePyramidPlayback();
+      pyramidState.year = parseInt(t.getAttribute('data-year'), 10);
+      updatePyramidUI(false);
+    });
+  });
+}
+
+function togglePyramidPlayback() {
+  if (pyramidState.isPlaying) {
+    pausePyramidPlayback();
+  } else {
+    startPyramidPlayback();
+  }
+}
+
+function startPyramidPlayback() {
+  if (!pyramidState.data) return;
+  const years = pyramidState.mode === 'annual'
+    ? pyramidState.data.years
+    : pyramidState.data.historical_census.years;
+
+  if (pyramidState.year >= years[years.length - 1]) {
+    pyramidState.year = years[0];
+    updatePyramidUI(true);
+  }
+
+  pyramidState.isPlaying = true;
+  updatePlayButtonUI();
+
+  clearInterval(pyramidState.timer);
+  pyramidState.timer = setInterval(advancePyramidFrame, pyramidState.speed);
+}
+
+function pausePyramidPlayback() {
+  pyramidState.isPlaying = false;
+  clearInterval(pyramidState.timer);
+  pyramidState.timer = null;
+  updatePlayButtonUI();
+}
+
+function updatePlayButtonUI() {
+  const playBtn = document.getElementById('pyramid-play-btn');
+  const playText = document.getElementById('pyramid-play-text');
+  const playIcon = document.getElementById('pyramid-play-icon');
+  if (!playBtn) return;
+
+  if (pyramidState.isPlaying) {
+    playBtn.classList.add('playing');
+    if (playText) playText.textContent = 'Pause Timeline';
+    if (playIcon) {
+      playIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+    }
+  } else {
+    playBtn.classList.remove('playing');
+    if (playText) playText.textContent = 'Play Timeline';
+    if (playIcon) {
+      playIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+    }
+  }
+}
+
+function advancePyramidFrame() {
+  const years = pyramidState.mode === 'annual'
+    ? pyramidState.data.years
+    : pyramidState.data.historical_census.years;
+
+  const currentIdx = years.indexOf(pyramidState.year);
+  if (currentIdx === -1 || currentIdx >= years.length - 1) {
+    if (pyramidState.loop) {
+      pyramidState.year = years[0];
+    } else {
+      pausePyramidPlayback();
+      return;
+    }
+  } else {
+    pyramidState.year = years[currentIdx + 1];
+  }
+
+  updatePyramidUI(true);
+}
+
+function stepPyramidYear(delta) {
+  pausePyramidPlayback();
+  const years = pyramidState.mode === 'annual'
+    ? pyramidState.data.years
+    : pyramidState.data.historical_census.years;
+
+  const currentIdx = years.indexOf(pyramidState.year);
+  const targetIdx = Math.max(0, Math.min(years.length - 1, (currentIdx === -1 ? 0 : currentIdx) + delta));
+  pyramidState.year = years[targetIdx];
+  updatePyramidUI(false);
+}
+
+function updatePyramidUI(isSmooth) {
+  if (!pyramidState.data) return;
+
+  const isAnnual = pyramidState.mode === 'annual';
+  const ageGroups = pyramidState.data.age_groups;
+  let yearData = null;
+  let prevYearData = null;
+  let maxCohortScale = 10000;
+  let scopeLabel = '';
+  let subpopLabel = '';
+
+  if (isAnnual) {
+    const scopeData = pyramidState.data.scopes[pyramidState.scope];
+    if (!scopeData || !scopeData[pyramidState.subpop]) return;
+    const series = scopeData[pyramidState.subpop];
+    
+    // Nearest year
+    const validYears = pyramidState.data.years;
+    if (!validYears.includes(pyramidState.year)) {
+      pyramidState.year = 2021;
+    }
+
+    yearData = series.by_year[pyramidState.year];
+    const prevYear = pyramidState.year - 1;
+    if (validYears.includes(prevYear)) {
+      prevYearData = series.by_year[prevYear];
+    }
+
+    // Compute fixed max cohort scale for this scope & subpop across all 17 years
+    let peak = 0;
+    for (const y of validYears) {
+      const e = series.by_year[y];
+      if (e) {
+        peak = Math.max(peak, Math.max(...e.male), Math.max(...e.female));
+      }
+    }
+    maxCohortScale = Math.ceil(peak * 1.08);
+
+    const scopeNames = {
+      'national': 'Republic of Maldives',
+      'male_city': "Malé Capital City",
+      'atolls': 'Outer Atolls'
+    };
+    scopeLabel = scopeNames[pyramidState.scope] || 'Republic of Maldives';
+    subpopLabel = pyramidState.subpop === 'Total' ? 'Total Resident' : (pyramidState.subpop === 'Maldivian' ? 'Maldivians Only' : 'Foreign Nationals');
+  } else {
+    // Census mode
+    const census = pyramidState.data.historical_census;
+    const validYears = census.years;
+    if (!validYears.includes(pyramidState.year)) {
+      pyramidState.year = validYears.reduce((prev, curr) => Math.abs(curr - pyramidState.year) < Math.abs(prev - pyramidState.year) ? curr : prev);
+    }
+    yearData = census.by_year[pyramidState.year];
+    const idx = validYears.indexOf(pyramidState.year);
+    if (idx > 0) {
+      prevYearData = census.by_year[validYears[idx - 1]];
+    }
+
+    let peak = 0;
+    for (const y of validYears) {
+      const e = census.by_year[y];
+      if (e) {
+        peak = Math.max(peak, Math.max(...e.male), Math.max(...e.female));
+      }
+    }
+    maxCohortScale = Math.ceil(peak * 1.08);
+
+    scopeLabel = 'Republic of Maldives';
+    subpopLabel = 'Official Census Rounds (Maldivian Population)';
+  }
+
+  if (!yearData) return;
+
+  const ind = yearData.indicators;
+
+  // 1. Update Header Year & Badges
+  const yearEl = document.getElementById('pyramid-year-val');
+  if (yearEl) yearEl.textContent = pyramidState.year;
+
+  const badgeEl = document.getElementById('pyramid-series-badge');
+  if (badgeEl) {
+    if (!isAnnual) {
+      badgeEl.textContent = `Census Enumeration (${pyramidState.year})`;
+    } else if (pyramidState.year <= 2020) {
+      badgeEl.textContent = 'Official Annual Series';
+    } else if (pyramidState.year === 2021) {
+      badgeEl.textContent = 'Yearbook Baseline (2021)';
+    } else {
+      badgeEl.textContent = 'Demographic Horizon Projection';
+    }
+  }
+
+  const subtextEl = document.getElementById('pyramid-scope-subtext');
+  if (subtextEl) {
+    subtextEl.textContent = `${scopeLabel} • ${subpopLabel}`;
+  }
+
+  // 2. Update KPI Cards
+  const kpiTotal = document.getElementById('pyramid-kpi-total');
+  const kpiTotalSub = document.getElementById('pyramid-kpi-total-sub');
+  if (kpiTotal) kpiTotal.textContent = formatNum(yearData.total);
+  if (kpiTotalSub) {
+    if (prevYearData && prevYearData.total > 0) {
+      const diff = yearData.total - prevYearData.total;
+      const pct = ((diff / prevYearData.total) * 100).toFixed(1);
+      const sign = diff >= 0 ? '+' : '';
+      const prevYearLbl = isAnnual ? pyramidState.year - 1 : pyramidState.data.historical_census.years[pyramidState.data.historical_census.years.indexOf(pyramidState.year) - 1];
+      kpiTotalSub.textContent = `${sign}${pct}% vs ${prevYearLbl} (${sign}${formatNum(diff)})`;
+    } else {
+      kpiTotalSub.textContent = isAnnual ? 'Base year series' : 'Earliest census benchmark';
+    }
+  }
+
+  const kpiRatio = document.getElementById('pyramid-kpi-ratio');
+  const kpiRatioSub = document.getElementById('pyramid-kpi-ratio-sub');
+  if (kpiRatio) kpiRatio.textContent = `${ind.sex_ratio} M / 100 F`;
+  if (kpiRatioSub) {
+    if (ind.sex_ratio > 300) {
+      kpiRatioSub.textContent = `Severe male disparity (${(ind.sex_ratio / 100).toFixed(1)}:1 M:F)`;
+    } else if (ind.sex_ratio > 115) {
+      kpiRatioSub.textContent = `Skewed workforce (${(ind.sex_ratio / 100).toFixed(2)}:1 M:F)`;
+    } else {
+      kpiRatioSub.textContent = `Balanced demographic structure (${(ind.sex_ratio / 100).toFixed(2)}:1)`;
+    }
+  }
+
+  const kpiMedian = document.getElementById('pyramid-kpi-median');
+  const kpiMedianSub = document.getElementById('pyramid-kpi-median-sub');
+  if (kpiMedian) kpiMedian.textContent = `${ind.median_age} yrs`;
+  if (kpiMedianSub) {
+    if (ind.median_age < 20) {
+      kpiMedianSub.textContent = 'Very young high-fertility profile';
+    } else if (ind.median_age < 30) {
+      kpiMedianSub.textContent = 'Youth bulge in peak prime workforce';
+    } else {
+      kpiMedianSub.textContent = 'Maturing population profile';
+    }
+  }
+
+  const kpiWorking = document.getElementById('pyramid-kpi-working');
+  const kpiWorkingSub = document.getElementById('pyramid-kpi-working-sub');
+  if (kpiWorking) kpiWorking.textContent = `${ind.working_pct}%`;
+  if (kpiWorkingSub) kpiWorkingSub.textContent = `${formatNum(ind.working)} residents aged 15–64`;
+
+  const kpiDep = document.getElementById('pyramid-kpi-dep');
+  const kpiDepSub = document.getElementById('pyramid-kpi-dep-sub');
+  if (kpiDep) kpiDep.textContent = `${ind.dependency_ratio}%`;
+  if (kpiDepSub) kpiDepSub.textContent = `Youth: ${ind.youth_dependency}% • Elderly: ${ind.elderly_dependency}%`;
+
+  const kpiYouthElderly = document.getElementById('pyramid-kpi-youth-elderly');
+  const kpiYouthElderlySub = document.getElementById('pyramid-kpi-youth-elderly-sub');
+  if (kpiYouthElderly) kpiYouthElderly.textContent = `${ind.youth_pct}% vs ${ind.elderly_pct}%`;
+  if (kpiYouthElderlySub) kpiYouthElderlySub.textContent = `0-14 (${formatNum(ind.youth)}) • 65+ (${formatNum(ind.elderly)})`;
+
+  // 3. Legend Counts
+  const legMale = document.getElementById('pyramid-legend-male-count');
+  const legFemale = document.getElementById('pyramid-legend-female-count');
+  if (legMale) {
+    const pctM = yearData.total > 0 ? ((yearData.total_male / yearData.total) * 100).toFixed(1) : 0;
+    legMale.textContent = `${formatNum(yearData.total_male)} (${pctM}%)`;
+  }
+  if (legFemale) {
+    const pctF = yearData.total > 0 ? ((yearData.total_female / yearData.total) * 100).toFixed(1) : 0;
+    legFemale.textContent = `${formatNum(yearData.total_female)} (${pctF}%)`;
+  }
+
+  // 4. Update Slider & Active Highlights
+  const slider = document.getElementById('pyramid-range-slider');
+  if (slider) slider.value = pyramidState.year;
+
+  document.querySelectorAll('#pyramid-milestones-container .btn-milestone').forEach(b => {
+    b.classList.toggle('active', parseInt(b.getAttribute('data-jump'), 10) === pyramidState.year);
+  });
+  document.querySelectorAll('#pyramid-slider-ticks .slider-tick-label').forEach(t => {
+    t.classList.toggle('active', parseInt(t.getAttribute('data-year'), 10) === pyramidState.year);
+  });
+
+  // 5. Update or Create Chart.js Pyramid
+  updatePyramidChartCanvas(yearData, ageGroups, maxCohortScale, isSmooth);
+}
+
+function updatePyramidChartCanvas(yearData, ageGroups, maxCohortScale, isSmooth) {
+  const canvas = document.getElementById('pyramidChart');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const theme = getChartTheme();
+
+  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+  const maleColor = theme.accent;
+  const femaleColor = isLight ? '#e11d48' : '#fb7185';
+  const maleBorder = '#0284c7';
+  const femaleBorder = '#e11d48';
+
+  const maleValues = yearData.male;
+  const femaleValues = yearData.female;
+  const currentTotal = yearData.total;
+
+  if (!charts['pyramidChart']) {
+    charts['pyramidChart'] = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ageGroups,
+        datasets: [
+          {
+            label: 'Male',
+            data: maleValues.map(v => -v),
+            backgroundColor: maleColor,
+            borderColor: maleBorder,
+            borderWidth: 1,
+            borderRadius: { topLeft: 3, bottomLeft: 3 },
+            barPercentage: 0.88,
+            categoryPercentage: 0.92
+          },
+          {
+            label: 'Female',
+            data: femaleValues,
+            backgroundColor: femaleColor,
+            borderColor: femaleBorder,
+            borderWidth: 1,
+            borderRadius: { topRight: 3, bottomRight: 3 },
+            barPercentage: 0.88,
+            categoryPercentage: 0.92
+          }
+        ]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          duration: isSmooth ? Math.max(180, pyramidState.speed * 0.4) : 0,
+          easing: 'easeOutQuad'
+        },
+        scales: {
+          x: {
+            min: -maxCohortScale,
+            max: maxCohortScale,
+            grid: {
+              color: (c) => c.tick.value === 0 ? (theme.textColor) : theme.gridColor,
+              lineWidth: (c) => c.tick.value === 0 ? 1.5 : 1
+            },
+            ticks: {
+              color: theme.textColor,
+              font: { family: 'JetBrains Mono', size: 10 },
+              callback: (val) => {
+                const abs = Math.abs(val);
+                if (abs === 0) return '0';
+                return abs >= 1000 ? (abs / 1000).toFixed(0) + 'k' : abs;
+              }
+            }
+          },
+          y: {
+            grid: { display: false },
+            ticks: {
+              color: theme.headingColor,
+              font: { family: 'JetBrains Mono', size: 11, weight: 600 }
+            }
+          }
+        },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: theme.tooltipBg,
+            borderColor: theme.tooltipBorder,
+            borderWidth: 1,
+            titleColor: theme.tooltipText,
+            bodyColor: theme.tooltipText,
+            callbacks: {
+              title: (items) => `Age Bracket: ${items[0].label} years`,
+              label: (context) => {
+                const isMale = context.datasetIndex === 0;
+                const count = Math.abs(context.raw);
+                const otherCount = Math.abs(context.chart.data.datasets[isMale ? 1 : 0].data[context.dataIndex]);
+                const cohortTotal = count + otherCount;
+                const pctCohort = cohortTotal > 0 ? ((count / cohortTotal) * 100).toFixed(1) : 0;
+                const pctPop = currentTotal > 0 ? ((count / currentTotal) * 100).toFixed(1) : 0;
+                return ` ${isMale ? 'Male' : 'Female'}: ${formatNum(count)} (${pctCohort}% of age group, ${pctPop}% of pop)`;
+              },
+              afterBody: (items) => {
+                const idx = items[0].dataIndex;
+                const m = Math.abs(items[0].chart.data.datasets[0].data[idx]);
+                const f = Math.abs(items[0].chart.data.datasets[1].data[idx]);
+                const total = m + f;
+                const ratio = f > 0 ? ((m / f) * 100).toFixed(1) : 'N/A';
+                return [
+                  `Group Total: ${formatNum(total)} (${currentTotal > 0 ? ((total / currentTotal) * 100).toFixed(1) : 0}% of pop)`,
+                  `Sex Ratio: ${ratio} Males / 100 Females`
+                ];
+              }
+            }
+          }
+        }
+      }
+    });
+  } else {
+    const chart = charts['pyramidChart'];
+    chart.data.labels = ageGroups;
+    chart.data.datasets[0].data = maleValues.map(v => -v);
+    chart.data.datasets[0].backgroundColor = maleColor;
+    chart.data.datasets[1].data = femaleValues;
+    chart.data.datasets[1].backgroundColor = femaleColor;
+    chart.options.scales.x.min = -maxCohortScale;
+    chart.options.scales.x.max = maxCohortScale;
+    chart.options.scales.x.grid.color = (c) => c.tick.value === 0 ? (theme.textColor) : theme.gridColor;
+    chart.options.scales.y.ticks.color = theme.headingColor;
+    chart.options.plugins.tooltip.callbacks.label = (context) => {
+      const isMale = context.datasetIndex === 0;
+      const count = Math.abs(context.raw);
+      const otherCount = Math.abs(context.chart.data.datasets[isMale ? 1 : 0].data[context.dataIndex]);
+      const cohortTotal = count + otherCount;
+      const pctCohort = cohortTotal > 0 ? ((count / cohortTotal) * 100).toFixed(1) : 0;
+      const pctPop = currentTotal > 0 ? ((count / currentTotal) * 100).toFixed(1) : 0;
+      return ` ${isMale ? 'Male' : 'Female'}: ${formatNum(count)} (${pctCohort}% of age group, ${pctPop}% of pop)`;
+    };
+    chart.options.plugins.tooltip.callbacks.afterBody = (items) => {
+      const idx = items[0].dataIndex;
+      const m = Math.abs(items[0].chart.data.datasets[0].data[idx]);
+      const f = Math.abs(items[0].chart.data.datasets[1].data[idx]);
+      const total = m + f;
+      const ratio = f > 0 ? ((m / f) * 100).toFixed(1) : 'N/A';
+      return [
+        `Group Total: ${formatNum(total)} (${currentTotal > 0 ? ((total / currentTotal) * 100).toFixed(1) : 0}% of pop)`,
+        `Sex Ratio: ${ratio} Males / 100 Females`
+      ];
+    };
+
+    if (isSmooth) {
+      chart.options.animation = {
+        duration: Math.max(180, pyramidState.speed * 0.4),
+        easing: 'easeOutQuad'
+      };
+      chart.update();
+    } else {
+      chart.update('none');
+    }
+  }
 }
 
 // ==========================================================================

@@ -470,7 +470,7 @@ def extract_all():
             'cost_per_ton_mvr': round(cost_ton, 1)
         })
         
-    water_data = {
+        water_data = {
         'emergency_series': water_emergency,
         'climate_facts': [
             {'metric': 'Average Elevation', 'value': '1.5 meters', 'global_context': 'Lowest nation on Earth (highest point is 2.4m)'},
@@ -480,13 +480,208 @@ def extract_all():
         ]
     }
 
-    # 7. CURATED INTERESTING FACTS & TRIVIA
+    # 7. DEMOGRAPHICS & POPULATION PYRAMID (Table 3.13, 3.14, 3.15, 3.2)
+    print("Extracting demographics & population pyramid series...")
+    age_groups = ['0-4', '5-9', '10-14', '15-19', '20-24', '25-29', '30-34', '35-39', '40-44', '45-49', '50-54', '55-59', '60-64', '65-69', '70-74', '75-79', '80+']
+    age_starts = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]
+
+    def compute_pyramid_indicators(male_arr, female_arr, total_m, total_f, total_b):
+        total = total_b if total_b > 0 else (total_m + total_f)
+        if total == 0:
+            total = sum(male_arr) + sum(female_arr)
+        
+        youth = sum(male_arr[0:3]) + sum(female_arr[0:3])       # 0-14
+        working = sum(male_arr[3:13]) + sum(female_arr[3:13])   # 15-64
+        elderly = sum(male_arr[13:]) + sum(female_arr[13:])     # 65+
+        
+        sex_ratio = round((total_m / total_f * 100), 1) if total_f > 0 else 0
+        dep_ratio = round(((youth + elderly) / working * 100), 1) if working > 0 else 0
+        youth_dep = round((youth / working * 100), 1) if working > 0 else 0
+        elderly_dep = round((elderly / working * 100), 1) if working > 0 else 0
+        youth_pct = round((youth / total * 100), 1) if total > 0 else 0
+        working_pct = round((working / total * 100), 1) if total > 0 else 0
+        elderly_pct = round((elderly / total * 100), 1) if total > 0 else 0
+        
+        # Median age estimation via linear interpolation
+        half = total / 2.0
+        cum = 0
+        median_age = 28.0
+        for i in range(17):
+            cohort_pop = male_arr[i] + female_arr[i]
+            if cum + cohort_pop >= half and cohort_pop > 0:
+                fraction = (half - cum) / cohort_pop
+                median_age = round(age_starts[i] + fraction * 5, 1)
+                break
+            cum += cohort_pop
+            
+        return {
+            'total': total,
+            'total_male': total_m,
+            'total_female': total_f,
+            'sex_ratio': sex_ratio,
+            'youth': youth,
+            'working': working,
+            'elderly': elderly,
+            'youth_pct': youth_pct,
+            'working_pct': working_pct,
+            'elderly_pct': elderly_pct,
+            'dependency_ratio': dep_ratio,
+            'youth_dependency': youth_dep,
+            'elderly_dependency': elderly_dep,
+            'median_age': median_age
+        }
+
+    def parse_pyramid_csv(filepath):
+        import csv
+        with open(filepath, mode='r', encoding='utf-8') as f:
+            rows = list(csv.reader(f))
+        
+        header = rows[0]
+        years = [int(y.strip()) for y in header[1:] if y.strip().isdigit()]
+        
+        subpops = {'Total': {}, 'Maldivian': {}, 'Foreigner': {}}
+        for sp in subpops:
+            subpops[sp] = {
+                'years': years,
+                'age_groups': age_groups,
+                'by_year': {}
+            }
+            for y in years:
+                subpops[sp]['by_year'][y] = {
+                    'male': [0] * len(age_groups),
+                    'female': [0] * len(age_groups),
+                    'total_male': 0,
+                    'total_female': 0,
+                    'total': 0,
+                    'indicators': {}
+                }
+                
+        current_sp = 'Total'
+        current_gender = None
+        
+        for r in rows:
+            if not r or not r[0].strip():
+                continue
+            c0 = r[0].strip()
+            if 'Resident Maldivian' in c0:
+                current_sp = 'Maldivian'
+                current_gender = None
+                continue
+            elif 'Resident Foreigners' in c0 or 'Foreign' in c0:
+                current_sp = 'Foreigner'
+                current_gender = None
+                continue
+            elif c0 == 'Male':
+                current_gender = 'male'
+                for idx, y in enumerate(years):
+                    v = float(r[idx+1].replace(',', '')) if idx+1 < len(r) and r[idx+1].strip() else 0.0
+                    subpops[current_sp]['by_year'][y]['total_male'] = round(v)
+                continue
+            elif c0 == 'Female':
+                current_gender = 'female'
+                for idx, y in enumerate(years):
+                    v = float(r[idx+1].replace(',', '')) if idx+1 < len(r) and r[idx+1].strip() else 0.0
+                    subpops[current_sp]['by_year'][y]['total_female'] = round(v)
+                continue
+            elif c0 == 'Both Sexes':
+                for idx, y in enumerate(years):
+                    v = float(r[idx+1].replace(',', '')) if idx+1 < len(r) and r[idx+1].strip() else 0.0
+                    subpops[current_sp]['by_year'][y]['total'] = round(v)
+                continue
+                
+            c0_clean = c0.replace(' ', '')
+            if c0_clean in age_groups and current_gender:
+                age_idx = age_groups.index(c0_clean)
+                for idx, y in enumerate(years):
+                    v_str = r[idx+1].replace(',', '').strip() if idx+1 < len(r) else ''
+                    v = float(v_str) if v_str else 0.0
+                    subpops[current_sp]['by_year'][y][current_gender][age_idx] = round(v)
+
+        # Compute indicators for each subpop and year
+        for sp in subpops:
+            for y in years:
+                entry = subpops[sp]['by_year'][y]
+                entry['indicators'] = compute_pyramid_indicators(
+                    entry['male'],
+                    entry['female'],
+                    entry['total_male'],
+                    entry['total_female'],
+                    entry['total']
+                )
+        return subpops
+
+    # Parse Census 3.2 historical data (1995, 2000, 2006, 2014)
+    def parse_historical_census():
+        import csv
+        census_years = [1995, 2000, 2006, 2014]
+        cohort_map = {
+            'Less than 1 year': 0, '1 - 4': 0,
+            '5': 1, '6 - 9': 1,
+            '10 - 14': 2, '15 - 19': 3, '20 - 24': 4, '25 - 29': 5,
+            '30 - 34': 6, '35 - 39': 7, '40 - 44': 8, '45 - 49': 9,
+            '50 - 54': 10, '55 - 59': 11, '60 - 64': 12, '65 - 69': 13,
+            '70 - 74': 14, '75 - 79': 15,
+            '80 - 84': 16, '85 - 89': 16, '90 - 94': 16, '95 years and over': 16,
+        }
+        res = {
+            'years': census_years,
+            'age_groups': age_groups,
+            'by_year': {y: {'male': [0]*17, 'female': [0]*17, 'total_male': 0, 'total_female': 0, 'total': 0, 'indicators': {}} for y in census_years}
+        }
+        with open('datasets/3.0 population/3.2.csv', mode='r', encoding='utf-8') as f:
+            rows = list(csv.reader(f))
+        for r in rows[1:]:
+            ag = r[0].strip()
+            if ag == 'Total':
+                for idx, y in enumerate(census_years):
+                    both = int(r[idx*3 + 1].replace(',', '') or 0)
+                    m = int(r[idx*3 + 2].replace(',', '') or 0)
+                    f_val = int(r[idx*3 + 3].replace(',', '') or 0)
+                    res['by_year'][y]['total'] = both
+                    res['by_year'][y]['total_male'] = m
+                    res['by_year'][y]['total_female'] = f_val
+            elif ag in cohort_map:
+                idx_cohort = cohort_map[ag]
+                for idx, y in enumerate(census_years):
+                    m = int(r[idx*3 + 2].replace(',', '') or 0)
+                    f_val = int(r[idx*3 + 3].replace(',', '') or 0)
+                    res['by_year'][y]['male'][idx_cohort] += m
+                    res['by_year'][y]['female'][idx_cohort] += f_val
+        for y in census_years:
+            entry = res['by_year'][y]
+            entry['indicators'] = compute_pyramid_indicators(
+                entry['male'],
+                entry['female'],
+                entry['total_male'],
+                entry['total_female'],
+                entry['total']
+            )
+        return res
+
+    demographics_data = {
+        'age_groups': age_groups,
+        'years': [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030],
+        'scopes': {
+            'national': parse_pyramid_csv('datasets/3.0 population/3.13.csv'),
+            'male_city': parse_pyramid_csv('datasets/3.0 population/3.14.csv'),
+            'atolls': parse_pyramid_csv('datasets/3.0 population/3.15.csv'),
+        },
+        'historical_census': parse_historical_census()
+    }
+
+    # 8. CURATED INTERESTING FACTS & TRIVIA
     interesting_facts = [
         {
             'category': 'Urban Density',
             'headline': "Malé is ~3.7× Denser Than Paris and 2.7× Denser than Manhattan",
             'detail': "Malé Island packs 153,904 residents onto only 2.05 km² (74,879 people/km²). If the entire global population lived at Malé's density, all 8 billion humans could fit inside the state of Ohio!",
             'icon': 'building'
+        },
+        {
+            'category': 'Demographic Asymmetry',
+            'headline': "Expatriate Sex Ratio: 1,017 Men per 100 Women",
+            'detail': "In 2020, foreign residents numbered 178,156—composed of 162,210 men and just 15,946 women (over 10:1 ratio), concentrated in construction and hospitality ages 20–39.",
+            'icon': 'users'
         },
         {
             'category': 'Macroeconomic Shock',
@@ -523,6 +718,7 @@ def extract_all():
     dashboard_bundle = {
         'catalog': compact_catalog,
         'geography': geo_data,
+        'demographics': demographics_data,
         'tourism': tourism_data,
         'gdp': gdp_data,
         'fisheries': fisheries_data,

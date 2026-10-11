@@ -24,6 +24,7 @@ The dashboard is built with HTML5, Vanilla CSS3, modern JavaScript, and Chart.js
 
 ### 🌟 Key Features:
 - **Zero-Build Deployment**: Hosted live via GitHub Pages directly from the repository.
+- **Animated Population Pyramid (2014–2030 & Censuses 1995–2014)**: Interactive year-on-year demographic transitions across 17 age cohorts with playback controls, timeline scrubber, sub-population filters (Total, Maldivians, Foreign Expats), and geographic scopes (National, Malé City, Outer Atolls).
 - **Global Benchmarking Suite**: Directly contrasts Maldives data against international indicators (Paris, Manhattan, Manila, Tokyo, Spain, Iceland, World averages).
 - **Curated Trivia & Interesting Facts**: Interactive categorized flashcards revealing geographic, economic, and demographic extremes.
 - **Dynamic Chart Suite**: Interactive radar, line, bar, and doughnut charts with dark/light mode toggle.
