@@ -13,9 +13,9 @@ import numpy as np
 
 DB_PATH = 'data/master_categories/maldives_statistics_master.db'
 CATALOG_PATH = 'data/master_categories/catalog.json'
-LEGACY_DATA_PATH = 'dashboard_data.json'
-OUT_JSON = 'dashboard_data_unified.json'
-OUT_JS = 'dashboard_data_unified.js'
+DEMOGRAPHICS_DATA_PATH = 'data/demographics_pyramid.json'
+OUT_JSON = 'assets/dashboard_data_unified.json'
+OUT_JS = 'assets/dashboard_data_unified.js'
 
 def build_unified_dataset():
     print("Connecting to master database...")
@@ -394,10 +394,10 @@ def build_unified_dataset():
     ]
 
     # 6. LOAD DETAILED DEMOGRAPHICS & POPULATION PYRAMIDS
-    print("Loading detailed demographic cohorts from legacy repository...")
-    with open(LEGACY_DATA_PATH, 'r') as f:
-        legacy_data = json.load(f)
-    pyramid_demographics = legacy_data.get('demographics', {})
+    print("Loading detailed demographic cohorts and population projections...")
+    with open(DEMOGRAPHICS_DATA_PATH, 'r') as f:
+        demographics_source = json.load(f)
+    pyramid_demographics = demographics_source.get('demographics', {})
 
     master_payload = {
         'meta': {

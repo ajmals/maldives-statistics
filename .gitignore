@@ -1,5 +1,6 @@
 # OS files
 .DS_Store
+**/.DS_Store
 Thumbs.db
 
 # Virtual environments
@@ -11,11 +12,12 @@ env/
 __pycache__/
 *.pyc
 
-# Backward-compatibility symlinks
-datasets
-raw_stats_data
-
 # SQLite databases (build artifacts)
 *.db
 *.sqlite
 *.sqlite3
+
+# Jupyter Notebooks
+notebooks/
+*.ipynb
+.ipynb_checkpoints/

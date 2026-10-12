@@ -94,7 +94,7 @@
       if (window.MALDIVES_MASTER_DATA) {
         state.data = window.MALDIVES_MASTER_DATA;
       } else {
-        const res = await fetch('dashboard_data_unified.json');
+        const res = await fetch('assets/dashboard_data_unified.json');
         state.data = await res.json();
       }
       
