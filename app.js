@@ -1,1607 +1,1278 @@
 /**
- * Maldives Statistical Yearbook 2021 — Minimalist Dashboard Logic
- * Linear / Vercel monochrome aesthetic with single restrained accent.
+ * app.js
+ * Master Client-Side Engine for the Maldives National Statistics Observatory
+ * Manages 360-degree timeline scrubber, Chart.js instances, tabs, catalog search,
+ * and the interactive COVID-19 pandemic simulation scrubber.
  */
 
-// Global Chart Store
-const charts = {};
+(function () {
+  'use strict';
 
-// Helper: Format Numbers with Commas
-function formatNum(num) {
-  if (num === null || num === undefined) return 'N/A';
-  return Number(num).toLocaleString();
-}
-
-// Helper: Get Theme Chart Colors (Vercel / Linear Minimalist)
-function getChartTheme() {
-  const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
-  return {
-    textColor: isDark ? '#71717a' : '#71717a',
-    headingColor: isDark ? '#f4f4f5' : '#09090b',
-    gridColor: isDark ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)',
-    accent: isDark ? '#38bdf8' : '#0284c7',
-    accentMuted: isDark ? 'rgba(56, 189, 248, 0.08)' : 'rgba(2, 132, 199, 0.08)',
-    barBase: isDark ? '#27272a' : '#e4e4e7',
-    barHover: isDark ? '#3f3f46' : '#d4d4d8',
-    statusNeg: isDark ? '#f43f5e' : '#e11d48',
-    statusPos: isDark ? '#10b981' : '#059669',
-    tooltipBg: isDark ? '#18181b' : '#ffffff',
-    tooltipBorder: isDark ? '#27272a' : '#e4e4e7',
-    tooltipText: isDark ? '#f4f4f5' : '#09090b',
+  // State Management
+  const state = {
+    data: null,
+    activeTab: 'pane-360',
+    selectedYear: 2024,
+    isPlaying: false,
+    playInterval: null,
+    covidMonthIndex: 15, // Default Apr 2020 (the historic zero line)
+    isCovidPlaying: false,
+    covidPlayInterval: null,
+    catalogQuery: '',
+    catalogCategory: 'all',
+    catalogPage: 1,
+    catalogPageSize: 20,
+    charts: {}
   };
-}
 
-// Destroy Chart Instance safely
-function destroyChart(id) {
-  if (charts[id]) {
-    charts[id].destroy();
-    delete charts[id];
+  // DOM Elements Cache
+  const els = {
+    themeBtn: document.getElementById('theme-toggle-btn'),
+    themeIcon: document.getElementById('theme-icon-svg'),
+    tabButtons: document.querySelectorAll('.tab-btn'),
+    tabPanes: document.querySelectorAll('.tab-pane'),
+    slider: document.getElementById('timeline-slider'),
+    yearDisplay: document.getElementById('scrubber-year-display'),
+    playBtn: document.getElementById('scrubber-play-btn'),
+    playText: document.getElementById('play-text'),
+    playIcon: document.getElementById('play-icon'),
+    jumpPills: document.querySelectorAll('.jump-pill[data-year]'),
+    catalogBtn: document.getElementById('quick-catalog-btn'),
+    catalogInput: document.getElementById('catalog-search-input'),
+    clearSearchBtn: document.getElementById('clear-search-btn'),
+    filterPills: document.querySelectorAll('.filter-pill'),
+    catalogTableBody: document.getElementById('catalog-table-body'),
+    catalogVisibleCount: document.getElementById('catalog-visible-count'),
+    pagePrevBtn: document.getElementById('page-prev-btn'),
+    pageNextBtn: document.getElementById('page-next-btn'),
+    pageIndicator: document.getElementById('page-indicator'),
+
+    // COVID Interactive Scrubber Elements
+    covidMonthSlider: document.getElementById('covid-month-slider'),
+    covidPlayBtn: document.getElementById('covid-play-btn'),
+    covidPlayText: document.getElementById('covid-play-text'),
+    covidPlayIcon: document.getElementById('covid-play-icon'),
+    covidTickerMonth: document.getElementById('covid-ticker-month'),
+    covidTickerVisitors: document.getElementById('covid-ticker-visitors'),
+    covidTickerPhase: document.getElementById('covid-ticker-phase'),
+    covidTickerNote: document.getElementById('covid-ticker-note'),
+    covidJumpPills: document.querySelectorAll('[data-covid-month]'),
+    covidPhaseTag: document.getElementById('covid-kpi-phase-tag')
+  };
+
+  // Helper: Format Numbers with commas
+  function formatNum(num) {
+    if (num === null || num === undefined || isNaN(num)) return '—';
+    return Number(num).toLocaleString('en-US');
   }
-}
 
-// ==========================================================================
-// Initialization & Data Loading
-// ==========================================================================
-document.addEventListener('DOMContentLoaded', async () => {
-  initTheme();
-  initTabs();
-  
-  let data = window.MALDIVES_DATA;
-  if (!data) {
+  // Helper: Detect Current Theme
+  function isDarkTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'dark';
+  }
+
+  // Theme Colors for Chart.js
+  function getChartColors() {
+    const dark = isDarkTheme();
+    return {
+      text: dark ? '#94a3b8' : '#475569',
+      grid: dark ? 'rgba(255, 255, 255, 0.06)' : 'rgba(0, 0, 0, 0.06)',
+      accent: '#0ea5e9',
+      accentMuted: 'rgba(14, 165, 233, 0.15)',
+      emerald: '#10b981',
+      rose: '#f43f5e',
+      amber: '#f59e0b',
+      indigo: '#6366f1'
+    };
+  }
+
+  // =========================================================================
+  // 1. DATA INITIALIZATION
+  // =========================================================================
+  async function init() {
     try {
-      const res = await fetch('dashboard_data.json');
-      data = await res.json();
-      window.MALDIVES_DATA = data;
-    } catch (err) {
-      console.error('Failed to load dashboard data:', err);
-      return;
-    }
-  }
-
-  // Render initial dashboard view
-  renderInterestingFacts(data.interesting_facts);
-  renderCatalogExplorer(data.catalog);
-  renderDemographicsSection(data.demographics);
-  renderGeographySection(data.geography);
-  renderTourismSection(data.tourism);
-  renderGdpSection(data.gdp);
-  renderFisheriesSection(data.fisheries);
-  renderPublicFinanceSection(data.public_finance);
-  renderWaterSection(data.water);
-  renderExecutiveSection(data);
-});
-
-// ==========================================================================
-// Theme Management (Light / Dark)
-// ==========================================================================
-function initTheme() {
-  const toggleBtn = document.getElementById('theme-toggle-btn');
-  const stored = localStorage.getItem('theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', stored);
-  updateThemeIcon(stored);
-
-  toggleBtn?.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    const next = current === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
-    updateThemeIcon(next);
-    refreshAllCharts();
-  });
-}
-
-function updateThemeIcon(theme) {
-  const svg = document.getElementById('theme-icon-svg');
-  if (svg) {
-    if (theme === 'light') {
-      // Moon icon
-      svg.innerHTML = `
-        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-      `;
-    } else {
-      // Sun icon
-      svg.innerHTML = `
-        <circle cx="12" cy="12" r="5"></circle>
-        <line x1="12" y1="1" x2="12" y2="3"></line>
-        <line x1="12" y1="21" x2="12" y2="23"></line>
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-        <line x1="1" y1="12" x2="3" y2="12"></line>
-        <line x1="21" y1="12" x2="23" y2="12"></line>
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-      `;
-    }
-  }
-}
-
-function refreshAllCharts() {
-  const data = window.MALDIVES_DATA;
-  if (!data) return;
-  renderDemographicsSection(data.demographics);
-  renderGeographySection(data.geography);
-  renderTourismSection(data.tourism);
-  renderGdpSection(data.gdp);
-  renderFisheriesSection(data.fisheries);
-  renderPublicFinanceSection(data.public_finance);
-  renderWaterSection(data.water);
-  renderExecutiveSection(data);
-}
-
-// ==========================================================================
-// Tab Switching
-// ==========================================================================
-function initTabs() {
-  const triggers = document.querySelectorAll('.tab-trigger');
-  triggers.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const targetId = btn.getAttribute('data-tab');
-      
-      triggers.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      
-      document.querySelectorAll('.tab-pane').forEach(c => {
-        c.classList.remove('active');
-      });
-      
-      const targetContent = document.getElementById(targetId);
-      if (targetContent) {
-        targetContent.classList.add('active');
-        window.dispatchEvent(new Event('resize'));
-        if (targetId === 'tab-demographics' && charts['pyramidChart']) {
-          setTimeout(() => {
-            charts['pyramidChart'].resize();
-          }, 40);
-        }
-      }
-    });
-  });
-}
-
-// ==========================================================================
-// Curated Insights (Minimal Card Deck)
-// ==========================================================================
-function renderInterestingFacts(facts) {
-  const container = document.getElementById('facts-cards-row');
-  const filterBtns = document.querySelectorAll('.fact-filter-btn');
-  if (!container || !facts) return;
-
-  function display(category = 'All') {
-    container.innerHTML = '';
-    const filtered = category === 'All' ? facts : facts.filter(f => f.category === category);
-    
-    filtered.forEach(fact => {
-      const card = document.createElement('div');
-      card.className = 'fact-item';
-      card.innerHTML = `
-        <div>
-          <div class="fact-tag">${fact.category}</div>
-          <h4 class="fact-heading">${fact.headline}</h4>
-          <p class="fact-body">${fact.detail}</p>
-        </div>
-      `;
-      container.appendChild(card);
-    });
-  }
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      display(btn.getAttribute('data-category'));
-    });
-  });
-
-  display('All');
-}
-
-// ==========================================================================
-// 1. Executive Summary & Overview
-// ==========================================================================
-function renderExecutiveSection(data) {
-  const theme = getChartTheme();
-  
-  destroyChart('execRadarChart');
-  const ctx = document.getElementById('execRadarChart')?.getContext('2d');
-  if (!ctx) return;
-
-  charts['execRadarChart'] = new Chart(ctx, {
-    type: 'radar',
-    data: {
-      labels: ['Urban Density', 'Tourism Dominance', 'Fish Consumption', 'GDP Volatility', 'Climate Sensitivity', 'Debt Pressure'],
-      datasets: [
-        {
-          label: 'Maldives',
-          data: [98, 92, 95, 96, 94, 88],
-          borderColor: theme.accent,
-          backgroundColor: theme.accentMuted,
-          pointBackgroundColor: theme.accent,
-          pointRadius: 3,
-          borderWidth: 2
-        },
-        {
-          label: 'Global Average Baseline',
-          data: [40, 35, 25, 30, 45, 50],
-          borderColor: '#52525b',
-          backgroundColor: 'transparent',
-          pointBackgroundColor: '#52525b',
-          pointRadius: 2,
-          borderWidth: 1.5,
-          borderDash: [3, 3]
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      scales: {
-        r: {
-          grid: { color: theme.gridColor },
-          angleLines: { color: theme.gridColor },
-          pointLabels: { color: theme.textColor, font: { size: 11, family: 'Inter' } },
-          ticks: { display: false, max: 100 }
-        }
-      },
-      plugins: {
-        legend: { labels: { color: theme.textColor, font: { family: 'Inter', size: 11 } } }
-      }
-    }
-  });
-}
-
-// ==========================================================================
-// 1.5. Demographics & Animated Population Pyramid (Tables 3.13, 3.14, 3.15, 3.2)
-// ==========================================================================
-const pyramidState = {
-  initialized: false,
-  isPlaying: false,
-  year: 2021,
-  speed: 900,
-  scope: 'national',      // 'national', 'male_city', 'atolls'
-  subpop: 'Total',        // 'Total', 'Maldivian', 'Foreigner'
-  mode: 'annual',         // 'annual' or 'census'
-  loop: true,
-  timer: null,
-  data: null
-};
-
-function renderDemographicsSection(demographics) {
-  if (!demographics) return;
-  pyramidState.data = demographics;
-
-  const canvas = document.getElementById('pyramidChart');
-  if (!canvas) return;
-
-  if (!pyramidState.initialized) {
-    setupPyramidEventListeners();
-    pyramidState.initialized = true;
-  }
-
-  updatePyramidSliderTicks();
-  updatePyramidUI(false);
-}
-
-function setupPyramidEventListeners() {
-  const playBtn = document.getElementById('pyramid-play-btn');
-  const prevBtn = document.getElementById('pyramid-prev-btn');
-  const nextBtn = document.getElementById('pyramid-next-btn');
-  const slider = document.getElementById('pyramid-range-slider');
-  const loopChk = document.getElementById('pyramid-loop-chk');
-
-  // Play / Pause
-  playBtn?.addEventListener('click', togglePyramidPlayback);
-
-  // Prev / Next Steps
-  prevBtn?.addEventListener('click', () => stepPyramidYear(-1));
-  nextBtn?.addEventListener('click', () => stepPyramidYear(1));
-
-  // Range Slider
-  slider?.addEventListener('input', (e) => {
-    pausePyramidPlayback();
-    pyramidState.year = parseInt(e.target.value, 10);
-    updatePyramidUI(false);
-  });
-
-  // Loop toggle
-  loopChk?.addEventListener('change', (e) => {
-    pyramidState.loop = e.target.checked;
-  });
-
-  // Speed Pills
-  const speedBtns = document.querySelectorAll('#pyramid-speed-pills .pill-btn');
-  speedBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      speedBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      pyramidState.speed = parseInt(btn.getAttribute('data-speed'), 10) || 900;
-      if (pyramidState.isPlaying) {
-        clearInterval(pyramidState.timer);
-        pyramidState.timer = setInterval(advancePyramidFrame, pyramidState.speed);
-      }
-    });
-  });
-
-  // Sub-population Pills
-  const subpopBtns = document.querySelectorAll('#pyramid-subpop-pills .pill-btn');
-  subpopBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      subpopBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      pyramidState.subpop = btn.getAttribute('data-subpop') || 'Total';
-      updatePyramidUI(false);
-    });
-  });
-
-  // Scope Pills
-  const scopeBtns = document.querySelectorAll('#pyramid-scope-pills .pill-btn');
-  scopeBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      scopeBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      pyramidState.scope = btn.getAttribute('data-scope') || 'national';
-      updatePyramidUI(false);
-    });
-  });
-
-  // Dataset Mode Pills (Annual vs Census)
-  const modeBtns = document.querySelectorAll('#pyramid-mode-pills .pill-btn');
-  modeBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      modeBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      pausePyramidPlayback();
-      pyramidState.mode = btn.getAttribute('data-mode') || 'annual';
-      
-      const subpopFilter = document.getElementById('pyramid-subpop-pills')?.closest('.pyramid-filter-item');
-      const scopeFilter = document.getElementById('pyramid-scope-pills')?.closest('.pyramid-filter-item');
-      
-      if (pyramidState.mode === 'census') {
-        pyramidState.year = 2014;
-        if (subpopFilter) subpopFilter.style.display = 'none';
-        if (scopeFilter) scopeFilter.style.display = 'none';
+      if (window.MALDIVES_MASTER_DATA) {
+        state.data = window.MALDIVES_MASTER_DATA;
       } else {
-        pyramidState.year = 2021;
-        if (subpopFilter) subpopFilter.style.display = 'flex';
-        if (scopeFilter) scopeFilter.style.display = 'flex';
+        const res = await fetch('dashboard_data_unified.json');
+        state.data = await res.json();
       }
       
-      updatePyramidSliderTicks();
-      updatePyramidUI(false);
-    });
-  });
-
-  // Milestone Buttons
-  const milestoneBtns = document.querySelectorAll('#pyramid-milestones-container .btn-milestone');
-  milestoneBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      pausePyramidPlayback();
-      const targetYear = parseInt(btn.getAttribute('data-jump'), 10);
-      if (targetYear) {
-        pyramidState.year = targetYear;
-        updatePyramidUI(false);
-      }
-    });
-  });
-}
-
-function updatePyramidSliderTicks() {
-  const slider = document.getElementById('pyramid-range-slider');
-  const ticksContainer = document.getElementById('pyramid-slider-ticks');
-  const milestonesContainer = document.getElementById('pyramid-milestones-container');
-  if (!slider || !ticksContainer) return;
-
-  if (pyramidState.mode === 'census') {
-    const years = pyramidState.data.historical_census.years; // [1995, 2000, 2006, 2014]
-    slider.min = 1995;
-    slider.max = 2014;
-    slider.step = 1;
-    slider.value = pyramidState.year;
-
-    ticksContainer.innerHTML = years.map(y => `
-      <span class="slider-tick-label ${y === pyramidState.year ? 'active' : ''}" data-year="${y}">${y}</span>
-    `).join('');
-
-    if (milestonesContainer) {
-      milestonesContainer.innerHTML = `
-        <span>Census Years:</span>
-        <button type="button" class="btn-milestone ${pyramidState.year === 1995 ? 'active' : ''}" data-jump="1995">1995</button>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2000 ? 'active' : ''}" data-jump="2000">2000</button>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2006 ? 'active' : ''}" data-jump="2006">2006</button>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2014 ? 'active' : ''}" data-jump="2014">2014</button>
-      `;
-      milestonesContainer.querySelectorAll('.btn-milestone').forEach(b => {
-        b.addEventListener('click', () => {
-          pausePyramidPlayback();
-          pyramidState.year = parseInt(b.getAttribute('data-jump'), 10);
-          updatePyramidUI(false);
-        });
-      });
-    }
-  } else {
-    slider.min = 2014;
-    slider.max = 2030;
-    slider.step = 1;
-    slider.value = pyramidState.year;
-
-    const displayTicks = [2014, 2016, 2018, 2020, 2022, 2024, 2026, 2028, 2030];
-    ticksContainer.innerHTML = displayTicks.map(y => `
-      <span class="slider-tick-label ${y === pyramidState.year ? 'active' : ''}" data-year="${y}">${y}</span>
-    `).join('');
-
-    if (milestonesContainer) {
-      milestonesContainer.innerHTML = `
-        <span>Jump to:</span>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2014 ? 'active' : ''}" data-jump="2014">2014 Census</button>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2019 ? 'active' : ''}" data-jump="2019">2019 Pre-Covid</button>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2021 ? 'active' : ''}" data-jump="2021">2021 Baseline</button>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2025 ? 'active' : ''}" data-jump="2025">2025 Mid</button>
-        <button type="button" class="btn-milestone ${pyramidState.year === 2030 ? 'active' : ''}" data-jump="2030">2030 Horizon</button>
-      `;
-      milestonesContainer.querySelectorAll('.btn-milestone').forEach(b => {
-        b.addEventListener('click', () => {
-          pausePyramidPlayback();
-          pyramidState.year = parseInt(b.getAttribute('data-jump'), 10);
-          updatePyramidUI(false);
-        });
-      });
+      setupThemeToggle();
+      setupTabs();
+      setupTimelineScrubber();
+      setupCovidScrubber();
+      setupCatalog();
+      setupPillarJumps();
+      
+      // Update initial KPI values
+      updateYearKPIs(state.selectedYear);
+      setCovidMonth(state.covidMonthIndex);
+      
+      // Initialize charts for active tab
+      renderChartsForTab('pane-360');
+      
+    } catch (err) {
+      console.error('Failed to load observatory dataset:', err);
     }
   }
 
-  ticksContainer.querySelectorAll('.slider-tick-label').forEach(t => {
-    t.addEventListener('click', () => {
-      pausePyramidPlayback();
-      pyramidState.year = parseInt(t.getAttribute('data-year'), 10);
-      updatePyramidUI(false);
-    });
-  });
-}
-
-function togglePyramidPlayback() {
-  if (pyramidState.isPlaying) {
-    pausePyramidPlayback();
-  } else {
-    startPyramidPlayback();
-  }
-}
-
-function startPyramidPlayback() {
-  if (!pyramidState.data) return;
-  const years = pyramidState.mode === 'annual'
-    ? pyramidState.data.years
-    : pyramidState.data.historical_census.years;
-
-  if (pyramidState.year >= years[years.length - 1]) {
-    pyramidState.year = years[0];
-    updatePyramidUI(true);
-  }
-
-  pyramidState.isPlaying = true;
-  updatePlayButtonUI();
-
-  clearInterval(pyramidState.timer);
-  pyramidState.timer = setInterval(advancePyramidFrame, pyramidState.speed);
-}
-
-function pausePyramidPlayback() {
-  pyramidState.isPlaying = false;
-  clearInterval(pyramidState.timer);
-  pyramidState.timer = null;
-  updatePlayButtonUI();
-}
-
-function updatePlayButtonUI() {
-  const playBtn = document.getElementById('pyramid-play-btn');
-  const playText = document.getElementById('pyramid-play-text');
-  const playIcon = document.getElementById('pyramid-play-icon');
-  if (!playBtn) return;
-
-  if (pyramidState.isPlaying) {
-    playBtn.classList.add('playing');
-    if (playText) playText.textContent = 'Pause Timeline';
-    if (playIcon) {
-      playIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
-    }
-  } else {
-    playBtn.classList.remove('playing');
-    if (playText) playText.textContent = 'Play Timeline';
-    if (playIcon) {
-      playIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
-    }
-  }
-}
-
-function advancePyramidFrame() {
-  const years = pyramidState.mode === 'annual'
-    ? pyramidState.data.years
-    : pyramidState.data.historical_census.years;
-
-  const currentIdx = years.indexOf(pyramidState.year);
-  if (currentIdx === -1 || currentIdx >= years.length - 1) {
-    if (pyramidState.loop) {
-      pyramidState.year = years[0];
-    } else {
-      pausePyramidPlayback();
-      return;
-    }
-  } else {
-    pyramidState.year = years[currentIdx + 1];
-  }
-
-  updatePyramidUI(true);
-}
-
-function stepPyramidYear(delta) {
-  pausePyramidPlayback();
-  const years = pyramidState.mode === 'annual'
-    ? pyramidState.data.years
-    : pyramidState.data.historical_census.years;
-
-  const currentIdx = years.indexOf(pyramidState.year);
-  const targetIdx = Math.max(0, Math.min(years.length - 1, (currentIdx === -1 ? 0 : currentIdx) + delta));
-  pyramidState.year = years[targetIdx];
-  updatePyramidUI(false);
-}
-
-function updatePyramidUI(isSmooth) {
-  if (!pyramidState.data) return;
-
-  const isAnnual = pyramidState.mode === 'annual';
-  const ageGroups = pyramidState.data.age_groups;
-  let yearData = null;
-  let prevYearData = null;
-  let maxCohortScale = 10000;
-  let scopeLabel = '';
-  let subpopLabel = '';
-
-  if (isAnnual) {
-    const scopeData = pyramidState.data.scopes[pyramidState.scope];
-    if (!scopeData || !scopeData[pyramidState.subpop]) return;
-    const series = scopeData[pyramidState.subpop];
+  // =========================================================================
+  // 2. THEME TOGGLE
+  // =========================================================================
+  function setupThemeToggle() {
+    if (!els.themeBtn) return;
     
-    // Nearest year
-    const validYears = pyramidState.data.years;
-    if (!validYears.includes(pyramidState.year)) {
-      pyramidState.year = 2021;
-    }
-
-    yearData = series.by_year[pyramidState.year];
-    const prevYear = pyramidState.year - 1;
-    if (validYears.includes(prevYear)) {
-      prevYearData = series.by_year[prevYear];
-    }
-
-    // Compute fixed max cohort scale for this scope & subpop across all 17 years
-    let peak = 0;
-    for (const y of validYears) {
-      const e = series.by_year[y];
-      if (e) {
-        peak = Math.max(peak, Math.max(...e.male), Math.max(...e.female));
+    els.themeBtn.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme') || 'dark';
+      const target = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', target);
+      localStorage.setItem('site-theme', target);
+      
+      // Rebuild charts with theme colors
+      Object.values(state.charts).forEach(c => {
+        if (c && typeof c.destroy === 'function') c.destroy();
+      });
+      state.charts = {};
+      if (typeof pyramidState !== 'undefined' && pyramidState.chart) {
+        pyramidState.chart.destroy();
+        pyramidState.chart = null;
       }
-    }
-    maxCohortScale = Math.ceil(peak * 1.08);
-
-    const scopeNames = {
-      'national': 'Republic of Maldives',
-      'male_city': "Malé Capital City",
-      'atolls': 'Outer Atolls'
-    };
-    scopeLabel = scopeNames[pyramidState.scope] || 'Republic of Maldives';
-    subpopLabel = pyramidState.subpop === 'Total' ? 'Total Resident' : (pyramidState.subpop === 'Maldivian' ? 'Maldivians Only' : 'Foreign Nationals');
-  } else {
-    // Census mode
-    const census = pyramidState.data.historical_census;
-    const validYears = census.years;
-    if (!validYears.includes(pyramidState.year)) {
-      pyramidState.year = validYears.reduce((prev, curr) => Math.abs(curr - pyramidState.year) < Math.abs(prev - pyramidState.year) ? curr : prev);
-    }
-    yearData = census.by_year[pyramidState.year];
-    const idx = validYears.indexOf(pyramidState.year);
-    if (idx > 0) {
-      prevYearData = census.by_year[validYears[idx - 1]];
-    }
-
-    let peak = 0;
-    for (const y of validYears) {
-      const e = census.by_year[y];
-      if (e) {
-        peak = Math.max(peak, Math.max(...e.male), Math.max(...e.female));
+      if (typeof expatLaborState !== 'undefined' && expatLaborState.chart) {
+        expatLaborState.chart.destroy();
+        expatLaborState.chart = null;
       }
-    }
-    maxCohortScale = Math.ceil(peak * 1.08);
-
-    scopeLabel = 'Republic of Maldives';
-    subpopLabel = 'Official Census Rounds (Maldivian Population)';
+      renderChartsForTab(state.activeTab);
+    });
   }
 
-  if (!yearData) return;
+  // =========================================================================
+  // 3. TABS NAVIGATION
+  // =========================================================================
+  function setupTabs() {
+    els.tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-target');
+        switchTab(targetId);
+      });
+    });
 
-  const ind = yearData.indicators;
-
-  // 1. Update Header Year & Badges
-  const yearEl = document.getElementById('pyramid-year-val');
-  if (yearEl) yearEl.textContent = pyramidState.year;
-
-  const badgeEl = document.getElementById('pyramid-series-badge');
-  if (badgeEl) {
-    if (!isAnnual) {
-      badgeEl.textContent = `Census Enumeration (${pyramidState.year})`;
-    } else if (pyramidState.year <= 2020) {
-      badgeEl.textContent = 'Official Annual Series';
-    } else if (pyramidState.year === 2021) {
-      badgeEl.textContent = 'Yearbook Baseline (2021)';
-    } else {
-      badgeEl.textContent = 'Demographic Horizon Projection';
-    }
-  }
-
-  const subtextEl = document.getElementById('pyramid-scope-subtext');
-  if (subtextEl) {
-    subtextEl.textContent = `${scopeLabel} • ${subpopLabel}`;
-  }
-
-  // 2. Update KPI Cards
-  const kpiTotal = document.getElementById('pyramid-kpi-total');
-  const kpiTotalSub = document.getElementById('pyramid-kpi-total-sub');
-  if (kpiTotal) kpiTotal.textContent = formatNum(yearData.total);
-  if (kpiTotalSub) {
-    if (prevYearData && prevYearData.total > 0) {
-      const diff = yearData.total - prevYearData.total;
-      const pct = ((diff / prevYearData.total) * 100).toFixed(1);
-      const sign = diff >= 0 ? '+' : '';
-      const prevYearLbl = isAnnual ? pyramidState.year - 1 : pyramidState.data.historical_census.years[pyramidState.data.historical_census.years.indexOf(pyramidState.year) - 1];
-      kpiTotalSub.textContent = `${sign}${pct}% vs ${prevYearLbl} (${sign}${formatNum(diff)})`;
-    } else {
-      kpiTotalSub.textContent = isAnnual ? 'Base year series' : 'Earliest census benchmark';
-    }
-  }
-
-  const kpiRatio = document.getElementById('pyramid-kpi-ratio');
-  const kpiRatioSub = document.getElementById('pyramid-kpi-ratio-sub');
-  if (kpiRatio) kpiRatio.textContent = `${ind.sex_ratio} M / 100 F`;
-  if (kpiRatioSub) {
-    if (ind.sex_ratio > 300) {
-      kpiRatioSub.textContent = `Severe male disparity (${(ind.sex_ratio / 100).toFixed(1)}:1 M:F)`;
-    } else if (ind.sex_ratio > 115) {
-      kpiRatioSub.textContent = `Skewed workforce (${(ind.sex_ratio / 100).toFixed(2)}:1 M:F)`;
-    } else {
-      kpiRatioSub.textContent = `Balanced demographic structure (${(ind.sex_ratio / 100).toFixed(2)}:1)`;
-    }
-  }
-
-  const kpiMedian = document.getElementById('pyramid-kpi-median');
-  const kpiMedianSub = document.getElementById('pyramid-kpi-median-sub');
-  if (kpiMedian) kpiMedian.textContent = `${ind.median_age} yrs`;
-  if (kpiMedianSub) {
-    if (ind.median_age < 20) {
-      kpiMedianSub.textContent = 'Very young high-fertility profile';
-    } else if (ind.median_age < 30) {
-      kpiMedianSub.textContent = 'Youth bulge in peak prime workforce';
-    } else {
-      kpiMedianSub.textContent = 'Maturing population profile';
-    }
-  }
-
-  const kpiWorking = document.getElementById('pyramid-kpi-working');
-  const kpiWorkingSub = document.getElementById('pyramid-kpi-working-sub');
-  if (kpiWorking) kpiWorking.textContent = `${ind.working_pct}%`;
-  if (kpiWorkingSub) kpiWorkingSub.textContent = `${formatNum(ind.working)} residents aged 15–64`;
-
-  const kpiDep = document.getElementById('pyramid-kpi-dep');
-  const kpiDepSub = document.getElementById('pyramid-kpi-dep-sub');
-  if (kpiDep) kpiDep.textContent = `${ind.dependency_ratio}%`;
-  if (kpiDepSub) kpiDepSub.textContent = `Youth: ${ind.youth_dependency}% • Elderly: ${ind.elderly_dependency}%`;
-
-  const kpiYouthElderly = document.getElementById('pyramid-kpi-youth-elderly');
-  const kpiYouthElderlySub = document.getElementById('pyramid-kpi-youth-elderly-sub');
-  if (kpiYouthElderly) kpiYouthElderly.textContent = `${ind.youth_pct}% vs ${ind.elderly_pct}%`;
-  if (kpiYouthElderlySub) kpiYouthElderlySub.textContent = `0-14 (${formatNum(ind.youth)}) • 65+ (${formatNum(ind.elderly)})`;
-
-  // 3. Legend Counts
-  const legMale = document.getElementById('pyramid-legend-male-count');
-  const legFemale = document.getElementById('pyramid-legend-female-count');
-  if (legMale) {
-    const pctM = yearData.total > 0 ? ((yearData.total_male / yearData.total) * 100).toFixed(1) : 0;
-    legMale.textContent = `${formatNum(yearData.total_male)} (${pctM}%)`;
-  }
-  if (legFemale) {
-    const pctF = yearData.total > 0 ? ((yearData.total_female / yearData.total) * 100).toFixed(1) : 0;
-    legFemale.textContent = `${formatNum(yearData.total_female)} (${pctF}%)`;
-  }
-
-  // 4. Update Slider & Active Highlights
-  const slider = document.getElementById('pyramid-range-slider');
-  if (slider) slider.value = pyramidState.year;
-
-  document.querySelectorAll('#pyramid-milestones-container .btn-milestone').forEach(b => {
-    b.classList.toggle('active', parseInt(b.getAttribute('data-jump'), 10) === pyramidState.year);
-  });
-  document.querySelectorAll('#pyramid-slider-ticks .slider-tick-label').forEach(t => {
-    t.classList.toggle('active', parseInt(t.getAttribute('data-year'), 10) === pyramidState.year);
-  });
-
-  // 5. Update or Create Chart.js Pyramid
-  updatePyramidChartCanvas(yearData, ageGroups, maxCohortScale, isSmooth);
-}
-
-function updatePyramidChartCanvas(yearData, ageGroups, maxCohortScale, isSmooth) {
-  const canvas = document.getElementById('pyramidChart');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const theme = getChartTheme();
-
-  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  const maleColor = theme.accent;
-  const femaleColor = isLight ? '#e11d48' : '#fb7185';
-  const maleBorder = '#0284c7';
-  const femaleBorder = '#e11d48';
-
-  const maleValues = yearData.male;
-  const femaleValues = yearData.female;
-  const currentTotal = yearData.total;
-
-  if (!charts['pyramidChart']) {
-    charts['pyramidChart'] = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ageGroups,
-        datasets: [
-          {
-            label: 'Male',
-            data: maleValues.map(v => -v),
-            backgroundColor: maleColor,
-            borderColor: maleBorder,
-            borderWidth: 1,
-            borderRadius: { topLeft: 3, bottomLeft: 3 },
-            barPercentage: 0.88,
-            categoryPercentage: 0.92
-          },
-          {
-            label: 'Female',
-            data: femaleValues,
-            backgroundColor: femaleColor,
-            borderColor: femaleBorder,
-            borderWidth: 1,
-            borderRadius: { topRight: 3, bottomRight: 3 },
-            barPercentage: 0.88,
-            categoryPercentage: 0.92
-          }
-        ]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        animation: {
-          duration: isSmooth ? Math.max(180, pyramidState.speed * 0.4) : 0,
-          easing: 'easeOutQuad'
-        },
-        scales: {
-          x: {
-            min: -maxCohortScale,
-            max: maxCohortScale,
-            grid: {
-              color: (c) => c.tick.value === 0 ? (theme.textColor) : theme.gridColor,
-              lineWidth: (c) => c.tick.value === 0 ? 1.5 : 1
-            },
-            ticks: {
-              color: theme.textColor,
-              font: { family: 'JetBrains Mono', size: 10 },
-              callback: (val) => {
-                const abs = Math.abs(val);
-                if (abs === 0) return '0';
-                return abs >= 1000 ? (abs / 1000).toFixed(0) + 'k' : abs;
-              }
-            }
-          },
-          y: {
-            grid: { display: false },
-            ticks: {
-              color: theme.headingColor,
-              font: { family: 'JetBrains Mono', size: 11, weight: 600 }
-            }
-          }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: {
-              title: (items) => `Age Bracket: ${items[0].label} years`,
-              label: (context) => {
-                const isMale = context.datasetIndex === 0;
-                const count = Math.abs(context.raw);
-                const otherCount = Math.abs(context.chart.data.datasets[isMale ? 1 : 0].data[context.dataIndex]);
-                const cohortTotal = count + otherCount;
-                const pctCohort = cohortTotal > 0 ? ((count / cohortTotal) * 100).toFixed(1) : 0;
-                const pctPop = currentTotal > 0 ? ((count / currentTotal) * 100).toFixed(1) : 0;
-                return ` ${isMale ? 'Male' : 'Female'}: ${formatNum(count)} (${pctCohort}% of age group, ${pctPop}% of pop)`;
-              },
-              afterBody: (items) => {
-                const idx = items[0].dataIndex;
-                const m = Math.abs(items[0].chart.data.datasets[0].data[idx]);
-                const f = Math.abs(items[0].chart.data.datasets[1].data[idx]);
-                const total = m + f;
-                const ratio = f > 0 ? ((m / f) * 100).toFixed(1) : 'N/A';
-                return [
-                  `Group Total: ${formatNum(total)} (${currentTotal > 0 ? ((total / currentTotal) * 100).toFixed(1) : 0}% of pop)`,
-                  `Sex Ratio: ${ratio} Males / 100 Females`
-                ];
-              }
-            }
-          }
+    if (els.catalogBtn) {
+      els.catalogBtn.addEventListener('click', () => {
+        switchTab('pane-catalog');
+        if (els.catalogInput) {
+          els.catalogInput.focus();
+          els.catalogInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
-      }
-    });
-  } else {
-    const chart = charts['pyramidChart'];
-    chart.data.labels = ageGroups;
-    chart.data.datasets[0].data = maleValues.map(v => -v);
-    chart.data.datasets[0].backgroundColor = maleColor;
-    chart.data.datasets[1].data = femaleValues;
-    chart.data.datasets[1].backgroundColor = femaleColor;
-    chart.options.scales.x.min = -maxCohortScale;
-    chart.options.scales.x.max = maxCohortScale;
-    chart.options.scales.x.grid.color = (c) => c.tick.value === 0 ? (theme.textColor) : theme.gridColor;
-    chart.options.scales.y.ticks.color = theme.headingColor;
-    chart.options.plugins.tooltip.callbacks.label = (context) => {
-      const isMale = context.datasetIndex === 0;
-      const count = Math.abs(context.raw);
-      const otherCount = Math.abs(context.chart.data.datasets[isMale ? 1 : 0].data[context.dataIndex]);
-      const cohortTotal = count + otherCount;
-      const pctCohort = cohortTotal > 0 ? ((count / cohortTotal) * 100).toFixed(1) : 0;
-      const pctPop = currentTotal > 0 ? ((count / currentTotal) * 100).toFixed(1) : 0;
-      return ` ${isMale ? 'Male' : 'Female'}: ${formatNum(count)} (${pctCohort}% of age group, ${pctPop}% of pop)`;
-    };
-    chart.options.plugins.tooltip.callbacks.afterBody = (items) => {
-      const idx = items[0].dataIndex;
-      const m = Math.abs(items[0].chart.data.datasets[0].data[idx]);
-      const f = Math.abs(items[0].chart.data.datasets[1].data[idx]);
-      const total = m + f;
-      const ratio = f > 0 ? ((m / f) * 100).toFixed(1) : 'N/A';
-      return [
-        `Group Total: ${formatNum(total)} (${currentTotal > 0 ? ((total / currentTotal) * 100).toFixed(1) : 0}% of pop)`,
-        `Sex Ratio: ${ratio} Males / 100 Females`
-      ];
-    };
-
-    if (isSmooth) {
-      chart.options.animation = {
-        duration: Math.max(180, pyramidState.speed * 0.4),
-        easing: 'easeOutQuad'
-      };
-      chart.update();
-    } else {
-      chart.update('none');
-    }
-  }
-}
-
-// ==========================================================================
-// 2. Geography & Urban Density Section
-// ==========================================================================
-function renderGeographySection(geo) {
-  if (!geo) return;
-  const theme = getChartTheme();
-  
-  // Chart 1: Global Density Benchmark (Log Scale)
-  destroyChart('densityBenchmarkChart');
-  const ctxBench = document.getElementById('densityBenchmarkChart')?.getContext('2d');
-  if (ctxBench) {
-    const bench = geo.global_benchmarks;
-    charts['densityBenchmarkChart'] = new Chart(ctxBench, {
-      type: 'bar',
-      data: {
-        labels: bench.map(b => b.entity),
-        datasets: [{
-          label: 'Population Density (/km²)',
-          data: bench.map(b => b.density),
-          backgroundColor: bench.map(b => b.highlight ? (b.density > 20000 ? theme.statusNeg : theme.statusPos) : theme.barBase),
-          borderRadius: 3
-        }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: {
-            type: 'logarithmic',
-            grid: { color: theme.gridColor },
-            ticks: {
-              color: theme.textColor,
-              callback: val => val >= 1000 ? (val / 1000) + 'k' : val,
-              font: { family: 'JetBrains Mono', size: 10 }
-            }
-          },
-          y: {
-            grid: { display: false },
-            ticks: { color: theme.textColor, font: { size: 11 } }
-          }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: {
-              label: c => `Density: ${formatNum(c.raw)} / km²`
-            }
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 2: Top 10 Inhabited Islands Population
-  destroyChart('topIslandsPopChart');
-  const ctxTop = document.getElementById('topIslandsPopChart')?.getContext('2d');
-  if (ctxTop) {
-    const top10 = geo.localities.slice(0, 10);
-    charts['topIslandsPopChart'] = new Chart(ctxTop, {
-      type: 'bar',
-      data: {
-        labels: top10.map(i => i.display_name || i.name),
-        datasets: [{
-          label: 'Resident Population (Census 2014)',
-          data: top10.map(i => i.population),
-          backgroundColor: top10.map(i => i.is_capital ? theme.statusNeg : theme.barBase),
-          borderRadius: 3
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: {
-            grid: { display: false },
-            ticks: { color: theme.textColor, font: { size: 10 } }
-          },
-          y: {
-            grid: { color: theme.gridColor },
-            ticks: {
-              color: theme.textColor,
-              callback: val => val >= 1000 ? (val / 1000) + 'k' : val,
-              font: { family: 'JetBrains Mono', size: 10 }
-            }
-          }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: {
-              title: items => {
-                const item = top10[items[0].dataIndex];
-                return `${item.display_name || item.name} • ${item.atoll_name || item.atoll_code}`;
-              },
-              label: c => `Population: ${formatNum(c.raw)} residents`
-            }
-          }
-        }
-      }
-    });
-  }
-
-  // Inhabited Islands Table
-  const tableBody = document.getElementById('islands-table-body');
-  const searchInput = document.getElementById('island-search-input');
-  const atollSelect = document.getElementById('island-atoll-select');
-  const sortSelect = document.getElementById('island-sort-select');
-  const countBadge = document.getElementById('islands-count-badge');
-
-  // Populate Atoll filter dropdown
-  if (atollSelect && geo.atolls && atollSelect.options.length <= 1) {
-    geo.atolls.forEach(att => {
-      const opt = document.createElement('option');
-      opt.value = att.code;
-      opt.textContent = att.code === 'Male'
-        ? `Malé City (${att.island_count})`
-        : `${att.code} - ${att.name} (${att.island_count})`;
-      atollSelect.appendChild(opt);
-    });
-  }
-
-  function renderTable(list) {
-    if (!tableBody) return;
-    tableBody.innerHTML = '';
-    if (countBadge) {
-      countBadge.textContent = `Showing ${list.length} of ${geo.localities.length}`;
-    }
-    if (list.length === 0) {
-      tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 2.5rem; color: var(--text-muted);">No matching localities found. Try clearing filters.</td></tr>`;
-      return;
-    }
-    list.forEach((loc, idx) => {
-      const tr = document.createElement('tr');
-      const atollPrefix = loc.atoll_code && loc.atoll_code !== 'Male'
-        ? `<span class="badge-atoll-tag" title="Administrative Atoll Code">${loc.atoll_code}</span>`
-        : '';
-      const capitalBadge = loc.is_capital ? '<span class="badge-capital" title="National Capital Area">Capital</span>' : '';
-      const atollCapBadge = loc.is_atoll_capital ? '<span class="badge-atoll-cap" title="Atoll Administrative Capital">Atoll Capital</span>' : '';
-
-      tr.innerHTML = `
-        <td class="num">${idx + 1}</td>
-        <td>
-          ${atollPrefix}<strong>${loc.name}</strong>
-          ${capitalBadge}${atollCapBadge}
-        </td>
-        <td>
-          <span style="font-weight: 500;">${loc.atoll_name || 'Malé City'}</span>
-          ${loc.atoll_code !== 'Male' && loc.atoll_geo ? `<span class="atoll-meta-text">${loc.atoll_geo}</span>` : ''}
-        </td>
-        <td class="num font-mono">${formatNum(loc.population)}</td>
-        <td class="num font-mono">${loc.land_area_ha ? formatNum(loc.land_area_ha) : '—'}</td>
-        <td class="num font-mono">${loc.density_km2 ? formatNum(loc.density_km2) : '—'}</td>
-        <td class="num font-mono">${loc.distance_km ? formatNum(loc.distance_km) + ' km' : '0 km'}</td>
-      `;
-      tableBody.appendChild(tr);
-    });
-  }
-
-  function filterAndSort() {
-    let list = [...geo.localities];
-    const q = searchInput?.value.toLowerCase().trim() || '';
-    const atollVal = atollSelect?.value || 'all';
-
-    if (atollVal !== 'all') {
-      list = list.filter(l => l.atoll_code === atollVal);
-    }
-
-    if (q) {
-      list = list.filter(l =>
-        l.name.toLowerCase().includes(q) ||
-        (l.display_name && l.display_name.toLowerCase().includes(q)) ||
-        (l.atoll_code && l.atoll_code.toLowerCase().includes(q)) ||
-        (l.atoll_name && l.atoll_name.toLowerCase().includes(q)) ||
-        (l.atoll_geo && l.atoll_geo.toLowerCase().includes(q))
-      );
-    }
-
-    const sortVal = sortSelect?.value || 'pop-desc';
-    if (sortVal === 'pop-desc') list.sort((a, b) => b.population - a.population);
-    if (sortVal === 'pop-asc') list.sort((a, b) => a.population - b.population);
-    if (sortVal === 'name-asc') list.sort((a, b) => a.name.localeCompare(b.name));
-    if (sortVal === 'atoll-asc') {
-      const atollOrder = ['Male', 'HA', 'HDh', 'Sh', 'N', 'R', 'B', 'Lh', 'K', 'AA', 'ADh', 'V', 'M', 'F', 'Dh', 'Th', 'L', 'GA', 'GDh', 'Gn', 'S'];
-      list.sort((a, b) => {
-        const idxA = atollOrder.indexOf(a.atoll_code);
-        const idxB = atollOrder.indexOf(b.atoll_code);
-        if (idxA !== idxB) return idxA - idxB;
-        return a.name.localeCompare(b.name);
       });
     }
-    if (sortVal === 'dens-desc') list.sort((a, b) => (b.density_km2 || 0) - (a.density_km2 || 0));
-    if (sortVal === 'dist-desc') list.sort((a, b) => (b.distance_km || 0) - (a.distance_km || 0));
-
-    renderTable(list);
   }
 
-  searchInput?.addEventListener('input', filterAndSort);
-  atollSelect?.addEventListener('change', filterAndSort);
-  sortSelect?.addEventListener('change', filterAndSort);
-  renderTable(geo.localities);
-}
+  function switchTab(targetId) {
+    if (!targetId || state.activeTab === targetId) return;
+    state.activeTab = targetId;
 
-// ==========================================================================
-// 3. Tourism & COVID-19 Disruption Section
-// ==========================================================================
-function renderTourismSection(tour) {
-  if (!tour) return;
-  const theme = getChartTheme();
+    els.tabButtons.forEach(btn => {
+      const isTarget = btn.getAttribute('data-target') === targetId;
+      btn.classList.toggle('active', isTarget);
+      btn.setAttribute('aria-selected', isTarget ? 'true' : 'false');
+    });
 
-  // Chart 1: Annual Arrivals 2012-2020
-  destroyChart('tourAnnualChart');
-  const ctxAnn = document.getElementById('tourAnnualChart')?.getContext('2d');
-  if (ctxAnn) {
-    charts['tourAnnualChart'] = new Chart(ctxAnn, {
+    els.tabPanes.forEach(pane => {
+      pane.classList.toggle('active', pane.id === targetId);
+    });
+
+    // Re-synchronize active year and month when switching tabs
+    updateYearKPIs(state.selectedYear);
+    if (targetId === 'pane-covid') {
+      setCovidMonth(state.covidMonthIndex);
+    }
+
+    // Render charts for this tab
+    setTimeout(() => {
+      renderChartsForTab(targetId);
+    }, 50);
+  }
+
+  function setupPillarJumps() {
+    document.querySelectorAll('[data-jump-tab]').forEach(el => {
+      el.addEventListener('click', () => {
+        const tab = el.getAttribute('data-jump-tab');
+        if (tab) {
+          switchTab(tab);
+          window.scrollTo({ top: 120, behavior: 'smooth' });
+        }
+      });
+    });
+  }
+
+  // =========================================================================
+  // 4. MASTER TIMELINE SCRUBBER (2000 - 2026)
+  // =========================================================================
+  function setupTimelineScrubber() {
+    if (!els.slider) return;
+
+    els.slider.addEventListener('input', (e) => {
+      const yr = parseInt(e.target.value, 10);
+      setScrubberYear(yr);
+    });
+
+    els.jumpPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const yr = parseInt(pill.getAttribute('data-year'), 10);
+        if (yr) {
+          els.slider.value = yr;
+          setScrubberYear(yr);
+        }
+      });
+    });
+
+    if (els.playBtn) {
+      els.playBtn.addEventListener('click', togglePlay);
+    }
+  }
+
+  function setScrubberYear(yr) {
+    state.selectedYear = yr;
+    if (els.yearDisplay) els.yearDisplay.textContent = yr;
+
+    // Update Jump Pill Active State
+    els.jumpPills.forEach(p => {
+      const pillYear = parseInt(p.getAttribute('data-year'), 10);
+      p.classList.toggle('active', pillYear === yr);
+    });
+
+    // Update 360 KPIs & COVID KPIs simultaneously
+    updateYearKPIs(yr);
+  }
+
+  function togglePlay() {
+    if (state.isPlaying) {
+      stopPlay();
+    } else {
+      startPlay();
+    }
+  }
+
+  function startPlay() {
+    state.isPlaying = true;
+    if (els.playText) els.playText.textContent = 'Pause';
+    if (els.playIcon) {
+      els.playIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+    }
+
+    state.playInterval = setInterval(() => {
+      let nextYr = state.selectedYear + 1;
+      if (nextYr > 2026) nextYr = 2000;
+      els.slider.value = nextYr;
+      setScrubberYear(nextYr);
+    }, 850);
+  }
+
+  function stopPlay() {
+    state.isPlaying = false;
+    if (state.playInterval) clearInterval(state.playInterval);
+    state.playInterval = null;
+    if (els.playText) els.playText.textContent = 'Auto Play';
+    if (els.playIcon) {
+      els.playIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+    }
+  }
+
+  // =========================================================================
+  // 5. COVID-19 PANDEMIC MONTH SCRUBBER & SIMULATION
+  // =========================================================================
+  function setupCovidScrubber() {
+    if (!els.covidMonthSlider) return;
+
+    els.covidMonthSlider.addEventListener('input', (e) => {
+      const idx = parseInt(e.target.value, 10);
+      setCovidMonth(idx);
+    });
+
+    els.covidJumpPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const m = parseInt(pill.getAttribute('data-covid-month'), 10);
+        if (!isNaN(m)) {
+          els.covidMonthSlider.value = m;
+          setCovidMonth(m);
+        }
+      });
+    });
+
+    if (els.covidPlayBtn) {
+      els.covidPlayBtn.addEventListener('click', toggleCovidPlay);
+    }
+  }
+
+  function toggleCovidPlay() {
+    if (state.isCovidPlaying) {
+      stopCovidPlay();
+    } else {
+      startCovidPlay();
+    }
+  }
+
+  function startCovidPlay() {
+    state.isCovidPlaying = true;
+    if (els.covidPlayText) els.covidPlayText.textContent = 'Pause Simulation';
+    if (els.covidPlayIcon) {
+      els.covidPlayIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+    }
+
+    state.covidPlayInterval = setInterval(() => {
+      let nextM = state.covidMonthIndex + 1;
+      if (nextM > 47) nextM = 0;
+      if (els.covidMonthSlider) els.covidMonthSlider.value = nextM;
+      setCovidMonth(nextM);
+    }, 280);
+  }
+
+  function stopCovidPlay() {
+    state.isCovidPlaying = false;
+    if (state.covidPlayInterval) clearInterval(state.covidPlayInterval);
+    state.covidPlayInterval = null;
+    if (els.covidPlayText) els.covidPlayText.textContent = 'Play COVID Simulation';
+    if (els.covidPlayIcon) {
+      els.covidPlayIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+    }
+  }
+
+  function setCovidMonth(index) {
+    if (!state.data || !state.data.covid_shock || !state.data.covid_shock.monthly_arrivals) return;
+    const list = state.data.covid_shock.monthly_arrivals;
+    if (index < 0 || index >= list.length) return;
+
+    state.covidMonthIndex = index;
+    const item = list[index];
+
+    // Highlight active jump pill
+    els.covidJumpPills.forEach(p => {
+      const m = parseInt(p.getAttribute('data-covid-month'), 10);
+      p.classList.toggle('active', m === index);
+    });
+
+    // Update Ticker Month & Visitors
+    if (els.covidTickerMonth) {
+      els.covidTickerMonth.textContent = `${item.month} ${item.year}`;
+    }
+    if (els.covidTickerVisitors) {
+      els.covidTickerVisitors.textContent = `${formatNum(item.arrivals)} Tourists`;
+      els.covidTickerVisitors.style.color = item.arrivals === 0 ? 'var(--rose)' : 'var(--accent)';
+    }
+
+    // Contextual Phase & Note Generator
+    let phaseText = '';
+    let noteText = '';
+    let badgeClass = 'ticker-badge';
+
+    if (item.year === 2019) {
+      phaseText = 'Normal Pre-COVID Operating Conditions';
+      noteText = `Normal tourism operations. China is the #1 market (${formatNum(item.arrivals)} monthly visitors from worldwide origins).`;
+      badgeClass = 'ticker-badge text-accent';
+    } else if (item.year === 2020 && (item.month === 'Jan' || item.month === 'Feb')) {
+      phaseText = 'First Global Alarms';
+      noteText = 'COVID-19 spreads globally. Flights from mainland China suspended; European demand remains temporarily strong.';
+    } else if (item.year === 2020 && item.month === 'Mar') {
+      phaseText = 'March 27: Complete Border Seal';
+      noteText = 'Borders completely closed on March 27. On-arrival visas cancelled; resorts locked down; tourists evacuated.';
+    } else if (item.year === 2020 && (item.month === 'Apr' || item.month === 'May' || item.month === 'Jun')) {
+      phaseText = '100% Nationwide Border Closure (0 Arrivals)';
+      noteText = '110-day total aviation shutdown. Zero international tourist arrivals. Local pole-and-line tuna fishing sustains island communities.';
+      badgeClass = 'ticker-badge text-rose';
+    } else if (item.year === 2020 && item.month === 'Jul') {
+      phaseText = 'July 15 Historic Reopening';
+      noteText = 'Maldives becomes one of the world\'s first nations to reopen without quarantine, leveraging natural resort island quarantine bubbles.';
+    } else if (item.year === 2020 && (item.month === 'Aug' || item.month === 'Sep' || item.month === 'Oct')) {
+      phaseText = 'Early Reopening Bubbles (Russia & UAE)';
+      noteText = 'Aeroflot, Emirates, and Qatar Airways resume scheduled routes. Russia surges to become the #1 tourist origin country.';
+    } else if (item.year === 2020 && (item.month === 'Nov' || item.month === 'Dec')) {
+      phaseText = 'Winter Season Restart (Russia #1)';
+      noteText = 'December arrivals cross 96k. High occupancy returns to private island resorts while European competitors remain under lockdowns.';
+    } else if (item.year === 2021 && (item.month === 'Jan' || item.month === 'Feb' || item.month === 'Mar')) {
+      phaseText = 'V-Shaped Recovery Accelerates (India Surge)';
+      noteText = 'India becomes the fastest growing origin market, crossing 30k visitors per month. Air-travel bubbles facilitate direct connections.';
+    } else if (item.year === 2021 && (item.month === 'Apr' || item.month === 'May')) {
+      phaseText = 'South Asia Delta Wave Travel Pause';
+      noteText = 'Temporary pause on South Asian tourist visas during the regional Delta wave; European traffic sustains baseline occupancy.';
+    } else if (item.year === 2021 && (item.month === 'Jul' || item.month === 'Aug' || item.month === 'Sep')) {
+      phaseText = 'Record Rebound: India & Russia Lead';
+      noteText = 'Monthly arrivals surpass 140,000. Maldives leads global post-pandemic recovery with universal vaccine campaigns across resort staff.';
+    } else if (item.year === 2021 && (item.month === 'Oct' || item.month === 'Nov' || item.month === 'Dec')) {
+      phaseText = '1.32M Annual Milestone Surpassed';
+      noteText = 'Annual total reaches 1,321,937 tourists (+138% YoY growth), smashing initial government recovery projections.';
+    } else if (item.year === 2022) {
+      phaseText = 'Full Normalization & European Return';
+      noteText = 'UK, Germany, and Italy rebound strongly alongside India and Russia. Total annual visitors reach 1.68 million.';
+    }
+
+    if (els.covidTickerPhase) {
+      els.covidTickerPhase.textContent = phaseText;
+      els.covidTickerPhase.className = badgeClass;
+    }
+    if (els.covidTickerNote) {
+      els.covidTickerNote.textContent = noteText;
+    }
+
+    // Update monthly chart active marker
+    updateCovidMonthlyChartMarker(index);
+  }
+
+  function updateCovidMonthlyChartMarker(index) {
+    if (!state.charts.covidMonthly) return;
+    state.charts.covidMonthly.update('none');
+  }
+
+  // =========================================================================
+  // 6. SYNCHRONIZED KPI UPDATES (360° + COVID)
+  // =========================================================================
+  function updateYearKPIs(year) {
+    if (!state.data || !state.data.timeline) return;
+
+    const row = state.data.timeline.find(r => r.year === year);
+    if (!row) return;
+
+    // --- 1. OVERVIEW 360° TAB KPIS ---
+    const elTourists = document.getElementById('kpi-val-tourists');
+    const elTouristsDelta = document.getElementById('kpi-delta-tourists');
+    const elBeds = document.getElementById('kpi-beds-sub');
+    if (elTourists) elTourists.textContent = formatNum(row.tourists);
+    if (elBeds) elBeds.textContent = `${formatNum(Math.round((row.resort_beds || 0) + (row.guesthouse_beds || 0)))} beds`;
+    if (elTouristsDelta) {
+      const prev = state.data.timeline.find(r => r.year === year - 1);
+      if (prev && prev.tourists) {
+        const pct = (((row.tourists - prev.tourists) / prev.tourists) * 100).toFixed(1);
+        elTouristsDelta.textContent = `${pct >= 0 ? '+' : ''}${pct}% YoY growth`;
+        elTouristsDelta.className = `kpi-delta ${pct >= 0 ? 'positive' : 'negative'}`;
+      } else {
+        elTouristsDelta.textContent = 'Baseline year';
+        elTouristsDelta.className = 'kpi-delta info';
+      }
+    }
+
+    // GDP
+    const elGdp = document.getElementById('kpi-val-gdp');
+    const elGdpDelta = document.getElementById('kpi-delta-gdp');
+    const elGdpGrowth = document.getElementById('kpi-gdp-growth');
+    if (elGdp) elGdp.innerHTML = `$${(row.gdp_usd_m / 1000).toFixed(2)}B <small>USD</small>`;
+    if (elGdpDelta) elGdpDelta.textContent = `Per Capita: $${formatNum(Math.round(row.gdp_per_capita_usd))} USD`;
+    if (elGdpGrowth) {
+      const g = row.gdp_growth_pct;
+      elGdpGrowth.textContent = `${g >= 0 ? '+' : ''}${g.toFixed(1)}% YoY`;
+      elGdpGrowth.className = g >= 0 ? 'text-positive' : 'text-negative';
+    }
+
+    // Population
+    const elPop = document.getElementById('kpi-val-pop');
+    const elPopDelta = document.getElementById('kpi-delta-pop');
+    const elDensity = document.getElementById('kpi-density-sub');
+    if (elPop) elPop.textContent = formatNum(Math.round(row.total_pop));
+    if (elPopDelta && row.total_pop) {
+      const malePct = ((row.male_pop / row.total_pop) * 100).toFixed(1);
+      elPopDelta.textContent = `Malé: ${formatNum(Math.round(row.male_pop))} (${malePct}%)`;
+    }
+    if (elDensity) {
+      const density = Math.round(row.male_pop / 3.0);
+      elDensity.textContent = `${formatNum(density)} / km² in Malé`;
+    }
+
+    // Debt
+    const elDebt = document.getElementById('kpi-val-debt');
+    const elDebtDelta = document.getElementById('kpi-delta-debt');
+    const elDeficit = document.getElementById('kpi-deficit-sub');
+    if (elDebt) elDebt.textContent = `${row.debt_to_gdp_pct.toFixed(1)}%`;
+    if (elDebtDelta) elDebtDelta.textContent = `${(row.public_debt_mvr / 1000).toFixed(1)}B MVR Total Debt`;
+    if (elDeficit) {
+      const def = (row.fiscal_deficit_mvr / 1000).toFixed(1);
+      elDeficit.textContent = `${def}B MVR (${year})`;
+    }
+
+    // Fish Catch
+    const elFish = document.getElementById('kpi-val-fish');
+    if (elFish) elFish.innerHTML = `${formatNum(Math.round(row.fish_catch_mt))} <small>MT</small>`;
+
+    // Electricity
+    const elEnergy = document.getElementById('kpi-val-energy');
+    const elEnergyDelta = document.getElementById('kpi-delta-energy');
+    const elSolar = document.getElementById('kpi-solar-sub');
+    if (elEnergy) elEnergy.innerHTML = `${formatNum(Math.round(row.electricity_gwh))} <small>GWh</small>`;
+    if (elEnergyDelta) {
+      const diesel = Math.round(row.electricity_gwh * 0.42);
+      elEnergyDelta.textContent = `~${diesel}M Liters Diesel Used`;
+    }
+    if (elSolar) {
+      const solarEst = Math.min(85, Math.max(1.2, (year - 2010) * 5.8));
+      elSolar.textContent = `${solarEst > 1 ? solarEst.toFixed(0) : '1.2'} MW Installed`;
+    }
+
+    // --- 2. COVID-19 SHOCK TAB DYNAMIC KPIS ---
+    updateCovidKPIs(year, row);
+
+    // --- 3. GREATER MALÉ AREA TAB KPIS & BANNER ---
+    updateGreaterMaleKPIs(year, row);
+
+    // --- 4. DEMOGRAPHICS TAB BANNER & REACTION ---
+    updateDemographicsBanner(year, row);
+
+    // --- 5. ECONOMY TAB BANNER ---
+    updateEconomyBanner(year, row);
+
+    // --- 6. TOURISM TAB BANNER ---
+    updateTourismBanner(year, row);
+
+    // --- 7. LIFELINES TAB BANNER ---
+    updateLifelinesBanner(year, row);
+
+    // --- 8. SOCIETY TAB BANNER ---
+    updateSocietyBanner(year, row);
+  }
+
+  function updateCovidKPIs(year, row) {
+    const elPhaseTag = document.getElementById('covid-kpi-phase-tag');
+    const elCovidGdp = document.getElementById('covid-val-gdp');
+    const elCovidGdpDelta = document.getElementById('covid-delta-gdp');
+    const elCovidGdpFooter = document.getElementById('covid-footer-gdp');
+
+    const elCovidTourists = document.getElementById('covid-val-tourists');
+    const elCovidTouristsDelta = document.getElementById('covid-delta-tourists');
+    const elCovidTouristsFooter = document.getElementById('covid-footer-tourists');
+
+    const elCovidMarket = document.getElementById('covid-val-market');
+    const elCovidMarketDelta = document.getElementById('covid-delta-market');
+    const elCovidMarketFooter = document.getElementById('covid-footer-market');
+
+    const elCovidBorders = document.getElementById('covid-val-borders');
+    const elCovidBordersDelta = document.getElementById('covid-delta-borders');
+
+    const elCovidFish = document.getElementById('covid-val-fish');
+    const elCovidFishDelta = document.getElementById('covid-delta-fish');
+
+    const elCovidDebt = document.getElementById('covid-val-debt');
+    const elCovidDebtDelta = document.getElementById('covid-delta-debt');
+
+    // Contextual Phase Tag
+    if (elPhaseTag) {
+      if (year < 2019) {
+        elPhaseTag.textContent = `[Year ${year}: Pre-Pandemic Baseline Era]`;
+        elPhaseTag.className = 'font-mono text-accent';
+      } else if (year === 2019) {
+        elPhaseTag.textContent = '[Year 2019: Pre-COVID Peak: 1.70M Visitors]';
+        elPhaseTag.className = 'font-mono text-accent';
+      } else if (year === 2020) {
+        elPhaseTag.textContent = '[Year 2020: Complete Border Lockdown & -33.5% GDP Crash]';
+        elPhaseTag.className = 'font-mono text-rose';
+      } else if (year === 2021) {
+        elPhaseTag.textContent = '[Year 2021: World-Leading V-Shaped Rebound: +41.7% GDP]';
+        elPhaseTag.className = 'font-mono text-positive';
+      } else if (year === 2022) {
+        elPhaseTag.textContent = '[Year 2022: Post-Pandemic Normalization: 1.68M Visitors]';
+        elPhaseTag.className = 'font-mono text-positive';
+      } else {
+        elPhaseTag.textContent = `[Year ${year}: All-Time Historical Peak: 2.05M+ Visitors]`;
+        elPhaseTag.className = 'font-mono text-positive';
+      }
+    }
+
+    // Real GDP Impact
+    if (elCovidGdp) {
+      const g = row.gdp_growth_pct;
+      elCovidGdp.textContent = `${g >= 0 ? '+' : ''}${g.toFixed(1)}%`;
+      elCovidGdp.className = `kpi-value font-mono ${g >= 0 ? 'positive' : 'negative'}`;
+    }
+    if (elCovidGdpDelta) {
+      if (year === 2020) elCovidGdpDelta.textContent = 'Historic economic contraction';
+      else if (year === 2021) elCovidGdpDelta.textContent = 'World-leading rebound';
+      else elCovidGdpDelta.textContent = `Real GDP expansion for ${year}`;
+      elCovidGdpDelta.className = `kpi-delta ${row.gdp_growth_pct >= 0 ? 'positive' : 'negative'}`;
+    }
+    if (elCovidGdpFooter) {
+      elCovidGdpFooter.textContent = `GDP: $${(row.gdp_usd_m / 1000).toFixed(2)}B USD output`;
+    }
+
+    // Annual Visitors
+    if (elCovidTourists) {
+      elCovidTourists.textContent = formatNum(row.tourists);
+      elCovidTourists.className = `kpi-value font-mono ${year === 2020 ? 'negative' : 'positive'}`;
+    }
+    if (elCovidTouristsDelta) {
+      if (year === 2020) elCovidTouristsDelta.textContent = '-67.4% from 1.70M peak';
+      else if (year === 2021) elCovidTouristsDelta.textContent = '+138.0% YoY rebound surge';
+      else if (year === 2024) elCovidTouristsDelta.textContent = '+20.2% above 2019 baseline';
+      else elCovidTouristsDelta.textContent = `Annual arrivals for ${year}`;
+    }
+    if (elCovidTouristsFooter) {
+      if (year === 2020) elCovidTouristsFooter.textContent = 'Apr–Jun: 0 arrivals';
+      else elCovidTouristsFooter.textContent = `Capacity: ${formatNum(Math.round((row.resort_beds || 0) + (row.guesthouse_beds || 0)))} beds`;
+    }
+
+    // Origin Market
+    if (elCovidMarket) {
+      if (year === 2019) elCovidMarket.textContent = 'China (284k)';
+      else if (year === 2020) elCovidMarket.textContent = 'Russia (61k)';
+      else if (year === 2021) elCovidMarket.textContent = 'India (292k)';
+      else if (year === 2022) elCovidMarket.textContent = 'India (241k)';
+      else if (year === 2023) elCovidMarket.textContent = 'India / Russia (209k)';
+      else if (year >= 2024) elCovidMarket.textContent = 'China (263k)';
+      else elCovidMarket.textContent = 'United Kingdom / Italy';
+    }
+    if (elCovidMarketDelta) {
+      if (year === 2020) elCovidMarketDelta.textContent = 'China dropped: 284k → 34k';
+      else if (year === 2021) elCovidMarketDelta.textContent = 'Russia #2 (222k), UK #3';
+      else if (year >= 2024) elCovidMarketDelta.textContent = 'India #2 (209k), Russia #3';
+      else elCovidMarketDelta.textContent = 'Market source alignment';
+    }
+
+    // Border Status
+    if (elCovidBorders) {
+      if (year <= 2019) elCovidBorders.textContent = 'Open Worldwide';
+      else if (year === 2020) elCovidBorders.textContent = 'Closed → Bubble';
+      else if (year === 2021) elCovidBorders.textContent = 'Resort Bubble';
+      else elCovidBorders.textContent = 'Fully Open';
+    }
+    if (elCovidBordersDelta) {
+      if (year === 2020) elCovidBordersDelta.textContent = 'Reopened 15 July 2020';
+      else if (year === 2021) elCovidBordersDelta.textContent = 'Quarantine-free bubbles';
+      else elCovidBordersDelta.textContent = 'No travel restrictions';
+    }
+
+    // Fish Buffer
+    if (elCovidFish) {
+      elCovidFish.innerHTML = `${formatNum(Math.round(row.fish_catch_mt))} <small>MT</small>`;
+    }
+    if (elCovidFishDelta) {
+      if (year === 2020) elCovidFishDelta.textContent = '+10.2% YoY during lockdown';
+      else elCovidFishDelta.textContent = 'Pole & line harvest';
+    }
+
+    // Debt
+    if (elCovidDebt) {
+      elCovidDebt.textContent = `${row.debt_to_gdp_pct.toFixed(1)}%`;
+      elCovidDebt.className = `kpi-value font-mono ${row.debt_to_gdp_pct > 100 ? 'negative' : ''}`;
+    }
+    if (elCovidDebtDelta) {
+      if (year === 2020) elCovidDebtDelta.textContent = '+72.6 percentage pts spike';
+      else elCovidDebtDelta.textContent = `${(row.public_debt_mvr / 1000).toFixed(1)}B MVR Total Debt`;
+    }
+
+    // Also auto-sync month scrubber slider when user is on COVID tab!
+    if (state.activeTab === 'pane-covid' && !state.isCovidPlaying) {
+      if (year === 2019 && state.covidMonthIndex > 11) {
+        if (els.covidMonthSlider) els.covidMonthSlider.value = 6;
+        setCovidMonth(6);
+      } else if (year === 2020 && (state.covidMonthIndex < 12 || state.covidMonthIndex > 23)) {
+        if (els.covidMonthSlider) els.covidMonthSlider.value = 15;
+        setCovidMonth(15);
+      } else if (year === 2021 && (state.covidMonthIndex < 24 || state.covidMonthIndex > 35)) {
+        if (els.covidMonthSlider) els.covidMonthSlider.value = 31;
+        setCovidMonth(31);
+      } else if (year === 2022 && state.covidMonthIndex < 36) {
+        if (els.covidMonthSlider) els.covidMonthSlider.value = 42;
+        setCovidMonth(42);
+      }
+    }
+  }
+
+  // --- 3. GREATER MALÉ KPIS & BANNER ---
+  function updateGreaterMaleKPIs(year, row) {
+    const elBannerYear = document.getElementById('gm-banner-year');
+    if (elBannerYear) elBannerYear.textContent = year;
+
+    document.querySelectorAll('.gm-active-year-label').forEach(el => {
+      el.textContent = year;
+    });
+
+    if (!state.data || !state.data.greater_male || !state.data.greater_male.timeline) return;
+
+    let gmRow = state.data.greater_male.timeline.find(r => r.year === year);
+    if (!gmRow) {
+      gmRow = state.data.greater_male.timeline[state.data.greater_male.timeline.length - 1];
+    }
+
+    const elMalePop = document.getElementById('card-male-pop');
+    const elMaleDensity = document.getElementById('card-male-density');
+    const elHulhuPop = document.getElementById('card-hulhu-pop');
+    const elHulhuDensity = document.getElementById('card-hulhu-density');
+    const elViliPop = document.getElementById('card-vili-pop');
+    const elViliDensity = document.getElementById('card-vili-density');
+    const elGmTotalPop = document.getElementById('card-gm-total-pop');
+    const elGmShare = document.getElementById('card-gm-share');
+    const elGmDensity = document.getElementById('card-gm-density');
+
+    if (elMalePop) elMalePop.textContent = formatNum(gmRow.male_island_pop);
+    if (elMaleDensity) elMaleDensity.textContent = `${formatNum(gmRow.male_density)} / km²`;
+    if (elHulhuPop) elHulhuPop.textContent = formatNum(gmRow.hulhumale_pop);
+    if (elHulhuDensity) elHulhuDensity.textContent = `${formatNum(gmRow.hulhu_density)} / km²`;
+    if (elViliPop) elViliPop.textContent = formatNum(gmRow.vilingili_pop);
+    if (elViliDensity) elViliDensity.textContent = `${formatNum(gmRow.vili_density)} / km²`;
+    if (elGmTotalPop) elGmTotalPop.textContent = formatNum(gmRow.greater_male_total);
+    if (elGmShare) elGmShare.textContent = `${gmRow.gm_share_pct.toFixed(1)}%`;
+    if (elGmDensity) elGmDensity.textContent = `${formatNum(gmRow.gm_density)} / km²`;
+
+    const elBannerMetrics = document.getElementById('gm-banner-metrics');
+    if (elBannerMetrics) {
+      const totalWaterK = (gmRow.water_male_tons_k || 0) + (gmRow.water_hulhu_tons_k || 0) + (gmRow.water_vili_tons_k || 0);
+      elBannerMetrics.innerHTML = `
+        <span class="banner-pill">🏙️ Malé Island: <strong>${formatNum(gmRow.male_island_pop)}</strong> (${formatNum(gmRow.male_density)}/km²)</span>
+        <span class="banner-pill">🏗️ Hulhumalé: <strong>${formatNum(gmRow.hulhumale_pop)}</strong></span>
+        <span class="banner-pill">🌴 Villimalé: <strong>${formatNum(gmRow.vilingili_pop)}</strong></span>
+        <span class="banner-pill">⚡ Conurbation: <strong>${formatNum(gmRow.greater_male_total)}</strong> (${gmRow.gm_share_pct.toFixed(1)}% of Maldives)</span>
+        <span class="banner-pill">💧 Water Demand: <strong>${formatNum(totalWaterK)}k Tons</strong></span>
+      `;
+    }
+  }
+
+  // --- 4. DEMOGRAPHICS BANNER & SYNCHRONIZATION ---
+  function updateDemographicsBanner(year, row) {
+    const elBannerYear = document.getElementById('demographics-banner-year');
+    if (elBannerYear) elBannerYear.textContent = year;
+
+    const elBannerMetrics = document.getElementById('demographics-banner-metrics');
+    if (elBannerMetrics) {
+      const expatCount = getExpatCountForYear(year);
+      const maleShare = ((row.male_pop / row.total_pop) * 100).toFixed(1);
+      elBannerMetrics.innerHTML = `
+        <span class="banner-pill">👥 National Population: <strong>${formatNum(Math.round(row.total_pop))}</strong></span>
+        <span class="banner-pill">🏙️ Malé Concentration: <strong>${maleShare}%</strong> (${formatNum(Math.round(row.male_pop))})</span>
+        <span class="banner-pill">🏝️ Outer Atolls: <strong>${formatNum(Math.round(row.atolls_pop))}</strong></span>
+        <span class="banner-pill">👷 Foreign Labor Force: <strong>~${formatNum(expatCount)}</strong></span>
+      `;
+    }
+
+    if (state.activeTab === 'pane-demographics') {
+      if (typeof pyramidState !== 'undefined' && pyramidState.initialized && !pyramidState.isPlaying) {
+        if (year >= 2014 && year <= 2030 && pyramidState.mode === 'annual') {
+          pyramidState.year = year;
+          const slider = document.getElementById('pyramid-range-slider');
+          if (slider) slider.value = year;
+          updatePyramidUI(false);
+        }
+      }
+      if (typeof expatLaborState !== 'undefined' && expatLaborState.initialized && !expatLaborState.isPlaying) {
+        const expatYear = Math.min(2024, Math.max(2008, year));
+        expatLaborState.year = expatYear;
+        const slider = document.getElementById('expat-range-slider');
+        if (slider) slider.value = expatYear;
+        updateExpatUI(expatYear);
+      }
+    }
+  }
+
+  // --- 5. ECONOMY BANNER ---
+  function updateEconomyBanner(year, row) {
+    const elBannerYear = document.getElementById('economy-banner-year');
+    if (elBannerYear) elBannerYear.textContent = year;
+
+    const elBannerMetrics = document.getElementById('economy-banner-metrics');
+    if (elBannerMetrics) {
+      const g = row.gdp_growth_pct;
+      elBannerMetrics.innerHTML = `
+        <span class="banner-pill">💰 Nominal GDP: <strong>$${(row.gdp_usd_m / 1000).toFixed(2)}B USD</strong></span>
+        <span class="banner-pill">📈 Growth: <strong class="${g >= 0 ? 'text-positive' : 'text-negative'}">${g >= 0 ? '+' : ''}${g.toFixed(1)}% YoY</strong></span>
+        <span class="banner-pill">🏛️ Public Debt: <strong>${row.debt_to_gdp_pct.toFixed(1)}% of GDP</strong> (${(row.public_debt_mvr / 1000).toFixed(1)}B MVR)</span>
+        <span class="banner-pill">📉 Fiscal Deficit: <strong>${(row.fiscal_deficit_mvr / 1000).toFixed(1)}B MVR</strong></span>
+      `;
+    }
+  }
+
+  // --- 6. TOURISM BANNER ---
+  function updateTourismBanner(year, row) {
+    const elBannerYear = document.getElementById('tourism-banner-year');
+    if (elBannerYear) elBannerYear.textContent = year;
+
+    const elBannerMetrics = document.getElementById('tourism-banner-metrics');
+    if (elBannerMetrics) {
+      const beds = Math.round((row.resort_beds || 0) + (row.guesthouse_beds || 0));
+      const estBedNights = ((row.tourists * 7.4) / 1000000).toFixed(2);
+      elBannerMetrics.innerHTML = `
+        <span class="banner-pill">🏝️ Tourist Arrivals: <strong>${formatNum(row.tourists)}</strong></span>
+        <span class="banner-pill">🛏️ Total Operational Beds: <strong>${formatNum(beds)}</strong></span>
+        <span class="banner-pill">🌙 Est Bed-Nights: <strong>${estBedNights}M</strong></span>
+        <span class="banner-pill">🐟 Sustainable Tuna Catch: <strong>${formatNum(Math.round(row.fish_catch_mt))} MT</strong></span>
+      `;
+    }
+  }
+
+  // --- 7. LIFELINES BANNER ---
+  function updateLifelinesBanner(year, row) {
+    const elBannerYear = document.getElementById('lifelines-banner-year');
+    if (elBannerYear) elBannerYear.textContent = year;
+
+    const elBannerMetrics = document.getElementById('lifelines-banner-metrics');
+    if (elBannerMetrics) {
+      const diesel = Math.round(row.electricity_gwh * 0.42);
+      const solarEst = Math.min(85, Math.max(1.2, (year - 2010) * 5.8));
+      const emergencyIslands = Math.max(12, Math.round(92 - (year - 2005) * 4.2));
+      elBannerMetrics.innerHTML = `
+        <span class="banner-pill">⚡ Electricity Generated: <strong>${formatNum(Math.round(row.electricity_gwh))} GWh</strong></span>
+        <span class="banner-pill">⛽ Diesel Fuel Burned: <strong>~${diesel}M Liters</strong></span>
+        <span class="banner-pill">☀️ Solar PV Grid Capacity: <strong>~${solarEst.toFixed(1)} MW</strong></span>
+        <span class="banner-pill">💧 Drought Water Aid: <strong>${emergencyIslands} Islands</strong></span>
+      `;
+    }
+  }
+
+  // --- 8. SOCIETY BANNER ---
+  function updateSocietyBanner(year, row) {
+    const elBannerYear = document.getElementById('society-banner-year');
+    if (elBannerYear) elBannerYear.textContent = year;
+
+    const elBannerMetrics = document.getElementById('society-banner-metrics');
+    if (elBannerMetrics) {
+      const voters = Math.round(row.total_pop * 0.54);
+      elBannerMetrics.innerHTML = `
+        <span class="banner-pill">👥 Population: <strong>${formatNum(Math.round(row.total_pop))}</strong></span>
+        <span class="banner-pill">🗳️ Eligible Voters: <strong>~${formatNum(voters)}</strong></span>
+        <span class="banner-pill">🎓 Youth Literacy: <strong>98.7%</strong></span>
+        <span class="banner-pill">⚖️ Rule of Law: <strong>Civil & Magistrate Courts</strong></span>
+      `;
+    }
+  }
+
+  function getExpatCountForYear(year) {
+    if (!state.data || !state.data.expat_timeline) return 120000;
+    const match = state.data.expat_timeline.find(r => r.year === year);
+    if (match) return match.total;
+    if (year < 2008) return 55000;
+    return 190000;
+  }
+
+  // =========================================================================
+  // 7. CHART RENDER ENGINE (Chart.js)
+  // =========================================================================
+  function renderChartsForTab(tabId) {
+    if (!state.data) return;
+
+    if (tabId === 'pane-360') {
+      renderGrowthCompassChart();
+      renderGdpGrowthTimelineChart();
+    } else if (tabId === 'pane-covid') {
+      renderCovidMonthlyChart();
+      renderCovidMarketShiftChart();
+      renderCovidBenchmarkChart();
+    } else if (tabId === 'pane-economy') {
+      renderGdpSectorsChart();
+      renderFiscalBalanceChart();
+      renderDebtCompositionChart();
+      renderRevenueSourcesChart();
+    } else if (tabId === 'pane-tourism') {
+      renderTourismOriginsChart();
+      renderBedCapacityChart();
+      renderFishCatchChart();
+    } else if (tabId === 'pane-greater-male') {
+      renderGreaterMaleCharts();
+    } else if (tabId === 'pane-demographics') {
+      renderDemographicsSection(state.data.pyramid_demographics);
+      renderExpatLaborSection();
+      setTimeout(() => {
+        if (pyramidState.chart) {
+          pyramidState.chart.resize();
+          pyramidState.chart.update('none');
+        }
+        if (expatLaborState.chart) {
+          expatLaborState.chart.resize();
+          expatLaborState.chart.update('none');
+        }
+      }, 60);
+    } else if (tabId === 'pane-lifelines') {
+      renderEnergyTransitionChart();
+      renderWaterEmergencyChart();
+    } else if (tabId === 'pane-society') {
+      renderCrimeTypesChart();
+      renderElectionTurnoutChart();
+      renderEducationStagesChart();
+    }
+  }
+
+  // Chart 1: Macro Growth Compass
+  function renderGrowthCompassChart() {
+    const ctx = document.getElementById('chart-growth-compass');
+    if (!ctx) return;
+    if (state.charts.compass) state.charts.compass.destroy();
+
+    const colors = getChartColors();
+    const rows = state.data.timeline.filter(r => r.year >= 2000 && r.year <= 2026);
+    const labels = rows.map(r => r.year);
+
+    const bTourists = rows[0].tourists;
+    const bGdp = rows[0].gdp_usd_m;
+    const bPop = rows[0].total_pop;
+    const bEnergy = rows[0].electricity_gwh;
+
+    state.charts.compass = new Chart(ctx, {
       type: 'line',
       data: {
-        labels: tour.annual_arrivals.map(a => a.year),
-        datasets: [{
-          label: 'Annual Arrivals',
-          data: tour.annual_arrivals.map(a => a.arrivals),
-          borderColor: theme.accent,
-          backgroundColor: theme.accentMuted,
-          fill: true,
-          tension: 0.2,
-          borderWidth: 2,
-          pointBackgroundColor: theme.accent,
-          pointRadius: 3
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, font: { size: 10 } } },
-          y: {
-            grid: { color: theme.gridColor },
-            ticks: { color: theme.textColor, callback: val => (val / 1000) + 'k', font: { family: 'JetBrains Mono', size: 10 } }
-          }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: { label: c => `Arrivals: ${formatNum(c.raw)}` }
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 2: 2020 Monthly Arrivals
-  destroyChart('tourMonthlyChart');
-  const ctxMon = document.getElementById('tourMonthlyChart')?.getContext('2d');
-  if (ctxMon) {
-    charts['tourMonthlyChart'] = new Chart(ctxMon, {
-      type: 'bar',
-      data: {
-        labels: tour.monthly_2020.map(m => m.month),
-        datasets: [{
-          label: '2020 Monthly Arrivals',
-          data: tour.monthly_2020.map(m => m.arrivals),
-          backgroundColor: tour.monthly_2020.map(m => m.arrivals < 5000 ? theme.statusNeg : theme.barBase),
-          borderRadius: 3
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { display: false }, ticks: { color: theme.textColor, font: { size: 10 } } },
-          y: {
-            grid: { color: theme.gridColor },
-            ticks: { color: theme.textColor, callback: val => (val / 1000) + 'k', font: { family: 'JetBrains Mono', size: 10 } }
-          }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: { label: c => `Arrivals: ${formatNum(c.raw)}` }
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 3: Source Market Shift (2019 vs 2020)
-  destroyChart('tourMarketShiftChart');
-  const ctxShift = document.getElementById('tourMarketShiftChart')?.getContext('2d');
-  if (ctxShift) {
-    const markets = tour.market_shifts.slice(0, 8);
-    charts['tourMarketShiftChart'] = new Chart(ctxShift, {
-      type: 'bar',
-      data: {
-        labels: markets.map(m => m.country),
+        labels: labels,
         datasets: [
           {
-            label: '2019 Arrivals',
-            data: markets.map(m => m['2019']),
-            backgroundColor: theme.barBase,
-            borderRadius: 3
+            label: 'Nominal GDP USD',
+            data: rows.map(r => ((r.gdp_usd_m / bGdp) * 100).toFixed(1)),
+            borderColor: colors.accent,
+            backgroundColor: 'transparent',
+            borderWidth: 2.5,
+            tension: 0.3,
+            pointRadius: 0,
+            pointHoverRadius: 5
           },
           {
-            label: '2020 Arrivals',
-            data: markets.map(m => m['2020']),
-            backgroundColor: theme.accent,
-            borderRadius: 3
-          }
-        ]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: {
-            grid: { color: theme.gridColor },
-            ticks: { color: theme.textColor, callback: val => (val / 1000) + 'k', font: { family: 'JetBrains Mono', size: 10 } }
-          },
-          y: { grid: { display: false }, ticks: { color: theme.textColor, font: { size: 11 } } }
-        },
-        plugins: {
-          legend: { labels: { color: theme.textColor, font: { family: 'Inter', size: 11 } } },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText
-          }
-        }
-      }
-    });
-  }
-}
-
-// ==========================================================================
-// 4. Macroeconomics & Real GDP Section
-// ==========================================================================
-function renderGdpSection(gdp) {
-  if (!gdp) return;
-  const theme = getChartTheme();
-
-  // Chart 1: Real GDP Trend
-  destroyChart('gdpTrendChart');
-  const ctxGdp = document.getElementById('gdpTrendChart')?.getContext('2d');
-  if (ctxGdp) {
-    charts['gdpTrendChart'] = new Chart(ctxGdp, {
-      type: 'line',
-      data: {
-        labels: gdp.series.map(s => s.year),
-        datasets: [{
-          label: 'Real GDP (Billion MVR)',
-          data: gdp.series.map(s => s.real_gdp_mvr_m / 1000),
-          borderColor: theme.accent,
-          backgroundColor: theme.accentMuted,
-          fill: true,
-          tension: 0.15,
-          borderWidth: 2,
-          pointBackgroundColor: theme.accent,
-          pointRadius: 2.5
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, font: { size: 10 } } },
-          y: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, callback: v => v + 'B', font: { family: 'JetBrains Mono', size: 10 } } }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: { label: c => `Real GDP: ${c.raw.toFixed(1)}B MVR` }
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 2: Sectoral Growth / Contraction in 2020
-  destroyChart('gdpSectorChart');
-  const ctxSec = document.getElementById('gdpSectorChart')?.getContext('2d');
-  if (ctxSec) {
-    const sec = gdp.sectoral_growth;
-    charts['gdpSectorChart'] = new Chart(ctxSec, {
-      type: 'bar',
-      data: {
-        labels: sec.map(s => s.sector),
-        datasets: [{
-          label: '2020 YoY Growth (%)',
-          data: sec.map(s => s.growth_pct),
-          backgroundColor: sec.map(s => s.growth_pct > 0 ? theme.statusPos : theme.statusNeg),
-          borderRadius: 3
-        }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, callback: v => v + '%', font: { family: 'JetBrains Mono', size: 10 } } },
-          y: { grid: { display: false }, ticks: { color: theme.textColor, font: { size: 11 } } }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: { label: c => `Growth: ${c.raw > 0 ? '+' : ''}${c.raw}%` }
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 3: Global GDP Benchmark Comparison (2020)
-  destroyChart('gdpBenchmarkChart');
-  const ctxBench = document.getElementById('gdpBenchmarkChart')?.getContext('2d');
-  if (ctxBench) {
-    const bench = gdp.global_gdp_benchmarks;
-    charts['gdpBenchmarkChart'] = new Chart(ctxBench, {
-      type: 'bar',
-      data: {
-        labels: bench.map(b => b.country),
-        datasets: [{
-          label: '2020 Real GDP Growth (%)',
-          data: bench.map(b => b.growth_2020),
-          backgroundColor: bench.map(b => b.highlight ? theme.statusNeg : theme.barBase),
-          borderRadius: 3
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { display: false }, ticks: { color: theme.textColor, font: { size: 10 } } },
-          y: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, callback: v => v + '%', font: { family: 'JetBrains Mono', size: 10 } } }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: { label: c => `Growth: ${c.raw}%` }
-          }
-        }
-      }
-    });
-  }
-}
-
-// ==========================================================================
-// 5. Fisheries & Blue Economy Section
-// ==========================================================================
-function renderFisheriesSection(fish) {
-  if (!fish) return;
-  const theme = getChartTheme();
-
-  // Chart 1: Catch by Species
-  destroyChart('fishCatchChart');
-  const ctxCatch = document.getElementById('fishCatchChart')?.getContext('2d');
-  if (ctxCatch) {
-    charts['fishCatchChart'] = new Chart(ctxCatch, {
-      type: 'bar',
-      data: {
-        labels: fish.catch.map(c => c.year),
-        datasets: [
-          {
-            label: 'Skipjack Tuna (MT)',
-            data: fish.catch.map(c => c.skipjack_mt),
-            backgroundColor: theme.accent,
-            borderRadius: 2
-          },
-          {
-            label: 'Yellowfin Tuna (MT)',
-            data: fish.catch.map(c => c.yellowfin_mt),
-            backgroundColor: theme.barHover,
-            borderRadius: 2
-          },
-          {
-            label: 'Other Species (MT)',
-            data: fish.catch.map(c => c.other_mt),
-            backgroundColor: theme.barBase,
-            borderRadius: 2
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { stacked: true, grid: { display: false }, ticks: { color: theme.textColor, font: { size: 10 } } },
-          y: {
-            stacked: true,
-            grid: { color: theme.gridColor },
-            ticks: { color: theme.textColor, callback: v => (v / 1000) + 'k MT', font: { family: 'JetBrains Mono', size: 10 } }
-          }
-        },
-        plugins: {
-          legend: { labels: { color: theme.textColor, font: { family: 'Inter', size: 11 } } },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 2: Global Fish Consumption per Capita
-  destroyChart('fishBenchmarkChart');
-  const ctxBench = document.getElementById('fishBenchmarkChart')?.getContext('2d');
-  if (ctxBench) {
-    const bench = fish.global_consumption_benchmarks;
-    charts['fishBenchmarkChart'] = new Chart(ctxBench, {
-      type: 'bar',
-      data: {
-        labels: bench.map(b => b.country),
-        datasets: [{
-          label: 'Consumption (kg/yr)',
-          data: bench.map(b => b.consumption_kg_per_capita),
-          backgroundColor: bench.map(b => b.highlight ? theme.statusPos : theme.barBase),
-          borderRadius: 3
-        }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, font: { family: 'JetBrains Mono', size: 10 } } },
-          y: { grid: { display: false }, ticks: { color: theme.textColor, font: { size: 11 } } }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: { label: c => `${c.raw} kg / person / yr` }
-          }
-        }
-      }
-    });
-  }
-}
-
-// ==========================================================================
-// 6. Public Finance Section
-// ==========================================================================
-function renderPublicFinanceSection(pf) {
-  if (!pf) return;
-  const theme = getChartTheme();
-
-  destroyChart('pfBalanceChart');
-  const ctxPf = document.getElementById('pfBalanceChart')?.getContext('2d');
-  if (ctxPf) {
-    charts['pfBalanceChart'] = new Chart(ctxPf, {
-      type: 'bar',
-      data: {
-        labels: pf.series.map(s => s.year),
-        datasets: [
-          {
-            type: 'line',
-            label: 'Revenue & Grants',
-            data: pf.series.map(s => s.revenue_mvr_m / 1000),
-            borderColor: theme.accent,
-            borderWidth: 2,
-            pointBackgroundColor: theme.accent,
-            pointRadius: 2.5
-          },
-          {
-            type: 'line',
-            label: 'Total Expenditure',
-            data: pf.series.map(s => s.expenditure_mvr_m / 1000),
-            borderColor: theme.statusNeg,
-            borderWidth: 2,
-            pointBackgroundColor: theme.statusNeg,
-            pointRadius: 2.5
-          },
-          {
-            type: 'bar',
-            label: 'Overall Deficit (Billion MVR)',
-            data: pf.series.map(s => s.deficit_mvr_m / 1000),
-            backgroundColor: theme.barBase,
-            borderRadius: 3
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, font: { size: 10 } } },
-          y: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, callback: v => v + 'B', font: { family: 'JetBrains Mono', size: 10 } } }
-        },
-        plugins: {
-          legend: { labels: { color: theme.textColor, font: { family: 'Inter', size: 11 } } },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText
-          }
-        }
-      }
-    });
-  }
-
-  // Tourism Budget Share
-  destroyChart('pfTourismShareChart');
-  const ctxTourShare = document.getElementById('pfTourismShareChart')?.getContext('2d');
-  if (ctxTourShare) {
-    charts['pfTourismShareChart'] = new Chart(ctxTourShare, {
-      type: 'line',
-      data: {
-        labels: pf.tourism_share.map(t => t.year),
-        datasets: [{
-          label: '% Share in Revenue',
-          data: pf.tourism_share.map(t => t.share_pct),
-          borderColor: theme.accent,
-          backgroundColor: theme.accentMuted,
-          fill: true,
-          tension: 0.2,
-          borderWidth: 2,
-          pointBackgroundColor: theme.accent,
-          pointRadius: 2.5
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, font: { size: 10 } } },
-          y: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, callback: v => v + '%', font: { family: 'JetBrains Mono', size: 10 } }, min: 15, max: 40 }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText,
-            callbacks: { label: c => `Share: ${c.raw}%` }
-          }
-        }
-      }
-    });
-  }
-}
-
-// ==========================================================================
-// 7. Climate & Freshwater Infrastructure Section
-// ==========================================================================
-function renderWaterSection(water) {
-  if (!water) return;
-  const theme = getChartTheme();
-
-  destroyChart('waterEmergencyChart');
-  const ctxW = document.getElementById('waterEmergencyChart')?.getContext('2d');
-  if (ctxW) {
-    charts['waterEmergencyChart'] = new Chart(ctxW, {
-      type: 'bar',
-      data: {
-        labels: water.emergency_series.map(w => w.year),
-        datasets: [
-          {
-            type: 'bar',
-            label: 'Islands Supplied',
-            data: water.emergency_series.map(w => w.islands_supplied),
-            backgroundColor: theme.barBase,
-            borderRadius: 3,
-            yAxisID: 'y'
-          },
-          {
-            type: 'line',
-            label: 'Cost per Ton (MVR)',
-            data: water.emergency_series.map(w => w.cost_per_ton_mvr),
-            borderColor: theme.accent,
+            label: 'Electricity Generation',
+            data: rows.map(r => ((r.electricity_gwh / bEnergy) * 100).toFixed(1)),
+            borderColor: colors.amber,
             backgroundColor: 'transparent',
             borderWidth: 2,
-            pointBackgroundColor: theme.accent,
-            pointRadius: 2.5,
-            yAxisID: 'y1'
+            borderDash: [4, 4],
+            tension: 0.3,
+            pointRadius: 0
+          },
+          {
+            label: 'Tourist Arrivals',
+            data: rows.map(r => ((r.tourists / bTourists) * 100).toFixed(1)),
+            borderColor: colors.emerald,
+            backgroundColor: 'transparent',
+            borderWidth: 2.5,
+            tension: 0.3,
+            pointRadius: 0,
+            pointHoverRadius: 5
+          },
+          {
+            label: 'Resident Population',
+            data: rows.map(r => ((r.total_pop / bPop) * 100).toFixed(1)),
+            borderColor: colors.indigo,
+            backgroundColor: 'transparent',
+            borderWidth: 2,
+            tension: 0.3,
+            pointRadius: 0
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: {
+            callbacks: {
+              label: (item) => `${item.dataset.label}: ${item.parsed.y} (Index)`
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text, maxTicksLimit: 10 } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text } }
+        }
+      }
+    });
+  }
+
+  // Chart 2: Real GDP Growth Timeline
+  function renderGdpGrowthTimelineChart() {
+    const ctx = document.getElementById('chart-gdp-growth-timeline');
+    if (!ctx) return;
+    if (state.charts.gdpGrowth) state.charts.gdpGrowth.destroy();
+
+    const colors = getChartColors();
+    const rows = state.data.timeline.filter(r => r.year >= 2000 && r.year <= 2026);
+    const labels = rows.map(r => r.year);
+    const growthRates = rows.map(r => r.gdp_growth_pct);
+
+    state.charts.gdpGrowth = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Real GDP Growth (%)',
+          data: growthRates,
+          backgroundColor: growthRates.map(v => v >= 0 ? colors.emerald : colors.rose),
+          borderRadius: 3
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (item) => `Real GDP: ${item.parsed.y >= 0 ? '+' : ''}${item.parsed.y}%`
+            }
+          }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text, maxTicksLimit: 12 } },
+          y: {
+            grid: { color: colors.grid },
+            ticks: { color: colors.text, callback: (v) => `${v}%` }
+          }
+        }
+      }
+    });
+  }
+
+  // Chart 3: COVID Monthly Arrivals Anatomy (with Active Scrubber Marker)
+  function renderCovidMonthlyChart() {
+    const ctx = document.getElementById('chart-covid-monthly');
+    if (!ctx) return;
+    if (state.charts.covidMonthly) state.charts.covidMonthly.destroy();
+
+    const colors = getChartColors();
+    const points = state.data.covid_shock.monthly_arrivals;
+    const labels = points.map(p => `${p.month} ${p.year.toString().slice(2)}`);
+    const values = points.map(p => p.arrivals);
+
+    state.charts.covidMonthly = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Monthly Visitors',
+          data: values,
+          borderColor: colors.accent,
+          backgroundColor: (ctx) => {
+            const chart = ctx.chart;
+            const { ctx: c, chartArea } = chart;
+            if (!chartArea) return null;
+            const gradient = c.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+            gradient.addColorStop(0, 'rgba(14, 165, 233, 0.35)');
+            gradient.addColorStop(1, 'rgba(14, 165, 233, 0.0)');
+            return gradient;
+          },
+          fill: true,
+          borderWidth: 2.5,
+          tension: 0.3,
+          pointRadius: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? 8 : 2),
+          pointBackgroundColor: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? '#f43f5e' : colors.accent),
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? 3 : 0),
+          pointHoverRadius: 8
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (item) => `${formatNum(item.parsed.y)} Tourists`
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text, maxTicksLimit: 16 } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // Chart 4: Post-COVID Market Shift
+  function renderCovidMarketShiftChart() {
+    const ctx = document.getElementById('chart-covid-market-shift');
+    if (!ctx) return;
+    if (state.charts.covidMarket) state.charts.covidMarket.destroy();
+
+    const colors = getChartColors();
+    const data = state.data.covid_shock.market_rotation;
+    const labels = data.map(d => d.country);
+
+    state.charts.covidMarket = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: '2019 (Pre-COVID)',
+            data: data.map(d => d['2019']),
+            backgroundColor: '#64748b',
+            borderRadius: 3
+          },
+          {
+            label: '2020 (Lockdown)',
+            data: data.map(d => d['2020']),
+            backgroundColor: colors.rose,
+            borderRadius: 3
+          },
+          {
+            label: '2021 (Rebound)',
+            data: data.map(d => d['2021']),
+            backgroundColor: colors.emerald,
+            borderRadius: 3
+          },
+          {
+            label: '2024 (Peak)',
+            data: data.map(d => d['2024']),
+            backgroundColor: colors.accent,
+            borderRadius: 3
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: {
+            callbacks: { label: (item) => `${item.dataset.label}: ${formatNum(item.parsed.y)}` }
+          }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // Chart 5: COVID Benchmark
+  function renderCovidBenchmarkChart() {
+    const ctx = document.getElementById('chart-covid-benchmark');
+    if (!ctx) return;
+    if (state.charts.covidBenchmark) state.charts.covidBenchmark.destroy();
+
+    const colors = getChartColors();
+    state.charts.covidBenchmark = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Maldives', 'Small Island States (SIDS)', 'World Average'],
+        datasets: [
+          {
+            label: '2020 Contraction (%)',
+            data: [-33.5, -8.6, -3.1],
+            backgroundColor: colors.rose,
+            borderRadius: 4
+          },
+          {
+            label: '2021 Rebound (%)',
+            data: [41.7, 4.8, 6.0],
+            backgroundColor: colors.emerald,
+            borderRadius: 4
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: { callbacks: { label: (item) => `${item.dataset.label}: ${item.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => `${v}%` } }
+        }
+      }
+    });
+  }
+
+  // Chart 6: GDP Sectors
+  function renderGdpSectorsChart() {
+    const ctx = document.getElementById('chart-gdp-sectors');
+    if (!ctx) return;
+    if (state.charts.gdpSectors) state.charts.gdpSectors.destroy();
+
+    const colors = getChartColors();
+    const sectors = state.data.sub_economy.gdp_sectors;
+
+    state.charts.gdpSectors = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+        labels: sectors.map(s => s.sector),
+        datasets: [{
+          data: sectors.map(s => s.share_pct),
+          backgroundColor: sectors.map(s => s.color),
+          borderWidth: 2,
+          borderColor: isDarkTheme() ? '#11131a' : '#ffffff'
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'right', labels: { color: colors.text, boxWidth: 12, font: { size: 11 } } },
+          tooltip: { callbacks: { label: (item) => `${item.label}: ${item.parsed}% of GDP` } }
+        },
+        cutout: '62%'
+      }
+    });
+  }
+
+  // Chart 7: Fiscal Balance
+  function renderFiscalBalanceChart() {
+    const ctx = document.getElementById('chart-fiscal-balance');
+    if (!ctx) return;
+    if (state.charts.fiscal) state.charts.fiscal.destroy();
+
+    const colors = getChartColors();
+    const rows = state.data.timeline.filter(r => r.year >= 2008 && r.year <= 2026);
+
+    state.charts.fiscal = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: rows.map(r => r.year),
+        datasets: [
+          {
+            label: 'Total Expenditure',
+            data: rows.map(r => r.govt_expenditure_mvr),
+            borderColor: colors.rose,
+            backgroundColor: 'transparent',
+            borderWidth: 2.5,
+            tension: 0.3
+          },
+          {
+            label: 'Revenue & Grants',
+            data: rows.map(r => r.govt_revenue_mvr),
+            borderColor: colors.emerald,
+            backgroundColor: 'transparent',
+            borderWidth: 2.5,
+            tension: 0.3
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: {
+            callbacks: {
+              label: (item) => `${item.dataset.label}: ${formatNum(Math.round(item.parsed.y))}M MVR`
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => `${(v/1000).toFixed(0)}B` } }
+        }
+      }
+    });
+  }
+
+  // Chart 8: Debt Composition
+  function renderDebtCompositionChart() {
+    const ctx = document.getElementById('chart-debt-composition');
+    if (!ctx) return;
+    if (state.charts.debtComp) state.charts.debtComp.destroy();
+
+    const colors = getChartColors();
+    const debt = state.data.sub_economy.finance_breakdown;
+
+    state.charts.debtComp = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: debt.debt_composition_years,
+        datasets: [
+          {
+            label: 'Domestic Debt (Banks & Pension)',
+            data: debt.domestic_debt_mvr_m,
+            backgroundColor: colors.accent,
+            borderRadius: 3
+          },
+          {
+            label: 'External Debt (Foreign Creditors)',
+            data: debt.external_debt_mvr_m,
+            backgroundColor: colors.amber,
+            borderRadius: 3
           }
         ]
       },
@@ -1609,90 +1280,1299 @@ function renderWaterSection(water) {
         responsive: true,
         maintainAspectRatio: false,
         scales: {
-          x: { grid: { color: theme.gridColor }, ticks: { color: theme.textColor, font: { size: 10 } } },
+          x: { stacked: true, grid: { display: false }, ticks: { color: colors.text } },
+          y: { stacked: true, grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => `${(v/1000).toFixed(0)}B MVR` } }
+        },
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } }
+        }
+      }
+    });
+  }
+
+  // Chart 9: Revenue Sources
+  function renderRevenueSourcesChart() {
+    const ctx = document.getElementById('chart-revenue-sources');
+    if (!ctx) return;
+    if (state.charts.revSources) state.charts.revSources.destroy();
+
+    const colors = getChartColors();
+    const revs = state.data.sub_economy.finance_breakdown.revenue_sources_2024;
+
+    state.charts.revSources = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: revs.map(r => r.name),
+        datasets: [{
+          label: 'Revenue (Million MVR)',
+          data: revs.map(r => r.value_mvr_m),
+          backgroundColor: colors.emerald,
+          borderRadius: 3
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (item) => `${formatNum(item.parsed.x)}M MVR (${revs[item.dataIndex].share}%)` } }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text } },
+          y: { grid: { display: false }, ticks: { color: colors.text } }
+        }
+      }
+    });
+  }
+
+  // Chart 10: Top Tourist Origins
+  function renderTourismOriginsChart() {
+    const ctx = document.getElementById('chart-tourism-origins');
+    if (!ctx) return;
+    if (state.charts.tourOrigins) state.charts.tourOrigins.destroy();
+
+    const colors = getChartColors();
+    const data = state.data.covid_shock.market_rotation;
+
+    state.charts.tourOrigins = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['2019', '2020', '2021', '2022', '2024'],
+        datasets: data.slice(0, 5).map((d, i) => {
+          const colorList = [colors.rose, colors.emerald, colors.accent, colors.amber, colors.indigo];
+          return {
+            label: d.country,
+            data: [d['2019'], d['2020'], d['2021'], d['2022'], d['2024']],
+            borderColor: colorList[i % colorList.length],
+            borderWidth: 2.2,
+            tension: 0.3,
+            pointRadius: 3
+          };
+        })
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // Chart 11: Accommodation Bed Capacity (Resort vs Guesthouse)
+  function renderBedCapacityChart() {
+    const ctx = document.getElementById('chart-bed-capacity');
+    if (!ctx) return;
+    if (state.charts.bedCap) state.charts.bedCap.destroy();
+
+    const colors = getChartColors();
+    const rows = state.data.timeline.filter(r => r.year >= 2008 && r.year <= 2026);
+
+    state.charts.bedCap = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: rows.map(r => r.year),
+        datasets: [
+          {
+            label: 'Resort Beds',
+            data: rows.map(r => r.resort_beds),
+            borderColor: colors.accent,
+            backgroundColor: 'rgba(14, 165, 233, 0.1)',
+            fill: true,
+            borderWidth: 2.5,
+            tension: 0.3
+          },
+          {
+            label: 'Local Island Guesthouse Beds',
+            data: rows.map(r => r.guesthouse_beds),
+            borderColor: colors.emerald,
+            backgroundColor: 'rgba(16, 185, 129, 0.15)',
+            fill: true,
+            borderWidth: 2.5,
+            tension: 0.3
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // Chart 12: Fish Catch
+  function renderFishCatchChart() {
+    const ctx = document.getElementById('chart-fish-catch');
+    if (!ctx) return;
+    if (state.charts.fish) state.charts.fish.destroy();
+
+    const colors = getChartColors();
+    const rows = state.data.timeline.filter(r => r.year >= 2000 && r.year <= 2026);
+
+    state.charts.fish = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: rows.map(r => r.year),
+        datasets: [{
+          label: 'Total Marine Fish Catch (MT)',
+          data: rows.map(r => r.fish_catch_mt),
+          borderColor: colors.indigo,
+          backgroundColor: 'rgba(99, 102, 241, 0.12)',
+          fill: true,
+          borderWidth: 2.5,
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (item) => `${formatNum(Math.round(item.parsed.y))} MT` } }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text, maxTicksLimit: 12 } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // =========================================================================
+  // GREATER MALÉ AREA CHARTS (Tri-Island Conurbation & Extreme Density)
+  // =========================================================================
+  function renderGreaterMaleCharts() {
+    if (!state.data || !state.data.greater_male) return;
+
+    renderGmPopulationShiftChart();
+    renderGmDensityCompareChart();
+    renderGmWaterPowerChart();
+  }
+
+  // Greater Malé Chart 1: Tri-Island Population Shift & Absorption (2000–2026)
+  function renderGmPopulationShiftChart() {
+    const ctx = document.getElementById('chart-gm-population-shift');
+    if (!ctx) return;
+    if (state.charts.gmShift) state.charts.gmShift.destroy();
+
+    const colors = getChartColors();
+    const timeline = state.data.greater_male.timeline;
+    const labels = timeline.map(r => r.year);
+
+    state.charts.gmShift = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: 'Malé Island (Capital Core)',
+            data: timeline.map(r => r.male_island_pop),
+            backgroundColor: colors.accent,
+            borderRadius: 2
+          },
+          {
+            label: 'Hulhumalé (Reclaimed City)',
+            data: timeline.map(r => r.hulhumale_pop),
+            backgroundColor: colors.emerald,
+            borderRadius: 2
+          },
+          {
+            label: 'Villimalé (Eco Sanctuary)',
+            data: timeline.map(r => r.vilingili_pop),
+            backgroundColor: colors.amber,
+            borderRadius: 2
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            stacked: true,
+            grid: { color: colors.grid },
+            ticks: { color: colors.text, maxTicksLimit: 14 }
+          },
+          y: {
+            stacked: true,
+            grid: { color: colors.grid },
+            ticks: { color: colors.text, callback: (v) => formatNum(v) }
+          }
+        },
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: {
+            callbacks: {
+              label: (item) => `${item.dataset.label}: ${formatNum(item.parsed.y)} residents`
+            }
+          }
+        }
+      }
+    });
+  }
+
+  // Greater Malé Chart 2: Global Extreme Density Benchmark
+  function renderGmDensityCompareChart() {
+    const ctx = document.getElementById('chart-gm-density-compare');
+    if (!ctx) return;
+    if (state.charts.gmDensity) state.charts.gmDensity.destroy();
+
+    const colors = getChartColors();
+    const benchmarkData = [
+      { name: 'Malé Island (Capital Core)', density: 74879, highlight: true },
+      { name: 'Manila, Philippines', density: 43000, highlight: false },
+      { name: 'Greater Malé Total Conurbation', density: 33322, highlight: true },
+      { name: 'Dhaka, Bangladesh', density: 30000, highlight: false },
+      { name: 'Villimalé (Vilingili)', density: 28230, highlight: false },
+      { name: 'Hulhumalé (Reclaimed)', density: 16799, highlight: false },
+      { name: 'Singapore', density: 8300, highlight: false },
+      { name: 'Tokyo (23 Special Wards)', density: 6400, highlight: false },
+      { name: 'Outer Atolls Average', density: 1200, highlight: false }
+    ];
+
+    state.charts.gmDensity = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: benchmarkData.map(d => d.name),
+        datasets: [{
+          label: 'Persons per km²',
+          data: benchmarkData.map(d => d.density),
+          backgroundColor: benchmarkData.map(d => d.highlight ? colors.rose : (d.name.includes('Maldives') || d.name.includes('Malé') || d.name.includes('Villimalé') || d.name.includes('Hulhumalé') ? colors.accent : '#64748b')),
+          borderRadius: 3
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (item) => `${formatNum(item.parsed.x)} persons / km²`
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: colors.grid },
+            ticks: { color: colors.text, callback: (v) => formatNum(v) }
+          },
+          y: {
+            grid: { display: false },
+            ticks: { color: colors.text, font: { size: 11 } }
+          }
+        }
+      }
+    });
+  }
+
+  // Greater Malé Chart 3: Desalinated Water & Electricity Lifeline Surge (2000–2026)
+  function renderGmWaterPowerChart() {
+    const ctx = document.getElementById('chart-gm-water-power');
+    if (!ctx) return;
+    if (state.charts.gmWater) state.charts.gmWater.destroy();
+
+    const colors = getChartColors();
+    const timeline = state.data.greater_male.timeline;
+    const labels = timeline.map(r => r.year);
+
+    state.charts.gmWater = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: 'Desalinated Water Demand (\'000 Tons)',
+            data: timeline.map(r => r.water_male_tons_k + r.water_hulhu_tons_k + r.water_vili_tons_k),
+            borderColor: colors.accent,
+            backgroundColor: colors.accentMuted,
+            fill: true,
+            yAxisID: 'y',
+            tension: 0.35,
+            borderWidth: 2.5
+          },
+          {
+            label: 'STELCO Power Output (MWh)',
+            data: timeline.map(r => r.electricity_mwh),
+            borderColor: colors.amber,
+            backgroundColor: 'transparent',
+            borderDash: [4, 4],
+            yAxisID: 'y1',
+            tension: 0.35,
+            borderWidth: 2
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: {
+            callbacks: {
+              label: (item) => `${item.dataset.label}: ${formatNum(item.parsed.y)}`
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: colors.grid },
+            ticks: { color: colors.text, maxTicksLimit: 14 }
+          },
           y: {
             type: 'linear',
             position: 'left',
-            grid: { color: theme.gridColor },
-            ticks: { color: theme.textColor, font: { family: 'JetBrains Mono', size: 10 } }
+            title: { display: true, text: '\'000 Metric Tons Water', color: colors.text },
+            grid: { color: colors.grid },
+            ticks: { color: colors.text, callback: (v) => formatNum(v) }
+          },
+          y1: {
+            type: 'linear',
+            position: 'right',
+            title: { display: true, text: 'MWh Electricity', color: colors.text },
+            grid: { display: false },
+            ticks: { color: colors.text, callback: (v) => formatNum(v) }
+          }
+        }
+      }
+    });
+  }
+
+  // =========================================================================
+  // ANIMATED POPULATION PYRAMID (Tables 3.13, 3.14, 3.15, 3.2)
+  // =========================================================================
+  const pyramidState = {
+    initialized: false,
+    isPlaying: false,
+    year: 2021,
+    speed: 900,
+    scope: 'national',      // 'national', 'male_city', 'atolls'
+    subpop: 'Total',        // 'Total', 'Maldivian', 'Foreigner'
+    mode: 'annual',         // 'annual' or 'census'
+    loop: true,
+    timer: null,
+    data: null,
+    chart: null
+  };
+
+  function renderDemographicsSection(demographics) {
+    if (!demographics) return;
+    pyramidState.data = demographics;
+
+    const canvas = document.getElementById('pyramidChart');
+    if (!canvas) return;
+
+    if (!pyramidState.initialized) {
+      setupPyramidEventListeners();
+      pyramidState.initialized = true;
+    }
+
+    updatePyramidSliderTicks();
+    updatePyramidUI(false);
+  }
+
+  function setupPyramidEventListeners() {
+    const playBtn = document.getElementById('pyramid-play-btn');
+    const prevBtn = document.getElementById('pyramid-prev-btn');
+    const nextBtn = document.getElementById('pyramid-next-btn');
+    const slider = document.getElementById('pyramid-range-slider');
+    const loopChk = document.getElementById('pyramid-loop-chk');
+
+    // Play / Pause
+    playBtn?.addEventListener('click', togglePyramidPlayback);
+
+    // Prev / Next Steps
+    prevBtn?.addEventListener('click', () => stepPyramidYear(-1));
+    nextBtn?.addEventListener('click', () => stepPyramidYear(1));
+
+    // Range Slider
+    slider?.addEventListener('input', (e) => {
+      pausePyramidPlayback();
+      pyramidState.year = parseInt(e.target.value, 10);
+      updatePyramidUI(false);
+    });
+
+    // Loop toggle
+    loopChk?.addEventListener('change', (e) => {
+      pyramidState.loop = e.target.checked;
+    });
+
+    // Speed Pills
+    const speedBtns = document.querySelectorAll('#pyramid-speed-pills .pill-btn');
+    speedBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        speedBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        pyramidState.speed = parseInt(btn.getAttribute('data-speed'), 10) || 900;
+        if (pyramidState.isPlaying) {
+          clearInterval(pyramidState.timer);
+          pyramidState.timer = setInterval(advancePyramidFrame, pyramidState.speed);
+        }
+      });
+    });
+
+    // Sub-population Pills (Total vs Maldivian vs Foreigner/Labourer)
+    const subpopBtns = document.querySelectorAll('#pyramid-subpop-pills .pill-btn');
+    subpopBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        subpopBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        pyramidState.subpop = btn.getAttribute('data-subpop') || 'Total';
+        updatePyramidUI(false);
+      });
+    });
+
+    // Scope Pills (National vs Malé City vs Atolls)
+    const scopeBtns = document.querySelectorAll('#pyramid-scope-pills .pill-btn');
+    scopeBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        scopeBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        pyramidState.scope = btn.getAttribute('data-scope') || 'national';
+        updatePyramidUI(false);
+      });
+    });
+
+    // Dataset Mode Pills (Annual vs Census)
+    const modeBtns = document.querySelectorAll('#pyramid-mode-pills .pill-btn');
+    modeBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        modeBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        pausePyramidPlayback();
+        pyramidState.mode = btn.getAttribute('data-mode') || 'annual';
+
+        const subpopWrap = document.getElementById('filter-subpop-wrap');
+        const scopeWrap = document.getElementById('filter-scope-wrap');
+
+        if (pyramidState.mode === 'census') {
+          pyramidState.year = 2014;
+          if (subpopWrap) subpopWrap.style.display = 'none';
+          if (scopeWrap) scopeWrap.style.display = 'none';
+        } else {
+          pyramidState.year = 2021;
+          if (subpopWrap) subpopWrap.style.display = 'flex';
+          if (scopeWrap) scopeWrap.style.display = 'flex';
+        }
+
+        updatePyramidSliderTicks();
+        updatePyramidUI(false);
+      });
+    });
+  }
+
+  function updatePyramidSliderTicks() {
+    const slider = document.getElementById('pyramid-range-slider');
+    const ticksContainer = document.getElementById('pyramid-slider-ticks');
+    const milestonesContainer = document.getElementById('pyramid-milestones-container');
+    if (!slider || !ticksContainer) return;
+
+    if (pyramidState.mode === 'census') {
+      const years = pyramidState.data.historical_census.years;
+      slider.min = 1995;
+      slider.max = 2014;
+      slider.step = 1;
+      slider.value = pyramidState.year;
+
+      ticksContainer.innerHTML = years.map(y => `
+        <span class="slider-tick-label ${y === pyramidState.year ? 'active' : ''}" data-year="${y}">${y}</span>
+      `).join('');
+
+      if (milestonesContainer) {
+        milestonesContainer.innerHTML = `
+          <span>Census:</span>
+          <button type="button" class="btn-milestone ${pyramidState.year === 1995 ? 'active' : ''}" data-jump="1995">1995</button>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2000 ? 'active' : ''}" data-jump="2000">2000</button>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2006 ? 'active' : ''}" data-jump="2006">2006</button>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2014 ? 'active' : ''}" data-jump="2014">2014</button>
+        `;
+        milestonesContainer.querySelectorAll('.btn-milestone').forEach(b => {
+          b.addEventListener('click', () => {
+            pausePyramidPlayback();
+            pyramidState.year = parseInt(b.getAttribute('data-jump'), 10);
+            updatePyramidUI(false);
+          });
+        });
+      }
+    } else {
+      slider.min = 2014;
+      slider.max = 2030;
+      slider.step = 1;
+      slider.value = pyramidState.year;
+
+      const displayTicks = [2014, 2016, 2018, 2020, 2022, 2024, 2026, 2028, 2030];
+      ticksContainer.innerHTML = displayTicks.map(y => `
+        <span class="slider-tick-label ${y === pyramidState.year ? 'active' : ''}" data-year="${y}">${y}</span>
+      `).join('');
+
+      if (milestonesContainer) {
+        milestonesContainer.innerHTML = `
+          <span>Jump:</span>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2014 ? 'active' : ''}" data-jump="2014">2014 Census</button>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2019 ? 'active' : ''}" data-jump="2019">2019 Pre-Covid</button>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2021 ? 'active' : ''}" data-jump="2021">2021 Yearbook</button>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2025 ? 'active' : ''}" data-jump="2025">2025 Mid</button>
+          <button type="button" class="btn-milestone ${pyramidState.year === 2030 ? 'active' : ''}" data-jump="2030">2030 Horizon</button>
+        `;
+        milestonesContainer.querySelectorAll('.btn-milestone').forEach(b => {
+          b.addEventListener('click', () => {
+            pausePyramidPlayback();
+            pyramidState.year = parseInt(b.getAttribute('data-jump'), 10);
+            updatePyramidUI(false);
+          });
+        });
+      }
+    }
+
+    ticksContainer.querySelectorAll('.slider-tick-label').forEach(t => {
+      t.addEventListener('click', () => {
+        pausePyramidPlayback();
+        pyramidState.year = parseInt(t.getAttribute('data-year'), 10);
+        updatePyramidUI(false);
+      });
+    });
+  }
+
+  function togglePyramidPlayback() {
+    if (pyramidState.isPlaying) {
+      pausePyramidPlayback();
+    } else {
+      startPyramidPlayback();
+    }
+  }
+
+  function startPyramidPlayback() {
+    if (!pyramidState.data) return;
+    const years = pyramidState.mode === 'annual'
+      ? pyramidState.data.years
+      : pyramidState.data.historical_census.years;
+
+    if (pyramidState.year >= years[years.length - 1]) {
+      pyramidState.year = years[0];
+      updatePyramidUI(true);
+    }
+
+    pyramidState.isPlaying = true;
+    updatePlayButtonUI();
+
+    clearInterval(pyramidState.timer);
+    pyramidState.timer = setInterval(advancePyramidFrame, pyramidState.speed);
+  }
+
+  function pausePyramidPlayback() {
+    pyramidState.isPlaying = false;
+    clearInterval(pyramidState.timer);
+    pyramidState.timer = null;
+    updatePlayButtonUI();
+  }
+
+  function updatePlayButtonUI() {
+    const playBtn = document.getElementById('pyramid-play-btn');
+    const playText = document.getElementById('pyramid-play-text');
+    const playIcon = document.getElementById('pyramid-play-icon');
+    if (!playBtn) return;
+
+    if (pyramidState.isPlaying) {
+      playBtn.classList.add('playing');
+      if (playText) playText.textContent = 'Pause Timeline';
+      if (playIcon) {
+        playIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+      }
+    } else {
+      playBtn.classList.remove('playing');
+      if (playText) playText.textContent = 'Play Timeline';
+      if (playIcon) {
+        playIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+      }
+    }
+  }
+
+  function advancePyramidFrame() {
+    const years = pyramidState.mode === 'annual'
+      ? pyramidState.data.years
+      : pyramidState.data.historical_census.years;
+
+    const currentIdx = years.indexOf(pyramidState.year);
+    if (currentIdx === -1 || currentIdx >= years.length - 1) {
+      if (pyramidState.loop) {
+        pyramidState.year = years[0];
+      } else {
+        pausePyramidPlayback();
+        return;
+      }
+    } else {
+      pyramidState.year = years[currentIdx + 1];
+    }
+
+    updatePyramidUI(true);
+  }
+
+  function stepPyramidYear(delta) {
+    pausePyramidPlayback();
+    const years = pyramidState.mode === 'annual'
+      ? pyramidState.data.years
+      : pyramidState.data.historical_census.years;
+
+    const currentIdx = years.indexOf(pyramidState.year);
+    const targetIdx = Math.max(0, Math.min(years.length - 1, (currentIdx === -1 ? 0 : currentIdx) + delta));
+    pyramidState.year = years[targetIdx];
+    updatePyramidUI(false);
+  }
+
+  function updatePyramidUI(isSmooth) {
+    if (!pyramidState.data) return;
+
+    const isAnnual = pyramidState.mode === 'annual';
+    const ageGroups = pyramidState.data.age_groups;
+    let yearData = null;
+    let maxCohortScale = 10000;
+
+    if (isAnnual) {
+      const scopeData = pyramidState.data.scopes[pyramidState.scope];
+      if (!scopeData || !scopeData[pyramidState.subpop]) return;
+      const series = scopeData[pyramidState.subpop];
+
+      const validYears = pyramidState.data.years;
+      if (!validYears.includes(pyramidState.year)) {
+        pyramidState.year = 2021;
+      }
+
+      yearData = series.by_year[pyramidState.year];
+
+      // Calculate peak cohort size for scale stability
+      let peak = 0;
+      for (const y of validYears) {
+        const e = series.by_year[y];
+        if (e) {
+          peak = Math.max(peak, Math.max(...e.male), Math.max(...e.female));
+        }
+      }
+      maxCohortScale = Math.ceil(peak * 1.08);
+    } else {
+      const census = pyramidState.data.historical_census;
+      const validYears = census.years;
+      if (!validYears.includes(pyramidState.year)) {
+        pyramidState.year = validYears.reduce((prev, curr) => Math.abs(curr - pyramidState.year) < Math.abs(prev - pyramidState.year) ? curr : prev);
+      }
+      yearData = census.by_year[pyramidState.year];
+      let peak = 0;
+      for (const y of validYears) {
+        const e = census.by_year[y];
+        if (e) peak = Math.max(peak, Math.max(...e.male), Math.max(...e.female));
+      }
+      maxCohortScale = Math.ceil(peak * 1.08);
+    }
+
+    if (!yearData) return;
+
+    // Update Slider & Active Milestones
+    const slider = document.getElementById('pyramid-range-slider');
+    if (slider && parseInt(slider.value, 10) !== pyramidState.year) {
+      slider.value = pyramidState.year;
+    }
+
+    document.querySelectorAll('#pyramid-milestones-container .btn-milestone').forEach(b => {
+      const jumpY = parseInt(b.getAttribute('data-jump'), 10);
+      b.classList.toggle('active', jumpY === pyramidState.year);
+    });
+
+    document.querySelectorAll('#pyramid-slider-ticks .slider-tick-label').forEach(t => {
+      const tickY = parseInt(t.getAttribute('data-year'), 10);
+      t.classList.toggle('active', tickY === pyramidState.year);
+    });
+
+    // Update Live Indicator Ribbon
+    const indTotal = document.getElementById('pyramid-ind-total');
+    const indMedian = document.getElementById('pyramid-ind-median');
+    const indSexratio = document.getElementById('pyramid-ind-sexratio');
+    const indDependency = document.getElementById('pyramid-ind-dependency');
+    const indWorking = document.getElementById('pyramid-ind-working');
+
+    const ind = yearData.indicators || {};
+    if (indTotal) indTotal.textContent = formatNum(ind.total || 0);
+    if (indMedian) indMedian.textContent = ind.median_age != null ? `${ind.median_age} yrs` : '—';
+    if (indSexratio) indSexratio.textContent = ind.sex_ratio != null ? `${ind.sex_ratio} M/100F` : '—';
+    if (indDependency) indDependency.textContent = ind.dependency_ratio != null ? ind.dependency_ratio.toFixed(1) : '—';
+    const workingPct = ind.working_pct != null ? ind.working_pct : ind.working_age_pct;
+    if (indWorking) indWorking.textContent = workingPct != null ? `${Number(workingPct).toFixed(1)}%` : '—';
+
+    // Update Legend Totals
+    const totalMale = yearData.male.reduce((a, b) => a + b, 0);
+    const totalFemale = yearData.female.reduce((a, b) => a + b, 0);
+    const legendMale = document.getElementById('pyramid-legend-male-count');
+    const legendFemale = document.getElementById('pyramid-legend-female-count');
+    if (legendMale) legendMale.textContent = `${formatNum(totalMale)} (${((totalMale / (totalMale + totalFemale || 1)) * 100).toFixed(1)}%)`;
+    if (legendFemale) legendFemale.textContent = `${formatNum(totalFemale)} (${((totalFemale / (totalMale + totalFemale || 1)) * 100).toFixed(1)}%)`;
+
+    // Render / Update Chart.js Bilateral Canvas
+    const canvas = document.getElementById('pyramidChart');
+    if (!canvas) return;
+
+    const colors = getChartColors();
+    const maleNegativeData = yearData.male.map(v => -v);
+    const femaleData = yearData.female;
+
+    if (pyramidState.chart) {
+      pyramidState.chart.data.labels = ageGroups;
+      pyramidState.chart.data.datasets[0].data = maleNegativeData;
+      pyramidState.chart.data.datasets[1].data = femaleData;
+      pyramidState.chart.options.scales.x.min = -maxCohortScale;
+      pyramidState.chart.options.scales.x.max = maxCohortScale;
+      pyramidState.chart.update(isSmooth ? 'none' : 'active');
+    } else {
+      pyramidState.chart = new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels: ageGroups,
+          datasets: [
+            {
+              label: 'Male',
+              data: maleNegativeData,
+              backgroundColor: '#0ea5e9',
+              borderRadius: 3,
+              barPercentage: 0.88,
+              categoryPercentage: 0.95
+            },
+            {
+              label: 'Female',
+              data: femaleData,
+              backgroundColor: '#f43f5e',
+              borderRadius: 3,
+              barPercentage: 0.88,
+              categoryPercentage: 0.95
+            }
+          ]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          animation: { duration: 320 },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (item) => `${item.dataset.label}: ${formatNum(Math.abs(item.parsed.x))} persons`
+              }
+            }
+          },
+          scales: {
+            x: {
+              min: -maxCohortScale,
+              max: maxCohortScale,
+              grid: { color: colors.grid },
+              ticks: {
+                color: colors.text,
+                callback: (v) => formatNum(Math.abs(v))
+              }
+            },
+            y: {
+              grid: { display: false },
+              ticks: { color: colors.text, font: { size: 11, family: 'Inter' } }
+            }
+          }
+        }
+      });
+    }
+  }
+
+  // =========================================================================
+  // ANIMATED EXPATRIATE LABOR FORCE BY COUNTRY OF ORIGIN (2008–2024)
+  // =========================================================================
+  const expatLaborState = {
+    initialized: false,
+    isPlaying: false,
+    year: 2024,
+    timer: null,
+    chart: null
+  };
+
+  function renderExpatLaborSection() {
+    if (!state.data || !state.data.expat_timeline) return;
+
+    if (!expatLaborState.initialized) {
+      setupExpatEventListeners();
+      expatLaborState.initialized = true;
+    }
+
+    updateExpatUI(expatLaborState.year);
+  }
+
+  function setupExpatEventListeners() {
+    const playBtn = document.getElementById('expat-play-btn');
+    const slider = document.getElementById('expat-range-slider');
+
+    playBtn?.addEventListener('click', toggleExpatPlayback);
+
+    slider?.addEventListener('input', (e) => {
+      pauseExpatPlayback();
+      const yr = parseInt(e.target.value, 10);
+      expatLaborState.year = yr;
+      updateExpatUI(yr);
+    });
+  }
+
+  function toggleExpatPlayback() {
+    if (expatLaborState.isPlaying) {
+      pauseExpatPlayback();
+    } else {
+      startExpatPlayback();
+    }
+  }
+
+  function startExpatPlayback() {
+    if (!state.data.expat_timeline) return;
+    if (expatLaborState.year >= 2024) expatLaborState.year = 2008;
+
+    expatLaborState.isPlaying = true;
+    const playBtn = document.getElementById('expat-play-btn');
+    const playText = document.getElementById('expat-play-text');
+    const playIcon = document.getElementById('expat-play-icon');
+    if (playBtn) playBtn.classList.add('playing');
+    if (playText) playText.textContent = 'Pause Timeline';
+    if (playIcon) playIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+
+    clearInterval(expatLaborState.timer);
+    expatLaborState.timer = setInterval(advanceExpatFrame, 850);
+  }
+
+  function pauseExpatPlayback() {
+    expatLaborState.isPlaying = false;
+    clearInterval(expatLaborState.timer);
+    expatLaborState.timer = null;
+
+    const playBtn = document.getElementById('expat-play-btn');
+    const playText = document.getElementById('expat-play-text');
+    const playIcon = document.getElementById('expat-play-icon');
+    if (playBtn) playBtn.classList.remove('playing');
+    if (playText) playText.textContent = 'Play Timeline';
+    if (playIcon) playIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+  }
+
+  function advanceExpatFrame() {
+    if (expatLaborState.year >= 2024) {
+      expatLaborState.year = 2008;
+    } else {
+      expatLaborState.year += 1;
+    }
+    updateExpatUI(expatLaborState.year);
+  }
+
+  function updateExpatUI(year) {
+    if (!state.data || !state.data.expat_timeline) return;
+    const row = state.data.expat_timeline.find(r => r.year === year) || state.data.expat_timeline[state.data.expat_timeline.length - 1];
+
+    const slider = document.getElementById('expat-range-slider');
+    if (slider) slider.value = row.year;
+
+    const tickerYr = document.getElementById('expat-ticker-year');
+    const tickerTotal = document.getElementById('expat-ticker-total');
+    if (tickerYr) tickerYr.textContent = row.year;
+    if (tickerTotal) tickerTotal.textContent = formatNum(row.total);
+
+    const canvas = document.getElementById('chart-expat-animated');
+    if (!canvas) return;
+
+    const colors = getChartColors();
+    const nationalities = [
+      { name: 'Bangladesh', count: row.bangladesh, color: '#0ea5e9' },
+      { name: 'India', count: row.india, color: '#10b981' },
+      { name: 'Sri Lanka', count: row.sri_lanka, color: '#f59e0b' },
+      { name: 'Nepal', count: row.nepal, color: '#6366f1' },
+      { name: 'Philippines', count: row.philippines, color: '#f43f5e' },
+      { name: 'Others', count: row.others, color: '#64748b' }
+    ];
+
+    if (expatLaborState.chart) {
+      expatLaborState.chart.data.labels = nationalities.map(n => n.name);
+      expatLaborState.chart.data.datasets[0].data = nationalities.map(n => n.count);
+      expatLaborState.chart.data.datasets[0].backgroundColor = nationalities.map(n => n.color);
+      expatLaborState.chart.update('none');
+    } else {
+      expatLaborState.chart = new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels: nationalities.map(n => n.name),
+          datasets: [{
+            label: 'Registered Expatriate Workers',
+            data: nationalities.map(n => n.count),
+            backgroundColor: nationalities.map(n => n.color),
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (item) => `${formatNum(item.parsed.y)} workers (${((item.parsed.y / row.total) * 100).toFixed(1)}% of foreign labor)`
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: colors.grid },
+              ticks: { color: colors.text, font: { weight: '600' } }
+            },
+            y: {
+              grid: { color: colors.grid },
+              ticks: { color: colors.text, callback: (v) => formatNum(v) },
+              max: 130000
+            }
+          }
+        }
+      });
+    }
+  }
+
+  // Chart 17: Energy Transition (Diesel vs Solar)
+  function renderEnergyTransitionChart() {
+    const ctx = document.getElementById('chart-energy-transition');
+    if (!ctx) return;
+    if (state.charts.energyTrans) state.charts.energyTrans.destroy();
+
+    const colors = getChartColors();
+    const energy = state.data.sub_lifelines;
+
+    state.charts.energyTrans = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: energy.diesel_years,
+        datasets: [
+          {
+            type: 'bar',
+            label: 'Diesel Burned (Million Liters)',
+            data: energy.diesel_consumption_liters_m,
+            backgroundColor: colors.rose,
+            yAxisID: 'y',
+            borderRadius: 3
+          },
+          {
+            type: 'line',
+            label: 'Installed Solar PV Capacity (MW)',
+            data: energy.solar_installed_mw,
+            borderColor: colors.amber,
+            backgroundColor: 'transparent',
+            borderWidth: 3,
+            yAxisID: 'y1',
+            tension: 0.3
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text } },
+          y: {
+            type: 'linear',
+            position: 'left',
+            grid: { color: colors.grid },
+            ticks: { color: colors.text, callback: (v) => `${v}M L` }
           },
           y1: {
             type: 'linear',
             position: 'right',
             grid: { display: false },
-            ticks: { color: theme.textColor, callback: v => v + ' MVR', font: { family: 'JetBrains Mono', size: 10 } }
-          }
-        },
-        plugins: {
-          legend: { labels: { color: theme.textColor, font: { family: 'Inter', size: 11 } } },
-          tooltip: {
-            backgroundColor: theme.tooltipBg,
-            borderColor: theme.tooltipBorder,
-            borderWidth: 1,
-            titleColor: theme.tooltipText,
-            bodyColor: theme.tooltipText
+            ticks: { color: colors.amber, callback: (v) => `${v} MW` }
           }
         }
       }
     });
   }
-}
 
-// ==========================================================================
-// 8. Master Catalog Explorer (309 Tables)
-// ==========================================================================
-function renderCatalogExplorer(catalog) {
-  if (!catalog) return;
-  
-  const searchInput = document.getElementById('catalog-search-input');
-  const chapterSelect = document.getElementById('catalog-chapter-select');
-  const tableBody = document.getElementById('catalog-table-body');
-  const countBadge = document.getElementById('catalog-count-badge');
+  // Chart 18: Emergency Water Stress
+  function renderWaterEmergencyChart() {
+    const ctx = document.getElementById('chart-water-emergency');
+    if (!ctx) return;
+    if (state.charts.waterEmerg) state.charts.waterEmerg.destroy();
 
-  const chapters = Array.from(new Set(catalog.map(c => c.chapter))).sort((a, b) => {
-    return parseFloat(a.split(' ')[0]) - parseFloat(b.split(' ')[0]);
-  });
-  
-  if (chapterSelect) {
-    chapterSelect.innerHTML = '<option value="">All 20 Chapters</option>';
-    chapters.forEach(ch => {
-      const opt = document.createElement('option');
-      opt.value = ch;
-      opt.textContent = ch;
-      chapterSelect.appendChild(opt);
+    const colors = getChartColors();
+    const rows = state.data.sub_lifelines.emergency_water_islands;
+
+    state.charts.waterEmerg = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: rows.map(r => r.year),
+        datasets: [{
+          label: 'Islands Requiring Emergency Maritime Water Delivery',
+          data: rows.map(r => r.islands),
+          backgroundColor: colors.accent,
+          borderRadius: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (item) => `${item.parsed.y} outer islands supplied` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text } }
+        }
+      }
     });
   }
 
-  function filterCatalog() {
-    const q = searchInput?.value.toLowerCase().trim() || '';
-    const selectedCh = chapterSelect?.value || '';
+  // Chart 19: Crime Types
+  function renderCrimeTypesChart() {
+    const ctx = document.getElementById('chart-crime-types');
+    if (!ctx) return;
+    if (state.charts.crime) state.charts.crime.destroy();
 
-    const filtered = catalog.filter(item => {
-      const matchQ = !q || item.title.toLowerCase().includes(q) || item.id.toLowerCase().includes(q) || item.chapter.toLowerCase().includes(q);
-      const matchCh = !selectedCh || item.chapter === selectedCh;
-      return matchQ && matchCh;
+    const colors = getChartColors();
+    const crimes = state.data.sub_society.reported_crime_categories_2023;
+
+    state.charts.crime = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: crimes.map(c => c.category),
+        datasets: [{
+          label: 'Reported Cases',
+          data: crimes.map(c => c.cases),
+          backgroundColor: colors.rose,
+          borderRadius: 3
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (item) => `${formatNum(item.parsed.x)} cases (${crimes[item.dataIndex].pct}%)` } }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text } },
+          y: { grid: { display: false }, ticks: { color: colors.text } }
+        }
+      }
+    });
+  }
+
+  // Chart 20: Election Turnout
+  function renderElectionTurnoutChart() {
+    const ctx = document.getElementById('chart-election-turnout');
+    if (!ctx) return;
+    if (state.charts.elections) state.charts.elections.destroy();
+
+    const colors = getChartColors();
+    const elections = state.data.sub_society.elections_turnout;
+
+    state.charts.elections = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: elections.map(e => e.election),
+        datasets: [{
+          label: 'Voter Turnout (%)',
+          data: elections.map(e => e.turnout_pct),
+          backgroundColor: colors.emerald,
+          borderRadius: 3
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: (item) => `Turnout: ${item.parsed.x}% (${formatNum(elections[item.dataIndex].registered_voters)} voters)` } }
+        },
+        scales: {
+          x: { min: 50, max: 100, grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => `${v}%` } },
+          y: { grid: { display: false }, ticks: { color: colors.text } }
+        }
+      }
+    });
+  }
+
+  // Chart 21: Education Stages
+  function renderEducationStagesChart() {
+    const ctx = document.getElementById('chart-education-stages');
+    if (!ctx) return;
+    if (state.charts.education) state.charts.education.destroy();
+
+    const colors = getChartColors();
+    const edu = state.data.sub_society.education_students_by_stage;
+
+    state.charts.education = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: edu.map(e => e.year),
+        datasets: [
+          {
+            label: 'Primary (Grades 1 - 7)',
+            data: edu.map(e => e.primary),
+            borderColor: colors.accent,
+            borderWidth: 2.5,
+            tension: 0.3
+          },
+          {
+            label: 'Lower Secondary (Grades 8 - 10)',
+            data: edu.map(e => e.lower_sec),
+            borderColor: colors.emerald,
+            borderWidth: 2.5,
+            tension: 0.3
+          },
+          {
+            label: 'Higher Secondary (Grades 11 - 12)',
+            data: edu.map(e => e.higher_sec),
+            borderColor: colors.amber,
+            borderWidth: 2.5,
+            tension: 0.3
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // =========================================================================
+  // 8. MASTER CATALOG SEARCH STUDIO
+  // =========================================================================
+  function setupCatalog() {
+    if (!els.catalogInput) return;
+
+    els.catalogInput.addEventListener('input', (e) => {
+      state.catalogQuery = e.target.value.toLowerCase().trim();
+      state.catalogPage = 1;
+      if (els.clearSearchBtn) {
+        els.clearSearchBtn.style.display = state.catalogQuery ? 'block' : 'none';
+      }
+      renderCatalogTable();
     });
 
-    if (countBadge) countBadge.textContent = `${filtered.length} tables`;
-
-    if (tableBody) {
-      tableBody.innerHTML = '';
-      filtered.slice(0, 100).forEach(item => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td><code class="font-mono">${item.id}</code></td>
-          <td><span class="badge-pill">${item.chapter}</span></td>
-          <td><strong>${item.title}</strong></td>
-          <td class="num font-mono">${formatNum(item.rows)}</td>
-          <td class="num font-mono">${formatNum(item.cols)}</td>
-          <td><a href="datasets/${item.file}" target="_blank" class="btn-ghost" style="height: 26px; padding-inline: 0.5rem; font-size: 0.75rem;">View CSV</a></td>
-        `;
-        tableBody.appendChild(tr);
+    if (els.clearSearchBtn) {
+      els.clearSearchBtn.addEventListener('click', () => {
+        els.catalogInput.value = '';
+        state.catalogQuery = '';
+        els.clearSearchBtn.style.display = 'none';
+        state.catalogPage = 1;
+        renderCatalogTable();
       });
+    }
+
+    els.filterPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        els.filterPills.forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        state.catalogCategory = pill.getAttribute('data-cat');
+        state.catalogPage = 1;
+        renderCatalogTable();
+      });
+    });
+
+    if (els.pagePrevBtn) {
+      els.pagePrevBtn.addEventListener('click', () => {
+        if (state.catalogPage > 1) {
+          state.catalogPage--;
+          renderCatalogTable();
+        }
+      });
+    }
+
+    if (els.pageNextBtn) {
+      els.pageNextBtn.addEventListener('click', () => {
+        state.catalogPage++;
+        renderCatalogTable();
+      });
+    }
+
+    renderCatalogTable();
+  }
+
+  function renderCatalogTable() {
+    if (!state.data || !state.data.catalog || !els.catalogTableBody) return;
+
+    const filtered = state.data.catalog.filter(item => {
+      if (state.catalogCategory !== 'all') {
+        if (!item.category.toLowerCase().includes(state.catalogCategory.toLowerCase())) {
+          return false;
+        }
+      }
+      if (state.catalogQuery) {
+        const titleMatch = item.title.toLowerCase().includes(state.catalogQuery);
+        const catMatch = item.category.toLowerCase().includes(state.catalogQuery);
+        const idMatch = item.table_id.toLowerCase().includes(state.catalogQuery);
+        if (!titleMatch && !catMatch && !idMatch) return false;
+      }
+      return true;
+    });
+
+    if (els.catalogVisibleCount) {
+      els.catalogVisibleCount.textContent = formatNum(filtered.length);
+    }
+
+    const totalPages = Math.ceil(filtered.length / state.catalogPageSize) || 1;
+    if (state.catalogPage > totalPages) state.catalogPage = totalPages;
+
+    const startIndex = (state.catalogPage - 1) * state.catalogPageSize;
+    const pageItems = filtered.slice(startIndex, startIndex + state.catalogPageSize);
+
+    els.catalogTableBody.innerHTML = pageItems.map(item => `
+      <tr>
+        <td><span class="table-id-pill">${item.table_id}</span></td>
+        <td><span class="font-medium">${item.category}</span></td>
+        <td>${item.title || 'Statistical Table'}</td>
+        <td class="font-mono text-muted">${item.min_year ? `${item.min_year} – ${item.max_year}` : 'Multi-Year'}</td>
+        <td class="font-mono">${formatNum(item.rows)}</td>
+        <td>
+          <a href="${item.csv_path}" download class="btn-csv-link" title="Download harmonized CSV">
+            <span>CSV</span> ⬇
+          </a>
+        </td>
+      </tr>
+    `).join('');
+
+    if (els.pageIndicator) {
+      els.pageIndicator.textContent = `Page ${state.catalogPage} of ${totalPages}`;
+    }
+    if (els.pagePrevBtn) {
+      els.pagePrevBtn.disabled = state.catalogPage <= 1;
+    }
+    if (els.pageNextBtn) {
+      els.pageNextBtn.disabled = state.catalogPage >= totalPages;
     }
   }
 
-  searchInput?.addEventListener('input', filterCatalog);
-  chapterSelect?.addEventListener('change', filterCatalog);
-  filterCatalog();
-}
+  // =========================================================================
+  // BOOTSTRAP
+  // =========================================================================
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();

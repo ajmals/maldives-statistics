@@ -57,10 +57,15 @@ statistical-year-book-2021/
 ├── data/                                  # Multi-year statistical repository
 │   ├── raw/                               # Official original files (PDFs, Excel, HTML)
 │   │   ├── manifest.json                  # Multi-year collection metadata index
-│   │   ├── 2026/ ... 2008/                # 18 Yearbook editions (7,147 files, 1.37 GB)
-│   │   └── 2021/                          # 2021 raw PDFs & Excel files (20 chapters)
-│   └── processed/                         # Extracted, standardized datasets
-│       └── 2021/                          # 309 clean CSVs + JSON schema & metadata
+│   │   └── 2026/ ... 2008/                # 19 Yearbook editions (7,147 files, 1.37 GB)
+│   ├── processed/                         # Per-year extracted, standardized datasets
+│   │   ├── multi_year_catalog.json        # Master unified catalog (3,937 tables)
+│   │   ├── README.md                      # Multi-year archive index & breakdown
+│   │   └── 2026/ ... 2008/                # Per-year clean CSVs + JSON schemas + catalogs
+│   └── master_categories/                 # Consolidated multi-year longitudinal archives
+│       ├── maldives_statistics_master.db  # Central SQLite database (958,949 panel rows)
+│       ├── README.md                      # SQL guide & category quick links
+│       └── 1.0 Geography ... 20.0/        # Wide CSVs, master_panel.csv & <category>.db
 ├── datasets/ -> data/processed/2021/      # Symlink for backward-compatibility
 ├── raw_stats_data/ -> data/raw/2021/      # Symlink for backward-compatibility
 ├── figures/                               # Publication-grade visualization figures (PNG)
@@ -68,6 +73,8 @@ statistical-year-book-2021/
 │   └── exploratory_data_analysis.ipynb   # Interactive analysis Jupyter Notebook
 ├── scripts/
 │   ├── download_yearbooks.py             # Multi-year scraper & downloader (2008-2026)
+│   ├── process_all_yearbooks.py          # Unified multi-year table cleaning pipeline
+│   ├── build_master_categories.py        # Master category consolidator & SQLite generator
 │   ├── prepare_dashboard_data.py          # Dashboard bundling script
 │   ├── generate_eda_visualizations.py    # Figure generation pipeline
 │   └── build_eda_notebook.py             # Notebook generation pipeline
@@ -76,14 +83,16 @@ statistical-year-book-2021/
 └── README.md                             # Repository overview
 ```
 
-### 📥 Downloading Additional Yearbooks
-You can run the multi-year downloader anytime to update or download specific editions:
+### 📥 Multi-Year Download, Processing & Harmonization Pipeline
 ```bash
-# Download all available editions (2008-2026)
+# 1. Download all available editions (2008-2026)
 python scripts/download_yearbooks.py --years all
 
-# Download specific yearbooks (e.g. 2026 and 2025)
-python scripts/download_yearbooks.py --years 2026,2025
+# 2. Clean and process all raw data into standardized CSV + JSON
+python scripts/process_all_yearbooks.py
+
+# 3. Build consolidated category master datasets & SQLite databases
+python scripts/build_master_categories.py
 ```
 
 
