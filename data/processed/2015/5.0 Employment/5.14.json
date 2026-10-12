@@ -1,0 +1,21 @@
+{
+  "table_id": "5.14",
+  "title_en": "Table 5.14: CIVIL SERVANTS CLASSIFIED BY OCCUPATION AND SEX, 2014",
+  "title_dv": "ތާވަލު 5.14: އަދާކުރާ ވަޒީފާގެ ގޮތުން ސިވިލް ސަރވަންޓުން ބެހިފައިވާ ގޮތް އަދި ޖިންސް، 2014",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Republic - Both Sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both Sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both Sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 27
+}

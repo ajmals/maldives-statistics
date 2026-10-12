@@ -1,0 +1,28 @@
+{
+  "table_id": "3.17",
+  "title_en": "Table 3.17 : MARRIAGES AND DIVORCES IN MALE' AND ATOLLS, 2016 - 2017",
+  "title_dv": "ތާވަލު 3.17: މާލެ އާއި އަތޮޅުތަކުގައި ކުރެވުނު ކައިވެންޏާއި ވަރި، 2016 - 2017",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "2010",
+    "Marriages",
+    "Male'",
+    "Hulhumale'",
+    "Atolls"
+  ],
+  "columns": [
+    "Locality",
+    "2016 - Marriages",
+    "2016 - Divorces",
+    "2016 - Faskh",
+    "2016 - Thafreeq",
+    "2017 - Marriages",
+    "2017 - Divorces",
+    "2017 - Faskh",
+    "2017 - Thafreeq",
+    "% Change over previous year of - Marriages",
+    "% Change over previous year of - Divorces"
+  ],
+  "row_count": 24
+}

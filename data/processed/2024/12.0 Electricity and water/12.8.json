@@ -1,0 +1,29 @@
+{
+  "table_id": "12.8",
+  "title_en": "Table 12.8 : BILLED WATER CONSUMPTION IN HULHUMALE', 2010 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Private Limited",
+  "notes": [],
+  "columns": [
+    "Type",
+    "2007",
+    "2008",
+    "2009",
+    "(In '000 metric tons) - 2010",
+    "(In '000 metric tons) - 2011",
+    "(In '000 metric tons) - 2012",
+    "(In '000 metric tons) - 2013",
+    "(In '000 metric tons) - 2014",
+    "(In '000 metric tons) - 2015",
+    "(In '000 metric tons) - 2016",
+    "(In '000 metric tons) - 2017",
+    "(In '000 metric tons) - 2018",
+    "(In '000 metric tons) - 2019",
+    "(In '000 metric tons) - 2020",
+    "(In '000 metric tons) - 2021",
+    "(In '000 metric tons) - 2022",
+    "(In '000 metric tons) - 2023"
+  ],
+  "row_count": 14
+}

@@ -1,0 +1,27 @@
+{
+  "table_id": "11.19",
+  "title_en": "Table 11.19: VESSEL TYPE CLASSIFIED BY IMPORTED AND VESSELS MADE IN MALDIVES BY HULL TYPE, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Transport Authority",
+  "notes": [
+    "Pessenger Vehicles (Only Peoples)",
+    "Passenger / Transport Vessels (Cargo and ppl)",
+    "Pleasure Craft (Yaught , Launch , Safari)",
+    "Others (Bokkuraa , Vadhu dhoani) Kudhi"
+  ],
+  "columns": [
+    "Type of Vessel",
+    "No. of Imported - Total",
+    "No. of Imported - Wood",
+    "No. of Imported - Fyber",
+    "No. of Imported - Glass",
+    "No. of Imported - Other",
+    "No. of vessels made in Maldives - Total",
+    "No. of vessels made in Maldives - Wood",
+    "No. of vessels made in Maldives - Fyber",
+    "No. of vessels made in Maldives - Glass",
+    "No. of vessels made in Maldives - Other"
+  ],
+  "row_count": 7
+}

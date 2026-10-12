@@ -1,0 +1,28 @@
+{
+  "table_id": "Health",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note:",
+    "Inpatients at the main public hospital in Male' (IGMH), do not show the full picture as it covers 69% of inpatient hospital beds in Male'.",
+    "1_/: number of hospital beds are given according to the number on end of the year.",
+    "IGMH: Indhiraa Gandhi Memorial Hospital"
+  ],
+  "columns": [
+    "HEALTH",
+    "HEALTH - 2006",
+    "HEALTH - 2007",
+    "HEALTH - 2008",
+    "HEALTH - 2009",
+    "HEALTH - 2010",
+    "HEALTH - 2011",
+    "HEALTH - 2012",
+    "HEALTH - 2013",
+    "HEALTH - 2014",
+    "HEALTH - 2015",
+    "HEALTH - 2016"
+  ],
+  "row_count": 9
+}

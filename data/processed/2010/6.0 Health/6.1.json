@@ -1,0 +1,24 @@
+{
+  "table_id": "6.1",
+  "title_en": "Table 6.1 : DISTRIBUTION OF MEDICAL STAFF IN MALE' AND ATOLLS, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "1_/ Does not include pvt clinics"
+  ],
+  "columns": [
+    "Personnel",
+    "Republic - Both Sex",
+    "Republic - Both Sex_2",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both Sex",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both Sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 21
+}

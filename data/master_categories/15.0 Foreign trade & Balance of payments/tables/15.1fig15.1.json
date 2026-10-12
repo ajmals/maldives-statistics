@@ -1,0 +1,35 @@
+{
+  "table_id": "15.1fig15.1",
+  "category": "15.0 Foreign trade & Balance of payments",
+  "title_en": "Table 15.1 : IMPORTS BY COUNTRY OF CONSIGNMENT, 2006 - 2010",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [
+    "2010",
+    "2,512",
+    "2,631",
+    "1,613"
+  ],
+  "time_span": "2003 – 2011",
+  "year_min": 2003,
+  "year_max": 2011,
+  "row_count": 39,
+  "column_count": 13,
+  "columns": [
+    "Item",
+    "% Change Over Previous Year - 2009",
+    "% Change Over Previous Year - 2010",
+    "% share - 2009",
+    "% share - 2010",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2003_2 - 2011",
+    "cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000 - 2003",
+    "cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000 - 2005",
+    "cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000 - 2006",
+    "cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000 - 2007",
+    "cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000 - 2008",
+    "cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000 - 2009",
+    "cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000 - 2010"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/15.1fig15.1.csv"
+}

@@ -1,0 +1,42 @@
+{
+  "table_id": "5.3",
+  "title_en": "Table 5.3 : EXPATRIATE EMPLOYMENT BY INDUSTRY AND OCCUPATION, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Human Resources, Youth and Sports",
+  "notes": [
+    "Note: All data are aggregate figures"
+  ],
+  "columns": [
+    "Occupation",
+    "Total",
+    "Total_2",
+    "Agriculture and Forestry",
+    "Agriculture and Forestry_2",
+    "Fishing",
+    "Fishing_2",
+    "Manufacturing",
+    "Manufacturing_2",
+    "Electricity, Gas & Water",
+    "Electricity, Gas & Water_2",
+    "Construction",
+    "Construction_2",
+    "Education",
+    "Education_2",
+    "Wholesale & Retail Trade",
+    "Wholesale & Retail Trade_2",
+    "Hotels & Restaurants",
+    "Hotels & Restaurants_2",
+    "Tourism",
+    "Tourism_2",
+    "Tourism_3",
+    "Transport, Storage and Communication",
+    "Transport, Storage and Communication_2",
+    "Transport, Storage and Communication_3",
+    "Financing, insurance, business and real estate",
+    "Financing, insurance, business and real estate_2",
+    "Community, social and personal services",
+    "Community, social and personal services_2"
+  ],
+  "row_count": 11
+}

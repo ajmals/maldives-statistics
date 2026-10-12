@@ -1,0 +1,21 @@
+{
+  "table_id": "9.17",
+  "title_en": "Table 19.17: Comparison of imports and Male' Market Data 2009 (Major agricultural crops Supplied to Male')",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Ser vice",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Local production supplied to Male' Market - Quantity in Kgs",
+    "Local production supplied to Male' Market - Value in Rf",
+    "Local production supplied to Male' Market - Avr. Market Price (In kg)",
+    "Imports (C.I.F) - quantity in Kgs",
+    "Imports (C.I.F) - value in Rf",
+    "Imports (C.I.F) - Average import Price",
+    "Total - quantity in Kgs",
+    "Total - value in Rf",
+    "Total - Male' market as % of total Qty"
+  ],
+  "row_count": 15
+}

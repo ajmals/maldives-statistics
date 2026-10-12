@@ -1,0 +1,25 @@
+{
+  "table_id": "8.8",
+  "title_en": "Table 8.8: DRUG CASES LOGGED BY TYPE, 2016 - 2021",
+  "title_dv": "ތާވަލު 8.8: ހުށަހެޅިފައިވާ މަސްތުވާތަކެތީގެ މައްސަލަތަކާއި އަދި ބާވަތް، 2016- 2021",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "% change over 2020",
+    "2021 - Percentage share"
+  ],
+  "row_count": 16
+}

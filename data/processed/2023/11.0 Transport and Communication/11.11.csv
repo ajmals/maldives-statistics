@@ -1,0 +1,14 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Cargo (kg) - In,Cargo (kg) - Out,Mail (kg) - In,Mail (kg) - Out
+Total,3911,56411,57246,41178,3472.8,293,12.9
+International Flights,139,2093,2201,6394,,,
+International Scheduled,136,2093,2201,6394,,,
+IAS,136,2093,2201,6394,,,
+Venuslink Flight Support,,,,,,,
+International Charter,,,,,,,
+IAS,,,,,,,
+International Non-Scheduled,3,,,,,,
+Domestic flights,3772,54318,55045,34784,3472.8,293,12.9
+Island Aviation (Scheduled),3772,54318,55045,34784,3472.8,293,12.9
+Manta Aviation,8,132,132,,,,
+Villa Air,46,949,979,24,55,,
+Other Domestic,213,,,,,,

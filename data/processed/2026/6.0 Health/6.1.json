@@ -1,0 +1,40 @@
+{
+  "table_id": "6.1",
+  "title_en": "Table 6.1 : DISTRIBUTION OF MEDICAL STAFF IN MALE' AND ATOLLS - 2022",
+  "title_dv": "ތާވަލު 6.1: ޞިއްޙީ ދާއިރާގައި މަސައްކަތްކުރާ މީހުންގެ އަދަދު، 2022",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "*The data in this tabulation are tentative and are subjected to changes. Final data will be published within six months of this provisional release.",
+    "“Allied health professionals” refers to, health professions defined under the Section 45 of this Act with the exception of medical and dental practitioners, nurses and midwives. \"To practice in the Maldives as a an allied health professional, the practitioner shall, in accordance with this Act and Regulations made hereunder, register at Maldives Allied Health Council and shall practice under the license issued by the Council and in accordance with the conditions set forth in the license\"",
+    "“Medical practitioners” refers to those educated in the field of Medicine, and are registered as medical practitioners at the Maldives Medical and Dental Council established under the Section 29 of this Act.",
+    "“Dental practitioners” refers to those educated in the field of Dentistry and are registered as dental practitioners at the Maldives Medical and Dental Council established under the Section 29 of this Act",
+    "Categories of Health Personnel",
+    "Categories of Health Personnel",
+    "Categories of Health Personnel",
+    "Total",
+    "Allied Health Professionals",
+    "Managerial, admin and support staff",
+    "Medical and dental professionals (Dentists, General Doctors, Medical specialists)",
+    "Nurse",
+    "Note:",
+    "*The data in this tabulation are tentative and are subjected to changes. Final data will be published within six months of this provisional release.",
+    "“Allied health professionals” refers to, health professions defined under the Section 45 of this Act with the exception of medical and dental practitioners, nurses and midwives. \"To practice in the Maldives as a an allied health professional, the practitioner shall, in accordance with this Act and Regulations made hereunder, register at Maldives Allied Health Council and shall practice under the license issued by the Council and in accordance with the conditions set forth in the license\"",
+    "“Medical practitioners” refers to those educated in the field of Medicine, and are registered as medical practitioners at the Maldives Medical and Dental Council established under the Section 29 of this Act.",
+    "“Dental practitioners” refers to those educated in the field of Dentistry and are registered as dental practitioners at the Maldives Medical and Dental Council established under the Section 29 of this Act"
+  ],
+  "columns": [
+    "Categories of Health Personnel",
+    "Republic - Both sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 5
+}

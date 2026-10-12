@@ -1,0 +1,29 @@
+{
+  "table_id": "20.4",
+  "title_en": "TABLE 20.4: DETAILS OF THE BALLOT BOXES KEPT DURING PRESIDENTIAL ELECTIONS 2023 - Round 1",
+  "title_dv": "ތާވަލު 20.4: 2023 ވަނަ އަހަރުގެ ރިޔާސީ އިންތިޚާބުގެ ފުރަތަމަ ބުރުގައި ބެހެއްޓުނު ވޯޓު ފޮށިތަކުގެ ތަފްސީލް",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Valid Votes",
+    "Invalid Votes",
+    "Male Voted",
+    "Female Voted",
+    "Total Voted",
+    "Eligible Voters",
+    "Eligible Male",
+    "Eligible Female",
+    "Column_12",
+    "Valid Votes_2",
+    "Invalid Votes_2",
+    "Male Voted_2",
+    "Female Voted_2",
+    "Total Voted_2",
+    "Eligible Voters_2",
+    "Eligible Male_2",
+    "Eligible Female_2"
+  ],
+  "row_count": 223
+}

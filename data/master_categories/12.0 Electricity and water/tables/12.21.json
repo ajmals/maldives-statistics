@@ -1,0 +1,24 @@
+{
+  "table_id": "12.21",
+  "category": "12.0 Electricity and water",
+  "title_en": "TABLE 12.20: Imports of Mineral waterby Country, 2014",
+  "unit": "",
+  "source": "Source: Maldives Customs Service",
+  "notes": [],
+  "time_span": "2015 – 2019",
+  "year_min": 2015,
+  "year_max": 2019,
+  "row_count": 42,
+  "column_count": 7,
+  "columns": [
+    "Item",
+    "CIF (MVR) - 2015",
+    "CIF (MVR) - 2018",
+    "Quantity (Ltr) - 2015",
+    "Quantity (Ltr) - 2018",
+    "TABLE 12.21: Imports of Mineral waterby Country,  - CIF (MVR - 2019",
+    "TABLE 12.21: Imports of Mineral waterby Country,  - Quantity (Ltr - 2019"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/12.21.csv"
+}

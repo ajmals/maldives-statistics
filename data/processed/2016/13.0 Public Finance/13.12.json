@@ -1,0 +1,38 @@
+{
+  "table_id": "13.12",
+  "title_en": "Table 13.12: REVENUE COLLECTED BY MAJOR CATEGORIES, 2011 - 2015",
+  "title_dv": "ތާވަލު 13.12: ޢާމްދަނީގެ ގޮތުގައި ލިބުނު ފައިސާ އެކި ބައިތަކަށް، 2011 - 2015",
+  "unit": "",
+  "source": "Source: Maldives Inland Revenue Authority",
+  "notes": [
+    "Note:",
+    "* 2014 figures are revised",
+    "1 Business Permits: Company Annual Fee, Restaurant, Café, Canteen Fee, Flat Maintanance Fee, Partnership Fees, Import Trade Fee, Co-operative Society Fees, Trade Registry Fee, Foreign Investment Administration Annual Fee, Company Registration Fee, Foreign Business Fee, Sole Traders Registration Fee",
+    "2 Land Rent: Uninhabited Islands Rent, Government Buildings Rent, Commercial Land Rent, Rent from Land for Industry, Longterm Agricultural Leased Islands Rent, Rent from Floating Jetty, Uninhabited Islands Administration Fee",
+    "3 Royalties: Duty Free Royalty, Foreign Investment Royalty, Fishing Royalty, Fuel re-export Royalty, Re-Export Royalty, Yellowfin Tuna Export Royalty, Skipjack Industry Royalty",
+    "4 Sale of Capital Assets: Sale of Items At Auction, Sale of Government Buildings, Sale of Government Lands",
+    "5 Others: Reimbursements from Previous Year's Budget",
+    "ވިޔަފާރި ހުއްދަ: ކުންފުނިތަކުގެ އަހަރީ ފީ، ރެސްޓޯރަންޓް، ކެފޭ އަދި ކެންޓީންތަކުގެ ވިޔަފާރި ފީ، ފްލެޓް ބެލެހެއްޓުމުގެ އަގު ، ޕާޓްނާޝިޕް އަހަރީ ފީ، އިމްޕޯޓް ވިޔަފާރި ފީ، ކޯޕަރޭޓިވް ސޮސައިޓީ ރެޖިސްޓްރޭޝަން ފީ، ޓްރޭޑް ރަޖިސްޓްރީ ފީ، ފޮރިން އިންވެސްޓްމަންޓް އެޑްމިނިސްޓްރޭޝަން ފީ، ކުންފުނި ރަޖިސްޓްރީ ކުރުމުގެ ފީ، ބިދޭސީން ވިޔަފާރި ކުރުމުގެ ހުއްދަ",
+    "ބިމުގެ ކުލި: ގޮއިފާލައްބަ، ހިންނަ ފަދަ ތަންތަނުގެ ވަރުވާ، ސަރުކާރު އިމާރާތްތަކުގެ ކުލި، ވިޔަފާރިކުރުމަށް ދޫކުރެވިފައިވާ ބިންބިމުގެ ކުލި، ސިނާޢީ މަސައްކަތްތަކަށް ދޫކުރެވިފައިވާ ބިމުގެ ކުލި، ދަނޑުވެރިކަމަށް ދޫކުރެވިފައިވާ ރަށްރަށުގެ ކުލި، ފްލޯޓިންގ ޖެޓީގެ ކުލި، ފަޅުރަށްރަށް ބެލެހެއްޓުމުގެ ފީ",
+    "ރޯޔަލްޓީ: ޑިއުޓީ ފްރީ ޝޮޕްގެ ރޯޔަލްޓީ، ބިދޭސީން ކުރާ ވިޔަފާރިގެ ރޯޔަލްޓީ، ބިދޭސީން ކުރާ މަސްވެރިކަމުގެ ރޯޔަލްޓީ، ގާމެންޓް އިންޑަސްޓްރީގެ ރޯޔަލްޓީ، ބުލިއަން ރޯޔަލްޓީ، ފިއުލް ރީއެކްސްޕޯޓް ރޯޔަލްޓީ، ރީއެކްސްޕޯޓް ރޯޔަލްޓީ، ބޮޑު ކަންނެލީގެ އެކްސްޕޯޓް ރޯޔަލްޓީ، މަސް އެކްސްޕޯޓް ކުރުމުގެ ރޯޔަލްޓީ",
+    "ހަރުމުދާ ވިއްކައިގެން ލިބޭ ފައިސާ: ނީލަމުގައި ތަކެތި ވިއްކައިގެން ލިބޭ، ސަރުކާރުގެ އިމާރާތް ވިއްކި، ސަރުކާރުގެ ބިން ވިއްކި",
+    "އެހެނިހެން: ކުރީ އަހަރުގެ ބަޖެޓުން އަނބުރާ ލިބޭ ފައިސާ",
+    "މަޢުލޫމާތު ދެއްވި ފަރާތް: މޯލްޑިވްސް އިންލަންޑް ރެވެނިއު އޮތޯރިޓީ"
+  ],
+  "columns": [
+    "Description",
+    "Revenue collected (MVR) - 2011",
+    "Revenue collected (MVR) - 2012",
+    "Revenue collected (MVR) - 2013",
+    "Revenue collected (MVR) - 2014*",
+    "Revenue collected (MVR) - 2015",
+    "Percentage shares - 2011",
+    "Percentage shares - 2012",
+    "Percentage shares - 2013",
+    "Percentage shares - 2014",
+    "Percentage shares - 2015",
+    "*Percentage change over 2013 - 2014",
+    "Percentage change over 2014 - 2015"
+  ],
+  "row_count": 21
+}

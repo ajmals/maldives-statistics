@@ -1,0 +1,24 @@
+{
+  "table_id": "18.4",
+  "title_en": "TABLE 18.4: NUMBER OF BENEFICIARIES OF BASIC PENSION SCHEME BY AGE, 2022 - 2024",
+  "title_dv": "ތާވަލު 18.4 : އަސާސީ ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2022 - 2024",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2022 - Total",
+    "2022 - 65-69",
+    "2022 - 70-74",
+    "2022 - 75 & over",
+    "2023 - Total",
+    "2023 - 65-69",
+    "2023 - 70-74",
+    "2023 - 75 & over",
+    "2024 - Total",
+    "2024 - 65-69",
+    "2024 - 70-74",
+    "2024 - 75 & over"
+  ],
+  "row_count": 12
+}

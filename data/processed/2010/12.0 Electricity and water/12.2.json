@@ -1,0 +1,29 @@
+{
+  "table_id": "12.2",
+  "title_en": "Table 12.2 : MONTHLY ELECTRICITY PRODUCTION BY PUBLIC SECTOR, 2009 (In ' 000 kWh)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Company Limited",
+  "notes": [
+    "Note: On 1 May 2009_ HA,HDh,Shaviyani,N,R,B,Lh,GA,GDh atolls changed over of electricity provision from STELCO to utility companies",
+    "Note: On 1 July 2009_ Addu and Fuahmulaku atoll changed over of electricity provision from STELCO to utility companies",
+    "Note: On 1 March 2009_ Dhaalu atoll changed over of electricity provision from STELCO to utility companies"
+  ],
+  "columns": [
+    "Locality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 30
+}

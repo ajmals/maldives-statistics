@@ -1,0 +1,19 @@
+{
+  "table_id": "17.7",
+  "title_en": "Table 17.7 : QUANTITY, VALUE AND UNIT VALUES FOR SELECTED EXPORT ITEMS, 2006 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Maldives Customs Services"
+  ],
+  "columns": [
+    "Items - Quantity",
+    "Unit - metric tons",
+    "2006 - metric tons",
+    "2007 - metric tons",
+    "2008 - metric tons",
+    "2009 - metric tons"
+  ],
+  "row_count": 29
+}

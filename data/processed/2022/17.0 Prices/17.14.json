@@ -1,0 +1,31 @@
+{
+  "table_id": "17.14",
+  "title_en": "Table 17.14 : EXCHANGE RATES, 2018 - 2021",
+  "title_dv": "2021 - 2018 ,ugwa egWsiaWf urEb : 17.14 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "Note:",
+    "In April 2011, the exchange rate regime was changed from a fixed rate regime to a band of 20 percent around a central parity of MVR 12.8 per US dollar"
+  ],
+  "columns": [
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Type of Currency",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2018 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2018 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2018 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2018 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2019 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2019 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2019 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2019 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2020 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2020 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2020 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2020 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2021 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2021 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2021 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2021 - Dec"
+  ],
+  "row_count": 17
+}

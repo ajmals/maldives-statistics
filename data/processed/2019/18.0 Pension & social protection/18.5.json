@@ -1,0 +1,22 @@
+{
+  "table_id": "18.5",
+  "title_en": "TABLE 18.5: NUMBER OF BENEFICIARIES OF RETIREMENT PENSION SCHEME BY AGE, 2017 - 2018",
+  "title_dv": "ތާވަލު 18.5 :ރިޓާޔަމަންޓް ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2017 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "75+",
+    "Age Groups - 2017 - Total",
+    "Age Groups - 2017 - < 65",
+    "Age Groups - 2017 - 65-69",
+    "Age Groups - 2017 - 70-74",
+    "Age Groups - 2018 - Total",
+    "Age Groups - 2018 - < 65",
+    "Age Groups - 2018 - 65-69",
+    "Age Groups - 2018 - 70-74",
+    "Age Groups - 2018 - 75+"
+  ],
+  "row_count": 12
+}

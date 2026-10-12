@@ -1,0 +1,25 @@
+{
+  "table_id": "17.3",
+  "title_en": "Table 17.3 : INFLATION RATE, BY MONTH, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "(Index - base: June 2004=100) - Major Groups - Maldives",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Jan",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Feb",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Mar",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Apr",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - May",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Jun",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Jul",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Aug",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Sep",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Oct",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Nov",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Dec",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2011 - Jan - Dec"
+  ],
+  "row_count": 59
+}

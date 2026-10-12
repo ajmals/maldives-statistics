@@ -1,0 +1,35 @@
+{
+  "table_id": "3.21",
+  "title_en": "TABLE 3.21: NUMBER OF MARRIAGES BY NUMBER OF TIMES MARRIED BY SEX, 2018 - 2021",
+  "title_dv": "ތާވަލު 3.21: ކައިވެނީގެ އަދަދާއި ކައިވެނި ކުރި ފަހަރު އަދި ޖިންސު، 2018 - 2021",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "Male",
+    "First",
+    "Second",
+    "Third",
+    "Fourth or more",
+    "2016",
+    "Male",
+    "First",
+    "Second",
+    "Third",
+    "Fourth or more"
+  ],
+  "columns": [
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7",
+    "Column_8",
+    "Column_9",
+    "Female - 5414",
+    "Female - 5414_2",
+    "Female - 5414_3"
+  ],
+  "row_count": 8
+}

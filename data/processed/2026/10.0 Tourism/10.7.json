@@ -1,0 +1,24 @@
+{
+  "table_id": "10.7",
+  "title_en": "Table 10.7: BED CAPACITY AND UTILIZATION OF SAFARI VESSELS BY MONTH, 2024 - 2025",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry Tourism and Civil Aviation",
+  "notes": [
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country."
+  ],
+  "columns": [
+    "Month",
+    "2024 - Registered Bed Capacity",
+    "2024 - % share of registered beds in operation",
+    "2024 - Bed Capacity Utilization Rate %",
+    "2024 - Tourist Bednights",
+    "2025 - Registered Bed Capacity",
+    "2025 - Beds in operation",
+    "2025 - % share of registered beds in operation",
+    "2025 - Bed Capacity Utilization Rate %",
+    "2025 - Tourist Bednights"
+  ],
+  "row_count": 13
+}

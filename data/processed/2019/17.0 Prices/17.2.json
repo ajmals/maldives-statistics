@@ -1,0 +1,37 @@
+{
+  "table_id": "17.2",
+  "title_en": "Table 17.2 : CPI GROUPS, REPUBLIC, 1985 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "Prior to June 2004, the food and non-beverages category includes tobacco & narcotics category",
+    "Prior to January 1996, the fish category seperately is not available",
+    "Prior to June 2004, the transport category includes communication category",
+    "Prior to June 2004, the recreation & cultute category includes education category",
+    "Prior to June 1996, the housing, water. Electricity, gas and other fuels category includes only rent",
+    "na- Not available"
+  ],
+  "columns": [
+    "(Index - base: June 2012=100) - Major Groups - Republic",
+    "(Index - base: June 2012=100) - Annual CPI - 1985",
+    "(Index - base: June 2012=100) - Annual CPI - 1986",
+    "(Index - base: June 2012=100) - Annual CPI - 1987",
+    "(Index - base: June 2012=100) - Annual CPI - 1988",
+    "(Index - base: June 2012=100) - Annual CPI - 1989",
+    "(Index - base: June 2012=100) - Annual CPI - 1990",
+    "(Index - base: June 2012=100) - Annual CPI - 1991",
+    "(Index - base: June 2012=100) - Annual CPI - 1992",
+    "(Index - base: June 2012=100) - Annual CPI - 1993",
+    "(Index - base: June 2012=100) - Annual CPI - 1994",
+    "(Index - base: June 2012=100) - Annual CPI - 1995",
+    "(Index - base: June 2012=100) - Annual CPI - 1996",
+    "(Index - base: June 2012=100) - Annual CPI - 1997",
+    "(Index - base: June 2012=100) - Annual CPI - 1998",
+    "(Index - base: June 2012=100) - Annual CPI - 1999",
+    "(Index - base: June 2012=100) - Annual CPI - 2000",
+    "(Index - base: June 2012=100) - Annual CPI - 2001"
+  ],
+  "row_count": 36
+}

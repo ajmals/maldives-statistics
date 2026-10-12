@@ -1,0 +1,16 @@
+{
+  "table_id": "20.2",
+  "title_en": "TABLE 20.2: EXPENDITURE ON ELECTIONS, 2008 - 2023",
+  "title_dv": "ތާވަލު 20.2: އިންތިޚާބުތަކަށް ހިނގި ޚަރަދު، 2008 - 2023",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [
+    "Note: Presidential Election & Parlament Election is held every 5 years. Local Council election is held every 3 years. Hence, there were no elections in 2010, 2012, 2015 & 2016."
+  ],
+  "columns": [
+    "Election",
+    "Year",
+    "Expenditure (MVR)"
+  ],
+  "row_count": 11
+}

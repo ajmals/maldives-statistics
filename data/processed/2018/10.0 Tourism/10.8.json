@@ -1,0 +1,28 @@
+{
+  "table_id": "10.8",
+  "title_en": "TABLE 10.8: MONTHLY ARRIVAL OF TOURISTS BY SEX, 2015 - 2017",
+  "title_dv": "ތާވަލު 10.8: ޖިންސުގެ ގޮތުން އެކިމަސްމަހު ރާއްޖެއައި ފަތުރުވެރިންގެ އަދަދު، 2015 - 2017",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: 2015 revised"
+  ],
+  "columns": [
+    "2015",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Dec - 2015"
+  ],
+  "row_count": 11
+}

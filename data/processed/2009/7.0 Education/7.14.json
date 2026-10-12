@@ -1,0 +1,18 @@
+{
+  "table_id": "7.14",
+  "title_en": "Table 7.14 : STUDENT ENROLMENT IN SCHOOLS OF MALE', BY TYPE OF INSTITUTION AND SEX, 2007-2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Institution",
+    "2007 - Both Sexes",
+    "2007 - Male",
+    "2007 - Female",
+    "2008 - Both Sexes",
+    "2008 - Male",
+    "2008 - Female"
+  ],
+  "row_count": 25
+}

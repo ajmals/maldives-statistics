@@ -1,0 +1,42 @@
+{
+  "table_id": "11.9&11.10",
+  "category": "11.0 Transport and Communication",
+  "title_en": "Table 11.10 : AIRCRAFT MOVEMENT AT GAN INTERNATIONAL AIRPORT BY MONTH, 2010",
+  "unit": "",
+  "source": "Source: Civil Aviation Department",
+  "notes": [
+    "International Flights",
+    "Month",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "time_span": "2011",
+  "year_min": 2011,
+  "year_max": 2011,
+  "row_count": 13,
+  "column_count": 9,
+  "columns": [
+    "Item",
+    "Domestic Flights - Non-Scheduled - 2011",
+    "Domestic Flights - Scheduled - 2011",
+    "Domestic Flights - Total - 2011",
+    "Grand total - 2011",
+    "International Flights - Chartered - 2011",
+    "International Flights - Non-Scheduled - 2011",
+    "International Flights - Scheduled - 2011",
+    "International Flights - Total - 2011"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/11.9&11.10.csv"
+}

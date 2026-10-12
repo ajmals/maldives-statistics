@@ -1,0 +1,33 @@
+{
+  "table_id": "7.12",
+  "title_en": "Table 7.12 : STUDENTS ENROLMENT IN MALE' AND ATOLLS BY GRADE, 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Name of Atoll",
+    "Total",
+    "Pre-Primary - Nurs.",
+    "Pre-Primary - LKG",
+    "Pre-Primary - UKG",
+    "Pre-Primary - Total",
+    "Primary - Gr. 1",
+    "Primary - Gr. 2",
+    "Primary - Gr. 3",
+    "Primary - Gr. 4",
+    "Primary - Gr. 5",
+    "Primary - Gr. 6",
+    "Primary - Gr. 7",
+    "Primary - Total",
+    "Secondary - Gr. 8",
+    "Secondary - Gr. 9",
+    "Secondary - Gr. 10",
+    "Secondary - Total",
+    "Higher Secondary - Gr. 11",
+    "Higher Secondary - Gr. 12",
+    "Higher Secondary - Total",
+    "Special Classes"
+  ],
+  "row_count": 23
+}

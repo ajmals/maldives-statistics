@@ -1,0 +1,17 @@
+{
+  "table_id": "7.19",
+  "title_en": "Table 7.19: Number of candidates sat and passed in O'Level by subject, 2016",
+  "title_dv": "ތާވަލް 7.19: ޖީ. ސީ. އޯލެވެލް އިމްތިހާނުގައި މާއްދާތަކުގައި ބައިވެރިވި އަދި ފާސްވި ކުދިންގެ ޢަދަދު، 2016",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "*pass: C and above"
+  ],
+  "columns": [
+    "Subject",
+    "Candidates",
+    "Passed",
+    "% Passed"
+  ],
+  "row_count": 19
+}

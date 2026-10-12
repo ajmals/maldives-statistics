@@ -1,0 +1,21 @@
+{
+  "table_id": "5.14",
+  "title_en": "Table 5.14: Civil servants classified by age and sex, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Age groups",
+    "Republic - Both sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 12
+}

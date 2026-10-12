@@ -1,0 +1,16 @@
+{
+  "table_id": "11.28",
+  "title_en": "TABLE 11.28: LICENSED BROADCASTERS (end 2014)",
+  "title_dv": "ތާވަލު 11.28: ބްރޯޑްކާސްޓްކުރުމުގެ ލައިސަންސް ދެވިފައިވާ ފަރާތްތައް (2014 ގެ ނިޔަލަށް)",
+  "unit": "",
+  "source": "Source: Maldives Broadcasting Commission",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Company Name",
+    "Radio/F.M Stations, TV Stations",
+    "Year licence granted - Radio/F.M Stations, TV Stations",
+    "Number of staff - Radio/F.M Stations, TV Stations"
+  ],
+  "row_count": 30
+}

@@ -1,0 +1,18 @@
+{
+  "table_id": "8.68",
+  "title_en": "TABLE 8.68: Number of reported gender based violence and domestic violence, 2021 - 2022",
+  "title_dv": "ތާވަލު 8.68:ވަކި ޖިންސަކަށް ވީތީ ކުރާ އަނިޔާ އަދި ގެވެށި އަނިޔާގެ މައްސަލަތައް، 2021 - 2022",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [],
+  "columns": [
+    "Types of violence",
+    "2021 - Both Sex",
+    "2021 - Male",
+    "2021 - Female",
+    "2022 - Both Sex",
+    "2022 - Male",
+    "2022 - Female"
+  ],
+  "row_count": 9
+}

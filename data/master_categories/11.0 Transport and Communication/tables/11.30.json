@@ -1,0 +1,31 @@
+{
+  "table_id": "11.30",
+  "category": "11.0 Transport and Communication",
+  "title_en": "TABLE 11.30: NUMBER OF LICENSED REBROADCASTERS BY ATOLLS, 2011 - 2014",
+  "unit": "",
+  "source": "Source: Maldives Broadcasting Commission",
+  "notes": [],
+  "time_span": "2011 – 2019",
+  "year_min": 2011,
+  "year_max": 2019,
+  "row_count": 41,
+  "column_count": 14,
+  "columns": [
+    "Item",
+    "(in 000 mins) - National Call Minutes - Land Lines - Fixed-->Mobile - 2019",
+    "(in 000 mins) - National Call Minutes - Land Lines - Inter- zone - 2019",
+    "(in 000 mins) - National Call Minutes - Land Lines - International - call minutes - 2019",
+    "(in 000 mins) - National Call Minutes - Land Lines - Local - 2019",
+    "(in 000 mins) - National Call Minutes - Land Lines - Mobile call Minutes - 2019",
+    "(in 000 mins) - National Call Minutes - Land Lines - Total - 2019",
+    "(in 000 mins) - SMS Usage - Land Lines - Outgoing SMS's - (in 000s) - 2019",
+    "Number of Licensed Rebroadcasters - 2011",
+    "Number of Licensed Rebroadcasters - 2012",
+    "Number of Licensed Rebroadcasters - 2013",
+    "Number of Licensed Rebroadcasters - 2014",
+    "Number of Licensed Rebroadcasters - 2015",
+    "Number of Licensed Rebroadcasters - 2016"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/11.30.csv"
+}

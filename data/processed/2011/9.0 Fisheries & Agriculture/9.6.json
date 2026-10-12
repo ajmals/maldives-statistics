@@ -1,0 +1,19 @@
+{
+  "table_id": "9.6",
+  "title_en": "Table 9.6 : FISH CATCH BY TYPE OF VESSELS AND SPECIES, 2005 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "(In metric tons) - Type of vessel & species",
+    "(In metric tons) - 2001",
+    "(In metric tons) - 2005",
+    "(In metric tons) - 2006",
+    "(In metric tons) - 2007",
+    "(In metric tons) - 2008",
+    "(In metric tons) - 2009",
+    "(In metric tons) - 2010"
+  ],
+  "row_count": 35
+}

@@ -1,0 +1,23 @@
+{
+  "table_id": "7.4",
+  "title_en": "Table 7.4 : TEACHERS AND STUDENTS OF EDUCATIONAL INSTITUTIONS, BY LOCALITY, 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: No untrained expatriate teachers"
+  ],
+  "columns": [
+    "Locality",
+    "Student Enrolment - Both Sexes",
+    "Student Enrolment - Male",
+    "Student Enrolment - Female",
+    "Teachers - Total",
+    "Teachers - Trained",
+    "Teachers - Un-trained",
+    "Teachers - % for untrained teachers",
+    "Student Teacher Ratio - Total",
+    "Student Teacher Ratio - Trained"
+  ],
+  "row_count": 23
+}

@@ -1,0 +1,17 @@
+{
+  "table_id": "18.10",
+  "title_en": "TABLE 18.10: AMOUNT OF CONTRIBUTION TO RETIREMENT PENSION SCHEME BY SECTOR, 2010 - 2016",
+  "title_dv": "ތާވަލު 18.10 :ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްއަށް ޕަބްލިކް އަދި ޕްރައިވެޓް ސެކްޓަރއިން ފައިސާދެއްކި މިންވަރު، 2010 - 2016",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Year",
+    "Public sector",
+    "Private Sector",
+    "Total",
+    "Public - % share",
+    "Public - % change"
+  ],
+  "row_count": 7
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "15.3&fig15.2",
+  "category": "15.0 Foreign trade & Balance of payments",
+  "title_en": "Table 15.3 : EXPORTS BY COMMODITY, 2010",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [],
+  "time_span": "2011",
+  "year_min": 2011,
+  "year_max": 2011,
+  "row_count": 73,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    "Quantity - Items - 2011",
+    "Quantity - Private - 2011",
+    "Quantity - Total - 2011",
+    "Value (in Rf. '000) - Government - 2011",
+    "Value (in Rf. '000) - Government_2 - 2011",
+    "Value (in Rf. '000) - Private - 2011",
+    "Value (in Rf. '000) - Total - 2011"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/15.3&fig15.2.csv"
+}

@@ -1,0 +1,27 @@
+{
+  "table_id": "8.66",
+  "title_en": "Table 8.66: Number of cases reported to Family and Children Service Centers by Atolls, 2016 - 2020",
+  "title_dv": "ތާވަލު 8.66: ފެމިލީ އެންޑް ޗިލްޑްރަން ސަރވިސް ސެންޓަރަށް ހުށަހެޅިފައިވާ މައްސަލަތަކުގެ އަދަދު އަދި ޖިންސު 2016 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [],
+  "columns": [
+    "Family and Children Service Centre",
+    "2016 - Both Sexes",
+    "2016 - Male",
+    "2016 - Female",
+    "2017 - Both Sexes",
+    "2017 - Male",
+    "2017 - Female",
+    "2018 - Both Sexes",
+    "2018 - Male",
+    "2018 - Female",
+    "2019 - Both Sexes",
+    "2019 - Male",
+    "2019 - Female",
+    "2020 - Both Sexes",
+    "2020 - Male",
+    "2020 - Female"
+  ],
+  "row_count": 21
+}

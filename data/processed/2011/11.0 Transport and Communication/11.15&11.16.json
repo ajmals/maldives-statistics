@@ -1,0 +1,36 @@
+{
+  "table_id": "11.15&11.16",
+  "title_en": "Table 11.15 : CARGO HANDLED AT DOMESTIC AIRPORTS BY MONTH, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Aviation Department",
+  "notes": [
+    "Table 11.16 MAIL HANDLED AT DOMESTIC AIRPORTS BY MONTH, 2010",
+    "( in kg )",
+    "L.Kadhdhoo",
+    "Month",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "columns": [
+    "( in kg ) - Month",
+    "( in kg ) - L.Kadhdhoo - In",
+    "( in kg ) - L.Kadhdhoo - Out",
+    "( in kg ) - GDh.Kaadedhdhoo - In",
+    "( in kg ) - GDh.Kaadedhdhoo - Out",
+    "( in kg ) - HDh.Hanimaadhoo - In",
+    "( in kg ) - HDh.Hanimaadhoo - Out"
+  ],
+  "row_count": 13
+}

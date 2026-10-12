@@ -1,0 +1,25 @@
+{
+  "table_id": "6.17",
+  "title_en": "Table 6.17: ESTIMATED IMMUNIZATION COVERAGE, 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Health Protection Agency / National program on Immunization",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "csclcsIm - Measles Rubella",
+    "csclcsIm - MMR",
+    "uzOD (IjIsIb) cnireaug - Bacillus Calmette–Guérin - (BCG) Dozes",
+    "uzOD (Td) - Tetanus Diptheria - (Td Dozes * - 1st",
+    "uzOD (Td) - Tetanus Diptheria - (Td Dozes * - 2nd",
+    "uzOD (Td) - Hepatitis B - 1st",
+    "uzOD (Td) - Pentavalent Vaccine - 1st",
+    "uzOD (Td) - Pentavalent Vaccine - 2nd",
+    "uzOD (Td) - Pentavalent Vaccine - 3rd",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (bOPV) Dozes - 1st",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (bOPV) Dozes - 2nd",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (bOPV) Dozes - 3rd",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - IPV - 1st"
+  ],
+  "row_count": 41
+}

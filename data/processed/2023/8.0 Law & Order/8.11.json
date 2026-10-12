@@ -1,0 +1,27 @@
+{
+  "table_id": "8.11",
+  "title_en": "Table 8.11 : LOGGED CASES OF DEATH , 2016 - 2022",
+  "title_dv": "ތާވަލު 8.11: ހުށަހެޅިފައިވާ މަރުގެ މައްސަލަތައް، 2016- 2021",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: (*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "Type",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2022 - % change over 2021"
+  ],
+  "row_count": 8
+}

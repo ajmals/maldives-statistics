@@ -1,0 +1,35 @@
+{
+  "table_id": "8.22",
+  "title_en": "Table 8.22: CASES FILED, CONCLUDED AND PENDING BY CASE TYPE, 2017",
+  "title_dv": "ތާވަލު 8.22: ހުށަހެޅުނު، ނިމުނު އަދި ނުނިމި ހުރި މައްސަލަތައް، 2017",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "ޖިނާއީ މަޢުލޫމާތު (18 އަހަރުން މަތި އަދި 18 އަހަރުން ދަށް)"
+  ],
+  "columns": [
+    "Atoll",
+    "Court",
+    "Criminal Cases above 18 - Starting Balance",
+    "Criminal Cases above 18 - New cases filed",
+    "Criminal Cases above 18 - Total",
+    "Criminal Cases above 18 - Concluded",
+    "Criminal Cases above 18 - Ending Balance",
+    "Criminal Cases below 18 - Starting Balance",
+    "Criminal Cases below 18 - New cases filed",
+    "Criminal Cases below 18 - Total",
+    "Criminal Cases below 18 - Concluded",
+    "Criminal Cases below 18 - Ending Balance",
+    "Civil Cases - Starting Balance",
+    "Civil Cases - New cases filed",
+    "Civil Cases - Total",
+    "Civil Cases - Concluded",
+    "Civil Cases - Ending Balance",
+    "Family Cases - Starting Balance",
+    "Family Cases - New cases filed",
+    "Family Cases - Total",
+    "Family Cases - Concluded",
+    "Family Cases - Ending Balance"
+  ],
+  "row_count": 216
+}

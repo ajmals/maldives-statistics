@@ -1,0 +1,24 @@
+{
+  "table_id": "3.7",
+  "title_en": "Table 3.7 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2007-2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Mini stry of Health & Family",
+  "notes": [
+    "1_/ Revised",
+    "Decision Support Division"
+  ],
+  "columns": [
+    "Month",
+    "2007 - Births",
+    "2007 - Deaths",
+    "2007 - Natural Increase",
+    "2008 - Births",
+    "2008 - Deaths",
+    "2008 - Natural Increase",
+    "2009 - Births",
+    "2009 - Deaths",
+    "2009 - Natural Increase"
+  ],
+  "row_count": 13
+}

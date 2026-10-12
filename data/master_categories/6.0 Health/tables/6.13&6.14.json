@@ -1,0 +1,25 @@
+{
+  "table_id": "6.13&6.14",
+  "category": "6.0 Health",
+  "title_en": "Table 6.14 : CONTRACEPTIVE USER RATE BY LOCALITY,2002- 2008",
+  "unit": "",
+  "source": "Source: Department of Public Health",
+  "notes": [],
+  "time_span": "2002 – 2008",
+  "year_min": 2002,
+  "year_max": 2008,
+  "row_count": 28,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/6.13&6.14.csv"
+}

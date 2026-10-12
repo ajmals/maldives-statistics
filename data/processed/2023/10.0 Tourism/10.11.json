@@ -1,0 +1,29 @@
+{
+  "table_id": "10.11",
+  "title_en": "Table 10.11 : MONTHLY DISTRIBUTION OF TOURIST ARRIVALS BY NATIONALITY, 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Maldives Immigration",
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country."
+  ],
+  "columns": [
+    "Country of Nationality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 17
+}

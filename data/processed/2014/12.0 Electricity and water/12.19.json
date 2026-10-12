@@ -1,0 +1,18 @@
+{
+  "table_id": "12.19",
+  "title_en": "Table 12.19: Number of Islands and quanity of emergency water supplied by Atolls, 2012 - 2013",
+  "title_dv": "ތާވަލު 12.19: އެމަޖެންސީގައި ފެންފޯރުކޮށްދެވުނު އަތޮޅުތަކާއި ފޮނުވުނު އަދަދު، 2012 - 2013",
+  "unit": "",
+  "source": "Source: National Disaster Management Centre",
+  "notes": [
+    "އިމަޖެންސީކޮށް ފެން ފޯރުކޮށްދެވިފައިވަނީ ކޮންމެ އަހަރަކުވެސް ޖެނުއަރީން ޖުލައި މަހުގެ ތެރޭގައެވެ."
+  ],
+  "columns": [
+    "Atoll",
+    "No. of islands - 2012",
+    "No. of islands - 2013",
+    "Quantity (ton) - 2012",
+    "Quantity (ton) - 2013"
+  ],
+  "row_count": 21
+}

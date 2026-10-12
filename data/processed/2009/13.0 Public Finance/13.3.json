@@ -1,0 +1,26 @@
+{
+  "table_id": "13.3",
+  "title_en": "Table 13.3 : GOVERNMENT REVENUE, 2007-2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Includes green tax, airport tax, business profit tax, GST, licence fees, company registration fees and stamp duties.",
+    "1_/ green tax and airport tax introduced from 2009 onwards. 2010 increases due to introduction of business profit tax and in 2011 a GST is introduced.",
+    "2_/ Includes fines, confiscated properties, royalties, penalties and administrative charges.",
+    "3_/ Excludes grants for direct expenditure by donors."
+  ],
+  "columns": [
+    "(In million Rf) - Particulars",
+    "(In million Rf) - 2007",
+    "(In million Rf) - (Revised) - 2008",
+    "(In million Rf) - (MTEF) - 2009",
+    "(In million Rf) - (MTEF) - 2010",
+    "(In million Rf) - (MTEF) - 2011",
+    "(In million Rf) - % share - 2008",
+    "(In million Rf) - % share - 2009",
+    "(In million Rf) - % share - 2010",
+    "(In million Rf) - % share - 2011"
+  ],
+  "row_count": 33
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "1.2",
+  "title_en": "Table 1.2 : AVERAGE OF DAILY MAXIMUM AND MINIMUM TEMPERATURE, BY MONTH, 2018",
+  "title_dv": "2018 ,urwvcnim Wviawfcsog cSwSwd idwa cSwCcawm emcnea cnimunUh uhwmcswmikea : 1.2 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Meteorological Service",
+  "notes": [],
+  "columns": [
+    "Locality - AVERAGE OF DAILY MAXIMUM TEMPERATURE (oC)",
+    "Yearly average",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 11
+}

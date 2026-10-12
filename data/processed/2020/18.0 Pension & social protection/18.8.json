@@ -1,0 +1,18 @@
+{
+  "table_id": "18.8",
+  "title_en": "TABLE 18.8: NUMBER OF BEFEFICIARIES BY AGE GROUP FOR DIFFERENT PENSION SCHEMES, 2019",
+  "title_dv": "ތާވަލު 18.8: އެކި ޕެންޝަން ސްކީމްތަކުން ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި އުމުރުފުރާ، 2019",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Type of pension",
+    "Age groups, 2018 ( as of end year) - All ages",
+    "Age groups, 2018 ( as of end year) - < 55",
+    "Age groups, 2018 ( as of end year) - 55-64",
+    "Age groups, 2018 ( as of end year) - 65-69",
+    "Age groups, 2018 ( as of end year) - 70-74",
+    "Age groups, 2018 ( as of end year) - 75 +"
+  ],
+  "row_count": 6
+}

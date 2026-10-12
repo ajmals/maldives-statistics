@@ -1,0 +1,16 @@
+{
+  "table_id": "3.6",
+  "title_en": "Table 3.6 : ABRIDGE LIFE TABLE OF MALDIVES,2005,2006,2007 AND 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "2005 - urumuA - Age",
+    "2005 - Male - EverukWfwl - urumuA - e(x)",
+    "2005 - Female - EverukWfwl - urumuA - e(x)",
+    "2006 - Male - EverukWfwl - urumuA - e(x)",
+    "2006 - Female - EverukWfwl - urumuA - e(x)"
+  ],
+  "row_count": 39
+}

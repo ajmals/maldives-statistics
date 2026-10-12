@@ -1,0 +1,23 @@
+{
+  "table_id": "10.2",
+  "title_en": "Table 10.2 : TOTAL REGISTERED BED CAPACITY AND NUMBER OF ACCOMMODATION ESTABLISHMENTS, BY TYPE, 2005 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [
+    "1_/ Revised"
+  ],
+  "columns": [
+    "Type - Registered Bed Capacity",
+    "2002",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2009_2",
+    "2010",
+    "2011"
+  ],
+  "row_count": 11
+}

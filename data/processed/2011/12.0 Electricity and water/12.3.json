@@ -1,0 +1,16 @@
+{
+  "table_id": "12.3",
+  "title_en": "Table 12.3: TYPE OF LIGHTING USED BY HOUSEHOLDS, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Dep artment of National Planning",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Type of lighting - Total households",
+    "Type of lighting - Electric",
+    "Type of lighting - Lamp or similar",
+    "Type of lighting - Not stated"
+  ],
+  "row_count": 23
+}

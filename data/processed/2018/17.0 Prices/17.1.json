@@ -1,0 +1,22 @@
+{
+  "table_id": "17.1",
+  "title_en": "Table 17.1: ALL GROUPS Consumer Price Index (TOTAL), 1985 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note: The series for the Republic prior to June 2012 was linked to previously published series for Male’ and hence Male' and Republic have the same values prior to June 2012"
+  ],
+  "columns": [
+    "(Index - base: June 2012=100) - Period",
+    "(Index - base: June 2012=100) - Consumer Price Index (CPI) - Republic",
+    "(Index - base: June 2012=100) - Consumer Price Index (CPI) - Male'",
+    "(Index - base: June 2012=100) - Consumer Price Index (CPI) - Atoll",
+    "(Index - base: June 2012=100) - Consumer Price Index (CPI) - Atoll_2",
+    "(Index - base: June 2012=100) - Annual Inflation Rate (%) - Republic",
+    "(Index - base: June 2012=100) - Annual Inflation Rate (%) - Male'",
+    "(Index - base: June 2012=100) - Annual Inflation Rate (%) - Atoll",
+    "(Index - base: June 2012=100) - Annual Inflation Rate (%) - Atoll_2"
+  ],
+  "row_count": 34
+}

@@ -1,0 +1,21 @@
+{
+  "table_id": "8.27",
+  "title_en": "Table 8.27: Child victims by type of cases and sex, 2021 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Types of abuse",
+    "2021 - Both sex",
+    "2021 - Male",
+    "2021 - Female",
+    "2022 - Both sex",
+    "2022 - Male",
+    "2022 - Female",
+    "2023 - Both sex",
+    "2023 - Male",
+    "2023 - Female"
+  ],
+  "row_count": 10
+}

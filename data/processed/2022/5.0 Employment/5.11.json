@@ -1,0 +1,16 @@
+{
+  "table_id": "5.11",
+  "title_en": "Table 5.11: Expatriate Employment by Nationality and Sex, 2021",
+  "title_dv": "ތާވަލު 5.11: ރާއްޖޭގައި މަސައްކަތްކުރާ ބިދޭސީ މަސައްކަތްތެރިންގެ ޤައުމިއްޔަތާއި ޖިންސް، 2021",
+  "unit": "",
+  "source": "Source: Ministry of Economic Development",
+  "notes": [],
+  "columns": [
+    "Count of Nationality",
+    "Total",
+    "Male",
+    "Female",
+    "% share"
+  ],
+  "row_count": 73
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "9.7",
+  "title_en": "Table 9.7 : NUMBER OF VESSELS ENGAGED PER MONTH IN FISHING AND NUMBER OF FISHING TRIPS BY LOCALITY, 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Mechanised - Masdhoni",
+    "Sailing - Masdhoni",
+    "Mechanised - vadhu dhoni",
+    "Sailing - vadhu dhoni",
+    "Rowing - boats",
+    "Miscellaneous - boats",
+    "EEZ - boats"
+  ],
+  "row_count": 53
+}

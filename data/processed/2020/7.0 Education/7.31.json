@@ -1,0 +1,27 @@
+{
+  "table_id": "7.31",
+  "title_en": "TABLE 7.31: HIGHER EDUCATION ENROLLMENT BY LEVELS OF MALDIVES NATIONAL QUALIFICATIONS FRAMEWORK, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Higher Education",
+  "notes": [],
+  "columns": [
+    "MNQF Level",
+    "2019 - Both sexes",
+    "2019 - Male",
+    "2019 - Female",
+    "Total Enrollment - Both sexes",
+    "Total Enrollment - Male",
+    "Total Enrollment - Female",
+    "Graduate Output - Both sexes",
+    "Graduate Output - Male",
+    "Graduate Output - Female",
+    "Repeat - Both sexes",
+    "Repeat - Male",
+    "Repeat - Female",
+    "Dropout - Both sexes",
+    "Dropout - Male",
+    "Dropout - Female"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,26 @@
+{
+  "table_id": "6.19",
+  "title_en": "Table 6.19 : REGISTERED CASES OF FILARIA , 2000-2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Vector Born Disease Control Unit",
+  "notes": [
+    "1_/ Includes number of cases carried forward from",
+    "the previous year plus new cases.",
+    "* Includes 09 imported cases from ot her countries.( Indian 08, Bangladesh 01 )"
+  ],
+  "columns": [
+    "Both Sexes",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008"
+  ],
+  "row_count": 11
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "8.31",
+  "title_en": "TABLE 8.31: REGISTERED LAWYERS IN SERVICE, BY QUALIFICATION AND SEX, 2014 - 2017",
+  "title_dv": "ތާވަލު 8.31: ރަޖިސްޓްރީކުރެވިފައިވާ ޤާނޫނީ ވަކީލުންގެ އަދަދު އަދި ތަޢުލީމީ ފެންވަރު، 2014 - 2017",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "2017 ވަނަ އަހަރުގައި އެއްވެސް ވަކީލަކު ހުވާ ކުރައްވާފައި ނުވޭ",
+    "cnwxErcTcsinimcDea clwxiDuj cfoa cTcnwmcTWpiD : utWmUluAwm"
+  ],
+  "columns": [
+    "Qualification",
+    "Both Sexes - 2012",
+    "Male - 2012",
+    "Female - 2012",
+    "Both Sexes - 2013",
+    "Male - 2013",
+    "Female - 2013",
+    "Both Sexes - 2014",
+    "Male - 2014",
+    "Female - 2014",
+    "Both Sexes - 2015",
+    "Male - 2015",
+    "Female - 2015",
+    "Both Sexes - 2016",
+    "Male - 2016",
+    "Female - 2016"
+  ],
+  "row_count": 10
+}

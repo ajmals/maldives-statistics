@@ -1,0 +1,20 @@
+{
+  "table_id": "2.2",
+  "title_en": "Table 2.2 : NUMBER OF ISLAND THAT HAVE REPORTED SEVERE EROSION, 2012 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Environment",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "Total no. of inhabited islands 2018",
+    "No of island that have reported severe erosion - 2012",
+    "No of island that have reported severe erosion - 2013",
+    "No of island that have reported severe erosion - 2014",
+    "No of island that have reported severe erosion - 2015",
+    "No of island that have reported severe erosion - 2016",
+    "No of island that have reported severe erosion - 2017",
+    "No of island that have reported severe erosion - 2018"
+  ],
+  "row_count": 21
+}

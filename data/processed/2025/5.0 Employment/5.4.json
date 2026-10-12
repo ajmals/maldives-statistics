@@ -1,0 +1,27 @@
+{
+  "table_id": "5.4",
+  "title_en": "Table 5.4: CIVIL SERVANTS BY ISLAND AND SEX, 2019 - 2024",
+  "title_dv": "ތާވަލު 5.4: ޖިންސުގެ ގޮތުން މާލެއާއި ރަށްރަށުގައި މަސައްކަތްކުރާ ސިވިލްސަރވަންޓުންގެ އަދަދު، 2019 -2024",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Atoll / Island",
+    "2019 - Total",
+    "2019 - Male",
+    "2019 - Female",
+    "2020 - Total",
+    "2020 - Male",
+    "2020 - Female",
+    "2021 - Total",
+    "2021 - Male",
+    "2021 - Female",
+    "2023 - Total",
+    "2023 - Male",
+    "2023 - Female",
+    "2024 - Total",
+    "2024 - Male",
+    "2024 - Female"
+  ],
+  "row_count": 220
+}

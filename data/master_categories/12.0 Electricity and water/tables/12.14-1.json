@@ -1,0 +1,27 @@
+{
+  "table_id": "12.14-1",
+  "category": "12.0 Electricity and water",
+  "title_en": "Table 12.14 : NUMBER OF CUSTOMERS USING WATER IN HULHUMALE' BY TYPE, 2010 - 2018",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Private Limited",
+  "notes": [],
+  "time_span": "2010 – 2018",
+  "year_min": 2010,
+  "year_max": 2018,
+  "row_count": 6,
+  "column_count": 10,
+  "columns": [
+    "Item",
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/12.14-1.csv"
+}

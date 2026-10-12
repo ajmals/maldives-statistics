@@ -1,0 +1,34 @@
+{
+  "table_id": "11.13&11.14",
+  "title_en": "Table 11.14 : MAIL HANDLED AT MALE' INTERNATIONAL AIRPORT BY MONTH, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Aviation Department",
+  "notes": [
+    "(in Kg)",
+    "International Flights",
+    "Month",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "columns": [
+    "(in Kg) - Month",
+    "(in Kg) - Total",
+    "(in Kg) - International Flights - Inward",
+    "(in Kg) - Domestic Flights - Inward",
+    "(in Kg) - Domestic Flights - Outward",
+    "(in Kg) - Domestic Flights - Direct Transit"
+  ],
+  "row_count": 13
+}

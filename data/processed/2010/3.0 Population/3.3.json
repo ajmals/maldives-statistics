@@ -1,0 +1,31 @@
+{
+  "table_id": "3.3",
+  "title_en": "Table 3.3 : POPULATION BY ISLANDS CENSUS 2000, 2006 AND RESGISTERED POPULATION 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Wlections Commission",
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme",
+    "Note: Maakandoodhoo population now residing in Milandhoo",
+    "Faresmaathoda population is combine of Fares & Maathoda population"
+  ],
+  "columns": [
+    "Locality",
+    "2000, March 31 - Both Sexes",
+    "2000, March 31 - Male",
+    "2000, March 31 - Female",
+    "Number of Households",
+    "Average Household size",
+    "2006, March 28 - Both Sexes",
+    "2006, March 28 - Male",
+    "2006, March 28 - Female",
+    "Number of Households_2",
+    "Average Household size_2",
+    "Annual population growth rate (expn)",
+    "Registered Population as of Dec 2009 - Both Sexes"
+  ],
+  "row_count": 288
+}

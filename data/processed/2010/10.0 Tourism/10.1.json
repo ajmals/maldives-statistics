@@ -1,0 +1,23 @@
+{
+  "table_id": "10.1",
+  "title_en": "Table 10.1 : FLOW OF TOURISTS BY NATIONALITY, 2007 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [
+    "Department of Immigration & Emigration"
+  ],
+  "columns": [
+    "Country of Nationality",
+    "Tourist arrival (in numbers) - 2007",
+    "Tourist arrival (in numbers) - 2008",
+    "Tourist arrival (in numbers) - 2009",
+    "% Distribution - 2007",
+    "% Distribution - 2008",
+    "% Distribution - 2009",
+    "% of Growth - 2007",
+    "% of Growth - 2008",
+    "% of Growth - 2009"
+  ],
+  "row_count": 61
+}

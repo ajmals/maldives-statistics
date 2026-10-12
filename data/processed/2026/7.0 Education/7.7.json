@@ -1,0 +1,30 @@
+{
+  "table_id": "7.7",
+  "title_en": "Table 7.7: NUMBER OF STUDENTS BY GRADE AND SEX, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education, Higher Education and Skills Development",
+  "notes": [],
+  "columns": [
+    "Government",
+    "Sex",
+    "Number of Students by grade and locality - TOTAL",
+    "Number of Students by grade and locality - BN",
+    "Number of Students by grade and locality - N",
+    "Number of Students by grade and locality - LKG",
+    "Number of Students by grade and locality - UKG",
+    "Number of Students by grade and locality - GR1",
+    "Number of Students by grade and locality - GR2",
+    "Number of Students by grade and locality - GR3",
+    "Number of Students by grade and locality - GR4",
+    "Number of Students by grade and locality - GR5",
+    "Number of Students by grade and locality - GR6",
+    "Number of Students by grade and locality - GR7",
+    "Number of Students by grade and locality - GR8",
+    "Number of Students by grade and locality - GR9",
+    "Number of Students by grade and locality - GR10",
+    "Number of Students by grade and locality - GR11",
+    "Number of Students by grade and locality - GR12"
+  ],
+  "row_count": 66
+}

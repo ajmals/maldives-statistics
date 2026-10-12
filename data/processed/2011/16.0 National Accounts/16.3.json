@@ -1,0 +1,27 @@
+{
+  "table_id": "16.3",
+  "title_en": "Table 16.3 : PERCENTAGE SHARES OF GROSS DOMESTIC PRODUCT (AT CONSTANT PRICES), BY KIND OF ACTIVITY, 2004 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "1_/ Revised on 10 Nov. 2002",
+    "2_/ Revised on 16 Dec. 2002",
+    "3_/ Revised on 24 Dec 2003",
+    "4_/ Revised on February 2006",
+    "Published in April 2011"
+  ],
+  "columns": [
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - ISIC",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - Industry / Economic Activity",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - 2004",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - 2005",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - 2006",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - Final - 2007",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - Revised - 2008",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - Estimates - 2009",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - Provisional - 2010",
+    "(Estimated using production approach) - (In percent , at 2003 constant prices) - Projected - 2011"
+  ],
+  "row_count": 21
+}

@@ -1,0 +1,24 @@
+{
+  "table_id": "18.6",
+  "title_en": "TABLE 18.6: NUMBER OF BENEFICIARIES OF OTHER PENSION SCHEMES BY AGE, 2021 - 2022",
+  "title_dv": "ތާވަލު 18.6 :އެހެނިހެން ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2021 - 2022",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2021 - Age Groups - Total",
+    "2021 - Age Groups - < 55",
+    "2021 - Age Groups - 55-64",
+    "2021 - Age Groups - 65-69",
+    "2021 - Age Groups - 70-74",
+    "2021 - Age Groups - 75 +",
+    "2022 - Age Groups - Total",
+    "2022 - Age Groups - < 55",
+    "2022 - Age Groups - 55-64",
+    "2022 - Age Groups - 65-69",
+    "2022 - Age Groups - 70-74",
+    "2022 - Age Groups - 75 +"
+  ],
+  "row_count": 12
+}

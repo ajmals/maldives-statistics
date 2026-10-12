@@ -1,0 +1,18 @@
+{
+  "table_id": "11.30",
+  "title_en": "TABLE 11.30: NUMBER OF LICENSED REBROADCASTERS BY ATOLLS, 2011 - 2016",
+  "title_dv": "ތާވަލް 11.30: ރީބްރޯޑްކާސްޓްކުރުމުގެ ލައިސަންސް ދޫކުރެވިފައިވާ ފަރާތްތަކުގެ އަދަދާއި އަތޮޅުތައް، 2011 - 2016",
+  "unit": "",
+  "source": "Source: Maldives Broadcasting Commission",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Number of Licensed Rebroadcasters - 2011",
+    "Number of Licensed Rebroadcasters - 2012",
+    "Number of Licensed Rebroadcasters - 2013",
+    "Number of Licensed Rebroadcasters - 2014",
+    "Number of Licensed Rebroadcasters - 2015",
+    "Number of Licensed Rebroadcasters - 2016"
+  ],
+  "row_count": 23
+}

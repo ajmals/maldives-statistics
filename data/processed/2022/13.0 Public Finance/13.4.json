@@ -1,0 +1,34 @@
+{
+  "table_id": "13.4",
+  "title_en": "Table 13.4 : ECONOMIC CLASSIFICATION OF CENTRAL GOVERNMENT EXPENDITURE AND NET LENDING, 2011 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance.",
+  "notes": [
+    "Note: 1_/ Data revised",
+    "2_/ Comprises development expenditure financed from domestic sources and by foreign grants."
+  ],
+  "columns": [
+    "(In million MVR) - Particulars",
+    "(In million MVR) - 2008",
+    "(In million MVR) - 2009",
+    "(In million MVR) - 2010",
+    "(In million MVR) - Actual - 20111_/",
+    "(In million MVR) - Revised - 2012",
+    "(In million MVR) - Actual - 2012",
+    "(In million MVR) - Actual - 2013",
+    "(In million MVR) - Actual - 2014",
+    "(In million MVR) - Actual - 2015",
+    "(In million MVR) - Actual - 2016",
+    "(In million MVR) - Actual - 2017",
+    "(In million MVR) - Actual - 2018",
+    "(In million MVR) - Revised - 2019",
+    "(In million MVR) - Revised - 2020",
+    "(In million MVR) - Approved - 2021",
+    "(In million MVR) - Approved - 2022",
+    "(In million MVR) - Approved - 2023",
+    "(In million MVR) - Percentage Share - 2020",
+    "(In million MVR) - Percentage Change - 2019-2020"
+  ],
+  "row_count": 32
+}

@@ -1,0 +1,35 @@
+{
+  "table_id": "13.7",
+  "title_en": "Table 13.7 : FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CAPITAL EXPENDITURE, 2013 - 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "2_/ Includes capital contributions to public enterprises."
+  ],
+  "columns": [
+    "(cniaWyifur cnwyilim) - (In million MVR) - Particulars",
+    "(cniaWyifur cnwyilim) - (In million MVR) - 2007",
+    "(cniaWyifur cnwyilim) - (In million MVR) - 2008",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (Revised ) - 2009",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (MTEF) - 2010",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (MTEF) - 2011",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (MTEF) - 2012",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (MTEF) - 2009",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (MTEF) - 2010_2",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (MTEF) - 2011_2",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Actual - 2012",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Actual - 2013",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Actual - 2014",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Actual - 2015",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Revised - 2016",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Estimate - 2017",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Estimate - 2018",
+    "(cniaWyifur cnwyilim) - (In million MVR) - Estimate - 2019",
+    "(cniaWyifur cnwyilim) - (In million MVR) - % Share - 2015",
+    "(cniaWyifur cnwyilim) - (In million MVR) - % Share - 2016",
+    "(cniaWyifur cnwyilim) - (In million MVR) - % change - 2014 - 2015",
+    "(cniaWyifur cnwyilim) - (In million MVR) - % change - 2015 - 2016"
+  ],
+  "row_count": 24
+}

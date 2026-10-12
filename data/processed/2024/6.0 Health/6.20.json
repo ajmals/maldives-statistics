@@ -1,0 +1,26 @@
+{
+  "table_id": "6.20",
+  "title_en": "Table 6.20: ESTIMATED IMMUNIZATION COVERAGE BY ISLAND, 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Health Protection Agency / EPI program",
+  "notes": [
+    "OPV - Oral Polio Vaccine",
+    "TT - Tetanus Toxide"
+  ],
+  "columns": [
+    "Locality",
+    "Measles",
+    "MMR",
+    "Bacillus - Climate Guerin - (BCG) Dozes",
+    "Bacillus - Hepatitis B - 1st",
+    "Pentavalent Vaccine - 1st",
+    "Pentavalent Vaccine - 2nd",
+    "Pentavalent Vaccine - 3rd",
+    "Oral Polio Vaccine - (OPV) Dozes - 1st",
+    "Oral Polio Vaccine - (OPV) Dozes - 2nd",
+    "Oral Polio Vaccine - (OPV) Dozes - 3rd",
+    "Oral Polio Vaccine - (OPV) Dozes - 4th"
+  ],
+  "row_count": 218
+}

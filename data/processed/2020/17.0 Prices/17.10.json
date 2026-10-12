@@ -1,0 +1,14 @@
+{
+  "table_id": "17.10",
+  "title_en": "Table 17.10 : PRICE CHANGES IN FUEL OIL, 2010 - 2019",
+  "title_dv": "ތާވަލު 17.10: ތެލުގެ އަގަށް އައިސްފައިވާ ބަދަލުތައް، 2010 - 2019",
+  "unit": "",
+  "source": "Source: State Trading Organization",
+  "notes": [],
+  "columns": [
+    "Year",
+    "Open market rate (In MVR) - Price revision - date",
+    "Open market rate (In MVR) - Price per - Litre/ Diesel"
+  ],
+  "row_count": 80
+}

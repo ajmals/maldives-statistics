@@ -1,0 +1,29 @@
+{
+  "table_id": "3.9&fig3.5",
+  "title_en": "Table 3.9 : LIVE BIRTHS AND INFANT DEATHS, 2006 - 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Healt h & Family",
+  "notes": [
+    "Decision S upport Division"
+  ],
+  "columns": [
+    "Particulars",
+    "Republic",
+    "Male'",
+    "Atolls",
+    "Republic_2",
+    "Male'_2",
+    "Atolls_2",
+    "2006 - Republic",
+    "2006 - Male'",
+    "2006 - Atolls",
+    "2007 - Republic",
+    "2007 - Male'",
+    "2007 - Atolls",
+    "2008 - Republic",
+    "2008 - Male'",
+    "2008 - Atolls"
+  ],
+  "row_count": 11
+}

@@ -1,0 +1,6 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Passengers - Transit,Cargo (kg) - In,Cargo (kg) - Out,Cargo (kg) - Transit,Mail (kg) - In,Mail (kg) - Out
+Total,"3,149","43,294","44,918","4,357","278,886","10,096","4,976","6,436","1,298"
+Domestic flights,"3,147","43,294","44,918","4,357","278,886","10,096","4,976","6,436","1,298"
+Island Aviation (Scheduled),"2,935","40,883","42,429","4,035","266,146","9,905","4,961","5,952","1,268"
+Trans Maldivian Airways ( Sheduled),166,"2,399","2,489",322,"12,741",191,15,485,30
+Other Domestic,46,12,0,0,0,0,0,0,0

@@ -1,0 +1,23 @@
+{
+  "table_id": "5.1",
+  "title_en": "Table 5.1 : LOCAL POPULATION 15 YEARS OF AGE AND OVER BY TYPE OF ACTIVITY, CROSS CLASSIFIED BY AGE AND LOCALITY, HIES 2009/2010",
+  "title_dv": "ތާވަލު 5.1 : އިޤްތިޞާދީ މަސައްކަތުގެ ގޮތުން 15 އަހަރުންމަތީގެ ދިވެހިންގެ އާބާދީ، އަދި ޖިންސާއި އުމުރުފުރާ، ހަޔަސް 2009/2010",
+  "unit": "",
+  "source": "Source : Household Income and Expenditure Survey (HIES 2009/2010)",
+  "notes": [
+    "Note: Includs only the local population",
+    "Department of National Planning"
+  ],
+  "columns": [
+    "(with unemployed as per ILO definition of seeking and available of work) - Age group",
+    "(with unemployed as per ILO definition of seeking and available of work) - Total 15 years of age and over",
+    "(with unemployed as per ILO definition of seeking and available of work) - Activity Status - Economically Active - Total 15 years of age and over - Total",
+    "(with unemployed as per ILO definition of seeking and available of work) - Activity Status - Economically Active - Total 15 years of age and over - Employed",
+    "(with unemployed as per ILO definition of seeking and available of work) - Activity Status - Economically Active - Total 15 years of age and over - Unemployed",
+    "(with unemployed as per ILO definition of seeking and available of work) - Activity Status - Economically Active - Not Economically - Active",
+    "(with unemployed as per ILO definition of seeking and available of work) - Activity Status - Economically Active - Not Stated",
+    "(with unemployed as per ILO definition of seeking and available of work) - Activity Status - Economically Active - Age specific - activity rate",
+    "(with unemployed as per ILO definition of seeking and available of work) - Activity Status - Economically Active - Unemployment - Rate"
+  ],
+  "row_count": 42
+}

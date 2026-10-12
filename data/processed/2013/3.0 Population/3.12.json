@@ -1,0 +1,26 @@
+{
+  "table_id": "3.12",
+  "title_en": "Table 3.12 : DEATHS BY AGE AND SEX, BY MAJOR ADMINISTRATIVE UNITS, 2012",
+  "title_dv": "ތާވަލު 3.12: މާލެއާއި، ރާއްޖެ އަދި ރާއްޖޭންބޭރުގައި މަރުވި މީހުންގެ ޢަދަދު، ޖިންސާއި ޢުމުރުގެ ގޮތުން، 2012",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Health Information & Research Section / Policy Planning Division"
+  ],
+  "columns": [
+    "Age Groups",
+    "Republic - Both Sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both Sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both Sexes",
+    "Atolls - Male",
+    "Atolls - Female",
+    "Abroad - Both Sexes",
+    "Abroad - Male",
+    "Abroad - Female"
+  ],
+  "row_count": 20
+}

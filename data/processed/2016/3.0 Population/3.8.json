@@ -1,0 +1,24 @@
+{
+  "table_id": "3.8",
+  "title_en": "Table 3.8 : BIRTHS AND DEATHS, BY SEX AND LOCALITY, 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "Few deaths have not certified in the same atoll/island in which the death occurred, those deaths are counted in the place of death certified atoll/island",
+    "Atolls doesnot include births and deaths occurred abroad",
+    "1_/ Total (Births and Deaths) does not include foreigners",
+    "2_/ Reported no. only"
+  ],
+  "columns": [
+    "Column_1",
+    "Births - Both Sexes",
+    "Births - Male",
+    "Births - Female",
+    "Deaths - Both Sexes",
+    "Deaths - Male",
+    "Deaths - Female"
+  ],
+  "row_count": 25
+}

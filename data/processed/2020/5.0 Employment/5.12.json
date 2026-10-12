@@ -1,0 +1,16 @@
+{
+  "table_id": "5.12",
+  "title_en": "Table 5.12: Expatriate Employment by Industry and Sex, 2019",
+  "title_dv": "ތާވަލު 5.12: ރާއްޖޭގައި ބިދޭސީ މަސައްކަތްތެރިން މަސައްކަތްކުރާ ދާއިރާއާއި ޖިންސު، 2019",
+  "unit": "",
+  "source": "Source: Ministry of Economic Development",
+  "notes": [],
+  "columns": [
+    "Industry",
+    "Total",
+    "Male",
+    "Female",
+    "% share"
+  ],
+  "row_count": 20
+}

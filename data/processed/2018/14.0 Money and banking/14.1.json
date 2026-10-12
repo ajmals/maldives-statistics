@@ -1,0 +1,32 @@
+{
+  "table_id": "14.1",
+  "title_en": "Table 14.1: CENTRAL BANK SURVEY, 2014 - 2017",
+  "title_dv": "ތާވަލު 14.1 : ސެންޓްރަލް ބޭންކް ސަރވޭ 2014 - 2017",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1_/ : 2014, 2015 and 2016 figures are revised",
+    "Data is compiled based on IMF Monetary and Financial Statistics Manual 2000 (MFSM 2000)."
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Particulars",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Mar",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Jun",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Sep",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Dec",
+    "(In millions of Rufiyaa; end of period) - 20151_/ - Mar",
+    "(In millions of Rufiyaa; end of period) - 20151_/ - Jun",
+    "(In millions of Rufiyaa; end of period) - 20151_/ - Sep",
+    "(In millions of Rufiyaa; end of period) - 20151_/ - Dec",
+    "(In millions of Rufiyaa; end of period) - 20161_/ - Mar",
+    "(In millions of Rufiyaa; end of period) - 20161_/ - Jun",
+    "(In millions of Rufiyaa; end of period) - 20161_/ - Sep",
+    "(In millions of Rufiyaa; end of period) - 20161_/ - Dec",
+    "(In millions of Rufiyaa; end of period) - 2017 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2017 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2017 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2017 - Dec"
+  ],
+  "row_count": 25
+}

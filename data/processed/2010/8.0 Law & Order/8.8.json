@@ -1,0 +1,18 @@
+{
+  "table_id": "8.8",
+  "title_en": "Table 8.8: NUMBER OF REPEATED DETAINEES BY TYPE OF OFFENCE AND SEX, 2008 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of offence",
+    "2008 - Both Sex",
+    "2008 - Male",
+    "2008 - Female",
+    "2009 - Both Sex",
+    "2009 - Male",
+    "2009 - Female"
+  ],
+  "row_count": 14
+}

@@ -1,0 +1,16 @@
+{
+  "table_id": "4.5",
+  "title_en": "TABLE 4.5: AREA OF BUILDINGS AUTHORIZED FOR CONSTRUCTION BY MONTH, 2018 -2019",
+  "title_dv": "ތާވަލު 4.5: މަސްމަހުގެ ގޮތުން އިމާރާތްކުރުމުގެ ހުއްދަ ދެވުނު ތަނުގެ ބޮޑުމިން، 2018 - 2019",
+  "unit": "",
+  "source": "Source: Male\" City Council",
+  "notes": [
+    "Note: The decline inMay 2015 is due to the hold in the authorizations along with the amendments made in administrative process."
+  ],
+  "columns": [
+    "Month",
+    "Area in sqm - 2018",
+    "Area in sqm - 2019"
+  ],
+  "row_count": 13
+}

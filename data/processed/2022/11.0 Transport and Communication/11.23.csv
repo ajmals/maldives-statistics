@@ -1,0 +1,14 @@
+(in Kg) - Month,(in Kg) - Total,(in Kg) - Domestic Flights - Inward,(in Kg) - Domestic Flights - Outward,(in Kg) - Domestic Flights - Direct Transit,(in Kg) - International Flights - Inward,(in Kg) - International Flights - Outward
+Total,225778.09,179777.5,17195.84,11389.75,16654,761
+January,17675.3,14151.5,1720.8,1803,,
+February,15106.6,12722.8,1140.8,1243,,
+March,18063.68,15573,1364.68,1126,,
+April,19697.2,17390.9,1536.3,770,,
+May,15947.4,13882.5,1272.9,792,,
+June,12324.1,11091,1179.1,54,,
+July,17700.2,15740,1406.2,554,,
+August,19846.1,17128.3,1342.8,1375,3719,
+September,14269.25,12323.5,1248,697.75,1900,78
+October,19327.88,17356,1320.88,651,,
+November,22076.9,19360,1590.9,1126,,
+December,16328.48,13058,2072.48,1198,11035,683

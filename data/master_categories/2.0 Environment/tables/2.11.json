@@ -1,0 +1,21 @@
+{
+  "table_id": "2.11",
+  "category": "2.0 Environment",
+  "title_en": "Table 2.11: WASTE TRANSPORTED TO THILAFUSHI , 2016-2018, (in tons)",
+  "unit": "",
+  "source": "Source: WAMCO ANNUAL REPORT",
+  "notes": [],
+  "time_span": "2016 – 2018",
+  "year_min": 2016,
+  "year_max": 2018,
+  "row_count": 1,
+  "column_count": 4,
+  "columns": [
+    "Item",
+    2016,
+    2017,
+    2018
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/2.11.csv"
+}

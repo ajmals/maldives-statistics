@@ -1,0 +1,26 @@
+{
+  "table_id": "11.20",
+  "title_en": "Table 11.20 : REGISTERED DHONIS BY SIZE OF VESSEL BY LOCALITY, 1990, 2000 AND 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Transport Authority",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "1990 - Dhoni size (lenghth in ft) - Total",
+    "1990 - Dhoni size (lenghth in ft) - below 46",
+    "1990 - Dhoni size (lenghth in ft) - 46-65",
+    "1990 - Dhoni size (lenghth in ft) - 85+",
+    "2000 - Dhoni size (lenghth in ft) - Total",
+    "2000 - Dhoni size (lenghth in ft) - below 46",
+    "2000 - Dhoni size (lenghth in ft) - 46-65",
+    "2000 - Dhoni size (lenghth in ft) - 66-84",
+    "2000 - Dhoni size (lenghth in ft) - 85+",
+    "2010 - Dhoni size (lenghth in ft) - Total",
+    "2010 - Dhoni size (lenghth in ft) - below 46",
+    "2010 - Dhoni size (lenghth in ft) - 46-65",
+    "2010 - Dhoni size (lenghth in ft) - 66-84",
+    "2010 - Dhoni size (lenghth in ft) - 85+"
+  ],
+  "row_count": 23
+}

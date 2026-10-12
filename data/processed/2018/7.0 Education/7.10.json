@@ -1,0 +1,21 @@
+{
+  "table_id": "7.10",
+  "title_en": "Table 7.10 : STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, 2017",
+  "title_dv": "ތާވަލް 7.10: މާލޭއާއި އަތޮޅުތަކުގެ މަދަރުސާތަކުގެ އެކި ފަންތީގައި ކިޔަވާކުދިންގެ އަދަދު، ގްރޭޑް އަދި ޖިންސް ވަކިން 2017",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total - Both Sexes",
+    "Total - Male",
+    "Total - Female",
+    "Pre-primary - Both Sexes",
+    "Pre-primary - Male",
+    "Pre-primary - Female",
+    "Grade 1 - Both Sexes",
+    "Grade 1 - Male",
+    "Grade 1 - Female"
+  ],
+  "row_count": 123
+}

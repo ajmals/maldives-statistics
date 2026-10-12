@@ -1,0 +1,32 @@
+{
+  "table_id": "8.20-1",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.20: NUMBER OF VICTIMS BY TYPE OF OFFENCES, GENDER AND AGE GROUP, 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: Foreigners without ages are not included in this total"
+  ],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 20,
+  "column_count": 13,
+  "columns": [
+    "Item",
+    "Both sexes - 18-34 - 2019",
+    "Both sexes - 35 + - 2019",
+    "Both sexes - < 18 - 2019",
+    "Both sexes - Total - 2019",
+    "Female - 18-34 - 2019",
+    "Female - 35+ - 2019",
+    "Female - < 18 - 2019",
+    "Female - Total - 2019",
+    "Male - 18-34 - 2019",
+    "Male - 35+ - 2019",
+    "Male - < 18 - 2019",
+    "Male - Total - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.20-1.csv"
+}

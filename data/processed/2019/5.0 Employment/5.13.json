@@ -1,0 +1,18 @@
+{
+  "table_id": "5.13",
+  "title_en": "Table 5.13: Expatriate employment by island and sex, 2018",
+  "title_dv": "ތާވަލު 5.13: ޖިންސުގެ ގޮތުން މާލެއާއި ރަށްރަށުގައި މަސައްކަތްކުރާ ބިދޭސީ މަސައްކަތްތެރިންގެ އަދަދު، 2018",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: Estimates of National Bureau of Statistics (NBS).",
+    "Data provided by: National Centre for Information Technology"
+  ],
+  "columns": [
+    "Atoll / Island",
+    "Total",
+    "Male",
+    "Female"
+  ],
+  "row_count": 230
+}

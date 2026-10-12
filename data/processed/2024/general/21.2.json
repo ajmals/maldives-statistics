@@ -1,0 +1,30 @@
+{
+  "table_id": "21.2",
+  "title_en": "Table 21.2: STUDENT ENROLMENT IN TECHNICAL EDUCATION, BY TYPE OF TRAINING AND SEX, 2018 - 2023",
+  "title_dv": "ތާވަލް 21.2: ތަމްރީނުގެ ބާވަތާއި ޖިންސުގެ ގޮތުން ފަންނީ ތަޢުލީމްގެ ދާއިރާއިން ކިޔަވާ ކުދިންގެ އަދަދު، 2018 - 2023",
+  "unit": "",
+  "source": "Source: Maldives Polytechnic",
+  "notes": [],
+  "columns": [
+    "Type of Training",
+    "2018 - Both Sexes",
+    "2018 - Male",
+    "2018 - Female",
+    "2019 - Both Sexes",
+    "2019 - Male",
+    "2019 - Female",
+    "2020 - Both Sexes",
+    "2020 - Male",
+    "2020 - Female",
+    "2021 - Both Sexes",
+    "2021 - Male",
+    "2021 - Female",
+    "2022 - Both Sexes",
+    "2022 - Male",
+    "2022 - Female",
+    "2023 - Both Sexes",
+    "2023 - Male",
+    "2023 - Female"
+  ],
+  "row_count": 158
+}

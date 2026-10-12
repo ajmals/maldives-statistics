@@ -1,0 +1,39 @@
+{
+  "table_id": "17.5-1",
+  "category": "17.0 Prices",
+  "title_en": "Table 17.5 : CONSUMER PRICE INDEX, 2010 - 2018",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note: The series for the Republic prior to June 2012 is linked to previously published series for Male'. Hence, CPI for Male' and Republic prior to June 2012 is the same."
+  ],
+  "time_span": "2012",
+  "year_min": 2012,
+  "year_max": 2012,
+  "row_count": 19,
+  "column_count": 20,
+  "columns": [
+    "Item",
+    "Index - base: June =100) - 2010 - 2012",
+    "Index - base: June =100) - 2011 - 2012",
+    "Index - base: June =100) - 2012 - 2012",
+    "Index - base: June =100) - 2013 - 2012",
+    "Index - base: June =100) - 2014 - 2012",
+    "Index - base: June =100) - 2015 - 2012",
+    "Index - base: June =100) - 2016 - 2012",
+    "Index - base: June =100) - 2017 - 2012",
+    "Index - base: June =100) - 2018 - 2012",
+    "Index - base: June =100) - Base weights - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2010 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2011 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2012 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2013 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2014 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2015 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2016 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2017 - 2012",
+    "Index - base: June =100) - Percentage change over previous year - 2018 - 2012"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/17.5-1.csv"
+}

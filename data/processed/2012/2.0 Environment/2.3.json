@@ -1,0 +1,18 @@
+{
+  "table_id": "2.3",
+  "title_en": "Table 2.3 : NUMBER OF ISLAND THAT HAVE WASTE MANAGEMENT CENTRES 2009 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Environmental Protection Agency",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "2009 - Total no. of inhabited islands",
+    "2009 - No. of islands with complete waste management centres",
+    "2010 - Total no. of inhabited islands",
+    "2010 - No. of islands with complete waste management centres",
+    "2011 - Total no. of inhabited islands",
+    "2011 - No. of islands with complete waste management centres"
+  ],
+  "row_count": 21
+}

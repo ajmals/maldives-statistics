@@ -1,0 +1,29 @@
+{
+  "table_id": "4.6",
+  "title_en": "TABLE 4.6: SUPPLY OF HOUSING UNITS IN HULHUMALE', 2010 - 2014",
+  "title_dv": "ތާވަލް 4.6 : ހުޅުމާލެއިން ދޫކުރެވިފައިވާ ހައުސިންގ ޔުނިޓުތައް، 2010 - 2014",
+  "unit": "",
+  "source": "HDFC: Source: Housing Development Finance Corporation",
+  "notes": [
+    "Note:",
+    "** Amount includes RF 9,069,000 received as full payment for 4 Row-Houses",
+    "***Amount as at December 2011. Downpayment was paid in installments for most plots, hence downpayment for those plots were fully paid in 2012. Amount as at June 2012 is MRF 112,962,850.82",
+    "_/1 2012, Average monthly rented figures for row house has been revised",
+    "HDC: Housing Development Corporation Ltd"
+  ],
+  "columns": [
+    "Year",
+    "Type",
+    "Number",
+    "Average Monthly Rent (MVR)",
+    "Area (Sq ft)",
+    "Cost of Construction/development MVR/Flat",
+    "Type of Funding",
+    "Type of Funding_2",
+    "Financial Source(s)",
+    "Financial Source(s)_2",
+    "Amount received as downpayment(s)",
+    "Amount received as downpayment(s)_2"
+  ],
+  "row_count": 23
+}

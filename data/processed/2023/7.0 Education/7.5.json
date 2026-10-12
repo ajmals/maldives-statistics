@@ -1,0 +1,27 @@
+{
+  "table_id": "7.5",
+  "title_en": "TABLE 7.5: NUMBER OF SCHOOLS AND ENROLMENT BY LOCALITY, 2021 - 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: Special Classes are not included in their enrolments"
+  ],
+  "columns": [
+    "( June 2022) - Name of Atoll",
+    "( June 2022) - TOTAL - Schools",
+    "( June 2022) - TOTAL - Male",
+    "( June 2022) - TOTAL - Female",
+    "( June 2022) - TOTAL - Total",
+    "( June 2022) - GOVERNMENT - Schools",
+    "( June 2022) - GOVERNMENT - Male",
+    "( June 2022) - GOVERNMENT - Female",
+    "( June 2022) - COMMUNITY - Schools",
+    "( June 2022) - COMMUNITY - Male",
+    "( June 2022) - COMMUNITY - Female",
+    "( June 2022) - PRIVATE - Schools",
+    "( June 2022) - PRIVATE - Male",
+    "( June 2022) - PRIVATE - Female"
+  ],
+  "row_count": 23
+}

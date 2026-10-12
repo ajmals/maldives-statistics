@@ -1,0 +1,27 @@
+{
+  "table_id": "7.19",
+  "title_en": "TABLE 7.19 : POPULATION 6 YEARS OF AGE AND OVER BY LITERACY AGE GROUP AND SEX, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source :Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Total - Both sexes",
+    "Total - Male",
+    "Total - Female",
+    "Literate - Both sexes",
+    "Literate - Male",
+    "Literate - Female",
+    "IIliterate - Both sexes",
+    "IIliterate - Male",
+    "IIliterate - Female",
+    "Percent literate - Both sexes",
+    "Percent literate - Male",
+    "Percent literate - Female",
+    "Percent Illiterate - Both sexes",
+    "Percent Illiterate - Male",
+    "Percent Illiterate - Female"
+  ],
+  "row_count": 15
+}

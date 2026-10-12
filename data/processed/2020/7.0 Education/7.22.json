@@ -1,0 +1,43 @@
+{
+  "table_id": "7.22",
+  "title_en": "Table 7.22: Number of candidates sat and passed in A 'Level by subject and sex, 2018",
+  "title_dv": "ތާވަލް 7.22: ޖީ. ސީ. އޭލެވެލް އިމްތިހާނުގައި މާއްދާތަކުގައި ބައިވެރިވި އަދި ފާސްވި ކުދިންގެ ޢަދަދު އަދި ޖިންސު، 2018",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "*pass: C and above",
+    "Subject",
+    "Subject",
+    "Subject",
+    "Islam",
+    "Dhivehi",
+    "ACCOUNTING",
+    "BIOLOGY",
+    "BUSINESS STUDIES",
+    "CHEMISTRY",
+    "ECONOMICS",
+    "HISTORY",
+    "LAW",
+    "MATHEMATICS",
+    "PHYSICS",
+    "PSYCHOLOGY",
+    "SOCIOLOGY",
+    "INFORMATION TECHNOLOGY",
+    "TRAVEL AND TOURISM",
+    "ARABIC",
+    "*pass: C and above"
+  ],
+  "columns": [
+    "Subject",
+    "Both sex - Candidates - Subject",
+    "Both sex - Passed - Subject",
+    "Both sex - % Passed - Subject",
+    "Male - Candidates - Subject",
+    "Male - Passed - Subject",
+    "Male - % Passed - Subject",
+    "Female - Candidates - Subject",
+    "Female - Passed - Subject",
+    "Female - % Passed - Subject"
+  ],
+  "row_count": 16
+}

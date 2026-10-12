@@ -1,0 +1,30 @@
+{
+  "table_id": "8.13",
+  "title_en": "Table 8.13: NUMBER OF DETAINEES REPORTED BY TYPE OF OFFENCE AND SEX, 2016 - 2017",
+  "title_dv": "2017 - 2016 ،ތާވަލު 8.13: ހުށަހެޅިފައިވާ މައްސަލަތަކުގެ ތެރެއިން ހައްޔަރުކުރެވުނު މީހުންގެ އަދަދު އަދި ޖިންސް",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: 1_/: Data revised"
+  ],
+  "columns": [
+    "Type of offence",
+    "2014 - Number of Logged cases",
+    "2014 - Number of Detainees - Both Sexes",
+    "2014 - Number of Detainees - Male",
+    "2014 - Number of Detainees - Female",
+    "2015 - Number of Logged cases",
+    "2015 - Number of Detainees - Both Sexes",
+    "2015 - Number of Detainees - Male",
+    "2015 - Number of Detainees - Female",
+    "2016 - Number of Logged cases1_/",
+    "2016 - Number of Detainees - Both Sexes",
+    "2016 - Number of Detainees - Male",
+    "2016 - Number of Detainees - Female",
+    "2017 - Number of Logged cases",
+    "2017 - Number of Detainees - Both Sexes",
+    "2017 - Number of Detainees - Male",
+    "2017 - Number of Detainees - Female"
+  ],
+  "row_count": 26
+}

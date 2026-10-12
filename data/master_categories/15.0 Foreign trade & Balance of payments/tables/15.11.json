@@ -1,0 +1,24 @@
+{
+  "table_id": "15.11",
+  "category": "15.0 Foreign trade & Balance of payments",
+  "title_en": "Table 15.11: Monthly Exports, millions, 2020 - 2024",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [],
+  "time_span": "2020 – 2025",
+  "year_min": 2020,
+  "year_max": 2025,
+  "row_count": 13,
+  "column_count": 7,
+  "columns": [
+    "Item",
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "editions_covered": 2,
+  "csv_file": "tables/15.11.csv"
+}

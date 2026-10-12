@@ -1,0 +1,24 @@
+{
+  "table_id": "10.3",
+  "title_en": "Table 10.3: BED CAPACITY AND UTILIZATION BY MONTH, 2017 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2017 - Registered Bed Capacity",
+    "2017 - Beds in operation",
+    "2017 - % share of registered beds in operation",
+    "2017 - Bed Capacity Utilization Rate %",
+    "2017 - Tourist Bednights",
+    "2017 - Average Duration of stay (days)",
+    "2018 - Registered Bed Capacity",
+    "2018 - Beds in operation",
+    "2018 - % share of registered beds in operation",
+    "2018 - Bed Capacity Utilization Rate %",
+    "2018 - Tourist Bednights",
+    "2018 - Average Duration of stay (days)"
+  ],
+  "row_count": 13
+}

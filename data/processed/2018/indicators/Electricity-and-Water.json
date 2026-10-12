@@ -1,0 +1,27 @@
+{
+  "table_id": "Electricity-and-Water",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: Electricity production by Utility companies not included"
+  ],
+  "columns": [
+    "ELECTRICITY",
+    "ELECTRICITY_2",
+    "ELECTRICITY - 2006",
+    "ELECTRICITY - 2007",
+    "ELECTRICITY - 2008",
+    "ELECTRICITY - 2009",
+    "ELECTRICITY - 2010",
+    "ELECTRICITY - 2011",
+    "ELECTRICITY - 2012",
+    "ELECTRICITY - 2013",
+    "ELECTRICITY - 2014",
+    "ELECTRICITY - 2015",
+    "ELECTRICITY - 2016",
+    "ELECTRICITY - 2017"
+  ],
+  "row_count": 8
+}

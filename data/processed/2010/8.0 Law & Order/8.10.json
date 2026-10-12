@@ -1,0 +1,24 @@
+{
+  "table_id": "8.10",
+  "title_en": "Table 8.10: NUMBER OF REPEATED DETAINEES BY TYPE OF OFFENCE, SEX AND AGE GROUP, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of offence",
+    "Both sex - Total",
+    "Both sex - < 18",
+    "Both sex - 18 - 34",
+    "Both sex - 35 +",
+    "Male - Total",
+    "Male - < 18",
+    "Male - 18 - 34",
+    "Male - 35 +",
+    "Female - Total",
+    "Female - < 18",
+    "Female - 18 - 34",
+    "Female - 35 +"
+  ],
+  "row_count": 14
+}

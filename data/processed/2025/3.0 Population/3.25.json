@@ -1,0 +1,24 @@
+{
+  "table_id": "3.25",
+  "title_en": "TABLE 3.25: NUMBER OF MARRIAGES AND DIVORCES BY ISLAND , 2019- 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atoll / Island",
+    "2019 - Marriage",
+    "2019 - Divorce",
+    "2020 - Marriage",
+    "2020 - Divorce",
+    "2021 - Marriage",
+    "2021 - Divorce",
+    "2022 - Marriage",
+    "2022 - Divorce",
+    "2023 - Marriage",
+    "2023 - Divorce",
+    "2024 - Marriage",
+    "2024 - Divorce"
+  ],
+  "row_count": 209
+}

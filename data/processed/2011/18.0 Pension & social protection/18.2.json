@@ -1,0 +1,26 @@
+{
+  "table_id": "18.2",
+  "title_en": "Table 18.2 : NUMBER OF PERSONS COVERED UNDER DIFFERENT SOCIAL PROTECTION SCHEMES BY ISLAND, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme"
+  ],
+  "columns": [
+    "Locality",
+    "Total",
+    "MADHANA",
+    "MADHANA PLUS",
+    "CARE FOR SINGLE PARENTS - Parent",
+    "CARE FOR SINGLE PARENTS - Children",
+    "FOSTER PARENT - Parent",
+    "FOSTER PARENT - Children",
+    "ESSENTIAL ASSISTANT - Previously registered number of people given",
+    "ESSENTIAL ASSISTANT - Existing number of people given assistance",
+    "WELFARE ASSISSTANCE"
+  ],
+  "row_count": 229
+}

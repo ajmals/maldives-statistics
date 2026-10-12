@@ -1,0 +1,31 @@
+{
+  "table_id": "19.3",
+  "title_en": "TABLE 19.3: NUMBER OF CASES SUBMITTED AND COMPLETED BY THE HUMAN RIGHTS COMMISSION, 2020 - 2024",
+  "title_dv": "ތާވަލު 19.3: ހިއުމަން ރައިޓްސް ކޮމިޝަނަށް ހުށައެޅުނު އަދި ބެލުނު މައްސަލަތައް، 2020 - 2024",
+  "unit": "",
+  "source": "Source: Human Rights Commission of the Maldives",
+  "notes": [
+    "Note: Ongoin cases includes cases which were not competed in previous years."
+  ],
+  "columns": [
+    "Column_1",
+    "Type of cases",
+    "Total Number of Cases submitted - Type of cases - 2020",
+    "Ongoing - Type of cases - 2020",
+    "Completed - Type of cases - 2020",
+    "Total Number of Cases submitted - Type of cases - 2021",
+    "Ongoing - Type of cases - 2021",
+    "Completed - Type of cases - 2021",
+    "Total Number of Cases submitted - Type of cases - 2022",
+    "Ongoing - Type of cases - 2022",
+    "Completed - Type of cases - 2022",
+    "Total Number of Cases submitted - Type of cases - 2023",
+    "Ongoing - Type of cases - 2023",
+    "Completed - Type of cases - 2023",
+    "Total Number of Cases submitted - Type of cases - 2024",
+    "Ongoing - Type of cases - 2024",
+    "Completed - Type of cases - 2024",
+    "Column_19"
+  ],
+  "row_count": 66
+}

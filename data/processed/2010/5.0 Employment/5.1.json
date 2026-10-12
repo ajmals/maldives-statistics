@@ -1,0 +1,21 @@
+{
+  "table_id": "5.1",
+  "title_en": "Table 5.1 : PERMANENT EMPLOYEES OF CIVIL SERVICE, BY SECTOR, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Sectors",
+    "Republic - Both sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "6.10",
+  "title_en": "Table 6.10: ESTIMATED IMMUNIZATION COVERAGE, 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Health Protection Agency / EPI program",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "csclcsIm - Measles",
+    "csclcsIm - MMR",
+    "cTEmiawlckcswliseb - uzOD (IjIsIb) cnireaug - Bacillus - Climate Guerin - (BCG) Dozes",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIpID) - Diptheria Partasis Tatnus - (DPT) Dozes - 1st",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIpID) - Diptheria Partasis Tatnus - (DPT) Dozes - 2nd",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIpID) - Diptheria Partasis Tatnus - (DPT) Dozes - 3rd",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Tetanus Toxide - (TT) Dozes * - 1st",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Tetanus Toxide - (TT) Dozes * - 2nd",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Tetanus Toxide - (TT) Dozes * - 3rd",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Tetanus Toxide - (TT) Dozes * - 4th",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Tetanus Toxide - (TT) Dozes * - 5th",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Hepatitis B - 1st",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Hepatitis B - 2nd",
+    "cswnwTeT csiseTrWp WairItcpiD - uzOD (ITIT) - Hepatitis B - 3rd",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (OPV) Dozes - 1st",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (OPV) Dozes - 2nd",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (OPV) Dozes - 3rd",
+    "cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (OPV) Dozes - 4th"
+  ],
+  "row_count": 37
+}

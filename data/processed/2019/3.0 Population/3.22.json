@@ -1,0 +1,22 @@
+{
+  "table_id": "3.22",
+  "title_en": "TABLE 3.22: NUMBER OF TIMES MARRIED IN MALE' AND ATOLLS , 2018",
+  "title_dv": "ތާވަލު 3.22: މާލެ އާއި އަތޮޅުތަކުގައި ކުރެވުނު ކައިވެނީގެ އަދަދު، 2018",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "Court",
+    "Court - Male",
+    "First - Male",
+    "First - Female",
+    "Second - Male",
+    "Second - Female",
+    "Third - Male",
+    "Third - Female",
+    "Fourth or more - Male",
+    "Fourth or more - Female"
+  ],
+  "row_count": 24
+}

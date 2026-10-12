@@ -1,0 +1,36 @@
+{
+  "table_id": "11.23",
+  "title_en": "Table 11.23: TELECOMMUNICATION SERVICES, 2003 - 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Telecom Operators – Dhiraagu and Wataniya",
+  "notes": [
+    "Prepared by: Communications Authority of Maldives (CAM)",
+    "1_/ - total for the 11 islands with residential telephone service in the atolls",
+    "population",
+    "teledensity - mobile",
+    "teledensity - landline",
+    "tel internet",
+    "2 _/- telecom densities calculated, based on projected mid-year populations, MPND stats yearbooks 2007 and census figures",
+    "*",
+    "**",
+    "2012",
+    "Post paid",
+    "Pre-paid"
+  ],
+  "columns": [
+    "Column_1",
+    "Column_2",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012"
+  ],
+  "row_count": 18
+}

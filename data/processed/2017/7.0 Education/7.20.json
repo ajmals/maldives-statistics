@@ -1,0 +1,17 @@
+{
+  "table_id": "7.20",
+  "title_en": "Table 7.20: Number of candidates sat and passed in A 'Level by subject, 2016",
+  "title_dv": "ތާވަލް 7.20: ޖީ. ސީ. އޭލެވެލް އިމްތިހާނުގައި މާއްދާތަކުގައި ބައިވެރިވި އަދި ފާސްވި ކުދިންގެ ޢަދަދު، 2016",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "*pass: C and above"
+  ],
+  "columns": [
+    "Subject",
+    "Candidates",
+    "Passed",
+    "% Passed"
+  ],
+  "row_count": 11
+}

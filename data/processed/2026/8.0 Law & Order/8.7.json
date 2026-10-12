@@ -1,0 +1,24 @@
+{
+  "table_id": "8.7",
+  "title_en": "Table 8.7: THEFT CASES LOGGED BY TYPE, 2016 - 2025",
+  "title_dv": "ތާވަލު 8.7: ހުށަހެޅިފައިވާ ވައްކަމުގެ މައްސަލަތަކުގެ ބާވަތް، 2016- 2025",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "%change over 2024",
+    "Percentage share - 2025"
+  ],
+  "row_count": 8
+}

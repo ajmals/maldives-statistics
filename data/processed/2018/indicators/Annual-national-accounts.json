@@ -1,0 +1,30 @@
+{
+  "table_id": "Annual-national-accounts",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: 1_/: revised",
+    "Published in October 2018"
+  ],
+  "columns": [
+    "NATIONAL ACCOUNTS - (Gross Domestic Product - G.D.P at market prices)",
+    "NATIONAL ACCOUNTS - 2003",
+    "NATIONAL ACCOUNTS - 2004",
+    "NATIONAL ACCOUNTS - 2005",
+    "NATIONAL ACCOUNTS - 2006",
+    "NATIONAL ACCOUNTS - 2007",
+    "NATIONAL ACCOUNTS - 2008",
+    "NATIONAL ACCOUNTS - 2009",
+    "NATIONAL ACCOUNTS - 2010",
+    "NATIONAL ACCOUNTS - 2011",
+    "NATIONAL ACCOUNTS - 2012",
+    "NATIONAL ACCOUNTS - 2013",
+    "NATIONAL ACCOUNTS - 2014",
+    "NATIONAL ACCOUNTS - 20151_/",
+    "NATIONAL ACCOUNTS - 20161_/",
+    "NATIONAL ACCOUNTS - 2017"
+  ],
+  "row_count": 9
+}

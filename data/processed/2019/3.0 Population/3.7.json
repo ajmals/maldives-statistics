@@ -1,0 +1,21 @@
+{
+  "table_id": "3.7",
+  "title_en": "Table 3.7 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2015 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2015 - Births",
+    "2015 - Deaths",
+    "2015 - Natural Increase",
+    "2016 - Births",
+    "2016 - Deaths",
+    "2016 - Natural Increase",
+    "2017 - Births",
+    "2017 - Deaths",
+    "2017 - Natural Increase"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,17 @@
+{
+  "table_id": "11.21",
+  "title_en": "Table 11.21: SELECTED VEHICLES ACCORDING TO REGISTRSTION,2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Transport Authority",
+  "notes": [],
+  "columns": [
+    "Type of Vehicles",
+    "Male'",
+    "Hulhumale'",
+    "Addu",
+    "Other atolls",
+    "Total"
+  ],
+  "row_count": 9
+}

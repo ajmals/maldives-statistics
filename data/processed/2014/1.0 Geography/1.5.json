@@ -1,0 +1,20 @@
+{
+  "table_id": "1.5",
+  "title_en": "Table 1.5 : AREA, POPULATION DENSITY AND DISTANCE TO MALE' AND ATOLL CAPITALS, BY LOCALITY",
+  "title_dv": "ތާވަލު 1.5: ރަށްރަށުގެ އާބާދީ، އާބާދީ ބައިބޯމިން އަދި މާލެ އާއި އަތޮޅުގެ ވެރިކަންކުރާ ރަށާއި ހުރި ދުރުމިން",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "NOTE: Population density calculated here do not include the foreign population and therefor is an underestimate of the actual density"
+  ],
+  "columns": [
+    "Column_1",
+    "Locality",
+    "Land Area 2008 - ( in hectares )",
+    "Local Population - (census 2006) - ( in hectares )",
+    "Population Density - (population per hectar)",
+    "Distance to Male' - (population per hectar) - ( in km )",
+    "Distance to Male' - (population per hectar) - ( in km )_2"
+  ],
+  "row_count": 224
+}

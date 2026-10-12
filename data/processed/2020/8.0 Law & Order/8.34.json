@@ -1,0 +1,20 @@
+{
+  "table_id": "8.34",
+  "title_en": "TABLE 8.34: NUMBER OF CASES SENT TO COURT TRIAL, 2017 - 2019",
+  "title_dv": "ތާވަލު 8.34: ދައުލަތުގެ ފަރާތުން ޝަރީއަތަށް ހުށަހެޅުނު މައްސަލަތައް، 2017 - 2019",
+  "unit": "",
+  "source": "Source: Prosecutor General's office",
+  "notes": [
+    "Note: since the total number of cases in table are categorized based on type of charge, the number of cases submitted to court (table 8.25) may differ since a single case submitted to court may have more than one charges associated.",
+    "މަޢުލޫމާތު ދެއްވި ފަރާތް: ޕްރޮސިކިއުޓަރ ޖެނެރަލްގެ އޮފީސް"
+  ],
+  "columns": [
+    "Column_1",
+    "Details",
+    "2017",
+    "2018",
+    "2019",
+    "Column_7"
+  ],
+  "row_count": 271
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "3.4",
+  "title_en": "Table 3.4 : NUMBER OF INHABITED ISLANDS BY SIZE OF POPULATION",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Note:R.Kandholhudhoo, M.Madifushi, Dh.Gemendhoo and Th.Vilufushi people were displaced to other islands due to tsunami"
+  ],
+  "columns": [
+    "Size class - (population)",
+    "No. of Adminstrative units ( islands ) - 1985",
+    "No. of Adminstrative units ( islands ) - 1990",
+    "No. of Adminstrative units ( islands ) - 1995",
+    "No. of Adminstrative units ( islands ) - 2000",
+    "No. of Adminstrative units ( islands ) - 2006"
+  ],
+  "row_count": 16
+}

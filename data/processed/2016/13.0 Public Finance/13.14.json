@@ -1,0 +1,26 @@
+{
+  "table_id": "13.14",
+  "title_en": "Table 13.14: REVENUE COLLECTED IN US DOLLARS, 2011 -2015",
+  "title_dv": "ތާވަލު 13.12: ޢާމްދަނީގެ ގޮތުގައި ލިބުނު ފައިސާ، ޑޮލަރުން، 2011 - 2015",
+  "unit": "",
+  "source": "Source: Maldives Inland Revenue Authority",
+  "notes": [
+    "Note:",
+    "1 Revenue Collected (MVR) shows only the Maldivian Rufiyaa (MVR) value of USD collections.",
+    "2 Others: Long-term Agricultural Leased Islands Rent, Foreign Investment Administration Annual Fee, Sale of Government Land, Commercial Land Rent and Fines"
+  ],
+  "columns": [
+    "Description",
+    "Revenue collected (USD) - 2011",
+    "Revenue collected (USD) - 2012",
+    "Revenue collected (USD) - 2013",
+    "Revenue collected (USD) - 2014",
+    "Revenue collected (USD) - 2015",
+    "Revenue collected (MVR)1 - 2011",
+    "Revenue collected (MVR)1 - 2012",
+    "Revenue collected (MVR)1 - 2013",
+    "Revenue collected (MVR)1 - 2014",
+    "Revenue collected (MVR)1 - 2015"
+  ],
+  "row_count": 10
+}

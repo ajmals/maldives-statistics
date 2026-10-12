@@ -1,0 +1,27 @@
+{
+  "table_id": "12.18",
+  "category": "12.0 Electricity and water",
+  "title_en": "Table 12.18: Islands supplied with emergency water and quanity supplied, 2012",
+  "unit": "",
+  "source": "Source: National Disaster Management Centre",
+  "notes": [],
+  "time_span": "2013 – 2023",
+  "year_min": 2013,
+  "year_max": 2023,
+  "row_count": 99,
+  "column_count": 10,
+  "columns": [
+    "Item",
+    "Atoll / Island - 2013",
+    "Atoll / Island - 2014",
+    "Atoll / Island - 2015",
+    "C.I.F Value (MVR) - 2023",
+    "Column_5 - 2013",
+    "Quantity (in Ltr) - 2023",
+    "Quantity (ton) - Atoll / Island - 2014",
+    "Quantity (ton) - Atoll / Island - 2015",
+    "Quantity - Atoll / Island - 2013"
+  ],
+  "editions_covered": 4,
+  "csv_file": "tables/12.18.csv"
+}

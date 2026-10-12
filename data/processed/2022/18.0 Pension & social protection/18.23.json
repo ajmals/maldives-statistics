@@ -1,0 +1,26 @@
+{
+  "table_id": "18.23",
+  "title_en": "Table 18.23 : EXPENDITURE ON PERSONS COVERED UNDER AASANDHA POLICIES BY TYPE OF SERVICE, 2014 - 2021",
+  "title_dv": "ތާވަލް 18.23: ޚިދުމަތުގެ ބާވަތުން އާސަންދައިގެ ދަށުން ކުރެވިފައިވާ ޚަރަދު 2014 - 2021",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "Note: The dialysis figure has been updated to breakdown level. As we had implemented Vinavi, services at breakdown level was captured from end of 2019 from all gov providers in the atolls, hence these are captured in details from 2020 onwards. Previous years dialysis is indicated only for dialysis captured as a sublimit",
+    "These expenditures are based on the blocked amount"
+  ],
+  "columns": [
+    "Type of Service",
+    "Total Expenditure ( in MVR) - 2011",
+    "Total Expenditure ( in MVR) - 2012",
+    "Total Expenditure ( in MVR) - 2013",
+    "Total Expenditure ( in MVR) - 2014",
+    "Total Expenditure ( in MVR) - 2015",
+    "Total Expenditure ( in MVR) - 2016",
+    "Total Expenditure ( in MVR) - 2017",
+    "Total Expenditure ( in MVR) - 2018",
+    "Total Expenditure ( in MVR) - 2019",
+    "Total Expenditure ( in MVR) - 2020",
+    "Total Expenditure ( in MVR) - 2021"
+  ],
+  "row_count": 12
+}

@@ -1,0 +1,18 @@
+{
+  "table_id": "6.20",
+  "title_en": "Table 6.20 : NEW CASES OF FILARIA, BY AGE GROUP, 2000-2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Vector Born Disease Control Unit",
+  "notes": [],
+  "columns": [
+    "Year",
+    "Total",
+    "0 - 4",
+    "15 - 24",
+    "25 - 34",
+    "35 - 44",
+    "45 & Over"
+  ],
+  "row_count": 12
+}

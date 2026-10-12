@@ -1,0 +1,20 @@
+{
+  "table_id": "9.3",
+  "title_en": "Table 9.3 : FISH LANDING BY TYPE AND VESSEL LOCALITY, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [],
+  "columns": [
+    "(cnunwT ckircTem) - (In metric tons) - Locality",
+    "(cnunwT ckircTem) - (In metric tons) - Total",
+    "(cnunwT ckircTem) - (In metric tons) - Type of fish - cswmwlibuLwk - Skipjack tuna",
+    "(cnunwT ckircTem) - (In metric tons) - Type of fish - ilencnwk - Yellowfin tuna",
+    "(cnunwT ckircTem) - (In metric tons) - Type of fish - ilencnwk uDobOl - Big eye tuna",
+    "(cnunwT ckircTem) - (In metric tons) - Type of fish - cswm iSov - Dogtooth tuna",
+    "(cnunwT ckircTem) - (In metric tons) - Type of fish - iTcawl - Little tuna",
+    "(cnunwT ckircTem) - (In metric tons) - Type of fish - iDnogWr - Frigate tuna",
+    "(cnunwT ckircTem) - (In metric tons) - Type of fish - cswmurwf cnehinehea - Other marine fish"
+  ],
+  "row_count": 24
+}

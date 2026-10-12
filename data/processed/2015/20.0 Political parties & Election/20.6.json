@@ -1,0 +1,16 @@
+{
+  "table_id": "20.6",
+  "title_en": "TABLE 20.6: NUMBER OF PARLIMENT MEMBERS ELECTED, 2014",
+  "title_dv": "ތާވަލު 20.6: ރައްޔިތުންގެ މަޖިލީހުގެ މެމްބަރުންގެ އަދަދު، 2014",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "No. of members at end 2014 - Total",
+    "No. of members at end 2014 - Male",
+    "No. of members at end 2014 - Female",
+    "% of females"
+  ],
+  "row_count": 3
+}

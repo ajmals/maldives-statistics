@@ -1,0 +1,26 @@
+{
+  "table_id": "6.8&6.9",
+  "category": "6.0 Health",
+  "title_en": "Table 6.9 : PERSONS SCREENED FOR THALASSAEMIA, 2001 - 2008",
+  "unit": "",
+  "source": "Source: National Thalasseamia Centre",
+  "notes": [],
+  "time_span": "2003 – 2009",
+  "year_min": 2003,
+  "year_max": 2009,
+  "row_count": 15,
+  "column_count": 9,
+  "columns": [
+    "Item",
+    "Column_2 - 2009",
+    "Column_3 - 2009",
+    "Value - 2003",
+    "Value - 2004",
+    "Value - 2005",
+    "Value - 2006",
+    "Value - 2007",
+    "Value - 2008"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/6.8&6.9.csv"
+}

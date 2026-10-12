@@ -1,0 +1,22 @@
+{
+  "table_id": "4.1",
+  "title_en": "Table 4.1 : HOUSEHOLDS CLASSIFIED BY STRUCTURE TYPE, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total households",
+    "Living quarter",
+    "Collective living quarter",
+    "Establishment",
+    "Institution",
+    "Temporary shelter provided due to tsunami",
+    "Permanent new housing provided due to tsunami",
+    "Mobile unit such as boat, tent etc.",
+    "Other",
+    "Not stated"
+  ],
+  "row_count": 23
+}

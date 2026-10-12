@@ -1,0 +1,21 @@
+{
+  "table_id": "8.6",
+  "title_en": "Table 8.6: NUMBER OF DETAINEES REPORTED BY TYPE OF OFFENCE AND SEX, 2008 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of offence",
+    "2008 - Both Sex",
+    "2008 - Male",
+    "2008 - Female",
+    "2009 - Both Sex",
+    "2009 - Male",
+    "2009 - Female",
+    "2010 - Both Sex",
+    "2010 - Male",
+    "2010 - Female"
+  ],
+  "row_count": 14
+}

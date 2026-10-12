@@ -1,0 +1,20 @@
+{
+  "table_id": "8.22",
+  "title_en": "Table 8.22: Traffic violation fine by type, sex and age group, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Both sex - < 18",
+    "Both sex - 18-34",
+    "Both sex - 35+",
+    "Male - < 18",
+    "Male - 18-34",
+    "Male - 35+",
+    "Female - < 18",
+    "Female - 18-34",
+    "Female - 35+"
+  ],
+  "row_count": 11
+}

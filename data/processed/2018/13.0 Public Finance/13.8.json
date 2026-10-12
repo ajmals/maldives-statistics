@@ -1,0 +1,34 @@
+{
+  "table_id": "13.8",
+  "title_en": "Table 13.8 : SUMMARY OF EXTERNAL PUBLIC DEBT, 2014 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance & Treasury",
+  "notes": [
+    "1_/ Total outstanding disbursed (M & L/T)",
+    "2_/ Disbursement of loans during the year",
+    "3_/ Repayments of loans (principal only)",
+    "4_/ Disbursements less principal repayments",
+    "5_/ Interest on loans (M & L / T)",
+    "6_/ Disbursements less total debt service",
+    "7_/ Sum of Principal repayments and interest",
+    "IrwRercT cDcnea cscnEnif cfoa IrcTcsinim :ctWrwf ivcaedutWmUluAwm",
+    "Additonal Notes:",
+    "1/2015-2021 numbers from CS-DRMS report 352, with cut-off date as of Jan 31, 2017; only includes signed external debt",
+    "2/ Data Sources within Ministry of Finance and Treasury:",
+    "* Debt Numbers: Resource Mobilization and Debt Management Division",
+    "* GDP Numbers: Fiscal Affairs Division",
+    "3/ Difference in historical data due to reconciliations done during 2015 - 2017"
+  ],
+  "columns": [
+    "(In million Rufiyaa) - Particular",
+    "(In million Rufiyaa) - Actuals - 2014",
+    "(In million Rufiyaa) - Actuals - 2015",
+    "(In million Rufiyaa) - Actuals - 2016",
+    "(In million Rufiyaa) - Actuals - 2017",
+    "(In million Rufiyaa) - Forecasts - 2018",
+    "(In million Rufiyaa) - Forecasts - 2019",
+    "(In million Rufiyaa) - Forecasts - 2020"
+  ],
+  "row_count": 12
+}

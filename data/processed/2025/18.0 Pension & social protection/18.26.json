@@ -1,0 +1,29 @@
+{
+  "table_id": "18.26",
+  "title_en": "Table 18.26 : EXPENDITURE UNDER HEALTH INSURANCE SCHEMES BY ISLAND, 2014 - 2024",
+  "title_dv": "ތާވަލް 18.26: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން ހިނގިޚަރަދު 2014 - 2024",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme",
+    "Note: These expenditures are based on the blocked amount in MVR"
+  ],
+  "columns": [
+    "Locality",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2024_2"
+  ],
+  "row_count": 232
+}

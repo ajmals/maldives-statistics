@@ -1,0 +1,18 @@
+{
+  "table_id": "9.9",
+  "title_en": "Table 9.9 : FISH CATCH BY TYPE AND FISHING METHODS, 2025 (In metric tons)",
+  "title_dv": "ތާވަލު 9.9: މަހުގެ ބާވަތުންނާއި މަސްބާނާފައިވާގޮތުން ބޭނުނު އަދަދު، 2025",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Agriculture and Ocean Resources",
+  "notes": [],
+  "columns": [
+    "Type of fish",
+    "Fishing methods - Total",
+    "Fishing methods - Pole and Line",
+    "Fishing methods - Trolling",
+    "Fishing methods - Hand Line",
+    "Fishing methods - Grouper",
+    "Fishing methods - Reef"
+  ],
+  "row_count": 30
+}

@@ -1,0 +1,35 @@
+{
+  "table_id": "14.7",
+  "title_en": "Table 14.7: Interest Rates, 2001 - 2012",
+  "title_dv": "ތާވަލު 7.14: އިންޓަރެސްޓް ރޭޓްތައް: (2001- 2012)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "Note: min = minimum, max = maximum, nc = national currency, fc = foreign currency,WAIR = Weighted Average Interest Rate.",
+    "2011 figures are revised",
+    "1/ Open Market Operations(7 days ) was introduced on 27 August 2009.",
+    "2/ Open Market Operations(14 days ) was introduced on 14 February 2011.",
+    "3/ MMA repurchase facility rate was introduced on 23 Nov 2006 replacing the Lombard facility which was introduced in August 2001.",
+    "4/ MMA introduced overnight deposit facility for commercial banks effective from 23 March 2010.",
+    "5/ Effective from 9th May 2010 MMA introduced Overnight Lombard facility replacing repurchase facility rate.",
+    "6/ Loans and advances min and max rates include the penal rates charged on unplanned advances or overdrafts and overdue installments.",
+    "7/ The Government of Maldives introduced Treasury bills on 11 Sep, 2006. With effective from 27 December 2009 the T-bill rates represents the current weighted average interest rate offered by the government.",
+    "8/ MAISX is calculated since the inception of Securites Trading Floor (Maldives Stock Exchange) on 5 May 2002."
+  ],
+  "columns": [
+    "(In per cent per annum, end of period) - MALDIVES MONETARY AUTHORITY",
+    "(In per cent per annum, end of period) - 2001",
+    "(In per cent per annum, end of period) - 2002",
+    "(In per cent per annum, end of period) - 2003",
+    "(In per cent per annum, end of period) - 2004",
+    "(In per cent per annum, end of period) - 2005",
+    "(In per cent per annum, end of period) - 2006",
+    "(In per cent per annum, end of period) - 2007",
+    "(In per cent per annum, end of period) - 2008",
+    "(In per cent per annum, end of period) - 2009",
+    "(In per cent per annum, end of period) - 2010",
+    "(In per cent per annum, end of period) - 2011",
+    "(In per cent per annum, end of period) - 2012"
+  ],
+  "row_count": 97
+}

@@ -1,0 +1,28 @@
+{
+  "table_id": "7.28",
+  "title_en": "Table 7.28: Number of staff by gender, nationality and type of employment, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Higher Education",
+  "notes": [
+    "Locality",
+    "Local staff",
+    "Local staff",
+    "Foreign staff",
+    "Foreign staff",
+    "Total",
+    "Locality",
+    "Local staff",
+    "Local staff",
+    "Foreign staff",
+    "Foreign staff",
+    "Total"
+  ],
+  "columns": [
+    "Locality",
+    "Locality_2",
+    "Female",
+    "Male"
+  ],
+  "row_count": 5
+}

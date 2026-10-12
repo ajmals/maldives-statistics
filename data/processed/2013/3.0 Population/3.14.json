@@ -1,0 +1,35 @@
+{
+  "table_id": "3.14",
+  "title_en": "Table 3.13 : MARRIAGES AND DIVORCES IN MALE' AND ATOLLS, 2010 - 2012",
+  "title_dv": "ތާވަލު 3.13: މާލެ އާއި އަތޮޅުތަކުގައި ކުރެވުނު ކައިވެންޏާއި ވަރި، 2010 - 2012",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "2008",
+    "Marriages",
+    "Male'",
+    "Atolls",
+    "2010",
+    "Marriages",
+    "Male'",
+    "Atolls"
+  ],
+  "columns": [
+    "Locality",
+    "2010 - Marriages",
+    "2010 - Divorces",
+    "2010 - Faskh",
+    "2010 - Thafreeq",
+    "2011 - Marriages",
+    "2011 - Divorces",
+    "2011 - Faskh",
+    "2011 - Thafreeq",
+    "2012 - Marriages",
+    "2012 - Divorces",
+    "2012 - Faskh",
+    "2012 - Thafreeq",
+    "% Change over previous year of - Marriages",
+    "% Change over previous year of - Divorces"
+  ],
+  "row_count": 23
+}

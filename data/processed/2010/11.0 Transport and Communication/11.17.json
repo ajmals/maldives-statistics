@@ -1,0 +1,16 @@
+{
+  "table_id": "11.17",
+  "title_en": "Table 11.17 : INCOMING AND OUTGOING MAIL AND STAMPS SOLD, 2001 - 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Post Limited",
+  "notes": [],
+  "columns": [
+    "Year",
+    "Letter / Article (In '000) - Incoming",
+    "Letter / Article (In '000) - Outgoing",
+    "Postage ( In ' 000 Rf ) - Stamps Sold",
+    "Postage ( In ' 000 Rf ) - Total Postage"
+  ],
+  "row_count": 8
+}

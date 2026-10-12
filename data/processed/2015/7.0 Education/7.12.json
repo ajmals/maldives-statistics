@@ -1,0 +1,20 @@
+{
+  "table_id": "7.12",
+  "title_en": "Table 7.12: Single Session Schools, 2013 - 2014",
+  "title_dv": "ތާވަލް 7.12: އެއްދަންފަޅިއަށް ހިންގަމުންދާ ސްކޫލްތައް، 2013 - 2014",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "serial no.",
+    "ATOLL",
+    "ISLAND",
+    "SCHOOL NAME",
+    "Number of students - 2013",
+    "Number of students - 2014",
+    "Number of teachers - 2013",
+    "Number of teachers - 2014",
+    "Column_12"
+  ],
+  "row_count": 121
+}

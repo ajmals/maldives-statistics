@@ -1,0 +1,35 @@
+{
+  "table_id": "3.9&fig3.5",
+  "category": "3.0 Population",
+  "title_en": "Table 3.9 : LIVE BIRTHS AND INFANT DEATHS, 2006 - 2008",
+  "unit": "",
+  "source": "Source: Ministry of Healt h & Family",
+  "notes": [
+    "Decision S upport Division"
+  ],
+  "time_span": "2006 – 2009",
+  "year_min": 2006,
+  "year_max": 2009,
+  "row_count": 6,
+  "column_count": 16,
+  "columns": [
+    "Item",
+    "Atolls - 2006",
+    "Atolls - 2007",
+    "Atolls - 2008",
+    "Atolls - 2009",
+    "Atolls_2 - 2009",
+    "Male' - 2006",
+    "Male' - 2007",
+    "Male' - 2008",
+    "Male' - 2009",
+    "Male'_2 - 2009",
+    "Republic - 2006",
+    "Republic - 2007",
+    "Republic - 2008",
+    "Republic - 2009",
+    "Republic_2 - 2009"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/3.9&fig3.5.csv"
+}

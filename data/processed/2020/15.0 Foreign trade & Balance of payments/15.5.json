@@ -1,0 +1,31 @@
+{
+  "table_id": "15.5",
+  "title_en": "Table 15.5: EXPORTS BY COUNTRY OF DESTINATION, 2016 -2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [],
+  "columns": [
+    "Country",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "Percentage Share - 2014",
+    "Percentage Share - 2015",
+    "Percentage Share - 2016",
+    "Percentage Share - 2017",
+    "Percentage Share - 2018",
+    "Percentage Share - 2019",
+    "% Change Over Previous Year - 2014",
+    "% Change Over Previous Year - 2015",
+    "% Change Over Previous Year - 2016",
+    "% Change Over Previous Year - 2017",
+    "% Change Over Previous Year - 2018",
+    "% Change Over Previous Year - 2019"
+  ],
+  "row_count": 27
+}

@@ -1,0 +1,15 @@
+{
+  "table_id": "18.15",
+  "title_en": "TABLE 18.15: EMPLOYEES AND ESTABLISHMENTS REGISTERED IN THE RETIREMENT PENSION SCHEME, END OF 2025",
+  "title_dv": "ތާވަލު 18.15 : އެކި ދާއިރާތަކުން ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްގައި ރެޖިސްޓްރީކޮށްފައިވާ ތަންތަނުގެ ޢަދަދާއި މުވައްޒަފުންގެ އަދަދު، 2025",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Industry",
+    "Establishments",
+    "Employment",
+    "% share"
+  ],
+  "row_count": 27
+}

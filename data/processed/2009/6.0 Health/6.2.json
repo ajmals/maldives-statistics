@@ -1,0 +1,24 @@
+{
+  "table_id": "6.2",
+  "title_en": "Table 6.2 : HEALTH PERSONNEL BY EXPATRIATES AND LOCALS, 2008 - (only public sectors)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family",
+  "notes": [
+    "Note: Private Clinics data and Community Health Personnel data not included",
+    "Decision Support Division"
+  ],
+  "columns": [
+    "Personnel",
+    "Republic - Total",
+    "Republic - Local",
+    "Republic - Expatriate",
+    "Male' - Total",
+    "Male' - Local",
+    "Male' - Expatriate",
+    "Atolls - Total",
+    "Atolls - Local",
+    "Atolls - Expatriate"
+  ],
+  "row_count": 5
+}

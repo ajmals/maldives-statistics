@@ -1,0 +1,21 @@
+{
+  "table_id": "5.5",
+  "title_en": "Table: 5.5 Civil Servents Classified by job type and Sex, 2025",
+  "title_dv": "ތާވަލު 5.5: ސިވިލް ސަރވަންޓުން އަދާކުރާ ވަޒީފާގެ ބާވަތް އަދި ޖިންސް، 2025",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Job type",
+    "Republic - Both sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 3
+}

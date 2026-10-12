@@ -1,0 +1,19 @@
+{
+  "table_id": "2.7",
+  "title_en": "Table 2.7 : HOUSEHOLDS BY TYPE OF SANITATION USED , CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Type of toilets - Locality",
+    "Type of toilets - Total households",
+    "Type of toilets - Toilet connected to sea",
+    "Type of toilets - Toilet connected to septic tank",
+    "Type of toilets - Gifili",
+    "Type of toilets - Other / No toilet",
+    "Type of toilets - Not stated",
+    "Type of toilets - Not stated_2"
+  ],
+  "row_count": 24
+}

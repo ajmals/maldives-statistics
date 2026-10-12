@@ -1,0 +1,31 @@
+{
+  "table_id": "3.6",
+  "title_en": "Table 3.6b: Improved life expectancy at birth series for Maldives, 1990-2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: * Interpolation has been done to derive life expectancy at birth for inter-censal years",
+    "Souce: National Bureau of Statistics",
+    "Data Revised: 8th November 2021"
+  ],
+  "columns": [
+    "Age",
+    "Life expectancy e(x) at birth - 1989 - 1991 - Both sex",
+    "Life expectancy e(x) at birth - 1989 - 1991 - Female",
+    "Life expectancy e(x) at birth - 1989 - 1991 - Male",
+    "Life expectancy e(x) at birth - 1994 - 1996 - Both sex",
+    "Life expectancy e(x) at birth - 1994 - 1996 - Female",
+    "Life expectancy e(x) at birth - 1994 - 1996 - Male",
+    "Life expectancy e(x) at birth - 1999 - 2001 - Both sex",
+    "Life expectancy e(x) at birth - 1999 - 2001 - Female",
+    "Life expectancy e(x) at birth - 1999 - 2001 - Male",
+    "Life expectancy e(x) at birth - 2005 - 2007 - Both sex",
+    "Life expectancy e(x) at birth - 2005 - 2007 - Female",
+    "Life expectancy e(x) at birth - 2005 - 2007 - Male",
+    "Life expectancy e(x) at birth - 2013 - 2015 - Both sex",
+    "Life expectancy e(x) at birth - 2013 - 2015 - Female",
+    "Life expectancy e(x) at birth - 2013 - 2015 - Male"
+  ],
+  "row_count": 53
+}

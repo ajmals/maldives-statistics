@@ -1,0 +1,25 @@
+{
+  "table_id": "7.6-1",
+  "title_en": "TABLE 7.6: NUMBER OF SCHOOLS, ENROLMENT AND TEACHERS BY LOCALITY, 2021 - 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: 1. This table does not include supervisors, assistant headmasters, headmasters, assistant principals and principals who may teach in addition to their administrative duties.",
+    "2. This table includes pre-primary teachers."
+  ],
+  "columns": [
+    "(JUNE 2022) - Locality",
+    "(JUNE 2022) - Number - Schools - Enrol. Less than 500",
+    "(JUNE 2022) - Number - Schools - Enrol. Greater than or equal to 500",
+    "(JUNE 2022) - Number - Schools - Total",
+    "(JUNE 2022) - Number - Students - Both Sexes",
+    "(JUNE 2022) - Number - Students - Male",
+    "(JUNE 2022) - Number - Students - Female",
+    "(JUNE 2022) - Number - Teachers - Total",
+    "(JUNE 2022) - Number - Teachers - Trained",
+    "(JUNE 2022) - Number - Teachers - Untrained",
+    "(JUNE 2022) - Student Teacher Ratio (Trained Teachers)"
+  ],
+  "row_count": 23
+}

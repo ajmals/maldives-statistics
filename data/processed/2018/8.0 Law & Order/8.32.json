@@ -1,0 +1,20 @@
+{
+  "table_id": "8.32",
+  "title_en": "TABLE 8.32: NUMBER OF CASES REPORTED ON CORRUPTION BY LOCALITY, 2013 - 2017",
+  "title_dv": "ތާވަލު 8.32: އެންޓިކޮރަޕްޝަން ކޮމިޝަނަށް ހުށަހެޅިފައިވާ ކޮރަޕްޝަންގެ މައްސަލަތައް، 2013 - 2017",
+  "unit": "",
+  "source": "Source: Aniti Corruption Commision",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Cases Reported - 2010",
+    "Cases Reported - 2011",
+    "Cases Reported - 2012",
+    "Cases Reported - 2013",
+    "Cases Reported - 2014",
+    "Cases Reported - 2015",
+    "Cases Reported - 2016",
+    "Cases Reported - 2017"
+  ],
+  "row_count": 24
+}

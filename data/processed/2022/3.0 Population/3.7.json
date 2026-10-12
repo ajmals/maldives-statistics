@@ -1,0 +1,22 @@
+{
+  "table_id": "3.7",
+  "title_en": "Table 3.7 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2020 - 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "1_/: 2021 figures are tentative and is expected to change",
+    "Data includes Maldivians and foreigners, but excluded birth & deaths occurred abroad"
+  ],
+  "columns": [
+    "Month",
+    "2020 - Births",
+    "2020 - Deaths",
+    "2020 - Natural Increase",
+    "20211_/ - Births",
+    "20211_/ - Deaths",
+    "20211_/ - Natural Increase"
+  ],
+  "row_count": 13
+}

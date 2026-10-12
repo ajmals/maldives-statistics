@@ -1,0 +1,36 @@
+{
+  "table_id": "3.4",
+  "title_en": "Table 3.4 : NUMBER OF INHABITED ISLANDS BY SIZE OF POPULATION",
+  "title_dv": ",udwdwa eguSwrcSwr ELuacnuhIm cnutog egurwvcnim egIdWbWa : 3.4 clwvWt",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:R.Kandholhudhoo, M.Madifushi, Dh.Gemendhoo and Th.Vilufushi people were relocated to other islands due to tsunami of 2004",
+    "iawfevulwdwb cSwSwrcSwrcnehea cnuhIm egukwtcSwrim cnegiLugiaWaImWnus :cTOn ރ. ކަނދޮޅުދޫ، ރ. މަޑިފުށި، ދ.ގެމެންދޫ އަދި ތ.ވިލުފުށި",
+    "100-199",
+    "200-299",
+    "300-399",
+    "400-499",
+    "500-599",
+    "600-699",
+    "700-799",
+    "800-899",
+    "900-999",
+    "1000-1499",
+    "1500-1999",
+    "2000-2999",
+    "3000-3999",
+    "4000-4999",
+    "5000-9999",
+    "10000 +"
+  ],
+  "columns": [
+    "Size class - (population)",
+    "No. of Adminstrative units ( islands ) - 1985",
+    "No. of Adminstrative units ( islands ) - 1990",
+    "No. of Adminstrative units ( islands ) - 1995",
+    "No. of Adminstrative units ( islands ) - 2000",
+    "No. of Adminstrative units ( islands ) - 2006"
+  ],
+  "row_count": 15
+}

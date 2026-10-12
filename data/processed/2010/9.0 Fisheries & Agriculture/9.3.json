@@ -1,0 +1,19 @@
+{
+  "table_id": "9.3",
+  "title_en": "Table 9.3 : FISH LANDING BY TYPE AND LOCALITY, 2009 (In metric tons)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Type of fish - Total",
+    "Type of fish - Skipjack tuna",
+    "Type of fish - Yellowfin tuna",
+    "Type of fish - Dogtooth tuna",
+    "Type of fish - Little tuna",
+    "Type of fish - Frigate tuna",
+    "Type of fish - Other marine fish"
+  ],
+  "row_count": 24
+}

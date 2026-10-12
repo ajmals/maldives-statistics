@@ -1,0 +1,24 @@
+{
+  "table_id": "8.64",
+  "title_en": "Table 8.64: Number of cases reported to Atoll Social Protection Service Centers by age group and sex, 2016 - 2020",
+  "title_dv": "ތާވަލު 8.64: އަތޮޅުތަކުގައި ޤާއިމުކޮށްފައިވާ ކުޑަކުދިންގެ ސަރވިސް ސެންޓަރތަކަށް ރިޕޯޓުކުރެވިފައިވާ މައްސަލަތަކުގެ އަދަދު، 2016 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [],
+  "columns": [
+    "Age group",
+    "2016 - Number of Children - Both Sexes",
+    "2016 - Number of Children - Male",
+    "2016 - Number of Children - Female",
+    "2017 - Number of Children - Both Sexes",
+    "2017 - Number of Children - Male",
+    "2017 - Number of Children - Female",
+    "2018 - Number of Children - Both Sexes",
+    "2018 - Number of Children - Male",
+    "2018 - Number of Children - Female",
+    "2019 - Number of Children - Both Sexes",
+    "2019 - Number of Children - Male",
+    "2019 - Number of Children - Female"
+  ],
+  "row_count": 8
+}

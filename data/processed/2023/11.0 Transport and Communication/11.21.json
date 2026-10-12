@@ -1,0 +1,34 @@
+{
+  "table_id": "11.21",
+  "title_en": "Table 11.21 : PASSENGER MOVEMENT AT GAN INTERNATIONAL AIRPORT BY MONTH, 2021",
+  "title_dv": "ތާވަލު 11.21: މަސްމަހުގެ ގޮތުން ގަން އިންޓަރނޭޝަނަލް އެއަރޕޯޓުގައި ފަސިންޖަރުންގެ ދަތުރުފަތުރު ހުރި ގޮތް، 2021",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "International Flights",
+    "Month",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "columns": [
+    "Month",
+    "Total",
+    "International Flights - Arrival",
+    "International Flights - Departure",
+    "Domestic Flights - Arrival",
+    "Domestic Flights - Departure",
+    "Domestic Flights - Direct Transit"
+  ],
+  "row_count": 13
+}

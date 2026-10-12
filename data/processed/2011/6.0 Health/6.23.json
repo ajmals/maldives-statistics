@@ -1,0 +1,23 @@
+{
+  "table_id": "6.23",
+  "title_en": "Table 6.23: TOTAL NO. OF REPORTED CASES BY SELECTED DISEASES BY ISLAND, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Locality - Total - North Thiladhunmathi (HA)",
+    "Acute Respiratory Infection - Under 5 year s",
+    "Acute Respiratory Infection - Above 5 years",
+    "Viral Fever - Under 5 year s",
+    "Viral Fever - Above 5 year s",
+    "Diarrhoea - Under 5 year s",
+    "Diarrhoea - Above 5 year s",
+    "Scrub Typhus - Under 5 years",
+    "Scrub Typhus - Above 5 years",
+    "*Dengue Fever - Above 5 years",
+    "**Typhoid - Under 5 years",
+    "**Typhoid - Above 5 years"
+  ],
+  "row_count": 221
+}

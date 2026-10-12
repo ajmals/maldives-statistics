@@ -1,0 +1,18 @@
+{
+  "table_id": "8.14",
+  "title_en": "TABLE 8.14: NUMBER OF LOGGED CASES BY ISLAND , 2018 - 2021",
+  "title_dv": "ތާވަލު 8.14: އެކި ރަށްރަށުން ހުށަހެޅިފައިވާ މައްސަލަތަކުގެ އަދަދު، 2018- 2021",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: The atoll total of each atoll is the total number of logged cases within the atoll. This includes administrative islands and industrial islands/resorts also."
+  ],
+  "columns": [
+    "Island",
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+  ],
+  "row_count": 218
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "9.5",
+  "title_en": "Table 9.5 : MONTHLY FISH CATCH BY TYPE , 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [
+    "13519.52297"
+  ],
+  "columns": [
+    "(In metric tons) - Month",
+    "(In metric tons) - Total",
+    "(In metric tons) - Type of fish - Skipjack",
+    "(In metric tons) - Type of fish - Yellowfin tuna",
+    "(In metric tons) - Type of fish - Bigeye tuna",
+    "(In metric tons) - Type of fish - Albacore tuna",
+    "(In metric tons) - Type of fish - Dogtooth tuna",
+    "(In metric tons) - Type of fish - Little tuna",
+    "(In metric tons) - Type of fish - Frigate tuna",
+    "(In metric tons) - Type of fish - Other marine fish",
+    "Column_24",
+    "Column_25",
+    "Column_26",
+    "Column_27",
+    "Column_28",
+    "Column_29",
+    "Column_30"
+  ],
+  "row_count": 14
+}

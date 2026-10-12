@@ -1,0 +1,19 @@
+{
+  "table_id": "8.6",
+  "title_en": "Table 8.6 : PERSONS SENTENCED, BY TYPE AND PERIOD, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of Penitentiary and Rehabilitation Service",
+  "notes": [],
+  "columns": [
+    "Period of Sentence and Sex",
+    "Total - Persons",
+    "Total - % Share",
+    "Total - Jailed",
+    "Total - Banished",
+    "House Arrest/Detention - Total",
+    "House Arrest/Detention - Male'",
+    "House Arrest/Detention - Atolls"
+  ],
+  "row_count": 21
+}

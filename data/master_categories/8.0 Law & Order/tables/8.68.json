@@ -1,0 +1,33 @@
+{
+  "table_id": "8.68",
+  "category": "8.0 Law & Order",
+  "title_en": "TABLE 8.68: Number of reported gender based violence and domestic violence, 2018 - 2020",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [],
+  "time_span": "2018 – 2022",
+  "year_min": 2018,
+  "year_max": 2022,
+  "row_count": 9,
+  "column_count": 16,
+  "columns": [
+    "Item",
+    "Both Sex - 2018",
+    "Both Sex - 2019",
+    "Both Sex - 2020",
+    "Both Sex - 2021",
+    "Both Sex - 2022",
+    "Female - 2018",
+    "Female - 2019",
+    "Female - 2020",
+    "Female - 2021",
+    "Female - 2022",
+    "Male - 2018",
+    "Male - 2019",
+    "Male - 2020",
+    "Male - 2021",
+    "Male - 2022"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/8.68.csv"
+}

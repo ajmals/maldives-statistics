@@ -1,0 +1,17 @@
+{
+  "table_id": "13.5",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "(In million Rufiyaa)",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "Note: For 2018 budget, Ministry of Finance have changed the format of the function table to fit to GFSM 2014 and currently working on the migration tables for the back series."
+  ],
+  "columns": [
+    "TABLE 13.5. FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CAPITAL EXPENDITURE, 2017 - 2019 - (In million Rufiyaa) - Particulars",
+    "TABLE 13.5. FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CAPITAL EXPENDITURE, 2017 - 2019 - (In million Rufiyaa) - 2017 - Actual",
+    "TABLE 13.5. FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CAPITAL EXPENDITURE, 2017 - 2019 - (In million Rufiyaa) - 2018 - Actual",
+    "TABLE 13.5. FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CAPITAL EXPENDITURE, 2017 - 2019 - (In million Rufiyaa) - 2019 - Revised"
+  ],
+  "row_count": 49
+}

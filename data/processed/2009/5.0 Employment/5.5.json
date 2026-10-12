@@ -1,0 +1,32 @@
+{
+  "table_id": "5.5",
+  "title_en": "Table 5.5 : EMPLOYED POPULATION BY INDUSTRY, OCCUPATION AND SEX, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Occupation and Sex",
+    "Occupation and Sex_2",
+    "Total",
+    "Industry - Total",
+    "Column_6",
+    "Column_8",
+    "Column_10",
+    "Column_12",
+    "Column_14",
+    "Column_16",
+    "Column_18",
+    "Transport, Storage and Communication",
+    "Transport, Storage and Communication_2",
+    "Transport, Storage and Communication_3",
+    "Transport, Storage and Communication_4",
+    "Financing, insurance, business and real estate",
+    "Column_27",
+    "Community, social and personal services",
+    "Community, social and personal services_2",
+    "Column_31",
+    "Column_32"
+  ],
+  "row_count": 13
+}

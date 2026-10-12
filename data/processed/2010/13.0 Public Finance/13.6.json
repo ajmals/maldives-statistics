@@ -1,0 +1,30 @@
+{
+  "table_id": "13.6",
+  "title_en": "Table 13.6 : FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CURRENT EXPENDITURE, 2007- 2012 (In million Rf)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Expenses for water and sanitation is included in the health sector"
+  ],
+  "columns": [
+    "Particulars",
+    "2007",
+    "2008",
+    "(Rev.) - 2009",
+    "(MTEF) - 2010",
+    "(MTEF) - 2011",
+    "(MTEF) - 2012",
+    "(MTEF) - 2012_2",
+    "% Share - 2007",
+    "% Share - 2008",
+    "% Share - 2009",
+    "% Share - 2010",
+    "% Share - 2011",
+    "% Share - 2012",
+    "% Share - 2012_2",
+    "% change - 2009 - 2010",
+    "% change - 2009 - 2010_2"
+  ],
+  "row_count": 19
+}

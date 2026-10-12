@@ -1,0 +1,19 @@
+{
+  "table_id": "15.3",
+  "title_en": "Table 15.3 : EXPORTS BY COMMODITY, 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Items - Total - Marine products Metric tons",
+    "Quantity - Items - Total - Marine products Metric tons",
+    "Quantity - Items - Private - Total - Marine products Metric tons",
+    "Quantity - Items - Government - Total - Marine products Metric tons",
+    "Value (in MVR. '000) - Items - Total - Marine products Metric tons",
+    "Value (in MVR. '000) - Items - Private - Total - Marine products Metric tons",
+    "Value (in MVR. '000) - Items - Government - Total - Marine products Metric tons"
+  ],
+  "row_count": 113
+}

@@ -1,0 +1,16 @@
+{
+  "table_id": "9.11",
+  "title_en": "TABLE 9.11: NUMBER OF FISHERMAN BY ATOLL, 2014 - 2017",
+  "title_dv": "ތާވަލު 9.11: މަސްވެރިންގެ އަދަދު، 2014 - 2017",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "row_count": 21
+}

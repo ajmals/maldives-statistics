@@ -1,0 +1,22 @@
+{
+  "table_id": "2.6",
+  "title_en": "Table 2.6 : METHOD OF WASTE DISPOSAL BY LOCALITY, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Ways of disposal - Total households",
+    "Ways of disposal - Garbage compound",
+    "Ways of disposal - Seaside",
+    "Ways of disposal - Land reclamination site",
+    "Ways of disposal - Throwing it into the bushes",
+    "Ways of disposal - Bury in the living area",
+    "Ways of disposal - Burn in the living area",
+    "Ways of disposal - Use a waste disposal machine",
+    "Ways of disposal - Not stated",
+    "Ways of disposal - Not stated_2"
+  ],
+  "row_count": 24
+}

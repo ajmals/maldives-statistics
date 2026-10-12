@@ -1,0 +1,18 @@
+{
+  "table_id": "11.6",
+  "title_en": "Table 11.6 : PASSENGER MOVEMENT AT MALE' INTERNATIONAL AIRPORT BY MONTH, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Aviation Department",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Total *",
+    "International Flights - Arrival",
+    "International Flights - Departure",
+    "International Flights - Direct Transit",
+    "Domestic Flights - Arrival",
+    "Domestic Flights - Departure"
+  ],
+  "row_count": 14
+}

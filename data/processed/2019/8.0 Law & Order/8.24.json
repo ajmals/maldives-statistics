@@ -1,0 +1,27 @@
+{
+  "table_id": "8.24",
+  "title_en": "Table 8.24: SUMMARY OF ALL NEW CASES FILED IN COURTS IN MALE' AND ATOLLS, 2016 - 2018",
+  "title_dv": "ތާވަލް 8.24: މާލެއާއި ރަށްރަށުގެ ކޯޓުތަކަށް ހުށައެޅިފައިވާ މައްސަލަތައް، 2016 -2018",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "2016 - Criminal Cases",
+    "2016 - Civil Cases",
+    "2016 - Family Cases",
+    "2016 - Marriage",
+    "2016 - Divorce",
+    "2017 - Criminal Cases",
+    "2017 - Civil Cases",
+    "2017 - Family Cases",
+    "2017 - Marriage",
+    "2017 - Divorce",
+    "2018 - Criminal Cases",
+    "2018 - Civil Cases",
+    "2018 - Family Cases",
+    "2018 - Marriage",
+    "2018 - Divorce"
+  ],
+  "row_count": 29
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "12.19",
+  "category": "12.0 Electricity and water",
+  "title_en": "Table 12.19: Number of Islands and quanity of emergency water supplied by Atolls, 2012 - 2013",
+  "unit": "",
+  "source": "Source: National Disaster Management Centre",
+  "notes": [
+    "އިމަޖެންސީކޮށް ފެން ފޯރުކޮށްދެވިފައިވަނީ ކޮންމެ އަހަރަކުވެސް ޖެނުއަރީން ޖުލައި މަހުގެ ތެރޭގައެވެ."
+  ],
+  "time_span": "2012 – 2022",
+  "year_min": 2012,
+  "year_max": 2022,
+  "row_count": 41,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "C.I.F Value (MVR) - 2016",
+    "No. of islands - 2012",
+    "No. of islands - 2013",
+    "No. of islands - * - 2014",
+    "Quantity (in Ltr) - 2016",
+    "Quantity (ton - 2012",
+    "Quantity (ton - 2013",
+    "Quantity (ton - 2014",
+    "TABLE 12.19: Imports of Mineral waterby Country,  - CIF (MVR - 2022",
+    "TABLE 12.19: Imports of Mineral waterby Country,  - Quantity (Ltr - 2022"
+  ],
+  "editions_covered": 4,
+  "csv_file": "tables/12.19.csv"
+}

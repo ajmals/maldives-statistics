@@ -1,0 +1,27 @@
+{
+  "table_id": "8.17-1",
+  "category": "8.0 Law & Order",
+  "title_en": "Table: 8.17 NUMBER OF LOCAL AND FOREIGN DETAINEES BY TYPE OF OFFENCES, 2016 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2016 – 2018",
+  "year_min": 2016,
+  "year_max": 2018,
+  "row_count": 24,
+  "column_count": 10,
+  "columns": [
+    "Item",
+    "Foreign - 2016",
+    "Foreign - 2017",
+    "Foreign - 2018",
+    "Locals - 2016",
+    "Locals - 2017",
+    "Locals - 2018",
+    "Total - 2016",
+    "Total - 2017",
+    "Total - 2018"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.17-1.csv"
+}

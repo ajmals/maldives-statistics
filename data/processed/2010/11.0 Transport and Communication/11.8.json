@@ -1,0 +1,24 @@
+{
+  "table_id": "11.8",
+  "title_en": "Table 11.8 : NUMBER OF AIRCRAFT MOVEMENTS AT DOMESTIC AIRPORTS BY MONTH, 2006 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Civil Aviation and Communication",
+  "notes": [],
+  "columns": [
+    "Month",
+    "L.Kadhdhoo - 2006",
+    "L.Kadhdhoo - 2007",
+    "L.Kadhdhoo - 2008",
+    "L.Kadhdhoo - 2009",
+    "GDh.Kaadedhdhoo - 2006",
+    "GDh.Kaadedhdhoo - 2007",
+    "GDh.Kaadedhdhoo - 2008",
+    "GDh.Kaadedhdhoo - 2009",
+    "HDh.Hanimaadhoo - 2006",
+    "HDh.Hanimaadhoo - 2007",
+    "HDh.Hanimaadhoo - 2008",
+    "HDh.Hanimaadhoo - 2009"
+  ],
+  "row_count": 13
+}

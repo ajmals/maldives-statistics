@@ -1,0 +1,22 @@
+{
+  "table_id": "Poverty",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Household Income and Expenditure Surveys",
+  "notes": [
+    "1/ Consumption aggregate is derived by aggregating households’ expenditures on goods and services so as to approximate the value of consumption achieved during the refernce period. It excludes lumpy expenditures such as on weddings, housing constructions,Consumer Durables,actual rent paid, travel abroad for Hajj. Consumption aggregate is used to define the measure of welfare which is used for poverty analysis.",
+    "2/ Poverty lines for previous years have been adjusted to account for inflation.",
+    "Note: Internation poverty line is measured in purchasing power parity (PPP) dollars. $1.25 is equivalent to MVR 17 in 2010 and MVR 12 in 2003."
+  ],
+  "columns": [
+    "POVERTY INDICATORS - Poverty & inequality measures (using Consumption Aggregate) 1_/",
+    "POVERTY INDICATORS - 2002/2003 - Republic",
+    "POVERTY INDICATORS - 2002/2003 - Male'",
+    "POVERTY INDICATORS - 2002/2003 - Atolls",
+    "POVERTY INDICATORS - 2009/2010 - Republic",
+    "POVERTY INDICATORS - 2009/2010 - Male'",
+    "POVERTY INDICATORS - 2009/2010 - Atolls"
+  ],
+  "row_count": 7
+}

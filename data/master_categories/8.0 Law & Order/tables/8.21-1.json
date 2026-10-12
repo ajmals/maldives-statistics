@@ -1,0 +1,27 @@
+{
+  "table_id": "8.21-1",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.21 : CASES DEALT BY JUDICIAL COURTS IN MALE' AND ISLANDS, 2010 - 2018",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "time_span": "2010 – 2018",
+  "year_min": 2010,
+  "year_max": 2018,
+  "row_count": 9,
+  "column_count": 10,
+  "columns": [
+    "Item",
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.21-1.csv"
+}

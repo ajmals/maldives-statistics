@@ -1,0 +1,20 @@
+{
+  "table_id": "4.1",
+  "title_en": "Table 4.1 : BUILDINGS AUTHORISED FOR CONSTRUCTION AND COMPLETED BY NUMBER AND FLOOR AREA IN MALE' 2018 - 2025",
+  "title_dv": "2025 - 2018 cnimuDob iaWdwdwa egunwtcnwt unumcnin cSokctWrWmia idwa unuvedwdcauh egumurukctWrWmia iawgElWm : 4.1 clwvWt",
+  "unit": "",
+  "source": "Source: Male' City Council",
+  "notes": [],
+  "columns": [
+    "Type - Authorized Buildings",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "row_count": 9
+}

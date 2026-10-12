@@ -1,0 +1,20 @@
+{
+  "table_id": "9.15",
+  "title_en": "Table 9.15 : FISH CATCH BY TYPE AND FISHING METHODS, 2009 (In metric tons)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Type of fish",
+    "Fishing methods - Total",
+    "Fishing methods - Pole and Line",
+    "Fishing methods - Trolling",
+    "Fishing methods - Long Line",
+    "Fishing methods - Hand Line",
+    "Fishing methods - Fixed Gillnets",
+    "Fishing methods - EEZ",
+    "Fishing methods - Miscellaneous"
+  ],
+  "row_count": 14
+}

@@ -1,0 +1,32 @@
+{
+  "table_id": "1.3",
+  "title_en": "Table 1.3 : WIND DIRECTION AND SPEED BY MONTH , 2021",
+  "title_dv": "2021 ,cnimurWb egiawv iaWbWrcsim egiawv cnutog eguhwmcswM : 1.3 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Meteorological Service",
+  "notes": [
+    "Note:",
+    "N - North",
+    "S - South",
+    "E - East",
+    "W - West",
+    "NNW - North-North-West"
+  ],
+  "columns": [
+    "Locality - WIND SPEED (MILES/HOUR)",
+    "cjercvea eg - Yearly average",
+    "Irwaunej - Jan",
+    "cbef - Feb",
+    "cCWm - Mar",
+    "clIrcPEa - Apr",
+    "Em - May",
+    "cnUj - Jun",
+    "iawluj - Jul",
+    "cswgOa - Aug",
+    "cswgOa - Sep",
+    "OTckoa - Oct",
+    "cmevon - Nov",
+    "cmesiD - Dec"
+  ],
+  "row_count": 11
+}

@@ -1,0 +1,27 @@
+{
+  "table_id": "19.2",
+  "title_en": "TABLE 19.2: NUMBER OF HUMAN RIGHTS RELATED CASES REPORTED AND COMPLETED, 2007 - 2018",
+  "title_dv": "ތާވަލު 19.2: އިންސާނީ ޙައްޤުތަކާ ގުޅުންހުރި މައްސަލަތައް ހުށަހެޅުނު އަދި ބެލުނު މިންވަރު، 2007 - 2018",
+  "unit": "",
+  "source": "Source: Human Rights Commission of the Maldives",
+  "notes": [
+    "Note: * Ratification of the New Constitution",
+    "Cases completed includes cases initiated and investigated by the HR Commission"
+  ],
+  "columns": [
+    "Details",
+    "2007",
+    "2008*",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018"
+  ],
+  "row_count": 3
+}

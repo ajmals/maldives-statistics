@@ -1,0 +1,19 @@
+{
+  "table_id": "11.17",
+  "title_en": "Table 11.17 : AIRCRAFT MOVEMENT AT VELANA INTERNATIONAL AIRPORT BY MONTH, 2018",
+  "title_dv": "ތާވަލު 11.17: މަސްމަހުގެ ގޮތުން ބައިނަލް އަޤްވާމީ ވައިގެބަނދަރުން ދަތުރުކުރި ފްލައިޓްތައް، 2018",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Grand total",
+    "International Flights - Total",
+    "International Flights - Scheduled",
+    "International Flights - Non-Scheduled",
+    "Domestic Flights - Total",
+    "Domestic Flights - Scheduled",
+    "Domestic Flights - Non-Scheduled"
+  ],
+  "row_count": 13
+}

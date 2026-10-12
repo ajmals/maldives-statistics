@@ -1,0 +1,42 @@
+{
+  "table_id": "11.11&11.12",
+  "category": "11.0 Transport and Communication",
+  "title_en": "Table 11.12 : CARGO HANDLED AT MALE' INTERNATIONAL AIRPORT BY MONTH, 2010",
+  "unit": "",
+  "source": "Source: Civil Aviation Department",
+  "notes": [
+    "(in Kg)",
+    "International Flights",
+    "Month",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "time_span": "2011",
+  "year_min": 2011,
+  "year_max": 2011,
+  "row_count": 13,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    "Domestic Flights - Arrival - 2011",
+    "Domestic Flights - Departure - 2011",
+    "Domestic Flights - Direct Transit - 2011",
+    "International Flights - Arrival - 2011",
+    "International Flights - Departure - 2011",
+    "International Flights - Direct Transit - 2011",
+    "Total - 2011"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/11.11&11.12.csv"
+}

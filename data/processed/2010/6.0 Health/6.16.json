@@ -1,0 +1,26 @@
+{
+  "table_id": "6.16",
+  "title_en": "Table 6.16 : LOCALLY TRAINED AND CERTIFIED HEALTH PERSONNEL BY TYPE OF TRAINING, 2003 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Faculty of Health Sciences",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "2003 - Male",
+    "2003 - Female",
+    "2004 - Male",
+    "2004 - Female",
+    "2005 - Male",
+    "2005 - Female",
+    "2006 - Male",
+    "2006 - Female",
+    "2007 - Male",
+    "2007 - Female",
+    "2008 - Male",
+    "2008 - Female",
+    "2009 - Male",
+    "2009 - Female"
+  ],
+  "row_count": 26
+}

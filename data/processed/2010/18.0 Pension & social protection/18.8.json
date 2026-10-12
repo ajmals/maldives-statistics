@@ -1,0 +1,20 @@
+{
+  "table_id": "18.8",
+  "title_en": "Table 18.8: REPORTED EXPENDITURE FOR DEVELOPMENT PROJECTS, MINISTRIES, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Monitoring And evaluation Section, Department of National Planning",
+  "notes": [
+    "Note: * Expenditures are based on the 22% o f complete monitoring reports received by DNP."
+  ],
+  "columns": [
+    "Ministry",
+    "Rev. allocation",
+    "Exp. Q1",
+    "Exp. Q1_2",
+    "Exp. Q1_3",
+    "Exp. Q1_4",
+    "Difference (Rev. Alloc. - exp. )"
+  ],
+  "row_count": 12
+}

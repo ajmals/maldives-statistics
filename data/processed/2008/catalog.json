@@ -1,0 +1,31 @@
+[
+  {
+    "table_id": "KeyIndicators_08",
+    "title_en": "",
+    "title_dv": "",
+    "unit": "",
+    "source": "",
+    "notes": [],
+    "columns": [
+      "> Geography > Population > Employment > Health > Education > Law and order > Fisheris and Agriculture > Tourism > Transport and Communication > Electricity and Water > Public Finance > Money and Banking > Foreign Trade and BOP > National Accounts > Prices Statistics Division, Ministry of Planning and National Development, Male', Maldives www.planning.gov.mv",
+      "Column_2",
+      "Column_3",
+      "Column_4",
+      "Column_5",
+      "> Geography > Population > Employment > Health > Education > Law and order > Fisheris and Agriculture > Tourism > Transport and Communication > Electricity and Water > Public Finance > Money and Banking > Foreign Trade and BOP > National Accounts > Prices",
+      "> Geography",
+      "> Population",
+      "> Employment",
+      "> Health",
+      "> Education",
+      "> Law and order",
+      "> Fisheris and Agriculture",
+      "> Tourism",
+      "> Transport and Communication",
+      "> Electricity and Water"
+    ],
+    "row_count": 16,
+    "chapter": "indicators",
+    "csv_file": "indicators/KeyIndicators_08.csv"
+  }
+]

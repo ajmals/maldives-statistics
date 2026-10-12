@@ -1,0 +1,20 @@
+{
+  "table_id": "8.9",
+  "title_en": "Table 8.9: DRUG CEASED BY MALDIVES POLICE SERVICE, 2013 - 2016",
+  "title_dv": "ތާވަލު 8.9: މޯލްޑިވްސް ޕޮލިސް ސަރވިސްގެ ފަރާތުން އަތުލައިގަތް މަސްތުވާތަކެތީގެ އަދަދު، 2013 - 2016",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of Drug",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "Quantity ( grams ) - 2013",
+    "Quantity ( grams ) - 2014",
+    "Quantity ( grams ) - 2015",
+    "Quantity ( grams ) - 2016"
+  ],
+  "row_count": 5
+}

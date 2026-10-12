@@ -1,0 +1,16 @@
+{
+  "table_id": "6.10",
+  "title_en": "Table 6.10 : PERSONS SCREENED FOR THALASSAEMIA, 2002 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Thalasseamia Centre",
+  "notes": [],
+  "columns": [
+    "Year",
+    "Number Screened",
+    "B - Thal Major (%)",
+    "B - Thal Non - Carrier (%)",
+    "B - Thal carrier (%)"
+  ],
+  "row_count": 9
+}

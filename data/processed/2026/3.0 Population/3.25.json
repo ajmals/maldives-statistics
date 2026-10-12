@@ -1,0 +1,32 @@
+{
+  "table_id": "3.25",
+  "title_en": "TABLE 3.25: NUMBER OF PERSONS MARRIED & DIVORCE BY AGE, 2024",
+  "title_dv": "ތާވަލު 3.25: ކައިވެނިކުރި މީހުންނާއި، ވަރިކުރި މީހުންގެ އުމުރު، 2024",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total Marriages (Male) - above 66",
+    "Total Marriages (Male) - 56-65",
+    "Total Marriages (Male) - 41-55",
+    "Total Marriages (Male) - 26-40",
+    "Total Marriages (Male) - 18-25",
+    "Total Marriages (Female) - above 66",
+    "Total Marriages (Female) - 56-65",
+    "Total Marriages (Female) - 41-55",
+    "Total Marriages (Female) - 26-40",
+    "Total Marriages (Female) - 18-25",
+    "Total Divorce (Male) - above 66",
+    "Total Divorce (Male) - 56-65",
+    "Total Divorce (Male) - 41-55",
+    "Total Divorce (Male) - 26-40",
+    "Total Divorce (Male) - 18-25",
+    "Total Divorce (Female) - above 66",
+    "Total Divorce (Female) - 56-65",
+    "Total Divorce (Female) - 41-55",
+    "Total Divorce (Female) - 26-40",
+    "Total Divorce (Female) - 18-25"
+  ],
+  "row_count": 24
+}

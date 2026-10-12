@@ -1,0 +1,24 @@
+{
+  "table_id": "17.7",
+  "title_en": "Table 17.7 : PERCENTAGE CHANGE OF CONSUMER PRICE INDEX FROM CORRESPONDING MONTH OF PREVIOUS YEAR , 2023",
+  "title_dv": "ތާވަލު 17.7: ވޭތުވެދިޔަ އަހަރުގެ މިމަހާއި އަޅާބަލާއިރު އިންފްލޭޝަން ރޭޓް 2023",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: Nov 2022=100) - Major Groups - Republic",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Jan",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Feb",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Mar",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Apr",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - May",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Jun",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Jul",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Aug",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Sep",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Oct",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Nov",
+    "(Index - base: Nov 2022=100) - Month on Month Inflation rates , 2023 - Dec"
+  ],
+  "row_count": 60
+}

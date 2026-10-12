@@ -1,0 +1,40 @@
+{
+  "table_id": "8.21",
+  "title_en": "Table 8.21: Traffic violation fine by type and sex, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Detail",
+    "Toal",
+    "Not carrying license in hand/lost/expired/license is suspended",
+    "Driving without vehicle stickers /expired",
+    "Unregistered taxi service",
+    "Unlawful use of vehicle number plate",
+    "Unlawful carrying goods",
+    "Violating traffic signs",
+    "Destroy accident scene",
+    "Driving Unregistered Vehicles / cancelled registration",
+    "using mobile phone / smorking while driving",
+    "other traffic violations",
+    "Both Sex",
+    "Toal",
+    "Not carrying license in hand/lost/expired/license is suspended",
+    "Driving without vehicle stickers /expired",
+    "Unregistered taxi service",
+    "Unlawful use of vehicle number plate",
+    "Unlawful carrying goods",
+    "Violating traffic signs",
+    "Destroy accident scene",
+    "Driving Unregistered Vehicles / cancelled registration",
+    "using mobile phone / smorking while driving",
+    "other traffic violations"
+  ],
+  "columns": [
+    "Detail",
+    "Both Sex",
+    "Male",
+    "Female"
+  ],
+  "row_count": 11
+}

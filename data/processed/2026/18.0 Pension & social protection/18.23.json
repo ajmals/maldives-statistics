@@ -1,0 +1,26 @@
+{
+  "table_id": "18.23",
+  "title_en": "Table 18.23 : EXPENDITURE ON AASANDHA SERVICES BY TYPE OF INSTITUTION AND ATOLL , 2025",
+  "title_dv": "ތާވަލް 18.23: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން އަތޮޅުތަކުން ދެވޭ ޙިދުމަތްތައް ފޯރުކޮށްދޭ ތަންތަނަށް ކުރެވިފައިވާ ޚަރަދު، 2025",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "Note:",
+    "All expenditure related data has been provided based on blocked transactions, which were generated on 30th April 2026. As the data was compiled using blocked expenditures these figures are subject to change upon changes brought to transactions",
+    "1. Type 'Airfare Tickets' is designated for the ticket expenditure on cases referred abroad",
+    "2.Expenditure aggregated based on Service Provider's geograpical location as specified above"
+  ],
+  "columns": [
+    "Locality",
+    "Total Expenditure (MVR)",
+    "Hospitals",
+    "Pharmacies",
+    "Opticals",
+    "Clinics",
+    "Airfare Tickets 1_/",
+    "Emergency Evacuation - Air_/",
+    "Emergency Evacuation - Sea2_/",
+    "Emergency Evacuation - Sea2_/_2"
+  ],
+  "row_count": 24
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "8.9",
+  "title_en": "Table 8.9: Number of detainees reported by type of offences, sex and agegroup, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Se rvice",
+  "notes": [],
+  "columns": [
+    "Type of offence",
+    "Column_2",
+    "Both sex - Total",
+    "Both sex - < 18",
+    "Both sex - 18 - 34",
+    "Both sex - 35 +",
+    "Male - Total",
+    "Male - < 18",
+    "Male - 18 - 34",
+    "Male - 35 +",
+    "Female - Total",
+    "Female - < 18",
+    "Female - 18 - 34",
+    "Female - 35 +"
+  ],
+  "row_count": 14
+}

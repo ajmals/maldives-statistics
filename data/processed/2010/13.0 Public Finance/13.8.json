@@ -1,0 +1,31 @@
+{
+  "table_id": "13.8",
+  "title_en": "Table 13.8 : SUMMARY OF EXTERNAL PUBLIC DEBT, 2002 - 2012 (In million US dollars)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Total outstanding disbursed (M & L/T)",
+    "2_/ Disbursement of loans during the year",
+    "3_/ Repayments of loans (principal only)",
+    "4_/ Disbursements less principal repayments",
+    "6_/ Interest on loans (M & L / T)",
+    "6_/ Sum of Principal repayments and interest",
+    "7_/ Disbursements less total debt service"
+  ],
+  "columns": [
+    "Column_1",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "(Rev) - 2009",
+    "(MTEF) - 2010",
+    "(MTEF) - 2011",
+    "(MTEF) - 2012"
+  ],
+  "row_count": 11
+}

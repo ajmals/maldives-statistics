@@ -1,0 +1,24 @@
+{
+  "table_id": "3.5",
+  "title_en": "Table 3.5: Registered Population by Age Group (Under 18 and 18+), by Island, 2025 (as of 31 December 2025)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Registration",
+  "notes": [
+    "Note:",
+    "Dhafthar in Male' is a special registry where people who have migrated and who have lived for 5 years are registered.",
+    "Definition: The concept of registered population is different from enumerated. In census people are counted at the place where they are residing at the census reference time. A person can be registered in one island and be living in another island"
+  ],
+  "columns": [
+    "Column_1",
+    "Atoll",
+    "Island",
+    "0 - 17 years Registered Population - Both Sexes",
+    "0 - 17 years Registered Population - Male",
+    "0 - 17 years Registered Population - Female",
+    "18 years & above Registered Population - Both Sexes",
+    "18 years & above Registered Population - Male",
+    "18 years & above Registered Population - Female"
+  ],
+  "row_count": 223
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "3.5",
+  "title_en": "Table 3.5 : SEX RATIO OF POPULATION BY LOCALITY, 1985, 1990, 1995,2000, 2006 AND 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "1-/ Sex ratio is high due to the presence of many tourist resorts in K. Atoll",
+    "and are employing mostly by men",
+    "2-/ In 1985 AA and ADh was combined as Ari Atoll",
+    "Male'",
+    "HA",
+    "HDh",
+    "Sh",
+    "N",
+    "R",
+    "B",
+    "Lh",
+    "K",
+    "AA",
+    "ADh",
+    "V",
+    "M",
+    "F",
+    "Dh",
+    "Th",
+    "L",
+    "GA",
+    "GDh",
+    "Gn",
+    "S"
+  ],
+  "columns": [
+    "Locality",
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2006",
+    "2014"
+  ],
+  "row_count": 24
+}

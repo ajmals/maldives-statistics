@@ -1,0 +1,31 @@
+{
+  "table_id": "3.7",
+  "title_en": "Table 3.7 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2015 - 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: 1_/: 2018 figures are revised",
+    "2_/: 2019 figures are tentative and is expected to change",
+    "Does not include foreigners (Births and Deaths)"
+  ],
+  "columns": [
+    "Month",
+    "2015 - Births",
+    "2015 - Deaths",
+    "2015 - Natural Increase",
+    "2016 - Births",
+    "2016 - Deaths",
+    "2016 - Natural Increase",
+    "2017 - Births",
+    "2017 - Deaths",
+    "2017 - Natural Increase",
+    "20181_/ - Births",
+    "20181_/ - Deaths",
+    "20181_/ - Natural Increase",
+    "20192_/ - Births",
+    "20192_/ - Deaths",
+    "20192_/ - Natural Increase"
+  ],
+  "row_count": 13
+}

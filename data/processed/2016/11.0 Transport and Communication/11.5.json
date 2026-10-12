@@ -1,0 +1,32 @@
+{
+  "table_id": "11.5",
+  "title_en": "Table 11.5 : REGISTERED DHONIS BY SIZE OF VESSEL BY LOCALITY, 2014- 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Transport Authority",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "2012 - Dhoni size (lenghth in ft) - Total",
+    "2012 - Dhoni size (lenghth in ft) - below 46",
+    "2012 - Dhoni size (lenghth in ft) - 46-65",
+    "2012 - Dhoni size (lenghth in ft) - 66-84",
+    "2012 - Dhoni size (lenghth in ft) - 85+",
+    "2013 - Dhoni size (lenghth in ft) - Total",
+    "2013 - Dhoni size (lenghth in ft) - below 46",
+    "2013 - Dhoni size (lenghth in ft) - 46-65",
+    "2013 - Dhoni size (lenghth in ft) - 66-84",
+    "2013 - Dhoni size (lenghth in ft) - 85+",
+    "2014 - Dhoni size (lenghth in ft) - Total",
+    "2014 - Dhoni size (lenghth in ft) - below 46",
+    "2014 - Dhoni size (lenghth in ft) - 46-65",
+    "2014 - Dhoni size (lenghth in ft) - 66-84",
+    "2014 - Dhoni size (lenghth in ft) - 85+",
+    "2015 - Dhoni size (lenghth in ft) - Total",
+    "2015 - Dhoni size (lenghth in ft) - below 46",
+    "2015 - Dhoni size (lenghth in ft) - 46-65",
+    "2015 - Dhoni size (lenghth in ft) - 66-84",
+    "2015 - Dhoni size (lenghth in ft) - 85+"
+  ],
+  "row_count": 23
+}

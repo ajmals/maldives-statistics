@@ -1,0 +1,26 @@
+{
+  "table_id": "8.53",
+  "title_en": "Table 8.53: School attendance of children at Childrens Shelter, Fiyavathi, by age group and sex, 2016",
+  "title_dv": "ތާވަލު 8.53: ހުޅުމާލެ ފިޔަވަތީގައި ތިބި ސްކޫލަށްދާ އަދި ނުދާ ކުދިންގެ އަދަދު، 2016",
+  "unit": "",
+  "source": "Source: Ministry of Law & Gender",
+  "notes": [
+    "Age group",
+    "Age group",
+    "Total",
+    "3-4",
+    "5",
+    "6 - 9",
+    "10 - 14",
+    "15",
+    "16 - 18",
+    "18+"
+  ],
+  "columns": [
+    "Age group",
+    "No. of Children Attending School - Both Sexes",
+    "No. of Children Attending School - Male",
+    "No. of Children Attending School - Female"
+  ],
+  "row_count": 8
+}

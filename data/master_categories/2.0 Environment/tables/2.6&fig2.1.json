@@ -1,0 +1,29 @@
+{
+  "table_id": "2.6&fig2.1",
+  "category": "2.0 Environment",
+  "title_en": "Table: 2.6 WASTE TRANSPORTED TO THILAFUSHI, 2002-2008",
+  "unit": "(in tons)",
+  "source": "Source: Waste Management Section",
+  "notes": [
+    "1_/ Currently, all resorts in K. Atoll, B. Soneyvaafushi,",
+    "and some resorts in Alifu Atoll distribute waste in Thilafushi.",
+    "Mal é Municipality"
+  ],
+  "time_span": "2002 – 2008",
+  "year_min": 2002,
+  "year_max": 2008,
+  "row_count": 8,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/2.6&fig2.1.csv"
+}

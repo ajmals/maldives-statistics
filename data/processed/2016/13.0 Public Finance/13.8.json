@@ -1,0 +1,32 @@
+{
+  "table_id": "13.8",
+  "title_en": "Table 13.8 : SUMMARY OF EXTERNAL PUBLIC DEBT, 2013 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance & Treasury",
+  "notes": [
+    "1_/ Total outstanding disbursed (M & L/T)",
+    "2_/ Disbursement of loans during the year",
+    "3_/ Repayments of loans (principal only)",
+    "4_/ Disbursements less principal repayments",
+    "5_/ Interest on loans (M & L / T)",
+    "6_/ Sum of Principal repayments and interest",
+    "7_/ Disbursements less total debt service",
+    "IrwRercT cDcnea cscnEnif cfoa IrcTcsinim :ctWrwf ivcaedutWmUluAwm",
+    "Additonal Notes:",
+    "1/2013-2018 numbers from CS-DRMS report 352, with cut-off date as of Jan 31, 2016; only includes signed external debt",
+    "2/ GDP figures from Table 1. Summary of Central Government Finance, 2012-2018; Budget Small Book 2016",
+    "3/ XGS figures from Table 10. Balance of Payments, 2011-2016; MMA Monthly Statistics Feb 2016",
+    "4/ Difference in historical data due to reconciliations done during 2015 & 2016"
+  ],
+  "columns": [
+    "(In million US dollars) - Particular",
+    "(In million US dollars) - Actuals - 2013",
+    "(In million US dollars) - Actuals - 2014",
+    "(In million US dollars) - Revised - 2015",
+    "(In million US dollars) - Forecasts - 2016",
+    "(In million US dollars) - Forecasts - 2017",
+    "(In million US dollars) - Forecasts - 2018"
+  ],
+  "row_count": 12
+}

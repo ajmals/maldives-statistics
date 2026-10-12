@@ -1,0 +1,24 @@
+{
+  "table_id": "3.8",
+  "title_en": "Table 3.8 : BIRTHS AND DEATHS, BY SEX AND LOCALITY, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "Few deaths have not certified in the same atoll/island in which the death occurred, those deaths are counted in the place of death certified atoll/island",
+    "1_/ Data includes Maldivians and foreigners, but excluded births and deaths occurred abroad in totals",
+    "2021 figures are tentative and is expected to change"
+  ],
+  "columns": [
+    "Locality",
+    "Births - Both Sexes",
+    "Births - Male",
+    "Births - Female",
+    "Deaths - Both Sexes",
+    "Deaths - Male",
+    "Deaths - Female",
+    "Deaths - Not stated"
+  ],
+  "row_count": 25
+}

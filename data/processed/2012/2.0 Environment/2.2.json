@@ -1,0 +1,20 @@
+{
+  "table_id": "2.2",
+  "title_en": "Table 2.2 : NUMBER OF ISLAND THAT HAVE REPORTED SEVERE EROSION, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Data provided by Atolls Offices and Island Offfices",
+  "notes": [
+    "compiled by Environmental Protection Agency",
+    "Note: Total includes Male'",
+    "1_/ Ha Hathifushi people moved to H Dh. Hanimaadhoo",
+    "2_/ L. Kalhaidhoo people moved to L. Gan",
+    "3_/ Ga. Dhiyadhoo people moved to Ga. Gemanafushi"
+  ],
+  "columns": [
+    "Locality",
+    "2011 - Total no. of inhabited islands_2",
+    "2011 - No of island that have reported severe erosion"
+  ],
+  "row_count": 21
+}

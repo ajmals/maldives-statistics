@@ -1,0 +1,29 @@
+{
+  "table_id": "3.9",
+  "title_en": "Table 3.9 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2022 - 2025",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health, Family & Welfare",
+  "notes": [
+    "Note:",
+    "Data is tentative and is subject to change",
+    "Data includes Maldivians and foreigners, excluded births & deaths occurred abroad",
+    "Health Information Management & Research Division / Health Statistics & Publication Section"
+  ],
+  "columns": [
+    "Month",
+    "2022 - Births",
+    "2022 - Deaths",
+    "2022 - Natural Increase",
+    "2023 - Births",
+    "2023 - Deaths",
+    "2023 - Natural Increase",
+    "2024 - Births",
+    "2024 - Deaths",
+    "2024 - Natural Increase",
+    "2025 - Births",
+    "2025 - Deaths",
+    "2025 - Natural Increase"
+  ],
+  "row_count": 13
+}

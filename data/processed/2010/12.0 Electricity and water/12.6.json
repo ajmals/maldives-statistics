@@ -1,0 +1,25 @@
+{
+  "table_id": "12.6",
+  "title_en": "Table 12.6 : MONTHLY CONSUMPTION OF FUEL FOR ELECTRICITY GENERATION IN SELECTED LOCALITIES BY PUBLIC SECTOR, 2009 (In '000 litres)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Co mpany Limited",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 30
+}

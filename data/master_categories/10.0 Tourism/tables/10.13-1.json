@@ -1,0 +1,33 @@
+{
+  "table_id": "10.13-1",
+  "category": "10.0 Tourism",
+  "title_en": "Table 10.13 : MONTHLY DISTRIBUTION OF TOURIST ARRIVALS BY NATIONALITY, 2018",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Maldives Immigration"
+  ],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 86,
+  "column_count": 14,
+  "columns": [
+    "Item",
+    "Apr - 2019",
+    "Aug - 2019",
+    "Dec - 2019",
+    "Feb - 2019",
+    "Jan - 2019",
+    "Jul - 2019",
+    "Jun - 2019",
+    "Mar - 2019",
+    "May - 2019",
+    "Nov - 2019",
+    "Oct - 2019",
+    "Sep - 2019",
+    "Total - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/10.13-1.csv"
+}

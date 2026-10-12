@@ -1,0 +1,19 @@
+{
+  "table_id": "18.8",
+  "title_en": "Table 18.8 : EXPENDITURE UNDER HEALTH INSURANCE SCHEMES BY ISLAND, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme",
+    "Expenditure is based on the claims approved."
+  ],
+  "columns": [
+    "Locality",
+    "Madhana",
+    "Madhana Plus"
+  ],
+  "row_count": 243
+}

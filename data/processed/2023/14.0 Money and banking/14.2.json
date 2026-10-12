@@ -1,0 +1,27 @@
+{
+  "table_id": "14.2",
+  "title_en": "Table 14.2: OTHER DEPOSITORY CORPORATIONS SURVEY, 2020 - 2022",
+  "title_dv": "ތާވަލު 14.2: ވިޔަފާރި ބޭންކުތަކުގެ ސާރވޭ 2020 - 2022",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "Data is compiled based on IMF Monetary and Financial Statistics: Compilation Guide (2008)."
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Particulars",
+    "(In millions of Rufiyaa; end of period) - 2020 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2020 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2020 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2020 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2021 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2021 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2021 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2021 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2022 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2022 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2022 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2022 - Dec"
+  ],
+  "row_count": 24
+}

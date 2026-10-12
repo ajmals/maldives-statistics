@@ -1,0 +1,21 @@
+{
+  "table_id": "9.3",
+  "title_en": "Table 9.3 : FISH LANDING BY TYPE AND LOCALITY, 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "(In metric tons) - Locality",
+    "(In metric tons) - Total",
+    "(In metric tons) - Type of fish - Skipjack tuna",
+    "(In metric tons) - Type of fish - Yellowfin tuna",
+    "(In metric tons) - Type of fish - Big eye tuna",
+    "(In metric tons) - Type of fish - Albacore tuna",
+    "(In metric tons) - Type of fish - Dogtooth tuna",
+    "(In metric tons) - Type of fish - Little tuna",
+    "(In metric tons) - Type of fish - Frigate tuna",
+    "(In metric tons) - Type of fish - Other marine fish"
+  ],
+  "row_count": 24
+}

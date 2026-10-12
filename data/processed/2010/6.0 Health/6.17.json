@@ -1,0 +1,26 @@
+{
+  "table_id": "6.17",
+  "title_en": "Table 6.17: TOTAL NO. OF REPORTED CASES BY SELECTED DISEASES BY LOCALITY, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Center for Commununity Health and Disease Control",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Acute Respiratory Infection - Under 5 years",
+    "Acute Respiratory Infection - Above 5 years",
+    "Viral Fever - Under 5 years",
+    "Viral Fever - Above 5 years",
+    "Diarrhoea - Under 5 years",
+    "Diarrhoea - Above 5 years",
+    "Measles - Under 5 years",
+    "Measles - Above 5 years",
+    "Scrub Typhus - Under 5 years",
+    "Scrub Typhus - Above 5 years",
+    "*Dengue Fever - Under 5 years",
+    "*Dengue Fever - Above 5 years",
+    "**Typhoid - Under 5 years",
+    "**Typhoid - Above 5 years"
+  ],
+  "row_count": 25
+}

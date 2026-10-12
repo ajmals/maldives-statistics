@@ -1,0 +1,23 @@
+{
+  "table_id": "3.8",
+  "title_en": "Table 3.8 : BIRTHS AND DEATHS, BY SEX AND LOCALITY, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Healt h & Family",
+  "notes": [
+    "1_/ Total does not include foreigners",
+    "2_/ Reported no. only",
+    "Note: Atolls doesnot include abroad birth and death data",
+    "Decision Support Division"
+  ],
+  "columns": [
+    "Locality",
+    "Births - Both - Sexes",
+    "Births - Male - Sexes",
+    "Births - Female - Sexes",
+    "Deaths - Both - Sexes",
+    "Deaths - Male - Sexes",
+    "Deaths - Female - Sexes"
+  ],
+  "row_count": 25
+}

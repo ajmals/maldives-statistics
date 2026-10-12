@@ -1,0 +1,41 @@
+{
+  "table_id": "9.2",
+  "title_en": "Table 9.2 : FISH CATCH BY VESSEL LOCALITY, 2017 - 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [
+    "Note: This table does not in any way or form represent the area of fish catch but the catches from the vessels regisered to islands in the specific atoll"
+  ],
+  "columns": [
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Locality",
+    "2009",
+    "udwdwA ununEb cswm - Fish catch - 2010",
+    "udwdwA ununEb cswm - Fish catch - 2011",
+    "udwdwA ununEb cswm - Fish catch - 2012",
+    "udwdwA ununEb cswm - Fish catch - 2013",
+    "udwdwA ununEb cswm - Fish catch - 2014",
+    "udwdwA ununEb cswm - Fish catch - 2015",
+    "udwdwA ununEb cswm - Fish catch - 2016",
+    "udwdwA ununEb cswm - Fish catch - 2017",
+    "udwdwA ununEb cswm - Fish catch - 2018",
+    "udwdwA ununEb cswm - Fish catch - 2019",
+    "udwdwA ununEb cswm - Fish catch - 2020",
+    "udwdwA ununEb cswm - Fish catch - 2021",
+    "udwdwA ununEb cswm - Percentage share - 2015",
+    "udwdwA ununEb cswm - Percentage share - 2016",
+    "udwdwA ununEb cswm - Percentage share - 2017",
+    "udwdwA ununEb cswm - Percentage share - 2018",
+    "udwdwA ununEb cswm - Percentage share - 2019",
+    "udwdwA ununEb cswm - Percentage share - 2020",
+    "udwdwA ununEb cswm - Percentage share - 2021",
+    "udwdwA ununEb cswm - % change over previous year - 2015",
+    "udwdwA ununEb cswm - % change over previous year - 2016",
+    "udwdwA ununEb cswm - % change over previous year - 2017",
+    "udwdwA ununEb cswm - % change over previous year - 2018",
+    "udwdwA ununEb cswm - % change over previous year - 2019",
+    "udwdwA ununEb cswm - % change over previous year - 2020",
+    "udwdwA ununEb cswm - % change over previous year - 2021"
+  ],
+  "row_count": 24
+}

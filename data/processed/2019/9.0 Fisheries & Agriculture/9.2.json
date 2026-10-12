@@ -1,0 +1,26 @@
+{
+  "table_id": "9.2",
+  "title_en": "Table 9.2 : FISH CATCH BY VESSEL LOCALITY, 2015 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [
+    "Note: This table does not in any way or form represent the area of fish catch but the catches from the vessels regisered to islands in the specific atoll"
+  ],
+  "columns": [
+    "(In '000 metric tons) - Locality",
+    "Fish catch - 2015",
+    "Fish catch - 2016",
+    "Fish catch - 2017",
+    "Fish catch - 2018",
+    "Percentage share - 2015",
+    "Percentage share - 2016",
+    "Percentage share - 2017",
+    "Percentage share - 2018",
+    "% change over previous year - 2015",
+    "% change over previous year - 2016",
+    "% change over previous year - 2017",
+    "% change over previous year - 2018"
+  ],
+  "row_count": 24
+}

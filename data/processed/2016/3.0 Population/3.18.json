@@ -1,0 +1,27 @@
+{
+  "table_id": "3.18",
+  "title_en": "TABLE 3.18: NUMBER OF MARRIAGES BY NUMBER OF TIMES MARRIED BY SEX, 2013 - 2015",
+  "title_dv": "ތާވަލު 3.18: ކައިވެނީގެ އަދަދާއި ކައިވެނި ކުރި ފަހަރު އަދި ޖިންސު، 2013 - 2015",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "Third",
+    "Fourth or more",
+    "0"
+  ],
+  "columns": [
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7",
+    "Column_8",
+    "Column_9",
+    "Total",
+    "Male - 5763",
+    "Female - 5763"
+  ],
+  "row_count": 8
+}

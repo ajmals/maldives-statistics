@@ -1,0 +1,24 @@
+{
+  "table_id": "3.18",
+  "title_en": "Table 3.18 :NUMBER OF PERSONS MARRIED AND DIVORCED,IN MALE', BY AGE GROUP OF BRIDE AND GROOM, 2016 - 2021",
+  "title_dv": "ތާވަލު 3.18: އަނބިމީހާއާއި ފިރިމީހާގެ ޢުމުރުފުރައިގެ ގޮތުން ފެމިލީކޯޓުގައި ކައިވެނިކުރި މީހުންނާއި ވަރިކުރި މީހުންގެ ޢަދަދު، 2016 - 2021",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Age of bride & bridegroom - 2016",
+    "Total marriage and divorce",
+    "17 & Over",
+    "under 18",
+    "15-19",
+    "20 - 24",
+    "25 - 29",
+    "30 - 34",
+    "35 - 39",
+    "40 - 44",
+    "45 - 49",
+    "50 & Over",
+    "50 & Over - 2016"
+  ],
+  "row_count": 17
+}

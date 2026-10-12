@@ -1,0 +1,27 @@
+{
+  "table_id": "7.10",
+  "title_en": "Table 7.10 : POPULATION 6 YEARS OF AGE AND OVER BY EDUCATIONAL ATTAINMENT, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source :Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Age groups",
+    "Age groups - Total",
+    "Age groups - 6-9",
+    "Age groups - 10-14",
+    "Age groups - 15-19",
+    "Age groups - 20-24",
+    "Age groups - 25-29",
+    "Age groups - 30-34",
+    "Age groups - 35-39",
+    "Age groups - 40-44",
+    "Age groups - 45-49",
+    "Age groups - 50-54",
+    "Age groups - 55-59",
+    "Age groups - 60-64",
+    "Age groups - 65+",
+    "Age groups - Age not stated"
+  ],
+  "row_count": 23
+}

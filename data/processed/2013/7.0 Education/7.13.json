@@ -1,0 +1,18 @@
+{
+  "table_id": "7.13",
+  "title_en": "TABLE 7.13: NUMBER OF SINGLE SESSION SCHOOLS, 2011 - 2012",
+  "title_dv": "ތާވަލް 7.13: އެއްދަންފަޅިއަށް ހިންގަމުންދާ ސްކޫލްތަކުގެ އަދަދު، 2011 - 2012",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Locality - 2011",
+    "Total - 2011",
+    "Total - 2011_2",
+    "No: of Schools - Government Schools - 2011",
+    "No: of Schools - Private Schools - 2011",
+    "No: of Schools - Community School - 2011",
+    "No: of Schools - Community School - 2011_2"
+  ],
+  "row_count": 7
+}

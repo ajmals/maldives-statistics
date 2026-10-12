@@ -1,0 +1,30 @@
+{
+  "table_id": "7.7&fig7.9",
+  "category": "7.0 Education",
+  "title_en": "Table 7.7 : STUDENTS AND TEACHERS SERVING AT DIFFERENT LEVELS IN MALE' AND ATOLLS , 2008",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "1_/ For children with special needs."
+  ],
+  "time_span": "2009",
+  "year_min": 2009,
+  "year_max": 2009,
+  "row_count": 8,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "No. of students - 2009",
+    "No. of teachers - Total - 2009",
+    "No. of teachers - Trained - 2009",
+    "No. of teachers - Untrained - 2009",
+    "Student Teacher Ratio - Total - 2009",
+    "Student Teacher Ratio - Trained - 2009",
+    "Teachers - Expatriate - 2009",
+    "Teachers - Local - 2009",
+    "Teachers - Total - 2009",
+    "expatriate - 2009"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/7.7&fig7.9.csv"
+}

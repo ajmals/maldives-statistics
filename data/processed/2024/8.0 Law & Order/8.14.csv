@@ -1,0 +1,221 @@
+Column_2,Island,2018,2019,2020,2021,2022,2023
+,Republic,14811,16480,12435,14143,13543,15015
+K,Male',8921,9618,7735,8119,6812,8061
+K,Vilimale',225,272,11,266,237,257
+K,Hulhumale',1057,1569,106,1803,2429,2457
+K,Thilafushi,-,-,-,-,-,33
+K,Gulhi falhu,-,-,-,-,-,1
+K,Hulhule,-,-,-,-,-,234
+,Atolls,4608,5021,4583,3955,4065,3972
+HA,North Thiladhunmathi (HA),134,139,89,91,126,126
+HA,Thuraakunu,2,1,,,1,
+HA,Uligan,1,1,1,,,1
+HA,Molhadhoo,1,,,6,3,
+HA,Hoarafushi,35,49,30,34,59,57
+HA,Ihavandhoo,11,19,16,15,19,21
+HA,Kelaa,9,19,9,3,6,5
+HA,Vashafaru,7,3,,2,,1
+HA,Dhidhdhoo,28,18,5,15,16,12
+HA,Filladhoo,2,5,6,1,3,4
+HA,Maarandhoo,2,2,,3,1,4
+HA,Thakandhoo,1,1,2,1,2,3
+HA,Utheemu,2,3,1,,3,2
+HA,Muraidhoo,1,3,1,,,
+HA,Baarah,29,13,18,9,10,16
+HDh,South Thiladhunmathi (HDh),354,359,516,423,341,352
+HDh,Faridhoo,,,,,,
+HDh,Hanimaadhoo,29,28,33,17,28,21
+HDh,Finey,1,2,,2,,2
+HDh,Naivaadhoo,1,1,1,,4,1
+HDh,Hirimaradhoo,3,,1,3,1,4
+HDh,Nolhivaranfaru,13,8,21,13,17,13
+HDh,Nellaidhoo,2,4,1,,2,2
+HDh,Nolhivaran,12,16,50,22,30,50
+HDh,Kurinbi,,1,12,5,1,2
+HDh,Kunburudhoo,,,1,,,
+HDh,Kulhudhuffushi City,259,264,338,316,201,200
+HDh,Kumundhoo,6,6,4,10,13,3
+HDh,Neykurendhoo,6,3,18,8,6,4
+HDh,Vaikaradhoo,9,3,10,4,6,25
+HDh,Maavaidhoo,,,,,,
+HDh,Makunudhoo,12,23,26,23,31,25
+Sh,North Miladhunmadulu (Sh),88,116,138,89,109,101
+Sh,Kanditheemu,1,8,7,6,5,5
+Sh,Noomaraa,2,,,2,1,1
+Sh,Goidhoo,2,2,,1,,
+Sh,Feydhoo,3,5,8,5,8,7
+Sh,Feevah,7,9,5,7,4,3
+Sh,Bilehfahi,,2,3,2,1,
+Sh,Foakaidhoo,8,11,12,2,8,4
+Sh,Narudhoo,,3,3,1,2,1
+Sh,Maroshi,,1,4,5,,3
+Sh,Lhaimagu,,1,7,5,2,5
+Sh,Komandoo,7,6,9,3,10,9
+Sh,Maaungoodhoo,4,5,8,2,2,3
+Sh,Funadhoo,24,40,51,29,34,24
+Sh,Milandhoo,26,21,21,12,26,35
+N,South Miladhunmadulu (N),177,219,162,132,173,221
+N,Henbadhoo,5,,3,,4,6
+N,Kendhikulhudhoo,4,6,8,9,14,16
+N,Maalhendhoo,7,6,4,6,8,9
+N,Kudafari,6,8,4,5,9,9
+N,Landhoo,12,19,18,10,5,13
+N,Maafaru,16,15,18,12,15,35
+N,Lhohi,2,9,8,4,6,2
+N,Miladhoo,9,25,15,8,12,18
+N,Magoodhoo,2,1,1,2,2,1
+N,Manadhoo,25,36,16,18,28,29
+N,Holhudhoo,14,28,21,15,18,36
+N,Fodhdhoo,2,,2,,3,4
+N,Velidhoo,62,46,44,22,29,32
+R,North Maalhosmadulu (R),187,256,201,178,207,202
+R,Alifushi,14,19,19,17,24,9
+R,Vaadhoo,1,2,3,2,3,3
+R,Rasgetheemu,7,22,9,6,3,7
+R,Angolhitheemu,2,3,5,3,,3
+R,Ungoofaaru,26,33,18,14,14,14
+R,Dhuvaafaru,30,39,51,30,42,29
+R,Maakurathu,8,8,8,5,6,5
+R,Rasmaadhoo,5,4,6,2,2,2
+R,Innamaadhoo,7,5,6,2,2,5
+R,Maduvvari,25,34,22,29,45,37
+R,Inguraidhoo,11,17,23,16,18,31
+R,Fainu,1,,1,1,,
+R,Meedhoo,19,20,13,14,12,5
+R,Kinolhas,3,4,2,1,1,1
+R,Hulhudhuffaaru,5,21,15,2,7,12
+B,South Maalhosmadulu (B),155,146,133,132,162,155
+B,Kudarikilu,3,1,4,4,5,1
+B,Kamadhoo,17,10,11,11,3,9
+B,Kendhoo,6,5,9,4,12,12
+B,Kihaadhoo,2,1,1,2,3,1
+B,Dhonfan,2,3,7,3,2,1
+B,Dharavandhoo,27,33,22,16,19,21
+B,Maalhos,6,5,10,5,7,9
+B,Eydhafushi,46,36,27,33,31,30
+B,Thulhaadhoo,12,21,21,23,29,23
+B,Hithaadhoo,6,3,2,3,3,2
+B,Fulhadhoo,,4,2,3,6,3
+B,Fehendhoo,1,3,5,3,4,5
+B,Goidhoo,5,3,12,1,15,7
+Lh,Faadhippolhu (Lh),170,230,181,159,177,175
+Lh,Hinnavaru,42,65,49,42,37,34
+Lh,Naifaru,97,130,120,86,111,118
+Lh,Kurendhoo,14,13,9,15,16,16
+Lh,Olhuvelifushi,2,2,3,,2,1
+Lh,Maafilaafushi,,2,,1,1,
+K,Male' Atoll (K),524,705,308,435,490,243
+K,Kaashidhoo,31,48,77,32,28,33
+K,Gaafaru,3,4,9,1,8,4
+K,Dhiffushi,11,22,16,13,6,12
+K,Thulusdhoo,25,23,8,8,12,23
+K,Huraa,8,11,2,2,2,4
+K,Hinmafushi,-,-,51,,,23
+K,Gulhi,18,17,17,9,16,5
+K,Maafushi,71,89,88,90,86,56
+K,Guraidhoo,47,94,40,22,17,19
+AA,North Ari Atoll (AA),122,108,88,82,115,174
+AA,Thoddoo,17,17,18,18,38,23
+AA,Rasdhoo,30,11,16,12,13,42
+AA,Ukulhas,22,13,9,5,22,28
+AA,Mathiveri,18,23,6,12,14,29
+AA,Bodufolhudhoo,3,5,6,4,3,8
+AA,Feridhoo,3,6,13,7,2,5
+AA,Maalhos,3,3,10,1,1,3
+AA,Himandhoo,8,11,10,10,11,14
+ADh,South Ari Atoll (ADh),193,210,183,183,206,217
+ADh,Hangnaameedhoo,1,5,3,6,7,6
+ADh,Omadhoo,6,11,9,6,8,10
+ADh,Kunburudhoo,5,3,4,3,5,3
+ADh,Mahibadhoo,48,43,39,45,26,42
+ADh,Mandhoo,4,3,3,2,,4
+ADh,Dhangethi,25,27,19,31,26,26
+ADh,Dhigurah,3,8,8,5,16,16
+ADh,Fenfushi,10,27,25,14,16,14
+ADh,Dhidhdhoo,,1,2,2,6,2
+ADh,Maamigili,57,50,71,41,60,65
+V,Felidhu Atoll (V),28,33,11,18,35,29
+V,Fulidhoo,9,8,5,4,10,7
+V,Thinadhoo,3,3,1,3,6,3
+V,Felidhoo,8,10,5,5,9,8
+V,Keyodhoo,7,7,,,7,8
+V,Rakeedhoo,,1,,1,,
+M,Mulakatholhu (M),78,88,67,48,73,82
+M,Raiymandhoo,1,,1,,1,2
+M,Veyvah,,,2,1,,
+M,Mulah,18,40,23,19,24,19
+M,Muli,25,28,22,15,28,36
+M,Naalaafushi,6,3,1,,2,3
+M,Kolhufushi,17,8,11,8,7,7
+M,Dhiggaru,2,1,4,4,7,5
+M,Maduvvari,3,4,3,,,3
+F,North Nilandhe Atoll (F),60,70,88,90,61,72
+F,Feeali,6,9,15,20,8,16
+F,Bilehdhoo,11,10,22,13,12,20
+F,Magoodhoo,10,6,4,3,5,4
+F,Dharanboodhoo,1,5,3,11,3,2
+F,Nilandhoo,30,39,44,38,29,27
+Dh,South Nilandhe Atoll (Dh),139,156,115,110,116,87
+Dh,Meedhoo,15,22,13,20,24,15
+Dh,Bandidhoo,10,4,9,9,2,1
+Dh,Rinbudhoo,3,3,1,3,3,1
+Dh,Hulhudheli,4,10,9,2,6,4
+Dh,Vaani,1,2,1,,,
+Dh,Maaenboodhoo,1,12,9,4,5,1
+Dh,Kudahuvadhoo,76,69,73,33,43,46
+Th,Kolhumadulu (Th),155,207,221,145,150,140
+Th,Buruni,3,,7,8,2,6
+Th,Vilufushi,9,12,20,12,5,4
+Th,Madifushi,19,17,22,16,9,12
+Th,Dhiyamigili,8,9,9,14,8,9
+Th,Guraidhoo,19,18,24,14,16,14
+Th,Kandoodhoo,,,3,3,2,2
+Th,Vandhoo,1,4,3,3,1,4
+Th,Hirilandhoo,13,26,10,12,31,13
+Th,Gaadhiffushi,5,3,4,2,2,2
+Th,Thimarafushi,31,58,62,31,37,31
+Th,Veymandoo,17,15,20,19,16,20
+Th,Kinbidhoo,24,36,32,6,18,16
+Th,Omadhoo,3,5,5,1,1,3
+L,Hadhdhunmathi (L),298,257,276,223,198,264
+L,Isdhoo,28,14,29,9,8,12
+L,Dhanbidhoo,8,8,3,5,6,4
+L,Maabaidhoo,13,9,5,8,5,8
+L,Mundoo,8,5,5,2,2,4
+L,Gan,108,102,103,108,82,129
+L,Maavah,22,22,38,24,33,30
+L,Fonadhoo,41,22,24,18,25,33
+L,Gaadhoo,,1,,,,1
+L,Maamendhoo,20,23,24,15,3,11
+L,Hithadhoo,13,13,21,15,20,13
+L,Kunahandhoo,5,13,11,6,4,7
+L,Kalaidhoo,14,13,13,8,9,5
+GA,North Huvadhu Atoll (GA),247,228,228,183,145,178
+GA,Kolamaafushi,14,15,18,22,9,8
+GA,Vilingili,110,71,105,59,52,64
+GA,Maamendhoo,30,48,37,27,25,25
+GA,Nilandhoo,5,2,1,3,4,2
+GA,Dhaandhoo,23,10,24,28,15,20
+GA,Dhevvadhoo,4,8,3,1,4,9
+GA,Kondey,2,3,5,5,2,3
+GA,Gemanafushi,27,38,18,16,18,29
+GA,Kanduhulhudhoo,-,-,17,,12,7
+GDh,South Huvadhu Atoll (GDh),388,365,267,188,240,228
+GDh,Madaveli,24,14,21,8,16,11
+GDh,Hoandedhdhoo,13,6,7,3,4,9
+GDh,Nadellaa,2,2,3,2,5,5
+GDh,Gadhdhoo,58,85,66,42,56,41
+GDh,Rathafandhoo,19,18,11,10,4,3
+GDh,Vaadhoo,23,26,18,11,20,13
+GDh,Fiyoaree,11,11,12,4,5,7
+GDh,Faresmaathodaa,19,25,18,15,12,17
+GDh,Thinadhoo,211,169,111,89,113,119
+Gn,Fuvahmulah (Gn),268,379,501,336,326,353
+S,Addu City,843,750,810,710,615,573
+S,Meedhoo,85,47,77,55,61,41
+S,Hithadhoo,382,382,427,402,321,291
+S,Maradhoo,117,78,73,69,61,58
+S,Feydhoo,122,123,125,94,98,99
+S,Maradhoo Feydhoo,39,51,40,26,21,38
+S,Hulhumeedhoo,-,-,18,23,12,12
+S,Hulhudhoo,44,37,50,31,30,22

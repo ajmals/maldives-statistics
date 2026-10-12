@@ -1,0 +1,15 @@
+{
+  "table_id": "8.9",
+  "title_en": "Table: 8.9 NUMBER OF DETAINEES BY TYPE OF OFFENCES AND NATIONALITY, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police S ervice",
+  "notes": [],
+  "columns": [
+    "Type of offence",
+    "Total",
+    "Locals",
+    "Foreign"
+  ],
+  "row_count": 14
+}

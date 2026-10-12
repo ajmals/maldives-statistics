@@ -1,0 +1,19 @@
+{
+  "table_id": "7.3",
+  "title_en": "Table 7.3: Number of teachers in government schools, 2022 -2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note:",
+    "Normal contract and Permanent are Qualified teachers",
+    "Relief are Untrained"
+  ],
+  "columns": [
+    "Number of Teachers",
+    "Both sexes",
+    "Female",
+    "Male"
+  ],
+  "row_count": 4
+}

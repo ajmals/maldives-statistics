@@ -1,0 +1,20 @@
+{
+  "table_id": "3.5",
+  "title_en": "Table 3.5 : SEX RATIO OF POPULATION BY LOCALITY, 1985, 1990, 1995,2000 AND 2006 (Males per 100 female)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "1-/ In 1985 AA and A DH was combined as Ari Atoll",
+    "2-/ Sex ratio is high due to the presence of many tourist resorts in K. Atoll employing mostly men"
+  ],
+  "columns": [
+    "Locality",
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2006"
+  ],
+  "row_count": 24
+}

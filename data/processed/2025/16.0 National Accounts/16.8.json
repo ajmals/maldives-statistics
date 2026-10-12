@@ -1,0 +1,38 @@
+{
+  "table_id": "16.8",
+  "title_en": "Table 16.8 : IMPLICIT PRICE DEFLATOR, BY KIND OF ACTIVITY, 2003-2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of Finance and Planning",
+  "notes": [
+    "Note : na = not available",
+    "Published in September 2025"
+  ],
+  "columns": [
+    "(Estimated using production approach) - ISIC",
+    "(Estimated using production approach) - Industry / Economic Activity",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2003",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2004",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2005",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2006",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2007",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2008",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2009",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2010",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2011",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2012",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2013",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2014",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2015",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2016",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2017",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2018",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2019",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2020",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2021",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2022",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2023",
+    "(Estimated using production approach) - (In percent , 2019 =100) - 2024"
+  ],
+  "row_count": 33
+}

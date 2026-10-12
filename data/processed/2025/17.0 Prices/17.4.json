@@ -1,0 +1,29 @@
+{
+  "table_id": "17.4",
+  "title_en": "Table 17.4 : CPI GROUPS, by months, Republic, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "na- Not available",
+    "In 2019, base of ndex: Aug 2019=100, COICOP 2018 has been adopted in the rebased series"
+  ],
+  "columns": [
+    "(Index - base: Nov 2022=100) - Major Groups - Republic",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Jan",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Feb",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Mar",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Apr",
+    "(Index - base: Nov 2022=100) - Monthly CPI - May",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Jun",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Jul",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Aug",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Sep",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Oct",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Nov",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Dec",
+    "(Index - base: Nov 2022=100) - Monthly CPI - Jan-Dec"
+  ],
+  "row_count": 18
+}

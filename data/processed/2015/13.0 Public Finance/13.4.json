@@ -1,0 +1,29 @@
+{
+  "table_id": "13.4",
+  "title_en": "Table 13.4 : ECONOMIC CLASSIFICATION OF CENTRAL GOVERNMENT EXPENDITURE AND NET LENDING, 2008 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Comprises development expenditure financed from domestic sources and by foreign grants."
+  ],
+  "columns": [
+    "(In million MVR) - Particulars",
+    "(In million MVR) - 2008",
+    "(In million MVR) - 2009",
+    "(In million MVR) - 2010",
+    "(In million MVR) - Actual - 2011",
+    "(In million MVR) - Revised - 2012",
+    "(In million MVR) - Actual - 2012",
+    "(In million MVR) - Actual - 2013",
+    "(In million MVR) - Revised - 2014",
+    "(In million MVR) - MTEF - 2015",
+    "(In million MVR) - MTEF - 2016",
+    "(In million MVR) - MTEF - 2017",
+    "(In million MVR) - Percentage Share - 2013",
+    "(In million MVR) - Percentage Share - 2014",
+    "(In million MVR) - Percentage Change - 2012-2013",
+    "(In million MVR) - Percentage Change - 2013-2014"
+  ],
+  "row_count": 30
+}

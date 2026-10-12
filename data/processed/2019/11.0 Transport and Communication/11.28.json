@@ -1,0 +1,15 @@
+{
+  "table_id": "11.28",
+  "title_en": "Table 11.28: Monthly passanger movement by Public Bus service, 2018",
+  "title_dv": "ތާވަލު 11.28: އެކި މަސްމަހު ބަހުގެ ޚިދުމަތް ހޯދި މީހުންގެ ޢަދަދު، 2018",
+  "unit": "",
+  "source": "Source: Maldives Ports Limited",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Total",
+    "Male' - Hulhumale' / Hulhumale' - Male'",
+    "Male' - Airport / Airport - Male'"
+  ],
+  "row_count": 4
+}

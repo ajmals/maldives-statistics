@@ -1,0 +1,26 @@
+{
+  "table_id": "11.1",
+  "title_en": "Table: 1.1: Monthly registered vehicles by type, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Ministry of Transport and Civil Aviation",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "VEHICLE TYPE",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 20
+}

@@ -1,0 +1,24 @@
+{
+  "table_id": "14.2",
+  "title_en": "Table 14.2: CENTRAL BANK SURVEY, 2011 - 2012",
+  "title_dv": "ތާވަލު 14.2 : ސެންޓްރަލް ބޭންކް ސަރވޭ 2011 - 2012",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1_/ : Dec 2011 is revised",
+    "Data is compiled based on IMF Monetary and Financial Statistics Manual 2000 (MFSM 2000)."
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Particulars",
+    "(In millions of Rufiyaa; end of period) - 2011 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2011 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2011 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2011 - Dec1_/",
+    "(In millions of Rufiyaa; end of period) - 2012 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2012 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2012 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2012 - Dec"
+  ],
+  "row_count": 25
+}

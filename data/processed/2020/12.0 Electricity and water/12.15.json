@@ -1,0 +1,24 @@
+{
+  "table_id": "12.15",
+  "title_en": "TABLE 12.15: MONTHLY BILLED WATER CONSUMPTION IN MALE', VILLINGILI AND HULHUMALE', 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Private Limited",
+  "notes": [],
+  "columns": [
+    "(In '000 CBM) - Type - Male'",
+    "(In '000 CBM) - Jan",
+    "(In '000 CBM) - Feb",
+    "(In '000 CBM) - Mar",
+    "(In '000 CBM) - Apr",
+    "(In '000 CBM) - May",
+    "(In '000 CBM) - Jun",
+    "(In '000 CBM) - Jul",
+    "(In '000 CBM) - Aug",
+    "(In '000 CBM) - Sep",
+    "(In '000 CBM) - Oct",
+    "(In '000 CBM) - Nov",
+    "(In '000 CBM) - Dec"
+  ],
+  "row_count": 14
+}

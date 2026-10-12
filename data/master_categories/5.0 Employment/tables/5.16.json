@@ -1,0 +1,28 @@
+{
+  "table_id": "5.16",
+  "category": "5.0 Employment",
+  "title_en": "TABLE 5.16: EMPLOYMENT IN POLITICAL POSTS CLASSIFIED BY OFFICE, 2010",
+  "unit": "",
+  "source": "Source: Presidents Office",
+  "notes": [],
+  "time_span": "2010 – 2015",
+  "year_min": 2010,
+  "year_max": 2015,
+  "row_count": 60,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "Atoll Councils - 2015",
+    "Government Ministries - 2015",
+    "Hospitals - 2015",
+    "Island Councils - 2015",
+    "Schools - 2015",
+    "Total - 2015",
+    "end) - Both sexes - 2010",
+    "end) - Female - 2010",
+    "end) - Male - 2010",
+    "other offices - 2015"
+  ],
+  "editions_covered": 2,
+  "csv_file": "tables/5.16.csv"
+}

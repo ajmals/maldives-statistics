@@ -1,0 +1,33 @@
+{
+  "table_id": "17.4",
+  "title_en": "Table 17.4 : CPI GROUPS, by months, Republic, 2013 - 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "Prior to June 2004, the food and non-beverages category includes tobacco & narcotics category",
+    "Prior to January 1996, the fish category seperately is not available",
+    "Prior to June 2004, the transport category includes communication category",
+    "Prior to June 2004, the recreation & cultute category includes education category",
+    "Prior to June 1996, the housing, water. Electricity, gas and other fuels category includes only rent",
+    "na- Not available"
+  ],
+  "columns": [
+    "(Index - base: June 2012=100) - Major Groups - Republic",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Jan",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Feb",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Mar",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Apr",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - May",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Jun",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Jul",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Aug",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Sep",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Oct",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Nov",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Dec",
+    "(Index - base: June 2012=100) - 2013 - Monthly CPI - Jan-Dec"
+  ],
+  "row_count": 80
+}

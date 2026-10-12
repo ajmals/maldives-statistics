@@ -1,0 +1,24 @@
+{
+  "table_id": "3.23",
+  "title_en": "TABLE 3.23: NUMBER OF MARRIAGES, 2021 - 2023",
+  "title_dv": "ތާވަލު 3.23: ކައިވެނީގެ އަދަދު، 2021 - 2023",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "Note: 1_/ : Included Marriages with foreign females and Marriages with foreign males"
+  ],
+  "columns": [
+    "Atoll/island",
+    "Court",
+    "2021 - Total",
+    "2021 - Monogamous 1_/",
+    "2021 - Polygamous",
+    "2022 - Total",
+    "2022 - Monogamous 1_/",
+    "2022 - Polygamous",
+    "2023 - Total",
+    "2023 - Monogamous 1_/",
+    "2023 - Polygamous"
+  ],
+  "row_count": 4
+}

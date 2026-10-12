@@ -1,0 +1,27 @@
+{
+  "table_id": "10.9",
+  "title_en": "Table 10.9 : MONTHLY DISTRIBUTION OF TOURIST ARRIVALS BY NATIONALITY, 2015",
+  "title_dv": "ތާވަލު 10.9: ޤައުމުތަކުގެ ގޮތުން ރާއްޖެއައި ފަތުރުވެރިންގެ ޢަދަދު، މަސްމަހުގެ ގޮތުން، 2015",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Department of Immigration & Emigration"
+  ],
+  "columns": [
+    "Country of Nationality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 81
+}

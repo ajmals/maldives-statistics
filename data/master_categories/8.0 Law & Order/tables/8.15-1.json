@@ -1,0 +1,22 @@
+{
+  "table_id": "8.15-1",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.15: NUMBER OF DETAINEES BY NUMBER OF TIMES ARRESTED, 2016 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2016 – 2019",
+  "year_min": 2016,
+  "year_max": 2019,
+  "row_count": 16,
+  "column_count": 5,
+  "columns": [
+    "Item",
+    "2018_2 - 2019",
+    "Value - 2016",
+    "Value - 2017",
+    "Value - 2018"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.15-1.csv"
+}

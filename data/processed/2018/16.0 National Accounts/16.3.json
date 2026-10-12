@@ -1,0 +1,32 @@
+{
+  "table_id": "16.3",
+  "title_en": "Table 16.3 : PERCENTAGE SHARES OF GROSS DOMESTIC PRODUCT (AT CONSTANT PRICES), BY KIND OF ACTIVITY, 2003 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "1_/ Revised in October 2018",
+    "Published in October 2018"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at 2014 constant prices) - 2003",
+    "(In percent , at 2014 constant prices) - 2004",
+    "(In percent , at 2014 constant prices) - 2005",
+    "(In percent , at 2014 constant prices) - 2006",
+    "(In percent , at 2014 constant prices) - 2007",
+    "(In percent , at 2014 constant prices) - 2008",
+    "(In percent , at 2014 constant prices) - 2009",
+    "(In percent , at 2014 constant prices) - 2010",
+    "(In percent , at 2014 constant prices) - 2011",
+    "(In percent , at 2014 constant prices) - 2012",
+    "(In percent , at 2014 constant prices) - 2013",
+    "(In percent , at 2014 constant prices) - 2014",
+    "(In percent , at 2014 constant prices) - 2015 1_/",
+    "(In percent , at 2014 constant prices) - 2016 1_/",
+    "(In percent , at 2014 constant prices) - 2017 1_/"
+  ],
+  "row_count": 33
+}

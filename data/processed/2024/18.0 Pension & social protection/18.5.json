@@ -1,0 +1,20 @@
+{
+  "table_id": "18.5",
+  "title_en": "TABLE 18.5: NUMBER OF BENEFICIARIES OF RETIREMENT PENSION SCHEME BY AGE, 2022 - 2023",
+  "title_dv": "ތާވަލު 18.5 :ރިޓާޔަމަންޓް ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2022 - 2023",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Age Groups - 65-69",
+    "Age Groups - 70-74",
+    "Age Groups - 75+",
+    "Age Groups - 2023 - Total",
+    "Age Groups - 2023 - < 65",
+    "Age Groups - 2023 - 65-69",
+    "Age Groups - 2023 - 70-74",
+    "Age Groups - 2023 - 75+"
+  ],
+  "row_count": 12
+}

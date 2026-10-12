@@ -1,0 +1,20 @@
+{
+  "table_id": "6.3",
+  "title_en": "Table 6.3 : OUT- PATIENT FLOW, INPATIENT FLOW AND BED OCCUPANCY RATE OF GOVERNMENT HOSPITALS, 2010 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family",
+  "notes": [
+    "Decision support division"
+  ],
+  "columns": [
+    "Institutions",
+    "2010 - Outpatients",
+    "2010 - Inpatients",
+    "2010 - Bed Occupancy Rate",
+    "2011 - Outpatients",
+    "2011 - Inpatients",
+    "2011 - Bed Occupancy Rate"
+  ],
+  "row_count": 25
+}

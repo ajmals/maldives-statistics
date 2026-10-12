@@ -1,0 +1,23 @@
+{
+  "table_id": "11.5",
+  "title_en": "Table 11.5 GAN AIR TRANSPORT MOVEMENTS BY AIRLINE, CROSS-CLASSIFIED BY PASSENGER, CARGO AND MAIL, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Civil Aviation and Communication",
+  "notes": [
+    "1_/ Includes movements by photo, training, technical and surveillance flights"
+  ],
+  "columns": [
+    "Airline",
+    "Flight Movements",
+    "Passengers - In",
+    "Passengers - Out",
+    "Passengers - Transit",
+    "Cargo (kg) - In",
+    "Cargo (kg) - Out",
+    "Cargo (kg) - Transit",
+    "Mail (kg) - In",
+    "Mail (kg) - Out"
+  ],
+  "row_count": 5
+}

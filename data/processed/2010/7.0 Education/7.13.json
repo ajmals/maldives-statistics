@@ -1,0 +1,28 @@
+{
+  "table_id": "7.13",
+  "title_en": "Table 7.13 : STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "1_/ Does not include Kiyavaage, Edhuruge where informal and traditional",
+    "pre-primary activities are undertaken",
+    "2_/ For children with special needs.",
+    "3_/Total excludes the number of students in pre-primary and special classes"
+  ],
+  "columns": [
+    "Locality",
+    "Total - Both Sexes",
+    "Total - Both Sexes_2",
+    "Total - Male",
+    "Total - Female",
+    "Pre-primary 1_/ - Both Sexes",
+    "Pre-primary 1_/ - Male",
+    "Pre-primary 1_/ - Female",
+    "Grade 1 - Both Sexes",
+    "Grade 1 - Male",
+    "Grade 1 - Female",
+    "Grade 1 - Female_2"
+  ],
+  "row_count": 126
+}

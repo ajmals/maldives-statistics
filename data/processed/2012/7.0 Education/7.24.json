@@ -1,0 +1,32 @@
+{
+  "table_id": "7.24",
+  "title_en": "TABLE 7.24: STUDENT ENROLMENT AND GRADUATE OUTPUT IN HIGHER EDUCATION INSTITUTIONS IN MALDIVES, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of Higher Education",
+  "notes": [
+    "Note: NA= Data not available"
+  ],
+  "columns": [
+    "Column_1",
+    "Institution",
+    "Type of Institution",
+    "Type of Institution_2",
+    "Type of Institution_3",
+    "Students Enrolled - Full time - Both Sexes",
+    "Students Enrolled - Full time - Male",
+    "Students Enrolled - Full time - Female",
+    "Students Enrolled - Part time - Both Sexes",
+    "Students Enrolled - Part time - Male",
+    "Students Enrolled - Part time - Female",
+    "Students Enrolled - Total - Both Sexes",
+    "Students Enrolled - Total - Male",
+    "Students Enrolled - Total - Female",
+    "Graduate output - Both Sexes",
+    "Graduate output - Male",
+    "Graduate output - Female",
+    "Repeaters",
+    "Dropouts"
+  ],
+  "row_count": 20
+}

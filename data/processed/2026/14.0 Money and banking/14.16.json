@@ -1,0 +1,33 @@
+{
+  "table_id": "14.16",
+  "title_en": "Table 14.16: RESERVE DATA TEMPLATE, 2022 - 2025 1/",
+  "title_dv": "ތާވަލު 14.16: ރިޒާވް ޑޭޓާ ޓެމްޕްލޭޓް 2022- 2025 1/",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1/ This table includes reserve data compiled as per the International Reserves and Foreign Currency Liquidity data template guideline by IMF (2013). It includes only on-balance sheet items of Maldives Monetary Authority.",
+    "2/ This includes foreign currency deposits of resident entities with MMA which includes commercial banks' deposits held at MMA for prudential purposes (i.e. Minimum Reserve Requirement), foreign currency deposits of the government and deposits of foreign central banks with the MMA.",
+    "3/ This includes net of repos, reverse repos, trade credit, accounts payable and accounts receivable."
+  ],
+  "columns": [
+    "(In millions of USD) - Particulars",
+    "(In millions of USD) - 2022 - Mar",
+    "(In millions of USD) - 2022 - Jun",
+    "(In millions of USD) - 2022 - Sep",
+    "(In millions of USD) - 2022 - Dec",
+    "(In millions of USD) - 2023 - Mar",
+    "(In millions of USD) - 2023 - Jun",
+    "(In millions of USD) - 2023 - Sep",
+    "(In millions of USD) - 2023 - Dec",
+    "(In millions of USD) - 2024 - Mar",
+    "(In millions of USD) - 2024 - Jun",
+    "(In millions of USD) - 2024 - Sep",
+    "(In millions of USD) - 2024 - Dec",
+    "(In millions of USD) - 2025 - Mar",
+    "(In millions of USD) - 2025 - Jun",
+    "(In millions of USD) - 2025 - Sep",
+    "(In millions of USD) - 2025 - Dec"
+  ],
+  "row_count": 22
+}

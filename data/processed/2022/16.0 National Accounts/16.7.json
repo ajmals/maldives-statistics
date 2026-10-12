@@ -1,0 +1,36 @@
+{
+  "table_id": "16.7",
+  "title_en": "Table 16.7 : CONTRIBUTION TO GROWTH (AT CURRENT PRICES), BY KIND OF ACTIVITY, 2004 - 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning, Housing and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "1_/ Published on 5th October 2022",
+    "2_/ Revised on 5th October 2022",
+    "3_/ Revised on 27th September 2021"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at current prices) - Industry / Economic Activity - 2004",
+    "(In percent , at current prices) - Industry / Economic Activity - 2005",
+    "(In percent , at current prices) - Industry / Economic Activity - 2006",
+    "(In percent , at current prices) - Industry / Economic Activity - 2007",
+    "(In percent , at current prices) - Industry / Economic Activity - 2008",
+    "(In percent , at current prices) - Industry / Economic Activity - 2009",
+    "(In percent , at current prices) - Industry / Economic Activity - 2010",
+    "(In percent , at current prices) - Industry / Economic Activity - 2011",
+    "(In percent , at current prices) - Industry / Economic Activity - 2012",
+    "(In percent , at current prices) - Industry / Economic Activity - 2013",
+    "(In percent , at current prices) - Industry / Economic Activity - 2014",
+    "(In percent , at current prices) - Industry / Economic Activity - 2015",
+    "(In percent , at current prices) - Industry / Economic Activity - 2016",
+    "(In percent , at current prices) - Industry / Economic Activity - 2017",
+    "(In percent , at current prices) - Industry / Economic Activity - 2018 3_/",
+    "(In percent , at current prices) - Industry / Economic Activity - 2019 2_/",
+    "(In percent , at current prices) - Industry / Economic Activity - 2020 2_/",
+    "(In percent , at current prices) - Industry / Economic Activity - 2021 1_/"
+  ],
+  "row_count": 33
+}

@@ -1,0 +1,41 @@
+{
+  "table_id": "3.3",
+  "title_en": "Table 3.3 : POPULATION BY ISLANDS 2000, 2006 & 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Department of National Registration",
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme",
+    "Note:",
+    "HA. Hathifushi population reloc ated to HD. Hanimaadhoo under population consolidation programme in 2007",
+    "Sh. Maakandoodhoo populatio n relocated to Sh. Milandhoo under population consolidation programme in 2007",
+    "R. Kandholhudoo population w as hosted in R. Ungoofaaru in 2006 due to the destruction caused by 2004 tsunami .",
+    "They have now been relocated to R.Dhuvaafaru (newly inhabited) in 2008.",
+    "* Population of R.Dhuvaafaru i s still included in R.Kandholhudhoo, as the registration process is not complete yet.",
+    "Th.Vilufushi was evacuated due to tsunami and population was relocated to other islands. In 2009 the island was reconstructed and the population has started to reside.",
+    "L. Kalhaidhoo population is res iding in L.Gamu since 2010",
+    "GA. Dhiyadhoo population is r esiding in GA. Gemanafushi since 2010",
+    "GDh. Faresmaathoda popul ation is a combination of Fares & Maathoda population"
+  ],
+  "columns": [
+    "Locality",
+    "Census 2000 - (Enumerated) ( March 31 ) - Both Sexes",
+    "Census 2000 - (Enumerated) ( March 31 ) - Male",
+    "Census 2000 - (Enumerated) ( March 31 ) - Female",
+    "Census 2000 - (Enumerated) ( March 31 ) - Number of Households",
+    "Census 2000 - (Enumerated) ( March 31 ) - Average Household size",
+    "Census 2006 - (Enumerated) ( March 28 ) - Average Household size - Both Sexes",
+    "Census 2006 - (Enumerated) ( March 28 ) - Average Household size - Male",
+    "Census 2006 - (Enumerated) ( March 28 ) - Average Household size - Female",
+    "Census 2006 - (Enumerated) ( March 28 ) - Number of Households",
+    "Census 2006 - (Enumerated) ( March 28 ) - Average Household size",
+    "Census 2006 - (Enumerated) ( March 28 ) - Annual population growth rate (expn)",
+    "Census 2006 - Registered Population as of 4 July 2012 - Annual population growth rate (expn) - Both Sexes",
+    "Census 2006 - Registered Population as of 4 July 2012 - Annual population growth rate (expn) - Male",
+    "Census 2006 - Registered Population as of 4 July 2012 - Annual population growth rate (expn) - Female"
+  ],
+  "row_count": 272
+}

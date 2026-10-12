@@ -1,0 +1,42 @@
+{
+  "table_id": "17.3",
+  "title_en": "Table 17.3 : INFLATION RATES, REPUBLIC, 1985 - 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "Prior to June 2004, the food and non-beverages category includes tobacco & narcotics category",
+    "Prior to January 1996, the fish category seperately is not available",
+    "Prior to June 2004, the transport category includes communication category",
+    "Prior to June 2004, the recreation & cultute category includes education category",
+    "Prior to June 1996, the Housing, Water. Electricity,Gas and other fuels category includes only rent",
+    "na- Not available",
+    "In 2022, base of index: Nov 2022=100, COICOP 2018 has been adopted in the rebased series"
+  ],
+  "columns": [
+    "(Index - base: Nov 2022 =100) - Major Groups - Republic",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1985",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1986",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1987",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1988",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1989",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1990",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1991",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1992",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1993",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1994",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1995",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1996",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1997",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1998",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 1999",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 2000",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 2001",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 2001_2",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 2001_3",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 2001_4",
+    "(Index - base: Nov 2022 =100) - Inflation rates (in percentage) - 2001_5"
+  ],
+  "row_count": 38
+}

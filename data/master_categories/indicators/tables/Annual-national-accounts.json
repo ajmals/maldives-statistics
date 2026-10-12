@@ -1,0 +1,36 @@
+{
+  "table_id": "Annual-national-accounts",
+  "category": "indicators",
+  "title_en": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: 1_/: revised",
+    "Published in October 2018"
+  ],
+  "time_span": "2003 – 2018",
+  "year_min": 2003,
+  "year_max": 2018,
+  "row_count": 9,
+  "column_count": 16,
+  "columns": [
+    "Item",
+    "NATIONAL ACCOUNTS - 2003",
+    "NATIONAL ACCOUNTS - 2004",
+    "NATIONAL ACCOUNTS - 2005",
+    "NATIONAL ACCOUNTS - 2006",
+    "NATIONAL ACCOUNTS - 2007",
+    "NATIONAL ACCOUNTS - 2008",
+    "NATIONAL ACCOUNTS - 2009",
+    "NATIONAL ACCOUNTS - 2010",
+    "NATIONAL ACCOUNTS - 2011",
+    "NATIONAL ACCOUNTS - 2012",
+    "NATIONAL ACCOUNTS - 2013",
+    "NATIONAL ACCOUNTS - 2014",
+    "NATIONAL ACCOUNTS - 2017",
+    "NATIONAL ACCOUNTS - 20151_/ - 2018",
+    "NATIONAL ACCOUNTS - 20161_/ - 2018"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/Annual-national-accounts.csv"
+}

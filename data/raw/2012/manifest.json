@@ -1,0 +1,910 @@
+{
+  "year": "2012",
+  "total_items": 100,
+  "downloaded": 100,
+  "skipped": 0,
+  "failed": 0,
+  "total_size_bytes": 6002280,
+  "items": [
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Geography/1.1.htm",
+      "path": "data/raw/2012/1.0 Geography/1.1.htm",
+      "size": 38849,
+      "year": "2012",
+      "folder": "1.0 Geography",
+      "filename": "1.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Geography/1.4.htm",
+      "path": "data/raw/2012/1.0 Geography/1.4.htm",
+      "size": 15622,
+      "year": "2012",
+      "folder": "1.0 Geography",
+      "filename": "1.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.1.htm",
+      "path": "data/raw/2012/2.0 Environment/2.1.htm",
+      "size": 19644,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Geography/1.3.htm",
+      "path": "data/raw/2012/1.0 Geography/1.3.htm",
+      "size": 27580,
+      "year": "2012",
+      "folder": "1.0 Geography",
+      "filename": "1.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Geography/1.2.htm",
+      "path": "data/raw/2012/1.0 Geography/1.2.htm",
+      "size": 39778,
+      "year": "2012",
+      "folder": "1.0 Geography",
+      "filename": "1.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Geography/1.6.htm",
+      "path": "data/raw/2012/1.0 Geography/1.6.htm",
+      "size": 39873,
+      "year": "2012",
+      "folder": "1.0 Geography",
+      "filename": "1.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Geography/1.5.htm",
+      "path": "data/raw/2012/1.0 Geography/1.5.htm",
+      "size": 174126,
+      "year": "2012",
+      "folder": "1.0 Geography",
+      "filename": "1.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/Acknowledgement.pdf",
+      "path": "data/raw/2012/yearbook2012/Acknowledgement.pdf",
+      "size": 220914,
+      "year": "2012",
+      "folder": "yearbook2012",
+      "filename": "Acknowledgement.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.2.htm",
+      "path": "data/raw/2012/2.0 Environment/2.2.htm",
+      "size": 32220,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.3.htm",
+      "path": "data/raw/2012/2.0 Environment/2.3.htm",
+      "size": 30279,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/Foreword.pdf",
+      "path": "data/raw/2012/yearbook2012/Foreword.pdf",
+      "size": 242564,
+      "year": "2012",
+      "folder": "yearbook2012",
+      "filename": "Foreword.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/Introduction.pdf",
+      "path": "data/raw/2012/yearbook2012/Introduction.pdf",
+      "size": 222801,
+      "year": "2012",
+      "folder": "yearbook2012",
+      "filename": "Introduction.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.6.htm",
+      "path": "data/raw/2012/2.0 Environment/2.6.htm",
+      "size": 26352,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.7.htm",
+      "path": "data/raw/2012/2.0 Environment/2.7.htm",
+      "size": 21042,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.5.htm",
+      "path": "data/raw/2012/2.0 Environment/2.5.htm",
+      "size": 23487,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.4.htm",
+      "path": "data/raw/2012/2.0 Environment/2.4.htm",
+      "size": 40439,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Environment/2.8.htm",
+      "path": "data/raw/2012/2.0 Environment/2.8.htm",
+      "size": 41227,
+      "year": "2012",
+      "folder": "2.0 Environment",
+      "filename": "2.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.4.htm",
+      "path": "data/raw/2012/3.0 Population/3.4.htm",
+      "size": 33215,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.2.htm",
+      "path": "data/raw/2012/3.0 Population/3.2.htm",
+      "size": 79440,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.1.htm",
+      "path": "data/raw/2012/3.0 Population/3.1.htm",
+      "size": 68162,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.7.htm",
+      "path": "data/raw/2012/3.0 Population/3.7.htm",
+      "size": 54146,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.5.htm",
+      "path": "data/raw/2012/3.0 Population/3.5.htm",
+      "size": 45349,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.6.htm",
+      "path": "data/raw/2012/3.0 Population/3.6.htm",
+      "size": 42903,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.8.htm",
+      "path": "data/raw/2012/3.0 Population/3.8.htm",
+      "size": 44550,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.9.htm",
+      "path": "data/raw/2012/3.0 Population/3.9.htm",
+      "size": 75292,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.3.htm",
+      "path": "data/raw/2012/3.0 Population/3.3.htm",
+      "size": 257190,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.10.htm",
+      "path": "data/raw/2012/3.0 Population/3.10.htm",
+      "size": 24144,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.11.htm",
+      "path": "data/raw/2012/3.0 Population/3.11.htm",
+      "size": 17129,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.14.htm",
+      "path": "data/raw/2012/3.0 Population/3.14.htm",
+      "size": 40071,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.15.htm",
+      "path": "data/raw/2012/3.0 Population/3.15.htm",
+      "size": 31983,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.15.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.13.htm",
+      "path": "data/raw/2012/3.0 Population/3.13.htm",
+      "size": 77019,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Housing/4.2.htm",
+      "path": "data/raw/2012/4.0 Housing and public infrastructure/4.2.htm",
+      "size": 30886,
+      "year": "2012",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Housing/4.1.htm",
+      "path": "data/raw/2012/4.0 Housing and public infrastructure/4.1.htm",
+      "size": 22315,
+      "year": "2012",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.12.htm",
+      "path": "data/raw/2012/3.0 Population/3.12.htm",
+      "size": 194447,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Population/3.16.htm",
+      "path": "data/raw/2012/3.0 Population/3.16.htm",
+      "size": 51475,
+      "year": "2012",
+      "folder": "3.0 Population",
+      "filename": "3.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Housing/4.3.htm",
+      "path": "data/raw/2012/4.0 Housing and public infrastructure/4.3.htm",
+      "size": 50869,
+      "year": "2012",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Housing/4.4.htm",
+      "path": "data/raw/2012/4.0 Housing and public infrastructure/4.4.htm",
+      "size": 45391,
+      "year": "2012",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Housing/4.5.htm",
+      "path": "data/raw/2012/4.0 Housing and public infrastructure/4.5.htm",
+      "size": 23527,
+      "year": "2012",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Housing/4.6.htm",
+      "path": "data/raw/2012/4.0 Housing and public infrastructure/4.6.htm",
+      "size": 24339,
+      "year": "2012",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Housing/4.7.htm",
+      "path": "data/raw/2012/4.0 Housing and public infrastructure/4.7.htm",
+      "size": 22776,
+      "year": "2012",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.5.htm",
+      "path": "data/raw/2012/5.0 Employment/5.5.htm",
+      "size": 35333,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.1.htm",
+      "path": "data/raw/2012/5.0 Employment/5.1.htm",
+      "size": 55534,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.2.htm",
+      "path": "data/raw/2012/5.0 Employment/5.2.htm",
+      "size": 59146,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.4.htm",
+      "path": "data/raw/2012/5.0 Employment/5.4.htm",
+      "size": 55058,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.3.htm",
+      "path": "data/raw/2012/5.0 Employment/5.3.htm",
+      "size": 47932,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.8.htm",
+      "path": "data/raw/2012/5.0 Employment/5.8.htm",
+      "size": 36056,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.6.htm",
+      "path": "data/raw/2012/5.0 Employment/5.6.htm",
+      "size": 44429,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.7.htm",
+      "path": "data/raw/2012/5.0 Employment/5.7.htm",
+      "size": 62762,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.10.htm",
+      "path": "data/raw/2012/5.0 Employment/5.10.htm",
+      "size": 36385,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.9.htm",
+      "path": "data/raw/2012/5.0 Employment/5.9.htm",
+      "size": 65032,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.12.htm",
+      "path": "data/raw/2012/5.0 Employment/5.12.htm",
+      "size": 23843,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Health/6.7.htm",
+      "path": "data/raw/2012/6.0 Health/6.7.htm",
+      "size": 15632,
+      "year": "2012",
+      "folder": "6.0 Health",
+      "filename": "6.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Health/6.6.htm",
+      "path": "data/raw/2012/6.0 Health/6.6.htm",
+      "size": 17685,
+      "year": "2012",
+      "folder": "6.0 Health",
+      "filename": "6.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Health/6.3.htm",
+      "path": "data/raw/2012/6.0 Health/6.3.htm",
+      "size": 50897,
+      "year": "2012",
+      "folder": "6.0 Health",
+      "filename": "6.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Health/6.9.htm",
+      "path": "data/raw/2012/6.0 Health/6.9.htm",
+      "size": 18377,
+      "year": "2012",
+      "folder": "6.0 Health",
+      "filename": "6.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Health/6.19.htm",
+      "path": "data/raw/2012/6.0 Health/6.19.htm",
+      "size": 26053,
+      "year": "2012",
+      "folder": "6.0 Health",
+      "filename": "6.19.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Health/6.16.htm",
+      "path": "data/raw/2012/6.0 Health/6.16.htm",
+      "size": 27054,
+      "year": "2012",
+      "folder": "6.0 Health",
+      "filename": "6.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Employment/5.11.htm",
+      "path": "data/raw/2012/5.0 Employment/5.11.htm",
+      "size": 195374,
+      "year": "2012",
+      "folder": "5.0 Employment",
+      "filename": "5.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.2.htm",
+      "path": "data/raw/2012/7.0 Education/7.2.htm",
+      "size": 36446,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.1.htm",
+      "path": "data/raw/2012/7.0 Education/7.1.htm",
+      "size": 43668,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.5.htm",
+      "path": "data/raw/2012/7.0 Education/7.5.htm",
+      "size": 20239,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.4.htm",
+      "path": "data/raw/2012/7.0 Education/7.4.htm",
+      "size": 36717,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.3.htm",
+      "path": "data/raw/2012/7.0 Education/7.3.htm",
+      "size": 65676,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.6.htm",
+      "path": "data/raw/2012/7.0 Education/7.6.htm",
+      "size": 20233,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.8.htm",
+      "path": "data/raw/2012/7.0 Education/7.8.htm",
+      "size": 29272,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.7.htm",
+      "path": "data/raw/2012/7.0 Education/7.7.htm",
+      "size": 55183,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.9.htm",
+      "path": "data/raw/2012/7.0 Education/7.9.htm",
+      "size": 26533,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.11.htm",
+      "path": "data/raw/2012/7.0 Education/7.11.htm",
+      "size": 40942,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.13.htm",
+      "path": "data/raw/2012/7.0 Education/7.13.htm",
+      "size": 15551,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.10.htm",
+      "path": "data/raw/2012/7.0 Education/7.10.htm",
+      "size": 101828,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.14.htm",
+      "path": "data/raw/2012/7.0 Education/7.14.htm",
+      "size": 36430,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.12.htm",
+      "path": "data/raw/2012/7.0 Education/7.12.htm",
+      "size": 73473,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.16.htm",
+      "path": "data/raw/2012/7.0 Education/7.16.htm",
+      "size": 12990,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.18.htm",
+      "path": "data/raw/2012/7.0 Education/7.18.htm",
+      "size": 25451,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.18.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.15.htm",
+      "path": "data/raw/2012/7.0 Education/7.15.htm",
+      "size": 41155,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.15.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.17.htm",
+      "path": "data/raw/2012/7.0 Education/7.17.htm",
+      "size": 27287,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.17.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.19.htm",
+      "path": "data/raw/2012/7.0 Education/7.19.htm",
+      "size": 33964,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.19.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.20.htm",
+      "path": "data/raw/2012/7.0 Education/7.20.htm",
+      "size": 30068,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.20.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.21.htm",
+      "path": "data/raw/2012/7.0 Education/7.21.htm",
+      "size": 22522,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.21.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.23.htm",
+      "path": "data/raw/2012/7.0 Education/7.23.htm",
+      "size": 36321,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.23.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.24.htm",
+      "path": "data/raw/2012/7.0 Education/7.24.htm",
+      "size": 50498,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.24.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.3.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.3.htm",
+      "size": 35153,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.4.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.4.htm",
+      "size": 30759,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.1.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.1.htm",
+      "size": 81117,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Education/7.25.htm",
+      "path": "data/raw/2012/7.0 Education/7.25.htm",
+      "size": 46803,
+      "year": "2012",
+      "folder": "7.0 Education",
+      "filename": "7.25.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.2.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.2.htm",
+      "size": 51161,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.5.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.5.htm",
+      "size": 27474,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.8.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.8.htm",
+      "size": 40038,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.7.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.7.htm",
+      "size": 63160,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.11.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.11.htm",
+      "size": 38780,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.9.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.9.htm",
+      "size": 143093,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Tourism/10.10.htm",
+      "path": "data/raw/2012/10.0 Tourism/10.10.htm",
+      "size": 91142,
+      "year": "2012",
+      "folder": "10.0 Tourism",
+      "filename": "10.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.3.htm",
+      "path": "data/raw/2012/17.0 Prices/17.3.htm",
+      "size": 60245,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.4.htm",
+      "path": "data/raw/2012/17.0 Prices/17.4.htm",
+      "size": 84262,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.1.htm",
+      "path": "data/raw/2012/17.0 Prices/17.1.htm",
+      "size": 89824,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.5.htm",
+      "path": "data/raw/2012/17.0 Prices/17.5.htm",
+      "size": 51527,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.7.htm",
+      "path": "data/raw/2012/17.0 Prices/17.7.htm",
+      "size": 31252,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.6.htm",
+      "path": "data/raw/2012/17.0 Prices/17.6.htm",
+      "size": 67216,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.8.htm",
+      "path": "data/raw/2012/17.0 Prices/17.8.htm",
+      "size": 39171,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2012/yearbook/Prices/17.2.htm",
+      "path": "data/raw/2012/17.0 Prices/17.2.htm",
+      "size": 561659,
+      "year": "2012",
+      "folder": "17.0 Prices",
+      "filename": "17.2.htm"
+    }
+  ]
+}

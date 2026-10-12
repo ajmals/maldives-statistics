@@ -1,0 +1,17 @@
+{
+  "table_id": "9.15",
+  "title_en": "TABLE 9.15: NUMBER OF REGISTERED FARMERS BY ATOLL, 2013-2018",
+  "title_dv": "ތާވަލު 9.15: ދަނޑުވެރިންގެ އަދަދު، 2013 - 2018",
+  "unit": "",
+  "source": "Source: Agriculture Data Management Unit/ Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "No. of Farmers - 2013",
+    "No. of Farmers - 2014",
+    "No. of Farmers - 2015",
+    "No. of Farmers - 2016",
+    "No. of Farmers - 2018"
+  ],
+  "row_count": 21
+}

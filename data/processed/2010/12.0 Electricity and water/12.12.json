@@ -1,0 +1,23 @@
+{
+  "table_id": "12.12",
+  "title_en": "Table 12.12 : BILLED WATER CONSUMPTION IN HULHUMALE', 2006 - 2009 (In '000 metric tons)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Private Limited",
+  "notes": [],
+  "columns": [
+    "Type",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "% share - 2006",
+    "% share - 2007",
+    "% share - 2008",
+    "% share - 2009",
+    "% Change - 2007",
+    "% Change - 2008",
+    "% Change - 2009"
+  ],
+  "row_count": 4
+}

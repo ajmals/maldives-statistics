@@ -1,0 +1,19 @@
+{
+  "table_id": "15.3&fig15.2",
+  "title_en": "Table 15.3 : EXPORTS BY COMMODITY, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [],
+  "columns": [
+    "Items",
+    "Quantity - Items",
+    "Quantity - Total",
+    "Quantity - Private",
+    "Value (in Rf. '000) - Government",
+    "Value (in Rf. '000) - Total",
+    "Value (in Rf. '000) - Private",
+    "Value (in Rf. '000) - Government_2"
+  ],
+  "row_count": 90
+}

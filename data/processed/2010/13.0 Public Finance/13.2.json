@@ -1,0 +1,23 @@
+{
+  "table_id": "13.2",
+  "title_en": "Table 13.2 : SUMMARY OF CENTRAL GOVERNMENT FINANCE, 2007 - 2012 (In million Rf)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury.",
+  "notes": [
+    "1_/ Excludes grants for direct expenditure by donors.",
+    "2_/ Primarily reflects net borrowing from MMA.",
+    "3_/ Sales of capital assets (include privatization of Airport in 2009"
+  ],
+  "columns": [
+    "Particulars",
+    "2007",
+    "2008",
+    "(Revised ) - 2009",
+    "(MTEF) - 2010",
+    "(MTEF) - 2011",
+    "(MTEF) - 2012",
+    "% Change 09-10 - 2012"
+  ],
+  "row_count": 19
+}

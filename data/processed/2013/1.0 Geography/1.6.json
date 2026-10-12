@@ -1,0 +1,23 @@
+{
+  "table_id": "1.6",
+  "title_en": "Table 1.6 : POPULATION AND AREA DISTIBUTION",
+  "title_dv": "ތާވަލް 1.6: އަތޮޅުތަކުގެ އާބާދީ އާއި ސަރަހައްދު ބެހިފައިވާގޮތް",
+  "unit": "",
+  "source": "Source : Department of National Planning / Atlas of Maldives 2008",
+  "notes": [
+    "Note:",
+    "Male' Atoll (K), includes Male', Hulhumale' and Villigilli population",
+    "Population includes resorts & industrial islands",
+    "1_/: Atoll Area includes area of inhabited islands, uninhabited islands, resorts & industrial islands"
+  ],
+  "columns": [
+    "Column_1",
+    "Population - ( Census 2006 )",
+    "Atoll Area1_/ - Population - ( in hectares )",
+    "Reef Area - Population - ( in hectares )",
+    "Land Area - Inhabited islands only - Population - ( in hectares )",
+    "Land Area - Resorts - Population - ( in hectares )",
+    "Land Area - Industrial - Population - ( in hectares )"
+  ],
+  "row_count": 20
+}

@@ -1,0 +1,37 @@
+{
+  "table_id": "16.1",
+  "title_en": "Table 1: GROSS DOMESTIC PRODUCT (AT CONSTANT PRICES), BY KIND OF ACTIVITY, 2003 - 2021",
+  "title_dv": "ތާވަލް 1: އިޤްތިޞާދީ ބައިތަކުން ޤައުމީ އުފެއްދުންތެރިކަމުގެ މިންގަނޑު (ދާއިމީ އަގުން)، 2003 - 2021",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning, Housing and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "1_/ Published on 5th October 2022",
+    "2_/ Revised on 5th October 2022",
+    "3_/ Revised on 27th September 2021"
+  ],
+  "columns": [
+    "(Estimated using production approach) - ISIC",
+    "(Estimated using production approach) - Industry / Economic Activity",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2003",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2004",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2005",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2006",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2007",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2008",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2009",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2010",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2011",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2012",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2013",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2014",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2015",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2016",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2017",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2018 3_/",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2019 2_/",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2020 2_/",
+    "(Estimated using production approach) - (In Million MVR , at 2014 constant prices) - Industry / Economic Activity - 2021 1_/"
+  ],
+  "row_count": 33
+}

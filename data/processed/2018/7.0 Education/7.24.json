@@ -1,0 +1,34 @@
+{
+  "table_id": "7.24",
+  "title_en": "Table 7.24 : STUDENTS WHO RECEIVED SCHOLARSHIPS, 2000 - 2017",
+  "title_dv": "ތާވަލު 7.24: ސްކޮލަރޝިޕް ލިބުނު ދަރިވަރުންގެ ޢަދަދު، 2000 - 2017",
+  "unit": "",
+  "source": "Source: Department of Higher Education",
+  "notes": [
+    "Note: * The data provided for students who receive scholarships are taken from our mastersheet.",
+    "* NA states data not available",
+    "* scholarships for some level total amount is written as in gender wise the data is not available currently"
+  ],
+  "columns": [
+    "Year",
+    "Total - Bothe sex",
+    "Total - Male",
+    "Total - Female",
+    "Diploma - Bothe sex",
+    "Diploma - Male",
+    "Diploma - Female",
+    "Degree - Bothe sex",
+    "Degree - Male",
+    "Degree - Female",
+    "Masters - Bothe sex",
+    "Masters - Male",
+    "Masters - Female",
+    "PhD - Bothe sex",
+    "PhD - Male",
+    "PhD - Female",
+    "MBBS - Bothe sex",
+    "MBBS - Male",
+    "MBBS - Female"
+  ],
+  "row_count": 19
+}

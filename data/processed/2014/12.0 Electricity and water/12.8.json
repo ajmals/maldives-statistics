@@ -1,0 +1,29 @@
+{
+  "table_id": "12.8",
+  "title_en": "Table 12.8 : BILLED WATER CONSUMPTION IN MALE', 2005 - 2013",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Limited",
+  "notes": [
+    "Residential",
+    "Institution",
+    "Commercial",
+    "Tap Bays"
+  ],
+  "columns": [
+    "(In '000 metric tons) - Type",
+    "(In '000 metric tons) - 2001",
+    "(In '000 metric tons) - 2002",
+    "(In '000 metric tons) - 2004",
+    "(In '000 metric tons) - 2005",
+    "(In '000 metric tons) - 2006",
+    "(In '000 metric tons) - 2007",
+    "(In '000 metric tons) - 2008",
+    "(cnunwT ckircTem '000) - 2009",
+    "(cnunwT ckircTem '000) - 2010",
+    "(cnunwT ckircTem '000) - 2011",
+    "(cnunwT ckircTem '000) - 2012",
+    "(cnunwT ckircTem '000) - 2013"
+  ],
+  "row_count": 15
+}

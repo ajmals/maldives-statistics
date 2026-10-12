@@ -1,0 +1,19 @@
+{
+  "table_id": "7.22",
+  "title_en": "Table 7.22: STUDENT ENROLMENT IN TECHNICAL EDUCATION, BY TYPE OF TRAINING AND SEX 2010-2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Polytechnic",
+  "notes": [],
+  "columns": [
+    "Type of Training",
+    "2010 - Both Sexes",
+    "2010 - Male",
+    "2010 - Female",
+    "2011 - Both Sexes",
+    "2011 - Male",
+    "2011 - Female",
+    "2012 - Both Sexes"
+  ],
+  "row_count": 15
+}

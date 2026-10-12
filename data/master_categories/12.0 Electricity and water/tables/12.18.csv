@@ -1,0 +1,100 @@
+Item,Atoll / Island - 2013,Atoll / Island - 2014,Atoll / Island - 2015,C.I.F Value (MVR) - 2023,Column_5 - 2013,Quantity (in Ltr) - 2023,Quantity (ton) - Atoll / Island - 2014,Quantity (ton) - Atoll / Island - 2015,Quantity - Atoll / Island - 2013
+1,HA. Dhidhoo,HA.Hoarafushi,HA.Ihavandhoo*,,1.0,,30,220.0,134.0
+10,HDh.Neykurandho,Sh.Noomaraa,HDH.Nehllaidhoo*,,10.0,,40,57.5,15.0
+11,HDh.Kumundhoo,Sh.Feydhoo,HDH.Kumundhoo,,11.0,,30,90.0,7.0
+12,HDh.Hirimaradhoo,B.Hithaadhoo,HDH.Makunudhoo,,12.0,,60,80.0,10.0
+13,HDh.Nolhivaram,B.Kihaadhoo,HDH.Hirimaradhoo*,,13.0,,30,27.0,25.0
+14,HDh.Nolhivaramfaru,B.Maalhos,HDH.Vaikaradhoo,,14.0,,28,40.0,20.0
+15,Sh.Feevah,B.Dharavandhoo,HDH. Nolhivaranfaru,,15.0,,40,57.0,20.0
+16,Sh.Bileyfahi,AA.Himandhoo,HDH.Kurinbee,,16.0,,60,65.0,20.0
+17,Sh.Foakaidhoo,ADh.Hanyyaameedhoo,SH.Narudhoo,,17.0,,35,34.9,20.8
+18,Sh.Narudhoo,M.Naalaafushi,SH.Fonadhoo,,18.0,,40,65.98,20.0
+19,N.Maafaru,M.raiymandhoo,SH.Fohdhoo,,19.0,,35,22.05,25.0
+2,HA.Ihavandhoo,HA.Ihavandhoo,HA. Dhihdhoo,,2.0,,60,57.6,63.5
+20,N.Maalhendhoo,M.Veyvah,SH.Feevah,,20.0,,10,20.0,40.0
+2010.0,,,,13173088.29,,2009558.0,,,
+2011.0,,,,14666868.95,,2081223.12,,,
+2012.0,,,,15798746.62,,1715208.18,,,
+2013.0,,,,15845468.49,,1259761.45,,,
+2014.0,,,,20187763.3,,4845905.5,,,
+2015.0,,,,17605233.93,,1401265.89,,,
+2016.0,,,,15320149.21,,19172100.96,,,
+2017.0,,,,20081855.4,,5631247.678218,,,
+2018.0,,,,21301877.44,,1510506.505909,,,
+2019.0,,,,21637382.39,,1805005.7072,,,
+2020.0,,,,10126404.51,,941959.368,,,
+2021.0,,,,22272772.0,,1182479.0,,,
+2022.0,,,,22367554.0,,1620846.0,,,
+21,N.Lhohi,F.Bilaiydhoo,SH.Foakaidhoo,,21.0,,62,45.0,35.0
+22,N.Henbadhoo,Th.Burunee,N.Henbadhoo,,22.0,,30,38.5,30.0
+23,N.Holhudhoo,GA.Gemanafushi,N.Magoodhoo,,23.0,,55,20.842,70.0
+24,N.Manadhoo,GA.Nilandhoo,N.Landhoo,,24.0,,20,30.0,30.0
+25,N.Magoodhoo,S.Hithadhoo,N. Maafaru,,25.0,,100,10.0,8.0
+26,R.Alifushi,S.Maradhoo,N.Holhudhoo*,,26.0,,50,235.0,38.0
+27,R.Vaadhoo,S.Meedhoo,N.Lhohi*,,27.0,,50,65.0,10.0
+28,R.Rasgetheem,S.Feydhoo,R.Maduhvvari,,28.0,,50,80.0,10.0
+29,R.Ungoofaaru,,R.Alifushi*,,29.0,,,90.0,20.0
+3,HA.Hoarafushi,HA.Maarandhoo,HA.Molhadhoo,,3.0,,20,22.0,25.47
+30,R.Maakurathu,,R.Ungoofaaru*,,30.0,,,100.0,15.0
+31,R.Rasmaadhoo,,R.Kinolhas,,31.0,,,15.0,30.0
+32,R.Inamadhoo,,R.Vaadhoo,,32.0,,,20.305,30.0
+33,R.Inguraidhoo,,R.Angolhitheemu,,33.0,,,30.0,25.0
+34,R.Maduvvari,,R.Fainu,,34.0,,,22.0,35.0
+35,R.Fainu,,R.Rasgetheemu,,35.0,,,35.0,15.0
+36,R.Meedhoo,,R.maakurathu,,36.0,,,20.0,40.0
+37,R.Kinolhas,,R.Meedhoo,,37.0,,,60.0,15.0
+38,B.Kihaadho,,R.Inguraidhoo,,38.0,,,25.0,40.0
+39,B.Kendhoo,,R.Innamaadhoo,,39.0,,,40.0,29.5
+4,HA.Utheem,HA.Thuraakunu,HA.Uligamu,,4.0,,30,40.0,25.0
+40,B.Dharavandhoo,,B.Fehendhoo*,,40.0,,,45.0,20.0
+41,B.Dhonfanu,,B.Kudarikilu*,,41.0,,,37.4,37.0
+42,B.Kamadhoo,,B.Hithaadhoo*,,42.0,,,84.0,12.5
+43,B.Hithadhoo,,B.Kendhoo*,,43.0,,,44.0,34.0
+44,B.Kudarikilu,,B.Fulhadhoo*,,44.0,,,14.5,20.0
+45,B.Fulhadhoo,,B.Maalhos,,45.0,,,30.0,20.0
+46,B.Malhos,,B.Dhonfanu,,46.0,,,20.0,34.0
+47,K. Gaafaru,,B.Kihaadhoo,,47.0,,,40.0,30.0
+48,K. Dhiffushi,,B.Dharavandhoo,,48.0,,,30.0,30.0
+49,K. Guraidhoo,,B.Thulhaadhoo,,49.0,,,57.5,51.66
+5,HA.Thakandhoo,HA.Dhihdhoo,HA.Utheemu,,5.0,,100,30.0,30.0
+50,K. Gulhi,,B.Kamadhoo,,50.0,,,15.0,45.5
+51,AA. Maalhos,,LH.Olhuvelhifushi,,51.0,,,35.0,25.0
+52,AA. Thoddoo,,K.Dhihfushi*,,52.0,,,80.0,33.0
+53,AA. Rasdhoo,,K.Gaafaru*,,53.0,,,65.0,30.0
+54,AA. Ukulhas,,K.kashidhoo,,54.0,,,45.0,29.83
+55,ADh. Omadhoo,,AA.Maalhos,,55.0,,,40.0,19.13
+56,ADh. Dhan'gethi,,AA.Himandhoo,,56.0,,,40.0,30.0
+57,ADh. Dhigurah,,ADH.Kunburudhoo,,57.0,,,28.0,22.0
+58,ADh. Maamin'gili,,M.Veevah,,58.0,,,15.0,25.0
+59,M. Kolhufushi,,M.Naalaafushi,,59.0,,,30.0,40.0
+6,HA.Maarandhoo,HA.Nehllaidhoo,HA.Maarandhoo,,6.0,,30,5.0,6.0
+60,F. Dharan'boodhoo,,TH.Dhiyamigili,,60.0,,,30.0,25.0
+61,Dh. Meedhoo,,L.Gan,,61.0,,,90.0,30.0
+62,Dh. Maaen'boodhoo,,,,62.0,,,,30.0
+63,Dh. Ban'didhoo,,,,63.0,,,,60.0
+64,Dh. Hulhudheli,,,,64.0,,,,15.0
+65,Dh. Kudahuvadhoo,,,,65.0,,,,65.0
+66,Th. Dhiyamin'gili,,,,66.0,,,,25.0
+67,Th. Hirilandhoo,,,,67.0,,,,20.0
+68,Th. Madifushi,,,,68.0,,,,25.0
+69,Th. Kan'doodhoo,,,,69.0,,,,20.0
+7,HA.Vashafaru,HDh.Nolhivaram,HA.Hoarafushi,,7.0,,30,30.0,7.5
+70,Th. Kin'bidhoo,,,,70.0,,,,25.5
+71,Th. Vandhoo,,,,71.0,,,,20.0
+72,Th. Buruni,,,,72.0,,,,30.0
+73,Th. Guraidhoo,,,,73.0,,,,30.0
+74,GA. Vilin'gili,,,,74.0,,,,100.0
+75,GA. Gemanafushi,,,,75.0,,,,30.0
+76,GA. Dhaandhoo,,,,76.0,,,,79.35
+77,GA. Kon'dey,,,,77.0,,,,30.0
+78,GDh. Gadhoo,,,,78.0,,,,20.0
+79,Gn. Fuvahmulah,,,,79.0,,,,95.0
+8,HDh.Kurinbi,HDh.Makunudhoo,HA.Fihlladhoo,,8.0,,60,40.0,7.0
+80,S.Maradhoofeydhoo,,,,80.0,,,,25.0
+81,S.Maradhoo,,,,81.0,,,,25.0
+82,S.Feydhoo,,,,82.0,,,,40.0
+83,S.Hulhudhoo,,,,83.0,,,,120.0
+84,S.Hithadhoo,,,,84.0,,,,115.0
+9,HDh.Vaikaradhoo,HDh.Finey,HA.Muraidhoo,,9.0,,40,7.5,10.0
+Total,,28 islands,61 islands,,,,1225,2908.577,2745.24
+nan,,ADh. Atoll,,,,,70,,

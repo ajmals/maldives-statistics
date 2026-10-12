@@ -1,0 +1,36 @@
+{
+  "table_id": "15.1",
+  "title_en": "Table 15.1 : IMPORTS BY COUNTRY OF CONSIGNMENT, 2014 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [
+    "Data Compile: National Bureau of Statistics"
+  ],
+  "columns": [
+    "Country",
+    "C.I.F. Value (in Rf. '000) - 2003",
+    "C.I.F. Value (in Rf. '000) - 2005",
+    "C.I.F. Value (in MVR '000) - 2006",
+    "C.I.F. Value (in MVR '000) - 2007",
+    "C.I.F. Value (in MVR '000) - 2008",
+    "C.I.F. Value (in MVR '000) - 2009",
+    "C.I.F. Value (in MVR '000) - 2010",
+    "C.I.F. Value (in MVR '000) - 2011",
+    "C.I.F. Value (in MVR '000) - 2012",
+    "C.I.F. Value (in MVR '000) - 2013",
+    "C.I.F. Value (in MVR '000) - 2014",
+    "C.I.F. Value (in MVR '000) - 2015",
+    "C.I.F. Value (in MVR '000) - 2016",
+    "C.I.F. Value (in MVR '000) - 2017",
+    "Percentage Share - 2014",
+    "Percentage Share - 2015",
+    "Percentage Share - 2016",
+    "Percentage Share - 2017",
+    "% Change Over Previous Year - 2014",
+    "% Change Over Previous Year - 2015",
+    "% Change Over Previous Year - 2016",
+    "% Change Over Previous Year - 2017"
+  ],
+  "row_count": 42
+}

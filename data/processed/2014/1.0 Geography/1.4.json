@@ -1,0 +1,25 @@
+{
+  "table_id": "1.4",
+  "title_en": "Table 1.4 : RELATIVE HUMIDITY IN PERCENTAGE BY MONTH , 2013",
+  "title_dv": "2013 ,cnujETcneswp ,cnwkctet egiawv cnutogeguhwmcswm : 1.4 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Meteorological Service",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Yearly average",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 5
+}

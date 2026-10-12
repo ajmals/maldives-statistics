@@ -1,0 +1,14 @@
+{
+  "table_id": "6.4",
+  "title_en": "Table 6.4: INPATIENT BEDS IN HEALTH FACILITIES - 2016 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [],
+  "columns": [
+    "Institutions",
+    "No: of inpatient beds - 2016",
+    "No: of inpatient beds - 2017"
+  ],
+  "row_count": 33
+}

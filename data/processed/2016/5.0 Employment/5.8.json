@@ -1,0 +1,21 @@
+{
+  "table_id": "5.8",
+  "title_en": "Table 5.8: Civil Servants Classified by sector, 2015",
+  "title_dv": "ތާވަލު 5.8: ވަޒީފާ އަދާކުރާ ދާއިރާގެ ގޮތުން ސިވިލް ސަރވަންޓުން ބެހިފައިވާ ގޮތް، 2015",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [
+    "Note: Atoll total includes 1 person who are working abroad"
+  ],
+  "columns": [
+    "Locality",
+    "Total",
+    "Schools",
+    "Hospitals",
+    "Atoll / City Councils",
+    "Island Councils",
+    "Government Ministries",
+    "other offices"
+  ],
+  "row_count": 23
+}

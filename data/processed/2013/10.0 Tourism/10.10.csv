@@ -1,0 +1,127 @@
+Column_1,Column_2,Column_3,Column_4,Column_5,Column_6,Column_7,Column_8,Column_9,Column_10,Column_11,Column_12,Column_14
+,Resorts,Year of Initial,Initial Bed,Distance from,Bed Capacity (end year),Bed Capacity (end year),Bed Capacity (end year),Bed Capacity (end year),Bed Capacity (end year),Bed Capacity (end year),% Share,1
+,Resorts,Operation,Capacity,Airport (in Km),2007 *,2008,2009,2010,2011,2012,in 2012,2
+,All Resorts,-,-,-,19028,19860,20942,21232,22120,22889,100,3
+,North Thiladhunmathi Atoll (HA),-,-,-,390,432,432,456,456,456,1.992223,4
+1,"Island Hideaway at Dhonakulhi Maldives, Spa Resort & Marina",2005,50,250,90,90,90,90,90,90,0.393202,5
+2,Alidhoo Island Resort (Cinnamon Island Alidhoo),2007,66,300,200,200,200,200,200,200,0.873782,6
+3,"Beach House Maldives, The Waldorf Astoria Collection (The Beach House at Manafaru Maldives)",2007,100,337,100,142,142,166,166,166,0.725239,
+,North Miladhunmadulu Atoll (Sh),-,-,-,,,,,,97,0.423784,10
+4,Viceroy Maldives (Vagaru),2012,97,-,-,-,-,-,-,97,0.423784,11
+,South Miladhunmadulu Atoll (N),-,-,-,,400,490,542,542,542,2.36795,7
+5,Hilton Maldives - Irufushi Resort & Spa (Medhafushi),2008,200,238,-,300,390,442,442,442,1.931059,8
+6,"Zitahli Resort & Spa, Kudafunafaru",2008,100,180,-,100,100,100,100,100,0.436891,9
+,North Maalhosmadulu (R),,,,470,470,470,470,470,470,2.053388,10
+7,Adaaran Select Meedhupparu,2000,430,130.3,470,470,470,470,470,470,2.053388,11
+,South Maalhosmadulu (B),-,-,-,1240,1240,1240,1288,1398,1660,7.252392,12
+8,"Anantara Kihava Villas, Maldives",2010,110,125,-,-,-,110,110,164,0.716501,13
+9,Coco Palm Dhuni Kolhu,1998,192,124,200,200,200,200,200,200,0.873782,14
+10,Dusit Thani Maldives (Mudhdhoo),2012,20,-,-,-,-,-,-,208,0.908733,
+11,Four Seasons Resort Maldives at Landaa Giraavaru,2006,206,120,206,206,206,206,206,206,0.899996,15
+12,Kihaadhuffaru Resort,1999,200,104.6,200,200,200,200,200,200,0.873782,16
+13,Reethi Beach Resort,1998,200,104.6,200,200,200,248,248,248,1.08349,17
+14,Royal Island Resort & Spa,2001,304,110,304,304,304,304,304,304,1.328149,18
+15,Soneva Fushi By Six Senses,1983,50,104.6,130,130,130,130,130,130,0.567958,19
+,Faadhippolhu (Lh),-,-,-,1276,1294,1336,1336,1336,1336,5.836865,20
+16,"One & Only Kanuhura, Maldives",1999,200,125.5,200,200,200,200,200,200,0.873782,21
+17,Komandoo Maldive Island Resort,1998,90,128.7,120,120,120,120,120,120,0.524269,22
+18,Kuredhdhoo Island Resort,1978,18,128.7,740,746,768,768,768,768,3.355324,23
+19,Palm Beach Island,1999,200,128.7,216,228,248,248,248,248,1.08349,24
+,Male' Atoll (K),-,-,-,8724,8914,8982,9050,9128,9132,39.896894,25
+20,Adaaran Club Rannalhi,1978,34,34,232,256,256,256,256,256,1.118441,26
+21,Adaaran Select Hudhuranfushi (Lhohifushi Tourist Resort),1979,40,22.5,354,354,354,354,354,354,1.546594,27
+22,Anantara Resort & Spa Maldives (Dhigufinolhu),1980,24,40,220,220,220,220,220,220,0.96116,28
+23,"Angsana Resort & Spa Maldives, Ihuru",1978,20,17,90,90,90,90,90,90,0.393202,29
+24,Asdhu Sun Island,1981,36,32,60,60,60,60,60,60,0.262135,30
+25,Bandos Island Resort and Spa,1972,220,8,450,450,450,450,450,450,1.96601,31
+26,Banyan Tree Maldives Vabbinfaru,1977,24,12,96,96,96,96,96,96,0.419415,32
+27,Baros Holiday Resort,1973,56,16,150,150,150,150,150,150,0.655337,33
+28,Biyaadhoo Island Resort,1982,192,18,192,192,192,192,192,192,0.838831,34
+29,"Club Faru, K. Farukolhufushi",1973,112,2,304,304,304,304,304,304,1.328149,35
+30,Coco Palm Boduhithi,1979,50,29,206,206,206,206,206,206,0.899996,36
+31,Coco Privé Kuda Hithi Island (Coco Palm Kudahithi),1984,12,27.4,14,14,14,14,14,14,0.061165,37
+32,Cocoa Island,1981,12,30,70,70,70,70,70,70,0.305824,38
+33,Chaaya Island Dhonveli (Tari Village),1981,20,13,292,292,296,296,296,296,1.293198,39
+34,Dream Island Maldives,1981,120,29,120,120,120,120,120,120,0.524269,40
+35,Embudhoo Village,1979,44,8,236,236,236,236,236,236,1.031063,41
+36,Eriyadhoo Island Resort,1982,40,40,114,114,114,114,114,114,0.498056,42
+37,Fihaalhohi Island Resort,1981,90,28,300,300,300,300,300,300,1.310673,43
+38,Four Seasons Resort Maldives at Kuda Huraa,1977,32,12.9,212,212,212,212,212,212,0.926209,44
+39,Sheraton Maldives Full Moon Resort & Spa (Fullmoon Beach Resort),1973,112,5.6,312,312,312,312,312,312,1.3631,45
+40,Fun Island Resort,1980,44,38,200,200,200,200,200,200,0.873782,46
+41,Gasfinolhu Island Resort,1980,18,23,80,80,80,80,80,80,0.349513,47
+42,Giraavaru Tourist Resort,1980,40,11.3,132,132,132,132,132,132,0.576696,48
+43,Helengeli Island Resort,1979,20,46.7,100,100,100,100,100,100,0.436891,49
+44,Huvafenfushi,1979,80,25.7,102,102,102,102,102,102,0.445629,50
+45,Jumeirah Vittaveli Island Resort at Bolifushi (Island of Bolifushi),1982,64,12,110,110,110,110,174,178,0.777666,51
+46,Holiday Inn Resort Kandooma Maldives,1985,98,27.4,204,322,322,322,322,322,1.406789,52
+47,Club Med Kanifinolhu,1978,18,19.3,444,444,444,448,448,448,1.957272,53
+48,Kurumba Maldives,1972,60,3.2,362,362,362,362,362,362,1.581546,54
+49,Velassaru Maldives (Laguna Maldives),1974,90,11.3,258,258,258,258,258,258,1.127179,55
+50,Makunudu Island,1983,58,38.6,74,74,74,74,74,74,0.323299,56
+51,Meeru Island Resort,1978,128,37,570,570,570,570,570,570,2.490279,57
+52,Olhuveli Beach & Spa Resort,1979,36,51.5,268,268,268,332,332,332,1.450478,58
+53,"One and Only Reethi Rah, Maldives(One & Only Maldives at Reethi Rah)",1979,24,64.4,264,264,268,268,268,268,1.170868,59
+54,Naladhu (Palm Tree Island),1986,32,27,138,138,138,138,138,138,0.60291,60
+55,Paradise Island Resort & Spa,1979,24,9.6,520,568,568,568,568,568,2.481541,61
+56,Rihiveli Beach Resort,1980,40,40.2,100,100,100,100,100,100,0.436891,62
+57,Soneva Gili by Six Senses,1980,12,9.7,94,94,94,94,94,94,0.410678,63
+58,Summer Island village,1983,58,35,216,216,216,216,230,230,1.004849,64
+59,"Vivanta by Taj - Coral Reef, Maldives",1982,68,32.2,132,132,124,124,124,124,0.541745,65
+60,Taj Exortica Resort & Spa Maldives,1983,20,12.9,128,128,128,128,128,128,0.559221,66
+61,Thulhaagiri Island Resort,1980,44,11,138,138,172,172,172,172,0.751453,67
+62,Adaaran Prestige Vaadhu (Vaadhu Island Resort),1978,18,8,66,66,100,100,100,100,0.436891,68
+,North Ari Atoll (AA),-,-,-,1858,1928,1988,1988,1988,1988,8.685395,69
+63,Bathala Island Resort (Adaaran Club Bathala),1983,20,48.3,90,90,90,90,90,90,0.393202,70
+64,Ellaidhoo Tourist Resort,1985,32,54,176,224,224,224,224,224,0.978636,71
+65,Gangehi Island Resort,1987,50,77.2,50,72,72,72,72,72,0.314562,72
+66,Constance Halaveli Resort (Halaveli Holiday Village),1982,30,36,112,112,172,172,172,172,0.751453,73
+67,Kuramathi Tourist Resort,1977,48,56.3,580,580,580,580,580,580,2.533968,74
+68,Maayafushi Tourist Resort,1983,48,63,150,150,150,150,150,150,0.655337,75
+69,Madoogali Resort,1989,70,77.2,112,112,112,112,112,112,0.489318,76
+70,Nika Island Resort,1983,30,69.2,76,76,76,76,76,76,0.332037,77
+71,Velidhu Island Resort,1989,22,80.5,200,200,200,200,200,200,0.873782,78
+72,Veligandu Island,1984,34,51,148,148,148,148,148,148,0.646599,79
+73,W. Retreat and Spa Maldives Fesdhu,1982,90,72.4,164,164,164,164,164,164,0.716501,80
+,South Ari Atoll (ADh),-,-,-,3200,3312,3538,3586,3818,3818,16.680502,81
+74,Angaaga Island Resort and Spa,1989,100,85,140,140,140,140,140,140,0.611648,82
+75,Athurugau Island Resort,1990,79,90,98,98,98,146,146,146,0.637861,83
+76,"Conrad Maldives, Rangali Island (Hilton Maldives Resort & Spa)",1992,80,96.6,304,304,304,304,304,304,1.328149,84
+77,Holiday Island,1994,284,93,284,284,284,284,284,284,1.240771,85
+78,Kudarah Island Resort,1991,50,88.5,60,60,60,60,60,60,0.262135,86
+79,Lily Beach Resort,1994,168,85,170,170,250,250,250,250,1.092228,87
+80,Centara Grand Island Resort & Spa Maldives (Machchafushi Island Resort),1992,96,95,128,128,224,224,224,224,0.978636,88
+81,Mirihi Island Resort,1989,36,112.6,72,72,72,72,72,72,0.314562,89
+82,Constance Moofushi Resort (Moofushi Island Resort),1990,84,80,124,124,124,124,220,220,0.96116,90
+83,Ranveli Village,1991,112,77,112,112,112,112,112,112,0.489318,91
+84,Sun Island Resort & Spa,1998,700,99.8,852,852,852,852,852,852,3.722312,92
+85,Thundufushi Island Resort,1990,74,80.5,94,94,94,94,144,144,0.629123,93
+86,Twin Island Resort,1991,60,54.7,98,98,98,98,98,98,0.428153,94
+87,Vakarufalhi Island Resort,1994,100,90,100,100,150,150,150,150,0.655337,95
+88,Vilamendhoo Island Resort,1994,200,48.3,282,282,282,282,368,368,1.607759,96
+89,Diva Maldives (White Sands),1988,180,104,282,394,394,394,394,394,1.721351,97
+,Felidhu Atoll (V),-,-,-,350,350,350,350,350,402,1.756302,98
+90,Alimatha Aquatic Resort,1975,20,48,260,260,260,260,260,312,1.3631,99
+91,Dhiggiri Tourist Resort,1982,50,32,90,90,90,90,90,90,0.393202,100
+,Mulakatholhu (M),-,-,-,400,400,400,400,400,400,1.747564,101
+92,Chaaya Lagoon Hakuraa Huraa,1999,72,128.7,160,160,160,160,160,160,0.699026,102
+93,Medhufushi Island Resort,2000,240,128.7,240,240,240,240,240,240,1.048539,103
+,North Nilandhe Atoll (F),-,-,-,250,250,250,250,250,250,1.092228,104
+94,Filitheyo Island Resort,1999,250,120.7,250,250,250,250,250,250,1.092228,105
+,South Nilandhe Atoll (D),-,-,-,324,324,436,436,436,590,2.577657,
+95,Angsana Resort & Spa Maldives - Velavaru,1998,50,125,168,168,236,236,236,236,1.031063,
+96,Niyama (Olhuveli & Embudhufushi),2012,56,-,-,-,-,-,-,154,0.672812,
+97,Vilu Reef Beach & Spa Resort,1998,136,128.7,156,156,200,200,200,200,0.873782,106
+,Laamu Atoll (L),-,-,-,-,-,-,-,194,194,0.847569,107
+98,Six Sensese Laamu Atoll (L.Olhuveli),2011,66,260,-,-,-,-,194,194,0.847569,108
+,North Huvadhu Atoll (GA),-,-,-,,,200,250,324,524,2.289309,112
+99,Alila Villas Hadahaa,2009,100,405,-,-,100,100,100,100,0.436891,113
+100,Huvandhumaafushi (Funamauddua),2009,100,400,-,-,100,150,150,150,0.655337,114
+101,Jumeirah Dhevanafushi (Meradhoo),2011,74,400,-,-,-,-,74,74,0.323299,115
+102,The Residence Maldives (Falhumaafushi),2012,108,-,-,-,-,-,-,200,0.873782,116
+,South Huvadhu Atoll (GDh),-,-,-,-,-,-,-,200,200,0.873782,
+103,Ayada Maldives(Magudhuva),2011,200,420,-,-,-,-,200,200,0.873782,
+,Addu Atoll (S),-,-,-,546,546,830,830,830,830,3.626196,109
+104,Herethere Island Resort,2007,106,480,546,546,546,546,546,546,2.385425,110
+105,Shangri - La Villingili Resort & Spa,2009,284,478,-,-,284,284,284,284,1.240771,111
+,* Resorts beds include marinas,,,,,,,,,,,124

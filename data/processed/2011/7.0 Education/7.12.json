@@ -1,0 +1,23 @@
+{
+  "table_id": "7.12",
+  "title_en": "Table 7.12 : STUDENTS WHO RECEIVED SCHOLARSHIPS , DURING 2000 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Schola rship Section,",
+  "notes": [
+    "Minist ry of Human Resources, Youth and Sports"
+  ],
+  "columns": [
+    "Year",
+    "Diploma - Total",
+    "Diploma - Male",
+    "Diploma - Female",
+    "Degree - Male",
+    "Degree - Female",
+    "Masters - Male",
+    "Masters - Female",
+    "PhD - Male",
+    "PhD - Female"
+  ],
+  "row_count": 12
+}

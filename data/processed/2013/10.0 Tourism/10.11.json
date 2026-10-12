@@ -1,0 +1,15 @@
+{
+  "table_id": "10.11",
+  "title_en": "Table 10.11 :NEW ISLANDS LEASED FOR RESORT/HOTEL DEVELOPMENT AND THEIR ESTIMATED OPENING DATE",
+  "title_dv": "ތާވަލު 10.11: އަލަށް ތަރައްޤީކުރުމަށް ކުއްޔަށްދޫކުރެވިފައިވާ ރިސޯޓް/ހޮޓެލްތަކާއި އަދި ހުޅުވުމަށް ގަސްދުކުރެވިފައިވާ ތާރީޚް",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts and Culture",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Island",
+    "No. of Beds to be Developed",
+    "Estimated Opening Date"
+  ],
+  "row_count": 96
+}

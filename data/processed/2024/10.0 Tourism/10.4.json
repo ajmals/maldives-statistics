@@ -1,0 +1,25 @@
+{
+  "table_id": "10.4",
+  "title_en": "Table 10.4: BED CAPACITY AND UTILIZATION OF RESORTS BY MONTH, 2022 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country."
+  ],
+  "columns": [
+    "Month",
+    "2022 - Registered Bed Capacity",
+    "2022 - Beds in operation",
+    "2022 - % share of registered beds in operation",
+    "2022 - Bed Capacity Utilization Rate %",
+    "2022 - Tourist Bednights",
+    "2023 - Registered Bed Capacity",
+    "2023 - Beds in operation",
+    "2023 - % share of registered beds in operation",
+    "2023 - Bed Capacity Utilization Rate %",
+    "2023 - Tourist Bednights"
+  ],
+  "row_count": 13
+}

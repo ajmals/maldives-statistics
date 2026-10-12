@@ -1,0 +1,23 @@
+{
+  "table_id": "7.10",
+  "title_en": "Table 7.10 : STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "1_/ For children with special needs."
+  ],
+  "columns": [
+    "Locality",
+    "Total - Both Sexes",
+    "Total - Male",
+    "Total - Female",
+    "Pre-primary - Both Sexes",
+    "Pre-primary - Male",
+    "Pre-primary - Female",
+    "Grade 1 - Both Sexes",
+    "Grade 1 - Male",
+    "Grade 1 - Female"
+  ],
+  "row_count": 123
+}

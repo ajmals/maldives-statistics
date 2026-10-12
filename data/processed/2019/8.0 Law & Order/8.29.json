@@ -1,0 +1,17 @@
+{
+  "table_id": "8.29",
+  "title_en": "TABLE 8.29: NUMBER OF ASSIGNED MAGISTRATES , 2014 - 2018",
+  "title_dv": "ތާވަލު 8.29: ކޯޓުތަކަށް ޢައްޔަނުކުރެވިފައިވާ ފަނޑިޔާރުންގެ އަދަދު، 2014 - 2018",
+  "unit": "",
+  "source": "Source: Judicial Service Commission",
+  "notes": [],
+  "columns": [
+    "Court",
+    "Assigned number of Majistrates - 2014",
+    "Assigned number of Majistrates - 2015",
+    "Assigned number of Majistrates - 2016",
+    "Assigned number of Majistrates - 2017",
+    "Assigned number of Majistrates - 2018"
+  ],
+  "row_count": 216
+}

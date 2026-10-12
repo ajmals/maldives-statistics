@@ -1,0 +1,16 @@
+{
+  "table_id": "3.6",
+  "title_en": "Table 3.6 : ABRIDGE LIFE TABLE OF MALDIVES, 2006 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "2006 - Age",
+    "2006 - Male - e(x)",
+    "2006 - Female - e(x)",
+    "2007 - Male - e(x)",
+    "2007 - Female - e(x)"
+  ],
+  "row_count": 37
+}

@@ -1,0 +1,17 @@
+{
+  "table_id": "11.14",
+  "title_en": "Table 11.14 : MAIL HANDLED AT MALE' INTERNATIONAL AIRPORT BY MONTH, 2009 (in Kg)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Civil Aviation and Communication",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Total",
+    "International Flights - Inward",
+    "International Flights - Outward",
+    "Domestic Flights - Inward",
+    "Domestic Flights - Outward"
+  ],
+  "row_count": 13
+}

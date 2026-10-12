@@ -1,0 +1,24 @@
+{
+  "table_id": "10.5",
+  "title_en": "Table 10.5: TOURIST ARRIVALS,AND TOURIST BED-NIGHTS BY MONTH, 2014 - 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: * Tourist Bed night figures include resorts/hotels/safaris & guesthouses",
+    "* 2014 figures are revised",
+    "Maldives Immigration"
+  ],
+  "columns": [
+    "Month",
+    "Tourist Bed-nights* - 2014",
+    "Tourist Bed-nights* - 2015",
+    "Tourist Arrivals - 2014",
+    "Tourist Arrivals - 2015",
+    "% change same month of previous year - Tourist Arrivals - Tourist Bed-nights* - 2014-2015",
+    "% change same month of previous year - Tourist Arrivals - 2014-2015",
+    "% change from previous month - Tourist Arrivals - Tourist Bed-nights* - 2015",
+    "% change from previous month - Tourist Arrivals - 2015"
+  ],
+  "row_count": 13
+}

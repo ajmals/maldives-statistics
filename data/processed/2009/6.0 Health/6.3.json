@@ -1,0 +1,19 @@
+{
+  "table_id": "6.3",
+  "title_en": "Table 6.3 : OUT- PATIENT FLOW, INPATIENT FLOW AND BED OCCUPANCY RATE OF GOVERNMENT HOSPITALS,",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family",
+  "notes": [
+    "1_/ Includes outpatients of Male' Health Center and K.Vilingili Health Center",
+    "* data not received",
+    "Decision Support Division"
+  ],
+  "columns": [
+    "AND HEALTH CENTRES - 2008 (provisional) - Institutions",
+    "AND HEALTH CENTRES - 2008 (provisional) - Outpatients",
+    "AND HEALTH CENTRES - 2008 (provisional) - Inpatients",
+    "AND HEALTH CENTRES - 2008 (provisional) - Bed Occupancy Rate"
+  ],
+  "row_count": 28
+}

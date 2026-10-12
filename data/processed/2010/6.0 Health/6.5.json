@@ -1,0 +1,21 @@
+{
+  "table_id": "6.5",
+  "title_en": "Table 6.5 : PATIENTS BY TYPE OF SURGICAL INTERVENTION, 2001 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Indira Gandhi Memorial Hospital",
+  "notes": [],
+  "columns": [
+    "Type of Operation",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009"
+  ],
+  "row_count": 13
+}

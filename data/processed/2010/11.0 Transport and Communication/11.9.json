@@ -1,0 +1,20 @@
+{
+  "table_id": "11.9",
+  "title_en": "Table 11.9 : AIRCRAFT MOVEMENT AT MALE' INTERNATIONAL AIRPORT BY MONTH, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Civil Aviation and Communication",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Grand total",
+    "International Flights - Total",
+    "International Flights - Scheduled",
+    "International Flights - Chartered",
+    "International Flights - Non-Scheduled",
+    "Domestic Flights - Total",
+    "Domestic Flights - Scheduled",
+    "Domestic Flights - Non-Scheduled"
+  ],
+  "row_count": 13
+}

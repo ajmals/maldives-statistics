@@ -1,0 +1,21 @@
+{
+  "table_id": "8.2",
+  "title_en": "TABLE 8.2 : NUMBER OF LOGGED CASES BY LOCALITY & TYPE OF CASES, 2014 - 2015",
+  "title_dv": "ތާވަލު 8.2: މާލެ އަދި އަތޮޅުތަކުން ހުށަހެޅިފައިވާ މައްސަލަތަކުގެ ޢަދަދު އަދި ބާވަތް، 2014- 2015",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of case",
+    "2014 - Republic",
+    "2014 - Male'",
+    "2014 - Atolls",
+    "2015 - Republic",
+    "2015 - Male'",
+    "2015 - Atolls",
+    "2015 - % change over 2014 - Republic",
+    "2015 - % change over 2014 - Male'",
+    "2015 - % change over 2014 - Atolls"
+  ],
+  "row_count": 24
+}

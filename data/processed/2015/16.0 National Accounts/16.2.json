@@ -1,0 +1,28 @@
+{
+  "table_id": "16.2",
+  "title_en": "Table 16.2 : GROSS DOMESTIC PRODUCT (AT CONSTANT PRICES),GROWTH RATES, BY KIND OF ACTIVITY, 2003 - 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "1_/ Revised in October 2015",
+    "MVR 8.4942617 per PPP$ (2003)"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2003",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2004",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2005",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2006",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2007",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2008",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2009",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2010",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2011",
+    "(In percent , at 2003 constant prices) - Industry / Economic Activity - 2012",
+    "(In percent , at 2003 constant prices) - Revised - Industry / Economic Activity - 20131_/",
+    "(cniawtcawscnia ,cnugwa ImiaWd egurwhwawnwv 2003) - Revised - Industry / Economic Activity - 20141_/"
+  ],
+  "row_count": 27
+}

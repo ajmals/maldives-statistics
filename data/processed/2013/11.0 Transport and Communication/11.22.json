@@ -1,0 +1,20 @@
+{
+  "table_id": "11.22",
+  "title_en": "Table 11.22: MAIL HANDLED AT DOMESTIC AIRPORTS BY MONTH, 2012",
+  "title_dv": "ތާވަލު 11.22: މަސްމަހުގެ ގޮތުން ރާއްޖޭގެ ވައިގެބަނދަރުތަކުގައި އުފުލުނު މެއިލް، 2012",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "( in kg ) - Month",
+    "( in kg ) - L.Kadhdhoo - In",
+    "( in kg ) - L.Kadhdhoo - Out",
+    "( in kg ) - GDh.Kaadedhdhoo - In",
+    "( in kg ) - GDh.Kaadedhdhoo - Out",
+    "( in kg ) - HDh.Hanimaadhoo - In",
+    "( in kg ) - HDh.Hanimaadhoo - Out",
+    "( in kg ) - Gn.Fuvahmulah - In",
+    "( in kg ) - Gn.Fuvahmulah - Out"
+  ],
+  "row_count": 13
+}

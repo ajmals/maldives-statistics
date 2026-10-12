@@ -1,0 +1,20 @@
+{
+  "table_id": "7.1",
+  "title_en": "TABLE 7.1: STUDENT ENROLMENT BY EDUCATIONAL LEVEL AND SEX, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education, Higher Education and Skills Development",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Student enrolment by level - Total",
+    "Student enrolment by level - Pre-K",
+    "Student enrolment by level - K",
+    "Student enrolment by level - KS1",
+    "Student enrolment by level - KS2",
+    "Student enrolment by level - KS3",
+    "Student enrolment by level - KS4",
+    "Student enrolment by level - KS5"
+  ],
+  "row_count": 10
+}

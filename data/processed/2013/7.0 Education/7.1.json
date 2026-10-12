@@ -1,0 +1,32 @@
+{
+  "table_id": "7.1",
+  "title_en": "Table 7.1 : STUDENT ENROLMENT AND SCHOOLS IN MALE' AND ATOLLS BY TYPE OF EDUCATIONAL INSTITUTION, 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: Includes 142 students enrolled in special classes, for children with special needs",
+    "Dh",
+    "Th",
+    "L",
+    "GA",
+    "GDh",
+    "Gn",
+    "S"
+  ],
+  "columns": [
+    "Locality",
+    "Total",
+    "Government",
+    "Private",
+    "Community",
+    "Total_2",
+    "Government_2",
+    "Private_2",
+    "Community_3",
+    "Column_19",
+    "Column_20",
+    "Column_21"
+  ],
+  "row_count": 23
+}

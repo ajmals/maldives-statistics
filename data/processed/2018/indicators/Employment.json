@@ -1,0 +1,29 @@
+{
+  "table_id": "Employment",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "1_/ With the formation of civil service in 2008, government employees figures includes civil servants only",
+    "2_/ Due to change in the border control system used to generate the immigration data with new system established in November 2012, there is a discontinuity in consistent records.",
+    "3_/ Employment Approval (EA) is a written statement by immigration, giving permission for foreigners to work in Maldives. Resident permit/work visa is issued based on this EA for those who apply for work visa."
+  ],
+  "columns": [
+    "EMPLOYMENT - Government Employees 1_/",
+    "EMPLOYMENT",
+    "EMPLOYMENT - 2006",
+    "EMPLOYMENT - 2007",
+    "EMPLOYMENT - 2008",
+    "EMPLOYMENT - 2009",
+    "EMPLOYMENT - 2010",
+    "EMPLOYMENT - 2011",
+    "EMPLOYMENT - 2012",
+    "EMPLOYMENT - 2013",
+    "EMPLOYMENT - 2014",
+    "EMPLOYMENT - 2015",
+    "EMPLOYMENT - 2016",
+    "EMPLOYMENT - 2017"
+  ],
+  "row_count": 11
+}

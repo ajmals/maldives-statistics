@@ -1,0 +1,18 @@
+{
+  "table_id": "5.13",
+  "title_en": "TABLE 5.13: NUMBER OF VACANT JOBS BY SECTOR, 2012",
+  "title_dv": "ތާވަލް 5.13: ދާއިރާގެ ގޮތުން ހުސްވަޒީފާގެ އަދަދު، 2012",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވި ފަރާތް: މިނިސްޓްރީ އޮފް ހިއުމަން ރިސޯސަސް، ޔޫތް އެންޑް ސްޕޯޓްސް",
+  "notes": [
+    "Note: Government- All the job announcements are taken from www.gazzete.gov.mv",
+    "Private & Tourism - All the Job announcements are taken from www.iulaan.com & jobmaldives website (www.job-maldives.com)",
+    "ނޯޓް: ސަރުކާރުގެ ހުރިހާ ހުސް ވަޒީފާތައް ނެގިފައިވަނީ www.gazzete.gov.mv މި ސައިޓުންނެވެ.",
+    "އަމިއްލަ އަދި ފަތުރުވެރިކަމުގެ ދާއިރާގެ ހުސް ވަޒީފާތައް ނެގިފައިވަނީ www.iulaan.com އަދި ޖޮބް މޯލްޑިވްސް (www.job-maldives.com) ގެސައިޓުންނެވެ."
+  ],
+  "columns": [
+    "Vacant Jobs",
+    "2012"
+  ],
+  "row_count": 4
+}

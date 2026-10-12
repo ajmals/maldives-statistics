@@ -1,0 +1,15 @@
+{
+  "table_id": "3.19",
+  "title_en": "TABLE 3.19: MARRIAGES BETWEEN LOCALS AND LOCALS TO FOREIGN NATIONALS, PERFORMED LOCALLY AND OVERSEAS, 2018",
+  "title_dv": "ތާވަލު 13.19: ރާއްޖެއާއި ރާއްޖޭންބޭރުގައި ކުރެވޭ ދިވެހި އަދި ދިވެހި ބިދޭސީ ކައިވެނި، 2018",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Type of Marriages",
+    "Registered - Marriages overseas",
+    "Registered - Marriages in Maldives",
+    "Registered - Total - Marriages in Maldives"
+  ],
+  "row_count": 4
+}

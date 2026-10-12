@@ -1,0 +1,23 @@
+{
+  "table_id": "8.58",
+  "title_en": "Table 8.58: NUMBER OF REPORTED CHILD ABUSE CASES (UNDER 18) BY TYPE AND SEX, 2021 - 2023",
+  "title_dv": "ތާވަލު 8.58: ޖިންސުގެ ގޮތުން ކުޑަކުދިންނަށް ކުރާ އަނިޔާއާއިބެހޭގޮތުން ހުށަހެޅިފައިވާ މައްސަލަތައް، 2021 - 2023",
+  "unit": "",
+  "source": "Source: Ministry of Social and Family Development",
+  "notes": [
+    "Note: Others include: Child Deaths, Exploitation, Commercial Exploitation / Child Labor, Commercial Sexual Exploitation, Trafficking of Children, Victims of Bullying, Child Abandonment"
+  ],
+  "columns": [
+    "Types of abuse",
+    "2021 - Both Sex",
+    "2021 - Male",
+    "2021 - Female",
+    "2022 - Both Sex",
+    "2022 - Male",
+    "2022 - Female",
+    "2023 - Both Sex",
+    "2023 - Male",
+    "2023 - Female"
+  ],
+  "row_count": 10
+}

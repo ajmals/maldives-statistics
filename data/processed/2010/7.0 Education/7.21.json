@@ -1,0 +1,20 @@
+{
+  "table_id": "7.21",
+  "title_en": "Table 7.21: NUMBER OF CANDIDATES SAT AND PASSED IN O'LEVEL BY SUBJECT, 2007 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: Pass = result of A, B or C"
+  ],
+  "columns": [
+    "Subject",
+    "2007 - Candidates",
+    "2007 - Passed",
+    "2008 - Candidates",
+    "2008 - Passed",
+    "2009 - Candidates",
+    "2009 - Passed"
+  ],
+  "row_count": 21
+}

@@ -1,0 +1,16 @@
+{
+  "table_id": "5.13",
+  "title_en": "Table 5.13: Expatriate employment by locality, 2019",
+  "title_dv": "ތާވަލު 5.13: މާލެއާއި އަތޮޅުތަކުގައި މަސައްކަތްކުރާ ބިދޭސީ މަސައްކަތްތެރިންގެ އަދަދު އަދި ޖިންސް، 2019",
+  "unit": "",
+  "source": "Source: Ministry of Economic Development",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Male",
+    "Female",
+    "% share"
+  ],
+  "row_count": 25
+}

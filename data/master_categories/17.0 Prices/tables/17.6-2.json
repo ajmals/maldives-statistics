@@ -1,0 +1,31 @@
+{
+  "table_id": "17.6-2",
+  "category": "17.0 Prices",
+  "title_en": "Table 17.6 : CONSUMER PRICE INDEX, FOR MALE' AND ATOLLS BY MONTH, 2018",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "time_span": "2012",
+  "year_min": 2012,
+  "year_max": 2012,
+  "row_count": 20,
+  "column_count": 14,
+  "columns": [
+    "Item",
+    "Index - base: June =100) - Monthly CPI , 2018 - Apr - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Aug - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Dec - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Feb - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Jan - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Jan - Dec - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Jul - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Jun - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Mar - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - May - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Nov - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Oct - 2012",
+    "Index - base: June =100) - Monthly CPI , 2018 - Sep - 2012"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/17.6-2.csv"
+}

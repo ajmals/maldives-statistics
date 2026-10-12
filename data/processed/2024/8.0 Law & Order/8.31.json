@@ -1,0 +1,32 @@
+{
+  "table_id": "8.31",
+  "title_en": "Table 8.31: CASES HANDLED BY THE HIGH COURT, 2020 -2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: The High Court of the Republic of Maldives",
+  "notes": [],
+  "columns": [
+    "Type of Cases",
+    "2020",
+    "2020_2",
+    "2020 - Cases logged trial including 2019",
+    "2020_3",
+    "2020_4",
+    "2021",
+    "2021 - Cases logged trial including 2020",
+    "2021_2",
+    "2021_3",
+    "2022",
+    "2022_2",
+    "2022 - Cases logged trial including 2021",
+    "2022 - Cases logged trial including 2021_2",
+    "2022 - Cases logged trial including 2021_3",
+    "2022 - Cases logged trial including 2021_4",
+    "2023",
+    "2023 - Cases logged trial including 2023",
+    "2023 - Cases logged trial including 2023_2",
+    "2023 - Cases logged trial including 2023_3",
+    "2023 - Cases logged trial including 2023_4"
+  ],
+  "row_count": 11
+}

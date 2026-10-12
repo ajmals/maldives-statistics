@@ -1,0 +1,25 @@
+{
+  "table_id": "9.9",
+  "title_en": "Table 9.9: AGRICULTURAL PRODUCTS TRADED IN MALE' MARKET BY ATOLLS 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Economic research and Stati stics Services / Min. Fisheries and Agriculture",
+  "notes": [
+    "* Note: Other Atolls include GA, GDh, HDh and M atoll."
+  ],
+  "columns": [
+    "( In Kgs ) - Agriculturl crops",
+    "( In Kgs ) - Total",
+    "( In Kgs ) - Production by Atolls - AA",
+    "( In Kgs ) - Production by Atolls - K",
+    "( In Kgs ) - Production by Atolls - L",
+    "( In Kgs ) - Production by Atolls - HA",
+    "( In Kgs ) - Production by Atolls - SH",
+    "( In Kgs ) - Production by Atolls - GN",
+    "( In Kgs ) - Production by Atolls - LH",
+    "( In Kgs ) - Production by Atolls - S",
+    "( In Kgs ) - Production by Atolls - TH",
+    "( In Kgs ) - Production by Atolls - Others"
+  ],
+  "row_count": 17
+}

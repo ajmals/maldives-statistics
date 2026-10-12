@@ -1,0 +1,21 @@
+{
+  "table_id": "4.5",
+  "title_en": "TABLE 4.5: SUPPLY OF HOUSING UNITS IN HULHUMALE', 2009 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Housing Development Corporation",
+  "notes": [],
+  "columns": [
+    "Year - 2009",
+    "Type - Flat (1 Room) - Flat (2 Room)",
+    "Number - Flat (1 Room) - Flat (2 Room)",
+    "Average Monthly Rent (MRF) - Flat (1 Room) - Flat (2 Room)",
+    "Area (Sq ft) - Flat (1 Room) - Flat (2 Room)",
+    "Cost of Construction/development MRF/Flat - Flat (1 Room) - Flat (2 Room)",
+    "Type of Funding - Flat (1 Room) - Flat (2 Room)",
+    "Financial Source(s) - Flat (1 Room) - Flat (2 Room)",
+    "Amount received as downpayment(s) - Flat (1 Room) - Flat (2 Room)",
+    "Amount received as downpayment(s) - Flat (1 Room) - Flat (2 Room)_2"
+  ],
+  "row_count": 19
+}

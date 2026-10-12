@@ -1,0 +1,19 @@
+{
+  "table_id": "3.15",
+  "title_en": "Table 3.15 : POPULATION MIGRATED AND REGISTERED IN MALE' BY ATOLLS OF PREVIOUS REGISTRATION, 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source : Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Atolls of - previous residence",
+    "Total",
+    "%",
+    "Age Group - 0-17",
+    "Age Group - 18-34",
+    "Age Group - 35-49",
+    "Age Group - 50-64",
+    "Age Group - 65 & over"
+  ],
+  "row_count": 63
+}

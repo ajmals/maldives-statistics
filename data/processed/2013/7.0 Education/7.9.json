@@ -1,0 +1,20 @@
+{
+  "table_id": "7.9",
+  "title_en": "Table 7.9: TEACHERS SERVING IN SCHOOLS OF MALE' AND ATOLLS BY LOCALITY AND SEX, 2012",
+  "title_dv": "ތާވަލް 7.9: މާލެ އާއި އަތޮޅުތަކުގެ މަދަރުސާތަކުގައި ހަރަކާތްތެރިވާ މުދައްރިސުން، ޖިންސް ވަކިން، 2012",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Male - Trained",
+    "Male - Untrained",
+    "Male - Total Male - Teachers",
+    "Female - Trained",
+    "Female - Untrained",
+    "Female - Total Female - Teachers",
+    "Total - Teachers",
+    "Total - Female as a - % of total"
+  ],
+  "row_count": 23
+}

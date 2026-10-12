@@ -1,0 +1,22 @@
+{
+  "table_id": "3.23",
+  "title_en": "TABLE 3.23: NUMBER OF TIMES MARRIED IN MALE' AND ATOLLS , 2024",
+  "title_dv": "ތާވަލު 3.23: މާލެ އާއި އަތޮޅުތަކުގައި ކުރެވުނު ކައިވެނީގެ އަދަދު، 2024",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "Court",
+    "Court - Male",
+    "First - Male",
+    "First - Female",
+    "Second - Male",
+    "Second - Female",
+    "Third - Male",
+    "Third - Female",
+    "Fourth or more - Male",
+    "Fourth or more - Female"
+  ],
+  "row_count": 24
+}

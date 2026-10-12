@@ -1,0 +1,21 @@
+{
+  "table_id": "8.26",
+  "title_en": "TABLE 8.26: NUMBER OF REPORTED CHILD ABUSE CASES BY TYPE , 2021 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Types of abuse",
+    "2021 - Republic",
+    "2021 - Male'",
+    "2021 - Atolls",
+    "2022 - Republic",
+    "2022 - Male'",
+    "2022 - Atolls",
+    "2023 - Republic",
+    "2023 - Male'",
+    "2023 - Atolls"
+  ],
+  "row_count": 11
+}

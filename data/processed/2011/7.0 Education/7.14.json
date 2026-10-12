@@ -1,0 +1,26 @@
+{
+  "table_id": "7.14",
+  "title_en": "Table 7.14 : STUDENT ENROLMENT IN GOVERNMENT SCHOOLS OF ATOLLS, BY EDUCATIONAL LEVEL AND SEX , 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "1_/ Do not include Pre-primary data"
+  ],
+  "columns": [
+    "Locality",
+    "Total 1_/ - Both Sexes",
+    "Total 1_/ - Male",
+    "Total 1_/ - Female",
+    "Primary Level - Both Sexes",
+    "Primary Level - Male",
+    "Primary Level - Female",
+    "Lower Secondary Level - Both Sexes",
+    "Lower Secondary Level - Male",
+    "Lower Secondary Level - Female",
+    "Higher Secondary Level - Both Sexes",
+    "Higher Secondary Level - Male",
+    "Higher Secondary Level - Female"
+  ],
+  "row_count": 21
+}

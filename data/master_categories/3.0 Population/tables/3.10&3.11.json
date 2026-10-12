@@ -1,0 +1,25 @@
+{
+  "table_id": "3.10&3.11",
+  "category": "3.0 Population",
+  "title_en": "Table 3.11 : INFANT DEATHS BY AGE AND SEX, 2007 -2008",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family",
+  "notes": [
+    "Decision Support Division"
+  ],
+  "time_span": "2003 – 2008",
+  "year_min": 2003,
+  "year_max": 2008,
+  "row_count": 17,
+  "column_count": 6,
+  "columns": [
+    "Item",
+    "1_/ - 2003",
+    "Value - 2004",
+    "Value - 2005",
+    "Value - 2007",
+    "Value - 2008"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/3.10&3.11.csv"
+}

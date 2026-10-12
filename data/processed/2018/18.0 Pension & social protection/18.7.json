@@ -1,0 +1,20 @@
+{
+  "table_id": "18.7",
+  "title_en": "TABLE 18.7: NUMBER OF BENEFICIARIES OF SENIOR CITIZEN ALLOWANCE BY AGE, 2016 - 2017",
+  "title_dv": "ތާވަލު 18.7: ސީނިއަރ ސިޓިޒަން އެލަވަންސް ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2016 - 2017",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2016 - Age Groups - Total",
+    "2016 - Age Groups - 65-69",
+    "2016 - Age Groups - 70-74",
+    "2016 - Age Groups - 75 +",
+    "2017 - Age Groups - Total",
+    "2017 - Age Groups - 65-69",
+    "2017 - Age Groups - 70-74",
+    "2017 - Age Groups - 75 +"
+  ],
+  "row_count": 13
+}

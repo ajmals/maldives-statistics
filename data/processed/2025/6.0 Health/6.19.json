@@ -1,0 +1,23 @@
+{
+  "table_id": "6.19",
+  "title_en": "Table 6.19: ESTIMATED IMMUNIZATION COVERAGE, 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Health Protection Agency / National program on Immunization",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Measles Rubella",
+    "MMR",
+    "uzOD (IjIsIb) cnireaug - MMR - (BCG) Dozes",
+    "uzOD (IjIsIb) cnireaug - Hepatitis B - MMR - 1st",
+    "uzOD (IjIsIb) cnireaug - Pentavalent Vaccine - MMR - 1st",
+    "uzOD (IjIsIb) cnireaug - Pentavalent Vaccine - MMR - 2nd",
+    "uzOD (IjIsIb) cnireaug - Pentavalent Vaccine - MMR - 3rd",
+    "uzOD (IjIsIb) cnireaug - Oral Polio Vaccine - (bOPV) Dozes - 1st",
+    "uzOD (IjIsIb) cnireaug - Oral Polio Vaccine - (bOPV) Dozes - 2nd",
+    "uzOD (IjIsIb) cnireaug - Oral Polio Vaccine - (bOPV) Dozes - 3rd",
+    "uzOD (IjIsIb) cnireaug - IPV - (bOPV) Dozes - 1st"
+  ],
+  "row_count": 41
+}

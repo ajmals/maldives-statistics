@@ -1,0 +1,16 @@
+{
+  "table_id": "11.13",
+  "title_en": "Table 11.13 : PASSENGER MOVEMENT AT VELANA INTERNATIONAL AIRPORT BY MONTH, 2024",
+  "title_dv": "ތާވަލް 11.13: މަސްމަހުގެ ގޮތުން ބައިނަލްއަޤްވާމީ ވައިގެ ބަނދަރުގައި ފަސިންޖަރުންގެ ދަތުރުފަތުރު ހުރިގޮތް، 2024",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "Month",
+    "International Flights - Arrival",
+    "International Flights - Departure",
+    "Domestic Flights - Arrival",
+    "Domestic Flights - Departure"
+  ],
+  "row_count": 13
+}

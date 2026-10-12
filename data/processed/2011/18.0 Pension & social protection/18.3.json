@@ -1,0 +1,19 @@
+{
+  "table_id": "18.3",
+  "title_en": "Table 18.3 : GOVERNMENT EXPENDITURE ON DIFFERENT SOCIAL PROTECTION SCHEMES BY TYPE, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [],
+  "columns": [
+    "Month",
+    "TOTAL",
+    "MADHANA",
+    "MADHANA PLUS",
+    "CARE FOR SINGLE PARENTS",
+    "FOSTER PARENT",
+    "ESSENTIAL ASSISTANT",
+    "WELFARE ASSISSTANCE"
+  ],
+  "row_count": 16
+}

@@ -1,0 +1,21 @@
+{
+  "table_id": "2.9",
+  "category": "2.0 Environment",
+  "title_en": "TABLE 2.9: NUMBER OF TREES PROTECTED IN THE MALDIVES, 2013 - 2015",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "time_span": "2013 – 2015",
+  "year_min": 2013,
+  "year_max": 2015,
+  "row_count": 23,
+  "column_count": 4,
+  "columns": [
+    "Item",
+    2013,
+    2014,
+    2015
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/2.9.csv"
+}

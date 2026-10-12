@@ -1,0 +1,27 @@
+{
+  "table_id": "11.19",
+  "title_en": "Table 11.19: INTERNATINAL AND NATIONAL COMMUNICATION, 2001 - 2009 (in 000 mins)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Telecom Operators  Dhiraagu and Wataniya",
+  "notes": [
+    "Prepared by: Communications Authority of Maldives (TAM)",
+    "Definitions:",
+    "Local calls:",
+    "Inter-zone c alls:",
+    "Fixed-->Mo b calls:",
+    "Mobile calls :",
+    "Internation al calls:"
+  ],
+  "columns": [
+    "Column_1",
+    "National Call Minutes - Land Lines - Total",
+    "National Call Minutes - Land Lines - Local",
+    "National Call Minutes - Land Lines - Inter- zone",
+    "National Call Minutes - Land Lines - Fixed-->Mobile",
+    "National Call Minutes - Land Lines - Mobile call Minutes",
+    "International call minutes",
+    "SMS Usage Outgoing SMS's (in 000s)"
+  ],
+  "row_count": 10
+}

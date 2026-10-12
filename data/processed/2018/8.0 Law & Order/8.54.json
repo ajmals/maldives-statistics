@@ -1,0 +1,19 @@
+{
+  "table_id": "8.54",
+  "title_en": "TABLE 8.54: REPORTED CASES ON VIOLENCE AGAINST WOMEN BY TYPE, 2011 - 2017",
+  "title_dv": "ތާވަލު 8.54: ހުށައެޅިފައިވާ އަންހެނުންނަށް ކުރާ އަނިޔާގެ މައްސަލަތައް، 2011 - 2017",
+  "unit": "",
+  "source": "Source: Ministry of Gender & Family",
+  "notes": [],
+  "columns": [
+    "Types of violence",
+    "Number of cases reported - 2011",
+    "Number of cases reported - 2012",
+    "Number of cases reported - 2013",
+    "Number of cases reported - 2014",
+    "Number of cases reported - 2015",
+    "Number of cases reported - 2016",
+    "Number of cases reported - 2017"
+  ],
+  "row_count": 4
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "17.6",
+  "title_en": "Table 17.6 : CONSUMER PRICE INDEX, FOR MALE' AND ATOLLS BY MONTH, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: Aug 2019=100) - Major Groups - Republic",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Jan",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Feb",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Mar",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Apr",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - May",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Jun",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Jul",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Aug",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Sep",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Oct",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Nov",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Dec",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2021 - Jan - Dec"
+  ],
+  "row_count": 60
+}

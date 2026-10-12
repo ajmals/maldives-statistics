@@ -1,0 +1,20 @@
+{
+  "table_id": "11.2",
+  "title_en": "Table 11.2 : REGISTERED AND NEWLY REGISTERED VESSELS ACCORDING TO TYPE, 2006 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Transport and Communication",
+  "notes": [],
+  "columns": [
+    "Type of Vehicles",
+    "Registered - 2006",
+    "Registered - 2007",
+    "Registered - 2008",
+    "Registered - 2009",
+    "Newly Registered - 2006",
+    "Newly Registered - 2007",
+    "Newly Registered - 2008",
+    "Newly Registered - 2009"
+  ],
+  "row_count": 11
+}

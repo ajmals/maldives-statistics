@@ -1,0 +1,30 @@
+{
+  "table_id": "19.9",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source : Depart ment of National Planning",
+  "notes": [
+    "Note: Data hav e been taken from the past publications of the Statistical Yearbook of Maldives",
+    "FIG: POPULATION PYRAMID (POPULATION AND HOUSING CENSUS OF 1985, 1990, 1995, 2000 & 2006"
+  ],
+  "columns": [
+    "Age group",
+    "Both Sexes - 1985",
+    "Both Sexes - 1990",
+    "Both Sexes - 1995",
+    "Both Sexes - 2000",
+    "Both Sexes - 2006",
+    "Male - 1985",
+    "Male - 1990",
+    "Male - 1995",
+    "Male - 2000",
+    "Male - 2006",
+    "Female - 1985",
+    "Female - 1990",
+    "Female - 1995",
+    "Female - 2000",
+    "Female - 2006"
+  ],
+  "row_count": 24
+}

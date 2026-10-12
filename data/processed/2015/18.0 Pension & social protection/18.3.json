@@ -1,0 +1,28 @@
+{
+  "table_id": "18.3",
+  "title_en": "TABLE 18.3: NUMBER OF BENFICIARIES BY PENSION SCHEME AND SEX, 2013 - 2014",
+  "title_dv": "ތާވަލު 18.3: އެކި ޕެންޝަން ސްކީމްތަކުން ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު، 2013 - 2014",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [
+    "1_/ Those pensioners receiving less than 5,000 mvr is given the balance amount to reach 5,000 mvr under this scheme. Senior Citizen Allowance was introduced in February 2014.",
+    "ދައުލަތުން ޕެންޝަންލިބޭ ފަރާޓްތަކުގެ ތެރެއިން މަހަކު 000،5ރ އަށްވުރެ މަދުން ޕެންޝަން ފައިސާ ލިބޭ ފަރާޓްތަކަށް 000،5ރ ހަމަކޮށްދިނުމަށްޓަކާ ހެދި ސްކީމެއް. ސީނިއަރ ސިޓިޒަން އެލަވަންސް ސްކީމް ތަޢާރަފުކުރެވިފައިވާ ފެބްރުއަރީ 2014 ގައެވެ."
+  ],
+  "columns": [
+    "Type of pension",
+    "2012 - Total",
+    "2012 - Male",
+    "2012 - Female",
+    "Benficiaries (end year) - 2013 - Total",
+    "Benficiaries (end year) - 2013 - Male",
+    "Benficiaries (end year) - 2013 - Female",
+    "Benficiaries (end year) - 2014 - Total",
+    "(In MVR) - Benficiaries (end year) - 2014 - Male",
+    "(In MVR) - Benficiaries (end year) - 2014 - Female",
+    "(In MVR) - Benficiaries (end year) - % share - 2013",
+    "(In MVR) - Benficiaries (end year) - % share - 2014",
+    "(In MVR) - Benficiaries (end year) - % share - % share of females - 2014",
+    "(In MVR) - Benficiaries (end year) - % change - % share of females - 2013-2014"
+  ],
+  "row_count": 5
+}

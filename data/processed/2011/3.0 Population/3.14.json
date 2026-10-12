@@ -1,0 +1,21 @@
+{
+  "table_id": "3.14",
+  "title_en": "Table 3.14 :NUMBER OF PERSONS MARRIED AND DIVORCED,IN MALE', BY AGE GROUP OF BRIDE AND GROOM, 2005-2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: A'ailaa aai behey court",
+  "notes": [],
+  "columns": [
+    "Age of bride & bridegroom - 2004",
+    "15 & Over",
+    "15 - 19",
+    "20 - 24",
+    "25 - 29",
+    "30 - 34",
+    "35 - 39",
+    "40 - 44",
+    "45 - 49",
+    "50 & Over"
+  ],
+  "row_count": 40
+}

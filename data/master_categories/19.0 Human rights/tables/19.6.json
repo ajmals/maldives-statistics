@@ -1,0 +1,20 @@
+{
+  "table_id": "19.6",
+  "category": "19.0 Human rights",
+  "title_en": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "time_span": "2004",
+  "year_min": 2004,
+  "year_max": 2004,
+  "row_count": 25,
+  "column_count": 3,
+  "columns": [
+    "Item",
+    "19.6: CONSUMER PRICE INDEX ( base = June ) - CPI, Male' - 2004",
+    "19.6: CONSUMER PRICE INDEX ( base = June ) - Inflation rate (% - 2004"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/19.6.csv"
+}

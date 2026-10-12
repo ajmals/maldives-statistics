@@ -1,0 +1,19 @@
+{
+  "table_id": "18.12",
+  "title_en": "TABLE 18.12: ESTABLISHMENTS REGISTERED IN THE RETIREMENT PENSION SCHEME, BY EMPLOYMENT SIZE, END 2014",
+  "title_dv": "ތާވަލު 18.12 : އެކި ދާއިރާތަކުން ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްގައި ރެޖިސްޓްރީކޮށްފައިވާ ތަންތަނުގެ ޢަދަދު، ތަނުގެމުވައްޒަފުންގެ ގިންތިން ، 2014",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Sector",
+    "Establishments by Employment size - 0-9",
+    "Establishments by Employment size - 10-49",
+    "Establishments by Employment size - 50-99",
+    "Establishments by Employment size - 100-299",
+    "Establishments by Employment size - >300",
+    "Establishments by Employment size - Total",
+    "% share"
+  ],
+  "row_count": 26
+}

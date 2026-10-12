@@ -1,0 +1,39 @@
+{
+  "table_id": "14.7-1",
+  "category": "14.0 Money and banking",
+  "title_en": "Table 14.7 :ASSETS AND LIABILITIES OF OTHER DEPOSITORY CORPORATIONS, 2015 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1_/ Data includes accrued interest receivables and accounts receivables from private sector.",
+    "2_/: Revised",
+    "New format based on IMF Monetary and Financial Statistics Manual 2000 (MFSM 2000)."
+  ],
+  "time_span": "2015 – 2019",
+  "year_min": 2015,
+  "year_max": 2019,
+  "row_count": 29,
+  "column_count": 17,
+  "columns": [
+    "Item",
+    "(In millions of Rufiyaa; end of period) - 20172_/ - Dec - 2019",
+    "(In millions of Rufiyaa; end of period) - 20172_/ - Jun - 2019",
+    "(In millions of Rufiyaa; end of period) - 20172_/ - Mar - 2019",
+    "(In millions of Rufiyaa; end of period) - 20172_/ - Sep - 2019",
+    "In millions of Rufiyaa; end of period) -  - Dec - 2015",
+    "In millions of Rufiyaa; end of period) -  - Dec - 2016",
+    "In millions of Rufiyaa; end of period) -  - Dec - 2018",
+    "In millions of Rufiyaa; end of period) -  - Jun - 2015",
+    "In millions of Rufiyaa; end of period) -  - Jun - 2016",
+    "In millions of Rufiyaa; end of period) -  - Jun - 2018",
+    "In millions of Rufiyaa; end of period) -  - Mar - 2015",
+    "In millions of Rufiyaa; end of period) -  - Mar - 2016",
+    "In millions of Rufiyaa; end of period) -  - Mar - 2018",
+    "In millions of Rufiyaa; end of period) -  - Sep - 2015",
+    "In millions of Rufiyaa; end of period) -  - Sep - 2016",
+    "In millions of Rufiyaa; end of period) -  - Sep - 2018"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/14.7-1.csv"
+}

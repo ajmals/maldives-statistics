@@ -1,0 +1,25 @@
+{
+  "table_id": "9.3fig9.1",
+  "category": "9.0 Fisheries & Agriculture",
+  "title_en": "Table 9.3 : FISH LANDING BY TYPE AND LOCALITY, 2010",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "time_span": "2011",
+  "year_min": 2011,
+  "year_max": 2011,
+  "row_count": 24,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    "(In metric tons) - Type of fish - Dogtooth tuna - 2011",
+    "(In metric tons) - Type of fish - Frigate tuna - 2011",
+    "(In metric tons) - Type of fish - Little tuna - 2011",
+    "(In metric tons) - Type of fish - Other marine fish - 2011",
+    "(In metric tons) - Type of fish - Skipjack tuna - 2011",
+    "(In metric tons) - Type of fish - Total - 2011",
+    "(In metric tons) - Type of fish - Yellowfin tuna - 2011"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/9.3fig9.1.csv"
+}

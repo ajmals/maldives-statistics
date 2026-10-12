@@ -1,0 +1,41 @@
+{
+  "table_id": "7.3",
+  "title_en": "Table 7.3: STUDENT ENROLMENT IN MALE' AND ATOLLS BY TYPE OF LEVEL AND INSTITUTION , 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source : Ministry of Education",
+  "notes": [
+    "Note: Sum of schools in this table does not add up to total number of schools as schools overlap in levels",
+    "1_/ The total num ber of students exclude 145 children with special needs in male."
+  ],
+  "columns": [
+    "Locality",
+    "No. of Students",
+    "Pre - Primary - No .of schools",
+    "Pre - Primary - Both Sexes",
+    "Pre - Primary - % of Females",
+    "Primary Level - No .of schools",
+    "Primary Level - Both Sexes",
+    "Primary Level - % of Females",
+    "Lower Secondary Level - No .of schools",
+    "Lower Secondary Level - Both Sexes",
+    "Lower Secondary Level - % of Females",
+    "Higher Secondary Level - No .of schools",
+    "Higher Secondary Level - Both Sexes",
+    "Higher Secondary Level - % of Females",
+    "Higher Secondary Level - No. of Students",
+    "Pre - Primary - No .of schools_2",
+    "Pre - Primary - Both Sexes_2",
+    "Pre - Primary - % of Females_2",
+    "Primary Level - No .of schools_2",
+    "Primary Level - Both Sexes_2",
+    "Primary Level - % of Females_2",
+    "Lower Secondary Level - No .of schools_2",
+    "Lower Secondary Level - Both Sexes_2",
+    "Lower Secondary Level - % of Females_2",
+    "Higher Secondary Level - No .of schools_2",
+    "Higher Secondary Level - Both Sexes_2",
+    "Higher Secondary Level - % of Females_2"
+  ],
+  "row_count": 23
+}

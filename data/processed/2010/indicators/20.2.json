@@ -1,0 +1,22 @@
+{
+  "table_id": "20.2",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "ISLAND LEVEL BASIC INDICATORS - LOCALITY - Atoll / Island",
+    "ISLAND LEVEL BASIC INDICATORS - EDUCATION - Literacy Rate",
+    "ISLAND LEVEL BASIC INDICATORS - EDUCATION - Lower secondary school completion rate",
+    "ISLAND LEVEL BASIC INDICATORS - EDUCATION - Higher secondary school completion rate",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Total 15 years of age and over",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Total Labour force",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Labour force participation rate",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Unemployment Rate",
+    "ISLAND LEVEL BASIC INDICATORS - MARTITAL STATUS - 15 Years and above Male - Mean age at first marriage",
+    "ISLAND LEVEL BASIC INDICATORS - MARTITAL STATUS - 15 Years and above Female - Mean age at first marriage",
+    "ISLAND LEVEL BASIC INDICATORS - FERTILITY - Total Fertility Rate (TFR)"
+  ],
+  "row_count": 235
+}

@@ -1,0 +1,18 @@
+{
+  "table_id": "6.15",
+  "title_en": "Table 6.15 : TUBERCULOSIS CASES, BY AGE GROUP, 2009 - 2020",
+  "title_dv": "ތާވަލު 6.15: ޓީ.ބީގެ ބަލިމީހުންގެ ޢަދަދު، ޢުމުރުފުރާގެ ގޮތުން، 2009 - 2020",
+  "unit": "",
+  "source": "Source:Health Protection Agency",
+  "notes": [],
+  "columns": [
+    "Type of Treatment",
+    "Total - 2009",
+    "0 - 14 - 2009",
+    "15 - 24 - 2009",
+    "25 - 34 - 2009",
+    "35 - 44 - 2009",
+    "45 & over - 2009"
+  ],
+  "row_count": 47
+}

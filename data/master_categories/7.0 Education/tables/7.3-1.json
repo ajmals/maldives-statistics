@@ -1,0 +1,38 @@
+{
+  "table_id": "7.3-1",
+  "category": "7.0 Education",
+  "title_en": "Table 7.3: STUDENT ENROLMENT IN MALE' AND ATOLLS BY TYPE OF LEVEL AND INSTITUTION , 2018",
+  "unit": "",
+  "source": "Source : Ministry of Education",
+  "notes": [
+    "Note: Sum of schools in this table does not add up to total number of schools as schools overlap in levels",
+    "1_/ Excludes children with special needs."
+  ],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 23,
+  "column_count": 18,
+  "columns": [
+    "Item",
+    "Higher Secondary Level - ccnehcnwa - Females - 2019",
+    "Higher Secondary Level - cniawtcawscnia - % of Females - 2019",
+    "Higher Secondary Level - udwdwa egclUkcs - Both Sexes - 2019",
+    "Higher Secondary Level - udwdwa egclUkcs - No .of schools - 2019",
+    "Lower Secondary Level - ccnehcnwa - Females - 2019",
+    "Lower Secondary Level - cniawtcawscnia - % of Females - 2019",
+    "Lower Secondary Level - udwdwa egclUkcs - Both Sexes - 2019",
+    "Lower Secondary Level - udwdwa egclUkcs - No .of schools - 2019",
+    "Pre - Primary - ccnehcnwa - Females - 2019",
+    "Pre - Primary - cnia wtcawscnia - % of Females - 2019",
+    "Pre - Primary - udwdwa egclUkcs - Both Sexes - 2019",
+    "Pre - Primary - udwdwa egclUkcs - No .of schools - 2019",
+    "Primary Level - ccnehcnwa - Females - 2019",
+    "Primary Level - cniawtcawscnia - % of Females - 2019",
+    "Primary Level - udwdwa egclUkcs - Both Sexes - 2019",
+    "Primary Level - udwdwa egclUkcs - No .of schools - 2019",
+    "egcnidukWvwyik udwdwA - No. of Students1_/ - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/7.3-1.csv"
+}

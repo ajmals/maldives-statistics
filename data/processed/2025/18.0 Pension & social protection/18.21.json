@@ -1,0 +1,19 @@
+{
+  "table_id": "18.21",
+  "title_en": "Table 18.21 : GOVERNMENT EXPENDITURE ON DIFFERENT SOCIAL PROTECTION SCHEMES BY TYPE (in MVR), 2024",
+  "title_dv": "ތާވަލް 18.21: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުންދެވޭ ޚިދުމަތްތަކަށް ދައުލަތުންކުރެވުނު ޚަރަދު (ރުފިޔާއިން)، 2024",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [],
+  "columns": [
+    "Month",
+    "TOTAL",
+    "AASANDHA - TOTAL",
+    "SINGLE PARENT ALLOWANCE - TOTAL",
+    "FOSTER PARENT ALLOWANCE - TOTAL",
+    "EMERGENCY MEDICAL WELFARE - TOTAL",
+    "DISABILITY ALLOWANCE - TOTAL",
+    "FOOD SUBSIDY - TOTAL"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,27 @@
+{
+  "table_id": "10.13-1",
+  "title_en": "Table 10.13 : MONTHLY DISTRIBUTION OF TOURIST ARRIVALS BY NATIONALITY, 2018",
+  "title_dv": "ތާވަލު 10.13: ޤައުމުތަކުގެ ގޮތުން ރާއްޖެއައި ފަތުރުވެރިންގެ ޢަދަދު، މަސްމަހުގެ ގޮތުން، 2018",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Maldives Immigration"
+  ],
+  "columns": [
+    "Country of Nationality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 97
+}

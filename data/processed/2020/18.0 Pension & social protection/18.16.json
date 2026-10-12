@@ -1,0 +1,23 @@
+{
+  "table_id": "18.16",
+  "title_en": "Table 18.16 : NUMBER OF PERSONS COVERED UNDER DIFFERENT SOCIAL PROTECTION SCHEMES BY LOCALITY, 2019",
+  "title_dv": "ތާވަލް 18.16: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން އަތޮޅުތަކުން ޚިދުމަތްދެވިފައިވާ މީހުންގެ އަދަދު، 2019",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "Note: Universal Health Insuarance Scheme named \"Aasandha\" was introduced in January 2012 and replaced the existing schemes \"Madhana\" and \"Madhana Plus\"."
+  ],
+  "columns": [
+    "Locality",
+    "TOTAL",
+    "TOTAL - HEALTH INSURANCE SCHEMES - Aasandha",
+    "TOTAL - SINGLE PARENT ALLOWANCE - Parent",
+    "TOTAL - SINGLE PARENT ALLOWANCE - Children",
+    "TOTAL - FOSTER PARENT ALLOWANCE - Parent",
+    "TOTAL - FOSTER PARENT ALLOWANCE - Children",
+    "TOTAL - EMERGENCY MEDICAL WELFARE",
+    "TOTAL - DISABILITY ALLOWANCE - EMERGENCY MEDICAL WELFARE",
+    "TOTAL - FOOD SUBSIDY - EMERGENCY MEDICAL WELFARE"
+  ],
+  "row_count": 23
+}

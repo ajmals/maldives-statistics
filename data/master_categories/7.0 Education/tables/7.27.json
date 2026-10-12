@@ -1,0 +1,26 @@
+{
+  "table_id": "7.27",
+  "category": "7.0 Education",
+  "title_en": "Table 7.27: Number of higher education institutions, 2019",
+  "unit": "",
+  "source": "Source: Ministry of Higher Education",
+  "notes": [
+    "Note: Excluding Institute for Security and Law Enforcement Studies (ISLES) and College of Defence and Security Studies (CDSS)"
+  ],
+  "time_span": "2020 – 2022",
+  "year_min": 2020,
+  "year_max": 2022,
+  "row_count": 2,
+  "column_count": 7,
+  "columns": [
+    "Item",
+    "Government - 2020",
+    "Government - 2021",
+    "Government - 2022",
+    "Private - 2020",
+    "Private - 2021",
+    "Private - 2022"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/7.27.csv"
+}

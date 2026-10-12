@@ -1,0 +1,16 @@
+{
+  "table_id": "4.5",
+  "title_en": "TABLE 4.5: AREA OF BUILDINGS AUTHORIZED FOR CONSTRUCTION BY MONTH, 2013 - 2014",
+  "title_dv": "ތާވަލު 4.5: މަސްމަހުގެ ގޮތުން އިމާރާތްކުރުމުގެ ހުއްދަ ދެވިފައިވާ ތަންތަނުގެ ބޮޑުމިން، 2013 - 2014",
+  "unit": "",
+  "source": "Source: Male' City Council, Building Approval Section",
+  "notes": [
+    "iawbEhebWmunid wdcauh cSwmuruk ctWrWmiA /cliscnuawk ITis ElWm :ctWrwfivcaed utWmUluAwm"
+  ],
+  "columns": [
+    "Month",
+    "Area in sqm - 2013",
+    "Area in sqm - 2014"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,28 @@
+{
+  "table_id": "17.14",
+  "title_en": "Table 17.14 : EXCHANGE RATES, 2015 - 2017",
+  "title_dv": "2017 - 2015 ,ugwa egWsiaWf urEb : 17.14 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [],
+  "columns": [
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Type of Currency",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2014 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2014 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2014 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2014 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2015 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2015 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2015 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2015 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2016 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2016 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2016 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2016 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2017 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2017 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2017 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2017 - Dec"
+  ],
+  "row_count": 18
+}

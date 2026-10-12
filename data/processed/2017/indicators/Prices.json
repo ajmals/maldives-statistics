@@ -1,0 +1,25 @@
+{
+  "table_id": "Prices",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: 1_/: In April 2011, the exchange rate regime was changed from a fixed rate regime to a band of 20 percent around a central parity of MVR 12.8 per US dollar"
+  ],
+  "columns": [
+    "PRICES - Consumer Price Index (CPI), June 2012 = 100",
+    "PRICES - 2006",
+    "PRICES - 2007",
+    "PRICES - 2008",
+    "PRICES - 2009",
+    "PRICES - 2010",
+    "PRICES - 2011",
+    "PRICES - 2012",
+    "PRICES - 2013",
+    "PRICES - 2014",
+    "PRICES - 2015",
+    "PRICES - 2016"
+  ],
+  "row_count": 6
+}

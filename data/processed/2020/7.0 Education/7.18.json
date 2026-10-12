@@ -1,0 +1,18 @@
+{
+  "table_id": "7.18",
+  "title_en": "TABLE 7.18: NUMBER OF CANDIDATES SAT IN SECONDARY EXAM BY SEX , 2018 - 2019",
+  "title_dv": "ތާވަލް 7.18: ޖިންސުގެ ގޮތުން ޘާނަވީ އިމްތިހާނުގައި ސްކޫލްތަކުން ދަރިވަރުން ބައިވެރިކުރި އަދަދު 2018 - 2019",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "2018 - Both sex",
+    "2018 - Male",
+    "2018 - Female",
+    "2019 - Both sex",
+    "2019 - Male",
+    "2019 - Female"
+  ],
+  "row_count": 3
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "3.1",
+  "title_en": "Table 3.1 : TOTAL MALDIVIAN POPULATION BY SEX, SEX - RATIO, AND INTER-CENSAL ANNUAL GROWTH RATE, 1911 - 2022",
+  "title_dv": "2022 - 1911 ,urwvcnim WvurutiaIdWbWa ukwrwhwa cSokcjercvea Wviawgudem egukwtcnunemihOb iaWaIdWbWa egcnIhevid egukwtcnunemihOb cnutwbcsin egcscnij iaWscnij : 3.1 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics",
+  "notes": [
+    "Note: Prior to 2014, Census population excludes expatriate population in the country due to practical difficulties in enumeration.",
+    "ނޯޓް: 2014 ގެ ކުރިން ބޭއްވުނު ބޯހިމެނުންތަކުގައި ބިދޭސީ އާބާދީ ހިމެނިފައެއް ނުވެއެވެ. އެއީ މިކަމުގައި ޢަމަލީ ގޮތުން ދިމާވާ މައްސަލަތަކާއި ދަތިތަކުގެ ސަބަބުންނެވެ.",
+    "Average annual growth rates should be compared with caution because they are calculated in reference to different durations (for one year census intervals between 1957 and 1974)."
+  ],
+  "columns": [
+    "No.",
+    "Census - Year",
+    "Census - Date",
+    "Local Population - Number - Both Sexes",
+    "Local Population - Number - Male",
+    "Local Population - Number - Female",
+    "Local Population - Percent - Male",
+    "Local Population - Percent - Female",
+    "Sex Ratio - (Males per 100 females)",
+    "Annual Rate - of Growth (Exponential)"
+  ],
+  "row_count": 30
+}

@@ -1,0 +1,21 @@
+{
+  "table_id": "3.16",
+  "title_en": "Table 3.16 : DEATHS BY AGE AND SEX, BY MAJOR ADMINISTRATIVE UNITS, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family , Decision Support Division",
+  "notes": [],
+  "columns": [
+    "Age Groups",
+    "Republic - Both Sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both Sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both Sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 20
+}

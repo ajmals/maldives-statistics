@@ -1,0 +1,20 @@
+{
+  "table_id": "7.1",
+  "title_en": "TABLE 7.1: STUDENT ENROLMENT BY EDUCATIONAL LEVEL AND SEX, 2021 - 2022 (As of 01 June 2022)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - Total",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - Pre-K",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - K",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - KS1",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - KS2",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - KS3",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - KS4",
+    "Student enrolment by level and sex, 2021 - 2022 (As of 01 June 2022) - KS5"
+  ],
+  "row_count": 3
+}

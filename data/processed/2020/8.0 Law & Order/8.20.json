@@ -1,0 +1,26 @@
+{
+  "table_id": "8.20",
+  "title_en": "Table 8.20: NUMBER OF VICTIMS BY TYPE OF OFFENCES, GENDER AND AGE GROUP, 2019",
+  "title_dv": "ތާވަލު 8.20: ހުށަހެޅިފައިވާ މައްސަލަތަކުގައި އަނިޔާލިބިފައިވާ މީހުންގެ އަދަދު ޖިންސް އަދި އުމުރުފުރާއިން، 2019",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: Foreigners without ages are not included in this total"
+  ],
+  "columns": [
+    "Type of offence",
+    "Both sexes - Total",
+    "Both sexes - < 18",
+    "Both sexes - 18-34",
+    "Both sexes - 35 +",
+    "Male - Total",
+    "Male - < 18",
+    "Male - 18-34",
+    "Male - 35+",
+    "Female - Total",
+    "Female - < 18",
+    "Female - 18-34",
+    "Female - 35+"
+  ],
+  "row_count": 26
+}

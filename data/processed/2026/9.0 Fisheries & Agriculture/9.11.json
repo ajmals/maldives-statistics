@@ -1,0 +1,21 @@
+{
+  "table_id": "9.11",
+  "title_en": "Table 9.11: Monthly Fresh Tuna Purchased by Licensed Fish Processors, 2025",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Agriculture and Ocean Resources",
+  "notes": [],
+  "columns": [
+    "In metrictons (t) - Month",
+    "In metrictons (t) - Total tuna purchase",
+    "In metrictons (t) - Yellowfin Tuna",
+    "In metrictons (t) - Skipjack Tuna",
+    "In metrictons (t) - Bigeye Tuna",
+    "In metrictons (t) - Frigated Tuna",
+    "In metrictons (t) - Reef Fishes",
+    "In metrictons (t) - Grouper",
+    "In metrictons (t) - Dolphin fish",
+    "In metrictons (t) - Wahoo_2"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,17 @@
+{
+  "table_id": "11.24",
+  "title_en": "Table 11.24 : MAIL HANDLED AT IBRAHIM NASIR INTERNATIONAL AIRPORT BY MONTH, 2023",
+  "title_dv": "ތާވަލު 11.24: މަސްމަހުގެ ގޮތުން އިބްރާހީމް ނާސިރު އިންޓަރނޭޝަނަލް އެއަރޕޯޓުން އުފުލުނު މެއިލް، 2023",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "(in Kg) - Month",
+    "(in Kg) - Total",
+    "(in Kg) - International Flights - Inward",
+    "(in Kg) - International Flights - Outward",
+    "(in Kg) - Domestic Flights - Inward",
+    "(in Kg) - Domestic Flights - Outward"
+  ],
+  "row_count": 13
+}

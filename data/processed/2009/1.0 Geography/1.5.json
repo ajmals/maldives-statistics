@@ -1,0 +1,18 @@
+{
+  "table_id": "1.5",
+  "title_en": "Table 1.5 : AREA AND DISTANCE TO MALE' AND ATOLL CAPITALS, BY LOCALITY",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source : Ministry of Planning and National Development",
+  "notes": [
+    "1_/ As of May 2003",
+    "2_/ Reclaimed Area as of 2006"
+  ],
+  "columns": [
+    "Republic",
+    "Area 1_/ - ( in hectares )",
+    "Distance to Male' - ( in km )",
+    "Distance to Atoll Capital - ( in km )"
+  ],
+  "row_count": 225
+}

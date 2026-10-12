@@ -1,0 +1,20 @@
+{
+  "table_id": "8.42",
+  "title_en": "Table 8.42: Number of person commited in Human Trafficking, 2021 - 2023",
+  "title_dv": "ތާވަލު 8.42: އިންސާނީ ވަގުފާރީގެ މައްސލަތަކުގައި ޝާމިލުވާ ފަރާތްތައް ، 2021 - 2023",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "Note: No cases was filed during 2020"
+  ],
+  "columns": [
+    "Age group",
+    "2021 - Tracfficker - Both Sex",
+    "2022 - Tracfficker - Both Sex",
+    "2022 - Victim - Both Sex",
+    "2022 - Victim - Female",
+    "2023 - Tracfficker - Both Sex",
+    "2023 - Victim - Both Sex"
+  ],
+  "row_count": 7
+}

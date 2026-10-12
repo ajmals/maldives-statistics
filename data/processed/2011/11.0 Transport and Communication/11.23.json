@@ -1,0 +1,15 @@
+{
+  "table_id": "11.23",
+  "title_en": "TABLE 11.23: PASSENGER MOVEMENT BY FERRY BY ATOLL AND ISLAND, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Transport and Communication",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Arrival",
+    "Depart"
+  ],
+  "row_count": 220
+}

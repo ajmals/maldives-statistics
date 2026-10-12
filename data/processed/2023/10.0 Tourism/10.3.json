@@ -1,0 +1,28 @@
+{
+  "table_id": "10.3",
+  "title_en": "Table 10.3: BED CAPACITY AND UTILIZATION BY MONTH, 2021-2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "May, June and July 2020, Average Duration of Stay is based on estimated number of tourists in the Maldives.",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country."
+  ],
+  "columns": [
+    "Month",
+    "2021 - Registered Bed Capacity",
+    "2021 - Beds in operation",
+    "2021 - % share of registered beds in operation",
+    "2021 - Bed Capacity Utilization Rate %",
+    "2021 - Tourist Bednights",
+    "2021 - Average Duration of stay (days)",
+    "2022 - Registered Bed Capacity",
+    "2022 - Beds in operation",
+    "2022 - % share of registered beds in operation",
+    "2022 - Bed Capacity Utilization Rate %",
+    "2022 - Tourist Bednights",
+    "2022 - Average Duration of stay (days)"
+  ],
+  "row_count": 13
+}

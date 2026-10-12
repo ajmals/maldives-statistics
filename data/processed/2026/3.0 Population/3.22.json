@@ -1,0 +1,39 @@
+{
+  "table_id": "3.22",
+  "title_en": "TABLE 3.22: NUMBER OF MARRIAGES BY NUMBER OF TIMES MARRIED BY SEX, 2019 - 2024",
+  "title_dv": "ތާވަލު 3.22: ކައިވެނީގެ އަދަދާއި ކައިވެނި ކުރި ފަހަރު އަދި ޖިންސު، 2019 - 2024",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "Male",
+    "First",
+    "Second",
+    "Third",
+    "Fourth or more",
+    "2020",
+    "Male",
+    "First",
+    "Second",
+    "Third",
+    "Fourth or more"
+  ],
+  "columns": [
+    "Column_1",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Column_7",
+    "Column_8",
+    "Column_9",
+    "Column_10",
+    "Column_11",
+    "Column_12",
+    "Column_13",
+    "Female - 5170",
+    "Female - 5170_2",
+    "Female - 5170_3"
+  ],
+  "row_count": 8
+}

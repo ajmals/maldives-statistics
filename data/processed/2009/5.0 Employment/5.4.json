@@ -1,0 +1,22 @@
+{
+  "table_id": "5.4",
+  "title_en": "Table 5.4 : POPULATION 15 YEARS OF AGE AND OVER BY TYPE OF ACTIVITY, CROSS CLASSIFIED BY AGE AND SEX, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source : Department of National Planning",
+  "notes": [
+    "Note: Includes only the local population"
+  ],
+  "columns": [
+    "Sex and Age - group",
+    "Total 15 years of - age and over",
+    "Activity Status - Economically Active - Total 15 years of - Total",
+    "Activity Status - Economically Active - Total 15 years of - Employed",
+    "Activity Status - Economically Active - Total 15 years of - Unemployed",
+    "Activity Status - Economically Active - Not Economically - Active",
+    "Activity Status - Economically Active - Not Stated - Active",
+    "Activity Status - Economically Active - Age-sex specific - activity rate",
+    "Activity Status - Economically Active - Unemployment - Rate"
+  ],
+  "row_count": 47
+}

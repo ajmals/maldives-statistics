@@ -1,0 +1,23 @@
+{
+  "table_id": "11.27",
+  "title_en": "Table 11.27: Monthly passanger movement by mode of transport, 2019",
+  "title_dv": "ތާވަލު 11.27: އެކި މަސްމަހު އެމް.ޓީ.ސީ.ސީ ދަތުރުފަތުރުގެ ޚިދުމަތް ބޭނުންކުރި ޕަސިންޖަރުންގެ އަދަދު، 2019",
+  "unit": "",
+  "source": "Source: Maldives Transport and Contracting Company",
+  "notes": [
+    "Note:",
+    "1_/ : Metro Bus- Serves Hulhumale’ along its main transport routes and between Hulhumale’ and Velana International Airport (VIA)."
+  ],
+  "columns": [
+    "Month",
+    "Ferry service - Hulhumale' Ferry - Male'",
+    "Ferry service - Hulhumale' Ferry - Hulhumale",
+    "Ferry service - Villigili Ferry - Male'",
+    "Ferry service - Villigili Ferry - Villigili",
+    "Ferry service - Thilafushi - Male'",
+    "Ferry service - Thilafushi",
+    "Bus service1_/ - Hulhumale'N1 & N2",
+    "Bus service1_/ - Airport Bus"
+  ],
+  "row_count": 13
+}

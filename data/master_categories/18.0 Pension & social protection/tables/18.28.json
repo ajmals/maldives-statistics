@@ -1,0 +1,32 @@
+{
+  "table_id": "18.28",
+  "category": "18.0 Pension & social protection",
+  "title_en": "Table 18.28: Aasandha Services provided by type and Atoll, 2022",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "Note: Both Emergency evacuation and sent abroad figures had been given by number of cases, and may include multiple cases of same patient. Sent abroad cases includes both cases referred from Maldives and patient's who seeked treatment from abroad."
+  ],
+  "time_span": "2023 – 2025",
+  "year_min": 2023,
+  "year_max": 2025,
+  "row_count": 24,
+  "column_count": 13,
+  "columns": [
+    "Item",
+    "Number of - Emergency Evacuation - 2023",
+    "Number of - Emergency Evacuation - 2024",
+    "Number of - Emergency Evacuation - 2025",
+    "Number of - Empaneled Hospitals and clinics - 2023",
+    "Number of - Empaneled Hospitals and clinics - 2024",
+    "Number of - Empaneled Hospitals and clinics - 2025",
+    "Number of - Empaneled Pharmacies - 2023",
+    "Number of - Empaneled Pharmacies - 2024",
+    "Number of - Empaneled Pharmacies - 2025",
+    "Number of - Sent Abroad - 2023",
+    "Number of - Sent Abroad - 2024",
+    "Number of - Sent Abroad - 2025"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/18.28.csv"
+}

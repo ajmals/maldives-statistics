@@ -1,0 +1,27 @@
+{
+  "table_id": "17.11",
+  "title_en": "Table 17.11 : QUANTITY, VALUE AND UNIT VALUES FOR SELECTED EXPORT ITEMS, 2006 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note: the exchange rate used is an average taken from monthly rates used by customs.",
+    "Maldives Customs Services"
+  ],
+  "columns": [
+    "Items - Quantity",
+    "Unit",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "row_count": 32
+}

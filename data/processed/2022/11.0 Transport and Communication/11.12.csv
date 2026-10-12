@@ -1,0 +1,14 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Passengers - Transit,Cargo (kg) - In,Cargo (kg) - Out,Cargo (kg) - Transit,Mail (kg) - In,Mail (kg) - Out
+Total,4526,34701,37220,6424,196431.5,17956.84,11389.75,2532.2,321.6
+International Flights,562,1011,739,42,16654,761,,,
+International Scheduled,12,318,525,,16654,761,,,
+Srilankan Airlines,12,318,525,,16654,761,,,
+International Charter,,,,,,,,,
+International Non-Scheduled,550,693,214,42,,,,,
+Domestic flights,3964,33690,36481,6382,179777.5,17195.84,11389.75,2532.2,321.6
+Island Aviation (Scheduled),2652,33492,36326,6190,174346.5,17151.74,11389.75,2503.2,321.6
+Island Aviation (Non-Scheduled),36,131,119,142,5428,44.1,,29,
+Villa,4,53,16,50,3,,,,
+Manta Air,10,11,17,,,,,,
+Villa Air /Flyme (Non-Scheduled),2,3,3,,,,,,
+Other Domestic 1_/,1260,,,,,,,,

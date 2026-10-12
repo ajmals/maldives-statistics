@@ -1,0 +1,37 @@
+{
+  "table_id": "3.9",
+  "title_en": "Table 3.9 : LIVE BIRTHS AND INFANT DEATHS, 2013 - 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: 1_/ Total include Maldivians born abroad",
+    "2004",
+    "Male'",
+    "Atolls"
+  ],
+  "columns": [
+    "Particulars",
+    "2011 - Republic",
+    "2011 - Male'",
+    "2011 - Atolls",
+    "2011 - Abroad",
+    "2012 - Republic",
+    "2012 - Male'",
+    "2012 - Atolls",
+    "2012 - Abroad",
+    "2013 - Republic",
+    "2013 - Male'",
+    "2013 - Atolls",
+    "2013 - Abroad",
+    "2014 - Republic",
+    "2014 - Male'",
+    "2014 - Atolls",
+    "2014 - Abroad",
+    "2015 - Republic",
+    "2015 - Male'",
+    "2015 - Atolls",
+    "2015 - Abroad"
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,24 @@
+{
+  "table_id": "8.2",
+  "title_en": "TABLE 8.2 : NUMBER OF LOGGED CASES BY LOCALITY & TYPE OF CASES, 2017 - 2019",
+  "title_dv": "ތާވަލު 8.2: މާލެ އަދި އަތޮޅުތަކުން ހުށަހެޅިފައިވާ މައްސަލަތަކުގެ ޢަދަދު އަދި ބާވަތް، 2017- 2019",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of case",
+    "2017 - Republic",
+    "2017 - Male'",
+    "2017 - Atolls",
+    "2018 - Republic",
+    "2018 - Male'",
+    "2018 - Atolls",
+    "2019 - Republic",
+    "2019 - Male'",
+    "2019 - Atolls",
+    "2019 - % change over 2018 - Republic",
+    "2019 - % change over 2018 - Male'",
+    "2019 - % change over 2018 - Atolls"
+  ],
+  "row_count": 24
+}

@@ -1,0 +1,27 @@
+{
+  "table_id": "5.2",
+  "title_en": "Table 5.2 : EXPATRIATE EMPLOYMENT BY INDUSTRY AND NATIONALITY, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Human Resources, Youth and Sports",
+  "notes": [],
+  "columns": [
+    "Nationality",
+    "Total",
+    "Agriculture and Forestry",
+    "Fishing",
+    "Manufacturing",
+    "Electricity, Gas & Water",
+    "Construction",
+    "Education",
+    "Wholesale & Retail Trade",
+    "Hotels & Restaurants",
+    "Tourism",
+    "Column_19",
+    "Transport, Storage and Communication",
+    "Column_22",
+    "Financing, insurance, business and real estate",
+    "Community, social and personal services"
+  ],
+  "row_count": 25
+}

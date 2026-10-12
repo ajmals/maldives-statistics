@@ -1,0 +1,39 @@
+{
+  "table_id": "9.1",
+  "title_en": "Table 9.1 :FISH PRODUCTION BY TYPE AND UTILIZATION, 2006 - 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Island Councils, Maldives Customs Services",
+  "notes": [
+    "Note:",
+    "Fish catch data for 2010 shows a substantial upward revision from 94.3 to 116.7 thousand metric tons, based on the fish collection data by vessel, newly available at the MOFA. Some vessesls had not reported catch data while reporting collection. Hence this ajustment could not be brought to previous years catch data to make it consistent.",
+    "Ftp stock not available (2006 & 2007)",
+    "The Export in metric tons does not include:",
+    "Articles Made Of Shells, Dried Shark Fins, Fish Soup, Flours, Meals And Pellets Of Fish, Etc, Unfit For Human Consumption,",
+    "Live Grouper, Live Ornamental Fish, Other Hides And Skins, Fresh Or Preserved, Not Tanned, Nes, Salted Dried Shark Fins & Shark-Liver Oil",
+    "Ministry of Fisheries and Agriculture"
+  ],
+  "columns": [
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Items",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - 2005",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2006",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2007",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2008",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2009",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2010",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2011",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2012",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2013",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Fish Production - 2014",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2006",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2007",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2008",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2009",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2010",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2011",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2012",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2013",
+    "(cnuhWh ckircTem ) - (In '000 metric tons) - Percentage share - 2014"
+  ],
+  "row_count": 8
+}

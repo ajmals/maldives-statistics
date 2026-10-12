@@ -1,0 +1,20 @@
+{
+  "table_id": "10.2",
+  "title_en": "Table 10.2 : TOTAL REGISTERED BED CAPACITY AND NUMBER OF ACCOMMODATION ESTABLISHMENTS, BY TYPE, 2019 - 2024 (end year)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note:1_/: 2021 data revised"
+  ],
+  "columns": [
+    "Type - Number of Beds (Registered)",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "row_count": 28
+}

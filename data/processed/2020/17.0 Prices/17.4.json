@@ -1,0 +1,29 @@
+{
+  "table_id": "17.4",
+  "title_en": "Table 17.4 : CPI GROUPS, by months, Republic, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "na- Not available",
+    "In 2019, base of ndex: Aug 2019=100, COICOP 2018 has been adopted in the rebased series"
+  ],
+  "columns": [
+    "(Index - base: Aug 2019=100) - Major Groups - Republic",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Jan",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Feb",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Mar",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Apr",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - May",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Jun",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Jul",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Aug",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Sep",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Oct",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Nov",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Dec",
+    "(Index - base: Aug 2019=100) - 2019 - Monthly CPI - Jan-Dec"
+  ],
+  "row_count": 18
+}

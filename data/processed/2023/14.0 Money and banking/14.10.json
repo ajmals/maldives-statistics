@@ -1,0 +1,32 @@
+{
+  "table_id": "14.10",
+  "title_en": "Table 14.10: Interest Rates, 2010 - 2020",
+  "title_dv": "ތާވަލު 14.10: އިންޓަރެސްޓް ރޭޓްތައް: (2010- 2020)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "Note: min = minimum, max = maximum, nc = n.a.tion.a.l currency, fc = foreign currency,WAIR = Weighted Average Interest Rate, n.a = not available.",
+    "1/ MMA temporarily suspended open market operations from May 2014 onwards",
+    "2/ MMA repurchase facility was introduced on 23 Nov 2006 replacing the Lombard facility.",
+    "3/ MMA introduced overnight deposit facility for commercial banks effective from 23 March 2010.",
+    "4/ Effective from 9th May 2010 MMA introduced Overnight Lombard facility replacing repurchase facility rate.",
+    "5/ Loans and advances min and max rates include the pen.a.l rates charged on unplanned advances or overdrafts and overdue installments.",
+    "6/ The Government of Maldives introduced Treasury bills on 11 Sep, 2006. With effective from 27 December 2009 the T-bill rates represents the current weighted average interest rate offered by the government.",
+    "7/ MAISX is calculated since the inception of Securites Trading Floor (Maldives Stock Exchange) on 5 May 2002."
+  ],
+  "columns": [
+    "(In per cent per annum, end of period) - MALDIVES MONETARY AUTHORITY 1/ - Certificates of Deposit - Repurchase Facility 2/ - Standing Facilities",
+    "(In per cent per annum, end of period) - 2010 - n.a.",
+    "(In per cent per annum, end of period) - 2011 - n.a.",
+    "(In per cent per annum, end of period) - 2012 - n.a.",
+    "(In per cent per annum, end of period) - 2013 - n.a.",
+    "(In per cent per annum, end of period) - 2014 - n.a.",
+    "(In per cent per annum, end of period) - 2015 - n.a.",
+    "(In per cent per annum, end of period) - 2016 - n.a.",
+    "(In per cent per annum, end of period) - 2017 - n.a.",
+    "(In per cent per annum, end of period) - 2018 - n.a.",
+    "(In per cent per annum, end of period) - 2019 - n.a.",
+    "(In per cent per annum, end of period) - 2020 - n.a."
+  ],
+  "row_count": 47
+}

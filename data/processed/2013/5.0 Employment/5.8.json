@@ -1,0 +1,21 @@
+{
+  "table_id": "5.8",
+  "title_en": "Table 5.8 : EMPLOYMENT IN ESTABLISHMENTS BY INDUSTRY, 2007",
+  "title_dv": "ތާވަލް 5.8: މަސައްކަތް ހިންގާ ތަންތަނުގައި ވަޒީފާ އަދާކުރާމީހުންގެ ޢަދަދު، 2007",
+  "unit": "",
+  "source": "Source: Economic Survey 2007 / Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Industry",
+    "Total",
+    "locals",
+    "Foreigners",
+    "Total_2",
+    "locals_2",
+    "Foreigners_2",
+    "Total_3",
+    "locals_3",
+    "Foreigners_3"
+  ],
+  "row_count": 17
+}

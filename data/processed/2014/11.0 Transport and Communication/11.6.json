@@ -1,0 +1,24 @@
+{
+  "table_id": "11.6",
+  "title_en": "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2013",
+  "title_dv": "ތާވަލު 11.6: ރަޖިސްޓްރީކުރެވުނު އެއްގަމުގައި ދުއްވާ އުޅަނދުފަހަރު، 2013",
+  "unit": "",
+  "source": "Source: Transport Authority",
+  "notes": [],
+  "columns": [
+    "Type of Vehicles",
+    "Total",
+    "Male'",
+    "Hulhumale'",
+    "Addu",
+    "Other atolls",
+    "% share in Male'",
+    "% share in Total",
+    "ctwvWb egudnwLua",
+    "Column_14",
+    "Column_15",
+    "Column_16",
+    "Column_17"
+  ],
+  "row_count": 10
+}

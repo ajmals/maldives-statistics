@@ -1,0 +1,39 @@
+{
+  "table_id": "10.1",
+  "title_en": "Table 10.1 : FLOW OF TOURISTS BY NATIONALITY, 2019 - 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: Maldives border was closed for international visitors on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country.",
+    "(*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "Country of Nationality",
+    "2018",
+    "No. of Tourists - 2019",
+    "No. of Tourists - 2020",
+    "No. of Tourists - 2021",
+    "No. of Tourists - 2022",
+    "No. of Tourists - 2023",
+    "No. of Tourists - 2024",
+    "No. of Tourists - 2012",
+    "No. of Tourists - 2013",
+    "Percentage Share - 2018",
+    "Percentage Share - 2019",
+    "Percentage Share - 2020",
+    "Percentage Share - 2021",
+    "Percentage Share - 2022",
+    "Percentage Share - 2023",
+    "Percentage Share - 2024",
+    "% change over previous year - 2016",
+    "% change over previous year - 2019",
+    "% change over previous year - 2020",
+    "% change over previous year - 2021",
+    "% change over previous year - 2022",
+    "% change over previous year - 2023",
+    "% change over previous year - 2024"
+  ],
+  "row_count": 63
+}

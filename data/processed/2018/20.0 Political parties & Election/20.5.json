@@ -1,0 +1,21 @@
+{
+  "table_id": "20.5",
+  "title_en": "TABLE 205.5: NUMBER OF PERSONS VOTED IN PARLIMENTARY ELECTIONS, 2014",
+  "title_dv": "ތާވަލު 20.5: ރައްޔިތުންގެ މަޖިލީހުގެ އިންތިޚާބު 2014 ގައި އަތޮޅުތަކުން ވޯޓުލީ މިންވަރު",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [
+    "Note: There were no elections in 2015, 2016 & 2017"
+  ],
+  "columns": [
+    "Column_1",
+    "Atoll",
+    "Electoral Area",
+    "Registered population",
+    "Eligible voters",
+    "Number voted",
+    "Voter turnout",
+    "Column_11"
+  ],
+  "row_count": 88
+}

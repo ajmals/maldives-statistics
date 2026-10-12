@@ -1,0 +1,21 @@
+{
+  "table_id": "5.5",
+  "title_en": "Table 5.5 : EXPATRIATE EMPLOYMENT BY OCCUPATION AND SEX, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Human Resources, Youth and Sports",
+  "notes": [
+    "Note: All data are aggregate figures",
+    "Note: All data are aggregate figures"
+  ],
+  "columns": [
+    "Occupation",
+    "Total",
+    "Male",
+    "Female",
+    "Male % distribution",
+    "Female % distribution",
+    "% share of women"
+  ],
+  "row_count": 10
+}

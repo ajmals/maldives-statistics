@@ -1,0 +1,38 @@
+{
+  "table_id": "11.26",
+  "title_en": "Table 11.26: TELECOMMUNICATION SERVICES, 2006 - 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Telecom Operators – Dhiraagu and Wataniya",
+  "notes": [
+    "Prepared by: Communications Authority of Maldives (CAM)",
+    "population",
+    "teledensity - mobile",
+    "teledensity - landline",
+    "tel internet",
+    "2 _/- telecom densities calculated, based on projected mid-year populations, MPND stats yearbooks 2007 and census figures",
+    "*",
+    "**",
+    "Prior to October 2011, ‘Fixed Lines’ data that we collected included DID’s (Direct Inward Dialling) Numbers. From October 2011, DID’s are not included as they are not considered as direct lines.",
+    "***"
+  ],
+  "columns": [
+    "Column_1",
+    "Column_2",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "row_count": 16
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "8.52",
+  "title_en": "Table 8.52: School attendance of children at Childrens Shelter, K.Villingili, by age group and sex, 2017",
+  "title_dv": "ތާވަލު 8.52: ވިލިމާލެ ކުޑަކުދިންގެ ހިޔާގައި ތިބި ސްކޫލަށްދާ އަދި ނުދާ ކުދިންގެ އަދަދު، 2017",
+  "unit": "",
+  "source": "Source: Ministry of Law & Gender",
+  "notes": [
+    "School attendance of children at Childrens Shelter, K.Villingili, by age group and sex, 2016",
+    "Age group",
+    "Age group",
+    "Total",
+    "3-4",
+    "5",
+    "6 - 9",
+    "10 - 14",
+    "15",
+    "16 - 18",
+    "18+"
+  ],
+  "columns": [
+    "Age group",
+    "No. of Children Attending School - Both Sexes",
+    "No. of Children Attending School - Male",
+    "No. of Children Attending School - Female",
+    "No. of Children Not Attending School - Both Sexes",
+    "No. of Children Not Attending School - Male",
+    "No. of Children Not Attending School - Female"
+  ],
+  "row_count": 8
+}

@@ -1,0 +1,18 @@
+{
+  "table_id": "9.7",
+  "title_en": "Table 9.7: Monthly Fresh Tuna Purchased, 2014 - 2016",
+  "title_dv": "ތާވަލު 9.7: އެކިމަސްމަހުގައި ގަތް ތާޒާމަސް، 2014 - 2016",
+  "unit": "",
+  "source": "Source: Purchasing companies",
+  "notes": [
+    "Compiled by: Statistics Unit,",
+    "Ministry of Fisheries & Agriculture"
+  ],
+  "columns": [
+    "In metrictons (MT) - Month",
+    "In metrictons (MT) - Purchased cswmWzWtctwg - 2014",
+    "In metrictons (MT) - Purchased cswmWzWtctwg - 2015",
+    "In metrictons (MT) - Purchased cswmWzWtctwg - 2016"
+  ],
+  "row_count": 13
+}

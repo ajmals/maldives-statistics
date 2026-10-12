@@ -1,0 +1,41 @@
+{
+  "table_id": "14.10",
+  "title_en": "Table 14.10: Interest Rates, 2001 - 2025",
+  "title_dv": "ތާވަލު 14.10: އިންޓަރެސްޓް ރޭޓްތައް: (2001- 2025)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "Note: min = minimum, max = maximum, nc = n.a.tion.a.l currency, fc = foreign currency,WAIR = Weighted Average Interest Rate, n.a = not available.",
+    "1/ On July 21, 2025, this facility was renamed from 'Overnight Deposit Facility' to 'Standing Deposit Facility'.",
+    "2/ On July 21, 2025, this facility was renamed from 'Overnight Lombard Facility' to 'Standing Lending Facility'."
+  ],
+  "columns": [
+    "(In per cent per annum, end of period) - MALDIVES MONETARY AUTHORITY",
+    "(In per cent per annum, end of period) - 2001",
+    "(In per cent per annum, end of period) - 2002",
+    "(In per cent per annum, end of period) - 2003",
+    "(In per cent per annum, end of period) - 2004",
+    "(In per cent per annum, end of period) - 2005",
+    "(In per cent per annum, end of period) - 2006",
+    "(In per cent per annum, end of period) - 2007",
+    "(In per cent per annum, end of period) - 2008",
+    "(In per cent per annum, end of period) - 2009",
+    "(In per cent per annum, end of period) - 2010",
+    "(In per cent per annum, end of period) - 2011",
+    "(In per cent per annum, end of period) - 2012",
+    "(In per cent per annum, end of period) - 2013",
+    "(In per cent per annum, end of period) - 2014",
+    "(In per cent per annum, end of period) - 2015",
+    "(In per cent per annum, end of period) - 2016",
+    "(In per cent per annum, end of period) - 2017",
+    "(In per cent per annum, end of period) - 2018",
+    "(In per cent per annum, end of period) - 2019",
+    "(In per cent per annum, end of period) - 2020",
+    "(In per cent per annum, end of period) - 2021",
+    "(In per cent per annum, end of period) - 2022",
+    "(In per cent per annum, end of period) - 2023",
+    "(In per cent per annum, end of period) - 2024",
+    "(In per cent per annum, end of period) - 2025"
+  ],
+  "row_count": 50
+}

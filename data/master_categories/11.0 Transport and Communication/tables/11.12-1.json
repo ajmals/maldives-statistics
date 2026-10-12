@@ -1,0 +1,30 @@
+{
+  "table_id": "11.12-1",
+  "category": "11.0 Transport and Communication",
+  "title_en": "Table 11.12 TRANSPORT MOVEMENTS AT GAN INTERNATIONAL AIRPORT BY AIRLINE, CROSS-CLASSIFIED BY PASSENGER, CARGO AND MAIL, 2018",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "Note:",
+    "1_/ Includes movements by photo, training, technical and surveillance flights"
+  ],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 10,
+  "column_count": 10,
+  "columns": [
+    "Item",
+    "Cargo (kg) - In - 2019",
+    "Cargo (kg) - Out - 2019",
+    "Cargo (kg) - Transit - 2019",
+    "Flight Movements - 2019",
+    "Mail (kg) - In - 2019",
+    "Mail (kg) - Out - 2019",
+    "Passengers - In - 2019",
+    "Passengers - Out - 2019",
+    "Passengers - Transit - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/11.12-1.csv"
+}

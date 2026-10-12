@@ -1,0 +1,36 @@
+{
+  "table_id": "11.22",
+  "title_en": "Table 11.22 : CARGO HANDLED AT IBRAHIM NASIR INTERNATIONAL AIRPORT BY MONTH, 2021",
+  "title_dv": "ތާވަލު 11.22: މަސްމަހުގެ ގޮތުން އިބްރާހީމް ނާސިރު އިންޓަރނޭޝަނަލް އެއަރޕޯޓުގައި ފަސިންޖަރުންގެ ދަތުރުފަތުރު ހުރި ގޮތް، 2021",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "(in Kg)",
+    "International Flights",
+    "Month",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "columns": [
+    "(in Kg) - Month",
+    "(in Kg) - Total",
+    "(in Kg) - International Flights - Inward",
+    "(in Kg) - International Flights - Outward",
+    "(in Kg) - International Flights - Direct Transit",
+    "(in Kg) - Domestic Flights - Inward",
+    "(in Kg) - Domestic Flights - Outward",
+    "(in Kg) - Domestic Flights - Direct Transit"
+  ],
+  "row_count": 13
+}

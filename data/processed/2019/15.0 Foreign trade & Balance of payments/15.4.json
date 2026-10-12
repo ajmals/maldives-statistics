@@ -1,0 +1,19 @@
+{
+  "table_id": "15.4",
+  "title_en": "Table 15.4 : SUMMARY OF MARINE PRODUCT EXPORTS BY COMMODITY, 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [
+    "Data Compile: National Bureau of Statistics"
+  ],
+  "columns": [
+    "Items",
+    "Value (in MVR. '000) - Total",
+    "Value (in MVR. '000) - Private",
+    "Value (in MVR. '000) - Government",
+    "% share - Private",
+    "% share - Government"
+  ],
+  "row_count": 11
+}

@@ -1,0 +1,18 @@
+{
+  "table_id": "7.17",
+  "title_en": "Table 7.17: Number of students sat and passed in the O'level examination by Atolls, 2009-2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Minis try of Education",
+  "notes": [],
+  "columns": [
+    "Region",
+    "2009 - Candidates",
+    "2009 - Passed",
+    "2009 - % passed",
+    "2010 - Candidates",
+    "2010 - Passed",
+    "2010 - % passed"
+  ],
+  "row_count": 23
+}

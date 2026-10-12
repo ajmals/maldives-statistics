@@ -1,0 +1,26 @@
+{
+  "table_id": "5.8",
+  "title_en": "Table 5.8 : EMPLOYED POPULATION BY INDUSTRY, OCCUPATION AND SEX, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Occupation and Sex",
+    "Occupation and Sex_2",
+    "Total",
+    "Industry - Agriculture and Forestry",
+    "Industry - Fishing",
+    "Industry - Fishing_2",
+    "Column_10",
+    "Column_12",
+    "Column_14",
+    "Column_16",
+    "Column_18",
+    "Column_21",
+    "Column_24",
+    "Community, social and personal services",
+    "Not Stated"
+  ],
+  "row_count": 12
+}

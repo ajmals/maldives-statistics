@@ -1,0 +1,25 @@
+{
+  "table_id": "6.5",
+  "title_en": "Table 6.5 : OUT - PATIENT HEALTH CARE IN MALE' HEALTH CENTRE, 2005 - 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Health centre",
+  "notes": [
+    "Note: Due to formation of Male' Health Coporation in 2010, some services has been discontinued"
+  ],
+  "columns": [
+    "Particulars",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "Column_13",
+    "Column_14",
+    "Column_15"
+  ],
+  "row_count": 17
+}

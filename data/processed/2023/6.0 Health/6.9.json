@@ -1,0 +1,17 @@
+{
+  "table_id": "6.9",
+  "title_en": "Table 6.9: Number of outpatients by speciality and sex, 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Indira Gandhi Memorial Hospital",
+  "notes": [
+    "Note: Previously Pulmonology Counts is now Under Respiratory medicine, Direct prescription (COVID-19 situation) Counts is Under Casualty, Post interventional clinic Counts is Under Cardiology, Paediatric cardiology Counts Under National Cardiac Centre, Neuro surgery- From April this count goes under National Uro Renal Fertility Centre, Fertility & Reproduction Count goes under National Uro Renal Fertility Centre"
+  ],
+  "columns": [
+    "Outpatients",
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "row_count": 26
+}

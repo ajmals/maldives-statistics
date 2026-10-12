@@ -1,0 +1,25 @@
+{
+  "table_id": "8.5",
+  "title_en": "Table 8.5 : CASES HANDLED BY THE HIGH COURT, 2007 -2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: The High Court of the Republic of Maldives",
+  "notes": [],
+  "columns": [
+    "Type of Cases",
+    "2007 - Cases logged",
+    "2007 - Cases logged trial including 2006",
+    "2007 - Cases dealt",
+    "2007 - Cases awaiting trial including 2006",
+    "2008 - Cases logged",
+    "2008 - Cases logged trial including 2007",
+    "2008 - Cases dealt",
+    "2008 - Cases awaiting trial including 2007",
+    "2009 - Cases awaiting trial 2008",
+    "2009 - Cases logged",
+    "2009 - Cases logged trial including 2008",
+    "2009 - Cases dealt",
+    "2009 - Cases awaiting trial including 2008"
+  ],
+  "row_count": 6
+}

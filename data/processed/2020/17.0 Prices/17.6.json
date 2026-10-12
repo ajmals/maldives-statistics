@@ -1,0 +1,25 @@
+{
+  "table_id": "17.6",
+  "title_en": "Table 17.6 : CONSUMER PRICE INDEX, FOR MALE' AND ATOLLS BY MONTH, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: Aug 2019=100) - Major Groups - Republic",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Jan",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Feb",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Mar",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Apr",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - May",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Jun",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Jul",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Aug",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Sep",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Oct",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Nov",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Dec",
+    "(Index - base: Aug 2019=100) - Monthly CPI , 2019 - Jan - Dec"
+  ],
+  "row_count": 60
+}

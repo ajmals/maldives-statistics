@@ -1,0 +1,20 @@
+{
+  "table_id": "18.27",
+  "title_en": "Table 18.27: Aasandha Services provided by type, 2018 -2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "Note: Both Emergency evacuation and sent abroad figures had been given by number of cases, and may include multiple cases of same patient. Sent abroad cases includes both cases referred from Maldives and patient's who seeked treatment from abroad."
+  ],
+  "columns": [
+    "Service",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "row_count": 4
+}

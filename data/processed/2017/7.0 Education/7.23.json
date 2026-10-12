@@ -1,0 +1,32 @@
+{
+  "table_id": "7.23",
+  "title_en": "TABLE 7.23: STUDENT ENROLMENT AND GRADUATE OUTPUT IN HIGHER EDUCATION INSTITUTIONS IN MALDIVES BY SEX, 2016",
+  "title_dv": "2016 ،ތާވަލު 7.23 : މަތީ ތަޢުލީމުދޭ މަރްކަޒުތަކުގައި ކިޔަވަމުންދާ އަދި ދަސްވެނިވި ކުދިންގެ އަދަދު",
+  "unit": "",
+  "source": "Source: Department of Higher Education",
+  "notes": [
+    "1_/: Students are allowed to repeat individual subjects not the whole course",
+    "2_/ Students who have repeated individual modules due to lack of attendance/ failure of modules",
+    "Note: NA= Data not available"
+  ],
+  "columns": [
+    "Institution",
+    "Type of Institution",
+    "Type of Institution_2",
+    "Students Enrolled - Full time - Both Sexes",
+    "Students Enrolled - Full time - Male",
+    "Students Enrolled - Full time - Female",
+    "Students Enrolled - Part time - Both Sexes",
+    "Students Enrolled - Part time - Male",
+    "Students Enrolled - Part time - Female",
+    "Students Enrolled - Total - Both Sexes",
+    "Students Enrolled - Total - Male",
+    "Students Enrolled - Total - Female",
+    "Graduate output - Both Sexes",
+    "Graduate output - Male",
+    "Graduate output - Female",
+    "Repeaters2_/ - Female",
+    "Dropouts - Female"
+  ],
+  "row_count": 14
+}

@@ -1,0 +1,23 @@
+{
+  "table_id": "9.17",
+  "title_en": "Table 9.17: Islands leased for agriculture purpose, by area and lease value, end 2021",
+  "title_dv": "ތާވަލު 9.17: ދަނޑުވެރިކަން ކުރުމަށް ކުއްޔަށް ދޫކުރެވިފައިވާ ރަށްތަކުގެ އަދަދު، ބޮޑުމިން އަދި ކުއްޔަށް ދެވުނު އަދަދު (ރުފިޔާއިން)، 2021",
+  "unit": "",
+  "source": "Source: Agriculture Data Management Unit/ Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [
+    "Atoll",
+    "Atoll",
+    "Total",
+    "HA",
+    "SH",
+    "L",
+    "ނޯޓް: 2021 ވަނަ އަހަރު ދަނޑުވެރިކަން ކުރުމަށް ކުއްޔަށް ދޫކޮށްފައިވަނީ 4 ރަށް."
+  ],
+  "columns": [
+    "Atoll",
+    "Number of islands",
+    "Area (hectares)",
+    "Annual Lease/rent value (MVR)"
+  ],
+  "row_count": 17
+}

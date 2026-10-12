@@ -1,0 +1,23 @@
+{
+  "table_id": "3.7",
+  "title_en": "Table 3.7 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2009-2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Health Informati on,Projects,Monitoring & Coordination Section"
+  ],
+  "columns": [
+    "Month",
+    "2009 - Births",
+    "2009 - Deaths",
+    "2009 - Natural Increase",
+    "2010 - Births",
+    "2010 - Deaths",
+    "2010 - Natural Increase",
+    "2011 - Births",
+    "2011 - Deaths",
+    "2011 - Natural Increase"
+  ],
+  "row_count": 13
+}

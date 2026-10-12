@@ -1,0 +1,18 @@
+{
+  "table_id": "9.10",
+  "title_en": "Table 9.10: FISH CATCH, FISHING TRIPS AND CATCH PER UNIT EFFORT BY LOCALITY, 2023",
+  "title_dv": "ތާވަލު 9.10: ބޭނުނު މަހުގެ އަދަދު، މަސްދަތުރުގެ އަދަދު އަދި ތަނުގެ ގޮތުން ބޭނިފައިވާ މަހުގެ ނިސްބަތް، 2023",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Fish Catch (metric tonnes) - Mechanised - Masdhonis",
+    "Fish Catch (metric tonnes) - Other vessels - Masdhonis",
+    "Catch per unit effort (metric tonnes) - Mechanised - Masdhonis",
+    "Catch per unit effort (metric tonnes) - Other vessels - Masdhonis",
+    "Fishing Trips - Mechanised - Masdhonis",
+    "Fishing Trips - Other vessels - Masdhonis"
+  ],
+  "row_count": 24
+}

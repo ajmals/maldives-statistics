@@ -1,0 +1,30 @@
+{
+  "table_id": "2.3&2.4",
+  "category": "2.0 Environment",
+  "title_en": "Table 2.4: NUMBER OF ENVIRONMENTAL IMPACT ASSESSMENT REPORTS SUBMITTED FOR DEVELOPMENT PROJECT , 2009",
+  "unit": "",
+  "source": "Source: Environmental Protection Agency",
+  "notes": [
+    "Type of Developme nt",
+    "Tourism",
+    "Fisheries",
+    "Agriculture",
+    "Electricity",
+    "Water and Sewerage",
+    "Others"
+  ],
+  "time_span": "2009",
+  "year_min": 2009,
+  "year_max": 2009,
+  "row_count": 20,
+  "column_count": 5,
+  "columns": [
+    "Item",
+    "Approved - 2009",
+    "Completed - 2009",
+    "Ongoing - 2009",
+    "Total no. of inhabited islands - 2009"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/2.3&2.4.csv"
+}

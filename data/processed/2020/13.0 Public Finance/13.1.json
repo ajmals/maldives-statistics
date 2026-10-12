@@ -1,0 +1,31 @@
+{
+  "table_id": "13.1",
+  "title_en": "Table 13.1 : TOTAL REVENUE AND EXPENDITURE OF GOVERNMENT BUDGET BY SOURCE, 2013- 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury.",
+  "notes": [
+    "1_/ Revenue includes New revenue Measures approved by the parliament",
+    "2_/ Overall deficit/surplus in this table is difference of Government total Income and Expenditure (including grants) plus loan disbursements",
+    "3_/ Total expenditure in this table include loan repayments"
+  ],
+  "columns": [
+    "(In million MVR) - Particulars",
+    "(In million MVR) - 2008",
+    "(In million MVR) - 2009",
+    "(In million MVR) - 2010",
+    "(In million MVR) - 2011",
+    "(In million MVR) - Actual - 2012",
+    "(In million MVR) - Actual - 2013",
+    "(In million MVR) - Actual - 2014",
+    "(In million MVR) - Actual - 2015",
+    "(In million MVR) - Actual - 2016",
+    "(In million MVR) - Actual - 2017",
+    "(In million MVR) - Actual - 2018",
+    "(In million MVR) - Revised - 2019",
+    "(In million MVR) - Approved - 2020",
+    "(In million MVR) - Approved - 2021",
+    "(In million MVR) - Approved - 2022"
+  ],
+  "row_count": 17
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "18.2",
+  "title_en": "TABLE 18.2: MONTHLY PENSION PAYOUTS BY SCHEME, 2014 - 2016, (In MVR)",
+  "title_dv": "ތާވަލު 18.2: އެކި މަސްމަހު ޕެންޝަންގެ ގޮތުގައި ސްކީމްތަކުން ދެވުނު މިންވަރު، 2014 - 2016",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2012",
+    "2013",
+    "Basic pension - 2014",
+    "Basic pension - 2015",
+    "Basic pension - 2016",
+    "Basic pension - 2012",
+    "Basic pension - 2013",
+    "Retirement pension - 2014",
+    "Retirement pension - 2015",
+    "Retirement pension - 2016",
+    "Retirement pension - 2012",
+    "Retirement pension - 2013",
+    "Other pension - 2014",
+    "Other pension - 2015",
+    "Other pension - 2016",
+    "Senior Citizen Allowance - 2014",
+    "Senior Citizen Allowance - 2015",
+    "Senior Citizen Allowance - 2016"
+  ],
+  "row_count": 14
+}

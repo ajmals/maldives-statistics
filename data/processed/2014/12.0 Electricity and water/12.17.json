@@ -1,0 +1,22 @@
+{
+  "table_id": "12.17",
+  "title_en": "TABLE 12.17: SUPPLY OF WATER ON EMERGENCY BY NUMBER OF ISLANDS , QUANTITY AND EXPENDITURE , 2005 - 2013",
+  "title_dv": "ތާވަލު 12.17: އެމަޖެންސީ ފެންފޯރުކޮށްދެވުނު ރަށްތަކުގެ އަދަދާއި މިންވަރު އަދި ހިނގި ޚަރަދު، 2005 - 2013",
+  "unit": "",
+  "source": "Source: National Disaster Management Centre",
+  "notes": [
+    "Note: * Expenditure on water and transport that cannot be separated are given under total cost",
+    "** In 2010, Province Offices supplied emergency water to the requested islands. Therefore this data is not available at NDMC.",
+    "Supply of water on emergency is provided every year from January to July."
+  ],
+  "columns": [
+    "Year",
+    "Number of islands",
+    "Number of tons supplied",
+    "Total Expenses - Cost of water (MVR)",
+    "Total Expenses - Cost of transport (MVR)",
+    "Total Expenses - Total cost* (MVR)",
+    "Expenses on average for ton (MVR per ton)"
+  ],
+  "row_count": 9
+}

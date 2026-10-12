@@ -1,0 +1,12 @@
+Column_1,Total,Total_2,Total_3,PUBLIC SECTOR - MALE',PUBLIC SECTOR - MALE'_2,PUBLIC SECTOR - ATOLLS,PUBLIC SECTOR - ATOLLS_2,PUBLIC SECTOR - REPUBLIC,PUBLIC SECTOR - REPUBLIC_2,PRIVATE SECTOR - REPUBLIC,PRIVATE SECTOR - REPUBLIC_2,Column_30,Column_31,Column_36,Column_37,Expatriates,Locals,Column_44,Column_45,Column_46,Column_47,Column_48,Column_49,Column_50,Column_51,Column_52,Column_53,Column_54
+,Total,expat,local,expat,local,expat,local,expat,local,expat,local,,,Doctors,961,682,279,,Nurses,Doctors,Doctors,Doctors,Allied Health Staff,Community Health Personnel,Community Health Personnel,Community Health Personnel,Traditional Birth Attendant (Foolhuma),
+Total,5169,2298,2871,573,1104,1274,1574,1847,2678,451,193,Expatriates,Locals,General duty doctors,514,379,135,,Nurses,Total,General duty doctors,Specialists,Allied Health Staff,Total,Community Health Workers,Family Health Workers,Traditional Birth Attendant (Foolhuma),Untrained
+Doctors,1194,765,429,153,269,527,92,680,361,85,68,2298,2871,Specialists,447,303,144,Expatriates,1228,765,433,332,305,,,,,
+General duty doctors,687,433,254,69,131,348,86,417,217,16,37,,,Nurses,2881,1308,1573,Locals,1685,429,254,175,285,433,210,223,39,
+Specialists,507,332,175,84,138,179,6,263,144,69,31,,,Allied Health Staff,574,292,282,,,,,,,,,,,
+Nurses,2913,1228,1685,359,676,576,936,935,1612,293,73,,,Community Health Personnel,453,,453,,,,,,,,,,,
+Allied Health Staff,590,305,285,61,153,171,80,232,233,73,52,,,Community Health Workers,216,,216,,,,,,,,,,,
+Community Health Personnel,433,,433,,6,,427,,433,,,,,Family Health Workers,237,,237,,,,,,,,,,,
+Community Health Workers,210,,210,,6,,204,,210,,,,,Traditional Birth Attendant (Foolhuma),53,,53,,,,,,,,,,,
+Family Health Workers,223,,223,,,,223,,223,,,,,Trained,53,,53,,,,,,,,,,,
+Traditional Birth Attendant (Foolhuma),39,,39,,,,39,,39,,,,,Untrained,,,,,,,,,,,,,,

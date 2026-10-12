@@ -1,0 +1,33 @@
+{
+  "table_id": "11.1",
+  "title_en": "Table 11.1 : VESSELS ACCORDING TO REGISTRATION BY LOCALITY, 2008 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Mini stry of Transport and Communication",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "2008 - All type",
+    "2008 - Dhoani",
+    "2008 - Launch",
+    "2008 - Boat",
+    "2008 - Bokkura",
+    "2008 - Bahtheli",
+    "2008 - Barge",
+    "2008 - Yatch",
+    "2008 - Tug",
+    "2008 - Others",
+    "2009 - All type",
+    "2009 - Dhoani",
+    "2009 - Launch",
+    "2009 - Boat",
+    "2009 - Bokkura",
+    "2009 - Bahtheli",
+    "2009 - Barge",
+    "2009 - Yatch",
+    "2009 - Tug",
+    "2009 - Others",
+    "2009 - Others_2"
+  ],
+  "row_count": 23
+}

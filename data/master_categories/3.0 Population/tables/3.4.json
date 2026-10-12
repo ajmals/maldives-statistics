@@ -1,0 +1,42 @@
+{
+  "table_id": "3.4",
+  "category": "3.0 Population",
+  "title_en": "Table 3.4 : NUMBER OF INHABITED ISLANDS BY SIZE OF POPULATION",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Note:R.Kandholhudhoo, M.Madifushi, Dh.Gemendhoo and Th.Vilufushi people were displaced to other islands due to tsunami"
+  ],
+  "time_span": "1985 – 2025",
+  "year_min": 1985,
+  "year_max": 2025,
+  "row_count": 66,
+  "column_count": 23,
+  "columns": [
+    "Item",
+    "Both Sexes - 2025",
+    "Column_28 - 2016",
+    "Column_29 - 2016",
+    "Column_30 - 2016",
+    "Female - 2025",
+    "Male - 2025",
+    "No. of Adminstrative units ( islands - 1985",
+    "No. of Adminstrative units ( islands - 1990",
+    "No. of Adminstrative units ( islands - 1995",
+    "No. of Adminstrative units ( islands - 2000",
+    "No. of Adminstrative units ( islands - 2006",
+    "No. of Adminstrative units ( islands - 2014",
+    "No. of Adminstrative units ( islands - 2022",
+    "Resident population  - Foreigners - Both sexes - 2014",
+    "Resident population  - Foreigners - Female - 2014",
+    "Resident population  - Foreigners - Male - 2014",
+    "Resident population  - Maldivians - Both sexes - 2014",
+    "Resident population  - Maldivians - Female - 2014",
+    "Resident population  - Maldivians - Male - 2014",
+    "Resident population  - Total - Both sexes - 2014",
+    "Resident population  - Total - Female - 2014",
+    "Resident population  - Total - Male - 2014"
+  ],
+  "editions_covered": 16,
+  "csv_file": "tables/3.4.csv"
+}

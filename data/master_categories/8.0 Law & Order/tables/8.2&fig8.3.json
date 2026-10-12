@@ -1,0 +1,23 @@
+{
+  "table_id": "8.2&fig8.3",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.2: LOGGED CASES FROM THE YEAR 2009 - 2010",
+  "unit": "",
+  "source": "Source: Maldives Police Servic e",
+  "notes": [],
+  "time_span": "2008 – 2010",
+  "year_min": 2008,
+  "year_max": 2010,
+  "row_count": 14,
+  "column_count": 6,
+  "columns": [
+    "Item",
+    "%change over - 2008",
+    "%change over - 2009",
+    "Value - 2008",
+    "Value - 2009",
+    "Value - 2010"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.2&fig8.3.csv"
+}

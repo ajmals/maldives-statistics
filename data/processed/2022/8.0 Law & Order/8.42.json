@@ -1,0 +1,42 @@
+{
+  "table_id": "8.42",
+  "title_en": "TABLE 8.31: REGISTERED LAWYERS IN SERVICE, BY QUALIFICATION AND SEX, 2014 - 2022",
+  "title_dv": "ތާވަލު 8.31: ރަޖިސްޓްރީކުރެވިފައިވާ ޤާނޫނީ ވަކީލުންގެ އަދަދު އަދި ތަޢުލީމީ ފެންވަރު، 2014 - 2022",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވީ: ދިވެހިރާއްޖޭގެ ބާ ކައުންސިލު / ޑިޕާޓްމަންޓް އޮފް ޖުޑީޝަލް އެޑްމިނިސްޓްރޭޝަން",
+  "notes": [
+    "Note: Bar Council did not admit any new lawyer to the bar in the year 2021.",
+    "ޖޫން 2019 ގައި ބާ ކައުންސިލު އުފެދުނު ފަހުން، ބާ ކައުންސިލުގެ ބެލުމުގެ ދަށުން ވަކީލުން ޤާނޫނީ ވަކީލުކަމުގެ ހުވާ ކުރައްވާފައިވަނީ 2020 ވަނަ އަހަރުގައެވެ."
+  ],
+  "columns": [
+    "Qualification",
+    "Both Sexes - 2012",
+    "Male - 2012",
+    "Female - 2012",
+    "Both Sexes - 2013",
+    "Male - 2013",
+    "Female - 2013",
+    "Both Sexes - 2014",
+    "Male - 2014",
+    "Female - 2014",
+    "Both Sexes - 2015",
+    "Male - 2015",
+    "Female - 2015",
+    "Both Sexes - 2016",
+    "Male - 2016",
+    "Female - 2016",
+    "Both Sexes - 2018",
+    "Male - 2018",
+    "Female - 2018",
+    "Both Sexes - 2019",
+    "Male - 2019",
+    "Female - 2019",
+    "Both Sexes - 2020",
+    "Male - 2020",
+    "Female - 2020",
+    "Both Sexes - Total Number of lawyers",
+    "Male - Total Number of lawyers",
+    "Female - Total Number of lawyers"
+  ],
+  "row_count": 10
+}

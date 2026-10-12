@@ -1,0 +1,9 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Cargo (kg) - In,Cargo (kg) - Out,Mail (kg) - In,Mail (kg) - Out
+Total,1923,57210,55761,56049,10445.7,6687.3,1088.6
+International Flights,76,2568,2354,3096,,,
+International Scheduled,69,2555,2314,3096,,,
+IAS,69,2555,2314,3096,,,
+International Charter,3,,20,,,,
+International Non-Scheduled,4,13,20,,,,
+Domestic flights,1847,54642,53407,52953,10445.7,6687.3,1088.6
+Island Aviation (Scheduled),1847,54642,53407,52953,10445.7,6687.3,1088.6

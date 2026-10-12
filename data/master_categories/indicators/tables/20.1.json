@@ -1,0 +1,30 @@
+{
+  "table_id": "20.1",
+  "category": "indicators",
+  "title_en": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "time_span": "2010",
+  "year_min": 2010,
+  "year_max": 2010,
+  "row_count": 220,
+  "column_count": 13,
+  "columns": [
+    "Item",
+    "ISLAND LEVEL BASIC INDICATORS - MIGRATION - Three main reasons for migration - For education - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - MIGRATION - Three main reasons for migration - For employment - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - MIGRATION - Three main reasons for migration - To live in this island - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - 1_Are (in hectares) - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Both Sexes - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Female - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Male - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Overall Dependency Ratio - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Population Density - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Population Distribution (percent) - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Population Growth (Expn) - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - POPULATION - Sex Ratio - 2010"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/20.1.csv"
+}

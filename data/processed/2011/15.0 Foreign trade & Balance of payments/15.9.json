@@ -1,0 +1,19 @@
+{
+  "table_id": "15.9",
+  "title_en": "Table 5.9: IMPORTS OF TOBACCO, 2000 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [],
+  "columns": [
+    "Year",
+    "Tobacco Leaves (Kgs)",
+    "Number of cigars",
+    "Number of cheroots / Cigarillo",
+    "Number of cigarettes",
+    "Chewing tobacco by weight (Kgs)",
+    "Smoking tobacco by weight (Kgs)",
+    "Pipe tobacco by weight (Kgs)"
+  ],
+  "row_count": 11
+}

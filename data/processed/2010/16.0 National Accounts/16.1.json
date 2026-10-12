@@ -1,0 +1,27 @@
+{
+  "table_id": "16.1",
+  "title_en": "Table 16.1 : GROSS DOMESTIC PRODUCT, BY KIND OF ACTIVITY , 2003 - 2010 (Estimated using production approach)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "1_/ Revised on 10 Nov. 2002",
+    "2_/ Revised on 16 Dec. 2002",
+    "3_/ Revised on 24 Dec 2003",
+    "4_/ Revised on February 2006",
+    "1_/ Revised in May 2009"
+  ],
+  "columns": [
+    "(In Million Rf , at 1995 constant prices) - ISIC",
+    "(In Million Rf , at 1995 constant prices) - Industry / Economic Activity",
+    "(In Million Rf , at 1995 constant prices) - 2003",
+    "(In Million Rf , at 1995 constant prices) - 2004",
+    "(In Million Rf , at 1995 constant prices) - 2005",
+    "(In Million Rf , at 1995 constant prices) - 2006",
+    "(In Million Rf , at 1995 constant prices) - 2007",
+    "(In Million Rf , at 1995 constant prices) - 2008",
+    "(In Million Rf , at 1995 constant prices) - 2009",
+    "(In Million Rf , at 1995 constant prices) - 2010 1_/"
+  ],
+  "row_count": 30
+}

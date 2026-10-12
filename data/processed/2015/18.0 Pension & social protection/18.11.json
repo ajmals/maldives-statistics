@@ -1,0 +1,20 @@
+{
+  "table_id": "18.11",
+  "title_en": "TABLE 18.11: NUMBER OF MEMBERS CONTRIBUTING TO RETIREMENT PENSION SCHEME BY SECTOR AND SEX, 2010-2014",
+  "title_dv": "ތާވަލު 18.11 :ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްއަށް ޕަބްލިކް އަދި ޕްރައިވެޓް ސެކްޓަރއިން ފައިސާދެއްކި މީހުންގެ ޢަދަދު ، 2010 - 2014",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [
+    "Note: 2013 figure is revised"
+  ],
+  "columns": [
+    "Year",
+    "Public sector - Male",
+    "Public sector - Female",
+    "Private sector - Male",
+    "Private sector - Female",
+    "Total - Male",
+    "Total - Female"
+  ],
+  "row_count": 5
+}

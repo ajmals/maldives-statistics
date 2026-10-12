@@ -1,0 +1,19 @@
+{
+  "table_id": "15.9",
+  "title_en": "Table 15.9: IMPORTS OF TOBACCO AND TOBACCO PRODUCTS, 2000 - 2019",
+  "title_dv": "ތާވަލު 15.9: ރާއްޖެއަށް ދުންފަތުގެ ބާވަތްތައް އެތެރެކުރެވުނު މިންވަރު، 2000- 2019",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [],
+  "columns": [
+    "Year",
+    "Tobacco Leaves (Kgs)",
+    "Number of cigars",
+    "Number of cheroots / Cigarillo",
+    "Number of cigarettes",
+    "Chewing tobacco by weight (Kgs)",
+    "Smoking tobacco by weight (Kgs)",
+    "Pipe tobacco by weight (Kgs)"
+  ],
+  "row_count": 20
+}

@@ -1,0 +1,28 @@
+{
+  "table_id": "5.15",
+  "category": "5.0 Employment",
+  "title_en": "Table 5.15: Civil Servants Classified by Office, 2010",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "time_span": "2010 – 2015",
+  "year_min": 2010,
+  "year_max": 2015,
+  "row_count": 731,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "Foreigners - Both Sexes - 2015",
+    "Foreigners - Female - 2015",
+    "Foreigners - Male - 2015",
+    "Locals - Both Sexes - 2015",
+    "Locals - Female - 2015",
+    "Locals - Male - 2015",
+    "Total - Both Sexes - 2015",
+    "Total - Female - 2015",
+    "Total - Male - 2015",
+    "end - 2010"
+  ],
+  "editions_covered": 2,
+  "csv_file": "tables/5.15.csv"
+}

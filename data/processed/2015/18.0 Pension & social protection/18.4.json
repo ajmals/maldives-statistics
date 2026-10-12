@@ -1,0 +1,24 @@
+{
+  "table_id": "18.4",
+  "title_en": "TABLE 18.4: NUMBER OF BENEFICIARIES OF BASIC PENSION SCHEME BY AGE, 2012 - 2014",
+  "title_dv": "ތާވަލު 18.4 : އަސާސީ ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2012 - 2014",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Age Groups - 2012 - Total",
+    "Age Groups - 2012 - 65-69",
+    "Age Groups - 2012 - 70-74",
+    "Age Groups - 2012 - 75 & over",
+    "Age Groups - 2013 - Total",
+    "Age Groups - 2013 - 65-69",
+    "Age Groups - 2013 - 70-74",
+    "Age Groups - 2013 - 75 & over",
+    "Age Groups - 2014 - Total",
+    "Age Groups - 2014 - 65-69",
+    "Age Groups - 2014 - 70-74",
+    "Age Groups - 2014 - 75 & over"
+  ],
+  "row_count": 12
+}

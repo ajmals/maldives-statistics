@@ -1,0 +1,24 @@
+{
+  "table_id": "8.46",
+  "title_en": "Table 8.46: Number of cases reported to ministry by age group and sex, 2014 - 2017",
+  "title_dv": "ތާވަލު 8.46: މިނިސްޓްރީ އޮފް ޖެންޑަރ އެންޑް ފެމިލީއަށް ހުށައެޅިފައިވާ މައްސަލަތަކުގެ އަދަދު، 2014 - 2017",
+  "unit": "",
+  "source": "Source: Ministry of Gender & Family",
+  "notes": [],
+  "columns": [
+    "Age group",
+    "2014 - Number of Children - Both Sexes",
+    "2014 - Number of Children - Male",
+    "2014 - Number of Children - Female",
+    "2015 - Number of Children - Both Sexes",
+    "2015 - Number of Children - Male",
+    "2015 - Number of Children - Female",
+    "2016 - Number of Children - Both Sexes",
+    "2016 - Number of Children - Male",
+    "2016 - Number of Children - Female",
+    "2017 - Number of Children - Both Sexes",
+    "2017 - Number of Children - Male",
+    "2017 - Number of Children - Female"
+  ],
+  "row_count": 8
+}

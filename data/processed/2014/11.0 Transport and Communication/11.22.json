@@ -1,0 +1,19 @@
+{
+  "table_id": "11.22",
+  "title_en": "Table 11.22 : CARGO HANDLED AT GAN INTERNATIONAL AIRPORT BY MONTH, 2013",
+  "title_dv": "ތާވަލު 11.22: މަސްމަހުގެ ގޮތުން ގަން އިންޓަރނޭޝަނަލް އެއަރޕޯޓުން އުފުލުނު މުދާ، 2013",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވީ: ސިވިލް އޭވިއޭޝަން އޮތޯރިޓީ",
+  "notes": [
+    "Note: Gan international flights do not have the permit to handle Cargo & Mail",
+    "ނޯޓް: ގަން އިންޓަރނޭޝަނަލް އެއަރޕޯޓަށް ބައިނަލް އަޤްވާވީ ޕްލައިޓްތަކުން މުދާ އަދި މެއިލް އެތެރެކުރުމުގެ ހުއްދަ ދެވިފައެއްނުވެއެވެ."
+  ],
+  "columns": [
+    "(in Kg) - Month",
+    "(in Kg) - Total",
+    "(in Kg) - Domestic Flights - Inward",
+    "(in Kg) - Domestic Flights - Outward",
+    "(in Kg) - Domestic Flights - Direct Transit"
+  ],
+  "row_count": 13
+}

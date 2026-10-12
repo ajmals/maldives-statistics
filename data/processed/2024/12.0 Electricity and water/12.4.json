@@ -1,0 +1,25 @@
+{
+  "table_id": "12.4",
+  "title_en": "Table 12.4 : MONTHLY CONSUMPTION OF LUBRICATION OIL FOR ELECTRICITY GENERATION IN SELECTED LOCALITIES BY PUBLIC SECTOR, 2023",
+  "title_dv": "ތާވަލު 12.4: މާލެއާއި އަތޮޅުތަކުގައި ސަރުކާރުގެ ފަރާތުން ސަރުކާރުގެ ފަރާތުން އެކިމަސްމަހު ކަރަންޓް އުފެއްދުމަށްޓަކާ އަޑީތެޔޮ ބޭނުންކުރެވިފައިވާ މިންވަރު، 2023",
+  "unit": "",
+  "source": "Source: State Electric Company Limited",
+  "notes": [],
+  "columns": [
+    "(In '000 litres) - Locality - Greater Male' Region",
+    "(In '000 litres) - Total",
+    "(In '000 litres) - Jan",
+    "(In '000 litres) - Feb",
+    "(In '000 litres) - Mar",
+    "(In '000 litres) - Apr",
+    "(In '000 litres) - May",
+    "(In '000 litres) - Jun",
+    "(In '000 litres) - Jul",
+    "(In '000 litres) - Aug",
+    "(In '000 litres) - Sep",
+    "(In '000 litres) - Oct",
+    "(In '000 litres) - Nov",
+    "(In '000 litres) - Dec"
+  ],
+  "row_count": 35
+}

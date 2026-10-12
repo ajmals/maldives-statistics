@@ -1,0 +1,19 @@
+{
+  "table_id": "3.10",
+  "title_en": "Table 3.10 : DEATHS BY AGE GROUP AND SEX, 2006-2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Health Information,Projects,Monitoring & Coordination Section / Health Informa tion Unit"
+  ],
+  "columns": [
+    "Age Group and Sex - Both Sexes",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "row_count": 26
+}

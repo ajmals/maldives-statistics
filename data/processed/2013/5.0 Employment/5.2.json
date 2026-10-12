@@ -1,0 +1,27 @@
+{
+  "table_id": "5.2",
+  "title_en": "Table 5.2 : POPULATION 15 YEARS OF AGE AND OVER BY TYPE OF ACTIVITY, CROSS CLASSIFIED BY REGION, HIES 2009/2010 (with unemployed including discouraged workers)",
+  "title_dv": "ތާވަލު 5.2 : އިޤްތިޞާދީ މަސައްކަތުގެ ގޮތުން 15 އަހަރުންމަތީގެ އާބާދީ، އުމުރުފުރާގެގޮތުން ހަޔަސް 2009/2010",
+  "unit": "",
+  "source": "Source : Household Income and Expenditure Survey (HIES 2009/2010)",
+  "notes": [
+    "Note: Includes only the local population but excludes those locals working in resorts and industrial islands",
+    "Department of National Planning",
+    "ޑިޕާޓްމަންޓް އޮފް ނޭޝަނަލް ޕްލޭނިންގ",
+    "Republic",
+    "15+ population",
+    "NEA's"
+  ],
+  "columns": [
+    "Age group",
+    "Total 15 years of - age and over",
+    "Activity Status - Economically Active - Total",
+    "Activity Status - Economically Active - Employed",
+    "Activity Status - Economically Active - Unemployed",
+    "Not Economically - Active",
+    "Not Stated",
+    "Age specific - activity rate",
+    "Unemployment - Rate"
+  ],
+  "row_count": 42
+}

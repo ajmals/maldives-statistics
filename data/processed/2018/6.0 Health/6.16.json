@@ -1,0 +1,23 @@
+{
+  "table_id": "6.16",
+  "title_en": "Table 6.16: TOTAL NO. OF REPORTED CASES BY SELECTED DISEASES BY ISLAND, 2017",
+  "title_dv": "ތާވަލު 6.16: ރަށްރަށުން ރިޕޯޓްކުރެވިފައިވާ ބަލިތައް، 2017",
+  "unit": "",
+  "source": "Source: Centre for Community Health and Disease Control / EPI program",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Acute Respiratory Infection - Under 5 years",
+    "Acute Respiratory Infection - Above 5 years",
+    "Viral Fever - Under 5 years",
+    "Viral Fever - Above 5 years",
+    "Diarrhoea - Under 5 years",
+    "Diarrhoea - Above 5 years",
+    "Scrub Typhus - Above 5 years",
+    "*Dengue Fever - Under 5 years",
+    "*Dengue Fever - Above 5 years",
+    "**Typhoid - Under 5 years",
+    "**Typhoid - Above 5 years"
+  ],
+  "row_count": 213
+}

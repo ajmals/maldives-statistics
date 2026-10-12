@@ -1,0 +1,16 @@
+{
+  "table_id": "7.3",
+  "title_en": "Table 7.3: Number of students by gender and Sector, 2021 - 2022 (As of 01 June 2022)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Number of students by gender and Sector, 2021 - 2022 (As of 01 June 2022) - Total",
+    "Number of students by gender and Sector, 2021 - 2022 (As of 01 June 2022) - Government",
+    "Number of students by gender and Sector, 2021 - 2022 (As of 01 June 2022) - Private",
+    "Number of students by gender and Sector, 2021 - 2022 (As of 01 June 2022) - Community"
+  ],
+  "row_count": 3
+}

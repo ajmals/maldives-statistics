@@ -1,0 +1,30 @@
+{
+  "table_id": "3.17",
+  "title_en": "Table 3.17 : MARRIAGES AND DIVORCES IN MALE' AND ATOLLS, 2020 - 2023",
+  "title_dv": "ތާވަލު 3.17: މާލެ އާއި އަތޮޅުތަކުގައި ކުރެވުނު ކައިވެންޏާއި ވަރި، 2020 - 2023",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "2020 - Marriages",
+    "2020 - Divorces",
+    "2020 - Faskh",
+    "2020 - Thafreeq",
+    "2021 - Marriages",
+    "2021 - Divorces",
+    "2021 - Faskh",
+    "2021 - Thafreeq",
+    "2022 - Marriages",
+    "2022 - Divorces",
+    "2022 - Faskh",
+    "2022 - Thafreeq",
+    "2023 - Marriages",
+    "2023 - Divorces",
+    "2023 - Faskh",
+    "2023 - Thafreeq",
+    "% Change over previous year of - Marriages",
+    "% Change over previous year of - Divorces"
+  ],
+  "row_count": 24
+}

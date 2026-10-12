@@ -1,0 +1,11 @@
+Item,Cargo (kg) - In - 2019,Cargo (kg) - Out - 2019,Cargo (kg) - Transit - 2019,Flight Movements - 2019,Mail (kg) - In - 2019,Mail (kg) - Out - 2019,Passengers - In - 2019,Passengers - Out - 2019,Passengers - Transit - 2019
+Domestic flights,252452.2,26790.3,11382.0,21010.0,20706.9,748.0,58882.0,59164.0,6540.0
+International Flights,315264.0,3905.4,,518.0,,,19078.0,18975.0,16.0
+International Non-Scheduled,1918.0,,,174.0,,,1023.0,774.0,16.0
+International Scheduled,313346.0,3905.4,,344.0,,,18055.0,18201.0,
+Island Aviation (Non-Scheduled),1518.0,5004.0,89.0,52.0,79.0,,331.0,611.0,220.0
+Island Aviation (Scheduled),250934.2,21786.3,11293.0,3592.0,20627.9,748.0,56826.0,56617.0,5444.0
+Other Domestic 1_/,,,,17268.0,,,,,
+Srilankan Airlines,313346.0,3905.4,,344.0,,,18055.0,18201.0,
+Total,567716.2,30695.7,11382.0,21528.0,20706.9,748.0,77960.0,78139.0,6556.0
+Villa (Non-Scheduled),,,,98.0,,,1725.0,1936.0,876.0

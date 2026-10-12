@@ -1,0 +1,28 @@
+{
+  "table_id": "15.6",
+  "title_en": "Table 15.6 : MARINE PRODUCT EXPORTS BY THE PRIVATE SECTOR BY COUNTRY OF DESTINATION, 2005 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Mald ives Custom Services",
+  "notes": [],
+  "columns": [
+    "Country",
+    "2000",
+    "2001",
+    "2002",
+    "Value ( in Rf. ' 000 ) - 2004",
+    "Value ( in Rf. ' 000 ) - 2005",
+    "Value ( in Rf. ' 000 ) - 2006",
+    "Value ( in Rf. ' 000 ) - 2007",
+    "Value ( in Rf. ' 000 ) - 2008",
+    "Value ( in Rf. ' 000 ) - 2009",
+    "Value ( in Rf. ' 000 ) - 2010",
+    "% Share - 2005",
+    "% Share - 2006",
+    "% Share - 2007",
+    "% Share - 2008",
+    "% Share - 2009",
+    "% Share - 2010"
+  ],
+  "row_count": 21
+}

@@ -1,0 +1,23 @@
+{
+  "table_id": "10.15",
+  "title_en": "Table 10.15: Number of Maldivian and Foreigners in the Resort Employment by Atoll and sex, Census 2014",
+  "title_dv": "ތާވަލު 10.15: ޖިންސުގެ ގޮތުން ރިސޯޓުތަކުގައި މަސައްކަތްކުރާ ދިވެހި އަދި ބިދޭސީންގެ އަދަދު، ބޯހިމެނުން 2014",
+  "unit": "",
+  "source": "Source: Maldives, Population and Housing Census, 2014",
+  "notes": [
+    "National Bureau of Statistics"
+  ],
+  "columns": [
+    "Locality",
+    "Resident Population - Total",
+    "Resident Population - Total - Male",
+    "Resident Population - Total - Female",
+    "Resident Population - Maldivian - Total",
+    "Resident Population - Maldivian - Male",
+    "Resident Population - Maldivian - Female",
+    "Resident Population - Foreigner - Total",
+    "Resident Population - Foreigner - Male",
+    "Resident Population - Foreigner - Female"
+  ],
+  "row_count": 21
+}

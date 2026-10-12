@@ -1,0 +1,21 @@
+{
+  "table_id": "8.2",
+  "title_en": "Table 8.2 : PERSONS SENTENCED, BY AGE AND SEX, 2008 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Depa rtment of Penitentiary and Rehabilitation Service",
+  "notes": [],
+  "columns": [
+    "Age groups",
+    "2008 - Both sexes",
+    "2008 - Male",
+    "2008 - Female",
+    "2009 - Both sexes",
+    "2009 - Male",
+    "2009 - Female",
+    "% change over the previous year - Both sexes",
+    "% change over the previous year - Male",
+    "% change over the previous year - Female"
+  ],
+  "row_count": 9
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "18.5",
+  "title_en": "TABLE 18.5: NUMBER OF BENEFICIARIES OF RETIREMENT PENSION SCHEME BY AGE, 2020 - 2021",
+  "title_dv": "ތާވަލު 18.5 :ރިޓާޔަމަންޓް ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2020 - 2021",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Age Groups - 2020 - Total",
+    "Age Groups - 2020 - < 65",
+    "Age Groups - 2020 - 65-69",
+    "Age Groups - 2020 - 70-74",
+    "Age Groups - 2020 - 75+",
+    "Age Groups - 2021 - Total",
+    "Age Groups - 2021 - < 65",
+    "Age Groups - 2021 - 65-69",
+    "Age Groups - 2021 - 70-74",
+    "Age Groups - 2021 - 75+"
+  ],
+  "row_count": 12
+}

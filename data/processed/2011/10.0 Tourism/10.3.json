@@ -1,0 +1,24 @@
+{
+  "table_id": "10.3",
+  "title_en": "Table 10.3 : BED CAPACITY AND UTILIZATION OF RESORTS AND HOTELS BY MONTH, 2009 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2009 - Registered Bed Capacity",
+    "2009 - Beds in operation",
+    "2009 - % share of registered beds in operation",
+    "2009 - Bed Capacity Utilization Rate %",
+    "2009 - Tourist Bednights",
+    "2009 - Average Duration of stay (days)",
+    "2010 - Registered Bed Capacity",
+    "2010 - Beds in operation",
+    "2010 - % share of registered beds in operation",
+    "2010 - Bed Capacity Utilization Rate %",
+    "2010 - Tourist Bednights",
+    "2010 - Average Duration of stay (days)"
+  ],
+  "row_count": 13
+}

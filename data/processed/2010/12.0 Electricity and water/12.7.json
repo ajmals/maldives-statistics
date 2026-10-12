@@ -1,0 +1,25 @@
+{
+  "table_id": "12.7",
+  "title_en": "Table 12.7 : MONTHLY CONSUMPTION OF LUB OIL FOR ELECTRICITY GENERATION IN SELECTED LOCALITIES BY PUBLIC SECTOR, 2009 (In '000 litres)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Company Li mited",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 29
+}

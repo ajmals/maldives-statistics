@@ -1,0 +1,40 @@
+{
+  "table_id": "13.8",
+  "title_en": "Table 13.8 : SUMMARY OF EXTERNAL PUBLIC DEBT, 2003 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "1_/ Total outstanding disbursed (M & L/T)",
+    "2_/ Disbursement of loans during the year",
+    "3_/ Repayments of loans (principal only)",
+    "4_/ Disbursements less principal repayments",
+    "5_/ Interest on loans (M & L / T)",
+    "6_/ Sum of Principal repayments and interest",
+    "7_/ Disbursements less total debt service",
+    "Sources:",
+    "1/ All 2010-2017 have been extracted from CS-DRMS Report 352, with cut-off date 31st Dec 2014 as of 12th March 2015",
+    "2/ GDP figures from Budget 2015 Volume 1 (from 2010-2017) have been converted with exchange rates from MMA (as of last date of the year)",
+    "3/ XGS figures from MMA Monthly Statistics Feb 2015 for 2011-2015 and Sept 2014 for 2010",
+    "Ministry of Finance & Treasury"
+  ],
+  "columns": [
+    "(In million US dollars) - Particular",
+    "(In million US dollars) - 2003",
+    "(In million US dollars) - 2004",
+    "(In million US dollars) - 2005",
+    "(In million US dollars) - 2006",
+    "(In million US dollars) - 2007",
+    "(In million US dollars) - 2008",
+    "(In million US dollars) - 2009",
+    "(In million US dollars) - 2010",
+    "(In million US dollars) - (MTEF) - 2011",
+    "(In million US dollars) - REVISED (MTEF) - 2012",
+    "(In million US dollars) - (MTEF) - 2013",
+    "(In million US dollars) - REVISED (MTEF) - 2014",
+    "(In million US dollars) - (MTEF) - 2015",
+    "(In million US dollars) - (MTEF) - 2016",
+    "(In million US dollars) - (MTEF) - 2017"
+  ],
+  "row_count": 12
+}

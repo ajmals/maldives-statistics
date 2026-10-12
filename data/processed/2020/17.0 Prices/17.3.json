@@ -1,0 +1,39 @@
+{
+  "table_id": "17.3",
+  "title_en": "Table 17.3 : INFLATION RATES, REPUBLIC, 1985 - 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "Prior to June 2004, the food and non-beverages category includes tobacco & narcotics category",
+    "Prior to January 1996, the fish category seperately is not available",
+    "Prior to June 2004, the transport category includes communication category",
+    "Prior to June 2004, the recreation & cultute category includes education category",
+    "Prior to June 1996, the Housing, Water. Electricity,Gas and other fuels category includes only rent",
+    "na- Not available",
+    "In 2019, base of ndex: Aug 2019=100, COICOP 2018 has been adopted in the rebased series"
+  ],
+  "columns": [
+    "(Index - base: June 2012=100) - Major Groups - Republic",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1985",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1986",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1987",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1988",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1989",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1990",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1991",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1992",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1993",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1994",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1995",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1996",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1997",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1998",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 1999",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 2000",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 2001",
+    "(Index - base: June 2012=100) - Inflation rates (in percentage) - 2001_2"
+  ],
+  "row_count": 37
+}

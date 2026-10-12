@@ -1,0 +1,23 @@
+{
+  "table_id": "17.1",
+  "title_en": "Table 17.1: ALL GROUPS Consumer Price Index (TOTAL), 1985 - 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics",
+  "notes": [
+    "Note: The series for the Republic prior to June 2012 was linked to previously published series for Male’ and hence Male' and Republic have the same values prior to June 2012",
+    "In 2019, base of index: Aug 2019=100, COICOP 2018 has been adopted in the rebased series"
+  ],
+  "columns": [
+    "(Index - base: Aug 2019 =100) - Period",
+    "(Index - base: Aug 2019 =100) - Consumer Price Index (CPI) - Republic",
+    "(Index - base: Aug 2019 =100) - Consumer Price Index (CPI) - Male'",
+    "(Index - base: Aug 2019 =100) - Consumer Price Index (CPI) - Atoll",
+    "(Index - base: Aug 2019 =100) - Consumer Price Index (CPI) - Atoll_2",
+    "(Index - base: Aug 2019 =100) - Annual Inflation Rate (%) - Republic",
+    "(Index - base: Aug 2019 =100) - Annual Inflation Rate (%) - Male'",
+    "(Index - base: Aug 2019 =100) - Annual Inflation Rate (%) - Atoll",
+    "(Index - base: Aug 2019 =100) - Annual Inflation Rate (%) - Atoll_2"
+  ],
+  "row_count": 38
+}

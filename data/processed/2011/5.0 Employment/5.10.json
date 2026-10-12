@@ -1,0 +1,21 @@
+{
+  "table_id": "5.10",
+  "title_en": "Table 5.10 : EXPATRIATE EMPLOYMENT BY INDUSTRY AND SEX, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Human Resources, Youth and Sports",
+  "notes": [
+    "Note: All data are aggregate figures"
+  ],
+  "columns": [
+    "Industry",
+    "Total",
+    "Male",
+    "Female",
+    "Male % distribution",
+    "Female % distribution",
+    "% share women in industry",
+    "% share women in industry_2"
+  ],
+  "row_count": 14
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "6.11",
+  "title_en": "Table 6.11: ESTIMATED IMMUNIZATION COVERAGE, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Centre for Community Health and Disease Control / EPI program",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Measles",
+    "MMR",
+    "BCG - (BCG) Dozes",
+    "DPT - 1st",
+    "DPT - 2nd",
+    "DPT - 3rd",
+    "TT* - 1st",
+    "TT* - 2nd",
+    "TT* - 3rd",
+    "TT* - 4th",
+    "TT* - 5th",
+    "Hepatitis B - 1st",
+    "Hepatitis B - 2nd",
+    "Hepatitis B - 3rd",
+    "OPV - 1st",
+    "OPV - 2nd",
+    "OPV - 3rd",
+    "OPV - 4th"
+  ],
+  "row_count": 28
+}

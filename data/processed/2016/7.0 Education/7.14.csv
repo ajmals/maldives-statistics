@@ -1,0 +1,461 @@
+Sr,Atoll,School,Island,Type,Pre-Primary - Both sex,Pre-Primary - Male,Pre-Primary - Female,Primary - Both sex,Primary - Male,Primary - Female,Secondary - Both sex,Secondary - Male,Secondary - Female,Higher Secondary - Both sex,Higher Secondary - Male,Higher Secondary - Female,Special Classes - Both sex,Special Classes - Male,Special Classes - Female,TOTAL NUMBER OF STUDENTS - Both sex,TOTAL NUMBER OF STUDENTS - Male,TOTAL NUMBER OF STUDENTS - Female,TOTAL NUMBER OF TEACHERS - TOTAL,TOTAL NUMBER OF TEACHERS - EXPAT.,TOTAL NUMBER OF TEACHERS - LOCAL
+,TOTAL,TOTAL,TOTAL,TOTAL,23412,12041,11371,42137,21731,20406,18096,9357,8739,4380,1870,2510,316,208,108,88341,45207,43134,8817,2356,6461
+1,Male',Thajudhdheen School,Male',G,,,,964,502,462,359,194,165,,,,,,,1323,696,627,101,13,88
+2,Male',Iskandhar School,Male',G,,,,1627,786,841,486,249,237,,,,,,,2113,1035,1078,123,26,97
+3,Male',Jamaluddin School,Male',G,,,,1476,761,715,364,189,175,,,,26,12,14,1866,962,904,138,15,123
+4,Male',Kalaafaanu School,Male',G,,,,1201,617,584,342,175,167,,,,2,,2,1545,792,753,105,16,89
+5,Male',Imaadhuddin School,Male',G,,,,1488,752,736,434,225,209,,,,94,67,27,2016,1044,972,133,16,117
+6,Male',Arabiyyathul,Male',G,,,,922,484,438,85,45,40,27,14,13,,,,1034,543,491,85,6,79
+7,Male',Aminiya School,Male',G,,,,935,413,522,629,,629,,,,60,43,17,1624,456,1168,111,29,82
+8,Male',Majeedhiyya School,Male',G,,,,662,385,277,525,525,,41,41,,,,,1228,951,277,104,25,79
+9,Male',Dharumavantha School,Male',G,,,,536,306,230,303,303,,,,,,,,839,609,230,82,26,56
+10,Male',Hiriya School,Male',G,,,,596,292,304,270,,270,,,,,,,866,292,574,74,15,59
+11,Male',Ghaazee School,Male',G,,,,689,352,337,457,232,225,45,19,26,,,,1191,603,588,111,34,77
+12,Male',Muhyiddin School,Male',G,188,88,100,409,201,208,195,98,97,,,,,,,792,387,405,81,11,70
+13,Male',CHSE,Male',G,,,,,,,,,,1124,481,643,,,,1124,481,643,79,37,42
+14,Male',Rehendi Schools,Male',G,,,,749,413,336,95,52,43,,,,,,,844,465,379,85,6,79
+15,Male',Villa International High School,Male',P,,,,,,,,,,608,292,316,,,,608,292,316,38,11,27
+16,Male',Maps International High School,Male',P,,,,,,,,,,184,86,98,,,,184,86,98,13,2,11
+17,Male',Ghiyasuddin International School,Male',P,,,,775,405,370,88,31,57,,,,,,,863,436,427,99,21,78
+18,Male',Lale Youth International School,Male',P,201,104,97,318,148,170,57,28,29,15,6,9,,,,591,286,305,49,20,29
+19,Male',Billabong EPS High International School,Male',P,,,,558,308,250,112,58,54,44,25,19,,,,714,391,323,77,31,46
+20,Male',Galolhu Madhrasa,Male',C,1159,580,579,15,10,5,100,62,38,,,,,,,1274,652,622,58,,58
+21,Male',Maafanu Madharusaa,Male',C,743,369,374,,,,46,25,21,,,,,,,789,394,395,45,,45
+22,Male',Madhrasathul Ahmadhiyya,Male',C,946,470,476,,,,702,368,334,537,212,325,,,,2185,1050,1135,42,,42
+23,Male',Ameer Ahmed School,Male',C,693,340,353,,,,,,,,,,,,,693,340,353,41,,41
+24,Male',Enlighten Kids Pre-School,Male',P,116,59,57,,,,,,,,,,,,,116,59,57,11,,11
+25,Male',Glow Pre-School,Male',P,235,122,113,,,,,,,,,,,,,235,122,113,21,,21
+26,Male',Hulhumale Pre-School,Male',P,374,217,157,,,,,,,,,,,,,374,217,157,16,,16
+27,Male',Bridge Little Learners Pre-School,Male',P,129,73,56,,,,,,,,,,,,,129,73,56,24,,24
+28,Male',Dhondhooni Little Learners Pre-School,Male',P,359,188,171,,,,,,,,,,,,,359,188,171,50,,50
+29,Male',Excel International School,Male',P,431,222,209,,,,,,,,,,,,,431,222,209,49,,49
+30,Male',Kangaroo Kids Pre-School,Male',P,816,400,416,,,,,,,,,,,,,816,400,416,67,,67
+31,Male',Kinder Pre-School,Male',P,310,155,155,,,,,,,,,,,,,310,155,155,35,,35
+32,Male',Living Values Education Pre-School,Male',P,86,57,29,,,,,,,,,,,,,86,57,29,14,,14
+33,Male',PL KIDS Pre-School,Male',P,140,73,67,,,,,,,,,,,,,140,73,67,16,,16
+34,Male',Zaaling Pre-School,Male',P,71,34,37,,,,,,,,,,,,,71,34,37,6,,6
+35,Male',Falaah Pre-School,Male',P,478,252,226,,,,,,,,,,,,,478,252,226,26,,26
+36,Male',Shine Learners Pre School,Male',P,312,159,153,,,,,,,,,,,,,312,159,153,35,,35
+37,Male',Sheikh Abdul Rahman Pre-School,Male',P,162,91,71,,,,,,,,,,,,,162,91,71,5,,5
+38,Male',Little Star Pre-School,Male',P,36,20,16,,,,,,,,,,,,,36,20,16,9,,9
+39,HA,Ha. Atholhu Madarsa,Hoarafushi,G,,,,247,137,110,132,66,66,28,16,12,,,,407,219,188,45,19,26
+40,HA,Ha. Atholhu Thauleemee Marukazu,Dhidhdhoo,G,,,,399,211,188,143,71,72,,,,,,,542,282,260,50,13,37
+41,HA,Madhrasathul Sulthaan Mohamed Thakurufaanul Auzam,Utheem,G,,,,78,36,42,45,19,26,,,,,,,123,55,68,20,10,10
+42,HA,Baarashu School,Baarah,G,,,,196,108,88,111,55,56,,,,,,,307,163,144,30,13,17
+43,HA,Ihavandhoo School,Ihavandhoo,G,,,,407,214,193,215,118,97,55,27,28,5,5,,682,364,318,68,12,56
+44,HA,Maarandhoo School,Maarandhoo,G,,,,115,66,49,45,19,26,5,1,4,,,,165,86,79,22,11,11
+45,HA,Madhrasathul Sobah,Filladhoo,G,,,,62,32,30,45,30,15,,,,,,,107,62,45,19,10,9
+46,HA,Madhrasathul Shaheedhu Ali Thakurufaan,Thakandhoo,G,,,,41,21,20,11,5,6,,,,,,,52,26,26,15,7,8
+47,HA,Madhrasathul Sheikh Ibrahim,Kelaa,G,,,,155,82,73,81,44,37,,,,,,,236,126,110,31,7,24
+48,HA,Molhadhoo School,Molhadhoo,G,,,,25,13,12,13,4,9,,,,,,,38,17,21,17,6,11
+49,HA,Muraidhoo School,Muraidhoo,G,,,,52,29,23,27,12,15,,,,,,,79,41,38,16,7,9
+50,HA,Thuraakunu School,Thuraakunu,G,,,,51,15,36,27,14,13,,,,,,,78,29,49,19,9,10
+51,HA,Uligamu School,Uligamu,G,,,,43,25,18,23,10,13,,,,,,,66,35,31,18,8,10
+52,HA,Vashafaru School,Vashafaru,G,,,,68,35,33,37,17,20,,,,,,,105,52,53,23,11,12
+53,HA,Ghaazee Mohamed Pre-School,Dhidhdhoo,C,228,119,109,,,,,,,,,,,,,228,119,109,16,,16
+54,HA,Wafa Pre-School,Ihavandhoo,P,177,95,82,,,,,,,,,,,,,177,95,82,9,,9
+55,HA,Lily Pre-School,Kelaa,C,79,42,37,,,,,,,,,,,,,79,42,37,5,,5
+56,HA,Vashafaru Pre-School,Vashafaru,C,27,13,14,,,,,,,,,,,,,27,13,14,2,,2
+57,HA,Baarashu Pre-School,Baarah,C,91,40,51,,,,,,,,,,,,,91,40,51,5,,5
+58,HA,Umar Mohamed Pre-School,Filladhoo,P,46,15,31,,,,,,,,,,,,,46,15,31,2,,2
+59,HA,Dhoonithundi Nursery Class,Utheem,P,54,25,29,,,,,,,,,,,,,54,25,29,2,,2
+60,HA,Adam Saleem Han'Dhaane Pre-School,Hoarafushi,P,114,58,56,,,,,,,,,,,,,114,58,56,6,,6
+61,HA,Hussain Adam Han'dhaanee Pre-School,Thuraakunu,P,26,16,10,,,,,,,,,,,,,26,16,10,2,,2
+62,HA,Thakandhoo Raiyyithuge pre-school,Thakandhoo,C,28,17,11,,,,,,,,,,,,,28,17,11,2,,2
+63,HA,Molhadhoo pre-School,Molhadhoo,C,18,11,7,,,,,,,,,,,,,18,11,7,2,,2
+64,HA,Uligan Pre-School,Uligamu,C,23,10,13,,,,,,,,,,,,,23,10,13,2,,2
+65,HA,Muraidhoo Pre-School,Muraidhoo,C,49,28,21,,,,,,,,,,,,,49,28,21,3,,3
+66,HA,Kaleyfaanu Pre-School,Maarandhoo,C,49,23,26,,,,,,,,,,,,,49,23,26,4,,4
+67,HDh,Hdh. Atholhu Madharusaa,Vaikaradhoo,G,,,,128,65,63,58,30,28,,,,,,,186,95,91,31,15,16
+68,HDh,Hdh. Atolhu Thauleemee Marukazu,Kulhudufushi,G,,,,693,356,337,,,,,,,21,14,7,714,370,344,62,2,60
+69,HDh,Finey School,Finey,G,,,,52,24,28,22,11,11,,,,,,,74,35,39,17,8,9
+70,HDh,Hanimaadhoo School,Hanimaadhoo,G,,,,190,114,76,121,59,62,18,6,12,,,,329,179,150,40,21,19
+71,HDh,Hirimaradhoo School,Hirimaradhoo,G,,,,39,21,18,16,8,8,,,,,,,55,29,26,20,8,12
+72,HDh,Kumundhoo School,Kumundhoo,G,,,,140,78,62,56,28,28,,,,,,,196,106,90,26,9,17
+73,HDh,Kurin'bee School,Kurin'bee,G,,,,61,29,32,36,27,9,,,,,,,97,56,41,22,9,13
+74,HDh,Makunudhoo School,Makunudhoo,G,,,,191,99,92,67,37,30,11,2,9,,,,269,138,131,26,9,17
+75,HDh,Naivaadhoo School,Naivaadhoo,G,,,,45,26,19,23,15,8,,,,,,,68,41,27,19,8,11
+76,HDh,Nellaidhoo School,Nellaidhoo,G,,,,122,63,59,47,30,17,19,7,12,,,,188,100,88,21,8,13
+77,HDh,Neykurendhoo School,Neykurendhoo,G,,,,81,38,43,42,25,17,,,,,,,123,63,60,20,10,10
+78,HDh,Nolhivaram School,Nolhivaram,G,,,,349,180,169,153,87,66,32,9,23,,,,534,276,258,57,22,35
+79,HDh,Nolhivaramfaru School,Nolhivaranfaru,G,,,,127,64,63,50,18,32,,,,,,,177,82,95,25,11,14
+80,HDh,Afeefuddeen School,Kulhudufushi,G,,,,416,222,194,113,73,40,,,,,,,529,295,234,46,9,37
+81,HDh,Jalaaludheen School,Kulhudufushi,G,,,,,,,392,221,171,119,41,78,,,,511,262,249,47,16,31
+82,HDh,Ameeru Ameen School,Kulhudufushi,C,389,196,193,,,,,,,,,,,,,389,196,193,24,,24
+83,HDh,Irumathi Avashu Pre-School,Kulhudufushi,C,289,155,134,,,,,,,,,,,,,289,155,134,22,,22
+84,HDh,Athfaal Pre-School,Kumundhoo,P,34,18,16,,,,,,,,,,,,,34,18,16,1,,1
+85,HDh,Saadha Pre-School,Hanimaadhoo,P,107,61,46,,,,,,,,,,,,,107,61,46,6,,6
+86,HDh,Sulaimaaniyya Pre-School,Vaikaradhoo,P,79,45,34,,,,,,,,,,,,,79,45,34,4,,4
+87,HDh,Tharaha Pre-School,Kumundhoo,P,62,30,32,,,,,,,,,,,,,62,30,32,3,,3
+88,HDh,Nares Pre-School,Makunudhoo,P,43,23,20,,,,,,,,,,,,,43,23,20,4,,4
+89,HDh,Unmeedh Pre-school,Makunudhoo,P,37,21,16,,,,,,,,,,,,,37,21,16,4,,4
+90,HDh,Naivaadhoo Isdharivarunge Jamiyyaage Pre-School,Naivaadhoo,P,19,12,7,,,,,,,,,,,,,19,12,7,2,,2
+91,HDh,Makuthabu noor,Neykurendhoo,C,55,23,32,,,,,,,,,,,,,55,23,32,3,,3
+92,HDh,Naivaadhoo Pre-School,Naivaadhoo,C,9,3,6,,,,,,,,,,,,,9,3,6,3,,3
+93,HDh,N.A.Y. Pre-School,Nellaidhoo,P,82,39,43,,,,,,,,,,,,,82,39,43,4,,4
+94,HDh,Nolhivaram Pre-School,Nolhivaram,C,157,69,88,,,,,,,,,,,,,157,69,88,5,,5
+95,HDh,Nolhivaramfaru Pre-School,Nolhivaranfaru,C,73,36,37,,,,,,,,,,,,,73,36,37,4,,4
+96,HDh,Finey pre school,Finey,C,27,8,19,,,,,,,,,,,,,27,8,19,2,,2
+97,HDh,Hirimaradhoo Pre-school,Hirimaradhoo,C,21,11,10,,,,,,,,,,,,,21,11,10,2,,2
+98,HDh,Kurimagu Pre-School,Kurin'bee,C,39,23,16,,,,,,,,,,,,,39,23,16,4,,4
+99,Sh,Sh. Atholhu Madharusaa,Kan'ditheem,G,,,,172,77,95,90,45,45,,,,,,,262,122,140,32,8,24
+100,Sh,Sh. Atholhu Thauleemee Marukazu,Komandoo,G,,,,132,71,61,76,40,36,8,3,5,6,4,2,222,118,104,36,16,20
+101,Sh,Bileiyfahi School,Bilehfahi,G,,,,47,24,23,24,13,11,,,,,,,71,37,34,20,7,13
+102,Sh,Funadhoo School,Funadhoo,G,,,,371,179,192,167,92,75,6,3,3,,,,544,274,270,55,22,33
+103,Sh,Feevaku School,Feevah,G,,,,88,37,51,36,21,15,,,,,,,124,58,66,21,7,14
+104,Sh,Feydhoo School,Feydhoo,G,,,,126,66,60,40,24,16,,,,,,,166,90,76,19,8,11
+105,Sh,Fokaidhoo School,Foakaidhoo,G,,,,236,113,123,114,63,51,,,,,,,350,176,174,34,11,23
+106,Sh,Goidhoo School,Goidhoo,G,,,,61,33,28,30,13,17,,,,,,,91,46,45,21,9,12
+107,Sh,Lhaimagu School,Lhaimagu,G,,,,91,53,38,43,26,17,,,,,,,134,79,55,26,13,13
+108,Sh,Maaun'goodhoo School,Maaun'goodhoo,G,,,,114,63,51,48,22,26,,,,,,,162,85,77,22,8,14
+109,Sh,Narudhoo School,Narudhoo,G,,,,74,44,30,35,21,14,,,,,,,109,65,44,21,8,13
+110,Sh,Noomaraa School,Noomara,G,,,,55,25,30,22,16,6,,,,,,,77,41,36,17,10,7
+111,Sh,Almadhrasathul Munavvaraa,Maroshi,G,,,,64,27,37,25,16,9,,,,,,,89,43,46,22,7,15
+112,Sh,Milandhoo School,Milandhoo,G,,,,257,146,111,180,97,83,26,13,13,,,,463,256,207,50,16,34
+113,Sh,Narudhoo Pre-School,Narudhoo,C,43,24,19,,,,,,,,,,,,,43,24,19,3,,3
+114,Sh,Noomaraa Pre-School,Noomara,C,25,14,11,,,,,,,,,,,,,25,14,11,2,,2
+115,Sh,Maroshi Pre-School,Maroshi,C,18,10,8,,,,,,,,,,,,,18,10,8,1,,1
+116,Sh,Lhaimagu Pre-School,Lhaimagu,C,52,28,24,,,,,,,,,,,,,52,28,24,3,,3
+117,Sh,Komandoo Pre-School,Komandoo,C,87,47,40,,,,,,,,,,,,,87,47,40,5,,5
+118,Sh,Feevaku Pre School,Feevah,C,50,26,24,,,,,,,,,,,,,50,26,24,3,,3
+119,Sh,Venus Pre-School,Milandhoo,C,191,107,84,,,,,,,,,,,,,191,107,84,8,,8
+120,Sh,Community Pre-School,Kan'ditheem,C,89,38,51,,,,,,,,,,,,,89,38,51,6,,6
+121,Sh,Bileiyfahi Pre-School,Bilehfahi,P,33,21,12,,,,,,,,,,,,,33,21,12,3,,3
+122,Sh,Funadhoo Preschool,Funadhoo,P,172,85,87,,,,,,,,,,,,,172,85,87,12,,12
+123,Sh,Maaun'goodhoo Pre-School,Maaun'goodhoo,C,83,44,39,,,,,,,,,,,,,83,44,39,4,,4
+124,Sh,Sh. Feydhoo Pre-School,Feydhoo,C,62,27,35,,,,,,,,,,,,,62,27,35,3,,3
+125,Sh,Goidhoo Pre-School,Goidhoo,P,37,22,15,,,,,,,,,,,,,37,22,15,2,,2
+126,Sh,Foakaidhoo Pre-School,Foakaidhoo,C,117,60,57,,,,,,,,,,,,,117,60,57,4,,4
+127,N,N. Atholhu Madharusaa,Manadhoo,G,,,,181,92,89,71,33,38,23,12,11,,,,275,137,138,37,18,19
+128,N,N. Atholhu Thauleemee Marukazu,Velidhoo,G,,,,200,103,97,80,40,40,,,,4,4,,284,147,137,36,13,23
+129,N,Meyna School,Holhudhoo,G,,,,207,103,104,90,43,47,27,15,12,,,,324,161,163,43,22,21
+130,N,Fodhdhoo School,Fodhdhoo,G,,,,31,20,11,,,,,,,,,,31,20,11,6,2,4
+131,N,Hen'badhoo School,Hen'badhoo,G,,,,90,43,47,36,15,21,,,,,,,126,58,68,19,8,11
+132,N,Ken'dhikulhudhoo School,Ken'dhikulhudhoo,G,,,,187,93,94,72,36,36,42,19,23,,,,301,148,153,42,10,32
+133,N,Kudafaree School,Kudafaree,G,,,,79,51,28,35,16,19,6,3,3,,,,120,70,50,23,10,13
+134,N,Landhoo School,Landhoo,G,,,,89,41,48,35,22,13,,,,,,,124,63,61,25,8,17
+135,N,Lhohee School,Lhohi,G,,,,79,41,38,30,17,13,,,,,,,109,58,51,18,7,11
+136,N,Maafaru School,Maafaru,G,,,,106,49,57,57,30,27,,,,,,,163,79,84,25,5,20
+137,N,Maalendhoo School,Maalhendhoo,G,,,,103,64,39,39,21,18,,,,,,,142,85,57,19,7,12
+138,N,Magoodhoo School,Magoodhoo,G,,,,39,18,21,,,,,,,,,,39,18,21,10,2,8
+139,N,Hidhaya School,Miladhoo,G,,,,136,56,80,63,36,27,,,,,,,199,92,107,21,8,13
+140,N,Holhudhoo Pre-School,Holhudhoo,C,119,63,56,,,,,,,,,,,,,119,63,56,6,,6
+141,N,Skid Pre-School,Ken'dhikulhudhoo,P,63,34,29,,,,,,,,,,,,,63,34,29,3,,3
+142,N,Maafaru Pre-School,Maafaru,C,51,28,23,,,,,,,,,,,,,51,28,23,2,,2
+143,N,Friends Aid Ujaalaa Pre School,Kudafaree,C,39,17,22,,,,,,,,,,,,,39,17,22,2,,2
+144,N,Hen'badhoo Pre-School,Hen'badhoo,C,60,33,27,,,,,,,,,,,,,60,33,27,2,,2
+145,N,Nahuzaa Pre-School,Velidhoo,C,125,67,58,,,,,,,,,,,,,125,67,58,6,,6
+146,N,Ahmadhee Pre-School,Ken'dhikulhudhoo,C,41,21,20,,,,,,,,,,,,,41,21,20,2,,2
+147,N,S.S.G Pre-School,Maalhendhoo,P,49,25,24,,,,,,,,,,,,,49,25,24,4,,4
+148,N,Magoodhoo Pre-School,Magoodhoo,P,20,10,10,,,,,,,,,,,,,20,10,10,2,,2
+149,N,Fodhdhoo Pre School,Fodhdhoo,C,13,6,7,,,,,,,,,,,,,13,6,7,2,,2
+150,N,Manadhoo Pre-School,Manadhoo,P,109,55,54,,,,,,,,,,,,,109,55,54,6,,6
+151,N,Landhoo Pre-School,Landhoo,C,63,23,40,,,,,,,,,,,,,63,23,40,2,,2
+152,N,Lhohee Pre School,Lhohi,C,51,26,25,,,,,,,,,,,,,51,26,25,2,,2
+153,N,Miladhoo pre-school,Miladhoo,C,44,22,22,,,,,,,,,,,,,44,22,22,2,,2
+154,R,R. Atholhu Madhrasa,Dhuvaafaru,G,,,,,,,188,92,96,,,,,,,188,92,96,28,21,7
+155,R,R. Atholhu Thauleemee Marukazu,Meedhoo,G,,,,220,112,108,111,59,52,34,15,19,,,,365,186,179,44,11,33
+156,R,An'golhitheemu School,An'golhitheem,G,,,,40,19,21,19,12,7,,,,,,,59,31,28,21,8,13
+157,R,Alifushi School,Alifushi,G,,,,236,123,113,130,69,61,35,8,27,,,,401,200,201,45,17,28
+158,R,Fainu School,Fainu,G,,,,48,26,22,25,14,11,,,,,,,73,40,33,20,7,13
+159,R,In'guraidhoo School,In'guraidhoo,G,,,,169,96,73,72,32,40,,,,,,,241,128,113,33,9,24
+160,R,Innamaadhoo School,Innamaadhoo,G,,,,74,40,34,29,15,14,,,,,,,103,55,48,19,7,12
+161,R,Kinolhahu School,Kinolhas,G,,,,71,34,37,34,18,16,,,,,,,105,52,53,18,8,10
+162,R,Maakurath School,Maakurath,G,,,,124,64,60,59,33,26,,,,,,,183,97,86,19,8,11
+163,R,Maduvvaree School,Maduvvaree,G,,,,201,100,101,96,44,52,4,,4,,,,301,144,157,42,11,31
+164,R,Rasgetheemu School,Rasgatheem,G,,,,78,39,39,34,13,21,,,,,,,112,52,60,19,10,9
+165,R,Rasmaadhoo School,Rasmaadhoo,G,,,,63,34,29,33,21,12,,,,,,,96,55,41,21,9,12
+166,R,Un'goofaaru School,Un'goofaaru,G,,,,207,112,95,107,61,46,25,12,13,,,,339,185,154,33,20,13
+167,R,Hulhudhuffaru School,Hulhudhuhfaaru,G,,,,164,91,73,86,44,42,46,23,23,,,,296,158,138,43,19,24
+168,R,Vaadhoo School,Vaadhoo,G,,,,57,18,39,29,17,12,,,,,,,86,35,51,17,7,10
+169,R,Dhuvaafaru Primary School,Dhuvaafaru,G,,,,521,290,231,,,,,,,6,5,1,527,295,232,46,8,38
+170,R,Community Pre-School,Dhuvaafaru,C,239,122,117,,,,,,,,,,,,,239,122,117,13,,13
+171,R,Maakurath Pre- School,Maakurath,C,51,23,28,,,,,,,,,,,,,51,23,28,3,,3
+172,R,M.E.C.Nursery Class,Maduvvaree,P,110,56,54,,,,,,,,,,,,,110,56,54,6,,6
+173,R,Vaadhoo Pre-School,Vaadhoo,C,24,11,13,,,,,,,,,,,,,24,11,13,2,,2
+174,R,Rasmaadhoo Pre-School,Rasmaadhoo,C,36,20,16,,,,,,,,,,,,,36,20,16,3,,3
+175,R,Koimalaa Pre-School,Rasgatheem,P,30,15,15,,,,,,,,,,,,,30,15,15,2,,2
+176,R,Inguraidhoo Pre-School,In'guraidhoo,P,89,46,43,,,,,,,,,,,,,89,46,43,4,,4
+177,R,Iyaar Pre-School,Innamaadhoo,P,40,19,21,,,,,,,,,,,,,40,19,21,4,,4
+178,R,Angolhitheem Pre-school,An'golhitheem,C,27,14,13,,,,,,,,,,,,,27,14,13,2,,2
+179,R,Fainu pre-School,Fainu,C,29,15,14,,,,,,,,,,,,,29,15,14,2,,2
+180,R,Saif Pre-School,Un'goofaaru,P,104,56,48,,,,,,,,,,,,,104,56,48,4,,4
+181,R,Alifushee Pre-School,Alifushi,C,123,66,57,,,,,,,,,,,,,123,66,57,3,,3
+182,R,Meedhoo Pre-School,Meedhoo,C,120,59,61,,,,,,,,,,,,,120,59,61,5,,5
+183,R,R.Kinolhas Pre-School,Kinolhas,P,42,19,23,,,,,,,,,,,,,42,19,23,2,,2
+184,R,Huzooru Pre-School,Hulhudhuhfaaru,P,104,49,55,,,,,,,,,,,,,104,49,55,5,,5
+185,B,B. Atholhu Madharusaa,Dharavandhoo,G,,,,95,50,45,35,22,13,,,,,,,130,72,58,22,7,15
+186,B,B. Atholhu Thauleemee Marukazu,Eydhafushi,G,,,,362,193,169,200,113,87,119,53,66,8,6,2,689,365,324,67,22,45
+187,B,Dhonfanu School,Dhonfanu,G,,,,52,22,30,28,16,12,,,,,,,80,38,42,23,9,14
+188,B,Fulhadhoo School,Fulhadhoo,G,,,,25,16,9,,,,,,,,,,25,16,9,6,3,3
+189,B,Goidhoo School,Goidhoo,G,,,,87,47,40,33,17,16,,,,,,,120,64,56,21,7,14
+190,B,Hithaadhoo School,Hithaadhoo,G,,,,115,65,50,41,19,22,13,2,11,,,,169,86,83,28,14,14
+191,B,Kamadhoo School,Kamadhoo,G,,,,46,25,21,17,10,7,,,,,,,63,35,28,17,7,10
+192,B,Kendhoo School,Kendhoo,G,,,,117,65,52,63,41,22,15,6,9,,,,195,112,83,29,7,22
+193,B,Kihaadhoo School,Kihaadhoo,G,,,,58,28,30,30,15,15,,,,,,,88,43,45,21,7,14
+194,B,Kudarikilu School,Kudarikilu,G,,,,51,31,20,20,9,11,,,,,,,71,40,31,18,4,14
+195,B,Maalhohu School,Maalhos,G,,,,84,37,47,19,9,10,,,,,,,103,46,57,19,5,14
+196,B,Thulhaadhoo School,Thulhaadhoo,G,,,,182,105,77,100,60,40,,,,,,,282,165,117,36,14,22
+197,B,Aisiru Preschool,Kendhoo,P,59,32,27,,,,,,,,,,,,,59,32,27,4,,4
+198,B,Kihaadhu Preschool,Kihaadhoo,C,31,14,17,,,,,,,,,,,,,31,14,17,2,,2
+199,B,Goidhoo Pre-School,Goidhoo,C,31,19,12,,,,,,,,,,,,,31,19,12,3,,3
+200,B,Fulhadhoo Pre-School,Fulhadhoo,C,11,5,6,,,,,,,,,,,,,11,5,6,2,,2
+201,B,Roots Preschool,Kamadhoo,P,22,10,12,,,,,,,,,,,,,22,10,12,2,,2
+202,B,Thulhaadhoo Preschool,Thulhaadhoo,P,55,30,25,,,,,,,,,,,,,55,30,25,6,,6
+203,B,Thuthukudhinge preschool,Thulhaadhoo,P,50,23,27,,,,,,,,,,,,,50,23,27,5,,5
+204,B,Bahiyya Preschool,Eydhafushi,C,195,100,95,,,,,,,,,,,,,195,100,95,8,,8
+205,B,Dhonfanu Pre-School,Dhonfanu,C,26,12,14,,,,,,,,,,,,,26,12,14,1,,1
+206,B,Dharavandhoo Preschool,Dharavandhoo,C,48,26,22,,,,,,,,,,,,,48,26,22,3,,3
+207,B,Kudarikilu Pre-School,Kudarikilu,C,29,11,18,,,,,,,,,,,,,29,11,18,2,,2
+208,B,Mares Preschool,Maalhos,P,36,19,17,,,,,,,,,,,,,36,19,17,4,,4
+209,B,Hithaadhoo Preschool,Hithaadhoo,P,71,40,31,,,,,,,,,,,,,71,40,31,4,,4
+210,B,Fehendhoo Preschool,Fehendhoo,P,5,3,2,,,,,,,,,,,,,5,3,2,2,,2
+211,Lh,Lh. Atholhu Madharusaa,Kurendhoo,G,,,,176,100,76,80,40,40,,,,,,,256,140,116,39,14,25
+212,Lh,Lh. Atholhu Thauleemee Marukazu,Hinnavaru,G,,,,295,135,160,146,68,78,34,11,23,7,1,6,482,215,267,54,17,37
+213,Lh,Madhrasathul Ifthithaah,Naifaru,G,,,,513,255,258,234,118,116,41,16,25,8,2,6,796,391,405,74,25,49
+214,Lh,Olhuveli Fushi School,Olhuvelifushi,G,,,,79,34,45,23,10,13,,,,,,,102,44,58,21,9,12
+215,Lh,Olhuvelifushi Preschool,Olhuvelifushi,C,47,22,25,,,,,,,,,,,,,47,22,25,4,,4
+216,Lh,Roashanee Preschool,Naifaru,C,134,62,72,,,,,,,,,,,,,134,62,72,6,,6
+217,Lh,Lifelong learning preschool,Naifaru,P,36,20,16,,,,,,,,,,,,,36,20,16,5,,5
+218,Lh,Nooraanee Preschool,Naifaru,C,141,75,66,,,,,,,,,,,,,141,75,66,6,,6
+219,Lh,Habashee Preschool,Kurendhoo,P,75,34,41,,,,,,,,,,,,,75,34,41,4,,4
+220,Lh,Fannu Preschool,Hinnavaru,P,152,74,78,,,,,,,,,,,,,152,74,78,8,,8
+221,K,K. Atholhu Madharusaa,Kaashidhoo,G,,,,279,142,137,108,53,55,,,,,,,387,195,192,41,12,29
+222,K,K. Atholhu Thauleemee Marukazu,Thulusdhoo,G,,,,135,77,58,63,32,31,,,,,,,198,109,89,31,10,21
+223,K,Dhiffushi School,Dhiffushi,G,,,,160,87,73,54,23,31,,,,,,,214,110,104,18,8,10
+224,K,Gaafaru School,Gaafaru,G,,,,159,85,74,75,41,34,,,,,,,234,126,108,24,6,18
+225,K,Gulhee Madhrasa,Gulhi,G,,,,117,54,63,35,14,21,,,,,,,152,68,84,19,9,10
+226,K,Guraidhoo School,Guraidhoo,G,,,,168,94,74,73,37,36,,,,,,,241,131,110,24,11,13
+227,K,Himmafushee School,Himmafushi,G,,,,102,51,51,48,27,21,,,,,,,150,78,72,24,12,12
+228,K,Huraa School,Huraa,G,,,,111,61,50,23,9,14,,,,,,,134,70,64,22,4,18
+229,K,Maafushi School,Maafushi,G,,,,206,105,101,88,50,38,26,6,20,,,,320,161,159,38,19,19
+230,K,Maafushi Preschool,Maafushi,C,119,65,54,,,,,,,,,,,,,119,65,54,8,,8
+231,K,Fikuree Preschool,Dhiffushi,P,63,35,28,,,,,,,,,,,,,63,35,28,4,,4
+232,K,Thulusdhoo Preschool,Thulusdhoo,C,86,47,39,,,,,,,,,,,,,86,47,39,5,,5
+233,K,Hura Pre-School,Huraa,C,89,43,46,,,,,,,,,,,,,89,43,46,4,,4
+234,K,Burulu Preschool,Gaafaru,P,82,48,34,,,,,,,,,,,,,82,48,34,3,,3
+235,K,Gulhi Preschool,Gulhi,C,62,33,29,,,,,,,,,,,,,62,33,29,3,,3
+236,K,Amalee Preschool,Kaashidhoo,P,75,44,31,,,,,,,,,,,,,75,44,31,5,,5
+237,K,Solahiyya Preschool,Kaashidhoo,P,56,35,21,,,,,,,,,,,,,56,35,21,5,,5
+238,K,Guraidhoo Preschool,Guraidhoo,C,121,68,53,,,,,,,,,,,,,121,68,53,6,,6
+239,K,Himmafushi Preschool,Himmafushi,P,57,28,29,,,,,,,,,,,,,57,28,29,4,,4
+240,AA,Aa. Atholhu Madharusaa,Feridhoo,G,,,,52,32,20,17,10,7,,,,,,,69,42,27,19,7,12
+241,AA,Aa. Atholhu Thauleemee Marukazu,Rasdhoo,G,,,,136,64,72,39,20,19,,,,,,,175,84,91,23,11,12
+242,AA,Bodufolhudhoo School,Bodufulhadhoo,G,,,,87,46,41,21,13,8,,,,,,,108,59,49,23,8,15
+243,AA,Himandhoo School,Himandhoo,G,,,,102,60,42,35,18,17,,,,,,,137,78,59,19,7,12
+244,AA,Maalhos School,Maalhos,G,,,,41,20,21,14,8,6,,,,,,,55,28,27,14,7,7
+245,AA,Mathiveri School,Mathiveri,G,,,,109,56,53,36,14,22,,,,,,,145,70,75,20,7,13
+246,AA,Thoddoo School,Thoddoo,G,,,,208,110,98,95,44,51,,,,,,,303,154,149,34,11,23
+247,AA,Ukulhahu School,Ukulhas,G,,,,168,91,77,52,21,31,36,22,14,,,,256,134,122,29,4,25
+248,AA,Feridhoo Pre-School,Feridhoo,C,28,20,8,,,,,,,,,,,,,28,20,8,3,,3
+249,AA,Voshufila Preschool,Ukulhas,P,76,45,31,,,,,,,,,,,,,76,45,31,4,,4
+250,AA,Rasdhoo Preschool,Rasdhoo,P,68,40,28,,,,,,,,,,,,,68,40,28,4,,4
+251,AA,Himmandhoo Community Preschool,Himandhoo,P,53,26,27,,,,,,,,,,,,,53,26,27,3,,3
+252,AA,Himmandhoo preschool,Himandhoo,P,38,19,19,,,,,,,,,,,,,38,19,19,2,,2
+253,AA,Thoddoo Pre-School,Thoddoo,P,114,54,60,,,,,,,,,,,,,114,54,60,7,,7
+254,AA,Husna Preschool,Mathiveri,P,56,30,26,,,,,,,,,,,,,56,30,26,4,,4
+255,AA,Bodufolhudhoo council Preschool,Bodufulhadhoo,C,56,27,29,,,,,,,,,,,,,56,27,29,3,,3
+256,AA,Maalhohu Pre-School,Maalhos,C,35,16,19,,,,,,,,,,,,,35,16,19,3,,3
+257,Adh,Adh. Atholhu Thuleemee Marukazu,Mahibadhoo,G,,,,249,131,118,89,44,45,4,1,3,,,,342,176,166,48,10,38
+258,Adh,Adh. Atholhu Madharusaa,Maamigili,G,,,,300,157,143,97,47,50,,,,,,,397,204,193,37,9,28
+259,Adh,Dhan'gethi School,Dhangethi,G,,,,83,38,45,38,18,20,,,,,,,121,56,65,24,10,14
+260,Adh,Dhigurashu School,Dhigurah,G,,,,79,45,34,32,17,15,,,,,,,111,62,49,20,9,11
+261,Adh,Dhidhoo School,Dhidhdhoo,G,,,,10,5,5,,,,,,,,,,10,5,5,6,2,4
+262,Adh,Fenfushi School,Fenfushi,G,,,,72,39,33,33,19,14,,,,,,,105,58,47,24,9,15
+263,Adh,Hangnaameedhoo School,Hangnaameedhoo,G,,,,63,33,30,34,19,15,,,,,,,97,52,45,21,9,12
+264,Adh,Kun'burudhoo School,Kuburudhoo,G,,,,59,28,31,25,12,13,,,,,,,84,40,44,20,9,11
+265,Adh,Mandhoo School,Mandhoo,G,,,,32,15,17,14,9,5,,,,,,,46,24,22,15,9,6
+266,Adh,Omadhoo School,Omadhoo,G,,,,104,54,50,49,27,22,,,,,,,153,81,72,19,9,10
+267,Adh,Omadhoo Preschool,Omadhoo,C,67,33,34,,,,,,,,,,,,,67,33,34,4,,4
+268,Adh,Maamigili preschool,Maamigili,C,157,80,77,,,,,,,,,,,,,157,80,77,10,,10
+269,Adh,Mahibadhoo Preschool,Mahibadhoo,C,171,98,73,,,,,,,,,,,,,171,98,73,8,,8
+270,Adh,Kuburudhoo Pre-School,Kuburudhoo,C,40,23,17,,,,,,,,,,,,,40,23,17,3,,3
+271,Adh,Mandhoo Pre-School,Mandhoo,C,18,8,10,,,,,,,,,,,,,18,8,10,2,,2
+272,Adh,Dhigurashu Pre-school,Dhigurah,C,49,23,26,,,,,,,,,,,,,49,23,26,4,,4
+273,Adh,Fenfushi Pre-school,Fenfushi,C,75,39,36,,,,,,,,,,,,,75,39,36,4,,4
+274,Adh,Dhidhdhoo Pre-School,Dhidhdhoo,C,10,4,6,,,,,,,,,,,,,10,4,6,2,,2
+275,Adh,Dhangethi Pre-School,Dhangethi,C,54,27,27,,,,,,,,,,,,,54,27,27,4,,4
+276,Adh,Hangaameedhoo Preschool,Hangnaameedhoo,C,31,19,12,,,,,,,,,,,,,31,19,12,2,,2
+277,V,V. Atholhu Madharusaa,Fulidhoo,G,,,,39,22,17,16,8,8,,,,,,,55,30,25,20,7,13
+278,V,V. Atholhu Thauleemee Marukazu,Felidhoo,G,,,,59,31,28,23,10,13,,,,,,,82,41,41,19,9,10
+279,V,Keyodhoo School,Keyodhoo,G,,,,95,53,42,31,18,13,,,,,,,126,71,55,20,8,12
+280,V,Fulidhoo Kindergarten School,Fulidhoo,P,10,5,5,,,,,,,,,,,,,10,5,5,2,,2
+281,V,Keyodhoo School,Keyodhoo,P,32,14,18,,,,,,,,,,,,,32,14,18,2,,2
+282,V,Felidhoo Preschool,Felidhoo,C,43,23,20,,,,,,,,,,,,,43,23,20,2,,2
+283,M,M. Atholhu Madharusa,Kolhufushi,G,,,,119,69,50,35,14,21,,,,,,,154,83,71,22,5,17
+284,M,M. Atholhu Thauleemee Marukazu,Muli,G,,,,115,65,50,78,35,43,27,12,15,,,,220,112,108,37,13,24
+285,M,Dhiggaru School,Dhiggaru,G,,,,112,61,51,45,24,21,27,11,16,,,,184,96,88,32,14,18
+286,M,Maduvaree School,Maduvvaree,G,,,,40,25,15,19,9,10,,,,,,,59,34,25,17,7,10
+287,M,Mulaku School,Mulaku,G,,,,152,66,86,81,49,32,,,,1,,1,234,115,119,31,12,19
+288,M,Naalaafushi School,Naalaafushi,G,,,,35,14,21,,,,,,,,,,35,14,21,10,,10
+289,M,Raimandhoo School,Raiymandhoo,G,,,,9,3,6,,,,,,,,,,9,3,6,5,3,2
+290,M,Veyvashu School,Veyvah,G,,,,22,18,4,,,,,,,,,,22,18,4,9,3,6
+291,M,Kolhusfushi Pre-School,Kolhufushi,C,56,31,25,,,,,,,,,,,,,56,31,25,3,,3
+292,M,Kanbaa Preschool,Muli,C,48,25,23,,,,,,,,,,,,,48,25,23,3,,3
+293,M,Ahulee Preschool,Mulaku,C,80,43,37,,,,,,,,,,,,,80,43,37,5,,5
+294,M,Raiymandhoo Pre-School,Raiymandhoo,C,10,6,4,,,,,,,,,,,,,10,6,4,2,,2
+295,M,Nayaa Preschool,Naalaafushi,C,25,11,14,,,,,,,,,,,,,25,11,14,2,,2
+296,M,Veyvashu Preschool,Veyvah,C,20,12,8,,,,,,,,,,,,,20,12,8,2,,2
+297,M,Rehendhi Preschool,Dhiggaru,C,77,39,38,,,,,,,,,,,,,77,39,38,4,,4
+298,M,Maduvvaree Preschool,Maduvvaree,C,18,8,10,,,,,,,,,,,,,18,8,10,2,,2
+299,F,F. Atholhu Madharusaa,Feeali,G,,,,142,60,82,66,37,29,,,,,,,208,97,111,22,10,12
+300,F,F. Atholhu Thauleemee Marukazu,Nilandhoo,G,,,,279,137,142,132,59,73,54,25,29,,,,465,221,244,47,13,34
+301,F,Bileiydhoo School,Biledhdhoo,G,,,,123,65,58,83,43,40,24,17,7,,,,230,125,105,33,10,23
+302,F,Dharan'boodhoo School,Dharaboodhoo,G,,,,54,29,25,16,9,7,,,,,,,70,38,32,15,4,11
+303,F,Magoodhoo School,Magoodhoo,G,,,,79,48,31,27,12,15,,,,,,,106,60,46,19,12,7
+304,F,Feeali Preschool,Feeali,P,40,17,23,,,,,,,,,,,,,40,17,23,4,,4
+305,F,Island Preschool,Feeali,P,39,24,15,,,,,,,,,,,,,39,24,15,4,,4
+306,F,Bielhdhoo Preschool,Biledhdhoo,P,68,37,31,,,,,,,,,,,,,68,37,31,3,,3
+307,F,Magoodhoo Pre-School,Magoodhoo,C,47,21,26,,,,,,,,,,,,,47,21,26,5,,5
+308,F,Nilandhoo Preschool,Nilandhoo,C,70,40,30,,,,,,,,,,,,,70,40,30,3,,3
+309,F,Dharaboodhoo Preschool,Dharaboodhoo,C,32,18,14,,,,,,,,,,,,,32,18,14,2,,2
+310,Dh,Dh. Atholhu Madharusaa,Meedhoo,G,,,,128,76,52,67,46,21,10,2,8,,,,205,124,81,33,15,18
+311,Dh,Dh. Atholhu Thauleemee Marukazu,Kudahuvadhoo,G,,,,340,152,188,135,70,65,48,21,27,,,,523,243,280,53,16,37
+312,Dh,Ban'bidhoo School,Bandidhoo,G,,,,106,62,44,49,29,20,,,,,,,155,91,64,24,11,13
+313,Dh,Hulhudheli School,Hulhudheli,G,,,,99,55,44,37,15,22,,,,,,,136,70,66,17,6,11
+314,Dh,Maaen'boodhoo School,Maaeboodhoo,G,,,,102,51,51,41,18,23,,,,,,,143,69,74,18,7,11
+315,Dh,Rin'budhoo School,Ribudhoo,G,,,,33,18,15,9,6,3,,,,,,,42,24,18,19,7,12
+316,Dh,Meedhoo Preschool,Meedhoo,C,79,48,31,,,,,,,,,,,,,79,48,31,4,,4
+317,Dh,Maaeboodhoo Preschool,Maaeboodhoo,P,48,27,21,,,,,,,,,,,,,48,27,21,4,,4
+318,Dh,Kudahuvadhoo Preschool,Kudahuvadhoo,C,179,81,98,,,,,,,,,,,,,179,81,98,6,,6
+319,Dh,Hulhudheli Pre-School,Hulhudheli,C,59,32,27,,,,,,,,,,,,,59,32,27,4,,4
+320,Dh,Birds Preschool,Bandidhoo,P,73,37,36,,,,,,,,,,,,,73,37,36,5,,5
+321,Dh,Rinbudhoo School,Ribudhoo,P,19,11,8,,,,,,,,,,,,,19,11,8,2,,2
+322,Th,Th. Atholhu Madharusaa,Guraidhoo,G,,,,162,84,78,59,31,28,32,13,19,,,,253,128,125,41,12,29
+323,Th,Th. Atholhu Thauleemee Marukazu,Thimarafushi,G,,,,146,74,72,70,40,30,,,,1,,1,217,114,103,39,15,24
+324,Th,Burunee School,Buruni,G,,,,31,16,15,18,7,11,,,,,,,49,23,26,20,10,10
+325,Th,Dhiyamigili School,Dhiyamigili,G,,,,74,38,36,34,18,16,,,,,,,108,56,52,22,9,13
+326,Th,Gaadhifushi School,Gaadhiffushi,G,,,,26,13,13,11,7,4,,,,,,,37,20,17,13,7,6
+327,Th,Hirilandhoo School,Hirilandhoo,G,,,,138,86,52,86,41,45,,,,,,,224,127,97,30,7,23
+328,Th,Kan'doodhoo School,Kandoodhoo,G,,,,39,21,18,25,12,13,,,,,,,64,33,31,19,8,11
+329,Th,Kin'bidhoo School,Kibidhoo,G,,,,131,64,67,57,35,22,,,,,,,188,99,89,28,6,22
+330,Th,Vilufushi School,Vilufushi,G,,,,127,57,70,57,24,33,17,8,9,,,,201,89,112,26,15,11
+331,Th,Madifushi Madharusaa,Madifushi,G,,,,102,54,48,51,22,29,,,,,,,153,76,77,19,9,10
+332,Th,Omadhoo School,Omadhoo,G,,,,73,38,35,14,7,7,,,,,,,87,45,42,19,8,11
+333,Th,Vandhoo School,Vandhoo,G,,,,39,22,17,13,6,7,,,,,,,52,28,24,13,6,7
+334,Th,Veymandoo School,Veymandoo,G,,,,166,89,77,61,35,26,,,,,,,227,124,103,27,9,18
+335,Th,Guraidhoo Preschool,Guraidhoo,C,88,42,46,,,,,,,,,,,,,88,42,46,6,,6
+336,Th,Dhiyamigili Pre-School,Dhiyamigili,P,54,27,27,,,,,,,,,,,,,54,27,27,2,,2
+337,Th,Kandoodhoo Pre-School,Kandoodhoo,C,37,20,17,,,,,,,,,,,,,37,20,17,2,,2
+338,Th,Omadhoo Preschool,Omadhoo,C,35,18,17,,,,,,,,,,,,,35,18,17,1,,1
+339,Th,Madifushi Preschool,Madifushi,P,79,35,44,,,,,,,,,,,,,79,35,44,4,,4
+340,Th,Vandhoo School,Vandhoo,C,30,17,13,,,,,,,,,,,,,30,17,13,2,,2
+341,Th,Veymandoo Preschool,Veymandoo,C,92,49,43,,,,,,,,,,,,,92,49,43,3,,3
+342,Th,Thimarafushi Preschool,Thimarafushi,C,109,59,50,,,,,,,,,,,,,109,59,50,4,,4
+343,Th,Hirilandhoo Preschool,Hirilandhoo,C,69,37,32,,,,,,,,,,,,,69,37,32,3,,3
+344,Th,Buruni School,Buruni,C,29,16,13,,,,,,,,,,,,,29,16,13,2,,2
+345,Th,Vilifushi Preschool,Vilufushi,C,82,45,37,,,,,,,,,,,,,82,45,37,5,,5
+346,Th,Kibidhoo Preschool,Kibidhoo,C,74,37,37,,,,,,,,,,,,,74,37,37,3,,3
+347,Th,Gaadhiffushi Preschool,Gaadhiffushi,C,21,12,9,,,,,,,,,,,,,21,12,9,1,,1
+348,L,L. Atholhu Madharusaa,Maabaidhoo,G,,,,101,54,47,31,18,13,,,,,,,132,72,60,20,9,11
+349,L,L. Atholhu Thauleemee Marukazu,Fonadhoo,G,,,,322,175,147,136,71,65,32,14,18,,,,490,260,230,49,10,39
+350,L,Maavashu School,Maavashu,G,,,,220,126,94,116,59,57,,,,,,,336,185,151,41,11,30
+351,L,Dhan'bidhoo School,Dhabidhoo,G,,,,100,60,40,36,20,16,,,,,,,136,80,56,20,9,11
+352,L,Gaadhoo School,Gaadhoo,G,,,,16,11,5,,,,,,,,,,16,11,5,9,4,5
+353,L,Hithadhoo School,Hithadhoo,G,,,,190,91,99,63,37,26,,,,,,,253,128,125,22,6,16
+354,L,Isdhoo School,Isdhoo,G,,,,126,69,57,93,45,48,,,,,,,219,114,105,30,14,16
+355,L,Isdhoo-Kalaidhoo School,Isdhoo-Kalaidhoo,G,,,,79,36,43,48,23,25,,,,,,,127,59,68,20,8,12
+356,L,Kunahandhoo Makthab,Kunahandhoo,G,,,,97,49,48,27,11,16,,,,1,,1,125,60,65,20,10,10
+357,L,Maamendhoo School,Maamendhoo,G,,,,115,60,55,50,23,27,,,,,,,165,83,82,21,6,15
+358,L,Mukurimagu Makthab,Gan,G,,,,60,24,36,,,,,,,,,,60,24,36,8,1,7
+359,L,Mundoo School,Mundoo,G,,,,35,23,12,21,12,9,,,,,,,56,35,21,20,12,8
+360,L,Madharusathul Hamad Bin Khaleefa Ah'Sanee,Gan,G,,,,152,72,80,183,79,104,44,14,30,,,,379,165,214,48,19,29
+361,L,Ihahdhoo School,Gan,G,,,,275,140,135,21,9,12,,,,,,,296,149,147,30,3,27
+362,L,Maamendhoo Raiyyithunge Preschool,Maamendhoo,C,58,26,32,,,,,,,,,,,,,58,26,32,3,,3
+363,L,Kunahandhoo Pre-School,Kunahandhoo,C,49,27,22,,,,,,,,,,,,,49,27,22,2,,2
+364,L,Maabaidhoo Pre-School,Maabaidhoo,C,44,26,18,,,,,,,,,,,,,44,26,18,2,,2
+365,L,Laamu Pre education,Gan,P,75,41,34,,,,,,,,,,,,,75,41,34,5,,5
+366,L,Gaadhoo Pre-School,Gaadhoo,C,4,2,2,,,,,,,,,,,,,4,2,2,1,,1
+367,L,Sirajudheen Preschool,Fonadhoo,C,79,46,33,,,,,,,,,,,,,79,46,33,5,,5
+368,L,Baraasil Ekuveri Raiyyithunge Preschool,Fonadhoo,P,80,35,45,,,,,,,,,,,,,80,35,45,5,,5
+369,L,Mathimaradhoo Pre-School,Gan,C,53,26,27,,,,,,,,,,,,,53,26,27,4,,4
+370,L,Mundoo Pre-School,Mundoo,C,21,13,8,,,,,,,,,,,,,21,13,8,1,,1
+371,L,Maavashu Preschool,Maavashu,P,108,61,47,,,,,,,,,,,,,108,61,47,8,,8
+372,L,Hithadhoo School,Hithadhoo,C,86,41,45,,,,,,,,,,,,,86,41,45,3,,3
+373,L,Maahinna Preschool,Gan,C,71,38,33,,,,,,,,,,,,,71,38,33,4,,4
+374,L,Isdhoo Kalaidhoo School,Isdhoo-Kalaidhoo,C,45,23,22,,,,,,,,,,,,,45,23,22,2,,2
+375,L,Dhabidhoo School,Dhabidhoo,C,45,26,19,,,,,,,,,,,,,45,26,19,2,,2
+376,L,Mukurimagu Preschool,Gan,C,80,36,44,,,,,,,,,,,,,80,36,44,3,,3
+377,L,Isdhoo Pre-School,Isdhoo,C,68,42,26,,,,,,,,,,,,,68,42,26,4,,4
+378,GA,Ga. Atholhu Madharusaa,Kolamaafushi,G,,,,111,61,50,61,46,15,,,,,,,172,107,65,23,10,13
+379,GA,Ga. Atholhu Thauleemee Marukazu,Villingili,G,,,,311,152,159,157,88,69,37,17,20,11,7,4,516,264,252,61,21,40
+380,GA,Dhaandhoo School,Dhaandhoo,G,,,,179,97,82,90,43,47,,,,,,,269,140,129,27,12,15
+381,GA,Madhrasathul Sulthaan Mohamed,Dhevvadhoo,G,,,,47,22,25,17,11,6,,,,,,,64,33,31,18,7,11
+382,GA,Gemanafushi School,Gemanafushi,G,,,,188,97,91,94,45,49,,,,,,,282,142,140,61,21,40
+383,GA,Kan'duhulhudhoo School,Kanduholhudhoo,G,,,,79,37,42,45,24,21,,,,,,,124,61,63,21,9,12
+384,GA,Kon'dey School,Kon'dey,G,,,,46,20,26,,,,,,,,,,46,20,26,7,3,4
+385,GA,Maamendhoo School,Maamendhoo,G,,,,186,105,81,96,45,51,7,3,4,,,,289,153,136,34,15,19
+386,GA,Nilandhoo Madhrasaa,Nilandhoo,G,,,,76,33,43,38,11,27,,,,,,,114,44,70,18,11,7
+387,GA,Nilandhoo Anhenunge Committee Preschool,Nilandhoo,C,32,15,17,,,,,,,,,,,,,32,15,17,2,,2
+388,GA,Gasim Preschool,Kon'dey,P,18,7,11,,,,,,,,,,,,,18,7,11,2,,2
+389,GA,Theory Preschool,Villingili,P,101,55,46,,,,,,,,,,,,,101,55,46,6,,6
+390,GA,Kanduholhudhoo Preschool,Kanduholhudhoo,P,32,14,18,,,,,,,,,,,,,32,14,18,2,,2
+391,GA,Ali kokko Preschool,Villingili,P,58,30,28,,,,,,,,,,,,,58,30,28,3,,3
+392,GA,Dhaandhoo Preschool,Dhaandhoo,C,70,37,33,,,,,,,,,,,,,70,37,33,4,,4
+393,GA,Sikandharee Preschool,Maamendhoo,P,72,37,35,,,,,,,,,,,,,72,37,35,4,,4
+394,GA,Star Kids Preschool,Dhevvadhoo,C,37,19,18,,,,,,,,,,,,,37,19,18,3,,3
+395,GA,Kolama Preschool,Kolamaafushi,C,46,23,23,,,,,,,,,,,,,46,23,23,4,,4
+396,GA,Zamaanee Preschool Preschool,Gemanafushi,P,39,17,22,,,,,,,,,,,,,39,17,22,5,,5
+397,GA,Gemanafushi Pre-school,Gemanafushi,P,53,30,23,,,,,,,,,,,,,53,30,23,4,,4
+398,GDh,Gdh. Atholhu Madharusaa,Gadhdhoo,G,,,,189,105,84,100,49,51,,,,,,,289,154,135,34,11,23
+399,GDh,Gdh. Atholhu Thauleemee Marukazu,Thinadhoo,G,,,,,,,251,128,123,28,9,19,,,,279,137,142,46,29,17
+400,GDh,Thinadhoo School,Thinadhoo,G,,,,314,147,167,,,,,,,,,,314,147,167,30,4,26
+401,GDh,Fiyoree School,Fiyoaree,G,,,,118,76,42,39,18,21,,,,,,,157,94,63,23,10,13
+402,GDh,Hoadedhoo School,Hoan'dedhdhoo,G,,,,143,74,69,46,26,20,,,,,,,189,100,89,24,11,13
+403,GDh,Jamaaluddeen Madhrasaa,Vaadhoo,G,,,,116,65,51,42,24,18,,,,,,,158,89,69,20,7,13
+404,GDh,Madaveli School,Madaveli,G,,,,181,98,83,70,41,29,,,,,,,251,139,112,34,9,25
+405,GDh,Nadalla School,Nadallaa,G,,,,122,56,66,45,25,20,,,,,,,167,81,86,21,11,10
+406,GDh,Rathafandhoo School,Rathafandhoo,G,,,,67,37,30,35,19,16,,,,,,,102,56,46,16,10,6
+407,GDh,Huvadhoo School,Faresmathoda,G,,,,162,78,84,61,33,28,,,,4,2,2,227,113,114,27,9,18
+408,GDh,Aboobakuru School,Thinadhoo,G,,,,326,165,161,,,,,,,18,14,4,344,179,165,36,,36
+409,GDh,Raula Preschool,Thinadhoo,P,114,55,59,,,,,,,,,,,,,114,55,59,6,,6
+410,GDh,Tutorial Preschool,Thinadhoo,P,43,23,20,,,,,,,,,,,,,43,23,20,4,,4
+411,GDh,Uloomiyya,Thinadhoo,P,82,43,39,,,,,,,,,,,,,82,43,39,6,,6
+412,GDh,M.M. Preschool,Thinadhoo,P,111,61,50,,,,,,,,,,,,,111,61,50,6,,6
+413,GDh,Ameer Ibrahuim,Thinadhoo,P,52,26,26,,,,,,,,,,,,,52,26,26,2,,2
+414,GDh,Anhehnunge Commity Nursery Class,Rathafandhoo,C,35,21,14,,,,,,,,,,,,,35,21,14,2,,2
+415,GDh,Roshan Pre-School,Rathafandhoo,P,16,10,6,,,,,,,,,,,,,16,10,6,2,,2
+416,GDh,Safaire Thuthukudhinge Thauleem dhey class,Nadallaa,P,46,25,21,,,,,,,,,,,,,46,25,21,2,,2
+417,GDh,Almuneer Preschool,Vaadhoo,P,33,15,18,,,,,,,,,,,,,33,15,18,2,,2
+418,GDh,Ali Kilegefaan Memorial Preschool,Fiyoaree,P,42,18,24,,,,,,,,,,,,,42,18,24,3,,3
+419,GDh,Mohamed Ibrahim Memorial Preschool,Madaveli,P,29,11,18,,,,,,,,,,,,,29,11,18,5,,5
+420,GDh,Aminath Hassan Preschool,Madaveli,P,76,39,37,,,,,,,,,,,,,76,39,37,9,,9
+421,GDh,Hedu care Preschool,Hoan'dedhdhoo,P,63,42,21,,,,,,,,,,,,,63,42,21,4,,4
+422,GDh,Toddlers Preschool,Gadhdhoo,P,95,41,54,,,,,,,,,,,,,95,41,54,3,,3
+423,GDh,Maaira Preschool,Faresmathoda,P,45,22,23,,,,,,,,,,,,,45,22,23,3,,3
+424,GDh,Uloom Preschool,Faresmathoda,P,42,21,21,,,,,,,,,,,,,42,21,21,3,,3
+425,Gn,Gn. Atholhu Thauleemee Marukazu,Fuahmulah,G,,,,,,,585,305,280,84,32,52,,,,669,337,332,58,12,46
+426,Gn,Fuvamulak School,Fuahmulah,G,,,,221,106,115,,,,,,,,,,221,106,115,24,,24
+427,Gn,Madhrasathul Sheikh Mohamed Jamaaludheen,Fuahmulah,G,,,,427,211,216,,,,,,,,,,427,211,216,42,,42
+428,Gn,Hafiz Ahmed School,Fuahmulah,G,,,,626,302,324,,,,,,,,,,626,302,324,44,,44
+429,Gn,Zikra Preschool,Fuahmulah,P,173,94,79,,,,,,,,,,,,,173,94,79,14,,14
+430,Gn,Maalegami Preschool,Fuahmulah,P,81,48,33,,,,,,,,,,,,,81,48,33,5,,5
+431,Gn,Ulaa Preschool,Fuahmulah,P,31,16,15,,,,,,,,,,,,,31,16,15,3,,3
+432,Gn,Foundation School,Fuahmulah,P,32,17,15,,,,,,,,,,,,,32,17,15,2,,2
+433,Gn,Ideal School,Fuahmulah,P,121,64,57,,,,,,,,,,,,,121,64,57,7,,7
+434,Gn,Kids House,Fuahmulah,C,252,128,124,,,,,,,,,,,,,252,128,124,14,,14
+435,Gn,Kids Garden Pre School,Fuahmulah,P,,,,,,,,,,,,,,,,,,,,,
+436,Gn,Manhajjul Hudha Preschool,Fuahmulah,P,118,69,49,,,,,,,,,,,,,118,69,49,8,,8
+437,S,S. Atholhu Madharusaa,Hulhudhoo,G,,,,,,,146,69,77,74,34,40,,,,220,103,117,31,21,10
+438,S,Addu High School,Hithadhoo,G,,,,,,,,,,335,108,227,,,,335,108,227,55,28,27
+439,S,Feydhoo School,Feydhoo,G,,,,348,178,170,153,79,74,,,,4,2,2,505,259,246,59,20,39
+440,S,Hithadhoo School,Hithadhoo,G,,,,525,258,267,249,141,108,,,,,,,774,399,375,81,29,52
+441,S,Irushaadhiyya School,Maradhoo Feydhoo,G,,,,,,,115,64,51,18,2,16,,,,133,66,67,23,12,11
+442,S,Sharafuddin School,Hithadhoo,G,,,,646,339,307,444,233,211,,,,29,20,9,1119,592,527,110,37,73
+443,S,Shamsudheen School,Meedhoo,G,,,,251,129,122,,,,,,,,,,251,129,122,24,1,23
+444,S,Hulhudhoo School,Hulhudhoo,G,,,,132,76,56,,,,,,,,,,132,76,56,16,2,14
+445,S,Maradhoo School,Maradhoo,G,,,,263,123,140,,,,,,,,,,263,123,140,28,1,27
+446,S,Maradhoo-Feydhoo School,Maradhoo Feydhoo,G,,,,158,71,87,,,,,,,,,,158,71,87,17,3,14
+447,S,Nooranee School,Hithadhoo,G,,,,129,76,53,,,,,,,,,,129,76,53,14,4,10
+448,S,Hira School,Hithadhoo,P,215,100,115,117,55,62,,,,,,,,,,332,155,177,29,3,26
+449,S,Aman Preschool,Maradhoo,P,108,54,54,,,,,,,,,,,,,108,54,54,10,,10
+450,S,Asriyya Preschool,Meedhoo,P,70,35,35,,,,,,,,,,,,,70,35,35,4,,4
+451,S,Shareefee Preschool,Meedhoo,P,61,31,30,,,,,,,,,,,,,61,31,30,6,,6
+452,S,Kudhimaa Preschool,Feydhoo,P,90,47,43,,,,,,,,,,,,,90,47,43,6,,6
+453,S,Nasriyya Preschool,Hulhudhoo,P,74,31,43,,,,,,,,,,,,,74,31,43,6,,6
+454,S,Medhuvalu Preschool,Hithadhoo,P,276,128,148,,,,,,,,,,,,,276,128,148,11,,11
+455,S,Ujala Preschool,Maradhoo Feydhoo,P,112,55,57,,,,,,,,,,,,,112,55,57,7,1,6
+456,S,Everyones Learning Centre,Hithadhoo,P,,,,,,,,,,,,,,,,,,,,,
+457,S,Saeedhiyya Preschool,Hithadhoo,P,105,59,46,,,,,,,,,,,,,105,59,46,7,,7
+458,S,Sheh Hussain Raha preschool,Hithadhoo,P,97,55,42,,,,,,,,,,,,,97,55,42,7,,7
+459,S,Kangarookids Husainiya Preschool,Hithadhoo,P,127,81,46,,,,,,,,,,,,,127,81,46,6,,6

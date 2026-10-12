@@ -1,0 +1,28 @@
+{
+  "table_id": "8.7-1",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.7: THEFT CASES LOGGED BY TYPE, 2016 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2011 – 2018",
+  "year_min": 2011,
+  "year_max": 2018,
+  "row_count": 8,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "%change over - 2017",
+    "Percentage share - 2018",
+    "Value - 2011",
+    "Value - 2012",
+    "Value - 2013",
+    "Value - 2014",
+    "Value - 2015",
+    "Value - 2016",
+    "Value - 2017",
+    "Value - 2018"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.7-1.csv"
+}

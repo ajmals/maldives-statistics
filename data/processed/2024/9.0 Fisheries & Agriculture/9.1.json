@@ -1,0 +1,36 @@
+{
+  "table_id": "9.1",
+  "title_en": "Table 9.1 :FISH PRODUCTION BY TYPE AND UTILIZATION, 2014 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Island Councils, Maldives Customs Services and Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [
+    "Note:",
+    "The Export in metric tons does not include: Articles Made Of Shells, Dried Shark Fins, Fish Soup, Flours, Meals And Pellets Of Fish, Etc, Unfit For Human Consumption, Live Grouper, Live Ornamental Fish, Other Hides And Skins, Fresh Or Preserved, Not Tanned, Nes, Salted Dried Shark Fins & Shark-Liver Oil"
+  ],
+  "columns": [
+    "(In '000 metric tons) - Items",
+    "(In '000 metric tons) - 2013",
+    "(In '000 metric tons) - Fish Production - 2014",
+    "(In '000 metric tons) - Fish Production - 2015",
+    "(In '000 metric tons) - Fish Production - 2016",
+    "(In '000 metric tons) - Fish Production - 2017",
+    "(In '000 metric tons) - Fish Production - 2018",
+    "(In '000 metric tons) - Fish Production - 2019",
+    "(In '000 metric tons) - Fish Production - 2020",
+    "(In '000 metric tons) - Fish Production - 2021",
+    "(In '000 metric tons) - Fish Production - 2022",
+    "(In '000 metric tons) - Fish Production - 2023",
+    "(In '000 metric tons) - Percentage share - 2014",
+    "(In '000 metric tons) - Percentage share - 2015",
+    "(In '000 metric tons) - Percentage share - 2016",
+    "(In '000 metric tons) - Percentage share - 2017",
+    "(In '000 metric tons) - Percentage share - 2018",
+    "(In '000 metric tons) - Percentage share - 2019",
+    "(In '000 metric tons) - Percentage share - 2020",
+    "(In '000 metric tons) - Percentage share - 2021",
+    "(In '000 metric tons) - Percentage share - 2022",
+    "(In '000 metric tons) - Percentage share - 2023"
+  ],
+  "row_count": 8
+}

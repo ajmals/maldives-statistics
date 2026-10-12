@@ -1,0 +1,31 @@
+{
+  "table_id": "14.4",
+  "title_en": "Table 14.4: OTHER FINANCIAL CORPORATIONS SURVEY, 2022 - 2025",
+  "title_dv": "ތާވަލު 14.4: އެހެނިހެން މާލީދާއިރާގެ ކުންފުނިތަކުގެ ސަރވޭ 2022- 2025",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "Data is compiled based on IMF Monetary and Financial Statistics: Compilation Guide (2008)."
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Particulars",
+    "(In millions of Rufiyaa; end of period) - 2022 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2022 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2022 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2022 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2023 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2023 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2023 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2023 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2024 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2024 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2024 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2024 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2025 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2025 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2025 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2025 - Dec"
+  ],
+  "row_count": 17
+}

@@ -1,0 +1,26 @@
+{
+  "table_id": "12.4&fig12.2",
+  "category": "12.0 Electricity and water",
+  "title_en": "Table 12.4 : BILLED WATER CONSUMPTION IN MALE', 2004 - 2009",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Limited",
+  "notes": [],
+  "time_span": "2001 – 2009",
+  "year_min": 2001,
+  "year_max": 2009,
+  "row_count": 7,
+  "column_count": 9,
+  "columns": [
+    "Item",
+    2001,
+    2002,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/12.4&fig12.2.csv"
+}

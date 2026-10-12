@@ -1,0 +1,30 @@
+{
+  "table_id": "Education",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note:",
+    "** students enrolled in special classes, for children with special needs",
+    "135 community schools were converted to government schools in 2005 due to educational policy change",
+    "2015 Gross Enrollment Ratio and Net Enrollment Ratio figure revised"
+  ],
+  "columns": [
+    "EDUCATION",
+    "EDUCATION_2",
+    "EDUCATION - 2006",
+    "EDUCATION - 2007",
+    "EDUCATION - 2008",
+    "EDUCATION - 2009",
+    "EDUCATION - 2010",
+    "EDUCATION - 2011",
+    "EDUCATION - 2012",
+    "EDUCATION - 2013",
+    "EDUCATION - 2014",
+    "EDUCATION - 2015",
+    "EDUCATION - 2016",
+    "EDUCATION - 2017"
+  ],
+  "row_count": 36
+}

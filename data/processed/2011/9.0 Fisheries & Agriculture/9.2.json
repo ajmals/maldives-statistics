@@ -1,0 +1,27 @@
+{
+  "table_id": "9.2",
+  "title_en": "Table 9.2 : FISH CATCH BY LOCALITY, 2007 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "(In '000 metric tons) - Locality",
+    "(In '000 metric tons) - Fish catch - 2005",
+    "(In '000 metric tons) - Fish catch - 2007",
+    "(In '000 metric tons) - Fish catch - 2008",
+    "(In '000 metric tons) - Fish catch - 2005_2",
+    "(In '000 metric tons) - Fish catch - 2009",
+    "(In '000 metric tons) - Fish catch - 2010",
+    "(In '000 metric tons) - Percentage share - 2007",
+    "(In '000 metric tons) - Percentage share - 2008",
+    "(In '000 metric tons) - Percentage share - 2005",
+    "(In '000 metric tons) - Percentage share - 2009",
+    "(In '000 metric tons) - Percentage share - 2010",
+    "(In '000 metric tons) - % change over previous year - 2007",
+    "(In '000 metric tons) - % change over previous year - 2008",
+    "(In '000 metric tons) - % change over previous year - 2009",
+    "(In '000 metric tons) - % change over previous year - 2010"
+  ],
+  "row_count": 24
+}

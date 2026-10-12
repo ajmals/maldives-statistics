@@ -1,0 +1,32 @@
+{
+  "table_id": "14.9",
+  "title_en": "Table 14.9 : PRIVATE SECTOR LOANS AND ADVANCES BY OTHER DEPOSITORY CORPORATIONS (BY ECONOMIC GROUP), 2022 - 2025",
+  "title_dv": "ތާވަލު 14.9: ބޭންކުތަކުން އަމިއްލަ ފަރާތްތަކަށް ލޯނު އަދި އެޑްވާސް ގެގޮތުގައި (އިޤްތިސާދީ އެކި ބައިތަކަށް) ދޫކުރެވުނު ފައިސާ 2022- 2025",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1/ Excluding accrued interest receivable and accounts receivables",
+    "2/ From June 2017 onwards, construction loans are reported as real estate loans when all proceeds under the loan have been advanced as per instructions in MMA financial returns."
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Economic groups",
+    "(In millions of Rufiyaa; end of period) - 2022 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2022 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2022 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2022 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2023 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2023 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2023 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2023 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2024 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2024 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2024 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2024 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2025 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2025 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2025 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2025 - Dec"
+  ],
+  "row_count": 30
+}

@@ -1,0 +1,24 @@
+{
+  "table_id": "3.9",
+  "title_en": "Table 3.9 : LIVE BIRTHS AND INFANT DEATHS, 2007 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family",
+  "notes": [
+    "Decision Support Division",
+    "1-/ Total include Maldivian born abroad"
+  ],
+  "columns": [
+    "Particulars",
+    "2007 - Republic",
+    "2007 - Male'",
+    "2007 - Atolls",
+    "2008 - Republic",
+    "2008 - Male'",
+    "2008 - Atolls",
+    "2009 - Republic",
+    "2009 - Male'",
+    "2009 - Atolls"
+  ],
+  "row_count": 11
+}

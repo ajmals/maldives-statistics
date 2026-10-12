@@ -1,0 +1,18 @@
+{
+  "table_id": "3.6",
+  "title_en": "Table 3.6 : ABRIDGE LIFE TABLE OF MALDIVES, 2007 - 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Age",
+    "2007 - Life Expectancy e(x) - Male",
+    "2007 - Life Expectancy e(x) - Female",
+    "2008 - Life Expectancy e(x) - Male",
+    "2008 - Life Expectancy e(x) - Female",
+    "2009 - Life Expectancy e(x) - Male",
+    "2009 - Life Expectancy e(x) - Female"
+  ],
+  "row_count": 37
+}

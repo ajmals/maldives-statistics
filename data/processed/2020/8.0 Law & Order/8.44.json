@@ -1,0 +1,25 @@
+{
+  "table_id": "8.44",
+  "title_en": "Table 8.44: NUMBER OF REPORTED CHILD ABUSE CASES (UNDER 18) BY TYPE, 2009 - 2019",
+  "title_dv": "ތާވަލު 8.44: ކުޑަކުދިންނަށް ކުރާ އަނިޔާއާއިބެހޭގޮތުން ހުށަހެޅިފައިވާ މައްސަލަތައް، 2009 - 2019",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [
+    "Note: Others include: Child Deaths, Exploitation, Commercial Exploitation / Child Labor, Commercial Sexual Exploitation, Trafficking of Children, Victims of Bullying, Child Abandonment"
+  ],
+  "columns": [
+    "Types of abuse",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "row_count": 10
+}

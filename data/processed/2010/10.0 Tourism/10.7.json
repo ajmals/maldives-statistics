@@ -1,0 +1,27 @@
+{
+  "table_id": "10.7",
+  "title_en": "Table 10.7 : MONTHLY DISTRIBUTION OF TOURIST ARRIVALS BY NATIONALITY, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [
+    "Department of Immigration & Emigration"
+  ],
+  "columns": [
+    "Country of Nationality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 41
+}

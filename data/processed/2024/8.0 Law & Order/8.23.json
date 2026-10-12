@@ -1,0 +1,16 @@
+{
+  "table_id": "8.23",
+  "title_en": "Table 8.23: Parking violation by type of vehicle, 2020 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of vehicles",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "row_count": 45
+}

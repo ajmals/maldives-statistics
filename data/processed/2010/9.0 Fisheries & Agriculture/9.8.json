@@ -1,0 +1,16 @@
+{
+  "table_id": "9.8",
+  "title_en": "Table 9.8: MONTH:Y FRESH FISH PURCHASED , 2006 - 2009 (In metric tons)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Industrial Fisheries Company Ltd",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2006 - Purchased",
+    "2007 - Purchased",
+    "2008 - Purchased",
+    "2009 - Purchased"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,31 @@
+{
+  "table_id": "10.1",
+  "title_en": "Table 10.1 : FLOW OF TOURISTS BY NATIONALITY, 2009 - 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [],
+  "columns": [
+    "Country of Nationality",
+    "No. of Tourists - 2009",
+    "No. of Tourists - 2010",
+    "No. of Tourists - 2011",
+    "No. of Tourists - 2012",
+    "No. of Tourists - 2013",
+    "No. of Tourists - 2014",
+    "Percentage Share - 2009",
+    "Percentage Share - 2010",
+    "Percentage Share - 2011",
+    "Percentage Share - 2012",
+    "Percentage Share - 2013",
+    "Percentage Share - 2014",
+    "% change over previous year - 2008",
+    "% change over previous year - 2009",
+    "% change over previous year - 2010",
+    "% change over previous year - 2011",
+    "% change over previous year - 2012",
+    "% change over previous year - 2013",
+    "% change over previous year - 2014"
+  ],
+  "row_count": 63
+}

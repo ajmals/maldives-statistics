@@ -1,0 +1,37 @@
+{
+  "table_id": "6.1",
+  "title_en": "Table 6.1 : DISTRIBUTION OF MEDICAL STAFF IN MALE' AND ATOLLS - 2021",
+  "title_dv": "ތާވަލު 6.1: ޞިއްޙީ ދާއިރާގައި މަސައްކަތްކުރާ މީހުންގެ އަދަދު، 2021",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "Data as of : 01 January to 31 December 2022",
+    "Data taken from the HR reports collected from health facilities via DHIS2",
+    "Atoll data includes hospitals and Health Centers",
+    "Allied Health Professionals includes, Community Helath Workers, Counsellers, Dental Technicians/Assistants, Dentists, Environmental and Public Health Workers, Family Health Workers, Laboratory Scientists, Laboratory Technicians/Assistants, Other Health Workers, Personal Care workers, Pharmaceutical Technicians/Assistants, Pharmacists, Physiotherapists, Psycologists,Radiographers, Social workers, Speech Pathologists,Traditional Medicine Practicioners, Traditional Birth Attendence",
+    "Non-Medical staff are includes Health Management staff anf Admin and Support staff",
+    "Other staff includes Medical Assistancts & Nurse Interns",
+    "Pvt. Sector data includes ADK,IMDC,TreeTop hospital only ,IMDC is the only private hospital in periphery",
+    "12th March 2023",
+    "Male",
+    "Doctors (Including Specialists)",
+    "Nurses",
+    "Allied Health Professionals",
+    "Non-medical staff",
+    "HR_Other Staff"
+  ],
+  "columns": [
+    "Categories of Health Personnel",
+    "Republic - Both sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 6
+}

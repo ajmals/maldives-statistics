@@ -1,0 +1,38 @@
+{
+  "table_id": "3.10",
+  "title_en": "Table 3.10 : DEATHS BY AGE GROUP AND SEX, 2007 - 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "1_/: From 2007 - 2009 figures are revised. (taken from VRS database (1998- 2008) and E-Government birth and death registration (from Nov.2009 onwards)",
+    "Please note that the birth/death figures in the The Maldives Health Statistics (published annually) are taken from the VRS. Under-reporting is challenge with regards to the VRS system, whereby data received from various sources are entered at various points in time. For instance, a 2004 birth record may be entered into the system today as it may have only been reported today. Therefore, the statistics are correct at the point of data retrieval and will change as more events are reported and recorded in the system. These continuous changes will therefore not be reflected once statistics are published.",
+    "2_/: 2021 figures are revised and tentative and is expected to change",
+    "Data includes Maldivians and foreigners, but excluded deaths occurred abroad",
+    "Health Information Management & Research Division / Health Statistics & Publication Section",
+    "* Includes 1 infant death 2021"
+  ],
+  "columns": [
+    "Age Group and Sex - Both Sexes",
+    "2003 1_/",
+    "2004",
+    "2005",
+    "2006",
+    "20071_/",
+    "20081_/",
+    "20091_/",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "20211_/"
+  ],
+  "row_count": 37
+}

@@ -1,0 +1,24 @@
+{
+  "table_id": "7.16",
+  "title_en": "TABLE 7.16: NUMBER OF CANDIDATES SAT IN SECONDARY EXAM, 2010 - 2019",
+  "title_dv": "ތާވަލް 7.16: ޘާނަވީ އިމްތިހާނުގައި ސްކޫލްތަކުން ދަރިވަރުން ބައިވެރިކުރި އަދަދު 2010 - 2019",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Due to Covid 19 pandemic no exams where held during 2020"
+  ],
+  "columns": [
+    "Locality",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "row_count": 3
+}

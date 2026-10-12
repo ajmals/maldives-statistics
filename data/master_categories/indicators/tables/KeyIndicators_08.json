@@ -1,0 +1,33 @@
+{
+  "table_id": "KeyIndicators_08",
+  "category": "indicators",
+  "title_en": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "time_span": "2008",
+  "year_min": 2008,
+  "year_max": 2008,
+  "row_count": 1,
+  "column_count": 16,
+  "columns": [
+    "Item",
+    "> Education - 2008",
+    "> Electricity and Water - 2008",
+    "> Employment - 2008",
+    "> Fisheris and Agriculture - 2008",
+    "> Geography - 2008",
+    "> Geography > Population > Employment > Health > Education > Law and order > Fisheris and Agriculture > Tourism > Transport and Communication > Electricity and Water > Public Finance > Money and Banking > Foreign Trade and BOP > National Accounts > Prices - 2008",
+    "> Health - 2008",
+    "> Law and order - 2008",
+    "> Population - 2008",
+    "> Tourism - 2008",
+    "> Transport and Communication - 2008",
+    "Column_2 - 2008",
+    "Column_3 - 2008",
+    "Column_4 - 2008",
+    "Column_5 - 2008"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/KeyIndicators_08.csv"
+}

@@ -1,0 +1,38 @@
+{
+  "table_id": "National-Accounts",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: Published in November 2017",
+    "GDP estimates have been rebased to 2014 and published in November 2017 for the period 2003 onwards."
+  ],
+  "columns": [
+    "NATIONAL ACCOUNTS - (Gross Domestic Product - G.D.P at market prices)",
+    "NATIONAL ACCOUNTS - 1990",
+    "NATIONAL ACCOUNTS - 1995",
+    "NATIONAL ACCOUNTS - 1996",
+    "NATIONAL ACCOUNTS - 1997",
+    "NATIONAL ACCOUNTS - 1998",
+    "NATIONAL ACCOUNTS - 1999",
+    "NATIONAL ACCOUNTS - 2000",
+    "NATIONAL ACCOUNTS - 2001",
+    "NATIONAL ACCOUNTS - 2002",
+    "NATIONAL ACCOUNTS - 2003",
+    "NATIONAL ACCOUNTS - 2004",
+    "NATIONAL ACCOUNTS - 2005",
+    "NATIONAL ACCOUNTS - 2006",
+    "NATIONAL ACCOUNTS - 2007",
+    "NATIONAL ACCOUNTS - 2008",
+    "NATIONAL ACCOUNTS - 2009",
+    "NATIONAL ACCOUNTS - 2010",
+    "NATIONAL ACCOUNTS - 2011",
+    "NATIONAL ACCOUNTS - 2012",
+    "NATIONAL ACCOUNTS - 2013",
+    "NATIONAL ACCOUNTS - 2014",
+    "NATIONAL ACCOUNTS - 2015",
+    "NATIONAL ACCOUNTS - 2016"
+  ],
+  "row_count": 9
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "6.3",
+  "title_en": "Table 6.3: Total outpatient visits by sex and atoll, 2022 - 2023,",
+  "title_dv": "ތާވަލު 6.3: ޖިންސުގެ ގޮތުން މާލެއާއި އަތޮޅުތަކުގައި ބެލުނު ބަލި މީހުންގެ އަދަދު، 2022 - 2023",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "*The data in this tabulation are tentative and are subjected to changes",
+    "** Male' refers to Male', Hulhumale' and Villimale'"
+  ],
+  "columns": [
+    "Atoll",
+    "2022 - Total",
+    "2022 - Male",
+    "2022 - Female",
+    "2023 - Total",
+    "2023 - Male",
+    "2023 - Female"
+  ],
+  "row_count": 23
+}

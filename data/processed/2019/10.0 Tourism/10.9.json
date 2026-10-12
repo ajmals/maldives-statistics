@@ -1,0 +1,26 @@
+{
+  "table_id": "10.9",
+  "title_en": "Table 10.9: TOURIST ARRIVALS,AND TOURIST BED-NIGHTS BY MONTH, 2016 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: * Tourist Bed night figures include resorts/hotels/safaris & guesthouses"
+  ],
+  "columns": [
+    "Month",
+    "Tourist Bed-nights* - 2016",
+    "Tourist Bed-nights* - 2017",
+    "Tourist Bed-nights* - 2018",
+    "Tourist Bed-nights* - 2014",
+    "Tourist Bed-nights* - 2015",
+    "Tourist Arrivals - 2016",
+    "Tourist Arrivals - 2017",
+    "Tourist Arrivals - 2018",
+    "% change same month of previous year - Tourist Arrivals - Tourist Bed-nights* - 2017-2018",
+    "% change same month of previous year - Tourist Arrivals - 2017-2018",
+    "% change from previous month - Tourist Arrivals - Tourist Bed-nights* - 2018",
+    "% change from previous month - Tourist Arrivals - 2018"
+  ],
+  "row_count": 13
+}

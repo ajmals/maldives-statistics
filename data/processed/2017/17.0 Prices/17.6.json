@@ -1,0 +1,25 @@
+{
+  "table_id": "17.6",
+  "title_en": "Table 17.6 : CONSUMER PRICE INDEX, FOR MALE' AND ATOLLS BY MONTH, 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: June 2012=100) - Major Groups - Republic",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Jan",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Feb",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Mar",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Apr",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - May",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Jun",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Jul",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Aug",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Sep",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Oct",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Nov",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Dec",
+    "(Index - base: June 2012=100) - Monthly CPI , 2016 - Jan - Dec"
+  ],
+  "row_count": 57
+}

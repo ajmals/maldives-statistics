@@ -1,0 +1,20 @@
+{
+  "table_id": "7.21",
+  "title_en": "TABLE 7.21 : STUDENT ENROLMENT AND GRADUATE OUTPUT IN HIGHER EDUCATION INSTITUTIONS IN MALDIVES, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Institution",
+    "Institution_2",
+    "Institution_3",
+    "Institution - Female",
+    "Institution - Male",
+    "Institution - Total",
+    "Gradudate output - Total",
+    "Repeaters - Total",
+    "Dropouts - Total"
+  ],
+  "row_count": 17
+}

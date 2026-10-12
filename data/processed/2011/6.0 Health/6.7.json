@@ -1,0 +1,18 @@
+{
+  "table_id": "6.7",
+  "title_en": "Table 6.7 : TUBERCULOSIS CASES, BY AGE GROUP, 2009 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Center for Community Health and Disease Control",
+  "notes": [],
+  "columns": [
+    "Type of Treatment - 2008",
+    "Total",
+    "0 - 14",
+    "15 - 24",
+    "25 - 34",
+    "35 - 44",
+    "45 & over"
+  ],
+  "row_count": 20
+}

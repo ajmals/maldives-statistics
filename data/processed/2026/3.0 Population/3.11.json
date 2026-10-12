@@ -1,0 +1,31 @@
+{
+  "table_id": "3.11",
+  "title_en": "Table 3.11 : LIVE BIRTHS AND INFANT DEATHS, 2022 - 2025",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health, Family & Welfare",
+  "notes": [
+    "Note: 1_/ Data includes Maldivians and foreigners, but excluded deaths occurred abroad",
+    "Data is tentative and is subject to change"
+  ],
+  "columns": [
+    "Particulars",
+    "2022 - Republic",
+    "2022 - Male'",
+    "2022 - Atolls",
+    "2022 - Abroad",
+    "2023 - Republic",
+    "2023 - Male'",
+    "2023 - Atolls",
+    "2023 - Abroad",
+    "2024 - Republic",
+    "2024 - Male'",
+    "2024 - Atolls",
+    "2024 - Abroad",
+    "2025 - Republic",
+    "2025 - Male'",
+    "2025 - Atolls",
+    "2025 - Abroad"
+  ],
+  "row_count": 12
+}

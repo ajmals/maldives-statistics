@@ -1,0 +1,21 @@
+{
+  "table_id": "8.59-1",
+  "category": "8.0 Law & Order",
+  "title_en": "TABLE 8.59: Number of cases reported related to person with disability and elderly perosn by sex, 2018",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 3,
+  "column_count": 4,
+  "columns": [
+    "Item",
+    "Both Sex - 2019",
+    "Female - 2019",
+    "Male - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.59-1.csv"
+}

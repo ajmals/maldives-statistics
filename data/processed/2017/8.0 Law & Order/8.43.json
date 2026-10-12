@@ -1,0 +1,30 @@
+{
+  "table_id": "8.43",
+  "title_en": "Table 8.43 : PERSONS SENTENCED, BY TYPE AND PERIOD, 2014 - 2016",
+  "title_dv": "2016 - 2014 cnutogeguscnij cnuhIm unuverukcmukuh :8.43clwvWt",
+  "unit": "",
+  "source": "Source:Maldives Correctional Service",
+  "notes": [],
+  "columns": [
+    "Period of Sentence and Sex",
+    "2014 - Total",
+    "2014 - Jailed",
+    "2014 - Banished",
+    "2014 - House Arrest/Detention - Banished - Male'",
+    "2014 - House Arrest/Detention - Banished - Atolls",
+    "2014 - House Arrest/Detention - Banished - Total",
+    "2015 - Total",
+    "2015 - Jailed - Total",
+    "2015 - Banished - Total",
+    "2015 - House Arrest/Detention - Banished - Male'",
+    "2015 - House Arrest/Detention - Banished - Atolls",
+    "2015 - House Arrest/Detention - Banished - Total",
+    "2016 - Total",
+    "2016 - Jailed - Total",
+    "2016 - Banished - Total",
+    "2016 - House Arrest/Detention - Banished - Male'",
+    "2016 - House Arrest/Detention - Banished - Atolls",
+    "2016 - House Arrest/Detention - Banished - Total"
+  ],
+  "row_count": 21
+}

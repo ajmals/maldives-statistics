@@ -1,0 +1,18 @@
+{
+  "table_id": "11.7",
+  "title_en": "Table 11.7: Number of vehicles registered by sex, 2016 - 2017",
+  "title_dv": "ތާވަލު 11.7: ޖިންސުގެ ގޮތުން އެއްގަމު އުޅަނދު ރަޖިސްޓްރީކުރެވިފައިވާ ގޮތް، 2016 - 2017",
+  "unit": "",
+  "source": "Source: Transport Authority",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "2016 - Both sex",
+    "2016 - Male",
+    "2016 - Female",
+    "2017 - Both sex",
+    "2017 - Male",
+    "2017 - Female"
+  ],
+  "row_count": 5
+}

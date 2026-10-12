@@ -1,0 +1,25 @@
+{
+  "table_id": "18.9-1",
+  "category": "18.0 Pension & social protection",
+  "title_en": "TABLE 18.9: PERSONS CONTRIBUTING TO THE RETIREMENT PENSION SCHEME AND CONTRIBUTIONS , 2014 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [
+    "Note: 1_/ - 2017 Data revised"
+  ],
+  "time_span": "2014 – 2018",
+  "year_min": 2014,
+  "year_max": 2018,
+  "row_count": 5,
+  "column_count": 6,
+  "columns": [
+    "Item",
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/18.9-1.csv"
+}

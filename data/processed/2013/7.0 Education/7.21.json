@@ -1,0 +1,26 @@
+{
+  "table_id": "7.21",
+  "title_en": "Table 7.21 : STUDENTS WHO RECEIVED SCHOLARSHIPS, 2000 - 2012",
+  "title_dv": "ތާވަލު 7.21: ސްކޮލަރޝިޕް ލިބުނު ދަރިވަރުންގެ ޢަދަދު، 2000 - 2012",
+  "unit": "",
+  "source": "Source: Department of Higher Education",
+  "notes": [
+    "Year",
+    "Male",
+    "2011",
+    "2012"
+  ],
+  "columns": [
+    "Year",
+    "Total",
+    "Diploma - Male",
+    "Diploma - Female",
+    "Degree - Male",
+    "Degree - Female",
+    "Masters - Male",
+    "Masters - Female",
+    "PhD - Male",
+    "PhD - Female"
+  ],
+  "row_count": 14
+}

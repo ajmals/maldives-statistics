@@ -1,0 +1,22 @@
+{
+  "table_id": "8.11",
+  "title_en": "Table 8.11: SUMMARY OF ALL CASES FILED IN COURTS IN MALE' AND ISLANDS, 2009 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "2009 - Criminal Cases",
+    "2009 - Civil Cases",
+    "2009 - Family Cases",
+    "2009 - Marriage",
+    "2009 - Divorce",
+    "2010 - Criminal Cases",
+    "2010 - Civil Cases",
+    "2010 - Family Cases",
+    "2010 - Marriage",
+    "2010 - Divorce"
+  ],
+  "row_count": 28
+}

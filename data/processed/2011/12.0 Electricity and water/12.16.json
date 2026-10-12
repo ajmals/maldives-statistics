@@ -1,0 +1,29 @@
+{
+  "table_id": "12.16",
+  "title_en": "Table 12.16 : MONTHLY ELECTRICITY PRODUCTION BY ISLAND, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: South Central Utilities Company Limited",
+  "notes": [
+    "Upper South Utilities Company Limited",
+    "Nothern Utilities Company Limited",
+    "Upper North Utilities Company Limited"
+  ],
+  "columns": [
+    "(In kWh) - Locality",
+    "(In kWh) - Total",
+    "(In kWh) - waunej - Jan",
+    "(In kWh) - urcbef - Feb",
+    "(In kWh) - cCrWm - Mar",
+    "(In kWh) - IrcPEa - Apr",
+    "(In kWh) - Em - May",
+    "(In kWh) - cnUj - Jun",
+    "(In kWh) - iawluj - Jul",
+    "(In kWh) - cswgOa - Aug",
+    "(In kWh) - cTcpes - Sep",
+    "(In kWh) - OTckoa - Oct",
+    "(In kWh) - cmevon - Nov",
+    "(In kWh) - cmesiD - Dec"
+  ],
+  "row_count": 70
+}

@@ -1,0 +1,31 @@
+"(In Million Rf , at 1995 constant prices) - ISIC","(In Million Rf , at 1995 constant prices) - Industry / Economic Activity","(In Million Rf , at 1995 constant prices) - 2003","(In Million Rf , at 1995 constant prices) - 2004","(In Million Rf , at 1995 constant prices) - 2005","(In Million Rf , at 1995 constant prices) - 2006","(In Million Rf , at 1995 constant prices) - 2007","(In Million Rf , at 1995 constant prices) - 2008","(In Million Rf , at 1995 constant prices) - 2009","(In Million Rf , at 1995 constant prices) - 2010 1_/"
+,Primary,738.0,759.1,848.9,846.5,720.2,687.5,596.5,577.8
+A,Agriculture,196.3,204.6,203.6,204.3,205.1,206.6,208.9,211.6
+B,Fisheries,498.0,506.8,595.8,590.1,461.7,426.5,335.2,313.6
+C,Coral and sand mining,43.7,47.7,49.5,52.1,53.4,54.5,52.5,52.6
+,Secondary,"1,182.6","1,335.1","1,374.2","1,592.0","1,752.9","1,900.6","1,687.2","1,702.7"
+D,Manufacturing,642.6,660.1,593.6,680.2,703.2,722.8,693.4,700.1
+,fish preparation,204.0,204.4,246.6,299.3,299.7,300.1,300.5,300.9
+E,Electricity and water supply,275.0,312.8,363.4,409.0,446.5,476.5,497.3,499.7
+F,Construction,264.9,362.2,417.3,502.8,603.2,701.3,496.4,502.9
+,Tertiary,"5,969.2","6,549.3","6,010.9","7,288.7","7,954.6","8,477.1","8,423.8","8,793.3"
+G,Wholesale and retail trade,308.3,326.2,336.0,357.1,387.3,403.5,390.8,409.5
+H,"Tourism (Resorts, etc)","2,482.5","2,689.1","1,798.5","2,559.7","2,800.0","2,883.9","2,732.9","2,983.7"
+I,Transport and communications,"1,078.8","1,262.5","1,456.5","1,725.4","1,868.8","2,043.8","2,066.7","2,118.7"
+J,Financial services,251.1,269.4,261.9,286.5,298.8,306.8,300.6,306.9
+K,Real Estate,550.0,571.3,574.5,594.8,610.0,623.9,622.6,637.2
+K,Business services,211.1,222.5,222.4,233.3,238.9,243.5,240.0,243.6
+L,Government Administration,943.3,"1,061.8","1,212.7","1,380.3","1,596.3","1,814.5","1,909.9","1,930.1"
+"M,N,O","Education, health and social services",144.2,146.4,148.5,151.7,154.5,157.4,160.3,163.5
+,Fisim,-299.9,-332.3,-308.0,-376.2,-399.4,-418.9,-394.8,-409.8
+GDP at basic price,GDP at basic price,"7,589.9","8,311.2","7,926.2","9,351.1","10,028.4","10,646.3","10,312.7","10,664.0"
+Memorandum items:,Memorandum items:,,,,,,,,
+GDP at constant prices (million US$),GDP at constant prices (million US$),644.8,706.1,673.4,794.5,852.0,904.5,876.2,906.0
+GDP per capita at constant prices (Rf),GDP per capita at constant prices (Rf),"26,625","28,711","26,983","31,170","32,894","34,390","32,786","33,352"
+GDP per capita at constant prices (US$),GDP per capita at constant prices (US$),"2,262","2,439","2,293","2,648","2,795","2,922","2,786","2,834"
+GDP at current market prices (million Rf),GDP at current market prices (million Rf),"8,863","9,939","9,596","11,717","13,496","16,131","16,735","18,534"
+GDP at current market prices (million US$),GDP at current market prices (million US$),691,776,750,915,"1,054","1,260","1,307","1,448"
+GDP per capita at current market prices(Rf),GDP per capita at current market prices(Rf),"31,092","34,333","32,668","39,058","44,269","52,107","53,204","57,965"
+GDP per capita at current market prices (US$),GDP per capita at current market prices (US$),"2,423","2,682","2,552","3,051","3,458","4,071","4,157","4,528"
+Population,Population,"285,066","289,480","293,746","300,000","304,869","309,575","314,542","319,738"
+Average exchange rate (Rf per US$),Average exchange rate (Rf per US$),12.80,12.80,12.80,12.80,12.80,12.80,12.80,12.80

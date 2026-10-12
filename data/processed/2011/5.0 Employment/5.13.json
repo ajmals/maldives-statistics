@@ -1,0 +1,23 @@
+{
+  "table_id": "5.13",
+  "title_en": "Table 5.13: Civil Servants Classified by Civil Service Job Structure, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source : Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Job classification/Position level",
+    "Job classification/Position level_2",
+    "Job classification/Position level - Rank",
+    "No. of Employees - 2010 (end) - Republic - Job classification/Position level - Both sexes",
+    "No. of Employees - 2010 (end) - Republic - Job classification/Position level - Male",
+    "No. of Employees - 2010 (end) - Republic - Job classification/Position level - Female",
+    "No. of Employees - 2010 (end) - Male' - Job classification/Position level - Both sexes",
+    "No. of Employees - 2010 (end) - Male' - Job classification/Position level - Male",
+    "No. of Employees - 2010 (end) - Male' - Job classification/Position level - Female",
+    "No. of Employees - 2010 (end) - Atolls - Job classification/Position level - Both sexes",
+    "No. of Employees - 2010 (end) - Atolls - Job classification/Position level - Male",
+    "No. of Employees - 2010 (end) - Atolls - Job classification/Position level - Female"
+  ],
+  "row_count": 26
+}

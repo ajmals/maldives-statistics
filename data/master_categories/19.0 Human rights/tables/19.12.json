@@ -1,0 +1,31 @@
+{
+  "table_id": "19.12",
+  "category": "19.0 Human rights",
+  "title_en": "",
+  "unit": "",
+  "source": "Source: Ministr y of Education",
+  "notes": [
+    "Note: From 19 92 - 1996 Special classes includes both the children with special needs and the students in special classes ('Khaassa class') conducted after grade 7",
+    "Note: Data have been taken from the past publications of the Statistical Yearbook of Maldives"
+  ],
+  "time_span": "1992",
+  "year_min": 1992,
+  "year_max": 1992,
+  "row_count": 19,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Higher Secondary Level (11-12) - Female - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Higher Secondary Level (11-12) - Male - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Lower Secondary Level (8-10) - Female - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Lower Secondary Level (8-10) - Male - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Pre - Primary - Female - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Pre - Primary - Male - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Primary Level (1-7) - Female - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Primary Level (1-7) - Male - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Special Classes - Female - 1992",
+    "19.12: STUDENT ENROLMENT IN MALE' AND ATOLLS, BY GRADE AND SEX, -2009 - Special Classes - Male - 1992"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/19.12.csv"
+}

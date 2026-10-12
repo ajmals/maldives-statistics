@@ -1,0 +1,20 @@
+{
+  "table_id": "17.4",
+  "title_en": "Table 17.4 : EXCHANGE RATES, 2008 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [],
+  "columns": [
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - Type of Currency",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2008 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2008 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2008 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2008 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2009 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2009 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2009 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid-rate) - 2009 - Dec"
+  ],
+  "row_count": 17
+}

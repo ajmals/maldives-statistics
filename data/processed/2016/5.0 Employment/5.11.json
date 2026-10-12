@@ -1,0 +1,18 @@
+{
+  "table_id": "5.11",
+  "title_en": "TABLE 5.11: NUMBER OF JOB SEEKERS REGISTERED BY AGE GROUP AND SEX, 2011-2015",
+  "title_dv": "ތާވަލް 5.11: އުމުރާއި ޖިންސުގެ ގޮތުން ވަޒީފާ ހޯދުމަށް ރަޖިސްޓްރީކުރެވިފައިވާ މީހުންގެ އަދަދު، 2011-2015",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވި ފަރާތް: މިނިސްޓްރީ އޮފް ޔޫތް އެންޑް ސްޕޯޓްސް",
+  "notes": [
+    "Note: The registered job seekers are taken from vazeefaage dhaftharu website (www.yes.mv)",
+    "ނޯޓް: ވަޒީފާ ހޯދުމަށް ރަޖިސްޓްރީކުރެވިފައިވާ ޢަދަދު ނެގިފައިވަނީ ވަޒީފާގެ ދަފްތަރު (www.yes.mv) ސައިޓުންނެވެ."
+  ],
+  "columns": [
+    "Year",
+    "Both Sex",
+    "Male",
+    "Female"
+  ],
+  "row_count": 5
+}

@@ -1,0 +1,30 @@
+{
+  "table_id": "8.5&fig8.5",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.5 : PERSONS SENTENCED, BY TYPE AND PERIOD, 2009 - 2010",
+  "unit": "",
+  "source": "Source: Department of Penitentiary and Rehabilitation Service",
+  "notes": [],
+  "time_span": "2009 – 2010",
+  "year_min": 2009,
+  "year_max": 2010,
+  "row_count": 9,
+  "column_count": 13,
+  "columns": [
+    "Item",
+    "Banished - 2009",
+    "Banished - Total - 2010",
+    "House Arrest/Detention - Banished - Atolls - 2009",
+    "House Arrest/Detention - Banished - Atolls - 2010",
+    "House Arrest/Detention - Banished - Male' - 2009",
+    "House Arrest/Detention - Banished - Male' - 2010",
+    "House Arrest/Detention - Banished - Total - 2009",
+    "House Arrest/Detention - Banished - Total - 2010",
+    "Jailed - 2009",
+    "Jailed - Total - 2010",
+    "Total - 2009",
+    "Total - 2010"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.5&fig8.5.csv"
+}

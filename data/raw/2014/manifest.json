@@ -1,0 +1,2062 @@
+{
+  "year": "2014",
+  "total_items": 228,
+  "downloaded": 118,
+  "skipped": 107,
+  "failed": 3,
+  "total_size_bytes": 13375955,
+  "items": [
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.4.pdf",
+      "path": "data/raw/2014/1.0 Geography/1.4.pdf",
+      "size": 52320,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.5.xlsx",
+      "path": "data/raw/2014/1.0 Geography/1.5.xlsx",
+      "size": 41116,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Environment/2.4.pdf",
+      "path": "data/raw/2014/2.0 Environment/2.4.pdf",
+      "size": 71206,
+      "year": "2014",
+      "folder": "2.0 Environment",
+      "filename": "2.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.2.pdf",
+      "path": "data/raw/2014/1.0 Geography/1.2.pdf",
+      "size": 80362,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.4.xlsx",
+      "path": "data/raw/2014/1.0 Geography/1.4.xlsx",
+      "size": 12375,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.3.pdf",
+      "path": "data/raw/2014/1.0 Geography/1.3.pdf",
+      "size": 59900,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.1.pdf",
+      "path": "data/raw/2014/1.0 Geography/1.1.pdf",
+      "size": 76152,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.2.xlsx",
+      "path": "data/raw/2014/1.0 Geography/1.2.xlsx",
+      "size": 19868,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.1.xlsx",
+      "path": "data/raw/2014/1.0 Geography/1.1.xlsx",
+      "size": 813295,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.3.xlsx",
+      "path": "data/raw/2014/1.0 Geography/1.3.xlsx",
+      "size": 15531,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.6.xlsx",
+      "path": "data/raw/2014/1.0 Geography/1.6.xlsx",
+      "size": 15153,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Environment/2.4.xlsx",
+      "path": "data/raw/2014/2.0 Environment/2.4.xlsx",
+      "size": 12376,
+      "year": "2014",
+      "folder": "2.0 Environment",
+      "filename": "2.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.6.pdf",
+      "path": "data/raw/2014/1.0 Geography/1.6.pdf",
+      "size": 71287,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.4.pdf",
+      "path": "data/raw/2014/3.0 Population/3.4.pdf",
+      "size": 68472,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Environment/2.5.xlsx",
+      "path": "data/raw/2014/2.0 Environment/2.5.xlsx",
+      "size": 10286,
+      "year": "2014",
+      "folder": "2.0 Environment",
+      "filename": "2.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.2.pdf",
+      "path": "data/raw/2014/3.0 Population/3.2.pdf",
+      "size": 75668,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.1.pdf",
+      "path": "data/raw/2014/3.0 Population/3.1.pdf",
+      "size": 88212,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Environment/2.5.pdf",
+      "path": "data/raw/2014/2.0 Environment/2.5.pdf",
+      "size": 55553,
+      "year": "2014",
+      "folder": "2.0 Environment",
+      "filename": "2.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.4.xls",
+      "path": "data/raw/2014/3.0 Population/3.4.xls",
+      "size": 256512,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.4.xls"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.6.pdf",
+      "path": "data/raw/2014/3.0 Population/3.6.pdf",
+      "size": 53753,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Geography/1.5.pdf",
+      "path": "data/raw/2014/1.0 Geography/1.5.pdf",
+      "size": 105270,
+      "year": "2014",
+      "folder": "1.0 Geography",
+      "filename": "1.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.8.pdf",
+      "path": "data/raw/2014/3.0 Population/3.8.pdf",
+      "size": 62049,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.5.pdf",
+      "path": "data/raw/2014/3.0 Population/3.5.pdf",
+      "size": 83561,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.7.pdf",
+      "path": "data/raw/2014/3.0 Population/3.7.pdf",
+      "size": 65460,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.9.pdf",
+      "path": "data/raw/2014/3.0 Population/3.9.pdf",
+      "size": 66850,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.10.pdf",
+      "path": "data/raw/2014/3.0 Population/3.10.pdf",
+      "size": 66265,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.10.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.3.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.3.pdf",
+      "size": 51172,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.11.pdf",
+      "path": "data/raw/2014/3.0 Population/3.11.pdf",
+      "size": 52365,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.11.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.8.xls",
+      "path": "data/raw/2014/3.0 Population/3.8.xlsx",
+      "size": 39424,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.12.pdf",
+      "path": "data/raw/2014/3.0 Population/3.12.pdf",
+      "size": 50289,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.12.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.11.xls",
+      "path": "data/raw/2014/3.0 Population/3.11.xlsx",
+      "size": 31744,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.13.pdf",
+      "path": "data/raw/2014/3.0 Population/3.13.pdf",
+      "size": 84162,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.13.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.6.xls",
+      "path": "data/raw/2014/3.0 Population/3.6.xlsx",
+      "size": 47616,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.14.pdf",
+      "path": "data/raw/2014/3.0 Population/3.14.pdf",
+      "size": 58369,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.14.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.9.xls",
+      "path": "data/raw/2014/3.0 Population/3.9.xlsx",
+      "size": 259584,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.15.pdf",
+      "path": "data/raw/2014/3.0 Population/3.15.pdf",
+      "size": 61907,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.15.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.1.xls",
+      "path": "data/raw/2014/3.0 Population/3.1.xlsx",
+      "size": 285184,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.18.pdf",
+      "path": "data/raw/2014/3.0 Population/3.18.pdf",
+      "size": 52758,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.18.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.2.xls",
+      "path": "data/raw/2014/3.0 Population/3.2.xlsx",
+      "size": 302080,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.19.pdf",
+      "path": "data/raw/2014/3.0 Population/3.19.pdf",
+      "size": 54374,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.19.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.10.xls",
+      "path": "data/raw/2014/3.0 Population/3.10.xlsx",
+      "size": 250368,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.20.pdf",
+      "path": "data/raw/2014/3.0 Population/3.20.pdf",
+      "size": 62128,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.20.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.5.xls",
+      "path": "data/raw/2014/3.0 Population/3.5.xlsx",
+      "size": 282112,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.21.pdf",
+      "path": "data/raw/2014/3.0 Population/3.21.pdf",
+      "size": 50528,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.21.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.12.xls",
+      "path": "data/raw/2014/3.0 Population/3.12.xlsx",
+      "size": 40448,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.22.pdf",
+      "path": "data/raw/2014/3.0 Population/3.22.pdf",
+      "size": 60745,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.22.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Housing%20and%20Infrastructure/4.5.xlsx",
+      "path": "data/raw/2014/4.0 Housing and public infrastructure/4.5.xlsx",
+      "size": 16455,
+      "year": "2014",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Housing%20and%20Infrastructure/4.5.pdf",
+      "path": "data/raw/2014/4.0 Housing and public infrastructure/4.5.pdf",
+      "size": 67018,
+      "year": "2014",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Housing%20and%20Infrastructure/4.6.xlsx",
+      "path": "data/raw/2014/4.0 Housing and public infrastructure/4.6.xlsx",
+      "size": 21877,
+      "year": "2014",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Housing%20and%20Infrastructure/4.6.pdf",
+      "path": "data/raw/2014/4.0 Housing and public infrastructure/4.6.pdf",
+      "size": 59193,
+      "year": "2014",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.1.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.1.xlsx",
+      "size": 23054,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.1.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.1.pdf",
+      "size": 98013,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.2.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.2.xlsx",
+      "size": 20360,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.2.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.2.pdf",
+      "size": 96148,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.7.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.7.xlsx",
+      "size": 15785,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.7.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.7.pdf",
+      "size": 70694,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.8.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.8.xlsx",
+      "size": 18607,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.8.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.8.pdf",
+      "size": 130262,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.9.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.9.xlsx",
+      "size": 20182,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.9.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.9.pdf",
+      "size": 90837,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.10.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.10.xlsx",
+      "size": 13555,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.10.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.10.pdf",
+      "size": 71300,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.12.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.12.xlsx",
+      "size": 19577,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.12.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.12.pdf",
+      "size": 98085,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.13.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.13.xlsx",
+      "size": 8446,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.13.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.13.pdf",
+      "size": 54479,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.14.xlsx",
+      "path": "data/raw/2014/5.0 Employment/5.14.xlsx",
+      "size": 8973,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Employment/5.14.pdf",
+      "path": "data/raw/2014/5.0 Employment/5.14.pdf",
+      "size": 51516,
+      "year": "2014",
+      "folder": "5.0 Employment",
+      "filename": "5.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.4.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.4.xlsx",
+      "size": 12486,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.4.pdf",
+      "path": "data/raw/2014/6.0 Health/6.4.pdf",
+      "size": 51556,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.5.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.5.xlsx",
+      "size": 13917,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.5.pdf",
+      "path": "data/raw/2014/6.0 Health/6.5.pdf",
+      "size": 71318,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.6.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.6.xlsx",
+      "size": 10246,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.6.pdf",
+      "path": "data/raw/2014/6.0 Health/6.6.pdf",
+      "size": 56796,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.7.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.7.xlsx",
+      "size": 9520,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.7.pdf",
+      "path": "data/raw/2014/6.0 Health/6.7.pdf",
+      "size": 50404,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.8.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.8.xlsx",
+      "size": 12017,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.8.pdf",
+      "path": "data/raw/2014/6.0 Health/6.8.pdf",
+      "size": 62916,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.9.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.9.xlsx",
+      "size": 11248,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.9.pdf",
+      "path": "data/raw/2014/6.0 Health/6.9.pdf",
+      "size": 49220,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.10.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.10.xlsx",
+      "size": 20757,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.10.pdf",
+      "path": "data/raw/2014/6.0 Health/6.10.pdf",
+      "size": 107927,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.11.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.11.xlsx",
+      "size": 39507,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.11.pdf",
+      "path": "data/raw/2014/6.0 Health/6.11.pdf",
+      "size": 85794,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.13.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.13.xlsx",
+      "size": 12139,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.13.pdf",
+      "path": "data/raw/2014/6.0 Health/6.13.pdf",
+      "size": 54754,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.19.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.19.xlsx",
+      "size": 9930,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.19.pdf",
+      "path": "data/raw/2014/6.0 Health/6.19.pdf",
+      "size": 60931,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.20.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.20.xlsx",
+      "size": 9236,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.20.pdf",
+      "path": "data/raw/2014/6.0 Health/6.20.pdf",
+      "size": 52249,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.20.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.21.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.21.xlsx",
+      "size": 8846,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.21.pdf",
+      "path": "data/raw/2014/6.0 Health/6.21.pdf",
+      "size": 46708,
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.21.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.7.xls",
+      "path": "data/raw/2014/3.0 Population/3.7.xlsx",
+      "size": 266752,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.7.xlsx"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.22.pdf",
+      "path": "data/raw/2014/6.0 Health/6.22.pdf",
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.22.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.13.xls",
+      "path": "data/raw/2014/3.0 Population/3.13.xlsx",
+      "size": 291328,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.1.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.1.pdf",
+      "size": 72011,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.1.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.20.xls",
+      "path": "data/raw/2014/3.0 Population/3.20.xlsx",
+      "size": 40960,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.2.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.2.pdf",
+      "size": 146450,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.2.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.14.xls",
+      "path": "data/raw/2014/3.0 Population/3.14.xlsx",
+      "size": 327680,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.3.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.3.pdf",
+      "size": 89838,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.3.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.21.xls",
+      "path": "data/raw/2014/3.0 Population/3.21.xlsx",
+      "size": 30720,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.4.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.4.pdf",
+      "size": 59178,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.4.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.22.xls",
+      "path": "data/raw/2014/3.0 Population/3.22.xlsx",
+      "size": 30208,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.22.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.5.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.5.pdf",
+      "size": 72752,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.5.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.18.xls",
+      "path": "data/raw/2014/3.0 Population/3.18.xlsx",
+      "size": 247808,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.18.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.6.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.6.pdf",
+      "size": 61781,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.6.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.19.xls",
+      "path": "data/raw/2014/3.0 Population/3.19.xlsx",
+      "size": 266752,
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.7.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.7.pdf",
+      "size": 70987,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.7.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Population/3.16.xlsx",
+      "path": "data/raw/2014/3.0 Population/3.16.xlsx",
+      "year": "2014",
+      "folder": "3.0 Population",
+      "filename": "3.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.8.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.8.pdf",
+      "size": 63036,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.8.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Health/6.22.xlsx",
+      "path": "data/raw/2014/6.0 Health/6.22.xlsx",
+      "year": "2014",
+      "folder": "6.0 Health",
+      "filename": "6.22.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.9.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.9.pdf",
+      "size": 86265,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.9.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.2.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.2.xls",
+      "size": 31990,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.2.xls"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.10.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.10.pdf",
+      "size": 65370,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.10.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.1.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.1.xls",
+      "size": 47638,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.1.xls"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.11.pdf",
+      "path": "data/raw/2014/10.0 Tourism/10.11.pdf",
+      "size": 58272,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.11.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.3.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.3.xls",
+      "size": 36691,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.3.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.4.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.4.xls",
+      "size": 26359,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.4.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.5.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.5.xls",
+      "size": 35892,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.5.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.6.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.6.xls",
+      "size": 27923,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.6.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.3.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.3.xlsx",
+      "size": 29257,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.3.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.8.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.8.xls",
+      "size": 32234,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.8.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.7.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.7.xls",
+      "size": 31201,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.7.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.11.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.11.xlsx",
+      "size": 10310,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.11.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.3.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.3.pdf",
+      "size": 97163,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.3.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.6.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.6.xlsx",
+      "size": 14160,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.6.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.12.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.12.xlsx",
+      "size": 10467,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.12.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.6.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.6.pdf",
+      "size": 62597,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.6.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.13.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.13.xlsx",
+      "size": 9523,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.13.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.11.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.11.pdf",
+      "size": 62006,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.11.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.12.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.12.pdf",
+      "size": 62854,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.12.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.13.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.13.pdf",
+      "size": 59750,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.13.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.14.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.14.xlsx",
+      "size": 21002,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.14.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.15.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.15.xlsx",
+      "size": 13662,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.15.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.14.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.14.pdf",
+      "size": 65261,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.14.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.16.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.16.xlsx",
+      "size": 13762,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.16.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.15.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.15.pdf",
+      "size": 71404,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.15.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.16.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.16.pdf",
+      "size": 70299,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.16.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.19.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.19.xlsx",
+      "size": 20981,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.19.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.20.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.20.xlsx",
+      "size": 11916,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.20.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.21.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.21.xlsx",
+      "size": 9808,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.21.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.19.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.19.pdf",
+      "size": 62291,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.19.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.22.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.22.xlsx",
+      "size": 10843,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.22.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.20.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.20.pdf",
+      "size": 57109,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.20.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.23.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.23.xlsx",
+      "size": 11072,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.23.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.21.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.21.pdf",
+      "size": 58386,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.21.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.22.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.22.pdf",
+      "size": 60305,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.22.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.24.xlsx",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.24.xlsx",
+      "size": 12699,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.24.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.23.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.23.pdf",
+      "size": 57201,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.23.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.1.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.1.xlsx",
+      "size": 19272,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.1.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Transport%20&%20Communication/11.24.pdf",
+      "path": "data/raw/2014/11.0 Transport and Communication/11.24.pdf",
+      "size": 62397,
+      "year": "2014",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.24.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.1.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.1.pdf",
+      "size": 57270,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.1.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.2.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.2.xlsx",
+      "size": 16590,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.2.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.3.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.3.xlsx",
+      "size": 15751,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.3.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.2.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.2.pdf",
+      "size": 68085,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.2.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.4.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.4.xlsx",
+      "size": 15416,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.4.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.5.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.5.xlsx",
+      "size": 12455,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.5.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.3.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.3.pdf",
+      "size": 62807,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.3.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.4.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.4.pdf",
+      "size": 61526,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.4.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.6.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.6.xlsx",
+      "size": 13410,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.6.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.5.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.5.pdf",
+      "size": 63377,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.5.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.8.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.8.xlsx",
+      "size": 17815,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.8.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.6.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.6.pdf",
+      "size": 60748,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.6.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.9.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.9.xlsx",
+      "size": 12573,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.9.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.8.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.8.pdf",
+      "size": 58687,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.8.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.9.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.9.pdf",
+      "size": 61852,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.9.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.10.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.10.xlsx",
+      "size": 13348,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.10.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.11.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.11.xlsx",
+      "size": 13122,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.11.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.10.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.10.pdf",
+      "size": 61145,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.10.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.12.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.12.xlsx",
+      "size": 11844,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.12.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.11.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.11.pdf",
+      "size": 53967,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.11.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.13.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.13.xlsx",
+      "size": 11613,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.13.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.12.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.12.pdf",
+      "size": 60206,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.12.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.14.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.14.xlsx",
+      "size": 13810,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.14.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.13.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.13.pdf",
+      "size": 60069,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.13.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.15.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.15.xlsx",
+      "size": 12281,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.15.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.14.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.14.pdf",
+      "size": 59862,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.14.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.16.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.16.xlsx",
+      "size": 13416,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.16.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.15.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.15.pdf",
+      "size": 58784,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.15.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.16.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.16.pdf",
+      "size": 59038,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.16.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.17.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.17.xlsx",
+      "size": 17193,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.1.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.1.pdf",
+      "size": 64394,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.1.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.18.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.18.xlsx",
+      "size": 13339,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.18.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.2.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.2.pdf",
+      "size": 61265,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.2.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.17.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.17.pdf",
+      "size": 66697,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.3.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.3.pdf",
+      "size": 61173,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.3.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.19.xlsx",
+      "path": "data/raw/2014/12.0 Electricity and water/12.19.xlsx",
+      "size": 17612,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.4.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.4.pdf",
+      "size": 60747,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.4.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.18.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.18.pdf",
+      "size": 62310,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.18.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.5.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.5.pdf",
+      "size": 72881,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.5.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Electricity%20&%20Water/12.19.pdf",
+      "path": "data/raw/2014/12.0 Electricity and water/12.19.pdf",
+      "size": 72148,
+      "year": "2014",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.6.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.6.pdf",
+      "size": 121615,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.6.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.9.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.9.xls",
+      "size": 36382,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.9.xls"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.7.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.7.pdf",
+      "size": 78252,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.7.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.10.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.10.xls",
+      "size": 43192,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.10.xls"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.8.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.8.pdf",
+      "size": 72923,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.8.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Tourism/10.11.xlsx",
+      "path": "data/raw/2014/10.0 Tourism/10.11.xls",
+      "size": 25553,
+      "year": "2014",
+      "folder": "10.0 Tourism",
+      "filename": "10.11.xls"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.10.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.10.pdf",
+      "size": 57609,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.10.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.1.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.1.xls",
+      "size": 13836,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.1.xls"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.13.pdf",
+      "path": "data/raw/2014/17.0 Prices/17.13.pdf",
+      "size": 75761,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Human%20Rights/19.1.xlsx",
+      "path": "data/raw/2014/19.0 Human rights/19.1.xlsx",
+      "size": 18170,
+      "year": "2014",
+      "folder": "19.0 Human rights",
+      "filename": "19.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Human%20Rights/19.1.pdf",
+      "path": "data/raw/2014/19.0 Human rights/19.1.pdf",
+      "size": 61012,
+      "year": "2014",
+      "folder": "19.0 Human rights",
+      "filename": "19.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Human%20Rights/19.2.xlsx",
+      "path": "data/raw/2014/19.0 Human rights/19.2.xlsx",
+      "size": 13358,
+      "year": "2014",
+      "folder": "19.0 Human rights",
+      "filename": "19.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Human%20Rights/19.2.pdf",
+      "path": "data/raw/2014/19.0 Human rights/19.2.pdf",
+      "size": 67339,
+      "year": "2014",
+      "folder": "19.0 Human rights",
+      "filename": "19.2.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.4.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.4.xls",
+      "size": 18213,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.4.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.2.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.2.xls",
+      "size": 17579,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.2.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.3.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.3.xls",
+      "size": 15682,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.3.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.5.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.5.xls",
+      "size": 31596,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.5.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.1.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.1.xlsx",
+      "size": 16821,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.1.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.6.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.6.xls",
+      "size": 29896,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.6.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.2.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.2.xlsx",
+      "size": 13260,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.2.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.7.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.7.xls",
+      "size": 22420,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.7.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.3.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.3.xlsx",
+      "size": 10154,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.3.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.2.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.2.pdf",
+      "size": 50633,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.2.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.1.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.1.pdf",
+      "size": 63753,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.1.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.4.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.4.xlsx",
+      "size": 16932,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.4.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.4.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.4.pdf",
+      "size": 69045,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.4.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.5.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.5.xlsx",
+      "size": 20148,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.5.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.6.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.6.xlsx",
+      "size": 14884,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.6.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.7.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.7.xlsx",
+      "size": 12172,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.7.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.5.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.5.pdf",
+      "size": 55600,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.5.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.6.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.6.pdf",
+      "size": 50358,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.6.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.8.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.8.xls",
+      "size": 20851,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.8.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.7.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.7.pdf",
+      "size": 55262,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.7.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.8.xlsx",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.8.xlsx",
+      "size": 13868,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.8.xlsx"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Political%20Parties%20&%20Elections/20.8.pdf",
+      "path": "data/raw/2014/20.0 Political parties & Election/20.8.pdf",
+      "size": 50637,
+      "year": "2014",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.8.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.10.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.10.xls",
+      "size": 15166,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.10.xls"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2014/yearbook/Prices/17.13.xlsx",
+      "path": "data/raw/2014/17.0 Prices/17.13.xls",
+      "size": 18517,
+      "year": "2014",
+      "folder": "17.0 Prices",
+      "filename": "17.13.xls"
+    }
+  ]
+}

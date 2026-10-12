@@ -1,0 +1,33 @@
+{
+  "table_id": "14.8",
+  "title_en": "Table 14.8: ASSETS AND LIABILITIES OF OTHER FINANCIAL CORPORATIONS, 2011 - 2014",
+  "title_dv": "ތާވަލު 14.8:އެހެނިހެން މާލީދާއިރާގެ ކުންފުނިތަކުގެ އެސެޓްތަކާއި އަދި ލައިބިލިޓީތައް 2011- 2014",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1_/ : 2011, 2012 and 2013 revised",
+    "Data is compiled based on IMF Monetary and Financial Statistics Manual 2000 (MFSM 2000)."
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Particulars",
+    "(In millions of Rufiyaa; end of period)",
+    "(In millions of Rufiyaa; end of period) - 20111_/ - Mar",
+    "(In millions of Rufiyaa; end of period) - 20111_/ - Jun",
+    "(In millions of Rufiyaa; end of period) - 20111_/ - Sep",
+    "(In millions of Rufiyaa; end of period) - 20111_/ - Dec",
+    "(In millions of Rufiyaa; end of period) - 2012 1_/ - Mar",
+    "(In millions of Rufiyaa; end of period) - 2012 1_/ - Jun",
+    "(In millions of Rufiyaa; end of period) - 2012 1_/ - Sep",
+    "(In millions of Rufiyaa; end of period) - 2012 1_/ - Dec",
+    "(In millions of Rufiyaa; end of period) - 2013 1_/ - Mar",
+    "(In millions of Rufiyaa; end of period) - 2013 1_/ - Jun",
+    "(In millions of Rufiyaa; end of period) - 2013 1_/ - Sep",
+    "(In millions of Rufiyaa; end of period) - 2013 1_/ - Dec",
+    "(In millions of Rufiyaa; end of period) - 2014 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2014 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2014 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2014 - Dec"
+  ],
+  "row_count": 34
+}

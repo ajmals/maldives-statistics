@@ -1,0 +1,17 @@
+{
+  "table_id": "18.7",
+  "title_en": "Table18.7: ALLOCATIONS FOR DEVELOPMENT PROJECTS, BY MINISTRIES, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Monitoring and evaluation Section, Departm ent of National Planning",
+  "notes": [],
+  "columns": [
+    "Ministry",
+    "Total allocation",
+    "External",
+    "Domestic",
+    "Revised allocation",
+    "Difference (Rev. - Alloc.)"
+  ],
+  "row_count": 12
+}

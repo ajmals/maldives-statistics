@@ -1,0 +1,22 @@
+{
+  "table_id": "15.4",
+  "title_en": "Table 15.4 : EXPORTS BY COUNTRY OF DESTINATION, 2005 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldi ves Customs Services",
+  "notes": [],
+  "columns": [
+    "Country",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "% Share - 2005",
+    "% Share - 2006",
+    "% Share - 2007",
+    "% Share - 2008",
+    "% Share - 2009"
+  ],
+  "row_count": 26
+}

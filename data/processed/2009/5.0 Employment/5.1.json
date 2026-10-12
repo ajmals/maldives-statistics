@@ -1,0 +1,31 @@
+{
+  "table_id": "5.1",
+  "title_en": "Table 5.1 : PERMANENT EMPLOYEES OF CIVIL SERVICE, BY SECTOR, 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: The President's Office.",
+  "notes": [
+    "Note: Public corporation such as STO, and Joint Venture Companies such as DHIRAAGU",
+    "directly recruit large numbers of employees. However, Government posts in",
+    "these Public corporations and Joint Venture Companies are included.",
+    "Republic",
+    "Sectors",
+    "Both sexes",
+    "Total",
+    "Commerce",
+    "Education",
+    "Electricity & Water",
+    "Fisheries & Agriculture",
+    "Health & Welfare",
+    "Services",
+    "Tourism",
+    "Transport & Communication",
+    "Sources: Civil Service Commision"
+  ],
+  "columns": [
+    "Temporary",
+    "-",
+    "-_2"
+  ],
+  "row_count": 19
+}

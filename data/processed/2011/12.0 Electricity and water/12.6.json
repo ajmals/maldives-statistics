@@ -1,0 +1,29 @@
+{
+  "table_id": "12.6",
+  "title_en": "Table 12.6 : MONTHLY CONSUMPTION OF FUEL FOR ELECTRICITY GENERATION IN SELECTED LOCALITIES BY PUBLIC SECTOR, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Co mpany Limited",
+  "notes": [
+    "Note: On 1 May 2009_ HA,HDh,Shaviyani,N,R,B,Lh,GA,GDh atolls changed over of electricity provision from STELCO to utility companies",
+    "Note: On 1 July 2009_ Addu and Fuahmulaku atoll changed over of electricity provision from STELCO to utility companies",
+    "Note: On 1 March 2010_ Dhaalu atoll changed over of electricity provision from STELCO to utility companies"
+  ],
+  "columns": [
+    "(In '000 litres) - Locality",
+    "(In '000 litres) - Total",
+    "(In '000 litres) - Jan",
+    "(In '000 litres) - Feb",
+    "(In '000 litres) - Mar",
+    "(In '000 litres) - Apr",
+    "(In '000 litres) - May",
+    "(In '000 litres) - Jun",
+    "(In '000 litres) - Jul",
+    "(In '000 litres) - Aug",
+    "(In '000 litres) - Sep",
+    "(In '000 litres) - Oct",
+    "(In '000 litres) - Nov",
+    "(In '000 litres) - Dec"
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,29 @@
+{
+  "table_id": "19.2",
+  "title_en": "Table 2: FISH CATCH BY MONTH, 1985 - 2009 (In metric tons)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture.",
+  "notes": [
+    "Note: Dat a have been taken from the past publications of the Statistical Yearbook of Maldives"
+  ],
+  "columns": [
+    "Year",
+    "fish catch",
+    "EEZ",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "% Change in fish catch"
+  ],
+  "row_count": 25
+}

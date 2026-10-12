@@ -1,0 +1,25 @@
+{
+  "table_id": "16.9",
+  "title_en": "Table 16.9 : GROSS DOMESTIC PRODUCT (AT CURRENT PRICES), BY KIND OF ACTIVITY, 2014-2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of Housing, Land and Urban Develeopment",
+  "notes": [
+    "Note : na = not available",
+    "Published in September 2024"
+  ],
+  "columns": [
+    "(Estimated using expenditure approach) - Industry / Economic Activity",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2014",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2015",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2016",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2017",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2018",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2019",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2020",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2021",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2022",
+    "(Estimated using expenditure approach) - (In Million MVR ) - 2023"
+  ],
+  "row_count": 13
+}

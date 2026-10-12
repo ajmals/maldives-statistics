@@ -1,0 +1,26 @@
+{
+  "table_id": "2.7",
+  "title_en": "Table 2.7: Monthly waste collected, Greater Male' Area, 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Waste Management Corporation Limited (WAMCO)",
+  "notes": [],
+  "columns": [
+    "Category",
+    "Column_2",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Total"
+  ],
+  "row_count": 26
+}

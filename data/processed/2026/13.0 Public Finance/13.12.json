@@ -1,0 +1,35 @@
+{
+  "table_id": "13.12",
+  "title_en": "Table 13.12: REVENUE COLLECTED BY DETAILED CATEGORIES, 2020 - 2025",
+  "title_dv": "ތާވަލު 13.12: ޢާމްދަނީގެ ގޮތުގައި ލިބުނު ފައިސާގެ ތަފްޞީލު، 2020 - 2025",
+  "unit": "",
+  "source": "Source: Maldives Inland Revenue Authority",
+  "notes": [
+    "2019*: 2019 Figures revised as per Internal Audit reconciliation on 31s March 2020",
+    "2020 Figures reconciled as of 11.02.2021",
+    "2021 Figures are updated as per the Internal Audit Reconciliation on 15th May 2022",
+    "2022 Figures are updated as per the Internal Audit Reconciliation on 19th June 2023",
+    "2023 Figures are updated as per the Internal Audit Reconciliation on 29th May 2024",
+    "2024 Figures are updated as per the Internal Audit Reconciliation on 19th March 2025",
+    "2025 Figures are updated as per the Reconciliation done on 08th March 2026",
+    "(*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "Description",
+    "2019*",
+    "Revenue collected (MVR) - 2020",
+    "Revenue collected (MVR) - 2021",
+    "Revenue collected (MVR) - 2022",
+    "Revenue collected (MVR) - 2023",
+    "Revenue collected (MVR) - 2024",
+    "Revenue collected (MVR) - 2025",
+    "Percentage shares - 2020",
+    "Percentage shares - 2021",
+    "Percentage shares - 2022",
+    "Percentage shares - 2023",
+    "Percentage shares - 2024",
+    "Percentage shares - 2025",
+    "Percentage change over 2024 - 2025"
+  ],
+  "row_count": 65
+}

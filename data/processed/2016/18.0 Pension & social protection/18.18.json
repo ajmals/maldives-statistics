@@ -1,0 +1,34 @@
+{
+  "table_id": "18.18",
+  "title_en": "Table 18.18 : GOVERNMENT EXPENDITURE ON DIFFERENT SOCIAL PROTECTION SCHEMES BY TYPE (in MVR), 2014",
+  "title_dv": "ތާވަލް 18.18: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުންދެވޭ ޚިދުމަތްތަކަށް ދައުލަތުންކުރެވުނު ޚަރަދު (ރުފިޔާއިން)، 2014",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "TOTAL",
+    "Month",
+    "TOTAL",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "columns": [
+    "Month",
+    "AASANDHA - TOTAL",
+    "SINGLE PARENT ALLOWANCE - TOTAL",
+    "FOSTER PARENT ALLOWANCE - TOTAL",
+    "EMERGENCY MEDICAL WELFARE - TOTAL",
+    "DISABILITY ALLOWANCE - TOTAL"
+  ],
+  "row_count": 13
+}

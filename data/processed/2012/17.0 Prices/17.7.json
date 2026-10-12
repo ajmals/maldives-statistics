@@ -1,0 +1,22 @@
+{
+  "table_id": "17.7",
+  "title_en": "Table 17.7 : QUANTITY, VALUE AND UNIT VALUES FOR SELECTED EXPORT ITEMS, 2006 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Maldives Customs Services",
+    "Note: the exchange rate used is an average taken from monthly rates used by customs."
+  ],
+  "columns": [
+    "Items - Quantity",
+    "Unit",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011"
+  ],
+  "row_count": 32
+}

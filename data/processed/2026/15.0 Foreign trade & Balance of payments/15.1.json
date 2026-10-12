@@ -1,0 +1,39 @@
+{
+  "table_id": "15.1",
+  "title_en": "Table 15.1 : IMPORTS BY COUNTRY OF CONSIGNMENT, 2018 - 2025",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [
+    "Note: (*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "Country",
+    "2017",
+    "C.I.F. Value (in MVR '000) - 2018",
+    "C.I.F. Value (in MVR '000) - 2019",
+    "C.I.F. Value (in MVR '000) - 2020",
+    "C.I.F. Value (in MVR '000) - 2021",
+    "C.I.F. Value (in MVR '000) - 2022",
+    "C.I.F. Value (in MVR '000) - 2023",
+    "C.I.F. Value (in MVR '000) - 2024",
+    "C.I.F. Value (in MVR '000) - 2025",
+    "Percentage Share - 2018",
+    "Percentage Share - 2019",
+    "Percentage Share - 2020",
+    "Percentage Share - 2021",
+    "Percentage Share - 2022",
+    "Percentage Share - 2023",
+    "Percentage Share - 2024",
+    "Percentage Share - 2025",
+    "% Change Over Previous Year - 2018",
+    "% Change Over Previous Year - 2019",
+    "% Change Over Previous Year - 2020",
+    "% Change Over Previous Year - 2021",
+    "% Change Over Previous Year - 2022",
+    "% Change Over Previous Year - 2023",
+    "% Change Over Previous Year - 2024",
+    "% Change Over Previous Year - 2025"
+  ],
+  "row_count": 42
+}

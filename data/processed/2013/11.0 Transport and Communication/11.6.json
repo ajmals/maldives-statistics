@@ -1,0 +1,33 @@
+{
+  "table_id": "11.6",
+  "title_en": "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2011",
+  "title_dv": "ތާވަލު 11.6: ރަޖިސްޓްރީކުރެވުނު އެއްގަމުގައި ދުއްވާ އުޅަނދުފަހަރު، 2011",
+  "unit": "",
+  "source": "Source: Transport Authority",
+  "notes": [
+    "Type of Vehicles",
+    "Type of Vehicles",
+    "Total",
+    "Motor cycle",
+    "Car",
+    "Bus",
+    "Pick-Up",
+    "Lorry",
+    "Van",
+    "Jeep",
+    "Battery Scooter",
+    "Other vehicles"
+  ],
+  "columns": [
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - Type of Vehicles",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - Total",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - Male'",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - Hulhumale'",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - Addu",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - Other atolls",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - % share in Male'",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - % share in Total",
+    "TABLE 11.6: SELECTED VEHICLES ACCORDING TO REGISTRATION, 2012 - ctwvWb egudnwLua"
+  ],
+  "row_count": 10
+}

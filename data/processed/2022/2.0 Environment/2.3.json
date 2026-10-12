@@ -1,0 +1,23 @@
+{
+  "table_id": "2.3",
+  "title_en": "Table 2.3 : NUMBER OF ISLAND THAT HAVE SEWARAGE SYSTEM, 2017 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Environment",
+  "notes": [
+    "Note: Total includes Male', Villimale' and Hulhumale'"
+  ],
+  "columns": [
+    "Locality",
+    "Total number of islands sewarage completed by end of 2020",
+    "Completed - 2017",
+    "Completed - 2018",
+    "Completed - 2019",
+    "Completed - 2020",
+    "Completed - 2017_2",
+    "Completed - 2018_2",
+    "Completed - 2019_2",
+    "Completed - 2020_2"
+  ],
+  "row_count": 22
+}

@@ -1,0 +1,32 @@
+{
+  "table_id": "14.12",
+  "title_en": "Table 14.12: Financial Access Survey, 2010 - 2025",
+  "title_dv": "ތާވަލު 14.12: ފައިނޭންޝަލް އެކްސެސް ސާރވޭ: (2010 - 2025)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "This table is compiled in accordance with IMF's Financial Access Survey.",
+    "Note: Number of deposit accounts or number of loan accounts counted refers to total number of every single corporate, individual and / or joint account, whilst number of depositors or number of borrowers counted refers to total number of corporate, individual, joint account holders who are counted as one depositor or borrower irrespective of the number of accounts held by the holders."
+  ],
+  "columns": [
+    "Particulars - Commercial banks",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "row_count": 19
+}

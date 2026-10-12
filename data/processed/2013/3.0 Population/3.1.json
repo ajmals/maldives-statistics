@@ -1,0 +1,24 @@
+{
+  "table_id": "3.1",
+  "title_en": "Table 3.1 : CENSUS POPULATION BY SEX AND SEX - RATIO, AND INTER-CENSAL VARIATION OF POPULATION, 1911 - 2006",
+  "title_dv": "2006 - 1911 ,utWfwt egIdWbWa Wviawgudem egukwtcnunemihOb iaWaIdWbWa egukwtcnunemihOb cnutwbcsin egcscnij iaWscnij : 3.1 clwvWt",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Note: Census population excludes expatriate population in the country due to practical difficulties in enumeration.",
+    "gcninElcp clwnwxEn cfoa cTcnwmcTWpiD :ctWrwf ivcaedutWmUluAwm"
+  ],
+  "columns": [
+    "No.",
+    "Census - Year",
+    "Census - Date",
+    "Local Population - Number - Both Sexes",
+    "Local Population - Number - Male",
+    "Local Population - Number - Female",
+    "Local Population - Percent - Male",
+    "Local Population - Percent - Female",
+    "Sex Ratio - (Males per 100 females)",
+    "Annual Rate - of Growth (Exponential)"
+  ],
+  "row_count": 28
+}

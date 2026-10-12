@@ -1,0 +1,23 @@
+{
+  "table_id": "10.6",
+  "title_en": "Table 10.6 : PROPORTION OF TOURISM REVENUE AND EXPENDITURE TO CENTRAL GOVERNMENT BUDGET, 2004 - 2011 (In Million Rf)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism and Civil Aviation",
+  "notes": [
+    "Ministry of Finance and Treasury",
+    "Department of Inland Revenue"
+  ],
+  "columns": [
+    "Particulars - Central Government Budget",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "(MTEF) - 2009",
+    "(MTEF) - 2010",
+    "(MTEF) - 2011"
+  ],
+  "row_count": 13
+}

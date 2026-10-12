@@ -1,0 +1,1990 @@
+{
+  "year": "2010",
+  "total_items": 220,
+  "downloaded": 218,
+  "skipped": 0,
+  "failed": 2,
+  "total_size_bytes": 14031080,
+  "items": [
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.1.htm",
+      "path": "data/raw/2010/2.0 Environment/2.1.htm",
+      "size": 17418,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.2.htm",
+      "path": "data/raw/2010/2.0 Environment/2.2.htm",
+      "size": 20202,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/1_geography/1.3.htm",
+      "path": "data/raw/2010/1.0 Geography/1.3.htm",
+      "size": 26504,
+      "year": "2010",
+      "folder": "1.0 Geography",
+      "filename": "1.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.5.htm",
+      "path": "data/raw/2010/2.0 Environment/2.5.htm",
+      "size": 32883,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.4.htm",
+      "path": "data/raw/2010/2.0 Environment/2.4.htm",
+      "size": 20083,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.3.htm",
+      "path": "data/raw/2010/2.0 Environment/2.3.htm",
+      "size": 13169,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/1_geography/1.4.htm",
+      "path": "data/raw/2010/1.0 Geography/1.4.htm",
+      "size": 13276,
+      "year": "2010",
+      "folder": "1.0 Geography",
+      "filename": "1.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/1_geography/1.1.htm",
+      "path": "data/raw/2010/1.0 Geography/1.1.htm",
+      "size": 37029,
+      "year": "2010",
+      "folder": "1.0 Geography",
+      "filename": "1.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/1_geography/1.2.htm",
+      "path": "data/raw/2010/1.0 Geography/1.2.htm",
+      "size": 40599,
+      "year": "2010",
+      "folder": "1.0 Geography",
+      "filename": "1.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/1_geography/1.5.htm",
+      "path": "data/raw/2010/1.0 Geography/1.5.htm",
+      "size": 81300,
+      "year": "2010",
+      "folder": "1.0 Geography",
+      "filename": "1.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.7.htm",
+      "path": "data/raw/2010/2.0 Environment/2.7.htm",
+      "size": 28965,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.6.htm",
+      "path": "data/raw/2010/2.0 Environment/2.6.htm",
+      "size": 36234,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.5.htm",
+      "path": "data/raw/2010/3.0 Population/3.5.htm",
+      "size": 37479,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/2_environment/2.8.htm",
+      "path": "data/raw/2010/2.0 Environment/2.8.htm",
+      "size": 39806,
+      "year": "2010",
+      "folder": "2.0 Environment",
+      "filename": "2.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.4.htm",
+      "path": "data/raw/2010/3.0 Population/3.4.htm",
+      "size": 28188,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.6.htm",
+      "path": "data/raw/2010/3.0 Population/3.6.htm",
+      "size": 32355,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.2.htm",
+      "path": "data/raw/2010/3.0 Population/3.2.htm",
+      "size": 95988,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.1.htm",
+      "path": "data/raw/2010/3.0 Population/3.1.htm",
+      "size": 42792,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.7.htm",
+      "path": "data/raw/2010/3.0 Population/3.7.htm",
+      "size": 49183,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.3.htm",
+      "path": "data/raw/2010/3.0 Population/3.3.htm",
+      "size": 227965,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.11.htm",
+      "path": "data/raw/2010/3.0 Population/3.11.htm",
+      "size": 13361,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.9.htm",
+      "path": "data/raw/2010/3.0 Population/3.9.htm",
+      "size": 49795,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.10.htm",
+      "path": "data/raw/2010/3.0 Population/3.10.htm",
+      "size": 18103,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.8.htm",
+      "path": "data/raw/2010/3.0 Population/3.8.htm",
+      "size": 32100,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.14.htm",
+      "path": "data/raw/2010/3.0 Population/3.14.htm",
+      "size": 24574,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.15.htm",
+      "path": "data/raw/2010/3.0 Population/3.15.htm",
+      "size": 37086,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.15.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.13.htm",
+      "path": "data/raw/2010/3.0 Population/3.13.htm",
+      "size": 34937,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.12.htm",
+      "path": "data/raw/2010/3.0 Population/3.12.htm",
+      "size": 94894,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.16.htm",
+      "path": "data/raw/2010/3.0 Population/3.16.htm",
+      "size": 26377,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/3_population/3.17.htm",
+      "path": "data/raw/2010/3.0 Population/3.17.htm",
+      "size": 22764,
+      "year": "2010",
+      "folder": "3.0 Population",
+      "filename": "3.17.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/4_housing/4.1.htm",
+      "path": "data/raw/2010/4.0 Housing and public infrastructure/4.1.htm",
+      "size": 25594,
+      "year": "2010",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.1.htm",
+      "path": "data/raw/2010/5.0 Employment/5.1.htm",
+      "size": 35042,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/4_housing/4.4.htm",
+      "path": "data/raw/2010/4.0 Housing and public infrastructure/4.4.htm",
+      "size": 31426,
+      "year": "2010",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/4_housing/4.2.htm",
+      "path": "data/raw/2010/4.0 Housing and public infrastructure/4.2.htm",
+      "size": 23453,
+      "year": "2010",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.3.htm",
+      "path": "data/raw/2010/5.0 Employment/5.3.htm",
+      "size": 58682,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/4_housing/4.3.htm",
+      "path": "data/raw/2010/4.0 Housing and public infrastructure/4.3.htm",
+      "size": 49520,
+      "year": "2010",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.2.htm",
+      "path": "data/raw/2010/5.0 Employment/5.2.htm",
+      "size": 59787,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.4.htm",
+      "path": "data/raw/2010/5.0 Employment/5.4.htm",
+      "size": 58246,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.5.htm",
+      "path": "data/raw/2010/5.0 Employment/5.5.htm",
+      "size": 42609,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.6.htm",
+      "path": "data/raw/2010/5.0 Employment/5.6.htm",
+      "size": 25001,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.7.htm",
+      "path": "data/raw/2010/5.0 Employment/5.7.htm",
+      "size": 34477,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.1.htm",
+      "path": "data/raw/2010/6.0 Health/6.1.htm",
+      "size": 28048,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.2.htm",
+      "path": "data/raw/2010/6.0 Health/6.2.htm",
+      "size": 26451,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.3.htm",
+      "path": "data/raw/2010/6.0 Health/6.3.htm",
+      "size": 26834,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.9.htm",
+      "path": "data/raw/2010/5.0 Employment/5.9.htm",
+      "size": 41265,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/5_employment/5.8.htm",
+      "path": "data/raw/2010/5.0 Employment/5.8.htm",
+      "size": 102834,
+      "year": "2010",
+      "folder": "5.0 Employment",
+      "filename": "5.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.4.htm",
+      "path": "data/raw/2010/6.0 Health/6.4.htm",
+      "size": 14690,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.5.htm",
+      "path": "data/raw/2010/6.0 Health/6.5.htm",
+      "size": 16272,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.6.htm",
+      "path": "data/raw/2010/6.0 Health/6.6.htm",
+      "size": 14752,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.8.htm",
+      "path": "data/raw/2010/6.0 Health/6.8.htm",
+      "size": 16130,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.9.htm",
+      "path": "data/raw/2010/6.0 Health/6.9.htm",
+      "size": 16685,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.7.htm",
+      "path": "data/raw/2010/6.0 Health/6.7.htm",
+      "size": 53636,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.11.htm",
+      "path": "data/raw/2010/6.0 Health/6.11.htm",
+      "size": 39918,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.12.htm",
+      "path": "data/raw/2010/6.0 Health/6.12.htm",
+      "size": 28267,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.13.htm",
+      "path": "data/raw/2010/6.0 Health/6.13.htm",
+      "size": 16499,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.14.htm",
+      "path": "data/raw/2010/6.0 Health/6.14.htm",
+      "size": 19266,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.10.htm",
+      "path": "data/raw/2010/6.0 Health/6.10.htm",
+      "size": 43538,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.15.htm",
+      "path": "data/raw/2010/6.0 Health/6.15.htm",
+      "size": 20059,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.15.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.20.htm",
+      "path": "data/raw/2010/6.0 Health/6.20.htm",
+      "size": 9752,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.20.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.19.htm",
+      "path": "data/raw/2010/6.0 Health/6.19.htm",
+      "size": 19250,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.19.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.18.htm",
+      "path": "data/raw/2010/6.0 Health/6.18.htm",
+      "size": 23570,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.18.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.17.htm",
+      "path": "data/raw/2010/6.0 Health/6.17.htm",
+      "size": 51942,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.17.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.16.htm",
+      "path": "data/raw/2010/6.0 Health/6.16.htm",
+      "size": 72301,
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.2.htm",
+      "path": "data/raw/2010/7.0 Education/7.2.htm",
+      "size": 38330,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.4.htm",
+      "path": "data/raw/2010/7.0 Education/7.4.htm",
+      "size": 36026,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.1.htm",
+      "path": "data/raw/2010/7.0 Education/7.1.htm",
+      "size": 42116,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.3.htm",
+      "path": "data/raw/2010/7.0 Education/7.3.htm",
+      "size": 39906,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.5.htm",
+      "path": "data/raw/2010/7.0 Education/7.5.htm",
+      "size": 17378,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.6.htm",
+      "path": "data/raw/2010/7.0 Education/7.6.htm",
+      "size": 17735,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.8.htm",
+      "path": "data/raw/2010/7.0 Education/7.8.htm",
+      "size": 27464,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.9.htm",
+      "path": "data/raw/2010/7.0 Education/7.9.htm",
+      "size": 31412,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.7.htm",
+      "path": "data/raw/2010/7.0 Education/7.7.htm",
+      "size": 55764,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.11.htm",
+      "path": "data/raw/2010/7.0 Education/7.11.htm",
+      "size": 15664,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.10.htm",
+      "path": "data/raw/2010/7.0 Education/7.10.htm",
+      "size": 26750,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.12.htm",
+      "path": "data/raw/2010/7.0 Education/7.12.htm",
+      "size": 36168,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.14.htm",
+      "path": "data/raw/2010/7.0 Education/7.14.htm",
+      "size": 27794,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.13.htm",
+      "path": "data/raw/2010/7.0 Education/7.13.htm",
+      "size": 167920,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.16.htm",
+      "path": "data/raw/2010/7.0 Education/7.16.htm",
+      "size": 24351,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.15.htm",
+      "path": "data/raw/2010/7.0 Education/7.15.htm",
+      "size": 64616,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.15.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.19.htm",
+      "path": "data/raw/2010/7.0 Education/7.19.htm",
+      "size": 30739,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.19.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.20.htm",
+      "path": "data/raw/2010/7.0 Education/7.20.htm",
+      "size": 20214,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.20.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.17.htm",
+      "path": "data/raw/2010/7.0 Education/7.17.htm",
+      "size": 45092,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.17.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.21.htm",
+      "path": "data/raw/2010/7.0 Education/7.21.htm",
+      "size": 32561,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.21.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/7_education/7.18.htm",
+      "path": "data/raw/2010/7.0 Education/7.18.htm",
+      "size": 61374,
+      "year": "2010",
+      "folder": "7.0 Education",
+      "filename": "7.18.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.3.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.3.htm",
+      "size": 30365,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.1.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.1.htm",
+      "size": 151920,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.5.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.5.htm",
+      "size": 25776,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.6.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.6.htm",
+      "size": 26377,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.7.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.7.htm",
+      "size": 16262,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.4.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.4.htm",
+      "size": 35997,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.8.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.8.htm",
+      "size": 16954,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.9.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.9.htm",
+      "size": 28033,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.2.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.2.htm",
+      "size": 98157,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/8_law%20and%20order/8.10.htm",
+      "path": "data/raw/2010/8.0 Law & Order/8.10.htm",
+      "size": 38943,
+      "year": "2010",
+      "folder": "8.0 Law & Order",
+      "filename": "8.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.1.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.1.htm",
+      "size": 21652,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.2.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.2.htm",
+      "size": 30521,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.3.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.3.htm",
+      "size": 39353,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.4.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.4.htm",
+      "size": 47128,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.7.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.7.htm",
+      "size": 35051,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.5.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.5.htm",
+      "size": 43459,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.8.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.8.htm",
+      "size": 17864,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.6.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.6.htm",
+      "size": 28313,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.9.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.9.htm",
+      "size": 26234,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.11.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.11.htm",
+      "size": 35265,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.12.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.12.htm",
+      "size": 34961,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.10.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.10.htm",
+      "size": 33042,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.13.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.13.htm",
+      "size": 30450,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.14.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.14.htm",
+      "size": 36060,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.15.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.15.htm",
+      "size": 23434,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.15.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.16.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.16.htm",
+      "size": 50128,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.17.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.17.htm",
+      "size": 44033,
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.17.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.3.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.3.htm",
+      "size": 34907,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.1.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.1.htm",
+      "size": 65784,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.4.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.4.htm",
+      "size": 40022,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.5.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.5.htm",
+      "size": 14399,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.2.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.2.htm",
+      "size": 46158,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.6.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.6.htm",
+      "size": 21945,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.7.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.7.htm",
+      "size": 40758,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.8.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.8.htm",
+      "size": 87151,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.2.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.2.htm",
+      "size": 29098,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/10_tourism/10.9.htm",
+      "path": "data/raw/2010/10.0 Tourism/10.9.htm",
+      "size": 42684,
+      "year": "2010",
+      "folder": "10.0 Tourism",
+      "filename": "10.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.1.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.1.htm",
+      "size": 63953,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.5.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.5.htm",
+      "size": 20656,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.4.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.4.htm",
+      "size": 50225,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.3.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.3.htm",
+      "size": 40315,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.6.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.6.htm",
+      "size": 24382,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.7.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.7.htm",
+      "size": 17586,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.8.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.8.htm",
+      "size": 23934,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.9.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.9.htm",
+      "size": 20675,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.10.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.10.htm",
+      "size": 20492,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.11.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.11.htm",
+      "size": 18821,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.12.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.12.htm",
+      "size": 22881,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.14.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.14.htm",
+      "size": 21803,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.13.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.13.htm",
+      "size": 19513,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.15.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.15.htm",
+      "size": 16573,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.15.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.16.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.16.htm",
+      "size": 16392,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.16.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.17.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.17.htm",
+      "size": 14008,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.17.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.18.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.18.htm",
+      "size": 20432,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.18.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.19.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.19.htm",
+      "size": 48424,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.19.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/11_transport%20and%20communication/11.20.htm",
+      "path": "data/raw/2010/11.0 Transport and Communication/11.20.htm",
+      "size": 43159,
+      "year": "2010",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.20.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.1.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.1.htm",
+      "size": 44609,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.3.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.3.htm",
+      "size": 30784,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.4.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.4.htm",
+      "size": 33506,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.2.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.2.htm",
+      "size": 56299,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.5.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.5.htm",
+      "size": 14926,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.6.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.6.htm",
+      "size": 57422,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.9.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.9.htm",
+      "size": 12112,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.11.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.11.htm",
+      "size": 11629,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.8.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.8.htm",
+      "size": 17233,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.12.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.12.htm",
+      "size": 19283,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.10.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.10.htm",
+      "size": 12397,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.13.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.13.htm",
+      "size": 16677,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.7.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.7.htm",
+      "size": 75388,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/12_electricity%20and%20water/12.14.htm",
+      "path": "data/raw/2010/12.0 Electricity and water/12.14.htm",
+      "size": 13655,
+      "year": "2010",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.14.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.1.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.1.htm",
+      "size": 32378,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.2.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.2.htm",
+      "size": 27907,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.7.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.7.htm",
+      "size": 34147,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.3.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.3.htm",
+      "size": 86428,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.5.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.5.htm",
+      "size": 71325,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.4.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.4.htm",
+      "size": 37571,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.6.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.6.htm",
+      "size": 67550,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.10.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.10.htm",
+      "size": 35549,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.8.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.8.htm",
+      "size": 62618,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.9.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.9.htm",
+      "size": 66836,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/13_public%20finance/13.11.htm",
+      "path": "data/raw/2010/13.0 Public Finance/13.11.htm",
+      "size": 27096,
+      "year": "2010",
+      "folder": "13.0 Public Finance",
+      "filename": "13.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/14_money%20and%20banking/14.2.htm",
+      "path": "data/raw/2010/14.0 Money and banking/14.2.htm",
+      "size": 34021,
+      "year": "2010",
+      "folder": "14.0 Money and banking",
+      "filename": "14.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/14_money%20and%20banking/14.4.htm",
+      "path": "data/raw/2010/14.0 Money and banking/14.4.htm",
+      "size": 36997,
+      "year": "2010",
+      "folder": "14.0 Money and banking",
+      "filename": "14.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/14_money%20and%20banking/14.1.htm",
+      "path": "data/raw/2010/14.0 Money and banking/14.1.htm",
+      "size": 64313,
+      "year": "2010",
+      "folder": "14.0 Money and banking",
+      "filename": "14.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/14_money%20and%20banking/14.6.htm",
+      "path": "data/raw/2010/14.0 Money and banking/14.6.htm",
+      "size": 34609,
+      "year": "2010",
+      "folder": "14.0 Money and banking",
+      "filename": "14.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/14_money%20and%20banking/14.5.htm",
+      "path": "data/raw/2010/14.0 Money and banking/14.5.htm",
+      "size": 35778,
+      "year": "2010",
+      "folder": "14.0 Money and banking",
+      "filename": "14.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/14_money%20and%20banking/14.3.htm",
+      "path": "data/raw/2010/14.0 Money and banking/14.3.htm",
+      "size": 63792,
+      "year": "2010",
+      "folder": "14.0 Money and banking",
+      "filename": "14.3.htm"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/6_health/6.21.htm",
+      "path": "data/raw/2010/6.0 Health/6.21.htm",
+      "year": "2010",
+      "folder": "6.0 Health",
+      "filename": "6.21.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/15_foreign%20trade%20and%20balance%20of%20payments/15.2.htm",
+      "path": "data/raw/2010/15.0 Foreign trade & Balance of payments/15.2.htm",
+      "size": 32695,
+      "year": "2010",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/15_foreign%20trade%20and%20balance%20of%20payments/15.1.htm",
+      "path": "data/raw/2010/15.0 Foreign trade & Balance of payments/15.1.htm",
+      "size": 75019,
+      "year": "2010",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/15_foreign%20trade%20and%20balance%20of%20payments/15.4.htm",
+      "path": "data/raw/2010/15.0 Foreign trade & Balance of payments/15.4.htm",
+      "size": 36482,
+      "year": "2010",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/15_foreign%20trade%20and%20balance%20of%20payments/15.5.htm",
+      "path": "data/raw/2010/15.0 Foreign trade & Balance of payments/15.5.htm",
+      "size": 36851,
+      "year": "2010",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/15_foreign%20trade%20and%20balance%20of%20payments/15.3.htm",
+      "path": "data/raw/2010/15.0 Foreign trade & Balance of payments/15.3.htm",
+      "size": 141210,
+      "year": "2010",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/15_foreign%20trade%20and%20balance%20of%20payments/15.6.htm",
+      "path": "data/raw/2010/15.0 Foreign trade & Balance of payments/15.6.htm",
+      "size": 53869,
+      "year": "2010",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/16_national%20accounts/16.1.htm",
+      "path": "data/raw/2010/16.0 National Accounts/16.1.htm",
+      "size": 74760,
+      "year": "2010",
+      "folder": "16.0 National Accounts",
+      "filename": "16.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/16_national%20accounts/16.2.htm",
+      "path": "data/raw/2010/16.0 National Accounts/16.2.htm",
+      "size": 41263,
+      "year": "2010",
+      "folder": "16.0 National Accounts",
+      "filename": "16.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/16_national%20accounts/16.3.htm",
+      "path": "data/raw/2010/16.0 National Accounts/16.3.htm",
+      "size": 43652,
+      "year": "2010",
+      "folder": "16.0 National Accounts",
+      "filename": "16.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/15_foreign%20trade%20and%20balance%20of%20payments/15.7.htm",
+      "path": "data/raw/2010/15.0 Foreign trade & Balance of payments/15.7.htm",
+      "size": 167785,
+      "year": "2010",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.3.htm",
+      "path": "data/raw/2010/17.0 Prices/17.3.htm",
+      "size": 36907,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/16_national%20accounts/16.4.htm",
+      "path": "data/raw/2010/16.0 National Accounts/16.4.htm",
+      "size": 214966,
+      "year": "2010",
+      "folder": "16.0 National Accounts",
+      "filename": "16.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.1.htm",
+      "path": "data/raw/2010/17.0 Prices/17.1.htm",
+      "size": 55219,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.4.htm",
+      "path": "data/raw/2010/17.0 Prices/17.4.htm",
+      "size": 21795,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.5.htm",
+      "path": "data/raw/2010/17.0 Prices/17.5.htm",
+      "size": 29251,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/16_national%20accounts/16.5.pdf",
+      "path": "data/raw/2010/16.0 National Accounts/16.5.pdf",
+      "size": 172127,
+      "year": "2010",
+      "folder": "16.0 National Accounts",
+      "filename": "16.5.pdf"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.7.htm",
+      "path": "data/raw/2010/17.0 Prices/17.7.htm",
+      "size": 26813,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.6.htm",
+      "path": "data/raw/2010/17.0 Prices/17.6.htm",
+      "size": 64231,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.9.htm",
+      "path": "data/raw/2010/17.0 Prices/17.9.htm",
+      "size": 31145,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.2.htm",
+      "path": "data/raw/2010/17.0 Prices/17.2.htm",
+      "size": 274690,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.8.htm",
+      "path": "data/raw/2010/17.0 Prices/17.8.htm",
+      "size": 39204,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.2.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.2.htm",
+      "size": 37705,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.3.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.3.htm",
+      "size": 65857,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.4.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.4.htm",
+      "size": 45926,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.5.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.5.htm",
+      "size": 60467,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.7.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.7.htm",
+      "size": 23309,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.1.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.1.htm",
+      "size": 249720,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.8.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.8.htm",
+      "size": 26683,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.9.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.9.htm",
+      "size": 26294,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/18_public%20investment/18.6.htm",
+      "path": "data/raw/2010/18.0 Pension & social protection/18.6.htm",
+      "size": 48096,
+      "year": "2010",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.6.htm"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/9_fisheries%20and%20agriculture/9.18.htm",
+      "path": "data/raw/2010/9.0 Fisheries & Agriculture/9.18.htm",
+      "year": "2010",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.18.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.1.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.1.htm",
+      "size": 81310,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.2.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.2.htm",
+      "size": 95521,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.6.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.6.htm",
+      "size": 31627,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.6.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.3.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.3.htm",
+      "size": 51954,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.4.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.4.htm",
+      "size": 114083,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.4.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.7.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.7.htm",
+      "size": 94985,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.7.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.5.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.5.htm",
+      "size": 183135,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.5.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.13.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.13.htm",
+      "size": 28561,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.13.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.8.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.8.htm",
+      "size": 213377,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.8.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.10.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.10.htm",
+      "size": 126500,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.10.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.9.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.9.htm",
+      "size": 191975,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.9.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.11.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.11.htm",
+      "size": 196424,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.11.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/19_statistical_archive/19.12.htm",
+      "path": "data/raw/2010/19.0 Human rights/19.12.htm",
+      "size": 151247,
+      "year": "2010",
+      "folder": "19.0 Human rights",
+      "filename": "19.12.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/20_Island_level_basic_indicators/20.2.htm",
+      "path": "data/raw/2010/indicators/20.2.htm",
+      "size": 161070,
+      "year": "2010",
+      "folder": "indicators",
+      "filename": "20.2.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/20_Island_level_basic_indicators/20.3.htm",
+      "path": "data/raw/2010/indicators/20.3.htm",
+      "size": 170024,
+      "year": "2010",
+      "folder": "indicators",
+      "filename": "20.3.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/20_Island_level_basic_indicators/20.1.htm",
+      "path": "data/raw/2010/indicators/20.1.htm",
+      "size": 187174,
+      "year": "2010",
+      "folder": "indicators",
+      "filename": "20.1.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2010/yearbook/17_price/17.10.pdf",
+      "path": "data/raw/2010/17.0 Prices/17.10.pdf",
+      "size": 3189846,
+      "year": "2010",
+      "folder": "17.0 Prices",
+      "filename": "17.10.pdf"
+    }
+  ]
+}

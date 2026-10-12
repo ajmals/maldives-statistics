@@ -1,0 +1,24 @@
+{
+  "table_id": "13.1",
+  "title_en": "Table 13.1 : TOTAL REVENUE AND EXPENDITURE OF GOVERNMENT BUDGET BY SOURCE, 2007 - 2012 (In million Rf)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury.",
+  "notes": [
+    "1_/ Total revenue is equal to revenue and grants plus disbursements in the other tables.",
+    "2_/ Overall deficit in this table is equal to overall deficit",
+    "2_/ Overall deficit in this table is equal to overall deficit",
+    "(including grants) plus disbursements in other tables .",
+    "3_/ Total expenditure is equal to expenditure plus loan repayments in other tables."
+  ],
+  "columns": [
+    "Particulars",
+    "2007",
+    "Actual - 2008",
+    "(Revised Est.) - 2009",
+    "(MTEF) - 2010",
+    "(MTEF) - 2011",
+    "(MTEF) - 2012"
+  ],
+  "row_count": 20
+}

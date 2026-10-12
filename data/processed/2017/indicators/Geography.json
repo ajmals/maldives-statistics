@@ -1,0 +1,27 @@
+{
+  "table_id": "Geography",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: Land Area is as of 2016. For Hulhumale, the area of Farukolhufushi is not included here."
+  ],
+  "columns": [
+    "GEOGRAPHY - Location - Latitude - Longitude - Exclusive Economic Zone (EEZ)",
+    "GEOGRAPHY - 7° 6' 35\" N to 0° 42\" 24\" S - 72° 33' 19\" E to 73° 46' 13\" E - 859,000 sq. kms - 2006",
+    "GEOGRAPHY - 7° 6' 35\" N to 0° 42\" 24\" S - 72° 33' 19\" E to 73° 46' 13\" E - 859,000 sq. kms - 2006_3",
+    "GEOGRAPHY - 7° 6' 35\" N to 0° 42\" 24\" S - 72° 33' 19\" E to 73° 46' 13\" E - 859,000 sq. kms - 2016",
+    "GEOGRAPHY - 7° 6' 35\" N to 0° 42\" 24\" S - 72° 33' 19\" E to 73° 46' 13\" E - 859,000 sq. kms - 2016_2",
+    "GEOGRAPHY - 7° 6' 35\" N to 0° 42\" 24\" S - 72° 33' 19\" E to 73° 46' 13\" E - 859,000 sq. kms - 2016_3",
+    "GEOGRAPHY - Area - Area (including sea) - E.E.Z - Land Area - Male' - Hulhumale'",
+    "GEOGRAPHY - Area - Area (including sea) - E.E.Z - 2016 - 195.59 Ha - 386.42 Ha",
+    "GEOGRAPHY - Area - 115,300 sq. km - 859,000 sq. km - 2016 - 195.59 Ha - 386.42 Ha",
+    "GEOGRAPHY - Area - 115,300 sq. km - 859,000 sq. km - 2016 - 195.59 Ha - 386.42 Ha_2",
+    "GEOGRAPHY - Area - 115,300 sq. km - 859,000 sq. km - 2016 - 195.59 Ha - 386.42 Ha_3",
+    "GEOGRAPHY - Area - 115,300 sq. km - 859,000 sq. km - 2016 - 195.59 Ha - 386.42 Ha_4",
+    "GEOGRAPHY - Area - 115,300 sq. km - 859,000 sq. km - 2016 - 195.59 Ha - 386.42 Ha_5",
+    "GEOGRAPHY - Area - 115,300 sq. km - 859,000 sq. km - 2016 - 195.59 Ha - 386.42 Ha_6"
+  ],
+  "row_count": 11
+}

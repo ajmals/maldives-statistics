@@ -1,0 +1,20 @@
+{
+  "table_id": "7.1",
+  "title_en": "Table 7.1 : STUDENT ENROLMENT AND SCHOOLS IN MALE' AND ATOLLS BY TYPE OF EDUCATIONAL INSTITUTION, 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Government",
+    "Private",
+    "Community",
+    "Total_2",
+    "Government_2",
+    "Private_2",
+    "Community_3"
+  ],
+  "row_count": 24
+}

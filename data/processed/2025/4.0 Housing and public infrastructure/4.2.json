@@ -1,0 +1,21 @@
+{
+  "table_id": "4.2",
+  "title_en": "TABLE 4.2: AREA OF BUILDINGS AUTHORISED FOR CONSTRUCTION BY MONTH, 2018 -2024",
+  "title_dv": "ތާވަލު 4.2: މަސްމަހުގެ ގޮތުން އިމާރާތްކުރުމުގެ ހުއްދަ ދެވުނު ތަނުގެ ބޮޑުމިން، 2018 - 2024",
+  "unit": "",
+  "source": "Source: Male' City Council",
+  "notes": [
+    "Note: The decline in May 2015 is due to the hold in the authorizations along with the amendments made in administrative process."
+  ],
+  "columns": [
+    "Month",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "row_count": 13
+}

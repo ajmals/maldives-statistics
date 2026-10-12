@@ -1,0 +1,18 @@
+{
+  "table_id": "8.36",
+  "title_en": "TABLE 8.36: NUMBER OF CASES REPORTED TO THE COMMISSION BY ADDRESSEE, 2014 - 2017",
+  "title_dv": "ތާވަލު 8.36: ކޮމިޝަނަށް ހުށަހެޅުނު މައްސަލަތައް ރައްދުވާ ފަރާތް، 2014 - 2017",
+  "unit": "",
+  "source": "Source: Anti Corruption Commision",
+  "notes": [
+    "Note: The number of cases submitted to the commission may have more than one addressee."
+  ],
+  "columns": [
+    "Sector",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+  ],
+  "row_count": 30
+}

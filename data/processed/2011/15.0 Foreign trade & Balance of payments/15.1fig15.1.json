@@ -1,0 +1,29 @@
+{
+  "table_id": "15.1fig15.1",
+  "title_en": "Table 15.1 : IMPORTS BY COUNTRY OF CONSIGNMENT, 2006 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Customs Services",
+  "notes": [
+    "2010",
+    "2,512",
+    "2,631",
+    "1,613"
+  ],
+  "columns": [
+    "Country",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2003",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2003_2",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2005",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2006",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2007",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2008",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2009",
+    "(cnuhWh Wyifur) ugwa .cfea.iawa.Is - C.I.F. Value (in Rf. '000) - 2010",
+    "% share - 2009",
+    "% share - 2010",
+    "% Change Over Previous Year - 2009",
+    "% Change Over Previous Year - 2010"
+  ],
+  "row_count": 45
+}

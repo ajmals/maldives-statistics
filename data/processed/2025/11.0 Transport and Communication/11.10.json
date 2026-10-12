@@ -1,0 +1,23 @@
+{
+  "table_id": "11.10",
+  "title_en": "Table 11.10 : AIR TRANSPORT MOVEMENTS AT VELANA INTERNATIONAL AIRPORT BY AIRLINE, CROSS-CLASSIFIED BY PASSENGER, CARGO AND MAIL, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "1_/ Includes movements by photo, training, technical and surveillance flights"
+  ],
+  "columns": [
+    "Airline",
+    "Flight Movements",
+    "Passengers - In",
+    "Passengers - Out",
+    "Passengers - Transit",
+    "Cargo (kg) - In",
+    "Cargo (kg) - Out",
+    "Cargo (kg) - Transit",
+    "Mail (kg) - In",
+    "Mail (kg) - Out"
+  ],
+  "row_count": 72
+}

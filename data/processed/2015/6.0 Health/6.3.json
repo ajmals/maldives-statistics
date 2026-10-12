@@ -1,0 +1,22 @@
+{
+  "table_id": "6.3",
+  "title_en": "Table 6.3 : OUT- PATIENT FLOW, INPATIENT FLOW AND BED OCCUPANCY RATE OF GOVERNMENT HOSPITALS, 2010 - 2014",
+  "title_dv": "ތާވަލު 6.3: މާލެއާއި އަތޮޅުތަކުގައިވށ ސަރުކާރު ހޮސްޕިޓަލްތަކުގައި ބެލުނު ބަލިމީހުންނާއި އެނދުމަތިކުރެވުނު ބަލި މީހުން، 2010 - 2014",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [],
+  "columns": [
+    "Institutions",
+    "2010 - Outpatients",
+    "2010 - Inpatients",
+    "2011 - Outpatients",
+    "2011 - Inpatients",
+    "2012 - Outpatients",
+    "2012 - Inpatients",
+    "2013 - Bed Occupancy Rate",
+    "2014 - Outpatients",
+    "2014 - Inpatients",
+    "2014 - Bed Occupancy Rate"
+  ],
+  "row_count": 26
+}

@@ -1,0 +1,27 @@
+Sector,Employment size - 0-9,Employment size - 10-49,Employment size - 50-99,Employment size - 100-299,Employment size - >300,Employment size - Total,% share
+Total,3225,12151,10021,23013,34510,82920,100
+Agriculture,32,41,88,,,161,0.194163
+Air Transportation,28,94,56,747,3186,4111,4.957791
+Clothing industry,3,12,,,,15,0.01809
+"Coffee, tea shops",33,,,,,33,0.039797
+Construction,236,433,225,635,744,2273,2.741196
+Electricity,18,18,,127,,163,0.196575
+"Financial sector, Banks, Investment Funds, Insurance companies Investment",160,468,216,842,2136,3822,4.609262
+Fishing Industry,14,45,65,237,876,1237,1.491799
+"Garbage, and Recycling industry",8,76,,,,84,0.101302
+"Government agencies, public institutions",104,6219,4603,10713,14708,36347,43.833816
+"Health Sector, hospitals, clinics",101,238,110,365,,814,0.981669
+"Hotels, Tourist resorts, travel agencies",529,1306,2435,7652,5440,17362,20.938254
+Housing Development,12,29,,,,41,0.049445
+"Land Transportation, taxis, buses etc",14,,,,492,506,0.610227
+Mining Industry,1,,,,,1,0.001206
+Pharmacies,16,24,,,,40,0.048239
+Restaurants,60,43,,,,103,0.124216
+Sales of Motor Vehicles,4,27,51,,,82,0.098891
+Schools and educational centers,217,534,199,475,,1425,1.718524
+"Sea Transportation, shipping",110,175,254,188,1994,2721,3.281476
+"Shops, small and medium commercial retail",735,1238,942,415,,3330,4.015919
+Telecommunications,32,200,270,100,927,1529,1.843946
+Water processing,12,10,,,,22,0.026532
+Wholesale retailers,270,454,240,407,1745,3116,3.757839
+Others,476,467,267,110,2262,3582,4.319826

@@ -1,0 +1,24 @@
+{
+  "table_id": "3.8",
+  "title_en": "Table 3.8 : BIRTHS AND DEATHS, BY SEX AND LOCALITY, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "1_/ Total deaths does not include foreigners.",
+    "* Total deaths of foreigners include 3 deaths sex unknown",
+    "2_/ Reported no. only",
+    "Health Information,Projects,Monitoring & Coordination Section / Health Information Unit",
+    "Health Information,Projects,Monitoring & Coordination Section / Health Information Unit"
+  ],
+  "columns": [
+    "Locality",
+    "2011 - Births - Both Sexes",
+    "2011 - Births - Male",
+    "2011 - Births - Female",
+    "2011 - Deaths - Both Sexes",
+    "2011 - Deaths - Male",
+    "2011 - Deaths - Female"
+  ],
+  "row_count": 25
+}

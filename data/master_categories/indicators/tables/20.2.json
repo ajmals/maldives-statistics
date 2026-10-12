@@ -1,0 +1,28 @@
+{
+  "table_id": "20.2",
+  "category": "indicators",
+  "title_en": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "time_span": "2010",
+  "year_min": 2010,
+  "year_max": 2010,
+  "row_count": 220,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "ISLAND LEVEL BASIC INDICATORS - EDUCATION - Higher secondary school completion rate - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - EDUCATION - Literacy Rate - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - EDUCATION - Lower secondary school completion rate - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Labour force participation rate - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Total 15 years of age and over - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Total Labour force - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - EMPLOYMENT - Unemployment Rate - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - FERTILITY - Total Fertility Rate (TFR) - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - MARTITAL STATUS - 15 Years and above Female - Mean age at first marriage - 2010",
+    "ISLAND LEVEL BASIC INDICATORS - MARTITAL STATUS - 15 Years and above Male - Mean age at first marriage - 2010"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/20.2.csv"
+}

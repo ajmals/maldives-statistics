@@ -1,0 +1,16 @@
+{
+  "table_id": "7.18",
+  "title_en": "Table 7.18: SINGLE SESSION SCHOOLS, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Atoll - Government Schools",
+    "Island - Government Schools",
+    "School Name - Government Schools",
+    "No. of students - Government Schools",
+    "No. of teachers - Government Schools"
+  ],
+  "row_count": 112
+}

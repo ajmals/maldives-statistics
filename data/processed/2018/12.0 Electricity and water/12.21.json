@@ -1,0 +1,14 @@
+{
+  "table_id": "12.21",
+  "title_en": "TABLE 12.21: Imports of Mineral waterby Country, 2017",
+  "title_dv": "ތާވަލު 12.21: ރާއްޖޭން ބޭރުން ފުޅީގައި ބަންދުކުރި ފެން އެތެރެކުރެވުނު ޤައުމު، 2017",
+  "unit": "",
+  "source": "Source: Maldives Customs Service",
+  "notes": [],
+  "columns": [
+    "Country Of Consignment",
+    "Quantity (Ltr)",
+    "CIF (MVR)"
+  ],
+  "row_count": 22
+}

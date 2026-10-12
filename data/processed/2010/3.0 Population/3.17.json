@@ -1,0 +1,20 @@
+{
+  "table_id": "3.17",
+  "title_en": "Table 3.17 : ACCIDENTAL DEATHS BY CAUSE AND SEX , 2006-2007",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "1_/ Drowning is included in other causes"
+  ],
+  "columns": [
+    "Causes",
+    "2006 - Total",
+    "2006 - Local",
+    "2006 - Foreign",
+    "2007 - Total",
+    "2007 - Local",
+    "2007 - Foreign"
+  ],
+  "row_count": 23
+}

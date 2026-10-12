@@ -1,0 +1,11 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Cargo (kg) - In,Cargo (kg) - Out,Mail (kg) - In,Mail (kg) - Out
+Total,2550,34619,32517,31372,5960.1,176,169.6
+International Flights,2,,,,,,
+International Scheduled,,,,,,,
+International Charter,,,,,,,
+International Non-Scheduled,2,,,,,,
+Domestic flights,2548,34619,32517,31372,5960.1,176,169.6
+Island Aviation (Scheduled),2358,33621,31488,31372,5960.1,176,169.6
+Manta Aviation,52,756,782,,,,
+Villa Air,24,242,247,,,,
+Other Domestic,114,,,,,,

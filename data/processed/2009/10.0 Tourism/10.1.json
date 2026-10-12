@@ -1,0 +1,26 @@
+{
+  "table_id": "10.1",
+  "title_en": "Table 10.1 : FLOW OF TOURISTS BY NATIONALITY, 2006 - 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [
+    "Department of Immigration & Emigration"
+  ],
+  "columns": [
+    "Country of - Nationality",
+    "No. of Tourists - 2005",
+    "No. of Tourists - 2006",
+    "No. of Tourists - 2007",
+    "No. of Tourists - 2008",
+    "Percentage Share - 2005",
+    "Percentage Share - 2006",
+    "Percentage Share - 2007",
+    "Percentage Share - 2008",
+    "% Change Over Previous Year - 2005",
+    "% Change Over Previous Year - 2006",
+    "% Change Over Previous Year - 2007",
+    "% Change Over Previous Year - 2008"
+  ],
+  "row_count": 43
+}

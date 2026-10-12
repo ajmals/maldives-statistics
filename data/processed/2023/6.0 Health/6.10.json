@@ -1,0 +1,40 @@
+{
+  "table_id": "6.10",
+  "title_en": "Table 6.10: Number of Inpatients by speciality and sex, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Indira Gandhi Memorial Hospital",
+  "notes": [
+    "Outpatients",
+    "Total",
+    "Internal medicine",
+    "Paediatrics",
+    "Obstetrics and gynaecology",
+    "Surgery",
+    "Cardiology",
+    "Orthopaedics",
+    "Pulmonology",
+    "Neurology",
+    "Urology",
+    "Onco surgery",
+    "Psychiatry",
+    "Nephrology",
+    "ENT",
+    "Gastroenterology",
+    "Neuro Surgery",
+    "Dental",
+    "Post interventional clinic",
+    "Ophthalmology",
+    "Dermatology",
+    "Respiratory medicine",
+    "Endocrinology",
+    "Oncology"
+  ],
+  "columns": [
+    "Outpatients",
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "row_count": 22
+}

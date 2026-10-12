@@ -1,0 +1,21 @@
+{
+  "table_id": "9.8",
+  "title_en": "Table 9.8 : FISH CATCH BY TYPE AND FISHING METHODS, 2014 (In metric tons)",
+  "title_dv": "ތާވަލު 9.8: މަހުގެ ބާވަތުންނާއި މަސްބާނާފައިވާގޮތުން ބޭނުނު އަދަދު، 2014",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Type of fish",
+    "Fishing methods - Total",
+    "Fishing methods - Pole and Line",
+    "Fishing methods - Trolling",
+    "Fishing methods - Long Line",
+    "Fishing methods - Hand Line",
+    "Fishing methods - Hand line (Grouper )",
+    "Fishing methods - Hand line (Reef )",
+    "Fishing methods - Miscellaneous",
+    "Fishing methods - Fixed Net"
+  ],
+  "row_count": 27
+}

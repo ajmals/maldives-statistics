@@ -1,0 +1,19 @@
+{
+  "table_id": "11.20",
+  "title_en": "Table 11.20 : PASSENGER MOVEMENT AT GAN INTERNATIONAL AIRPORT BY MONTH, 2015",
+  "title_dv": "ތާވަލު 11.20: މަސްމަހުގެ ގޮތުން ގަން އިންޓަރނޭޝަނަލް އެއަރޕޯޓުގައި ފަސިންޖަރުންގެ ދަތުރުފަތުރު ހުރި ގޮތް، 2015",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Total",
+    "International Flights - Arrival",
+    "International Flights - Departure",
+    "International Flights - Direct Transit",
+    "Domestic Flights - Arrival",
+    "Domestic Flights - Departure",
+    "Domestic Flights - Direct Transit"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,24 @@
+{
+  "table_id": "10.1",
+  "title_en": "Table 10.1 : FLOW OF TOURISTS BY NATIONALITY, 2015 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [],
+  "columns": [
+    "Country of Nationality",
+    "No. of Tourists - 2015",
+    "No. of Tourists - 2016",
+    "No. of Tourists - 2017",
+    "No. of Tourists - 2018",
+    "Percentage Share - 2015",
+    "Percentage Share - 2016",
+    "Percentage Share - 2017",
+    "Percentage Share - 2018",
+    "% change over previous year - 2015",
+    "% change over previous year - 2016",
+    "% change over previous year - 2017",
+    "% change over previous year - 2018"
+  ],
+  "row_count": 63
+}

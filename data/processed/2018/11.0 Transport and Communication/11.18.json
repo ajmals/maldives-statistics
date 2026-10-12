@@ -1,0 +1,20 @@
+{
+  "table_id": "11.18",
+  "title_en": "Table 11.18 : AIRCRAFT MOVEMENT AT GAN INTERNATIONAL AIRPORT BY MONTH, 2017",
+  "title_dv": "ތާވަލު 11.18: މަސްމަހުގެ ގޮތުން ގަން އިންޓަރނޭޝަނަލް އެއަރޕޯޓުން ދަތުރުކުރި ފްލައިޓްތައް، 2017",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Grand total",
+    "International Flights - Total",
+    "International Flights - Scheduled",
+    "International Flights - Chartered",
+    "International Flights - Non-Scheduled",
+    "Domestic Flights - Total",
+    "Domestic Flights - Scheduled",
+    "Domestic Flights - Non-Scheduled"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,27 @@
+{
+  "table_id": "12.2",
+  "title_en": "Table 12.2 : MONTHLY ELECTRICITY PRODUCTION BY PUBLIC SECTOR, 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Company Limited",
+  "notes": [
+    "Note: Missing data not registered since the island was not under STELCO at that time."
+  ],
+  "columns": [
+    "Locality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 29
+}

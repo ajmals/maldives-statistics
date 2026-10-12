@@ -1,0 +1,25 @@
+{
+  "table_id": "8.38",
+  "category": "8.0 Law & Order",
+  "title_en": "TABLE 8.38: NUMBER OF ASSIGNED MAGISTRATES , 2017 - 2020",
+  "unit": "",
+  "source": "Source: Judicial Service Commission",
+  "notes": [],
+  "time_span": "2017 – 2023",
+  "year_min": 2017,
+  "year_max": 2023,
+  "row_count": 166,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "editions_covered": 2,
+  "csv_file": "tables/8.38.csv"
+}

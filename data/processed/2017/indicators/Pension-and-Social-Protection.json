@@ -1,0 +1,21 @@
+{
+  "table_id": "Pension-and-Social-Protection",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "1_/ Other pension includes pension to state employees with 20 - 40 years of service. Also includes various benefits paid by state.",
+    "2_/ Senior Citizen Allowance was introduced in February 2014.Those pensioners receiving less than 5,000 mvr is given the balance amount to reach 5,000 mvr under this scheme."
+  ],
+  "columns": [
+    "SOCIAL PROTECTION - Health Insurance",
+    "SOCIAL PROTECTION - 2011",
+    "SOCIAL PROTECTION - 2012",
+    "SOCIAL PROTECTION - 2013",
+    "SOCIAL PROTECTION - 2014",
+    "SOCIAL PROTECTION - 2015",
+    "SOCIAL PROTECTION - 2016"
+  ],
+  "row_count": 36
+}

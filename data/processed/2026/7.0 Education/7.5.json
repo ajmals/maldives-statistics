@@ -1,0 +1,27 @@
+{
+  "table_id": "7.5",
+  "title_en": "TABLE 7.5: NUMBER OF SCHOOLS AND ENROLMENT BY LOCALITY, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education, Higher Education and Skills Development",
+  "notes": [
+    "Note: Special Classes are not included in their enrolments"
+  ],
+  "columns": [
+    "Name of Atoll",
+    "TOTAL - Schools",
+    "TOTAL - Male",
+    "TOTAL - Female",
+    "TOTAL - Total",
+    "GOVERNMENT - Schools",
+    "GOVERNMENT - Male",
+    "GOVERNMENT - Female",
+    "COMMUNITY - Schools",
+    "COMMUNITY - Male",
+    "COMMUNITY - Female",
+    "PRIVATE - Schools",
+    "PRIVATE - Male",
+    "PRIVATE - Female"
+  ],
+  "row_count": 23
+}

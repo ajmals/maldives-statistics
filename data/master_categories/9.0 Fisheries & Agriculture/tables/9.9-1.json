@@ -1,0 +1,26 @@
+{
+  "table_id": "9.9-1",
+  "category": "9.0 Fisheries & Agriculture",
+  "title_en": "Table 9.9 : FISH CATCH BY TYPE AND FISHING METHODS, 2018 (In metric tons)",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 10,
+  "column_count": 9,
+  "columns": [
+    "Item",
+    "Fishing methods - Diving (Grouper ) - 2019",
+    "Fishing methods - Hand Line - 2019",
+    "Fishing methods - Hand line (Reef ) - 2019",
+    "Fishing methods - Long Line - 2019",
+    "Fishing methods - Miscellaneous - 2019",
+    "Fishing methods - Pole and Line - 2019",
+    "Fishing methods - Total - 2019",
+    "Fishing methods - Trolling - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/9.9-1.csv"
+}

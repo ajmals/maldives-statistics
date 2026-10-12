@@ -1,0 +1,23 @@
+{
+  "table_id": "17.1",
+  "title_en": "Table 17.1 : CONSUMER PRICE INDEX, 2006- 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "(Index - base: June 2004=100) - Major Groups - Maldives",
+    "(Index - base: June 2004=100) - Base weights",
+    "(Index - base: June 2004=100) - 2006",
+    "(Index - base: June 2004=100) - 2006_2",
+    "(Index - base: June 2004=100) - 2007",
+    "(Index - base: June 2004=100) - 2008",
+    "(Index - base: June 2004=100) - 2009",
+    "(Index - base: June 2004=100) - 2010",
+    "(Index - base: June 2004=100) - Percentage change over previous year - 2007",
+    "(Index - base: June 2004=100) - Percentage change over previous year - 2008",
+    "(Index - base: June 2004=100) - Percentage change over previous year - 2009",
+    "(Index - base: June 2004=100) - Percentage change over previous year - 2010"
+  ],
+  "row_count": 57
+}

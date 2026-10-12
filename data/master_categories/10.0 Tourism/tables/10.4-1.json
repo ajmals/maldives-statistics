@@ -1,0 +1,28 @@
+{
+  "table_id": "10.4-1",
+  "category": "10.0 Tourism",
+  "title_en": "Table 10.4: BED CAPACITY AND UTILIZATION OF RESORTS BY MONTH, 2017 - 2018",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [],
+  "time_span": "2017 – 2018",
+  "year_min": 2017,
+  "year_max": 2018,
+  "row_count": 13,
+  "column_count": 11,
+  "columns": [
+    "Item",
+    "% share of registered beds in operation - 2017",
+    "% share of registered beds in operation - 2018",
+    "Bed Capacity Utilization Rate % - 2017",
+    "Bed Capacity Utilization Rate % - 2018",
+    "Beds in operation - 2017",
+    "Beds in operation - 2018",
+    "Registered Bed Capacity - 2017",
+    "Registered Bed Capacity - 2018",
+    "Tourist Bednights - 2017",
+    "Tourist Bednights - 2018"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/10.4-1.csv"
+}

@@ -1,0 +1,37 @@
+{
+  "year": "2008",
+  "total_items": 3,
+  "downloaded": 2,
+  "skipped": 0,
+  "failed": 1,
+  "total_size_bytes": 123546,
+  "items": [
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2008/keyindicators/KeyIndicators_08.htm",
+      "path": "data/raw/2008/indicators/KeyIndicators_08.htm",
+      "size": 4564,
+      "year": "2008",
+      "folder": "indicators",
+      "filename": "KeyIndicators_08.htm"
+    },
+    {
+      "status": "downloaded",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2008/keyindicators_2008.pdf",
+      "path": "data/raw/2008/indicators/keyindicators_2008.pdf",
+      "size": 118982,
+      "year": "2008",
+      "folder": "indicators",
+      "filename": "keyindicators_2008.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook2008/useful_links.html",
+      "path": "data/raw/2008/yearbook2008/useful_links.html",
+      "year": "2008",
+      "folder": "yearbook2008",
+      "filename": "useful_links.html"
+    }
+  ]
+}

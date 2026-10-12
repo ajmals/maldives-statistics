@@ -1,0 +1,38 @@
+{
+  "table_id": "7.15",
+  "title_en": "Table 7.15: Number of students sat and passed in the O'level examination by Atolls and sex, 2018- 2019",
+  "title_dv": "ތާވަލް 7.15: ޖީ. ސީ. އޯ ލެވެލް އިމްތިހާނުގައި ބައިވެރިވި ދަރިވަރުންގެ ޢަދަދާއި ފާސްވި ދަރިވަރުންގެ ޢަދަދު އަދި ޖިންސް، 2018 - 2019",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: 1. Here \"Passed\" means five or more subjects passed.",
+    "2. Passed grades are A, B and C",
+    "3. Candidates: school candidates only",
+    "Due to Covid 19 pandemic no exams where held during 2020"
+  ],
+  "columns": [
+    "Region",
+    "2017 - Candidates - Both sex",
+    "2017 - Passed - Both sex",
+    "2017 - % passed % - Both sex",
+    "2018 - Candidates - Both sex",
+    "2018 - Candidates - Male",
+    "2018 - Candidates - Female",
+    "2018 - Passed - Both sex",
+    "2018 - Passed - Male",
+    "2018 - Passed - Female",
+    "2018 - % passed % - Both sex",
+    "2018 - % passed % - Male",
+    "2018 - % passed % - Female",
+    "2019 - Candidates - Both sex",
+    "2019 - Candidates - Male",
+    "2019 - Candidates - Female",
+    "2019 - Passed - Both sex",
+    "2019 - Passed - Male",
+    "2019 - Passed - Female",
+    "2019 - % passed % - Both sex",
+    "2019 - % passed % - Male",
+    "2019 - % passed % - Female"
+  ],
+  "row_count": 23
+}

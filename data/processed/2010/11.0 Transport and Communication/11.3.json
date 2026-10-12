@@ -1,0 +1,20 @@
+{
+  "table_id": "11.3",
+  "title_en": "Table 11.3 : REGISTERED AND NEWLY REGISTERED VEHICLES ACCORDING TO TYPE, 2003, 2004, 2005 and 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Transport and Communication",
+  "notes": [],
+  "columns": [
+    "Type of Vehicles",
+    "Registered - 2003",
+    "Registered - 2004",
+    "Registered - 2005",
+    "Registered - 2009",
+    "Newly Registered - 2003",
+    "Newly Registered - 2004",
+    "Newly Registered - 2005",
+    "Newly Registered - 2009"
+  ],
+  "row_count": 28
+}

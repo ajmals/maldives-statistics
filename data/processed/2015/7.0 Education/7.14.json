@@ -1,0 +1,15 @@
+{
+  "table_id": "7.14",
+  "title_en": "TABLE 7.14: NUMBER OF SINGLE SESSION SCHOOLSBY ATOLL, 2011 - 2014",
+  "title_dv": "ތާވަލު 7.14: އަތޮޅުތަކުގައި އެއްދަންފަޅިއަށް ހިންގަމުންދާ ސްކޫލްތަކުގެ އަދަދު، 2011 - 2014",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "No: of Schools - 2011",
+    "No: of Schools - 2012",
+    "No: of Schools - 2013"
+  ],
+  "row_count": 21
+}

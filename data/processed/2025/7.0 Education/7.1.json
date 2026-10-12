@@ -1,0 +1,22 @@
+{
+  "table_id": "7.1",
+  "title_en": "TABLE 7.1: STUDENT ENROLMENT BY EDUCATIONAL LEVEL AND SEX, 2023 - 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: Pre-Kindergarten (Pre-K) – Includes Baby Nursery (BN) and Nursery (N). Kindergarten (K) – Commonly referred to as the foundation stage in the Maldives. It includes Lower Kindergarten (LKG) and Upper Kindergarten (UKG). Key Stage 1 (KS1) – Includes education levels Grades 1 to 3. Key Stage 2 (KS2) – Includes education levels Grades 4 to 6. Key Stage 3 (KS3) – Includes education levels Grades 7 to 8. Key Stage 4 (KS4) – Includes education levels Grades 9 to 10. Key Stage 5 (KS5) – Includes education levels Grades 11 to 12."
+  ],
+  "columns": [
+    "Column_1",
+    "Student enrolment by level - Total",
+    "Student enrolment by level - Pre-K",
+    "Student enrolment by level - K",
+    "Student enrolment by level - KS1",
+    "Student enrolment by level - KS2",
+    "Student enrolment by level - KS3",
+    "Student enrolment by level - KS4",
+    "Student enrolment by level - KS5"
+  ],
+  "row_count": 3
+}

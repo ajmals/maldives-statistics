@@ -1,0 +1,23 @@
+{
+  "table_id": "8.30",
+  "title_en": "TABLE 8.30: JUDGES BY SEX AND FINANCIAL RESOURCES FOR COURTS , 2013 - 2018",
+  "title_dv": "ތާވަލު 8.30: ކޯޓުތަކުގައި ތިބި ފަނޑިޔާރުންގެ އަދަދު އަދި ކޯޓުތަކަށް ހިނގި ޚަރަދު، 2013 - 2018",
+  "unit": "",
+  "source": "Source: Judicial Service Commission",
+  "notes": [
+    "Department of Judicial Administration"
+  ],
+  "columns": [
+    "Category",
+    "end year - 2010",
+    "end year - 2011",
+    "end year - 2012",
+    "end year - 2013",
+    "end year - 2014",
+    "end year - 2015",
+    "end year - 2016",
+    "end year - 2017",
+    "end year - 2018"
+  ],
+  "row_count": 4
+}

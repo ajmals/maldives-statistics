@@ -1,0 +1,27 @@
+{
+  "table_id": "7.2&fig7.2",
+  "category": "7.0 Education",
+  "title_en": "Table 7.2 : STUDENT ENROLMENT BY EDUCATIONAL LEVEL AND SEX, 2008",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "1_/ For children with special needs."
+  ],
+  "time_span": "2009",
+  "year_min": 2009,
+  "year_max": 2009,
+  "row_count": 8,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    "% share - % of females - 2009",
+    "% share - Both Sexes - 2009",
+    "% share - Female - 2009",
+    "% share - Male - 2009",
+    "No. of students - Both Sexes - 2009",
+    "No. of students - Female - 2009",
+    "No. of students - Male - 2009"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/7.2&fig7.2.csv"
+}

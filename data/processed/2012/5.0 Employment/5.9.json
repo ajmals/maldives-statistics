@@ -1,0 +1,29 @@
+{
+  "table_id": "5.9",
+  "title_en": "Table 5.9: Civil Servants Classified by Civil Service Job Structure, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source : Civil Service Commision",
+  "notes": [
+    "Note:",
+    "AGL1 corresponds to GS4",
+    "AGL3 corresponds to MS2",
+    "AGL4 corresponds to NONE",
+    "AGL6 corresponds to MS4"
+  ],
+  "columns": [
+    "Job classification/Position level",
+    "Job classification/Position level_2",
+    "Job classification/Position level - Rank",
+    "No. of Employees (2011 end) - Republic - Both sexes",
+    "No. of Employees (2011 end) - Republic - Male",
+    "No. of Employees (2011 end) - Republic - Female",
+    "No. of Employees (2011 end) - Male' - Both sexes",
+    "No. of Employees (2011 end) - Male' - Male",
+    "No. of Employees (2011 end) - Male' - Female",
+    "No. of Employees (2011 end) - Atolls - Both sexes",
+    "No. of Employees (2011 end) - Atolls - Male",
+    "No. of Employees (2011 end) - Atolls - Female"
+  ],
+  "row_count": 30
+}

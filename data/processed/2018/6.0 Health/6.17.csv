@@ -1,0 +1,42 @@
+Locality,csclcsIm - Measles Rubella,csclcsIm - MMR,uzOD (IjIsIb) cnireaug - Bacillus Calmette–Guérin - (BCG) Dozes,uzOD (Td) - Tetanus Diptheria - (Td Dozes * - 1st,uzOD (Td) - Tetanus Diptheria - (Td Dozes * - 2nd,uzOD (Td) - Hepatitis B - 1st,uzOD (Td) - Pentavalent Vaccine - 1st,uzOD (Td) - Pentavalent Vaccine - 2nd,uzOD (Td) - Pentavalent Vaccine - 3rd,cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (bOPV) Dozes - 1st,cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (bOPV) Dozes - 2nd,cnisckev OailOp clwrOa - uzOD (IvIpOa) - Oral Polio Vaccine - (bOPV) Dozes - 3rd,cnisckev OailOp clwrOa - uzOD (IvIpOa) - IPV - 1st
+Republic,6573,6692,6726,2374,1795,6728,6583,6593,6570,6586,6595,6570,6573
+Male',2298,2472,4202,1291,1024,4204,2293,2296,2277,2295,2297,2278,2280
+Atolls,4275,4220,2524,1083,771,2524,4290,4297,4293,4291,4298,4292,4293
+North Thiladhunmathi (H.A),325,290,186,104,75,186,322,323,323,322,323,323,323
+South Thiladhunmathi (H.Dh),419,430,408,144,70,408,418,417,419,418,417,419,419
+North Miladhunmadulu (Sh),275,277,93,17,7,93,273,275,273,273,275,273,273
+South Miladhunmadulu (N),233,258,92,26,39,92,232,233,232,232,233,232,232
+North Maalhosmadulu (R),377,411,292,15,14,292,375,377,375,375,377,375,375
+South Maalhosmadulu (B),214,181,102,2,1,102,215,216,215,215,216,215,215
+Faadhippolhu (Lh),154,154,96,51,46,96,154,155,155,154,155,155,155
+Male' Atoll (K),229,225,13,132,49,13,229,230,230,229,231,230,230
+North Ari Atoll (AA),139,139,20,14,11,20,153,153,153,154,153,153,153
+South Ari Atoll (ADh),216,209,126,1,,126,214,215,214,214,215,214,214
+Felidhu Atoll (V),32,14,,1,1,,32,32,32,32,32,32,32
+Mulakatholhu (M),72,80,21,33,32,21,79,79,79,79,79,79,79
+North Nilandhe Atoll (F),95,95,11,54,54,11,99,100,100,99,100,99,100
+South Nilandhe Atoll (D),151,101,56,85,71,56,122,121,122,122,121,122,122
+Kolhumadulu (Th),186,185,159,72,86,159,200,202,201,200,202,201,201
+Hadhdhunmathi (L),286,266,181,67,49,181,267,266,267,267,266,267,267
+North Huvadhu Atoll (GA),156,154,19,26,34,19,156,155,155,156,155,155,155
+South Huvadhu Atoll (GDh),247,264,218,113,71,218,241,240,240,241,240,240,240
+Fuvahmulah (Gn),150,115,124,65,27,124,167,167,167,167,167,167,167
+Addu Atoll (S),319,372,307,61,34,307,342,341,341,342,341,341,341
+Children vaccinated,6573,6692,6726,2374,1795,6728,6583,6593,6570,6586,6595,6570,6573
+Eligible children,6583,6737,6736,2378,1798,6736,6611,6611,6611,6611,6611,6611,6611
+Coverage,99.848094,99.332047,99.851544,99.831791,99.833148,99.881235,99.576463,99.727727,99.379822,99.621842,99.757979,99.379822,99.4252
+"* Td Dose is given to 15 - 49 yrs woman, 1st Pregnancy: Td1, Td2",,,,,bOPV - bivalent Oral Polio Vaccine,,,,,,,,
+Estimated coverage based on data's received from atoll health facilities,,,,,Td - Tetanus Toxide,,,,,,,,
+"At Birth: BCG, Hepatitis B1,",,,,,,,,,,,,,
+"2 months: bOPV1, Pentavalent 1",,,,,,,,,,,,,
+"4 months: bOPV2, Pentavalent 2",,,,,,,,,,,,,
+"6 months: bOPV3, Pentavalent 3",IPV,,,,,,,,,,,,
+"9 Months: Measles Rubella, Vitamin A 1",,,,,,,,,,,,,
+"18 Months: Measles-Mumps-Rubella (MMR), Vitamin A 2",,,,,,,,,,,,,
+Td Vaccine:,,,,,,,,,,,,,
+"Childhood vaccine not completed: Td1st dose, Td2nd dose, Td3rd dose, Td4th dose, Td5th dose",,,,,,,,,,,,,
+"Childhood vaccine completed: Td3rd dose, Td4th dose , Td5th dose",,,,,,,,,,,,,
+Diptheria Partasis Tatnus (DPT) Dozes: Combined with Pantavalent Vaccine since 2013,,,,,,,,,,,,,
+Hepatitis B: Combined with Pantavalent Vaccine since 2013,,,,,,,,,,,,,
+TT is replaced by Td in 2015,,,,,,,,,,,,,
+Measles vaccine replaced by MR in 2017,,,,,,,,,,,,,

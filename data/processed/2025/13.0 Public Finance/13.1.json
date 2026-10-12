@@ -1,0 +1,25 @@
+{
+  "table_id": "13.1",
+  "title_en": "Table 13.1: SUMMARY OF GOVERNMENT FINANCE, 2017-2027",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Planning.",
+  "notes": [
+    "Note: 1_/ Data prepared in accordance with GFS 2014."
+  ],
+  "columns": [
+    "(In million MVR) - Particulars - Revenue",
+    "(In million MVR) - Actual - 2017",
+    "(In million MVR) - Actual - 2018",
+    "(In million MVR) - Actual - 2019",
+    "(In million MVR) - Actual - 2020",
+    "(In million MVR) - Actual - 2021",
+    "(In million MVR) - Actual - 2022",
+    "(In million MVR) - Actual - 2023",
+    "(In million MVR) - Actual - 2024",
+    "(In million MVR) - Approved - 2025",
+    "(In million MVR) - Approved - 2026",
+    "(In million MVR) - Approved - 2027"
+  ],
+  "row_count": 26
+}

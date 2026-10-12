@@ -1,0 +1,22 @@
+{
+  "table_id": "13.3",
+  "title_en": "Table 13.3 : GOVERNMENT REVENUE, 2007-2012 (In million Rf)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Includes green tax, airport tax, business profit tax, GST, licence fees, company registration fees and stamp duties.",
+    "2_/ Includes fines, confiscated properties, royalties, penalties and administrative charges.",
+    "3_/ Excludes grants for direct expenditure by donors."
+  ],
+  "columns": [
+    "Particulars",
+    "2007",
+    "2008",
+    "(Revised) - 2009",
+    "(MTEF) - 2010",
+    "(MTEF) - 2011",
+    "(MTEF) - 2012"
+  ],
+  "row_count": 42
+}

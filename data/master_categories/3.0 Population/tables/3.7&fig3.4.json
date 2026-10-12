@@ -1,0 +1,36 @@
+{
+  "table_id": "3.7&fig3.4",
+  "category": "3.0 Population",
+  "title_en": "Table 3.7 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2006-2008",
+  "unit": "",
+  "source": "Source: Mini stry of Health & Family",
+  "notes": [
+    "1_/ Revised",
+    "Decision Support Division"
+  ],
+  "time_span": "2006 – 2009",
+  "year_min": 2006,
+  "year_max": 2009,
+  "row_count": 13,
+  "column_count": 16,
+  "columns": [
+    "Item",
+    "Births - 2006",
+    "Births - 2007",
+    "Births - 2008",
+    "Births - 2009",
+    "Births_2 - 2009",
+    "Deaths - 2006",
+    "Deaths - 2007",
+    "Deaths - 2008",
+    "Deaths - 2009",
+    "Deaths_2 - 2009",
+    "Natural Increase - 2006",
+    "Natural Increase - 2007",
+    "Natural Increase - 2008",
+    "Natural Increase - 2009",
+    "Natural Increase_2 - 2009"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/3.7&fig3.4.csv"
+}

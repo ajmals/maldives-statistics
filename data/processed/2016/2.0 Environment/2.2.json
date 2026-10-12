@@ -1,0 +1,19 @@
+{
+  "table_id": "2.2",
+  "title_en": "Table 2.2 : NUMBER OF ISLAND THAT HAVE REPORTED SEVERE EROSION, 2012 - 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Data provided by Atolls Offices and Island Offfices",
+  "notes": [
+    "compiled by Environmental Protection Agency"
+  ],
+  "columns": [
+    "Atolls",
+    "Total no. of inhabited islands 2015",
+    "No of island that have reported severe erosion - 2012",
+    "No of island that have reported severe erosion - 2013",
+    "No of island that have reported severe erosion - 2014",
+    "No of island that have reported severe erosion - 2015"
+  ],
+  "row_count": 21
+}

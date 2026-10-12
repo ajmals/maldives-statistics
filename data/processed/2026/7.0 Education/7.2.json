@@ -1,0 +1,20 @@
+{
+  "table_id": "7.2",
+  "title_en": "Table 7.2: Number of student enrolled by level and educational Institute, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education, Higher Education and Skills Development",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Student enrolment level - Total",
+    "Student enrolment level - Pre-K",
+    "Student enrolment level - K",
+    "Student enrolment level - KS1",
+    "Student enrolment level - KS2",
+    "Student enrolment level - KS3",
+    "Student enrolment level - KS4",
+    "Student enrolment level - KS5"
+  ],
+  "row_count": 11
+}

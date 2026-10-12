@@ -1,0 +1,19 @@
+{
+  "table_id": "3.20",
+  "title_en": "TABLE 3.20: MARRIAGES BETEWEEN LOCALS AND LOCALS TO FOREIGN NATIONALS PERFORMED OVERSEAS BY COUNTRY, 2023",
+  "title_dv": "ތާވަލު 3.20: ރާއްޖޭން ބޭރު ޤައުމުތަކުގައި ކުރެވޭ ދިވެހި އަދި ބިދޭސީ ކައިވެނި، 2023",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Country marriage was performed",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_5",
+    "Column_6",
+    "Maldivian marriages with foreigners performed in maldives",
+    "Maldivian marriages with foreigners performed in maldives_2"
+  ],
+  "row_count": 51
+}

@@ -1,0 +1,17 @@
+{
+  "table_id": "11.13",
+  "title_en": "Table 11.13 : CARGO HANDLED AT GAN INTERNATIONAL AIRPORT BY MONTH, 2009 (in Kg)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministr y of Civil Aviation and Communication",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Total",
+    "International Flights - Inward",
+    "Domestic Flights - Inward",
+    "Domestic Flights - Outward",
+    "Domestic Flights - Direct Transit"
+  ],
+  "row_count": 13
+}

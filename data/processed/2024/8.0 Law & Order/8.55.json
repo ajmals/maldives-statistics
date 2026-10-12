@@ -1,0 +1,27 @@
+{
+  "table_id": "8.55",
+  "title_en": "Table 8.55: Detail of completed cases investigated by the commission, 2011 - 2022",
+  "title_dv": "ތާވަލު 8.55: ކޮމިޝަނުން ބަލައި ނިމިފައިވާ މައްސަލަތަކުގެ ތަފްސީލު، 2011 - 2022",
+  "unit": "",
+  "source": "Source: Anti Corruption Commission",
+  "notes": [
+    "Note: Description Details for Cases related to Administration of Offices* changed to Recommendations Provide for Administration Issues from 21st April 2019",
+    "(*) New inlcusion"
+  ],
+  "columns": [
+    "Details",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "row_count": 5
+}

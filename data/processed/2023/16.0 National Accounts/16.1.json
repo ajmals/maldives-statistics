@@ -1,0 +1,25 @@
+{
+  "table_id": "16.1",
+  "title_en": "Table 1: GROSS DOMESTIC PRODUCT (AT CONSTANT PRICES), BY KIND OF ACTIVITY, 2014-2022",
+  "title_dv": "ތާވަލް 1: އިޤްތިޞާދީ ބައިތަކުން ޤައުމީ އުފެއްދުންތެރިކަމުގެ މިންގަނޑު (ދާއިމީ އަގުން)، 2022-2014",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning, Housing and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "Published in August 2023"
+  ],
+  "columns": [
+    "(Estimated using production approach) - ISIC",
+    "(Estimated using production approach) - Industry / Economic Activity",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2014",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2015",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2016",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2017",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2018",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2019",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2020",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2021",
+    "(Estimated using production approach) - (In Million MVR , at 2019 constant prices) - Industry / Economic Activity - 2022"
+  ],
+  "row_count": 33
+}

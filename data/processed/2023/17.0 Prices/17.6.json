@@ -1,0 +1,24 @@
+{
+  "table_id": "17.6",
+  "title_en": "Table 17.6 : MONTHLY INFLATION RATE, 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: Nov 2022=100) - Major Groups - Republic",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Jan",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Feb",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Mar",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Apr",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - May",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Jun",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Jul",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Aug",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Sep",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Oct",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Nov",
+    "(Index - base: Nov 2022=100) - Monthly Inflation rates , 2022 - Dec"
+  ],
+  "row_count": 60
+}

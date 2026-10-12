@@ -1,0 +1,26 @@
+{
+  "table_id": "4.3",
+  "title_en": "Table 4.3: OWNERSHIP OF SELECTED HOUSEHOLD GOODS, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Household appliances - Locality",
+    "Household appliances - Total - Households",
+    "Household appliances - Total - Washing machine",
+    "Household appliances - Total - Refrigerators",
+    "Household appliances - Total - Air conditioner",
+    "Transport and communication - Total - Bicycle",
+    "Transport and communication - Total - Motor cycle",
+    "Transport and communication - Total - Car/Jeep",
+    "Transport and communication - Total - Mobile phone",
+    "Transport and communication - Total - Fixed line",
+    "Transport and communication - Total - TV",
+    "Transport and communication - Sattelite/ - cable TV connection",
+    "Transport and communication - Sattelite/ - Computer",
+    "Transport and communication - Sattelite/ - News pape r",
+    "Transport and communication - Sattelite/ - Internet"
+  ],
+  "row_count": 23
+}

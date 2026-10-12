@@ -1,0 +1,27 @@
+{
+  "table_id": "3.6a",
+  "title_en": "Table 3.6 a: ABRIDGE LIFE TABLE OF MALDIVES BY SEX FOR INTERCENSAL YEARS, 1989 - 2015",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Age",
+    "Life expectancy e(x) at birth - 1989 - 1991 - Both sex",
+    "Life expectancy e(x) at birth - 1989 - 1991 - Female",
+    "Life expectancy e(x) at birth - 1989 - 1991 - Male",
+    "Life expectancy e(x) at birth - 1994 - 1996 - Both sex",
+    "Life expectancy e(x) at birth - 1994 - 1996 - Female",
+    "Life expectancy e(x) at birth - 1994 - 1996 - Male",
+    "Life expectancy e(x) at birth - 1999 - 2001 - Both sex",
+    "Life expectancy e(x) at birth - 1999 - 2001 - Female",
+    "Life expectancy e(x) at birth - 1999 - 2001 - Male",
+    "Life expectancy e(x) at birth - 2005 - 2007 - Both sex",
+    "Life expectancy e(x) at birth - 2005 - 2007 - Female",
+    "Life expectancy e(x) at birth - 2005 - 2007 - Male",
+    "Life expectancy e(x) at birth - 2013 - 2015 - Both sex",
+    "Life expectancy e(x) at birth - 2013 - 2015 - Female",
+    "Life expectancy e(x) at birth - 2013 - 2015 - Male"
+  ],
+  "row_count": 24
+}

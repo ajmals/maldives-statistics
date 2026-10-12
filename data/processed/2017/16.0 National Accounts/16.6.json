@@ -1,0 +1,29 @@
+{
+  "table_id": "16.6",
+  "title_en": "Table 16.6 : PERCENTAGE SHARES OF GROSS DOMESTIC PRODUCT(AT CURRENT PRICES), BY KIND OF ACTIVITY, 2003 - 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note: Published on November 2017"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at current prices) - 2003",
+    "(In percent , at current prices) - 2004",
+    "(In percent , at current prices) - 2005",
+    "(In percent , at current prices) - 2006",
+    "(In percent , at current prices) - 2007",
+    "(In percent , at current prices) - 2008",
+    "(In percent , at current prices) - 2009",
+    "(In percent , at current prices) - 2010",
+    "(In percent , at current prices) - 2011",
+    "(In percent , at current prices) - 2012",
+    "(In percent , at current prices) - 2013",
+    "(In percent , at current prices) - 2014",
+    "(In percent , at current prices) - 2015",
+    "(In percent , at current prices) - 2016"
+  ],
+  "row_count": 33
+}

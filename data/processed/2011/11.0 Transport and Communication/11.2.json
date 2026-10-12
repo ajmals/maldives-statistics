@@ -1,0 +1,18 @@
+{
+  "table_id": "11.2",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Transport Authorit y",
+  "notes": [],
+  "columns": [
+    "Type of Vehicles",
+    "Registered - 2008",
+    "Registered - 2009",
+    "Registered - 2010",
+    "Newly Registered - 2008",
+    "Newly Registered - 2009",
+    "Newly Registered - 2010"
+  ],
+  "row_count": 11
+}

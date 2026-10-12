@@ -1,0 +1,22 @@
+{
+  "table_id": "8.42",
+  "title_en": "Table 8.42 : PERSONS SENTENCED, BY AGE AND SEX, 2014 - 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Maldives Correctional Service",
+  "notes": [],
+  "columns": [
+    "Age groups",
+    "2014 - Both sexes",
+    "2014 - Male",
+    "2014 - Female",
+    "2015 - Both sexes",
+    "2015 - Male",
+    "2015 - Female",
+    "2016 - Both sexes",
+    "2016 - Male",
+    "2016 - Female",
+    "2016 - Female_2"
+  ],
+  "row_count": 9
+}

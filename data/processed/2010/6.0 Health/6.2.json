@@ -1,0 +1,27 @@
+{
+  "table_id": "6.2",
+  "title_en": "Table 6.2 : HEALTH PERSONNEL BY EXPATRIATES AND LOCALS 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family",
+  "notes": [
+    "Decision Support Division",
+    "1_/ Includes Laboratory assistants, Food technologists, microbiologi sts"
+  ],
+  "columns": [
+    "Personnel",
+    "Republic - Total",
+    "Republic - Local",
+    "Republic - Expatriate",
+    "Male' - Total",
+    "Male' - Local",
+    "Male' - Expatriate",
+    "Atolls - Total",
+    "Atolls - Local",
+    "Atolls - Expatriate",
+    "Private - Total",
+    "Private - Local",
+    "Private - Expatriate"
+  ],
+  "row_count": 15
+}

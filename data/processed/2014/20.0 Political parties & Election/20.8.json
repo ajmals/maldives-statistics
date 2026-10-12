@@ -1,0 +1,19 @@
+{
+  "table_id": "20.8",
+  "title_en": "TABLE 20.8: LOCAL COUNCIL MEMBERS BY SEX, 2013",
+  "title_dv": "ތާވަލު 20.8: ލޯކަލް ކައުންސިލް މެމްބަރުންގެ އަދަދު އަދި ޖިންސް، 2013",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [],
+  "columns": [
+    "Councils",
+    "Republic - Total",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Total",
+    "Atolls - Total",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 4
+}

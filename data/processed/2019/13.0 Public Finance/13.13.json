@@ -1,0 +1,37 @@
+{
+  "table_id": "13.13",
+  "title_en": "Table 13.13: REVENUE COLLECTED BY DETAILED CATEGORIES, 2013 - 2018",
+  "title_dv": "ތާވަލު 13.13: ޢާމްދަނީގެ ގޮތުގައި ލިބުނު ފައިސާގެ ތަފްޞީލު، 2013 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Inland Revenue Authority",
+  "notes": [
+    "Note: 27,875 collected as 'Cash received for which purpose in unknown)",
+    "*** Airport Development Fee, Construction Period Extension Fee, Corporate Social Responsibility Fee, Tourism Administration Fee, Ownership Transfer Tax, Dive School Registration Fee, Guest house registration Fee, Ither Registrations & License Fees, Motor Vehicle and Vessel Registration Fee, Bank Mortgage Registration Fee, Sale of Tender Documents added",
+    "**Remittance tax added",
+    "*2017 figures are revised by MIRA",
+    "Figures as at data dissemination date, ie: 26 February 2019",
+    "Business Permits",
+    "Land Rent",
+    "Royalties",
+    "Total calculated here",
+    "Cash for unknow purposes",
+    "Final Total"
+  ],
+  "columns": [
+    "Description",
+    "2011",
+    "2012",
+    "Revenue collected (MVR) - 2013",
+    "Revenue collected (MVR) - 2014",
+    "Revenue collected (MVR) - 2015*",
+    "Revenue collected (MVR) - 2016*",
+    "Revenue collected (MVR) - 2017",
+    "Revenue collected (MVR) - 2018",
+    "Percentage shares - 2015",
+    "Percentage shares - 2016",
+    "Percentage shares - 2017",
+    "Percentage shares - 2018",
+    "Percentage change over 2017"
+  ],
+  "row_count": 61
+}

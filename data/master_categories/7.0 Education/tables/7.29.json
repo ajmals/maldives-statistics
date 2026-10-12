@@ -1,0 +1,24 @@
+{
+  "table_id": "7.29",
+  "category": "7.0 Education",
+  "title_en": "TABLE 7.29: STUDENT ENROLLMENT IN UNIVERSITIES AND COLLEGES, 2019",
+  "unit": "",
+  "source": "Source: Ministry of Higher Education",
+  "notes": [],
+  "time_span": "2020 – 2021",
+  "year_min": 2020,
+  "year_max": 2021,
+  "row_count": 13,
+  "column_count": 7,
+  "columns": [
+    "Item",
+    "Enrollement - 2020",
+    "Enrollement - 2021",
+    "Percentage - 2020",
+    "Percentage - 2021",
+    "TABLE 7.29: STUDENT ENROLLMENT IN UNIVERSITIES AND COLLEGES,  - Enrollement - 2021",
+    "TABLE 7.29: STUDENT ENROLLMENT IN UNIVERSITIES AND COLLEGES,  - Percentage - 2021"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/7.29.csv"
+}

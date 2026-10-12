@@ -1,0 +1,19 @@
+{
+  "table_id": "11.22",
+  "title_en": "TABLE 11.22: FERRY SERVICES BY THE INTEGRATED TRANSPORT NETWORK, BY NUMBER OF FERRIES AND PASSENGER CAPACITY 2009-2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Transport and Communication",
+  "notes": [],
+  "columns": [
+    "Atoll/Province",
+    "Date started",
+    "2010 (end year) - Cost /passanger Rf",
+    "2010 - No. of weeks in operation",
+    "2010 (end year) - No. of Ferries Operating",
+    "2010 (end year) - Passenger capacity",
+    "2009 - No. of passangers",
+    "2010 - No. of passangers"
+  ],
+  "row_count": 7
+}

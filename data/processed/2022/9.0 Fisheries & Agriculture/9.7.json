@@ -1,0 +1,23 @@
+{
+  "table_id": "9.7",
+  "title_en": "Table 9.7: Monthly Fresh Tuna Purchased, 2014 - 2021",
+  "title_dv": "ތާވަލު 9.7: އެކިމަސްމަހުގައި ގަތް ތާޒާމަސް، 2014 - 2021",
+  "unit": "",
+  "source": "Source: Purchasing companies",
+  "notes": [
+    "Compiled by: Statistics Unit,",
+    "Ministry of Fisheries, Marine Resources and Agriculture"
+  ],
+  "columns": [
+    "In metrictons (t) - Month",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2014",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2015",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2016",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2017",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2018",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2019",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2020",
+    "In metrictons (t) - Purchased cswmWzWtctwg - 2021"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,14 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Passengers - Transit,Cargo (kg) - In,Cargo (kg) - Out,Cargo (kg) - Transit,Mail (kg) - In,Mail (kg) - Out
+Total,22427,74437,74079,6526,489002.03,38573.8,13824.5,12876.5,698
+International Flights,566,13956,14022,9,308407.5,17846,,,
+International Scheduled,364,12728,12680,,308407.5,17846,,,
+Srilankan Airlines,364,12728,12680,,308407.5,17846,,,
+International Charter,20,856,1004,,,,,,
+Maldivian,4,,,,,,,,
+Danish Air transport,16,856,1004,,,,,,
+International Non-Scheduled,182,372,338,9,,,,,
+Domestic flights,21861,60481,60057,6517,180594.53,20727.8,13824.5,12876.5,698
+Island Aviation (Scheduled),3853,59470,59181,6272,175987.53,20613.8,13399.5,12876.5,698
+Island Aviation (Non-Scheduled),88,955,876,245,4607,114,425,,
+Villa (Non-Scheduled),2,56,,,,,,,
+Other Domestic 1_/,17918,,,,,,,,

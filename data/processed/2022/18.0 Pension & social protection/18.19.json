@@ -1,0 +1,25 @@
+{
+  "table_id": "18.19",
+  "title_en": "Table 18.19 : NUMBER OF PERSONS COVERED UNDER DIFFERENT SOCIAL PROTECTION SCHEMES BY ISLAND, 2021",
+  "title_dv": "ތާވަލް 18.19: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން ރަށްރަށުން ޙިދުމަތްދެވިފައިވާ މީހުންގެ އަދަދު، 2021",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme"
+  ],
+  "columns": [
+    "Locality",
+    "Total",
+    "Total - HEALTH INSURANCE SCHEMES - Aasandha",
+    "Total - SINGLE PARENT ALLOWANCE - Parent",
+    "Total - SINGLE PARENT ALLOWANCE - Children",
+    "Total - FOSTER PARENT ALLOWANCE - Parent",
+    "Total - FOSTER PARENT ALLOWANCE - Children",
+    "Total - EMERGENCY MEDICAL WELFARE",
+    "Total - DISABILITY ALLOWANCE",
+    "Total - FOOD SUBSIDY - DISABILITY ALLOWANCE"
+  ],
+  "row_count": 219
+}

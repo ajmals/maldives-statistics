@@ -1,0 +1,26 @@
+{
+  "table_id": "5.5",
+  "title_en": "Table 5.5 : EMPLOYED POPULATION BY INDUSTRY, OCCUPATION AND SEX, CENSUS 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Occupation and Sex",
+    "Occupation and Sex_2",
+    "Total",
+    "Industry - Agriculture and Forestry",
+    "Industry - Fishing",
+    "Industry - Quarrying",
+    "Industry - Manufacturing",
+    "Industry - Electricity, Gas & Water",
+    "Industry - Construction",
+    "Industry - Wholesale & Retail Trade",
+    "Industry - Hotels & Restaurants",
+    "Industry - Transport, Storage and communication",
+    "Industry - Financing, insurance, business and real estate",
+    "Industry - Community, social and personal services",
+    "Industry - Not Stated"
+  ],
+  "row_count": 36
+}

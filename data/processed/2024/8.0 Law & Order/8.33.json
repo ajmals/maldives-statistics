@@ -1,0 +1,27 @@
+{
+  "table_id": "8.33",
+  "title_en": "Table 8.33: SUMMARY OF ALL NEW CASES FILED IN COURTS IN MALE' AND ATOLLS, 2021 - 2023",
+  "title_dv": "ތާވަލް 8.33: މާލެއާއި ރަށްރަށުގެ ކޯޓުތަކަށް ހުށައެޅިފައިވާ މައްސަލަތައް، 2021 -2023",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "2021 - Criminal Cases",
+    "2021 - Civil Cases",
+    "2021 - Family Cases",
+    "2021 - Marriage",
+    "2021 - Divorce",
+    "2022 - Criminal Cases",
+    "2022 - Civil Cases",
+    "2022 - Family Cases",
+    "2022 - Marriage",
+    "2022 - Divorce",
+    "2023 - Criminal Cases",
+    "2023 - Civil Cases",
+    "2023 - Family Cases",
+    "2023 - Marriage",
+    "2023 - Divorce"
+  ],
+  "row_count": 29
+}

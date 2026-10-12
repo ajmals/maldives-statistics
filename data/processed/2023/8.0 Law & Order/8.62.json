@@ -1,0 +1,35 @@
+{
+  "table_id": "8.62",
+  "title_en": "Table 8.62: NUMBER OF REPORTED CHILD ABUSE CASES BY TYPE AND AGE OF CHILD, 2018",
+  "title_dv": "ތާވަލު 8.626: ޢުމުރުފުރާގެ ގޮތުން ކުޑަކުދިންނަށް ކުރާ އަނިޔާއާއިބެހެގޮތުން ހުށަހެޅިފައިވާ މައްސަލަތައް، 2018",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [
+    "Note: Others include: Child Deaths, Exploitation, Commercial Exploitation / Child Labor, Commercial Sexual Exploitation, Trafficking of Children, Victims of Bullying, Child Abandonment",
+    "Types of abuse",
+    "Types of abuse",
+    "Total",
+    "Neglect",
+    "Physical Abuse",
+    "Sexual Abuse",
+    "Emotional Abuse",
+    "Bullying",
+    "Harrasment",
+    "Witness to Domestic Violence",
+    "Cyber Bullying",
+    "Others",
+    "Note: Others include: Child Deaths, Exploitation, Commercial Exploitation / Child Labor, Commercial Sexual Exploitation, Trafficking of Children, Victims of Bullying, Child Abandonment"
+  ],
+  "columns": [
+    "Types of abuse",
+    "Total",
+    "Age-group",
+    "Age-group_2",
+    "Age-group_3",
+    "Age-group_4",
+    "Age-group_5",
+    "Age-group_6",
+    "Age-group_7"
+  ],
+  "row_count": 11
+}

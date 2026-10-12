@@ -1,0 +1,9 @@
+Column_1,Column_2,Column_3,Column_4,Column_5,Column_6,Column_7,Column_8,Column_9,Column_10,Column_11,Female - 5488,Female - 5488_2,Female - 5488_3
+Number of times married,2010,2010,2013,2013,2014,2014,2015,2015,2016,2016,First,2773,2716
+Number of times married,Male,Female,Male,Female,Male,Female,Male,Female,Male,Female,Second,1469,1521
+Number of times married,,,,,,,,,,,Third,620,650
+Total,6136,6136,5620,5620,5587,5587,5763,5763,5488,5488,Fourth or more,626,601
+First,3866,3886,3066,3151,3085,3021,3026,2999,2773,2716,,,
+Second,1283,1315,1458,1475,1451,1442,1464,1547,1469,1521,,,
+Third,516,462,537,511,535,586,635,631,620,650,,Male,Female
+Fourth or more,471,473,559,483,516,538,638,586,626,601,,50.528426,49.489796

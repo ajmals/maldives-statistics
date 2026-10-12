@@ -1,0 +1,32 @@
+{
+  "table_id": "15.12",
+  "category": "15.0 Foreign trade & Balance of payments",
+  "title_en": "Table 15.12 : BALANCE OF PAYMENTS, 2011 - 2024",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority",
+  "notes": [],
+  "time_span": "2011 – 2024",
+  "year_min": 2011,
+  "year_max": 2024,
+  "row_count": 22,
+  "column_count": 15,
+  "columns": [
+    "Item",
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/15.12.csv"
+}

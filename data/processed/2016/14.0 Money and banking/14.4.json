@@ -1,0 +1,25 @@
+{
+  "table_id": "14.4",
+  "title_en": "Table 14.4: OTHER FINANCIAL CORPORATIONS SURVEY, 2014 - 2015",
+  "title_dv": "ތާވަލު 14.4: އެހެނިހެން މާލީދާއިރާގެ ކުންފުނިތަކުގެ ސަރވޭ 2014- 2015",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1_/ : 2012 and 2013 revised",
+    "Data is compiled based on IMF Monetary and Financial Statistics Manual 2000 (MFSM 2000)."
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Particulars",
+    "(In millions of Rufiyaa; end of period)",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Mar",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Jun",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Sep",
+    "(In millions of Rufiyaa; end of period) - 20141_/ - Dec",
+    "(In millions of Rufiyaa; end of period) - 2015 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2015 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2015 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2015 - Dec"
+  ],
+  "row_count": 21
+}

@@ -1,0 +1,28 @@
+{
+  "table_id": "7.7",
+  "title_en": "Table 7.7 : STUDENTS AND TEACHERS SERVING AT DIFFERENT LEVELS IN MALE' AND ATOLLS, 2012",
+  "title_dv": "2012 ,udwdwa egcnusircawdum EdWvwyik ,iaWncnidukWvwyik iawgukwtitcnwfikea egukwtuLotwa iaWaelWm :7.7 clwvWt",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Local",
+    "Pre - Primary",
+    "Primary",
+    "Lower Secondary",
+    "Higher Secondary"
+  ],
+  "columns": [
+    "Level",
+    "No. of students",
+    "No. of teachers - Total",
+    "No. of teachers - Trained",
+    "No. of teachers - Untrained",
+    "Student Teacher Ratio - Total",
+    "Student Teacher Ratio - Trained",
+    "Teachers - Total",
+    "Teachers - Local",
+    "Teachers - Expatriate",
+    "% of - expatriate"
+  ],
+  "row_count": 16
+}

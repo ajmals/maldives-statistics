@@ -1,0 +1,31 @@
+{
+  "table_id": "5.12",
+  "title_en": "TABLE 5.12: EMPLOYMENT IN POLITICAL POSTS CLASSIFIED BY OFFICE, 2011 - 2013",
+  "title_dv": "ތާވަލް 5.12: ސަރުކާރުގެ އެކި އޮފީސްތަކުގެ ޕޮލިޓިކަލް މަގާމުގައި ތިއްބެވި ބޭފުޅުން، 2011 - 2013",
+  "unit": "",
+  "source": "Source: Presidents Office",
+  "notes": [
+    "2013",
+    "2011",
+    "Both sexes",
+    "Male",
+    "Female",
+    "Both sexes",
+    "2011",
+    "2012",
+    "2013"
+  ],
+  "columns": [
+    "Office",
+    "2011 (end) - Both sexes",
+    "2011 (end) - Male",
+    "2011 (end) - Female",
+    "2012 (end) - Both sexes",
+    "2012 (end) - Male",
+    "2012 (end) - Female",
+    "2013 (end) - Both sexes",
+    "2013 (end) - Male",
+    "2013 (end) - Female"
+  ],
+  "row_count": 51
+}

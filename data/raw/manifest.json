@@ -1,0 +1,122 @@
+{
+  "2008": {
+    "year": "2008",
+    "total_files": 2,
+    "size_mb": 0.12,
+    "chapters": 2
+  },
+  "2009": {
+    "year": "2009",
+    "total_files": 97,
+    "size_mb": 4.04,
+    "chapters": 11
+  },
+  "2010": {
+    "year": "2010",
+    "total_files": 218,
+    "size_mb": 13.45,
+    "chapters": 20
+  },
+  "2011": {
+    "year": "2011",
+    "total_files": 226,
+    "size_mb": 13.34,
+    "chapters": 20
+  },
+  "2012": {
+    "year": "2012",
+    "total_files": 100,
+    "size_mb": 5.75,
+    "chapters": 10
+  },
+  "2013": {
+    "year": "2013",
+    "total_files": 314,
+    "size_mb": 27.38,
+    "chapters": 16
+  },
+  "2014": {
+    "year": "2014",
+    "total_files": 225,
+    "size_mb": 12.82,
+    "chapters": 12
+  },
+  "2015": {
+    "year": "2015",
+    "total_files": 433,
+    "size_mb": 89.56,
+    "chapters": 18
+  },
+  "2016": {
+    "year": "2016",
+    "total_files": 461,
+    "size_mb": 102.1,
+    "chapters": 20
+  },
+  "2017": {
+    "year": "2017",
+    "total_files": 499,
+    "size_mb": 116.69,
+    "chapters": 20
+  },
+  "2018": {
+    "year": "2018",
+    "total_files": 573,
+    "size_mb": 186.88,
+    "chapters": 21
+  },
+  "2019": {
+    "year": "2019",
+    "total_files": 537,
+    "size_mb": 171.79,
+    "chapters": 19
+  },
+  "2020": {
+    "year": "2020",
+    "total_files": 555,
+    "size_mb": 175.07,
+    "chapters": 20
+  },
+  "2021": {
+    "year": "2021",
+    "total_files": 602,
+    "size_mb": 170.8,
+    "chapters": 21
+  },
+  "2022": {
+    "year": "2022",
+    "total_files": 373,
+    "size_mb": 41.37,
+    "chapters": 16
+  },
+  "2023": {
+    "year": "2023",
+    "total_files": 502,
+    "size_mb": 62.79,
+    "chapters": 18
+  },
+  "2024": {
+    "year": "2024",
+    "total_files": 506,
+    "size_mb": 65.7,
+    "chapters": 22
+  },
+  "2025": {
+    "year": "2025",
+    "total_files": 461,
+    "size_mb": 58.84,
+    "chapters": 21
+  },
+  "2026": {
+    "year": "2026",
+    "total_files": 463,
+    "size_mb": 87.64,
+    "chapters": 18
+  },
+  "_total": {
+    "years_count": 18,
+    "total_files": 7147,
+    "total_size_mb": 1406.14,
+    "total_size_gb": 1.37
+  }
+}

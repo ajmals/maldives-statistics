@@ -1,0 +1,24 @@
+{
+  "table_id": "Poverty",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Household Income and Expenditure Survey 2016",
+  "notes": [
+    "1/ Consumption aggregate is the measure of welfare adopted to assess population's living standard based on household expenditure. It is derived by aggregating households’ expenditures on goods and services that contribute to the welfare of the population and excludes lumpy expenditures such as on weddings, housing constructions, health.",
+    "2/ National Poverty Line is set at half the median of total Expenditure in the Consumption Aggregate (which is MVR 74)",
+    "2/ High Poverty Line is set at median of total Expenditure in the Consumption Aggregate (which is MVR 148)",
+    "2/ International Poverty Line takes the value given for Upper Middle-income country of $5.50 (After adjustment for PPP and inflation gives MVR 70)",
+    "2/ Poverty rate or the headcount ratio is the percentage of population living below a given poverty line (the % of poor people)",
+    "3/ Poverty Gap Index measures the depth of poverty by determining the gap between the actual state of an individual and the poverty line(how far the poor are from a given poverty line)",
+    "4/ Inequality is measured using Gini Coefficient. Gini Coefficient measures the extent to which the distribution of consumption among individuals/households differs from a perfectly equal one. Gini coefficient takes the value between 0 and 1. A value of 0 represents absolute equality with everybody consuming the same amount. A value of 1 represent inequality where all consumption is concentrated in one person."
+  ],
+  "columns": [
+    "POVERTY INDICATORS - Poverty & inequality measures (using Consumption Aggregate) 1_/ - Headcount ratios (population below the defined poverty line) 2_/",
+    "POVERTY INDICATORS",
+    "POVERTY INDICATORS - Republic",
+    "POVERTY INDICATORS - 2016 - Male'",
+    "POVERTY INDICATORS - 2016 - Atolls"
+  ],
+  "row_count": 9
+}

@@ -1,0 +1,14 @@
+{
+  "table_id": "9.15",
+  "title_en": "TABLE 9.14: NUMBER OF FARMERS BY ATOLL, 2013-2014",
+  "title_dv": "ތާވަލު 9.14: ދަނޑުވެރިންގެ އަދަދު، 2014-2013",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވި ފަރާތް: މިނިސްޓްރީ އޮފް ފިޝަރީޒް އެންޑް އެގްރިކަލްޗަރ",
+  "notes": [],
+  "columns": [
+    "Atolls",
+    "No. of Farmers - 2013",
+    "No. of Farmers - 2014"
+  ],
+  "row_count": 21
+}

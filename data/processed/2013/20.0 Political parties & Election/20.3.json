@@ -1,0 +1,16 @@
+{
+  "table_id": "20.3",
+  "title_en": "TABLE 20.3: PRESIDENTIAL ELECTION, 2008",
+  "title_dv": "ތާވަލު 20.3: 2008 ވަނަ އަހަރުގެ ރިޔާސީ އިންތިޚާބު",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [
+    "Note: All those 18 years of age and over are eligible to vote."
+  ],
+  "columns": [
+    "Details",
+    "Frist Round",
+    "Second Round"
+  ],
+  "row_count": 5
+}

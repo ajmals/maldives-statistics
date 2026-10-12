@@ -1,0 +1,32 @@
+{
+  "table_id": "9.4",
+  "title_en": "Table 9.4 : FISH CATCH BY MONTH, 2008 - 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "(In metric tons) - Month",
+    "(In metric tons) - Fish catch - 2004",
+    "(In metric tons) - Fish catch - 2006",
+    "(In metric tons) - Fish catch - 2007",
+    "(In metric tons) - Fish catch - 2008",
+    "(In metric tons) - Fish catch - 2009",
+    "(In metric tons) - Fish catch - 2010",
+    "(In metric tons) - Fish catch - 2011",
+    "(In metric tons) - Fish catch - 2012",
+    "(In metric tons) - Fish catch - 2013",
+    "(In metric tons) - Fish catch - 2014",
+    "(In metric tons) - Percentage share - 2006",
+    "(In metric tons) - Percentage share - 2007",
+    "(In metric tons) - Percentage share - 2008",
+    "(In metric tons) - Percentage share - 2009",
+    "(In metric tons) - Percentage share - 2010",
+    "(In metric tons) - Percentage share - 2011",
+    "(In metric tons) - Percentage share - 2012",
+    "(In metric tons) - Percentage share - 2013",
+    "(In metric tons) - Percentage share - 2014",
+    "(In metric tons) - % change over - previous year"
+  ],
+  "row_count": 14
+}

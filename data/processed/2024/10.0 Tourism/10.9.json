@@ -1,0 +1,41 @@
+{
+  "table_id": "10.9",
+  "title_en": "Table 10.9: TOURIST ARRIVALS,AND TOURIST BED-NIGHTS BY MONTH, 2017 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: * Tourist Bed night figures include resorts/hotels/safaris & guesthouses",
+    "Note: Maldives border was closed for international visitirs on 27th March 2020 due to global COVID-19 outbreak and was re-opened on 15th July 2020",
+    "Due to COVIC-19 pandamic, some tourists were unable to travel back to their home country.",
+    "(*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "Month",
+    "2014",
+    "2015",
+    "2016",
+    "Tourist Bed-nights* - 2017",
+    "Tourist Bed-nights* - 2018",
+    "Tourist Bed-nights* - 2019",
+    "Tourist Bed-nights* - 2020",
+    "Tourist Bed-nights* - 2021",
+    "Tourist Bed-nights* - 2022",
+    "Tourist Bed-nights* - 2023",
+    "Tourist Arrivals - 2014",
+    "Tourist Arrivals - 2015",
+    "Tourist Arrivals - 2016",
+    "Tourist Arrivals - 2017",
+    "Tourist Arrivals - 2018",
+    "Tourist Arrivals - 2019",
+    "Tourist Arrivals - 2020",
+    "Tourist Arrivals - 2021",
+    "Tourist Arrivals - 2022",
+    "Tourist Arrivals - 2023",
+    "% change same month of previous year - Tourist Arrivals - Tourist Bed-nights* - 2022 - 2023",
+    "% change same month of previous year - Tourist Arrivals - 2022 - 2023",
+    "% change from previous month - Tourist Arrivals - Tourist Bed-nights* - 2023",
+    "% change from previous month - Tourist Arrivals - 2023"
+  ],
+  "row_count": 13
+}

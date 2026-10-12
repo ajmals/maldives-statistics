@@ -1,0 +1,24 @@
+{
+  "table_id": "14.6",
+  "title_en": "Table 14.6 : OTHER DEPOSITORY CORPORATIONS PRIVATE SECTOR LOANS & ADVANCES BY ECONOMIC GROUP, 2011 - 2012",
+  "title_dv": "ތާވަލު 14.6: ބޭންކުތަކުން އަމިއްލަ ފަރާތްތަކަށް ލޯނު އަދި އެޑްވާސް ގެގޮތުގައި (އިޤްތިސާދީ އެކި ބައިތަކަށް) ދޫކުރެވުނު ފައިސާ 2011- 2012",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1_/ : Dec 2011 is revised",
+    "2_/ Excluding accrued interest receivable and accounts receivables"
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Economic groups",
+    "(In millions of Rufiyaa; end of period) - 2011 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2011 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2011 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2011 - Dec1_/",
+    "(In millions of Rufiyaa; end of period) - 2012 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2012 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2012 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2012 - Dec"
+  ],
+  "row_count": 29
+}

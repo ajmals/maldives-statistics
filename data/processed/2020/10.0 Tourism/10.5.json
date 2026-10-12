@@ -1,0 +1,21 @@
+{
+  "table_id": "10.5",
+  "title_en": "Table 10.5: BED CAPACITY AND UTILIZATION OF HOTELS BY MONTH, 2018 - 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2018 - Registered Bed Capacity",
+    "2018 - % share of registered beds in operation",
+    "2018 - Bed Capacity Utilization Rate %",
+    "2018 - Tourist Bednights",
+    "2019 - Registered Bed Capacity",
+    "2019 - Beds in operation",
+    "2019 - % share of registered beds in operation",
+    "2019 - Bed Capacity Utilization Rate %",
+    "2019 - Tourist Bednights"
+  ],
+  "row_count": 13
+}

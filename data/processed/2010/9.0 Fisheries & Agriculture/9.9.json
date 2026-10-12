@@ -1,0 +1,28 @@
+{
+  "table_id": "9.9",
+  "title_en": "Table 9.9 : MIFCO PRODUCTION, 2004 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Industrial Fisheries Company Limited",
+  "notes": [
+    "Additional remarks.",
+    "1. 2004, canned tuna conversion to metric tones procedure revised.",
+    "2. Previously canned tuna weight age was taken as drain weight, but now taken as Net weight.",
+    "3. Other products includes Fish soup, Cooked Loins, Whole Frozen YF GG."
+  ],
+  "columns": [
+    "Type of Products",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "% change over previous year - 2005",
+    "% change over previous year - 2006",
+    "% change over previous year - 2007",
+    "% change over previous year - 2008",
+    "% change over previous year - 2009"
+  ],
+  "row_count": 9
+}

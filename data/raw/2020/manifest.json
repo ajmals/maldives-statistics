@@ -1,0 +1,5113 @@
+{
+  "year": "2020",
+  "total_items": 567,
+  "downloaded": 0,
+  "skipped": 559,
+  "failed": 8,
+  "total_size_bytes": 185246941,
+  "items": [
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/1.4.pdf",
+      "path": "data/raw/2020/1.0 Geography/1.4.pdf",
+      "size": 553568,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/1.1.pdf",
+      "path": "data/raw/2020/1.0 Geography/1.1.pdf",
+      "size": 609430,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.2.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.2.xlsx",
+      "size": 270465,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/1.5.xlsx",
+      "path": "data/raw/2020/1.0 Geography/1.5.xlsx",
+      "size": 49804,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/1.1.xlsx",
+      "path": "data/raw/2020/1.0 Geography/1.1.xlsx",
+      "size": 69575,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/1.3.xlsx",
+      "path": "data/raw/2020/1.0 Geography/1.3.xlsx",
+      "size": 16623,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/1.3.pdf",
+      "path": "data/raw/2020/1.0 Geography/1.3.pdf",
+      "size": 571164,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/1.4.xlsx",
+      "path": "data/raw/2020/1.0 Geography/1.4.xlsx",
+      "size": 13950,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.1.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.1.xlsx",
+      "size": 33323,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/1.2.pdf",
+      "path": "data/raw/2020/1.0 Geography/1.2.pdf",
+      "size": 635886,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.3.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.3.xlsx",
+      "size": 206400,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.4.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.4.xlsx",
+      "size": 29042,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.1.pdf",
+      "path": "data/raw/2020/3.0 Population/3.1.pdf",
+      "size": 658234,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/11/3.6.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.6.xlsx",
+      "size": 32615,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.2.pdf",
+      "path": "data/raw/2020/3.0 Population/3.2.pdf",
+      "size": 667310,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.3.pdf",
+      "path": "data/raw/2020/3.0 Population/3.3.pdf",
+      "size": 1311023,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.7.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.7.xlsx",
+      "size": 34548,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.8.pdf",
+      "path": "data/raw/2020/3.0 Population/3.8.pdf",
+      "size": 626421,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.4.pdf",
+      "path": "data/raw/2020/3.0 Population/3.4.pdf",
+      "size": 602067,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/1.5.pdf",
+      "path": "data/raw/2020/1.0 Geography/1.5.pdf",
+      "size": 838308,
+      "year": "2020",
+      "folder": "1.0 Geography",
+      "filename": "1.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.5.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.5.xlsx",
+      "size": 30882,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/11/3.6.pdf",
+      "path": "data/raw/2020/3.0 Population/3.6.pdf",
+      "size": 225134,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.7.pdf",
+      "path": "data/raw/2020/3.0 Population/3.7.pdf",
+      "size": 747367,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.11.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.11.xlsx",
+      "size": 13522,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.5.pdf",
+      "path": "data/raw/2020/3.0 Population/3.5.pdf",
+      "size": 798061,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.10.pdf",
+      "path": "data/raw/2020/3.0 Population/3.10.pdf",
+      "size": 714534,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.8.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.8.xlsx",
+      "size": 24633,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.9.pdf",
+      "path": "data/raw/2020/3.0 Population/3.9.pdf",
+      "size": 736839,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.14.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.14.xlsx",
+      "size": 78174,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.15.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.15.xlsx",
+      "size": 88677,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.11.pdf",
+      "path": "data/raw/2020/3.0 Population/3.11.pdf",
+      "size": 569833,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.9.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.9.xlsx",
+      "size": 31357,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.13.pdf",
+      "path": "data/raw/2020/3.0 Population/3.13.pdf",
+      "size": 836261,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.12.pdf",
+      "path": "data/raw/2020/3.0 Population/3.12.pdf",
+      "size": 613097,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.13.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.13.xlsx",
+      "size": 108367,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.12.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.12.xlsx",
+      "size": 19853,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/3.10.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.10.xlsx",
+      "size": 21157,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.16.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.16.xlsx",
+      "size": 70603,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.15.pdf",
+      "path": "data/raw/2020/3.0 Population/3.15.pdf",
+      "size": 824151,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.17.pdf",
+      "path": "data/raw/2020/3.0 Population/3.17.pdf",
+      "size": 97635,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.19.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.19.xlsx",
+      "size": 31854,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.14.pdf",
+      "path": "data/raw/2020/3.0 Population/3.14.pdf",
+      "size": 825557,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.21.pdf",
+      "path": "data/raw/2020/3.0 Population/3.21.pdf",
+      "size": 562538,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.21.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.23.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.23.xlsx",
+      "size": 17825,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.23.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.17.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.17.xlsx",
+      "size": 43603,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/3.16.pdf",
+      "path": "data/raw/2020/3.0 Population/3.16.pdf",
+      "size": 797822,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.16.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.23.pdf",
+      "path": "data/raw/2020/3.0 Population/3.23.pdf",
+      "size": 552957,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.23.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.22.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.22.xlsx",
+      "size": 19069,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.22.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.21.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.21.xlsx",
+      "size": 27570,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.20.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.20.xlsx",
+      "size": 18211,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.19.pdf",
+      "path": "data/raw/2020/3.0 Population/3.19.pdf",
+      "size": 559232,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/4.4.xlsx",
+      "path": "data/raw/2020/4.0 Housing and public infrastructure/4.4.xlsx",
+      "size": 20566,
+      "year": "2020",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.22.pdf",
+      "path": "data/raw/2020/3.0 Population/3.22.pdf",
+      "size": 589990,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.22.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.24.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.24.xlsx",
+      "size": 17070,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.24.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.1.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.1.pdf",
+      "size": 639270,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/3.20.pdf",
+      "path": "data/raw/2020/3.0 Population/3.20.pdf",
+      "size": 581246,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.20.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.1.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.1.xlsx",
+      "size": 34693,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/4.4.pdf",
+      "path": "data/raw/2020/4.0 Housing and public infrastructure/4.4.pdf",
+      "size": 569105,
+      "year": "2020",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/4.5.pdf",
+      "path": "data/raw/2020/4.0 Housing and public infrastructure/4.5.pdf",
+      "size": 565593,
+      "year": "2020",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.2.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.2.xlsx",
+      "size": 27202,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.2.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.2.pdf",
+      "size": 605194,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.24.pdf",
+      "path": "data/raw/2020/3.0 Population/3.24.pdf",
+      "size": 718585,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.24.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.5.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.5.pdf",
+      "size": 581408,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.6.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.6.xlsx",
+      "size": 24000,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.25.xlsx",
+      "path": "data/raw/2020/3.0 Population/3.25.xlsx",
+      "size": 17667,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.25.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/4.5.xlsx",
+      "path": "data/raw/2020/4.0 Housing and public infrastructure/4.5.xlsx",
+      "size": 15808,
+      "year": "2020",
+      "folder": "4.0 Housing and public infrastructure",
+      "filename": "4.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.5.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.5.xlsx",
+      "size": 17071,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.7.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.7.xlsx",
+      "size": 21056,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/3.25.pdf",
+      "path": "data/raw/2020/3.0 Population/3.25.pdf",
+      "size": 612584,
+      "year": "2020",
+      "folder": "3.0 Population",
+      "filename": "3.25.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.6.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.6.pdf",
+      "size": 608069,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.8.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.8.xlsx",
+      "size": 23008,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.7.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.7.pdf",
+      "size": 631109,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.9.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.9.pdf",
+      "size": 616146,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.9.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.9.xlsx",
+      "size": 21227,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.8.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.8.pdf",
+      "size": 585140,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.10.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.10.xlsx",
+      "size": 31058,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/5.11.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.11.xlsx",
+      "size": 25001,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/5.11.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.11.pdf",
+      "size": 599933,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.10.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.10.pdf",
+      "size": 726319,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/5.13.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.13.pdf",
+      "size": 590436,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/5.13.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.13.xlsx",
+      "size": 26614,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.1.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.1.xlsx",
+      "size": 45844,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/5.12.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.12.xlsx",
+      "size": 26927,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.1.pdf",
+      "path": "data/raw/2020/6.0 Health/6.1.pdf",
+      "size": 899559,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.2.pdf",
+      "path": "data/raw/2020/6.0 Health/6.2.pdf",
+      "size": 813041,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.5.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.5.xlsx",
+      "size": 23025,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/5.12.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.12.pdf",
+      "size": 604205,
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.6.pdf",
+      "path": "data/raw/2020/6.0 Health/6.6.pdf",
+      "size": 621005,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.7.pdf",
+      "path": "data/raw/2020/6.0 Health/6.7.pdf",
+      "size": 573672,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.8.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.8.xlsx",
+      "size": 17748,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.6.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.6.xlsx",
+      "size": 23378,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.5.pdf",
+      "path": "data/raw/2020/6.0 Health/6.5.pdf",
+      "size": 624300,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.8.pdf",
+      "path": "data/raw/2020/6.0 Health/6.8.pdf",
+      "size": 612217,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.2.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.2.xlsx",
+      "size": 37412,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.10.pdf",
+      "path": "data/raw/2020/6.0 Health/6.10.pdf",
+      "size": 548135,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.11.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.11.xlsx",
+      "size": 23569,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.11.pdf",
+      "path": "data/raw/2020/6.0 Health/6.11.pdf",
+      "size": 740248,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.7.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.7.xlsx",
+      "size": 15376,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.9.pdf",
+      "path": "data/raw/2020/6.0 Health/6.9.pdf",
+      "size": 554979,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.14.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.14.xlsx",
+      "size": 31659,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.12.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.12.xlsx",
+      "size": 13849,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.10.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.10.xlsx",
+      "size": 13785,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.9.xlsx",
+      "path": "data/raw/2020/6.0 Health/6.9.xlsx",
+      "size": 14236,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.1.pdf",
+      "path": "data/raw/2020/7.0 Education/7.1.pdf",
+      "size": 643525,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.12.pdf",
+      "path": "data/raw/2020/6.0 Health/6.12.pdf",
+      "size": 528466,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.2.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.2.xlsx",
+      "size": 22882,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.1.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.1.xlsx",
+      "size": 33392,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.4.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.4.xlsx",
+      "size": 17185,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/6.14.pdf",
+      "path": "data/raw/2020/6.0 Health/6.14.pdf",
+      "size": 712744,
+      "year": "2020",
+      "folder": "6.0 Health",
+      "filename": "6.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.5.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.5.xlsx",
+      "size": 12342,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.5.pdf",
+      "path": "data/raw/2020/7.0 Education/7.5.pdf",
+      "size": 549559,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.2.pdf",
+      "path": "data/raw/2020/7.0 Education/7.2.pdf",
+      "size": 572059,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.3.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.3.xlsx",
+      "size": 19044,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.3.pdf",
+      "path": "data/raw/2020/7.0 Education/7.3.pdf",
+      "size": 597196,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.8.pdf",
+      "path": "data/raw/2020/7.0 Education/7.8.pdf",
+      "size": 576928,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.9.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.9.xlsx",
+      "size": 19437,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.4.pdf",
+      "path": "data/raw/2020/7.0 Education/7.4.pdf",
+      "size": 566280,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.6.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.6.xlsx",
+      "size": 16792,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.10.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.10.xlsx",
+      "size": 31685,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.11.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.11.xlsx",
+      "size": 22371,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.9.pdf",
+      "path": "data/raw/2020/7.0 Education/7.9.pdf",
+      "size": 623490,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.12.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.12.xlsx",
+      "size": 27448,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.6.pdf",
+      "path": "data/raw/2020/7.0 Education/7.6.pdf",
+      "size": 610747,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.8.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.8.xlsx",
+      "size": 16668,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.13.pdf",
+      "path": "data/raw/2020/7.0 Education/7.13.pdf",
+      "size": 687096,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.14.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.14.xlsx",
+      "size": 38084,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.13.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.13.xlsx",
+      "size": 43880,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.11.pdf",
+      "path": "data/raw/2020/7.0 Education/7.11.pdf",
+      "size": 588367,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.12.pdf",
+      "path": "data/raw/2020/7.0 Education/7.12.pdf",
+      "size": 647520,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.10.pdf",
+      "path": "data/raw/2020/7.0 Education/7.10.pdf",
+      "size": 706763,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.15.pdf",
+      "path": "data/raw/2020/7.0 Education/7.15.pdf",
+      "size": 633689,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.15.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.15.xlsx",
+      "size": 32137,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/7.17.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.17.xlsx",
+      "size": 22446,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/7.14.pdf",
+      "path": "data/raw/2020/7.0 Education/7.14.pdf",
+      "size": 917967,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.16.pdf",
+      "path": "data/raw/2020/7.0 Education/7.16.pdf",
+      "size": 552544,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.16.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.18.pdf",
+      "path": "data/raw/2020/7.0 Education/7.18.pdf",
+      "size": 545309,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.18.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/7.19.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.19.xlsx",
+      "size": 12111,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/7.17.pdf",
+      "path": "data/raw/2020/7.0 Education/7.17.pdf",
+      "size": 565658,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.18.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.18.xlsx",
+      "size": 12221,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.18.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.21.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.21.xlsx",
+      "size": 23848,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/7.19.pdf",
+      "path": "data/raw/2020/7.0 Education/7.19.pdf",
+      "size": 545659,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/7.22.pdf",
+      "path": "data/raw/2020/7.0 Education/7.22.pdf",
+      "size": 484888,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.22.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.16.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.16.xlsx",
+      "size": 17670,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/7.22.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.22.xlsx",
+      "size": 23368,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.22.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.27.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.27.xlsx",
+      "size": 10417,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.27.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/7.21.pdf",
+      "path": "data/raw/2020/7.0 Education/7.21.pdf",
+      "size": 603766,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.21.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.27.pdf",
+      "path": "data/raw/2020/7.0 Education/7.27.pdf",
+      "size": 517894,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.27.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.29.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.29.xlsx",
+      "size": 16781,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.29.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.28.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.28.xlsx",
+      "size": 10846,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.28.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.28.pdf",
+      "path": "data/raw/2020/7.0 Education/7.28.pdf",
+      "size": 522615,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.28.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.30.pdf",
+      "path": "data/raw/2020/7.0 Education/7.30.pdf",
+      "size": 613274,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.30.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.29.pdf",
+      "path": "data/raw/2020/7.0 Education/7.29.pdf",
+      "size": 546953,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.29.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.30.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.30.xlsx",
+      "size": 17214,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.30.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.31.xlsx",
+      "path": "data/raw/2020/7.0 Education/7.31.xlsx",
+      "size": 13262,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.31.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.1.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.1.xlsx",
+      "size": 29935,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/7.31.pdf",
+      "path": "data/raw/2020/7.0 Education/7.31.pdf",
+      "size": 551912,
+      "year": "2020",
+      "folder": "7.0 Education",
+      "filename": "7.31.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.2.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.2.pdf",
+      "size": 659454,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.4.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.4.xlsx",
+      "size": 19561,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.1.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.1.pdf",
+      "size": 645982,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.3.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.3.xlsx",
+      "size": 21410,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.4.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.4.pdf",
+      "size": 621193,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.5.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.5.xlsx",
+      "size": 17118,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.5.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.5.pdf",
+      "size": 496165,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.2.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.2.xlsx",
+      "size": 24388,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.3.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.3.pdf",
+      "size": 605781,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.6.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.6.pdf",
+      "size": 562001,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.8.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.8.pdf",
+      "size": 598839,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.7.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.7.xlsx",
+      "size": 18348,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.6.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.6.xlsx",
+      "size": 18756,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.7.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.7.pdf",
+      "size": 591659,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.10.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.10.pdf",
+      "size": 593005,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.11.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.11.pdf",
+      "size": 767718,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/8.8.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.8.xlsx",
+      "size": 24332,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.11.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.11.xlsx",
+      "size": 24361,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.13.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.13.xlsx",
+      "size": 40407,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.13.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.13.pdf",
+      "size": 881534,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.12.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.12.pdf",
+      "size": 775223,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/8.9.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.9.xlsx",
+      "size": 18584,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.12.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.12.xlsx",
+      "size": 22516,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.15.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.15.pdf",
+      "size": 576673,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.16.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.16.xlsx",
+      "size": 29593,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/07/8.9.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.9.pdf",
+      "size": 551304,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.16.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.16.pdf",
+      "size": 608603,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.16.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.14.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.14.xlsx",
+      "size": 22753,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.15.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.15.xlsx",
+      "size": 127664,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.17.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.17.pdf",
+      "size": 1177685,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.19.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.19.xlsx",
+      "size": 26726,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.19.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.19.pdf",
+      "size": 687469,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.20.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.20.xlsx",
+      "size": 24603,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.14.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.14.pdf",
+      "size": 603315,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.21.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.21.xlsx",
+      "size": 41968,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.21.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.21.pdf",
+      "size": 827766,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.21.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/8.22.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.22.xlsx",
+      "size": 15550,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.22.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.17.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.17.xlsx",
+      "size": 36108,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/8.22.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.22.pdf",
+      "size": 589181,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.22.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.23.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.23.pdf",
+      "size": 991725,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.23.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/8.18.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.18.pdf",
+      "size": 541392,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.18.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.23.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.23.xlsx",
+      "size": 87921,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.23.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.25.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.25.xlsx",
+      "size": 11912,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.25.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.25.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.25.pdf",
+      "size": 563168,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.25.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.24.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.24.xlsx",
+      "size": 43019,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.24.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/8.18.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.18.xlsx",
+      "size": 11697,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.18.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.24.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.24.pdf",
+      "size": 822040,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.24.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.27.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.27.pdf",
+      "size": 560798,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.27.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.28.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.28.xlsx",
+      "size": 15072,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.28.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.28.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.28.pdf",
+      "size": 619002,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.28.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.20.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.20.pdf",
+      "size": 642824,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.20.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.26.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.26.xlsx",
+      "size": 11973,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.26.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.29.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.29.xlsx",
+      "size": 36006,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.29.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/8.30.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.30.pdf",
+      "size": 604793,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.30.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.26.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.26.pdf",
+      "size": 565237,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.26.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/01/8.32.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.32.pdf",
+      "size": 455573,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.32.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/01/8.33.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.33.xlsx",
+      "size": 33002,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.33.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/8.30.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.30.xlsx",
+      "size": 18517,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.30.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/09/8.34.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.34.xlsx",
+      "size": 37265,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.34.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.27.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.27.xlsx",
+      "size": 16268,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.27.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/01/8.33.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.33.pdf",
+      "size": 494864,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.33.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/8.29.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.29.pdf",
+      "size": 720890,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.29.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/09/8.35.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.35.xlsx",
+      "size": 25627,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.35.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/01/8.32.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.32.xlsx",
+      "size": 22340,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.32.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/09/8.36.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.36.xlsx",
+      "size": 15051,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.36.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/09/8.34.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.34.pdf",
+      "size": 874453,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.34.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.46.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.46.pdf",
+      "size": 590539,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.46.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.47.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.47.pdf",
+      "size": 552572,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.47.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/09/8.35.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.35.pdf",
+      "size": 636959,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.35.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.46.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.46.xlsx",
+      "size": 12712,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.46.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.50.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.50.xlsx",
+      "size": 14181,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.50.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.44.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.44.pdf",
+      "size": 588192,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.44.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.52.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.52.xlsx",
+      "size": 12069,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.52.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.52.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.52.pdf",
+      "size": 551453,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.52.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.44.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.44.xlsx",
+      "size": 24003,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.44.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.51.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.51.xlsx",
+      "size": 12168,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.51.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.54.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.54.pdf",
+      "size": 554935,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.54.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.55.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.55.xlsx",
+      "size": 11540,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.55.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.55.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.55.pdf",
+      "size": 541464,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.55.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.50.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.50.pdf",
+      "size": 583161,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.50.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.56.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.56.pdf",
+      "size": 542186,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.56.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.54.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.54.xlsx",
+      "size": 11496,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.54.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.57.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.57.pdf",
+      "size": 551699,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.57.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.53.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.53.pdf",
+      "size": 547417,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.53.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.58.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.58.xlsx",
+      "size": 11663,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.58.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.56.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.56.xlsx",
+      "size": 12839,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.56.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.51.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.51.pdf",
+      "size": 554015,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.51.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.59.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.59.xlsx",
+      "size": 11452,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.59.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.60.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.60.xlsx",
+      "size": 11965,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.60.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.61.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.61.xlsx",
+      "size": 10268,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.61.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.58.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.58.pdf",
+      "size": 561847,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.58.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.1.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.1.xlsx",
+      "size": 33527,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.4.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.4.xlsx",
+      "size": 25530,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.60.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.60.pdf",
+      "size": 546603,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.60.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.5.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.5.xlsx",
+      "size": 15892,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.57.xlsx",
+      "path": "data/raw/2020/8.0 Law & Order/8.57.xlsx",
+      "size": 11591,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.57.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.59.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.59.pdf",
+      "size": 548231,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.59.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.7.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.7.pdf",
+      "size": 573990,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.5.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.5.pdf",
+      "size": 580939,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.4.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.4.pdf",
+      "size": 625721,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.13.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.13.xlsx",
+      "size": 14772,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.7.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.7.xlsx",
+      "size": 17177,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/8.61.pdf",
+      "path": "data/raw/2020/8.0 Law & Order/8.61.pdf",
+      "size": 530130,
+      "year": "2020",
+      "folder": "8.0 Law & Order",
+      "filename": "8.61.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.12.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.12.xlsx",
+      "size": 16286,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.15.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.15.xlsx",
+      "size": 15473,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.14.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.14.xlsx",
+      "size": 22829,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.13.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.13.pdf",
+      "size": 579597,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.16.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.16.pdf",
+      "size": 561360,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.16.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.15.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.15.pdf",
+      "size": 560546,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.17.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.17.pdf",
+      "size": 542838,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.18.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.18.xlsx",
+      "size": 26738,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.18.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.18.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.18.pdf",
+      "size": 600487,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.18.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/9.19.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.19.xlsx",
+      "size": 15320,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/9.19.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.19.pdf",
+      "size": 584514,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.16.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.16.xlsx",
+      "size": 11863,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.17.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.17.xlsx",
+      "size": 11911,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.20.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.20.pdf",
+      "size": 593754,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.20.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.20.xlsx",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.20.xlsx",
+      "size": 15863,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/10.2.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.2.xlsx",
+      "size": 24200,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/10.2.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.2.pdf",
+      "size": 634496,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.12.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.12.pdf",
+      "size": 582175,
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.1.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.1.pdf",
+      "size": 703682,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.1.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.1.xlsx",
+      "size": 57622,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.3.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.3.xlsx",
+      "size": 27956,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.5.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.5.xlsx",
+      "size": 23712,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.4.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.4.xlsx",
+      "size": 22238,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.4.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.4.pdf",
+      "size": 579405,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.6.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.6.pdf",
+      "size": 576557,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.3.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.3.pdf",
+      "size": 631651,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.7.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.7.xlsx",
+      "size": 24038,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.6.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.6.xlsx",
+      "size": 24685,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.5.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.5.pdf",
+      "size": 574284,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.9.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.9.xlsx",
+      "size": 30279,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.9.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.9.pdf",
+      "size": 655364,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.8.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.8.pdf",
+      "size": 646946,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.8.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.8.xlsx",
+      "size": 33112,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.10.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.10.pdf",
+      "size": 611975,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.7.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.7.pdf",
+      "size": 572888,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.11.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.11.xlsx",
+      "size": 33698,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.12.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.12.xlsx",
+      "size": 34030,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.10.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.10.xlsx",
+      "size": 19236,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.11.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.11.pdf",
+      "size": 606684,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.13.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.13.xlsx",
+      "size": 44429,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.12.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.12.pdf",
+      "size": 618752,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.13.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.13.pdf",
+      "size": 748535,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.15.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.15.xlsx",
+      "size": 26102,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.14.xlsx",
+      "path": "data/raw/2020/10.0 Tourism/10.14.xlsx",
+      "size": 41943,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.14.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.14.pdf",
+      "size": 806446,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.10.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.10.xlsx",
+      "size": 19096,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/10.15.pdf",
+      "path": "data/raw/2020/10.0 Tourism/10.15.pdf",
+      "size": 697524,
+      "year": "2020",
+      "folder": "10.0 Tourism",
+      "filename": "10.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.11.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.11.xlsx",
+      "size": 13128,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.11.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.11.pdf",
+      "size": 563695,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.10.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.10.pdf",
+      "size": 650713,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.13.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.13.xlsx",
+      "size": 25616,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.12.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.12.xlsx",
+      "size": 13931,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.13.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.13.pdf",
+      "size": 574873,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.14.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.14.xlsx",
+      "size": 11973,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.14.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.14.pdf",
+      "size": 558472,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.12.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.12.pdf",
+      "size": 584522,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.15.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.15.pdf",
+      "size": 634772,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.16.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.16.xlsx",
+      "size": 23139,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.15.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.15.xlsx",
+      "size": 20559,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.16.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.16.pdf",
+      "size": 626213,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.16.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.18.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.18.xlsx",
+      "size": 15872,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.18.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.18.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.18.pdf",
+      "size": 563460,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.18.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.19.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.19.pdf",
+      "size": 562719,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.17.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.17.pdf",
+      "size": 580972,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.19.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.19.xlsx",
+      "size": 15882,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.21.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.21.xlsx",
+      "size": 15902,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.17.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.17.xlsx",
+      "size": 29156,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.22.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.22.xlsx",
+      "size": 16029,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.22.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.20.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.20.pdf",
+      "size": 562746,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.20.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.20.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.20.xlsx",
+      "size": 15251,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.23.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.23.xlsx",
+      "size": 16181,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.23.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.24.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.24.xlsx",
+      "size": 18121,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.24.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.21.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.21.pdf",
+      "size": 565904,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.21.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/02/11.25.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.25.xlsx",
+      "size": 23934,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.25.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/02/11.25.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.25.pdf",
+      "size": 656326,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.25.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.26.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.26.xlsx",
+      "size": 22767,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.26.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.24.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.24.pdf",
+      "size": 608966,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.24.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.23.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.23.pdf",
+      "size": 561756,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.23.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.22.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.22.pdf",
+      "size": 576179,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.22.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.1.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.1.xlsx",
+      "size": 81362,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.1.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.1.pdf",
+      "size": 600118,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/10/12.2.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.2.xlsx",
+      "size": 71570,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.26.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.26.pdf",
+      "size": 640797,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.26.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.27.xlsx",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.27.xlsx",
+      "size": 23873,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.27.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/11.27.pdf",
+      "path": "data/raw/2020/11.0 Transport and Communication/11.27.pdf",
+      "size": 785307,
+      "year": "2020",
+      "folder": "11.0 Transport and Communication",
+      "filename": "11.27.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/10/12.3.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.3.pdf",
+      "size": 607064,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/10/12.2.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.2.pdf",
+      "size": 607898,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.5.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.5.xlsx",
+      "size": 89442,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/10/12.3.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.3.xlsx",
+      "size": 71514,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.6.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.6.xlsx",
+      "size": 81933,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.6.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.6.pdf",
+      "size": 615048,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/10/12.4.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.4.xlsx",
+      "size": 70138,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.7.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.7.xlsx",
+      "size": 73947,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.7.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.7.pdf",
+      "size": 576246,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.8.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.8.pdf",
+      "size": 598938,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/10/12.4.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.4.pdf",
+      "size": 605294,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.8.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.8.xlsx",
+      "size": 76129,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.9.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.9.pdf",
+      "size": 546684,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.10.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.10.xlsx",
+      "size": 66178,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.9.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.9.xlsx",
+      "size": 67451,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.11.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.11.xlsx",
+      "size": 71808,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.12.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.12.xlsx",
+      "size": 68559,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.10.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.10.pdf",
+      "size": 554227,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.5.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.5.pdf",
+      "size": 598853,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.11.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.11.pdf",
+      "size": 575165,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.12.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.12.pdf",
+      "size": 572240,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.14.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.14.xlsx",
+      "size": 67268,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.14.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.14.pdf",
+      "size": 566107,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.15.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.15.xlsx",
+      "size": 71822,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/12.20.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.20.xlsx",
+      "size": 60620,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.13.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.13.xlsx",
+      "size": 67759,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.13.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.13.pdf",
+      "size": 565635,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/12.15.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.15.pdf",
+      "size": 567555,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/12.21.xlsx",
+      "path": "data/raw/2020/12.0 Electricity and water/12.21.xlsx",
+      "size": 62033,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/12.20.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.20.pdf",
+      "size": 521719,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.20.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.1.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.1.xlsx",
+      "size": 29340,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.2.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.2.xlsx",
+      "size": 27825,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/12.21.pdf",
+      "path": "data/raw/2020/12.0 Electricity and water/12.21.pdf",
+      "size": 566323,
+      "year": "2020",
+      "folder": "12.0 Electricity and water",
+      "filename": "12.21.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.2.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.2.pdf",
+      "size": 624137,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.4.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.4.xlsx",
+      "size": 32212,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.4.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.4.pdf",
+      "size": 634812,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.1.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.1.pdf",
+      "size": 614240,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.5.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.5.pdf",
+      "size": 594347,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.6.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.6.xlsx",
+      "size": 39596,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.5.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.5.xlsx",
+      "size": 34546,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.7.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.7.xlsx",
+      "size": 45409,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.3.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.3.xlsx",
+      "size": 34486,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/13.3.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.3.pdf",
+      "size": 665520,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.6.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.6.pdf",
+      "size": 77709,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.9.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.9.xlsx",
+      "size": 24034,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.7.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.7.pdf",
+      "size": 91849,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.8.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.8.xlsx",
+      "size": 28351,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.10.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.10.xlsx",
+      "size": 23952,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.11.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.11.xlsx",
+      "size": 33319,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.8.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.8.pdf",
+      "size": 30345,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.9.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.9.pdf",
+      "size": 478088,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.11.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.11.pdf",
+      "size": 639671,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.10.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.10.pdf",
+      "size": 461740,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.12.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.12.pdf",
+      "size": 667788,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.1.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.1.xlsx",
+      "size": 25926,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.13.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.13.xlsx",
+      "size": 25034,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.2.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.2.xlsx",
+      "size": 27960,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.2.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.2.pdf",
+      "size": 714927,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.1.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.1.pdf",
+      "size": 776301,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.12.xlsx",
+      "path": "data/raw/2020/13.0 Public Finance/13.12.xlsx",
+      "size": 35323,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.3.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.3.xlsx",
+      "size": 28478,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.4.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.4.pdf",
+      "size": 698015,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.4.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.4.xlsx",
+      "size": 24494,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/13.13.pdf",
+      "path": "data/raw/2020/13.0 Public Finance/13.13.pdf",
+      "size": 723804,
+      "year": "2020",
+      "folder": "13.0 Public Finance",
+      "filename": "13.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.5.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.5.xlsx",
+      "size": 25862,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.6.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.6.pdf",
+      "size": 717331,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.7.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.7.xlsx",
+      "size": 29312,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.5.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.5.pdf",
+      "size": 696922,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.8.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.8.xlsx",
+      "size": 29772,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.3.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.3.pdf",
+      "size": 721005,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.9.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.9.xlsx",
+      "size": 26291,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.6.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.6.xlsx",
+      "size": 31941,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.7.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.7.pdf",
+      "size": 811129,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.8.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.8.pdf",
+      "size": 718502,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.10.xlsx",
+      "path": "data/raw/2020/14.0 Money and banking/14.10.xlsx",
+      "size": 38902,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.1.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.1.pdf",
+      "size": 658154,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.10.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.10.pdf",
+      "size": 945346,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.2.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.2.pdf",
+      "size": 613166,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.4.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.4.xlsx",
+      "size": 15851,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.1.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.1.xlsx",
+      "size": 45803,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.4.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.4.pdf",
+      "size": 568587,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/14.9.pdf",
+      "path": "data/raw/2020/14.0 Money and banking/14.9.pdf",
+      "size": 663109,
+      "year": "2020",
+      "folder": "14.0 Money and banking",
+      "filename": "14.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.6.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.6.xlsx",
+      "size": 21816,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.2.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.2.xlsx",
+      "size": 30226,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.7.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.7.xlsx",
+      "size": 19910,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.7.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.7.pdf",
+      "size": 599181,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.8.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.8.xlsx",
+      "size": 70405,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.8.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.8.pdf",
+      "size": 859832,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.5.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.5.pdf",
+      "size": 623861,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.6.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.6.pdf",
+      "size": 534181,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.9.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.9.xlsx",
+      "size": 23500,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.5.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.5.xlsx",
+      "size": 26574,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/15.9.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.9.pdf",
+      "size": 567823,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.1.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.1.pdf",
+      "size": 662317,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.2.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.2.xlsx",
+      "size": 26488,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.2.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.2.pdf",
+      "size": 665220,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.3.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.3.xlsx",
+      "size": 26964,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/15.10.xlsx",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.10.xlsx",
+      "size": 19427,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.4.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.4.xlsx",
+      "size": 25704,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.1.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.1.xlsx",
+      "size": 24235,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/09/15.10.pdf",
+      "path": "data/raw/2020/15.0 Foreign trade & Balance of payments/15.10.pdf",
+      "size": 723899,
+      "year": "2020",
+      "folder": "15.0 Foreign trade & Balance of payments",
+      "filename": "15.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.5.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.5.pdf",
+      "size": 663776,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.6.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.6.xlsx",
+      "size": 23622,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.6.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.6.pdf",
+      "size": 664100,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.5.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.5.xlsx",
+      "size": 23164,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.4.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.4.pdf",
+      "size": 687456,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.7.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.7.pdf",
+      "size": 652390,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.7.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.7.xlsx",
+      "size": 26598,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.8.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.8.xlsx",
+      "size": 23669,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.9.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.9.pdf",
+      "size": 772085,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.10.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.10.xlsx",
+      "size": 37566,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.10.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.10.pdf",
+      "size": 996667,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.8.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.8.pdf",
+      "size": 654271,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.11.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.11.pdf",
+      "size": 763986,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.12.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.12.xlsx",
+      "size": 37790,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.12.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.12.pdf",
+      "size": 752942,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.13.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.13.xlsx",
+      "size": 37602,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.3.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.3.pdf",
+      "size": 664694,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.13.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.13.pdf",
+      "size": 671793,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.11.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.11.xlsx",
+      "size": 79045,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.15.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.15.xlsx",
+      "size": 14166,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.15.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.9.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.9.xlsx",
+      "size": 34965,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.14.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.14.xlsx",
+      "size": 14333,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.14.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.16.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.16.xlsx",
+      "size": 14250,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.14.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.14.pdf",
+      "size": 590766,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.14.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.15.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.15.pdf",
+      "size": 587691,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.15.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.17.xlsx",
+      "path": "data/raw/2020/16.0 National Accounts/16.17.xlsx",
+      "size": 14003,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.16.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.16.pdf",
+      "size": 589410,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.16.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.1.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.1.pdf",
+      "size": 652066,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.1.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.1.xlsx",
+      "size": 23453,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.2.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.2.pdf",
+      "size": 659245,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.2.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.2.xlsx",
+      "size": 22995,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.4.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.4.xlsx",
+      "size": 16898,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.5.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.5.xlsx",
+      "size": 56302,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/16.17.pdf",
+      "path": "data/raw/2020/16.0 National Accounts/16.17.pdf",
+      "size": 585038,
+      "year": "2020",
+      "folder": "16.0 National Accounts",
+      "filename": "16.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.3.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.3.pdf",
+      "size": 765556,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.3.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.3.xlsx",
+      "size": 23221,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.5.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.5.pdf",
+      "size": 743424,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.6.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.6.xlsx",
+      "size": 55862,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.7.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.7.pdf",
+      "size": 734039,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.6.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.6.pdf",
+      "size": 785590,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.8.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.8.xlsx",
+      "size": 26197,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.10.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.10.pdf",
+      "size": 566118,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.8.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.8.pdf",
+      "size": 665552,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.7.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.7.xlsx",
+      "size": 27697,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.13.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.13.xlsx",
+      "size": 21277,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.12.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.12.pdf",
+      "size": 592071,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.10.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.10.xlsx",
+      "size": 23578,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.12.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.12.xlsx",
+      "size": 19670,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.13.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.13.pdf",
+      "size": 600509,
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.1.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.1.xlsx",
+      "size": 120818,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.1.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.1.pdf",
+      "size": 596558,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.2.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.2.pdf",
+      "size": 590990,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.3.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.3.xlsx",
+      "size": 25854,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.3.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.3.pdf",
+      "size": 634515,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.2.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.2.xlsx",
+      "size": 61372,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.4.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.4.pdf",
+      "size": 599812,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.5.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.5.xlsx",
+      "size": 20528,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.5.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.5.pdf",
+      "size": 600394,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.6.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.6.xlsx",
+      "size": 20022,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.4.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.4.xlsx",
+      "size": 24800,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.6.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.6.pdf",
+      "size": 602186,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.7.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.7.xlsx",
+      "size": 15768,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.7.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.7.pdf",
+      "size": 657738,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.8.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.8.pdf",
+      "size": 608915,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/18.8.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.8.xlsx",
+      "size": 18407,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.9.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.9.xlsx",
+      "size": 17443,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.9.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.10.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.10.xlsx",
+      "size": 14089,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.10.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.10.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.10.pdf",
+      "size": 537074,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.10.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.11.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.11.xlsx",
+      "size": 30447,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.11.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.9.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.9.pdf",
+      "size": 585895,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.11.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.11.pdf",
+      "size": 560193,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.11.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.12.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.12.pdf",
+      "size": 560193,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.12.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.12.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.12.xlsx",
+      "size": 694891,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.12.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.13.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.13.xlsx",
+      "size": 22446,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.13.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.16.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.16.xlsx",
+      "size": 29593,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.16.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/18.13.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.13.pdf",
+      "size": 653127,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.13.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.17.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.17.xlsx",
+      "size": 36108,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.17.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.16.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.16.pdf",
+      "size": 608603,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.16.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.18.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.18.xlsx",
+      "size": 24420,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.18.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.17.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.17.pdf",
+      "size": 1177685,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.17.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.19.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.19.xlsx",
+      "size": 21614,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.19.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.19.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.19.pdf",
+      "size": 997298,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.19.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.20.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.20.xlsx",
+      "size": 19399,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.20.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.18.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.18.pdf",
+      "size": 575002,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.18.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.21.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.21.xlsx",
+      "size": 13252,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.21.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.20.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.20.pdf",
+      "size": 1070020,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.20.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.22.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.22.xlsx",
+      "size": 23310,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.22.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.21.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.21.pdf",
+      "size": 746257,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.21.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.23.xlsx",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.23.xlsx",
+      "size": 65192,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.23.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/19.1.xlsx",
+      "path": "data/raw/2020/19.0 Human rights/19.1.xlsx",
+      "size": 20803,
+      "year": "2020",
+      "folder": "19.0 Human rights",
+      "filename": "19.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/19.1.pdf",
+      "path": "data/raw/2020/19.0 Human rights/19.1.pdf",
+      "size": 662063,
+      "year": "2020",
+      "folder": "19.0 Human rights",
+      "filename": "19.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/19.2.xlsx",
+      "path": "data/raw/2020/19.0 Human rights/19.2.xlsx",
+      "size": 15767,
+      "year": "2020",
+      "folder": "19.0 Human rights",
+      "filename": "19.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2021/03/18.23.pdf",
+      "path": "data/raw/2020/18.0 Pension & social protection/18.23.pdf",
+      "size": 926947,
+      "year": "2020",
+      "folder": "18.0 Pension & social protection",
+      "filename": "18.23.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/19.3.xlsx",
+      "path": "data/raw/2020/19.0 Human rights/19.3.xlsx",
+      "size": 27502,
+      "year": "2020",
+      "folder": "19.0 Human rights",
+      "filename": "19.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/19.2.pdf",
+      "path": "data/raw/2020/19.0 Human rights/19.2.pdf",
+      "size": 611518,
+      "year": "2020",
+      "folder": "19.0 Human rights",
+      "filename": "19.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.1.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.1.xlsx",
+      "size": 30853,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.1.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/19.3.pdf",
+      "path": "data/raw/2020/19.0 Human rights/19.3.pdf",
+      "size": 671263,
+      "year": "2020",
+      "folder": "19.0 Human rights",
+      "filename": "19.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.1.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.1.pdf",
+      "size": 617606,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.1.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.2.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.2.xlsx",
+      "size": 17640,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.2.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.2.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.2.pdf",
+      "size": 582825,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.2.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.3.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.3.pdf",
+      "size": 554527,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.3.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.4.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.4.xlsx",
+      "size": 24057,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.4.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.4.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.4.pdf",
+      "size": 656852,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.4.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.3.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.3.xlsx",
+      "size": 13015,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.3.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.5.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.5.pdf",
+      "size": 664891,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.5.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.5.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.5.xlsx",
+      "size": 23581,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.5.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.6.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.6.pdf",
+      "size": 587299,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.6.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.6.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.6.xlsx",
+      "size": 18334,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.6.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.7.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.7.pdf",
+      "size": 561241,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.7.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.8.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.8.xlsx",
+      "size": 18130,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.8.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.8.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.8.pdf",
+      "size": 591388,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.8.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/11/20.7.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.7.xlsx",
+      "size": 13935,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.7.xlsx"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.9.pdf",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.9.pdf",
+      "size": 603655,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.9.pdf"
+    },
+    {
+      "status": "skipped",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/12/20.9.xlsx",
+      "path": "data/raw/2020/20.0 Political parties & Election/20.9.xlsx",
+      "size": 22840,
+      "year": "2020",
+      "folder": "20.0 Political parties & Election",
+      "filename": "20.9.xlsx"
+    },
+    {
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "url": "http://satisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/10/9.14.pdf",
+      "path": "data/raw/2020/9.0 Fisheries & Agriculture/9.14.pdf",
+      "year": "2020",
+      "folder": "9.0 Fisheries & Agriculture",
+      "filename": "9.14.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.4.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.4.pdf",
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.4.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.14.pdf",
+      "path": "data/raw/2020/17.0 Prices/17.14.pdf",
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.14.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.3.pdf",
+      "path": "data/raw/2020/5.0 Employment/5.3.pdf",
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.3.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "http://statisticsmaldives.gov.mv/nbs/wp-content/uploads/2020/12/Statistical-Pocketbook-2020-updated-12820.pdf",
+      "path": "data/raw/2020/indicators/Statistical-Pocketbook-2020-updated-12820.pdf",
+      "year": "2020",
+      "folder": "indicators",
+      "filename": "Statistical-Pocketbook-2020-updated-12820.pdf"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.3.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.3.xlsx",
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.3.xlsx"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/06/5.4.xlsx",
+      "path": "data/raw/2020/5.0 Employment/5.4.xlsx",
+      "year": "2020",
+      "folder": "5.0 Employment",
+      "filename": "5.4.xlsx"
+    },
+    {
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "url": "https://statisticsmaldives.gov.mv/yearbook/2020/wp-content/uploads/sites/7/2020/08/17.14.xlsx",
+      "path": "data/raw/2020/17.0 Prices/17.14.xlsx",
+      "year": "2020",
+      "folder": "17.0 Prices",
+      "filename": "17.14.xlsx"
+    }
+  ]
+}

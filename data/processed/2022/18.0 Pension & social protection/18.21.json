@@ -1,0 +1,23 @@
+{
+  "table_id": "18.21",
+  "title_en": "Table 18.21 : EXPENDITURE ON AASANDHA SERVICES BY TYPE OF INSTITUTION , 2021",
+  "title_dv": "ތާވަލް 18.21: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން ދެވޭ ޙިދުމަތްތައް ފޯރުކޮށްދޭ ތަންތަނަށް ކުރެވިފައިވާ ޚަރަދު، 2021",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "Note: These expenditures are based on the blocked amount",
+    "Airfare includes expenditure for overseas airfare tickets, and local emergency evacuation tickets",
+    "Emergency evacuation includes Launch transfers and sea plane transfers"
+  ],
+  "columns": [
+    "Locality",
+    "Total Expenditure (MVR)",
+    "Hospitals",
+    "Pharmacies",
+    "Opticals",
+    "Clinics",
+    "Airfare Tickets",
+    "Emergency Evacuation - Sea"
+  ],
+  "row_count": 4
+}

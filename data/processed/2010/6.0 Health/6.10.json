@@ -1,0 +1,30 @@
+{
+  "table_id": "6.10",
+  "title_en": "Table 6.10: ESTIMATED IMMUNIZATION COVERAGE, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Centre for Community Health and Disease Control / EPI program",
+  "notes": [],
+  "columns": [
+    "Locality - Republic",
+    "Measles",
+    "MMR",
+    "Bacillus - Climate Guerin - (BCG) Dozes",
+    "Diptheria Partasis Tatnus - (DPT) Dozes - 1st",
+    "Diptheria Partasis Tatnus - (DPT) Dozes - 2nd",
+    "Diptheria Partasis Tatnus - (DPT) Dozes - 3rd",
+    "Tetanus Toxide - (TT) Dozes * - 1st",
+    "Tetanus Toxide - (TT) Dozes * - 2nd",
+    "Tetanus Toxide - (TT) Dozes * - 3rd",
+    "Tetanus Toxide - (TT) Dozes * - 4th",
+    "Tetanus Toxide - (TT) Dozes * - 5th",
+    "Hepatitis B - 1st",
+    "Hepatitis B - 2nd",
+    "Hepatitis B - 3rd",
+    "Oral Polio Vaccine - (OPV) Dozes - 1st",
+    "Oral Polio Vaccine - (OPV) Dozes - 2nd",
+    "Oral Polio Vaccine - (OPV) Dozes - 3rd",
+    "Oral Polio Vaccine - (OPV) Dozes - 4th"
+  ],
+  "row_count": 27
+}

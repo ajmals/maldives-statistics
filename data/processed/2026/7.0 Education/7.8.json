@@ -1,0 +1,19 @@
+{
+  "table_id": "7.8",
+  "title_en": "Table 7.8 :GROSS AND NET ENROLMENT RATIO BY LEVEL AND SEX, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education, Higher Education and Skills Development",
+  "notes": [],
+  "columns": [
+    "Level / Age Group",
+    "Net Enrolment Ratio - Both Sexes",
+    "Net Enrolment Ratio - Male",
+    "Net Enrolment Ratio - Female",
+    "Gross Enrolment Ratio - Both Sexes",
+    "Gross Enrolment Ratio - Male",
+    "Gross Enrolment Ratio - Female",
+    "Gender Parity Index"
+  ],
+  "row_count": 5
+}

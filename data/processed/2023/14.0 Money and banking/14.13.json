@@ -1,0 +1,27 @@
+{
+  "table_id": "14.13",
+  "title_en": "Table 14.13: Key Indicators of General Insurance Business, 2020 - 2022",
+  "title_dv": "ތާވަލު 14.13: އިންޝޫރެންސް ކުންފުނިތަކުގެ މުހިންމު ތަފާސްހިސާބުތައް: (2020 - 2022)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "Figures are from unaudited quarterly returns submitted to the MMA."
+  ],
+  "columns": [
+    "(millions of MVR) - Particulars - Premium",
+    "(millions of MVR) - 2020 - Mar",
+    "(millions of MVR) - 2020 - Jun",
+    "(millions of MVR) - 2020 - Sep",
+    "(millions of MVR) - 2020 - Dec",
+    "(millions of MVR) - 2021 - Mar",
+    "(millions of MVR) - 2021 - Jun",
+    "(millions of MVR) - 2021 - Sep",
+    "(millions of MVR) - 2021 - Dec",
+    "(millions of MVR) - 2022 - Mar",
+    "(millions of MVR) - 2022 - Jun",
+    "(millions of MVR) - 2022 - Sep",
+    "(millions of MVR) - 2022 - Dec"
+  ],
+  "row_count": 24
+}

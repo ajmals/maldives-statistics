@@ -1,0 +1,26 @@
+{
+  "table_id": "2.5",
+  "title_en": "Table: 2.5 WASTE TRANSPORTED TO THILAFUSHI, 2010 - 2014",
+  "title_dv": "",
+  "unit": "(in tons)",
+  "source": "Source: Waste Management Section, Malé City Council",
+  "notes": [
+    "Note: 1_/ Currently, all resorts in K. Atoll, B. Soneyvaafushi, and some resorts in Alifu Atoll dispose their waste in Thilafushi.",
+    "ނޯޓް: /_1 މިހާރު ތިލަފުއްޓަށް ކުނިގެންދަނީ ކ. އަތޮޅު ހުރިހާ ރިސޯރޓަކުންނާއި ބ. ސޮނޭވާފުށި އަދި އ.އަތޮޅުގެ ބައެއްރިސޯޓުންނެވެ."
+  ],
+  "columns": [
+    "(in tons) - Male'",
+    "(in tons) - 2004",
+    "(in tons) - 2005",
+    "(in tons) - 2006",
+    "(in tons) - 2007",
+    "(in tons) - 2008",
+    "(in tons) - 2009",
+    "(in tons) - 2010",
+    "(in tons) - 2011",
+    "(in tons) - 2012",
+    "(in tons) - 2013",
+    "(in tons) - 2014"
+  ],
+  "row_count": 8
+}

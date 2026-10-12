@@ -1,0 +1,38 @@
+{
+  "table_id": "1.3&1.4",
+  "title_en": "Table 1.4 : RELATIVE HUMIDITY IN PERCENTAGE BY MONTH , 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Meteorological Service",
+  "notes": [
+    "Note:",
+    "N - North",
+    "S - South",
+    "E - East",
+    "W - West",
+    "NNW - North-north-we st",
+    "Month",
+    "Male'",
+    "HDh.Hanimaadhoo",
+    "L.Kadhdhoo",
+    "GDh.Kaadedhdhoo",
+    "S.Gan"
+  ],
+  "columns": [
+    "Locality - WIND SPEED (MILES/HOUR)",
+    "Monthly average",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 11
+}

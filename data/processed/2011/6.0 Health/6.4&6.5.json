@@ -1,0 +1,38 @@
+{
+  "table_id": "6.4&6.5",
+  "title_en": "Table 6.5 : OUT - PATIENT HEALTH CARE IN MALE' HEALTH CENTRE, 2004-2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Health centr e",
+  "notes": [
+    "Particulars",
+    "General OPD",
+    "Dermatology OPD",
+    "Growth Monitoring",
+    "EPI Vaccination",
+    "Family Planning",
+    "Port Health Vaccination",
+    "Injection Administration",
+    "Dressing",
+    "Minor Incision",
+    "Wound Suturing",
+    "E.C.G",
+    "Nebulization",
+    "Rendom Blood Sugar",
+    "H.B. Test",
+    "Stich Removal",
+    "H1.N1. Vaccine",
+    "Other Vaccine"
+  ],
+  "columns": [
+    "Particulars",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010"
+  ],
+  "row_count": 4
+}

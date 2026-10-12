@@ -1,0 +1,31 @@
+{
+  "table_id": "8.12",
+  "title_en": "Table 8.12: COMPLETED CASES BY TYPE, 2016 - 2018",
+  "title_dv": "ތާވަލު 8.12: ނިންމުނު މައްސަލަތައް، 2016- 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Logged cases",
+    "Theft",
+    "Traffic accidents",
+    "Drugs",
+    "Lost Items",
+    "Assault",
+    "Vandalism",
+    "Robbery",
+    "Sexual offences",
+    "Embezzlement",
+    "Domestic violence",
+    "Counterfeit and forgery",
+    "Others"
+  ],
+  "columns": [
+    "Type of case",
+    "2016",
+    "2017",
+    "2018",
+    "2018 - %change over 2017",
+    "2018 - Percentage share 2018"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,18 @@
+{
+  "table_id": "1.6",
+  "title_en": "Table 1.6 : POPULATION AND AREA DISTIBUTION",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Population - ( Census 2006 )",
+    "Atoll Area - ( in hectares )",
+    "Reef Area - ( in hectares )",
+    "Land Area (Inhabited islands only) - ( in hectares )",
+    "Land Area (Resorts) - ( in hectares )",
+    "Land Area (Industrial) - ( in hectares )"
+  ],
+  "row_count": 20
+}

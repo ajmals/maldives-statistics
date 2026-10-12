@@ -1,0 +1,23 @@
+{
+  "table_id": "17.3",
+  "title_en": "Table 17.3 :PRICES OF SELECTED COMMODITIES,2007 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Trading Organization",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "2007 - Mar",
+    "2007 - Jun",
+    "2007 - Sep",
+    "2007 - Dec",
+    "2008 - Mar",
+    "2008 - Jun",
+    "2008 - Sep",
+    "2008 - Dec",
+    "2009 - Mar",
+    "2009 - Jun",
+    "2009 - Sep"
+  ],
+  "row_count": 5
+}

@@ -1,0 +1,21 @@
+{
+  "table_id": "7.23",
+  "title_en": "Table 7.23: STUDENT ENROLMENT IN TECHNICAL EDUCATION, BY TYPE OF TRAINING AND SEX, 2010 - 2012",
+  "title_dv": "ތާވަލް 7.23: ތަމްރީނުގެ ބާވަތާއި ޖިންސުގެ ގޮތުން ފަންނީ ތަޢުލީމްގެ ދާއިރާއިން ކިޔަވާ ކުދިންގެ އަދަދު 2010 - 2012",
+  "unit": "",
+  "source": "Source: Maldives Polytechnic",
+  "notes": [
+    "* Advanced Certificate Course alinged to M.Q.A format effective from 2011 September."
+  ],
+  "columns": [
+    "Type of Training",
+    "2010 - Both Sexes",
+    "2010 - Male",
+    "2010 - Female",
+    "2011 - Both Sexes",
+    "2011 - Male",
+    "2011 - Female",
+    "2012 - Both Sexes"
+  ],
+  "row_count": 53
+}

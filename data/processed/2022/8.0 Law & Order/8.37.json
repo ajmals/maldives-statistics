@@ -1,0 +1,21 @@
+{
+  "table_id": "8.37",
+  "title_en": "Table 8.37: Age distribution of cases filed in the Drug Court 2016-2021",
+  "title_dv": "ތާވަލް 8.37 : ޑްރަގް ކޯޓަށް ހުށަހެޅުނު މައްސަލަތަކުގައި ދަޢުވާ ލިބޭ މީހުންގެ އުމުރުފުރާ ތަކާބެހޭ މަޢުލޫމާތު - 2016-2021",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "Note: 1_/ : Age group changed"
+  ],
+  "columns": [
+    "Age Group",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022_2"
+  ],
+  "row_count": 11
+}

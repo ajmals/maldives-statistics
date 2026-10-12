@@ -1,0 +1,31 @@
+{
+  "table_id": "3.9",
+  "title_en": "Table 3.9 : LIVE BIRTHS AND INFANT DEATHS, 2018 - 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: 1_/ Data includes Maldivians and foreigners, but excluded deaths occurred abroad",
+    "2021 figures are tentative and is expected to change"
+  ],
+  "columns": [
+    "Particulars",
+    "2018 - Republic",
+    "2018 - Male'",
+    "2018 - Atolls",
+    "2018 - Abroad",
+    "2019 - Republic",
+    "2019 - Male'",
+    "2019 - Atolls",
+    "2019 - Abroad",
+    "2020 - Republic",
+    "2020 - Male'",
+    "2020 - Atolls",
+    "2020 - Abroad",
+    "20211_/ - Republic",
+    "20211_/ - Male'",
+    "20211_/ - Atolls",
+    "20211_/ - Abroad"
+  ],
+  "row_count": 12
+}

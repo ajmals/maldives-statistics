@@ -1,0 +1,24 @@
+{
+  "table_id": "13.13",
+  "title_en": "Table 13.13: REVENUE COLLECTED BY DETAILED CATEGORIES, 2011 - 2015",
+  "title_dv": "ތާވަލު 13.13: ޢާމްދަނީގެ ގޮތުގައި ލިބުނު ފައިސާގެ ތަފްޞީލު، 2011 - 2015",
+  "unit": "",
+  "source": "Source: Maldives Inland Revenue Authority",
+  "notes": [],
+  "columns": [
+    "Description",
+    "Revenue collected (MVR) - 2011",
+    "Revenue collected (MVR) - 2012",
+    "Revenue collected (MVR) - 2013",
+    "Revenue collected (MVR) - 2014**",
+    "Revenue collected (MVR) - 2015",
+    "Percentage shares - 2011",
+    "Percentage shares - 2012",
+    "Percentage shares - 2013",
+    "Percentage shares - *2014",
+    "Percentage shares - 2015",
+    "Percentage change over 2013",
+    "Percentage change over 2014"
+  ],
+  "row_count": 49
+}

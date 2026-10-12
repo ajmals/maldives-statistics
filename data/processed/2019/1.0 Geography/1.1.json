@@ -1,0 +1,20 @@
+{
+  "table_id": "1.1",
+  "title_en": "Table 1.1 : SUNSHINE AND RAINFALL BY MONTH, 2018",
+  "title_dv": "2018 ,urwvcnim unuhevErWv iaWtugwv WviawfIdivwa uhwmcswmikea : 1.1 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Meteorological Service",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "DURATION OF SUNSHINE (in hours) - Male'",
+    "DURATION OF SUNSHINE (in hours) - S.Gan",
+    "DURATION OF SUNSHINE (in hours) - HDh.Hanimaadhoo",
+    "RAINFALL (in mm) - Male'",
+    "RAINFALL (in mm) - HDh.Hanimaadhoo",
+    "RAINFALL (in mm) - L.Kadhdhoo",
+    "RAINFALL (in mm) - GDh.Kaadedhdhoo",
+    "RAINFALL (in mm) - S.Gan"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "17.6",
+  "title_en": "Table 17.6 : CONSUMER PRICE INDEX, FOR MALE' AND ATOLLS BY MONTH, 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: June 2012=100) - Major Groups - Republic",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Jan",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Feb",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Mar",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Apr",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - May",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Jun",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Jul",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Aug",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Sep",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Oct",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Nov",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Dec",
+    "(Index - base: June 2012=100) - Monthly CPI , 2014 - Jan - Dec"
+  ],
+  "row_count": 57
+}

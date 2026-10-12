@@ -1,0 +1,19 @@
+{
+  "table_id": "8.24",
+  "title_en": "TABLE 8.24: NUMBER OF CASES SENT TO COURT TRIAL, 2013 - 2014",
+  "title_dv": "ތާވަލު 8.24: ދައުލަތުގެފަރާތުން ޝަރީއަތަށް ހުށަހެޅުނު މައްސަލަތައް، 2013 - 2014",
+  "unit": "",
+  "source": "Source: Prosecutor General's office",
+  "notes": [
+    "Note: since the total number of cases in table are categorized based on type of charge, the number of cases submitted to court (table 8.25) may differ since a single case submitted to court may have more than one charges associated.",
+    "ޤާނޫނު ނަންބަރ 17/2011 އާއި ގުޅޭ"
+  ],
+  "columns": [
+    "Column_1",
+    "Details",
+    "2013",
+    "2014",
+    "Column_6"
+  ],
+  "row_count": 44
+}

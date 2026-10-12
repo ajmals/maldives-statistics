@@ -1,0 +1,28 @@
+{
+  "table_id": "8.63",
+  "title_en": "Table 8.63: Number of cases reported regarding behavioural problems of children by sex, 2020",
+  "title_dv": "ތާވަލު 8.63: ހުށަހެޅިފައިވާ ކުޑަކުދިންގެ އަޚްލާޤީ މައްސަލަތައް އަދި ޖިންސު، 2020",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [
+    "Type",
+    "Type",
+    "Total",
+    "Refusal to Attend School",
+    "Tamper Tantrums",
+    "Running Away",
+    "Type",
+    "Type",
+    "Total",
+    "Refusal to Attend School",
+    "Tamper Tantrums",
+    "Running Away"
+  ],
+  "columns": [
+    "Type",
+    "Both Sex",
+    "Male",
+    "Female"
+  ],
+  "row_count": 4
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "6.20",
+  "title_en": "Table 6.20 : REGISTERED CASES OF FILARIA , 2002 - 2008",
+  "title_dv": "ތާވަލު 6.20: ރަޖިސްޓްރީކުރެވިފައިވާ ފައިލޭރިއާގެ ބަލިމީހުން، 2002 - 2008",
+  "unit": "",
+  "source": "Source: Health Protection Agency",
+  "notes": [
+    "Note: 1_/ Includes number of cases carried forward from the previous year plus new cases.",
+    "* cases imported from other countries.( Indian, Srilankan, Bangladesh )",
+    "From 2009 -2013 no case of filaria has been registered."
+  ],
+  "columns": [
+    "Both Sexes",
+    "2002",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008"
+  ],
+  "row_count": 11
+}

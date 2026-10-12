@@ -1,0 +1,19 @@
+{
+  "table_id": "10.12",
+  "title_en": "Table 10.12 : BED CAPACITY OF TOURIST RESORTS BY ATOLL, 2013 - 2018",
+  "title_dv": "ތާވަލު 10.12: ރިސޯޓުތަކުގެ އެނދުގެ ޖާގަ އަތޮޅުތަކަށް ބެހިފައިވާ ގޮތް، 2013 - 2018",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [],
+  "columns": [
+    "Resorts",
+    "Bed Capacity - 2013",
+    "Bed Capacity - 2014",
+    "Bed Capacity - 2015",
+    "Bed Capacity - 2016",
+    "Bed Capacity - 2017",
+    "Bed Capacity - 2018",
+    "% Share - in 2018"
+  ],
+  "row_count": 20
+}

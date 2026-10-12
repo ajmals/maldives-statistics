@@ -1,0 +1,21 @@
+{
+  "table_id": "7.2",
+  "title_en": "Table 7.2 : STUDENT ENROLMENT BY EDUCATIONAL LEVEL AND SEX, 2015",
+  "title_dv": "2015 ,cnikwv cscnij udwdwA egcnidukWvwyik iawgItcnwfikea egukwtWsurwdwm :7.2 clwvWt",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "1_/ For children with special needs."
+  ],
+  "columns": [
+    "Level",
+    "No. of students - Both Sexes",
+    "No. of students - Male",
+    "No. of students - Female",
+    "% share - Both Sexes",
+    "% share - Male",
+    "% share - Female",
+    "% share - % of females"
+  ],
+  "row_count": 18
+}

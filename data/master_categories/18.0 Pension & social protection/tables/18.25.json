@@ -1,0 +1,38 @@
+{
+  "table_id": "18.25",
+  "category": "18.0 Pension & social protection",
+  "title_en": "Table 18.25 : EXPENDITURE UNDER HEALTH INSURANCE SCHEMES BY ISLAND, 2014 - 2020",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme",
+    "Note: These expenditures are based on the blocked amount"
+  ],
+  "time_span": "2012 – 2025",
+  "year_min": 2012,
+  "year_max": 2025,
+  "row_count": 201,
+  "column_count": 16,
+  "columns": [
+    "Item",
+    "2020_2 - 2021",
+    "Value - 2012",
+    "Value - 2013",
+    "Value - 2014",
+    "Value - 2015",
+    "Value - 2016",
+    "Value - 2017",
+    "Value - 2018",
+    "Value - 2019",
+    "Value - 2020",
+    "Value - 2021",
+    "Value - 2022",
+    "Value - 2023",
+    "Value - 2024",
+    "Value - 2025"
+  ],
+  "editions_covered": 5,
+  "csv_file": "tables/18.25.csv"
+}

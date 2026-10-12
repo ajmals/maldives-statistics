@@ -1,0 +1,24 @@
+{
+  "table_id": "6.22",
+  "title_en": "Table 6.22: NUMBER OF COUNSELLING SERVICE BY TYPE OF ISSUE AND SEX, 2011- 2012",
+  "title_dv": "ތާވަލް 6.22: ކައުންސިލިންގގެ ޚިދުމަތް ދެވިފައިވާ އަދަދު، މައްސަލަތަކުގެ ބާވަތް އަދި ޖިންސް، 2011 - 2012",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވި ފަރާތް: މިނިސްޓްރީ އޮފް ހިއުމަން ރިސޯސަސް، ޔޫތް އެންޑް ސްޕޯޓްސް",
+  "notes": [
+    "Note:",
+    "* Others includes: Self harming behaviour, Time Management, Crisis Management, Substance Misuse(relapse), Homosexuality, Obsessive compulsive disorder and Domestic violence",
+    "As one client maybe facing more than one problem, the data provided are according to the number of issues",
+    "ނޯޓް: އެހެނިހެންގެ ތެރޭގައި ހިމެނެނީ އަމިއްލަ ނަފްސަށް އަނިޔާއެއް ދިނުން، ހެޔޮގޮތުގައި ވަގުތު ބޭނުންނުކުރެވުން، ބޮޑެތި ކަންކަން ދިމާވުމުން ކުރިމަތިލާން އުދަނގޫވުން، މަސްތިވާތަކެތި ބޭނުންކުރުން ހުއްޓާލުމަށްފަހު އަލުން އެކަމަށް ދިޔުން، އެއް ޖިންސުން ގުޅުން ހިންގުމުގެ މައްސަލަ، އޮބްސެސިވް ކޮމްޕަލްސިވް ޑިސްއޯޑަރ، އަދި ގެވެށި އަނިޔާއެވެ.",
+    "މިޓޭބަލްގައި އަދަދުކުރެވޭ ބައެއް މައްސަލަތަކުގައި އެއް ކްލައިންޓް ތަފާތު ގިނަ މައްސަލަތަކަށް ކައުންސެލިންގ ހޯދަމުން ދޭ އެހެންކަމުން މިބައިގައި އަދަދު ކުރެވިފައިވަނީ މައްސަލައިގެ މައްޗަށް ބިނާކޮށެވެ."
+  ],
+  "columns": [
+    "Type of issue",
+    "2011 - Both Sex",
+    "2011 - Male",
+    "2011 - Female",
+    "2012 - Both Sex",
+    "2012 - Female",
+    "2012 - Male"
+  ],
+  "row_count": 27
+}

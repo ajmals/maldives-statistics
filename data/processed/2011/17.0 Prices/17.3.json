@@ -1,0 +1,25 @@
+{
+  "table_id": "17.3",
+  "title_en": "Table 17.3 : INFLATION RATE, BY MONTH, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "(Index - base: June 2004=100) - Major Groups - Maldives",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Jan",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Feb",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Mar",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Apr",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - May",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Jun",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Jul",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Aug",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Sep",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Oct",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Nov",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Dec",
+    "(Index - base: June 2004=100) - Monthly Inflation rates , 2010 - Jan - Dec"
+  ],
+  "row_count": 59
+}

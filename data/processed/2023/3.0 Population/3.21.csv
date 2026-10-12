@@ -1,0 +1,9 @@
+Column_1,Column_2,Column_3,Column_4,Column_5,Column_6,Column_7,Column_8,Column_9,Female - 5414,Female - 5414_2,Female - 5414_3
+Number of times married,2018,2018,2019,2019,2020,2020,2021,2021,First,2829,2706
+Number of times married,Male,Female,Male,Female,Male,Female,Male,Female,Second,1297,1354
+Number of times married,,,,,,,,,Third,610,715
+Total,5290,5290,5069,5069,4998,4998,5414,5414,Fourth or more,678,639
+First,2837,2709,2605,2511,2760,2583,2829,2706,,,
+Second,1284,1324,1287,1326,1151,1254,1297,1354,,,
+Third,576,669,591,621,549,628,610,715,,Male,Female
+Fourth or more,593,588,586,611,538,533,678,639,,52.253417,49.981529

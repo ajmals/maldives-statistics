@@ -1,0 +1,33 @@
+{
+  "table_id": "13.6",
+  "title_en": "Table 13.6 : FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CURRENT EXPENDITURE, 2007- 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Expenses for water and sanitation is included in the health sector"
+  ],
+  "columns": [
+    "(cniaWyifur cnwyilim) - (In million MVR) - Particulars",
+    "(cniaWyifur cnwyilim) - (In million MVR) - 2007",
+    "(cniaWyifur cnwyilim) - (In million MVR) - 2008",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (iawfiverukuhWlcsia) - (Rev.) - 2009",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2010",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2011",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2012",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2009",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2010_2",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2011_2",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - Actual - 2012",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - Actual - 2013",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - Revised - 2014",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - Approved - 2015",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2016",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - (MTEF) - 2017",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - % Share - 2013",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - % Share - 2014",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - % change - 2012 - 2013",
+    "(cniaWyifur cnwyilim) - (In million MVR) - (cTejwbWtcsWrudem) - % change - 2013 - 2014"
+  ],
+  "row_count": 20
+}

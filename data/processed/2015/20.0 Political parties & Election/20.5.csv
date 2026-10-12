@@ -1,0 +1,89 @@
+Column_1,Atoll,Electoral Area,Registered population,Eligible voters,Number voted,Voter turnout,Column_11
+,,Republic,352904,240652,189640,78.802586,
+,,Male',63642,43387,26054,60.050245,
+,,Atolls,289262,197265,163586,82.927027,
+1,HA,Hoarafushi Dhaairaa (A01),4477,3244,2794,86.128237,1
+2,HA,Ihavandhoo Dhaairaa (A02),4354,2838,2548,89.781536,2
+3,HA,Baarshu Dhaairaa (A03),4549,3066,2647,86.333986,3
+4,HA,Dhidhoo Dhaairaa (A04),3983,2672,2352,88.023952,4
+5,HA,Kelaa Dhaairaa (A05),4145,2804,2095,74.714693,5
+6,HDh,Hanimaadhoo Dhaairaa (B01),3816,2669,2018,75.608842,6
+7,HDh,Nolhivaram Dhaairaa (B02),4186,2836,2316,81.664316,7
+8,HDh,Vaikaradhoo Dhaairaa (B03),3712,2534,2069,81.649566,8
+9,HDh,Kulhudhufuhi Uthuru Dhaairaa (B04),4652,3126,2416,77.287268,9
+10,HDh,Kulhudhufuhi Dhekunu Dhaairaa (B05),4363,2941,2116,71.948317,10
+11,HDh,Makunudoo Dhaairaa (B06),4366,2990,2312,77.324415,11
+12,Sh,Kanditheem Dhaairaa (C01),4413,2982,2358,79.074447,12
+13,Sh,Milandhoo Dhaairaa (C02),3877,2543,2320,91.23083,13
+14,Sh,Komandoo Dhaairaa (C03),4330,2960,2579,87.128378,14
+15,Sh,Funadhoo Dhaairaa (C04),4203,2791,2369,84.879971,15
+16,N,Kendhikulhudhoo Dhaairaa (D01),4039,2786,2470,88.657574,16
+17,N,Manadhoo Dhaairaa (D02),3924,2650,2175,82.075472,17
+18,N,Velidhoo Dhaairaa (D03),3760,2674,2246,83.994016,18
+19,N,Holhudhoo Dhaairaa (D04),3927,2800,2332,83.285714,19
+20,R,Alifushi Dhaairaa (E01),4585,3129,2658,84.947267,20
+21,R,Ungoofaaru Dhaairaa (E02),4143,2768,2327,84.067919,21
+22,R,Dhuvaafaru Dhaairaa (E03),4378,2770,2389,86.245487,22
+23,R,Inguraidhoo Dhaairaa (E04),4404,3026,2706,89.424983,23
+24,R,Maduvvaree Dhaairaa (E05),4225,2864,2437,85.090782,24
+25,B,Thulhaadhoo Dhaairaa (F01),4144,2924,2509,85.807114,25
+26,B,Eydhafushi Dhaairaa (F02),5063,3643,3157,86.659347,26
+27,B,Kendhoo Dhaairaa (F03),4299,2935,2562,87.291312,27
+28,Lh,Hinnavaru Dhaairaa (G01),4648,3471,3057,88.072602,28
+29,Lh,Naifaru Dhaairaa (G02),5082,3593,2970,82.660729,29
+30,Lh,Kurendhoo Dhaairaa (G03),2618,1805,1655,91.689751,30
+31,K,Kaashidhoo Dhaairaa (H01),3551,2356,2151,91.298812,31
+32,K,Thulusdhoo Dhaairaa (H02),4545,3051,2360,77.351688,32
+33,K,Guraidhoo Dhaairaa (H03),4202,2696,2200,81.602374,33
+34,AA,Mathiveri Dhaairaa (U01),3728,2451,2129,86.862505,34
+35,AA,Thoddoo Dhaairaa (U02),3811,2394,2210,92.314119,35
+36,ADh,Maamigili Dhaairaa (I01),3647,2435,1681,69.034908,36
+37,ADh,Mahibadhoo Dhaairaa (I02),3480,2330,2163,92.832618,37
+38,ADh,Dhangethi Dhaairaa (I03),3201,2115,1782,84.255319,38
+39,V,Felidhoo Dhaairaa (J01),1285,936,820,87.606838,39
+40,V,Keyodhoo Dhaairaa (J02),1161,824,709,86.043689,40
+41,M,Dhiggaru Dhaairaa (K01),3463,2508,2079,82.894737,41
+42,M,Mulaku Dhaairaa (K02),3516,2484,2148,86.47343,42
+43,F,Bileydhoo Dhaairaa (L01),3105,2029,1868,92.065057,43
+44,F,Nilandhoo Dhaairaa (L02),2444,1568,1481,94.451531,44
+45,Dh,Meedhoo Dhaairaa (M01),3608,2323,2077,89.410245,45
+46,Dh,Kudahuvadhoo Dhaairaa (M02),3854,2636,2370,89.908953,46
+47,Th,Vilufushi Dhaairaa (N01),4002,2644,2320,87.74584,47
+48,Th,Thimarafushi Dhaairaa (N02),3930,2554,2055,80.46202,48
+49,Th,Kinbidhoo Dhaairaa (N03),4290,2872,2542,88.509749,49
+50,Th,Guraidhoo Dhaairaa (N04),3489,2433,1769,72.70859,50
+51,L,Isdhoo Dhaairaa (O01),4294,2806,2319,82.644334,51
+52,L,Gamu Dhaairaa (O02),4677,3139,2639,84.07136,52
+53,L,Fonadhoo Dhaairaa (O03),3786,2620,2161,82.480916,53
+54,L,Maavashu Dhaairaa (O04),3770,2541,2035,80.08658,54
+55,GA,Villingilli Dhaairaa (P01),5023,3494,3067,87.77905,55
+56,GA,Dhaandhoo Dhaairaa (P02),4405,2804,2320,82.738944,56
+57,GA,Gemanafushi Dhaairaa (P03),4187,2756,2384,86.502177,57
+58,GDh,Thinadhoo Uthuru Dhaairaa (Q01),3603,2516,1937,76.987281,58
+59,GDh,Thinadhoo Dhekunu Dhaaira (Q02),3493,2305,1835,79.609544,59
+60,GDh,Madaveli Dhaairaa (Q03),4208,2701,2151,79.637171,60
+61,GDh,Faresmaathodaa Dhaairaa (Q04),4458,3115,2369,76.051364,61
+62,GDh,Gahdhoo Dhaairaa (Q05),4342,3039,2323,76.439618,62
+63,Gn,Fuvahmulaku Uthuru Dhaairaa (R01),4632,3052,2605,85.353866,63
+64,Gn,Fuvahmulaku Medhu Dhaairaa (R02),3840,2571,2243,87.242318,64
+65,Gn,Fuvahmulaku Dhekunu Dhaairaa (R03),3505,2369,1979,83.537358,65
+66,S,Hulhudhoo Dhaairaa (S01),3686,2681,2114,78.851175,66
+67,S,Meedhoo Dhaaira (S02),4546,3798,2909,76.592944,67
+68,S,Feydhoo Dhaairaa (S03),5222,2461,1989,80.820805,68
+69,S,Maradhoo Dhaairaa (S04),3463,3625,2433,67.117241,69
+70,S,Hithadhoo Uthuru Dhaairaa (S05),5015,3467,2565,73.983271,70
+71,S,Hithadhoo Medhu Dhaairaa (S06),5029,3670,2619,71.362398,71
+72,S,Hithadhoo Dhekunu Dhaairaa (S07),5101,3262,2717,83.292459,72
+73,MLE,Hulhu Henveyru Dhaairaa (T01),4910,3366,2093,62.18063,73
+74,MLE,Medhu henveyru Dhaairaa (T02),4702,3027,1790,59.134457,74
+75,MLE,Henveyru Dhekunu Dhaairaa (T03),4895,3047,1832,60.124713,75
+76,MLE,Henveyru Uthuru Dhaaira (T04),4831,3191,2001,62.707615,76
+77,MLE,Galholhu Uthuru Dhaairaa (T05),4831,3392,1932,56.957547,77
+78,MLE,Galholhu Dhekunu Dhaairaa (T06),4966,3270,2316,70.825688,78
+79,MLE,Mahchangolhi Uthuru Dhaairaa (T07),5155,3478,1921,55.232892,79
+80,MLE,Mahchangolhi Dhekunu Dhaairaa (T08),5217,3426,2076,60.595447,80
+81,MLE,Maafannu Uthuru Dhaairaa (T09),5116,3503,1778,50.756494,81
+82,MLE,Maafannu Hulhangu Dhaairaa (T10),5027,3417,2039,59.672227,82
+83,MLE,Maafannu Dhekunu Dhaairaa (T11),4189,3427,1977,57.688941,83
+84,MLE,Maafannu Medhu Dhaairaa (T12),4993,3107,1899,61.120052,84
+85,MLE,Villi Maafannu Dhaairaa (T13),4810,3736,2400,64.239829,85

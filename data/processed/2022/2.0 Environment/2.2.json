@@ -1,0 +1,20 @@
+{
+  "table_id": "2.2",
+  "title_en": "Table 2.2: NUMBER OF ISLAND THAT HAVE WASTE MANAGEMENT CENTRES 2016 - 2020",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Environmental Protection Agency",
+  "notes": [
+    "Note: Total inhabited island excludes Male' and the wmc's are registered under waste management regulation at EPA"
+  ],
+  "columns": [
+    "Locality",
+    "Total no. of inhabited islands",
+    "No. of islands with registered waste management centres - 2016",
+    "No. of islands with registered waste management centres - 2017",
+    "No. of islands with registered waste management centres - 2018",
+    "No. of islands with registered waste management centres - 2019",
+    "No. of islands with registered waste management centres - 2020"
+  ],
+  "row_count": 21
+}

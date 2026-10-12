@@ -1,0 +1,28 @@
+{
+  "table_id": "8.9",
+  "title_en": "Table 8.9: DRUG SEIZED BY MALDIVES POLICE SERVICE, 2014 - 2024",
+  "title_dv": "ތާވަލު 8.9: މޯލްޑިވްސް ޕޮލިސް ސަރވިސްގެ ފަރާތުން އަތުލައިގަތް މަސްތުވާތަކެތީގެ އަދަދު، 2014 - 2024",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of Drug",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "Quantity ( grams ) - 2014",
+    "Quantity ( grams ) - 2015",
+    "Quantity ( grams ) - 2016",
+    "Quantity ( grams ) - 2017",
+    "Quantity ( grams ) - 2018",
+    "Quantity ( grams ) - 2019",
+    "Quantity ( grams ) - 2020",
+    "Quantity ( grams ) - 2021",
+    "Quantity ( grams ) - 2022",
+    "Quantity ( grams ) - 2023",
+    "Quantity ( grams ) - 2024"
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "2.9&fig2.2",
+  "category": "2.0 Environment",
+  "title_en": "Table 2.9 :TYPE OF FUEL USED FOR COOKING, CENSUS 2006",
+  "unit": "",
+  "source": "Source:Department of National Planning",
+  "notes": [],
+  "time_span": "2009",
+  "year_min": 2009,
+  "year_max": 2009,
+  "row_count": 23,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    "Firewood - 2009",
+    "Gas - 2009",
+    "Not stated - 2009",
+    "Not stated_2 - 2009",
+    "Oil - 2009",
+    "Others - 2009",
+    "Total households - 2009"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/2.9&fig2.2.csv"
+}

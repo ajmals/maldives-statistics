@@ -1,0 +1,25 @@
+{
+  "table_id": "12.3",
+  "title_en": "Table 12.3 : MONTHLY CONSUMPTION OF FUEL FOR ELECTRICITY GENERATION IN SELECTED LOCALITIES BY PUBLIC SECTOR, 2023",
+  "title_dv": "ތާވަލު 12.3: މާލެއާއި އަތޮޅުތަކުގައި ސަރުކާރުގެ ފަރާތުން ސަރުކާރުގެ ފަރާތުން އެކިމަސްމަހު ކަރަންޓް އުފެއްދުމަށްޓަކާ ތެޔޮބޭނުންކުރެވިފައިވާ މިންވަރު، 2023",
+  "unit": "",
+  "source": "Source: State Electric Company Limited",
+  "notes": [],
+  "columns": [
+    "Locality - Greater Male' Region",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 35
+}

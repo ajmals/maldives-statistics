@@ -1,0 +1,26 @@
+{
+  "table_id": "9.11",
+  "title_en": "Table 9.11: AGRICULTURAL PRODUCTS TRADED IN MALE' MARKET BY ATOLLS 2009 (In kg)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Economi c research and Staistics Services",
+  "notes": [
+    "* Note: Other Atol ls include GA, GDh, HDh and M atoll."
+  ],
+  "columns": [
+    "Agriculturl crops",
+    "AA",
+    "KA",
+    "LA",
+    "HA",
+    "SH",
+    "BA",
+    "GN",
+    "LH",
+    "SE",
+    "TH",
+    "Others",
+    "Total"
+  ],
+  "row_count": 17
+}

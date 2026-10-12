@@ -1,0 +1,23 @@
+{
+  "table_id": "3.5&fig3.3",
+  "category": "3.0 Population",
+  "title_en": "Table 3.5 : SEX RATIO OF POPULATION BY LOCALITY, 1985, 1990, 1995,2000 AND 2006",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "time_span": "1985 – 2006",
+  "year_min": 1985,
+  "year_max": 2006,
+  "row_count": 24,
+  "column_count": 6,
+  "columns": [
+    "Item",
+    1985,
+    1990,
+    1995,
+    2000,
+    2006
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/3.5&fig3.3.csv"
+}

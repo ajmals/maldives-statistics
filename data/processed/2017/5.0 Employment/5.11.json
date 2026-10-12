@@ -1,0 +1,21 @@
+{
+  "table_id": "5.11",
+  "title_en": "Table 5.11: Expatriate Employment by Industry and Sex, 2013 - 2015",
+  "title_dv": "ތާވަލު 5.11: މަސައްކަތްކުރާ ދާއިރާގެ ގޮތުންނާއި ޖިންސުގެ ގޮތުން ބިދޭސީ މަސައްކަތްތެރިން، 2013 - 2015",
+  "unit": "",
+  "source": "Source: Maldives Immigration",
+  "notes": [],
+  "columns": [
+    "Industry",
+    "2013 - Total",
+    "2013 - Male",
+    "2013 - Female",
+    "2014 - Total",
+    "2014 - Male",
+    "2014 - Female",
+    "2015 - Total",
+    "2015 - Male",
+    "2015 - Female"
+  ],
+  "row_count": 16
+}

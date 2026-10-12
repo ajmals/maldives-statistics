@@ -1,0 +1,37 @@
+{
+  "table_id": "3.17",
+  "title_en": "Table 3.17 : MARRIAGES AND DIVORCES IN MALE' AND ATOLLS, 2021 - 2024",
+  "title_dv": "ތާވަލު 3.17: މާލެ އާއި އަތޮޅުތަކުގައި ކުރެވުނު ކައިވެންޏާއި ވަރި، 2021 - 2024",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [
+    "(*) - Indicates if the percentage change is greater than 100.",
+    "2010",
+    "Marriages",
+    "Male'",
+    "Hulhumale'",
+    "Atolls"
+  ],
+  "columns": [
+    "Locality",
+    "2021 - Marriages",
+    "2021 - Divorces",
+    "2021 - Faskh",
+    "2021 - Thafreeq",
+    "2022 - Marriages",
+    "2022 - Divorces",
+    "2022 - Faskh",
+    "2022 - Thafreeq",
+    "2023 - Marriages",
+    "2023 - Divorces",
+    "2023 - Faskh",
+    "2023 - Thafreeq",
+    "2024 - Marriages",
+    "2024 - Divorces",
+    "2024 - Faskh",
+    "2024 - Thafreeq",
+    "% Change over previous year of - Marriages",
+    "% Change over previous year of - Divorces"
+  ],
+  "row_count": 24
+}

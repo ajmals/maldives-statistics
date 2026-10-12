@@ -1,0 +1,20 @@
+{
+  "table_id": "12.5",
+  "title_en": "Table 12.5 : WATER DISTRIBUTION IN MALE', BY MONTH 2005 - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Limited",
+  "notes": [],
+  "columns": [
+    "(In '000 metric tons) - Month",
+    "(In '000 metric tons) - 2001",
+    "(In '000 metric tons) - 2002",
+    "(In '000 metric tons) - 2005",
+    "(In '000 metric tons) - 2006",
+    "(In '000 metric tons) - 2007",
+    "(In '000 metric tons) - 2008",
+    "(In '000 metric tons) - 2009",
+    "(In '000 metric tons) - 2010"
+  ],
+  "row_count": 13
+}

@@ -1,0 +1,28 @@
+{
+  "table_id": "14.9",
+  "title_en": "Table 14.9 : OTHER DEPOSITORY CORPORATIONS PRIVATE SECTOR LOANS & ADVANCES BY ECONOMIC GROUP, 2015 - 2016",
+  "title_dv": "ތާވަލު 14.9: ބޭންކުތަކުން އަމިއްލަ ފަރާތްތަކަށް ލޯނު އަދި އެޑްވާސް ގެގޮތުގައި (އިޤްތިސާދީ އެކި ބައިތަކަށް) ދޫކުރެވުނު ފައިސާ 2015- 2016",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "1_/ : 2015 December revised",
+    "2_/ Excluding accrued interest receivable and accounts receivables"
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Economic groups",
+    "(In millions of Rufiyaa; end of period) - 2014 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2014 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2014 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2014 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2015 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2015 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2015 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2015 - Dec1_/",
+    "(In millions of Rufiyaa; end of period) - 2016 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2016 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2016 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2016 - Dec"
+  ],
+  "row_count": 30
+}

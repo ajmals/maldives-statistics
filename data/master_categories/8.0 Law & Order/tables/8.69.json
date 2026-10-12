@@ -1,0 +1,35 @@
+{
+  "table_id": "8.69",
+  "category": "8.0 Law & Order",
+  "title_en": "TABLE 8.69: Number of cases reported related to person with disability and elderly perosn by sex, 2018",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [
+    "Detail",
+    "Detail",
+    "Total",
+    "Care and support to the elderly",
+    "Care and support to person with special needs",
+    "Detail",
+    "Detail",
+    "Total",
+    "Care and support to the elderly",
+    "Care and support to person with special needs"
+  ],
+  "time_span": "2020 – 2022",
+  "year_min": 2020,
+  "year_max": 2022,
+  "row_count": 3,
+  "column_count": 7,
+  "columns": [
+    "Item",
+    "TABLE 8.69: Number of cases reported related to person with disability and elderly perosn by sex,  - Both Sex - 2020",
+    "TABLE 8.69: Number of cases reported related to person with disability and elderly perosn by sex,  - Both Sex - 2022",
+    "TABLE 8.69: Number of cases reported related to person with disability and elderly perosn by sex,  - Female - 2020",
+    "TABLE 8.69: Number of cases reported related to person with disability and elderly perosn by sex,  - Female - 2022",
+    "TABLE 8.69: Number of cases reported related to person with disability and elderly perosn by sex,  - Male - 2020",
+    "TABLE 8.69: Number of cases reported related to person with disability and elderly perosn by sex,  - Male - 2022"
+  ],
+  "editions_covered": 2,
+  "csv_file": "tables/8.69.csv"
+}

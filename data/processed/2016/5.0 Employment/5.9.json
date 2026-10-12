@@ -1,0 +1,20 @@
+{
+  "table_id": "5.9",
+  "title_en": "TABLE 5.9: EMPLOYMENT IN POLITICAL POSTS CLASSIFIED BY OFFICE, 2015",
+  "title_dv": "ތާވަލް 5.9: ސަރުކާރުގެ އެކި އޮފީސްތަކުގެ ޕޮލިޓިކަލް މަގާމުގައި ތިއްބެވި ބޭފުޅުން، 2015",
+  "unit": "",
+  "source": "Source: Presidents Office",
+  "notes": [
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "columns": [
+    "Column_1",
+    "Office",
+    "2015 (end) - Office - Both sexes",
+    "2015 (end) - Office - Male",
+    "2015 (end) - Office - Female"
+  ],
+  "row_count": 93
+}

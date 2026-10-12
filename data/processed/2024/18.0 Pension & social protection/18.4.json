@@ -1,0 +1,24 @@
+{
+  "table_id": "18.4",
+  "title_en": "TABLE 18.4: NUMBER OF BENEFICIARIES OF BASIC PENSION SCHEME BY AGE, 2021 - 2023",
+  "title_dv": "ތާވަލު 18.4 : އަސާސީ ޕެންޝަން ލިބޭ މީހުންގެ އަދަދު އަދި ޢުމުރުފުރާތައް، 2021 - 2023",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Month",
+    "Age Groups - 2021 - Total",
+    "Age Groups - 2021 - 65-69",
+    "Age Groups - 2021 - 70-74",
+    "Age Groups - 2021 - 75 & over",
+    "Age Groups - 2022 - Total",
+    "Age Groups - 2022 - 65-69",
+    "Age Groups - 2022 - 70-74",
+    "Age Groups - 2022 - 75 & over",
+    "Age Groups - 2023 - Total",
+    "Age Groups - 2023 - 65-69",
+    "Age Groups - 2023 - 70-74",
+    "Age Groups - 2023 - 75 & over"
+  ],
+  "row_count": 12
+}

@@ -1,0 +1,12 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Passengers - Transit,Cargo (kg) - In,Cargo (kg) - Out,Cargo (kg) - Transit,Mail (kg) - In,Mail (kg) - Out
+Total,5469,53278,53752,10640,256716.5,26118.1,9580.5,5559.4,999.8
+International Flights,164,779,1339,,,,,,
+International Scheduled,,,,,,,,,
+International Charter,8,385,967,,,,,,
+Mega Maldives,8,385,967,,,,,,
+International Non-Scheduled,156,394,372,,,,,,
+Domestic flights,5305,52499,52413,10640,256716.5,26118.1,9580.5,5559.4,999.8
+Island Aviation (Scheduled),3333,45259,44686,10181,250559.5,25355.1,9171.5,5522.4,974.2
+Mega Maldives,7,526,451,,,4,,,
+Villa Air,461,6695,7276,459,6157,759,409,37,25.6
+Other Domestic 1_/,1504,19,,,,,,,

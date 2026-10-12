@@ -1,0 +1,24 @@
+{
+  "table_id": "3.2",
+  "title_en": "Table 3.2 : POPULATION BY AGE AND SEX, CENSUS, 1995, 2000 AND 2006",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Age group",
+    "1995 Census - Both Sexes",
+    "1995 Census - Male",
+    "1995 - Female",
+    "1995 - Female_2",
+    "2000 Census - Both Sexes",
+    "2000 Census - Male",
+    "2000 - Female",
+    "2000 - Female_2",
+    "2006 Census - Both Sexes",
+    "2006 Census - Male",
+    "2006 - Female",
+    "2006 - Female_2"
+  ],
+  "row_count": 25
+}

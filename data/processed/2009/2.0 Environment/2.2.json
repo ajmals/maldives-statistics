@@ -1,0 +1,17 @@
+{
+  "table_id": "2.2",
+  "title_en": "Table 2.2 : NUMBER OF ISLAND THAT HAVE REPORTED SEVERE EROSION TILL JULY, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Data provi ded by Atolls Offices and Island Offfices",
+  "notes": [
+    "compiled by Environmental Protection Agency"
+  ],
+  "columns": [
+    "Locality",
+    "Total no. of inhabited islands",
+    "No of island that have reported severe erosion",
+    "No of island that have reported severe erosion_2"
+  ],
+  "row_count": 21
+}

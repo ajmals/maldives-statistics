@@ -1,0 +1,25 @@
+{
+  "table_id": "12.2",
+  "title_en": "Table 12.2 : MONTHLY ELECTRICITY PRODUCTION BY PUBLIC SECTOR, 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Company Limited",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 37
+}

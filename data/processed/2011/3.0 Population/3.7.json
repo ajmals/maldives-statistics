@@ -1,0 +1,33 @@
+{
+  "table_id": "3.7",
+  "title_en": "Table 3.7 : MONTHLY RECORDS OF BIRTHS AND DEATHS, 2007-2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Minist ry of Health & Family",
+  "notes": [
+    "1_/ Revised",
+    "Decision Supp ort Division"
+  ],
+  "columns": [
+    "Month",
+    "Births",
+    "Deaths",
+    "Natural Increase",
+    "Births_2",
+    "Deaths_2",
+    "Natural Increase_2",
+    "2007 - Births",
+    "2007 - Deaths",
+    "2007 - Natural Increase",
+    "2008 - Births",
+    "2008 - Deaths",
+    "2008 - Natural Increase",
+    "2009 - Births",
+    "2009 - Deaths",
+    "2009 - Natural Increase",
+    "2010 - Births",
+    "2010 - Deaths",
+    "2010 - Natural Increase"
+  ],
+  "row_count": 13
+}

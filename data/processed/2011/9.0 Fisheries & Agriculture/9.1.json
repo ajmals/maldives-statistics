@@ -1,0 +1,28 @@
+{
+  "table_id": "9.1",
+  "title_en": "Table 9.1 :FISH PRODUCTION BY TYPE AND UTILIZATION, 2006 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Island Offices, Maldives Customs Services",
+  "notes": [
+    "Note: Ftp stock not available (2006 & 2007)",
+    "Ministry of Fisheries and Agriculture",
+    "The Export in metric tons does not include:",
+    "Articles Made Of Shells, Dried Shark Fins, Fish Soup, Flours, Meals And Pellets Of Fish, Etc, Unfit For Human Consumption,",
+    "Live Grouper, Live Ornamental Fish, Other Hides And Skins, Fresh Or Preserved, Not Tanned, Nes, Salted Dried Shark Fins &",
+    "Shark-Liver Oil"
+  ],
+  "columns": [
+    "(In '000 metric tons) - Items",
+    "(In '000 metric tons) - 2005",
+    "(In '000 metric tons) - Fish Production - 2006",
+    "(In '000 metric tons) - Fish Production - 2007",
+    "(In '000 metric tons) - Fish Production - 2008",
+    "(In '000 metric tons) - Fish Production - 2009",
+    "(In '000 metric tons) - Percentage share - 2006",
+    "(In '000 metric tons) - Percentage share - 2007",
+    "(In '000 metric tons) - Percentage share - 2008",
+    "(In '000 metric tons) - Percentage share - 2009"
+  ],
+  "row_count": 8
+}

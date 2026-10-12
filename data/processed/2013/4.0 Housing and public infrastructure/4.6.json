@@ -1,0 +1,22 @@
+{
+  "table_id": "4.6",
+  "title_en": "TABLE 4.6: HOUSING FINANCE/LOANS PROVIDED, 2010 - 2012",
+  "title_dv": "ތާވަލް 4.6: އިމާރާތް ކުރުމަށްޓަކައި ދޫކުރެވިފައިވާ ލޯނުގެ އަދަދު 2010 - 2012",
+  "unit": "",
+  "source": "HDFC: Source: Housing Development Finance Corporation",
+  "notes": [
+    "HDC: Housing Development Corporation",
+    "MHUD: Maldives Housing and Urban Development"
+  ],
+  "columns": [
+    "Year - Type",
+    "Loan provider",
+    "2010 - No. of loans",
+    "2010 - Value (MVR)",
+    "2011 - No. of loans",
+    "2011 - Value (MVR)",
+    "2012 - No. of loans",
+    "2012 - Value (MVR)"
+  ],
+  "row_count": 8
+}

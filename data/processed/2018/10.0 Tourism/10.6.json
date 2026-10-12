@@ -1,0 +1,32 @@
+{
+  "table_id": "10.6",
+  "title_en": "Table 10.6: BED CAPACITY AND UTILIZATION OF GUEST HOUSES BY MONTH, 2014 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [],
+  "columns": [
+    "Month",
+    "2014 - Registered Bed Capacity",
+    "2014 - Beds in operation",
+    "2014 - % share of registered beds in operation",
+    "2014 - Bed Capacity Utilization Rate %",
+    "2014 - Tourist Bednights",
+    "2015 - Registered Bed Capacity",
+    "2015 - Beds in operation",
+    "2015 - % share of registered beds in operation",
+    "2015 - Bed Capacity Utilization Rate %",
+    "2015 - Tourist Bednights",
+    "2016 - Registered Bed Capacity",
+    "2016 - Beds in operation",
+    "2016 - % share of registered beds in operation",
+    "2016 - Bed Capacity Utilization Rate %",
+    "2016 - Tourist Bednights",
+    "2017 - Registered Bed Capacity",
+    "2017 - Beds in operation",
+    "2017 - % share of registered beds in operation",
+    "2017 - Bed Capacity Utilization Rate %",
+    "2017 - Tourist Bednights"
+  ],
+  "row_count": 13
+}

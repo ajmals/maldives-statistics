@@ -1,0 +1,24 @@
+{
+  "table_id": "8.12",
+  "title_en": "Table 8.12: COMPLETED CASES BY TYPE, 2016 - 2023",
+  "title_dv": "ތާވަލު 8.12: ނިންމުނު މައްސަލަތައް، 2016- 2022",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: (*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "Type of case",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2023 - %change over 2022",
+    "2023 - Percentage share 2023"
+  ],
+  "row_count": 13
+}

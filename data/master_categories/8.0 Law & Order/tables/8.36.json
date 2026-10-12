@@ -1,0 +1,40 @@
+{
+  "table_id": "8.36",
+  "category": "8.0 Law & Order",
+  "title_en": "TABLE 8.36: NUMBER OF CASES REPORTED TO THE COMMISSION BY ADDRESSEE, 2014 - 2017",
+  "unit": "",
+  "source": "Source: Anti Corruption Commision",
+  "notes": [
+    "Note: The number of cases submitted to the commission may have more than one addressee."
+  ],
+  "time_span": "2010 – 2023",
+  "year_min": 2010,
+  "year_max": 2023,
+  "row_count": 36,
+  "column_count": 21,
+  "columns": [
+    "Item",
+    "Value - 2014",
+    "Value - 2015",
+    "Value - 2016",
+    "Value - 2017",
+    "Value - 2018",
+    "Value - 2019",
+    "Value - 2020",
+    "Value - 2021",
+    "Value - 2022",
+    "Value - 2023",
+    "Year - 2010",
+    "Year - 2011",
+    "Year - 2012",
+    "Year - 2013",
+    "Year - 2014",
+    "Year - 2015",
+    "Year - 2016",
+    "Year - 2017",
+    "Year - 2018",
+    "Year - 2019"
+  ],
+  "editions_covered": 6,
+  "csv_file": "tables/8.36.csv"
+}

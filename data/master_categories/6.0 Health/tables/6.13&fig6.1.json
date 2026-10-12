@@ -1,0 +1,23 @@
+{
+  "table_id": "6.13&fig6.1",
+  "category": "6.0 Health",
+  "title_en": "Table 6.13 : DRUG ABUSE CASES REPORTED, BY AGE GROUP, 2001-2007",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2011",
+  "year_min": 2011,
+  "year_max": 2011,
+  "row_count": 8,
+  "column_count": 6,
+  "columns": [
+    "Item",
+    "Age Group - 16 - 24 - 2011",
+    "Age Group - 25 - 39 - 2011",
+    "Age Group - 40 + - 2011",
+    "Age Group - Under 16 - 2011",
+    "Total - 2011"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/6.13&fig6.1.csv"
+}

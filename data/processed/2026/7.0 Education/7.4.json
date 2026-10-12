@@ -1,0 +1,30 @@
+{
+  "table_id": "7.4",
+  "title_en": "TABLE 7.4: NUMBER OF STUDENTS BY GRADE, SECTOR AND GENDER, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education, Higher Education and Skills Development",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Column_2",
+    "Number of students by Grade, sector and Gender - Total",
+    "Number of students by Grade, sector and Gender - BN",
+    "Number of students by Grade, sector and Gender - N",
+    "Number of students by Grade, sector and Gender - LKG",
+    "Number of students by Grade, sector and Gender - UKG",
+    "Number of students by Grade, sector and Gender - GR1",
+    "Number of students by Grade, sector and Gender - GR2",
+    "Number of students by Grade, sector and Gender - GR3",
+    "Number of students by Grade, sector and Gender - GR4",
+    "Number of students by Grade, sector and Gender - GR5",
+    "Number of students by Grade, sector and Gender - GR6",
+    "Number of students by Grade, sector and Gender - GR7",
+    "Number of students by Grade, sector and Gender - GR8",
+    "Number of students by Grade, sector and Gender - GR9",
+    "Number of students by Grade, sector and Gender - GR10",
+    "Number of students by Grade, sector and Gender - GR11",
+    "Number of students by Grade, sector and Gender - GR12"
+  ],
+  "row_count": 12
+}

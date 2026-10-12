@@ -1,0 +1,17 @@
+{
+  "table_id": "6.20",
+  "title_en": "Table 6.20 : NEW CASES OF FILARIA, BY AGE GROUP, 1999-2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Center for Commununity Health Disease Control",
+  "notes": [],
+  "columns": [
+    "Year",
+    "0 - 4",
+    "15 - 24",
+    "25 - 34",
+    "35 - 44",
+    "45 & Over"
+  ],
+  "row_count": 12
+}

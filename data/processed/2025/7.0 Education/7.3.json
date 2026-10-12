@@ -1,0 +1,16 @@
+{
+  "table_id": "7.3",
+  "title_en": "Table 7.3: Number of students by gender and Sector, 2023 - 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Column_1",
+    "Total",
+    "Government",
+    "Private",
+    "Community"
+  ],
+  "row_count": 3
+}

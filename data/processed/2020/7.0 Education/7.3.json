@@ -1,0 +1,32 @@
+{
+  "table_id": "7.3",
+  "title_en": "Table 7.3: STUDENT ENROLMENT IN MALE' AND ATOLLS BY TYPE OF LEVEL AND INSTITUTION , 2019",
+  "title_dv": "2019 ,cnikwwv cscnij udwdwA egcnidukWvwyik iawgunwtcnwtea iaWnwtcnwtEdWvwyiik cSwkwtitcnwfikea iruh iawgukwtuLotwa iaWaelWm :7.3 clwvWt",
+  "unit": "",
+  "source": "Source : Ministry of Education",
+  "notes": [
+    "Note: Sum of schools in this table does not add up to total number of schools as schools overlap in levels",
+    "1_/ Excludes children with special needs."
+  ],
+  "columns": [
+    "Locality",
+    "No. of Students1_/",
+    "Pre - Primary - No .of schools",
+    "Pre - Primary - Both Sexes",
+    "Pre - Primary - Females",
+    "Pre - Primary - % of Females",
+    "Primary Level - No .of schools",
+    "Primary Level - Both Sexes",
+    "Primary Level - Females",
+    "Primary Level - % of Females",
+    "Lower Secondary Level - No .of schools",
+    "Lower Secondary Level - Both Sexes",
+    "Lower Secondary Level - Females",
+    "Lower Secondary Level - % of Females",
+    "Higher Secondary Level - No .of schools",
+    "Higher Secondary Level - Both Sexes",
+    "Higher Secondary Level - Females",
+    "Higher Secondary Level - % of Females"
+  ],
+  "row_count": 23
+}

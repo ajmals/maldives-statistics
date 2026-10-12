@@ -1,0 +1,30 @@
+{
+  "table_id": "13.12",
+  "title_en": "Table 13.12: REVENUE COLLECTED BY DETAILED CATEGORIES, 2015 - 2019",
+  "title_dv": "ތާވަލު 13.12: ޢާމްދަނީގެ ގޮތުގައި ލިބުނު ފައިސާގެ ތަފްޞީލު، 2015 - 2019",
+  "unit": "",
+  "source": "Source: Maldives Inland Revenue Authority",
+  "notes": [
+    "Note:",
+    "2019 Figures reconciled as of 02.03.2020",
+    "*: 2018 Figures revised as per Internal Audit reconciliation on 31s March 2019",
+    "**Remittance tax added",
+    "*** Airport Development Fee, Construction Period Extension Fee, Corporate Social Responsibility Fee, Tourism Administration Fee, Ownership Transfer Tax, Dive School Registration Fee, Guest house registration Fee, Ither Registrations & License Fees, Motor Vehicle and Vessel Registration Fee, Bank Mortgage Registration Fee, Sale of Tender Documents added",
+    "****Loan Repayment and National Student Loan added"
+  ],
+  "columns": [
+    "Description",
+    "Revenue collected (MVR) - 2015",
+    "Revenue collected (MVR) - 2016",
+    "Revenue collected (MVR) - 2017",
+    "Revenue collected (MVR) - 2018*",
+    "Revenue collected (MVR) - 2019",
+    "Percentage shares - 2015",
+    "Percentage shares - 2016",
+    "Percentage shares - 2017",
+    "Percentage shares - 2018",
+    "Percentage shares - 2019",
+    "Percentage change over 2018"
+  ],
+  "row_count": 62
+}

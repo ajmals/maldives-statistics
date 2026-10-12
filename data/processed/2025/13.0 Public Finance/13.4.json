@@ -1,0 +1,30 @@
+{
+  "table_id": "13.4",
+  "title_en": "Table 13.4 : SUMMARY OF CENTRAL GOVERNMENT EXPENDITURE, 2017 - 2027",
+  "title_dv": "ތާވަލު 13.4: ދައުލަތުގެ ޚަރަދުގެ ޚުލާސާ، 2017 - 2027",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Planning.",
+  "notes": [
+    "Note: 1_/ Data revised",
+    "2_/ Comprises development expenditure financed from domestic sources and by foreign grants.",
+    "3_/ Data prepared in accordance with GFS 2014.",
+    "(*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "(In million MVR) - Particulars",
+    "(In million MVR) - Actual - 2017",
+    "(In million MVR) - Actual - 2018",
+    "(In million MVR) - Actual - 2019",
+    "(In million MVR) - Actual - 2020",
+    "(In million MVR) - Actual - 2021",
+    "(In million MVR) - Actual - 2022",
+    "(In million MVR) - Actual - 2023",
+    "(In million MVR) - Actual - 2024",
+    "(In million MVR) - Approved - 2025",
+    "(In million MVR) - Approved - 2026",
+    "(In million MVR) - Approved - 2027",
+    "(In million MVR) - Percentage Share - 2024",
+    "(In million MVR) - Percentage Change - 2023-2024"
+  ],
+  "row_count": 15
+}

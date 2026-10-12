@@ -1,0 +1,22 @@
+{
+  "table_id": "6.14",
+  "title_en": "Table 6.14 : DRUG ABUSE CASES REPORTED, BY AGE GROUP, 2001 - 2018",
+  "title_dv": "ތާވަލު 6.14: މަސްތުވާތަކެތި ބޭނުންކުރާމީހުންގެ އަދަދު އަދި އުމުރުފުރާ، 2001 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: This table includes use of Narcotic drugs only.",
+    "Before 2017, the figures were the number of arrests made for each age category. From 2017 onwards, the figures will be the unique number of persons under each age category. Due to this reason, the figures will be much lesser than the previous years.",
+    "ނޯޓު: މިތާވަލުގައި ހިމެނެނީ ހަމައެކަނި މަސްތުވާތަކެތި (ހިކި ތަކެތި) ބޭނުންކުރި މީހުންގެ ޢަދަދެވެ.",
+    "މަޢުލޫމާތު ދެއްވި ފަރާތް: މޯލްޑިވްސް ޕޮލިސް ސަރވިސް"
+  ],
+  "columns": [
+    "Year",
+    "Total",
+    "Age Group - Under 16",
+    "Age Group - 16 - 24",
+    "Age Group - 25 - 39",
+    "Age Group - 40+"
+  ],
+  "row_count": 18
+}

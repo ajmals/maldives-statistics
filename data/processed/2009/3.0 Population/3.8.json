@@ -1,0 +1,23 @@
+{
+  "table_id": "3.8",
+  "title_en": "Table 3.8 : BIRTHS AND DEATHS, BY SEX AND LOCALITY, 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Minist ry of Health & Family",
+  "notes": [
+    "1_/ Total does not include foriegners",
+    "2_/ Reported no. only",
+    "D ecision Support Division"
+  ],
+  "columns": [
+    "Locality",
+    "Births - Both - Sexes",
+    "Births - Male - Sexes",
+    "Births - Female - Sexes",
+    "Births - Not Stated - Sexes",
+    "Deaths - Both - Sexes",
+    "Deaths - Male - Sexes",
+    "Deaths - Female - Sexes"
+  ],
+  "row_count": 25
+}

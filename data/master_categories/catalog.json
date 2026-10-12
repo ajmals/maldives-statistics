@@ -1,0 +1,200 @@
+[
+  {
+    "category": "1.0 Geography",
+    "slug": "1_0_geography",
+    "tables_count": 10,
+    "panel_rows": 21751,
+    "time_span": "2006 – 2026",
+    "db_path": "1.0 Geography/1_0_geography.db",
+    "panel_csv": "1.0 Geography/master_panel.csv"
+  },
+  {
+    "category": "10.0 Tourism",
+    "slug": "10_0_tourism",
+    "tables_count": 18,
+    "panel_rows": 54882,
+    "time_span": "2002 – 2027",
+    "db_path": "10.0 Tourism/10_0_tourism.db",
+    "panel_csv": "10.0 Tourism/master_panel.csv"
+  },
+  {
+    "category": "11.0 Transport and Communication",
+    "slug": "11_0_transport_and_communication",
+    "tables_count": 40,
+    "panel_rows": 45136,
+    "time_span": "1990 – 2026",
+    "db_path": "11.0 Transport and Communication/11_0_transport_and_communication.db",
+    "panel_csv": "11.0 Transport and Communication/master_panel.csv"
+  },
+  {
+    "category": "12.0 Electricity and water",
+    "slug": "12_0_electricity_and_water",
+    "tables_count": 27,
+    "panel_rows": 31429,
+    "time_span": "1999 – 2026",
+    "db_path": "12.0 Electricity and water/12_0_electricity_and_water.db",
+    "panel_csv": "12.0 Electricity and water/master_panel.csv"
+  },
+  {
+    "category": "13.0 Public Finance",
+    "slug": "13_0_public_finance",
+    "tables_count": 14,
+    "panel_rows": 26545,
+    "time_span": "2001 – 2027",
+    "db_path": "13.0 Public Finance/13_0_public_finance.db",
+    "panel_csv": "13.0 Public Finance/master_panel.csv"
+  },
+  {
+    "category": "14.0 Money and banking",
+    "slug": "14_0_money_and_banking",
+    "tables_count": 17,
+    "panel_rows": 20445,
+    "time_span": "2001 – 2025",
+    "db_path": "14.0 Money and banking/14_0_money_and_banking.db",
+    "panel_csv": "14.0 Money and banking/master_panel.csv"
+  },
+  {
+    "category": "15.0 Foreign trade & Balance of payments",
+    "slug": "15_0_foreign_trade_balance_of_payments",
+    "tables_count": 14,
+    "panel_rows": 26643,
+    "time_span": "2000 – 2026",
+    "db_path": "15.0 Foreign trade & Balance of payments/15_0_foreign_trade_balance_of_payments.db",
+    "panel_csv": "15.0 Foreign trade & Balance of payments/master_panel.csv"
+  },
+  {
+    "category": "16.0 National Accounts",
+    "slug": "16_0_national_accounts",
+    "tables_count": 22,
+    "panel_rows": 41508,
+    "time_span": "1995 – 2026",
+    "db_path": "16.0 National Accounts/16_0_national_accounts.db",
+    "panel_csv": "16.0 National Accounts/master_panel.csv"
+  },
+  {
+    "category": "17.0 Prices",
+    "slug": "17_0_prices",
+    "tables_count": 17,
+    "panel_rows": 22248,
+    "time_span": "1998 – 2025",
+    "db_path": "17.0 Prices/17_0_prices.db",
+    "panel_csv": "17.0 Prices/master_panel.csv"
+  },
+  {
+    "category": "18.0 Pension & social protection",
+    "slug": "18_0_pension_social_protection",
+    "tables_count": 31,
+    "panel_rows": 60226,
+    "time_span": "2009 – 2026",
+    "db_path": "18.0 Pension & social protection/18_0_pension_social_protection.db",
+    "panel_csv": "18.0 Pension & social protection/master_panel.csv"
+  },
+  {
+    "category": "19.0 Human rights",
+    "slug": "19_0_human_rights",
+    "tables_count": 13,
+    "panel_rows": 7083,
+    "time_span": "1972 – 2026",
+    "db_path": "19.0 Human rights/19_0_human_rights.db",
+    "panel_csv": "19.0 Human rights/master_panel.csv"
+  },
+  {
+    "category": "2.0 Environment",
+    "slug": "2_0_environment",
+    "tables_count": 14,
+    "panel_rows": 4365,
+    "time_span": "2001 – 2025",
+    "db_path": "2.0 Environment/2_0_environment.db",
+    "panel_csv": "2.0 Environment/master_panel.csv"
+  },
+  {
+    "category": "20.0 Political parties & Election",
+    "slug": "20_0_political_parties_election",
+    "tables_count": 9,
+    "panel_rows": 19169,
+    "time_span": "2008 – 2025",
+    "db_path": "20.0 Political parties & Election/20_0_political_parties_election.db",
+    "panel_csv": "20.0 Political parties & Election/master_panel.csv"
+  },
+  {
+    "category": "3.0 Population",
+    "slug": "3_0_population",
+    "tables_count": 39,
+    "panel_rows": 329213,
+    "time_span": "1985 – 2030",
+    "db_path": "3.0 Population/3_0_population.db",
+    "panel_csv": "3.0 Population/master_panel.csv"
+  },
+  {
+    "category": "4.0 Housing and public infrastructure",
+    "slug": "4_0_housing_and_public_infrastructure",
+    "tables_count": 9,
+    "panel_rows": 4530,
+    "time_span": "2002 – 2025",
+    "db_path": "4.0 Housing and public infrastructure/4_0_housing_and_public_infrastructure.db",
+    "panel_csv": "4.0 Housing and public infrastructure/master_panel.csv"
+  },
+  {
+    "category": "5.0 Employment",
+    "slug": "5_0_employment",
+    "tables_count": 19,
+    "panel_rows": 35854,
+    "time_span": "2007 – 2026",
+    "db_path": "5.0 Employment/5_0_employment.db",
+    "panel_csv": "5.0 Employment/master_panel.csv"
+  },
+  {
+    "category": "6.0 Health",
+    "slug": "6_0_health",
+    "tables_count": 29,
+    "panel_rows": 43603,
+    "time_span": "1999 – 2026",
+    "db_path": "6.0 Health/6_0_health.db",
+    "panel_csv": "6.0 Health/master_panel.csv"
+  },
+  {
+    "category": "7.0 Education",
+    "slug": "7_0_education",
+    "tables_count": 39,
+    "panel_rows": 83751,
+    "time_span": "1998 – 2026",
+    "db_path": "7.0 Education/7_0_education.db",
+    "panel_csv": "7.0 Education/master_panel.csv"
+  },
+  {
+    "category": "8.0 Law & Order",
+    "slug": "8_0_law_order",
+    "tables_count": 85,
+    "panel_rows": 45422,
+    "time_span": "2002 – 2026",
+    "db_path": "8.0 Law & Order/8_0_law_order.db",
+    "panel_csv": "8.0 Law & Order/master_panel.csv"
+  },
+  {
+    "category": "9.0 Fisheries & Agriculture",
+    "slug": "9_0_fisheries_agriculture",
+    "tables_count": 23,
+    "panel_rows": 20336,
+    "time_span": "2001 – 2026",
+    "db_path": "9.0 Fisheries & Agriculture/9_0_fisheries_agriculture.db",
+    "panel_csv": "9.0 Fisheries & Agriculture/master_panel.csv"
+  },
+  {
+    "category": "general",
+    "slug": "general",
+    "tables_count": 7,
+    "panel_rows": 1293,
+    "time_span": "2018 – 2025",
+    "db_path": "general/general.db",
+    "panel_csv": "general/master_panel.csv"
+  },
+  {
+    "category": "indicators",
+    "slug": "indicators",
+    "tables_count": 26,
+    "panel_rows": 13517,
+    "time_span": "1990 – 2021",
+    "db_path": "indicators/indicators.db",
+    "panel_csv": "indicators/master_panel.csv"
+  }
+]

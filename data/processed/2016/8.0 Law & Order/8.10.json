@@ -1,0 +1,19 @@
+{
+  "table_id": "8.10",
+  "title_en": "Table 8.10: ASSAULT CASES LOGGED BY TYPE, 2011 - 2015",
+  "title_dv": "ތާވަލު 8.10: ހުށަހެޅިފައިވާ މާރާމާރީގެ މައްސަލަތައް، 2011- 2015",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "Percentage share",
+    "%change over 2014"
+  ],
+  "row_count": 6
+}

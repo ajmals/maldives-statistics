@@ -1,0 +1,30 @@
+{
+  "table_id": "7.6",
+  "title_en": "Table 7.6: SCHOOLS, ENROLMENT AND TEACHERS BY MALE' AND ATOLLS, 2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education, Higher Education and Skills Development",
+  "notes": [
+    "Note: 1. This table does not include supervisors, assistant headmasters, headmasters, assistant principals and principals who may teach in addition to their administrative duties.",
+    "2. This table includes pre-primary teachers."
+  ],
+  "columns": [
+    "Locality",
+    "Schools - Enrol. Less than 500",
+    "Schools - Enrol. Greater than or equal to 500",
+    "Schools - Total",
+    "Students - Both Sexes",
+    "Students - Male",
+    "Students - Female",
+    "Teachers - Total - Both Sexes",
+    "Teachers - Total - Male",
+    "Teachers - Total - Female",
+    "Teachers - Local - Both Sexes",
+    "Teachers - Local - Male",
+    "Teachers - Local - Female",
+    "Teachers - Expat - Both Sexes",
+    "Teachers - Expat - Male",
+    "Teachers - Expat - Female"
+  ],
+  "row_count": 23
+}

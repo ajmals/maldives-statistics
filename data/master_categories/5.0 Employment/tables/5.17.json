@@ -1,0 +1,26 @@
+{
+  "table_id": "5.17",
+  "category": "5.0 Employment",
+  "title_en": "TABLE 5.17: EMPLOYMENT IN POLITICAL POSTS CLASSIFIED BY OFFICE, 2014",
+  "unit": "",
+  "source": "Source: Presidents Office",
+  "notes": [
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "time_span": "2014 – 2015",
+  "year_min": 2014,
+  "year_max": 2015,
+  "row_count": 63,
+  "column_count": 5,
+  "columns": [
+    "Item",
+    "Office - 2015",
+    "end) - Office - Both sexes - 2014",
+    "end) - Office - Female - 2014",
+    "end) - Office - Male - 2014"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/5.17.csv"
+}

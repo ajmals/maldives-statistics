@@ -1,0 +1,29 @@
+{
+  "table_id": "12.12",
+  "title_en": "Table 12.12 : NUMBER OF CUSTOMERS USING WATER IN MALE' BY TYPE, 2010 - 2025",
+  "title_dv": "ތާވަލު 12.12: ތަނުގެ ގޮތުން މާލޭގައި ފެން ބޭނުންކުރާ ފަރާތްތަކުގެ އަދަދު، 2010 - 2025",
+  "unit": "",
+  "source": "Source: Male' Water & Sewerage Company Private Limited",
+  "notes": [],
+  "columns": [
+    "Type",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "row_count": 15
+}

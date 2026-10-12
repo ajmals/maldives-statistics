@@ -1,0 +1,24 @@
+{
+  "table_id": "6.2",
+  "title_en": "Table 6.2: HEALTH PERSONNEL BY LOCALS AND EXPATRIATES - 2014",
+  "title_dv": "2014, udwdwA egcnIsEdib iaWncnihevid Wrukctwkcawswm iawgWriaWd IHcaiB : 6.2 clwvWt",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: Pvt. Sector data includes ADK & IMDC (in Addu City)only",
+    "2_/: All Pharmacists / Pharmacy Assts. under pvt sector"
+  ],
+  "columns": [
+    "Categories of Health Personnel",
+    "Total",
+    "PUBLIC SECTOR - REPUBLIC - expat",
+    "PUBLIC SECTOR - REPUBLIC - local",
+    "PUBLIC SECTOR - MALE' - expat",
+    "PUBLIC SECTOR - MALE' - local",
+    "PUBLIC SECTOR - ATOLLS - expat",
+    "PUBLIC SECTOR - ATOLLS - local",
+    "PRIVATE SECTOR - REPUBLIC - expat",
+    "PRIVATE SECTOR - REPUBLIC - local"
+  ],
+  "row_count": 12
+}

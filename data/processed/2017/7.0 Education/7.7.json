@@ -1,0 +1,27 @@
+{
+  "table_id": "7.7",
+  "title_en": "Table 7.7 : STUDENTS AND TEACHERS SERVING AT DIFFERENT LEVELS IN MALE' AND ATOLLS, 2016",
+  "title_dv": "2016 ,udwdwa egcnusircawdum EdWvwyik ,iaWncnidukWvwyik iawgukwtitcnwfikea egukwtuLotwa iaWaelWm :7.7 clwvWt",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note : 1. Teachers does not include supervisors, assistant headmasters, headmasters, assistant principals and principals who may teach in addition to their administrative duties.",
+    "2. Teacherswho teach different levels have been enumerated in the level the teacher takes most periods.",
+    "3. Trained : Have MAB ( Maldives Accreditation Board ) accredited advanced certificate or higher teaching qualification.",
+    "4. 1_/: Total number of students in this table does not include children with special needs"
+  ],
+  "columns": [
+    "Level",
+    "No. of students1_/",
+    "No. of teachers - Total",
+    "No. of teachers - Trained",
+    "No. of teachers - Untrained",
+    "Student Teacher Ratio - Total",
+    "Student Teacher Ratio - Trained",
+    "Teachers - Total",
+    "Teachers - Local",
+    "Teachers - Expatriate",
+    "% of - expatriate"
+  ],
+  "row_count": 15
+}

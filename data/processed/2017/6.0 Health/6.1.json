@@ -1,0 +1,25 @@
+{
+  "table_id": "6.1",
+  "title_en": "Table 6.1 : DISTRIBUTION OF MEDICAL STAFF IN MALE' AND ATOLLS - 2016",
+  "title_dv": "ތާވަލު 6.1: ޞިއްޙީ ދާއިރާގައި މަސައްކަތްކުރާ މީހުންގެ އަދަދު، 2016",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: Pvt. Sector data includes ADK,IMDC ,Medica and FMDD hospital only",
+    "All data except for pharmacist / pharmacy assistants are taken fron HR reports provided by health facilities",
+    "Pharmacists / Pharmacy Assistant data is taken from MFDA, pharmacy registration unit's available records on the number of pharmacist cards issued."
+  ],
+  "columns": [
+    "Categories of Health Personnel",
+    "Republic - Both sexes",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Both sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Both sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 18
+}

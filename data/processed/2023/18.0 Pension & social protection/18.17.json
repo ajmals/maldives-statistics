@@ -1,0 +1,29 @@
+{
+  "table_id": "18.17",
+  "title_en": "TABLE 18.17: EMPLOYEES REGISTERED IN THE RETIREMENT PENSION SCHEME, BY TYPE OF EMPLOYER, 2020 - 2022",
+  "title_dv": "ތާވަލު 18.17 : ތަނުގެ ބާވަތުން، ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްގައި ރެޖިސްޓަރކޮށްފައިވާ މުވައްޒަފުންގެ ޢަދަދު ، 2020 - 2022",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Place",
+    "2020 - Total",
+    "2020 - Male",
+    "2020 - Female",
+    "2021 - Total",
+    "2021 - Male",
+    "2021 - Female",
+    "2022 - Total",
+    "2022 - Male",
+    "2022 - Female",
+    "% share - Female - 2017",
+    "% share - 2020",
+    "% share - 2021",
+    "% share - 2022",
+    "% share of females - 2017",
+    "% share of females - 2020",
+    "% share of females - 2021",
+    "% share of females - 2022"
+  ],
+  "row_count": 13
+}

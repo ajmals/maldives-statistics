@@ -1,0 +1,38 @@
+{
+  "table_id": "18.16",
+  "title_en": "TABLE 18.16: EMPLOYEES AND ESTABLISHMENTS REGISTERED IN THE RETIREMENT PENSION SCHEME BY MONTH, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration Office",
+  "notes": [
+    "Note: The Difference between values in this table is due to some members having multiple contracts with more than one employer"
+  ],
+  "columns": [
+    "Column_1",
+    "Jan - Establishments",
+    "Jan - Employment",
+    "Feb - Establishments",
+    "Feb - Employment",
+    "Mar - Establishments",
+    "Mar - Employment",
+    "Apr - Establishments",
+    "Apr - Employment",
+    "May - Establishments",
+    "May - Employment",
+    "Jun - Establishments",
+    "Jun - Employment",
+    "Jul - Establishments",
+    "Jul - Employment",
+    "Aug - Establishments",
+    "Aug - Employment",
+    "Sep - Establishments",
+    "Sep - Employment",
+    "Oct - Establishments",
+    "Oct - Employment",
+    "Nov - Establishments",
+    "Nov - Employment",
+    "Dec - Establishments",
+    "Dec - Employment"
+  ],
+  "row_count": 27
+}

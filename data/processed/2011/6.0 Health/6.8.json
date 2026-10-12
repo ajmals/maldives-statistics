@@ -1,0 +1,21 @@
+{
+  "table_id": "6.8",
+  "title_en": "Table 6.8 : LEPROSY CASES BY AGE AND SEX, 2002-2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Center for Commununit y Health and Disease Control",
+  "notes": [],
+  "columns": [
+    "Age group - Cases under Treatment",
+    "2002 - Cases under Treatment",
+    "2003 - Cases under Treatment",
+    "2004 - Cases under Treatment",
+    "2005 - Cases under Treatment",
+    "2006 - Cases under Treatment",
+    "2007 - Cases under Treatment",
+    "2008 - Cases under Treatment",
+    "2009 - Cases under Treatment",
+    "2010 - Cases under Treatment"
+  ],
+  "row_count": 37
+}

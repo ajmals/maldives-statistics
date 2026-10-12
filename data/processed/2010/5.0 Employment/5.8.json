@@ -1,0 +1,23 @@
+{
+  "table_id": "5.8",
+  "title_en": "Table 5.8: NUMBER OF ESTABLISHMENTS AND EMPLOYMENT BY INDUSTRY AND ESTABLISHMENT SIZE, 2007",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Economic Survey 2007 / Department of National Planni ng",
+  "notes": [
+    "Note: Establishment size based on employment"
+  ],
+  "columns": [
+    "Industry - Republic",
+    "Establishment - Establishment size - Total",
+    "Establishment - Establishment size - <10",
+    "Establishment - Establishment size - 10-99",
+    "Establishment - Establishment size - 100+",
+    "Establishment - Establishment size - Not stated",
+    "Employment - Establishment size - Total",
+    "Employment - Establishment size - <10",
+    "Employment - Establishment size - 10-99",
+    "Employment - Establishment size - 100+"
+  ],
+  "row_count": 54
+}

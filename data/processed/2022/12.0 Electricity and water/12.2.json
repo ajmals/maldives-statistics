@@ -1,0 +1,26 @@
+{
+  "table_id": "12.2",
+  "title_en": "Table 12.2 : MONTHLY ELECTRICITY PRODUCTION BY PUBLIC SECTOR, 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: State Electric Company Limited, Fenaka Corporation Limited",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Column_2",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 190
+}

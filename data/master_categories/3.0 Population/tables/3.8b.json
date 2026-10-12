@@ -1,0 +1,25 @@
+{
+  "table_id": "3.8b",
+  "category": "3.0 Population",
+  "title_en": "Table 3.8b: Improved life expectancy at birth series for Maldives, 1990-2015",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: * Interpolation has been done to derive life expectancy at birth for inter-censal years",
+    "Souce: Maldives Bureau of Statistics",
+    "Data Revised: 8th November 2021"
+  ],
+  "time_span": "2026",
+  "year_min": 2026,
+  "year_max": 2026,
+  "row_count": 26,
+  "column_count": 4,
+  "columns": [
+    "Item",
+    "Life Expectancy e(x) - Both Sexes - 2026",
+    "Life Expectancy e(x) - Female - 2026",
+    "Life Expectancy e(x) - Male - 2026"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/3.8b.csv"
+}

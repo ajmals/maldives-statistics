@@ -1,0 +1,25 @@
+{
+  "table_id": "11.17-1",
+  "category": "11.0 Transport and Communication",
+  "title_en": "Table 11.17 : AIRCRAFT MOVEMENT AT VELANA INTERNATIONAL AIRPORT BY MONTH, 2018",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 13,
+  "column_count": 8,
+  "columns": [
+    "Item",
+    "Domestic Flights - Non-Scheduled - 2019",
+    "Domestic Flights - Scheduled - 2019",
+    "Domestic Flights - Total - 2019",
+    "Grand total - 2019",
+    "International Flights - Non-Scheduled - 2019",
+    "International Flights - Scheduled - 2019",
+    "International Flights - Total - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/11.17-1.csv"
+}

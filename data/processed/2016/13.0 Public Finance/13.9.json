@@ -1,0 +1,20 @@
+{
+  "table_id": "13.9",
+  "title_en": "Table 13.9 : EXPENDITURE ON MAJOR PROJECTS FINANCED BY FOREIGN LOANS, 2011- 2018",
+  "title_dv": "ތާވަލު 13.9: ބޮޑެތި މަޝްރޫޢުތަކަށް ރާއްޖޭން ބޭރުން ނެގޭ ލޯނުތަކުން ޚަރަދުކުރެވޭ ގޮތް، 2011 - 2018",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [],
+  "columns": [
+    "(In million MVR) - Major projects",
+    "(In million MVR) - Actuals - 2011",
+    "(In million MVR) - Actuals - 2012",
+    "(In million MVR) - Actuals - 2013",
+    "(In million MVR) - Actual - 2014",
+    "(In million MVR) - Revised - 2015",
+    "(In million MVR) - MTEF - 2016",
+    "(In million MVR) - MTEF - 2017",
+    "(In million MVR) - MTEF - 2018"
+  ],
+  "row_count": 111
+}

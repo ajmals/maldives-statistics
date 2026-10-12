@@ -1,0 +1,32 @@
+{
+  "table_id": "14.6",
+  "title_en": "Table 14.6: ASSETS AND LIABILITIES OF MALDIVES MONETARY AUTHORITY, 2015 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "Data is compiled based on IMF Monetary and Financial Statistics Manual 2000 (MFSM 2000).",
+    "1_/: 2015-- 2017 revised"
+  ],
+  "columns": [
+    "(In millions of Rufiyaa; end of period) - Particulars",
+    "(In millions of Rufiyaa; end of period) - 2015 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2015 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2015 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2015 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2016 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2016 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2016 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2016 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2017 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2017 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2017 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2017 - Dec",
+    "(In millions of Rufiyaa; end of period) - 2018 - Mar",
+    "(In millions of Rufiyaa; end of period) - 2018 - Jun",
+    "(In millions of Rufiyaa; end of period) - 2018 - Sep",
+    "(In millions of Rufiyaa; end of period) - 2018 - Dec"
+  ],
+  "row_count": 32
+}

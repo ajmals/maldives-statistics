@@ -1,0 +1,9 @@
+Type,2011,2012,2013,2014,2015,2016,2017,2018,2018 - % change over 2016,2018 - % change over 2017,Column_21,Column_22
+Total,171,190,183,174,172,154,174,181,12.987013,4.022989,,
+Homicides,3,10,3,3,11,5,9,3,80,-66.666667,Homicide,5.172414
+Suicides,13,8,19,12,15,17,17,14,,-17.647059,Suicide,9.770115
+Diving/snorkeling accidents,13,12,15,14,11,16,19,15,18.75,-21.052632,Diving/snorkeling accidents,10.91954
+Traffic accidents,7,5,2,10,12,4,9,8,125,-11.111111,Traffic accidents,5.172414
+Marine Accidents,-,-,-,-,-,-,-,4,#VALUE!,,Drowning,#VALUE!
+Drowning,8,30,15,13,18,12,12,22,,83.333333,Other death cases logged,6.896552
+Other death cases logged,127,125,129,122,105,100,108,115,8,6.481481,,

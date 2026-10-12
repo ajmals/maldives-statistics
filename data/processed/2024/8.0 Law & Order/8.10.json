@@ -1,0 +1,22 @@
+{
+  "table_id": "8.10",
+  "title_en": "Table 8.10: ASSAULT CASES LOGGED BY TYPE, 2016 - 2023",
+  "title_dv": "ތާވަލު 8.10: ހުށަހެޅިފައިވާ މާރާމާރީގެ މައްސަލަތައް، 2016- 2023",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2023 - Percentage share",
+    "2023 - %change over 2022"
+  ],
+  "row_count": 6
+}

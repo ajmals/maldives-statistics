@@ -1,0 +1,34 @@
+{
+  "table_id": "3.13",
+  "title_en": "Table 3.13 : PROJECTED MID-YEAR POPULATION OF MALDIVES BY AGE AND SEX, 2014 - 2030",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "The Resident population consist of Resident Maldivian and Resident Foreigners",
+    "For comparison with previous projections please use Resident Maldivian projections",
+    "The Republic total includes Male', Atolls and Non Administrative Islands"
+  ],
+  "columns": [
+    "Resident Population in Republic - Age groups",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027",
+    "2028",
+    "2029",
+    "2030"
+  ],
+  "row_count": 166
+}

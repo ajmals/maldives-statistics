@@ -1,0 +1,30 @@
+{
+  "table_id": "11.15",
+  "title_en": "Table 11.15 : PASSENGER MOVEMENTS AT DOMESTIC AIRPORTS BY MONTH, 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [],
+  "columns": [
+    "Month",
+    "L.Kadhdhoo - In",
+    "L.Kadhdhoo - Out",
+    "GDh.Kaadedhdhoo - In",
+    "GDh.Kaadedhdhoo - Out",
+    "Gn.Fuvahmulah - In",
+    "Gn.Fuvahmulah - Out",
+    "ADh.Maamigili - In",
+    "ADh.Maamigili - Out",
+    "B.Dharavandhoo - In",
+    "B.Dharavandhoo - Out",
+    "GA. Koodoo - In",
+    "GA. Koodoo - Out",
+    "Th. Thimarafushi - In",
+    "Th. Thimarafushi - Out",
+    "R.Ifuru - In",
+    "R.Ifuru - Out",
+    "Dh.kudahuvadhoo - In",
+    "Dh.kudahuvadhoo - Out"
+  ],
+  "row_count": 13
+}

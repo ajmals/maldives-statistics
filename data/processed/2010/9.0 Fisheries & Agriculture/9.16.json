@@ -1,0 +1,29 @@
+{
+  "table_id": "9.16",
+  "title_en": "Table 9.16 : FISH CATCH, FISHING TRIPS AND CATCH PER UNIT EFFORT BY LOCALITY, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Fish Catch (metric tonnes) - Mechanised - Masdhonis",
+    "Fish Catch (metric tonnes) - Sailing - Masdhonis",
+    "Fishing Trips - Mechanised - Masdhonis",
+    "Fishing Trips - Sailing - Masdhonis",
+    "Catch per unit effort (kgs) - Mechanised - Masdhonis",
+    "Catch per unit effort (kgs) - Sailing - Masdhonis",
+    "Fish Catch (metric tonnes) - Mechanised - vadhu dhonis",
+    "Fish Catch (metric tonnes) - Sailing - vadhu dhonis",
+    "Fish Catch (metric tonnes) - Rowing - boats",
+    "Fishing Trips - Mechanised - vadhu dhonis",
+    "Fishing Trips - Sailing - vadhu dhonis",
+    "Fishing Trips - Rowing - boats",
+    "Catch per unit effort (kgs) - Mechanised - vadhu dhonis",
+    "Catch per unit effort (kgs) - Sailing - vadhu dhonis",
+    "Catch per unit effort (kgs) - Rowing - boats",
+    "Miscellaneous - Fish Catch - (metric tonnes)",
+    "Miscellaneous - Fishing Trips - (metric tonnes)"
+  ],
+  "row_count": 23
+}

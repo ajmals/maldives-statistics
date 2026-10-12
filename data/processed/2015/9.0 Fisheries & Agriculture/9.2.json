@@ -1,0 +1,39 @@
+{
+  "table_id": "9.2",
+  "title_en": "Table 9.2 : FISH CATCH BY LOCALITY, 2007 - 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [
+    "Note: Fish catch data for 2010 shows a substantial upward revision from 94.3 to 116.7 thousand metric tons, based on the fish collection data by vessel, newly available at the MOFA. Some vessesls had not reported catch data while reporting collection. Hence this ajustment could not be brought to previous years catch data to make it consistent."
+  ],
+  "columns": [
+    "(In '000 metric tons) - Locality",
+    "Fish catch - 2005",
+    "Fish catch - 2007",
+    "Fish catch - 2008",
+    "Fish catch - 2009",
+    "Fish catch - 2010",
+    "Fish catch - 2011",
+    "Fish catch - 2012",
+    "Fish catch - 2013",
+    "Fish catch - 2014",
+    "Percentage share - 2007",
+    "Percentage share - 2008",
+    "Percentage share - 2009",
+    "Percentage share - 2010",
+    "Percentage share - 2011",
+    "Percentage share - 2012",
+    "Percentage share - 2013",
+    "Percentage share - 2014",
+    "% change over previous year - 2007",
+    "% change over previous year - 2008",
+    "% change over previous year - 2009",
+    "% change over previous year - 2010",
+    "% change over previous year - 2011",
+    "% change over previous year - 2012",
+    "% change over previous year - 2013",
+    "% change over previous year - 2014"
+  ],
+  "row_count": 24
+}

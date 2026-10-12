@@ -1,0 +1,26 @@
+{
+  "table_id": "9.12",
+  "title_en": "Table 9.12: AGRICULTURAL PRODUCTS TRADED IN MALE' MARKET BY ATOLLS, 2009 (Value in Rf)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Economic research and Staistics Services",
+  "notes": [
+    "* Note: Other Atolls include GA, GDh, HDh and M atoll."
+  ],
+  "columns": [
+    "Agricultural Crops",
+    "Total",
+    "AA",
+    "KA",
+    "LA",
+    "HA",
+    "SH",
+    "BA",
+    "GN",
+    "LH",
+    "SE",
+    "TH",
+    "Others"
+  ],
+  "row_count": 17
+}

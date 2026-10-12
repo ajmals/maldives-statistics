@@ -1,0 +1,18 @@
+{
+  "table_id": "5.3",
+  "title_en": "Table 5.3: CIVIL SERVANTS BY ATOLL AND SEX, 2015",
+  "title_dv": "ތާވަލް 5.3: މާލެ އާއި އަތޮޅުތަކުގައި މަސައްކަތްކުރާ ސިވިލް ސަރވަންޓުންގެ އަދަދު އަދި ޖިންސް، 2015",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [
+    "Note: Atoll total includes 1 person who are working abroad",
+    "ނޯޓް: އަތޮޅުތަކުގެ ޖުމްލައިގެ ތެރޭގައި ރާއްޖޭން ބޭރުގައި މަސައްކަތްކުރާ 1 މުވައްޒަފު ހިމެނިފައި"
+  ],
+  "columns": [
+    "Locality",
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "row_count": 23
+}

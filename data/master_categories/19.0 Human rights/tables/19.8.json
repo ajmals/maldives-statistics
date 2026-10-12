@@ -1,0 +1,35 @@
+{
+  "table_id": "19.8",
+  "category": "19.0 Human rights",
+  "title_en": "",
+  "unit": "",
+  "source": "Source: Minist ry of Health and family",
+  "notes": [
+    "1_/ Total includes 6 and 1 sex unknown Live Births in Atolls in 1996 and 2000 respectively and 1,2, 1 sex inknown Live Births in 2006, 2008 and 2002 (Male') respectively",
+    "1_/ Total includes 6 and 1 sex unknown Live Births in Atolls in 1996 and 2000 respectively and 1,2, 1 sex inknown Live Births in 2006, 2008 and 2002 (Male') respectively",
+    "2_/ Total inclu des 1 sex unknown infant deaths (Atolls) in 2000",
+    "Note: Data ha ve been taken from the past publications of the Statistical Yearbook of Maldives"
+  ],
+  "time_span": "1984",
+  "year_min": 1984,
+  "year_max": 1984,
+  "row_count": 32,
+  "column_count": 13,
+  "columns": [
+    "Item",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Deaths - Female - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Deaths - Male - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Deaths - Total - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Infant deaths - Female - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Infant deaths - Male - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Infant deaths - Total - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Infant moratlity rate ('000) - Female - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Infant moratlity rate ('000) - Male - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Infant moratlity rate ('000) - Total - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Live births - Female - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Live births - Male - 1984",
+    "19.8 : LIVE BIRTHS, DEATHS, INFANT DEATHS & INFANT MORTALITY RATES,  - 2009 - Live births - Total - 1984"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/19.8.csv"
+}

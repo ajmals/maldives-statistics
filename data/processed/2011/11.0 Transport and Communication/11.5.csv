@@ -1,0 +1,10 @@
+Airline,Flight Move ments,Passengers - In,Passengers - Out,Passengers - Transit,Cargo (kg) - In,Cargo (kg) - Out,Cargo (kg) - Transit,Mail (kg) - In,Mail (kg) - Out
+Total,"3,700","54,059","52,240","4,981","272,994","13,882","7,168","7,215","1,474"
+International Flights,182,"1,752","1,484",0,0,0,0,0,0
+International Scheduled,34,"1,475","1,302",0,0,0,0,0,0
+International Charter,34,"1,475","1,302",0,0,0,0,0,0
+King Fisher Airlines,34,"1,475","1,302",0,0,0,0,0,0
+International Non-Scheduled,148,277,182,0,0,0,0,0,0.00
+Domestic flights,"3,518","52,307","50,756","4,981","272,994","13,882","7,168","7,215","1,474"
+Island Aviation (Scheduled),"3,410","52,307","50,756","4,981","272,994","13,882","7,168","7,215",1474.2
+Other Domestic 1_/,108,0,0,0,0,0,0,0,0.00

@@ -1,0 +1,20 @@
+{
+  "table_id": "10.4",
+  "title_en": "Table 10.4 : RESORTS BY TYPE OF LEASE HOLDER AND MANAGEMENT, 2008 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [],
+  "columns": [
+    "Lease Holder",
+    "2008 - Operator - Total",
+    "2008 - Operator - Local",
+    "2008 - Operator - Foreign",
+    "2008 - Operator - Joint Venture",
+    "2009 - Operator - Total",
+    "2009 - Operator - Local",
+    "2009 - Operator - Foreign",
+    "2009 - Operator - Joint Venture"
+  ],
+  "row_count": 4
+}

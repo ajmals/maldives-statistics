@@ -1,0 +1,16 @@
+{
+  "table_id": "18.5",
+  "title_en": "Table 18.5 : EXPENDITURE ON MADHANA SERVICES BY TYPE OF INSTITUTION AND ATOLL , 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Hospitals - clwTiPcsoh",
+    "Pharmacies - IswmWf",
+    "Clinics - ckiniluk",
+    "Opticals - ctwmcdiKegulol"
+  ],
+  "row_count": 24
+}

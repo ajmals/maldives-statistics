@@ -1,0 +1,22 @@
+{
+  "table_id": "9.6",
+  "title_en": "Table 9.6 : FISH CATCH BY TYPE OF VESSELS AND SPECIES, 2013 - 2023",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [],
+  "columns": [
+    "(In metric tons) - Type of vessel & species",
+    "(In metric tons) - 2014",
+    "(In metric tons) - 2015",
+    "(In metric tons) - 2016",
+    "(In metric tons) - 2017",
+    "(In metric tons) - 2018",
+    "(In metric tons) - 2019",
+    "(In metric tons) - 2020",
+    "(In metric tons) - 2021",
+    "(In metric tons) - 2022",
+    "(In metric tons) - 2023"
+  ],
+  "row_count": 28
+}

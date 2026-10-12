@@ -1,0 +1,22 @@
+{
+  "table_id": "9.6",
+  "title_en": "Table 9.6 : FISH CATCH BY TYPE OF VESSELS AND SPECIES, 2004 - 2009 (In metric tons)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries and Agriculture",
+  "notes": [
+    "* Please note that due to tsunami tragedy, fisheries statistic ( number of vessels engaged in fishing and landing data) for Dec 2004 were not obtained from the following offices",
+    "* Please note that due to tsunami tragedy, fisheries statistic ( number of vessels engaged in fishing and landing data) for Dec 2004 were not obtained from the following offices",
+    "Ha. Filladhoo, R. Kadholhudh oo, M. Madifushi, Th. Vilufushi, Dh. Gemendhoo"
+  ],
+  "columns": [
+    "Type of vessel & species",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009"
+  ],
+  "row_count": 35
+}

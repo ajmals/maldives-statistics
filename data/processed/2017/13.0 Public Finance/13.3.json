@@ -1,0 +1,33 @@
+{
+  "table_id": "13.3",
+  "title_en": "Table 13.3: GOVERNMENT REVENUE, 2013 - 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Includes airport tax, business profit tax, GST, licence fees, company registration fees,remittence tax and stamp duties.",
+    "2_/ Includes fines, confiscated properties, penalties and administrative charges (Royalty included up to 2011)",
+    "3_/ Excludes grants for direct expenditure by donors.",
+    "4_/ from 2012 royalty is classified as a tax revenue",
+    "Total Revenue and Grants is excluding Subsidiary Loan repayments",
+    "Tourism Tax will be abolished from 2014 by law",
+    "Green tax introduced starting from Nov 2015 while tourism Tax abolished in nov 2014",
+    "Revenue for 2017-2018 includes proposed new revenue measures in budget 2017"
+  ],
+  "columns": [
+    "(In million MVR) - Particulars",
+    "(In million MVR) - 2008",
+    "(In million MVR) - 2009",
+    "(In million MVR) - 2010",
+    "(In million MVR) - 2011",
+    "(In million MVR) - Actual - 2012",
+    "(In million MVR) - Actual - 2013",
+    "(In million MVR) - Actual - 2014",
+    "(In million MVR) - Actual - 2015",
+    "(In million MVR) - Revised - 2016",
+    "(In million MVR) - Estimate - 2017",
+    "(In million MVR) - Estimate - 2018",
+    "(In million MVR) - Estimate - 2019"
+  ],
+  "row_count": 44
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "18.1",
+  "title_en": "Table 18.1: PUBLIC SECTOR INVESTMENT PROGRAMME, (PSIP), 2010-2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "Note: 0 - Ongoing , N- New projects"
+  ],
+  "columns": [
+    "Project / Atoll / Island",
+    "Allocated 2010",
+    "Est 2011",
+    "Total project cost",
+    "Status",
+    "% share 2010"
+  ],
+  "row_count": 179
+}

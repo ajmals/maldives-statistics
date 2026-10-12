@@ -1,0 +1,28 @@
+{
+  "table_id": "Foreign-Trade-and-Balance-of-Payment",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: 1_/: Positive sign indicates net landing and negative sign indicates net borrowing.",
+    "2_/ revised",
+    "BOP Series has been compiled in accordance with BPM6 methodologies from 2011 onwards based on information available as of 16 April 2017"
+  ],
+  "columns": [
+    "FOREIGN TRADE - EXPORTS",
+    "FOREIGN TRADE - 2006",
+    "FOREIGN TRADE - 2007",
+    "FOREIGN TRADE - 2008",
+    "FOREIGN TRADE - 2009",
+    "FOREIGN TRADE - 2010",
+    "FOREIGN TRADE - 2011",
+    "FOREIGN TRADE - 2012",
+    "FOREIGN TRADE - 2013",
+    "FOREIGN TRADE - 2014",
+    "FOREIGN TRADE - 2015",
+    "FOREIGN TRADE - 2016",
+    "FOREIGN TRADE - 2017"
+  ],
+  "row_count": 26
+}

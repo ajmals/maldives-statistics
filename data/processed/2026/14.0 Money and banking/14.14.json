@@ -1,0 +1,31 @@
+{
+  "table_id": "14.14",
+  "title_en": "Table 14.14: Insurance Premium and Claims by Class, 2022- 2025",
+  "title_dv": "ތާވަލު 14.14: އިންޝޫރެންސް ޕްރިމިއަމް އަދި ކްލެއިމްސް : (2022 - 2025)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "Figures are from unaudited quarterly returns submitted to the MMA."
+  ],
+  "columns": [
+    "(millions of MVR) - Particulars",
+    "(millions of MVR) - 2022 - Mar",
+    "(millions of MVR) - 2022 - Jun",
+    "(millions of MVR) - 2022 - Sep",
+    "(millions of MVR) - 2022 - Dec",
+    "(millions of MVR) - 2023 - Mar",
+    "(millions of MVR) - 2023 - Jun",
+    "(millions of MVR) - 2023 - Sep",
+    "(millions of MVR) - 2023 - Dec",
+    "(millions of MVR) - 2024 - Mar",
+    "(millions of MVR) - 2024 - Jun",
+    "(millions of MVR) - 2024 - Sep",
+    "(millions of MVR) - 2024 - Dec",
+    "(millions of MVR) - 2025 - Mar",
+    "(millions of MVR) - 2025 - Jun",
+    "(millions of MVR) - 2025 - Sep",
+    "(millions of MVR) - 2025 - Dec"
+  ],
+  "row_count": 25
+}

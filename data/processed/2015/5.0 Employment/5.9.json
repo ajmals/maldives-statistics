@@ -1,0 +1,21 @@
+{
+  "table_id": "5.9",
+  "title_en": "Table 5.9 : CIVIL SERVANTS CLASSIFIED BY JOB RANK AND BASIC SALARY, 2014",
+  "title_dv": "ތާވަލް 5.9: ސިވިލް ސަރވިސްގައި ވަޒީފާއަދާކުރާ މުވައްޒަފުން، ރޭންކު އަދި ބޭސިކް މުސާރަ، 2014",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Rank",
+    "No. of Employees - Republic - Both Sexes",
+    "No. of Employees - Republic - Male",
+    "No. of Employees - Republic - Female",
+    "No. of Employees - Male' - Both Sexes",
+    "No. of Employees - Male' - Male",
+    "No. of Employees - Male' - Female",
+    "Atolls - Both Sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 67
+}

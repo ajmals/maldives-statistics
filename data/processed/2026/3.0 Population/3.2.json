@@ -1,0 +1,27 @@
+{
+  "table_id": "3.2",
+  "title_en": "Table 3.2 : TOTAL MALDIVIAN POPULATION BY AGE AND SEX, CENSUS, 1995, 2000, 2006 , 2014 AND 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "Age group",
+    "1995 Census - Both Sexes",
+    "1995 Census - Male",
+    "1995 Census - Female",
+    "2000 Census - Both Sexes",
+    "2000 Census - Male",
+    "2000 Census - Female",
+    "2006 Census - Both Sexes",
+    "2006 Census - Male",
+    "2006 Census - Female",
+    "2014 Census - Both Sexes",
+    "2014 Census - Male",
+    "2014 Census - Female",
+    "2022 Census - Both Sexes",
+    "2022 Census - Male",
+    "2022 Census - Female"
+  ],
+  "row_count": 24
+}

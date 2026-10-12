@@ -14,3 +14,8 @@ __pycache__/
 # Backward-compatibility symlinks
 datasets
 raw_stats_data
+
+# SQLite databases (build artifacts)
+*.db
+*.sqlite
+*.sqlite3

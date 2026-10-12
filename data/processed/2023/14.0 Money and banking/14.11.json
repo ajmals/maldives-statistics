@@ -1,0 +1,27 @@
+{
+  "table_id": "14.11",
+  "title_en": "Table 14.11: Financial Soundness Indicator, 2018 - 2020",
+  "title_dv": "ތާވަލު 14.11: ފައިނޭންޝަލް ސައުންޑްނެސް އިންޑިކޭޓާރސް: ( 2018- 2020)",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "This table is compiled in accordance with IMF's FSI Compilation Guide (2006)."
+  ],
+  "columns": [
+    "(In percent) - Particulars - Capital adequacy",
+    "(In percent) - 2018 - Mar",
+    "(In percent) - 2018 - Jun",
+    "(In percent) - 2018 - Sep",
+    "(In percent) - 2018 - Dec",
+    "(In percent) - 2019 - Mar",
+    "(In percent) - 2019 - Jun",
+    "(In percent) - 2019 - Sep",
+    "(In percent) - 2019 - Dec",
+    "(In percent) - 2020 - Mar",
+    "(In percent) - 2020 - Jun",
+    "(In percent) - 2020 - Sep",
+    "(In percent) - 2020 - Dec"
+  ],
+  "row_count": 18
+}

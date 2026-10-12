@@ -1,0 +1,25 @@
+{
+  "table_id": "16.8",
+  "title_en": "Table 16.8 : IMPLICIT PRICE DEFLATOR, BY KIND OF ACTIVITY, 2014-2022",
+  "title_dv": "ތާވަލް 16.8: އިމްޕްލިސިޓް ޕްރައިސް ޑީފްލޭޓަރ ، 2022-2014",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning, Housing and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "Published in August 2023"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2014",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2015",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2016",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2017",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2018",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2019",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2020",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2021",
+    "(In percent , 2019 =100) - Industry / Economic Activity - 2022"
+  ],
+  "row_count": 33
+}

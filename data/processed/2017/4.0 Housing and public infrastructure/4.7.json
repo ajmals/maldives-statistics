@@ -1,0 +1,15 @@
+{
+  "table_id": "4.7",
+  "title_en": "Table 4.7: COMPLETED HOUSING PROJECTS, 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Housing and Infrastructure",
+  "notes": [],
+  "columns": [
+    "Atoll",
+    "Island",
+    "Island - Funding Source",
+    "Island - Cost (MRF)"
+  ],
+  "row_count": 13
+}

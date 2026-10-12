@@ -1,0 +1,15 @@
+{
+  "table_id": "5.3",
+  "title_en": "Table 5.3: CIVIL SERVANTS BY ATOLL AND SEX, 2021",
+  "title_dv": "ތާވަލް 5.3: މާލެ އާއި އަތޮޅުތަކުގައި މަސައްކަތްކުރާ ސިވިލް ސަރވަންޓުންގެ އަދަދު އަދި ޖިންސް، 2021",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "row_count": 23
+}

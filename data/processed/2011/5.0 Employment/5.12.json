@@ -1,0 +1,21 @@
+{
+  "table_id": "5.12",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Economic Survey 2007 / Department of National P lanning",
+  "notes": [],
+  "columns": [
+    "5.12: Employment in establishments by industry , 2007 - Industry",
+    "5.12: Employment in establishments by industry , 2007 - Republic - Total",
+    "5.12: Employment in establishments by industry , 2007 - Republic - locals",
+    "5.12: Employment in establishments by industry , 2007 - Republic - Foreigners",
+    "5.12: Employment in establishments by industry , 2007 - Male - Total",
+    "5.12: Employment in establishments by industry , 2007 - Male - locals",
+    "5.12: Employment in establishments by industry , 2007 - Male - Foreigners",
+    "5.12: Employment in establishments by industry , 2007 - Atolls - Total",
+    "5.12: Employment in establishments by industry , 2007 - Atolls - locals",
+    "5.12: Employment in establishments by industry , 2007 - Atolls - Foreigners"
+  ],
+  "row_count": 17
+}

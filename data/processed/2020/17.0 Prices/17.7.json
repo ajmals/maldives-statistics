@@ -1,0 +1,25 @@
+{
+  "table_id": "17.7",
+  "title_en": "Table 17.7 : MONTHLY INFLATION RATE, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "(Index - base: Aug 2019=100) - Major Groups - Republic",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Jan",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Feb",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Mar",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Apr",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - May",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Jun",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Jul",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Aug",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Sep",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Oct",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Nov",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - Dec",
+    "(Index - base: Aug 2019=100) - Monthly Inflation rates , 2019 - 2018 - 2019"
+  ],
+  "row_count": 60
+}

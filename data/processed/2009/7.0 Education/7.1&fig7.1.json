@@ -1,0 +1,20 @@
+{
+  "table_id": "7.1&fig7.1",
+  "title_en": "Table 7.1 : STUDENT ENROLMENT AND SCHOOLS IN MALE' AND ATOLLS BY TYPE OF EDUCATIONAL INSTITUTION, 2008",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Schools - Total",
+    "Schools - Government",
+    "Schools - Private",
+    "Schools - Community",
+    "Students - Total",
+    "Students - Government",
+    "Students - Private",
+    "Students - Community"
+  ],
+  "row_count": 23
+}

@@ -1,0 +1,28 @@
+{
+  "table_id": "5.10",
+  "title_en": "Table 2: Monthly flow of expatriate employees, 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Immigration",
+  "notes": [
+    "Month",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "columns": [
+    "Month",
+    "Arrival",
+    "Departure"
+  ],
+  "row_count": 12
+}

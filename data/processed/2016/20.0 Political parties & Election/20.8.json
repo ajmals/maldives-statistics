@@ -1,0 +1,24 @@
+{
+  "table_id": "20.8",
+  "title_en": "TABLE 20.8: LOCAL COUNCIL MEMBERS BY SEX, 2014",
+  "title_dv": "ތާވަލު 20.8: ލޯކަލް ކައުންސިލް މެމްބަރުންގެ އަދަދު އަދި ޖިންސް، 2014",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [
+    "Note: Data Revised",
+    "Local council election was last held on 2014. Hence, the latest data for local council election can be derived from 2014 election only"
+  ],
+  "columns": [
+    "Councils",
+    "Republic - Total",
+    "Republic - Male",
+    "Republic - Female",
+    "Male' - Total",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls - Total",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 4
+}

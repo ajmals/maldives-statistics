@@ -1,0 +1,25 @@
+{
+  "table_id": "18.11",
+  "title_en": "TABLE 18.11: AMOUNT OF CONTRIBUTION TO RETIREMENT PENSION SCHEME BY SECTOR BY MONTH, 2022",
+  "title_dv": "ތާވަލު 18.11 :މަސްމަހުގެ ގޮތުން ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްއަށް ޕަބްލިކް އަދި ޕްރައިވެޓް ސެކްޓަރއިން ފައިސާދެއްކި މިންވަރު، 2022",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Sector",
+    "2022 - Total",
+    "2022 - Jan",
+    "2022 - Feb",
+    "2022 - Mar",
+    "2022 - Apr",
+    "2022 - May",
+    "2022 - Jun",
+    "2022 - Jul",
+    "2022 - Aug",
+    "2022 - Sep",
+    "2022 - Oct",
+    "2022 - Nov",
+    "2022 - Dec"
+  ],
+  "row_count": 27
+}

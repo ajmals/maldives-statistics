@@ -1,0 +1,40 @@
+{
+  "table_id": "1.1",
+  "title_en": "Table 1.1 : SUNSHINE AND RAINFALL, BY MONTH, 2012",
+  "title_dv": "2012 ,urwvcnim unuhevErWv iaWtugwv WviawfIdivwa uhwmcswmikea : 1.1 clwvWt",
+  "unit": "",
+  "source": "Source: Maldives Meteorological Service",
+  "notes": [
+    "Rainfall",
+    "2011",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "columns": [
+    "Locality - DURATION OF SUNSHINE (in hours)",
+    "Total",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "row_count": 9
+}

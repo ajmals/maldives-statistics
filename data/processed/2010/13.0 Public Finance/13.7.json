@@ -1,0 +1,27 @@
+{
+  "table_id": "13.7",
+  "title_en": "Table 13.7 : FUNCTIONAL CLASSIFICATION OF CENTRAL GOVERNMENT CAPITAL EXPENDITURE, 2007-2012 (In million Rf)",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "2_/ Includes capital contributions to public enterprises."
+  ],
+  "columns": [
+    "Particulars",
+    "2007",
+    "2008",
+    "(Revised ) - 2009",
+    "(MTEF) - 2010",
+    "(MTEF) - 2011",
+    "(MTEF) - 2012",
+    "% Share - 2007",
+    "% Share - 2008",
+    "% Share - 2009",
+    "% Share - 2010",
+    "% Share - 2011",
+    "% Share - 2012",
+    "% change - 2009 - 2010"
+  ],
+  "row_count": 23
+}

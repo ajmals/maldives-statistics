@@ -1,0 +1,20 @@
+{
+  "table_id": "6.21",
+  "title_en": "Table 6.21 : NEW CASES OF FILARIA, BY AGE GROUP, 2001-2008",
+  "title_dv": "ތާވަލު 6.21: އަލަށް ފެނުނު ފައިލޭރިއާ ޖެހިފައިވާ މީހުންގެ ޢަދަދު، ޢުމުރުފުރާގެ ގޮތުން، 2001 - 2008",
+  "unit": "",
+  "source": "Source: Health Protection Agency",
+  "notes": [
+    "Note: * cases imported from other countries .( Indian, Srilankan, Bangladesh )",
+    "From 2009 -2013 no case of filaria has been registered."
+  ],
+  "columns": [
+    "Year",
+    "Total",
+    "15 - 24",
+    "25 - 34",
+    "35 - 44",
+    "45 & Over"
+  ],
+  "row_count": 8
+}

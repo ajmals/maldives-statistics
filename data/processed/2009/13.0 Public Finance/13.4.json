@@ -1,0 +1,22 @@
+{
+  "table_id": "13.4",
+  "title_en": "Table 13.4 : ECONOMIC CLASSIFICATION OF CENTRAL GOVERNMENT EXPENDITURE AND NET LENDING, 2007 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Comprises development expenditure financed from domestic sources",
+    "and by foreign grants."
+  ],
+  "columns": [
+    "(In million Rf) - Particulars",
+    "(In million Rf) - 2007",
+    "(In million Rf) - (Revised) - 2008",
+    "(In million Rf) - (MTEF) - 2009",
+    "(In million Rf) - (MTEF) - 2010",
+    "(In million Rf) - (MTEF) - 2011",
+    "(In million Rf) - (MTEF) - % share",
+    "(In million Rf) - (MTEF) - % change 08-09"
+  ],
+  "row_count": 26
+}

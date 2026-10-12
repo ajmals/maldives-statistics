@@ -1,0 +1,22 @@
+{
+  "table_id": "11.1",
+  "title_en": "Table 11.1 : VESSELS ACCORDING TO REGISTRATION BY LOCALITY, 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Transport A uthority",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "All type",
+    "Dhoani",
+    "Launch",
+    "Boat",
+    "Bokkura",
+    "Bahtheli",
+    "Barge",
+    "Yatch",
+    "Tug",
+    "Others"
+  ],
+  "row_count": 22
+}

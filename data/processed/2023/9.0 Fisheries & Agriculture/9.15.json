@@ -1,0 +1,23 @@
+{
+  "table_id": "9.15",
+  "title_en": "TABLE 9.15: NUMBER OF REGISTERED FARMERS BY ATOLL, 2013-2022",
+  "title_dv": "ތާވަލު 9.15: ދަނޑުވެރިންގެ އަދަދު، 2013 - 2021",
+  "unit": "",
+  "source": "Source: Agriculture Data Management Unit/ Ministry of Fisheries, Marine Resources and Agriculture",
+  "notes": [
+    "Note: 2020 data are missing as unable to take data on the Male’ Local Market due to the COVID pandemic."
+  ],
+  "columns": [
+    "Atolls",
+    "No. of Farmers - 2013",
+    "No. of Farmers - 2014",
+    "No. of Farmers - 2015",
+    "No. of Farmers - 2016",
+    "No. of Farmers - 2018",
+    "No. of Farmers - 2019",
+    "No. of Farmers - 2020",
+    "No. of Farmers - 2021",
+    "No. of Farmers - 2022"
+  ],
+  "row_count": 21
+}

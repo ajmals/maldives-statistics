@@ -1,0 +1,28 @@
+{
+  "table_id": "Tourism",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "1_/ From 2010 onwards Includes resorts/hotels/guest houses & safari vessels and prior that only resorts and Hotels",
+    "2_/ Tourist tax terminated from end of Nov 2014 with an ammendment to Maldives Tourism Act.",
+    "3_/ 2016 data are revised estimates and other years are actuals"
+  ],
+  "columns": [
+    "TOURISM",
+    "TOURISM_2",
+    "TOURISM - 2006",
+    "TOURISM - 2007",
+    "TOURISM - 2008",
+    "TOURISM - 2009",
+    "TOURISM - 2010",
+    "TOURISM - 2011",
+    "TOURISM - 2012",
+    "TOURISM - 2013",
+    "TOURISM - 2014",
+    "TOURISM - 2015",
+    "TOURISM - 2016"
+  ],
+  "row_count": 20
+}

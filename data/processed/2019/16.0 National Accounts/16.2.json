@@ -1,0 +1,31 @@
+{
+  "table_id": "16.2",
+  "title_en": "Table 16.2 : GROSS DOMESTIC PRODUCT (AT CONSTANT PRICES),GROWTH RATES, BY KIND OF ACTIVITY, 2003 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "1_/ Preliminary estimates of April 2019"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at 2014 constant prices) - 2004",
+    "(In percent , at 2014 constant prices) - 2005",
+    "(In percent , at 2014 constant prices) - 2006",
+    "(In percent , at 2014 constant prices) - 2007",
+    "(In percent , at 2014 constant prices) - 2008",
+    "(In percent , at 2014 constant prices) - 2009",
+    "(In percent , at 2014 constant prices) - 2010",
+    "(In percent , at 2014 constant prices) - 2011",
+    "(In percent , at 2014 constant prices) - 2012",
+    "(In percent , at 2014 constant prices) - 2013",
+    "(In percent , at 2014 constant prices) - 2014",
+    "(In percent , at 2014 constant prices) - 2015",
+    "(In percent , at 2014 constant prices) - 2016",
+    "(In percent , at 2014 constant prices) - 2017",
+    "(In percent , at 2014 constant prices) - 20181_/"
+  ],
+  "row_count": 33
+}

@@ -1,0 +1,20 @@
+{
+  "table_id": "10.15",
+  "title_en": "Table 10.15: Tourist Establishments Distribution by Island, Dec 2019 end",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: 1_/: Uninhabited islands"
+  ],
+  "columns": [
+    "Atoll / Island",
+    "Resorts - Nos.",
+    "Resorts - Beds",
+    "Hotels - Nos.",
+    "Hotels - Beds",
+    "Guest Houses - Nos.",
+    "Guest Houses - Beds"
+  ],
+  "row_count": 222
+}

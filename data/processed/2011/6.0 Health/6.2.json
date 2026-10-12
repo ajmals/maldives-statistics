@@ -1,0 +1,23 @@
+{
+  "table_id": "6.2",
+  "title_en": "Table 6.2: HEALTH PERSONNEL BY LOCALS AND EXPATRIATES - 2010",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health & Family",
+  "notes": [
+    "2_/: All Pharmacists / Pharmacy Assts. under pvt sector",
+    "1_/ : Includes Laboratory assistants, food technologists, micro biologists"
+  ],
+  "columns": [
+    "Column_1",
+    "PUBLIC SECTOR - MALE' - expat",
+    "PUBLIC SECTOR - MALE' - local",
+    "PUBLIC SECTOR - ATOLLS - expat",
+    "PUBLIC SECTOR - ATOLLS - local",
+    "PUBLIC SECTOR - REPUBLIC - expat",
+    "PUBLIC SECTOR - REPUBLIC - local",
+    "PRIVATE SECTOR - REPUBLIC - expat",
+    "PRIVATE SECTOR - REPUBLIC - local"
+  ],
+  "row_count": 14
+}

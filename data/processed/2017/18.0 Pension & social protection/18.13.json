@@ -1,0 +1,19 @@
+{
+  "table_id": "18.13",
+  "title_en": "TABLE 18.13: EMPLOYEES REGISTERED IN THE RETIREMENT PENSION SCHEME, BY EMPLOYMENT SIZE, END 2016",
+  "title_dv": "ތާވަލު 18.13 : އެކި ދާއިރާތަކުން ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްގައި ރެޖިސްޓަރކޮށްފައިވާ މުވައްޒަފުންގެ ޢަދަދު، ތަނުގެމުވައްޒަފުންގެ ގިންތިން، 2016",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Sector",
+    "Employment size - 0-9",
+    "Employment size - 10-49",
+    "Employment size - 50-99",
+    "Employment size - 100-299",
+    "Employment size - >300",
+    "Employment size - Total",
+    "% share"
+  ],
+  "row_count": 26
+}

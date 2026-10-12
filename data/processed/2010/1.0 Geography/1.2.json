@@ -1,0 +1,25 @@
+{
+  "table_id": "1.2",
+  "title_en": "Table 1.2 : AVERAGE OF DAILY MAXIMUM AND MINIMUM TEMPERATURE , BY MONTH, 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Meteorological Service",
+  "notes": [],
+  "columns": [
+    "Locality - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Yearly average - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Jan - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Feb - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Mar - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Apr - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "May - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Jun - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Jul - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Aug - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Sep - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Oct - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Nov - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)",
+    "Dec - AVERAGE OF DAILY MAXIMUM TEMPERATURE ( o C)"
+  ],
+  "row_count": 11
+}

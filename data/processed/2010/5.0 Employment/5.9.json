@@ -1,0 +1,21 @@
+{
+  "table_id": "5.9",
+  "title_en": "Table 5.9: EMPLOYMENT IN ESTABLISHMENTS BY INDUSTRY, 2007",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Economic Survey 2007 / Department of National P lanning",
+  "notes": [],
+  "columns": [
+    "Industry",
+    "Republic - Total",
+    "Republic - locals",
+    "Republic - Foreigners",
+    "Male' - Total",
+    "Male' - locals",
+    "Male' - Foreigners",
+    "Atolls - Total",
+    "Atolls - locals",
+    "Atolls - Foreigners"
+  ],
+  "row_count": 17
+}

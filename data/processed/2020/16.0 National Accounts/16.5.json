@@ -1,0 +1,35 @@
+{
+  "table_id": "16.5",
+  "title_en": "Table 16.5 : GROSS DOMESTIC PRODUCT (AT CURRENT PRICES),GROWTH RATES, BY KIND OF ACTIVITY, 2003 - 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics / Ministry of National Planning, Housing and Infrastructure",
+  "notes": [
+    "Note :",
+    "1_/ Revised on 28th October 2018",
+    "2_/ Revised on 2nd October 2019",
+    "3_/ Revised on 29th September 2020",
+    "Published on 29th September 2020"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at current prices) - 2004",
+    "(In percent , at current prices) - 2005",
+    "(In percent , at current prices) - 2006",
+    "(In percent , at current prices) - 2007",
+    "(In percent , at current prices) - 2008",
+    "(In percent , at current prices) - 2009",
+    "(In percent , at current prices) - 2010",
+    "(In percent , at current prices) - 2011",
+    "(In percent , at current prices) - 2012",
+    "(In percent , at current prices) - 2013",
+    "(In percent , at current prices) - 2014",
+    "(In percent , at current prices) - 2015 1_/",
+    "(In percent , at current prices) - 2016 2_/",
+    "(In percent , at current prices) - 2017 3_/",
+    "(In percent , at current prices) - 2018 3_/",
+    "(In percent , at current prices) - 2019 3_/"
+  ],
+  "row_count": 33
+}

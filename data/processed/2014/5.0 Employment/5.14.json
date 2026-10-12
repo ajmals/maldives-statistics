@@ -1,0 +1,23 @@
+{
+  "table_id": "5.14",
+  "title_en": "TABLE 5.14: NUMBER OF JOB SEEKERS REGISTERED BY AGE GROUP AND SEX, 2011-2013",
+  "title_dv": "ތާވަލް 5.14: އުމުރާއި ޖިންސުގެ ގޮތުން ވަޒީފާ ހޯދުމަށް ރަޖިސްޓްރީކުރެވިފައިވާ މީހުންގެ އަދަދު، 2013-2011",
+  "unit": "",
+  "source": "Source: Ministry of Youth and Sports",
+  "notes": [
+    "Note: The registered job seekers are taken from vazeefaage dhaftharu website (www.yes.mv)"
+  ],
+  "columns": [
+    "Age Group",
+    "2011 - Both Sex",
+    "2011 - Male",
+    "2011 - Female",
+    "2012 - Both Sex",
+    "2012 - Male",
+    "2012 - Female",
+    "2013 - Both Sex",
+    "2013 - Male",
+    "2013 - Female"
+  ],
+  "row_count": 7
+}

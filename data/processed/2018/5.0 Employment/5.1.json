@@ -1,0 +1,21 @@
+{
+  "table_id": "5.1",
+  "title_en": "Table 5.1 : CIVIL SERVANTS CLASSIFIED BY JOB RANK AND SEX, 2017",
+  "title_dv": "ތާވަލް 5.1: ސިވިލް ސަރވިސްގައި ވަޒީފާއަދާކުރާ މުވައްޒަފުން ރޭންކު 2017",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Rank",
+    "No. of Employees - Republic - Both Sexes",
+    "No. of Employees - Republic - Male",
+    "No. of Employees - Republic - Female",
+    "No. of Employees - Male' - Both Sexes",
+    "No. of Employees - Male' - Male",
+    "No. of Employees - Male' - Female",
+    "Atolls - Both Sexes",
+    "Atolls - Male",
+    "Atolls - Female"
+  ],
+  "row_count": 91
+}

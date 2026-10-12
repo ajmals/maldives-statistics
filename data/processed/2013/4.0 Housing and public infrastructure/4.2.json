@@ -1,0 +1,17 @@
+{
+  "table_id": "4.2",
+  "title_en": "Table 4.2: RENTED AND OWNER OCCUPIED HOUSEHOLD, CENSUS 2006",
+  "title_dv": "2006 cnunemihOb ,cawtIsibEg ELuairid cnegIdiluk wtwvun wlcaimwa egcaerwbcmem egIsibEg : 4.2 clwvWt",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total households",
+    "Owned by a member of this household",
+    "Rented place",
+    "Others",
+    "Not stated"
+  ],
+  "row_count": 23
+}

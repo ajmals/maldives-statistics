@@ -1,0 +1,33 @@
+{
+  "table_id": "20.3",
+  "category": "20.0 Political parties & Election",
+  "title_en": "TABLE 20.3: PRESIDENTIAL ELECTION, 2008",
+  "unit": "",
+  "source": "Source: Elections Commission",
+  "notes": [
+    "Note: All those 18 years of age and over are eligible to vote."
+  ],
+  "time_span": "2013 – 2023",
+  "year_min": 2013,
+  "year_max": 2023,
+  "row_count": 6,
+  "column_count": 14,
+  "columns": [
+    "Item",
+    "Frist Round - 2013",
+    "Frist Round - 2014",
+    "Frist Round - 2016",
+    "Frist Round - 2017",
+    "Frist Round - 2018",
+    "Second Round - 2013",
+    "Second Round - 2014",
+    "Second Round - 2016",
+    "Second Round - 2017",
+    "Second Round - 2018",
+    "TABLE 20.3: PRESIDENTIAL ELECTION,  - 2018 - 2018",
+    "TABLE 20.3: PRESIDENTIAL ELECTION,  - First Round - 2023",
+    "TABLE 20.3: PRESIDENTIAL ELECTION,  - Second Round - 2023"
+  ],
+  "editions_covered": 10,
+  "csv_file": "tables/20.3.csv"
+}

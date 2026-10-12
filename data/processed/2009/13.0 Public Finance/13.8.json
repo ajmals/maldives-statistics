@@ -1,0 +1,32 @@
+{
+  "table_id": "13.8",
+  "title_en": "Table 13.8 : SUMMARY OF EXTERNAL PUBLIC DEBT, 2001 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "1_/ Excluding undisbursed debts, Including short term debt",
+    "2_/ Total outstanding disbursed (M & L/T)",
+    "3_/ Disbursement of loans during the year",
+    "4_/ Repayments of loans (principal only)",
+    "5_/ Disbursements less principal repayments",
+    "6_/ Interest on loans (M & L / T)",
+    "7_/ Sum of Principal repayments and interest",
+    "8_/ Disbursements less total debt service"
+  ],
+  "columns": [
+    "(In millions of US dollars)",
+    "(In millions of US dollars) - 2001",
+    "(In millions of US dollars) - 2002",
+    "(In millions of US dollars) - 2003",
+    "(In millions of US dollars) - 2004",
+    "(In millions of US dollars) - 2005",
+    "(In millions of US dollars) - 2006",
+    "(In millions of US dollars) - 2007",
+    "(In millions of US dollars) - (Rev) - 2008",
+    "(In millions of US dollars) - (MTEF) - 2009",
+    "(In millions of US dollars) - (MTEF) - 2010",
+    "(In millions of US dollars) - (MTEF) - 2011"
+  ],
+  "row_count": 12
+}

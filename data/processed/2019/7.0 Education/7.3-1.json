@@ -1,0 +1,32 @@
+{
+  "table_id": "7.3-1",
+  "title_en": "Table 7.3: STUDENT ENROLMENT IN MALE' AND ATOLLS BY TYPE OF LEVEL AND INSTITUTION , 2018",
+  "title_dv": "2018 ,cnikwwv cscnij udwdwA egcnidukWvwyik iawgunwtcnwtea iaWnwtcnwtEdWvwyiik cSwkwtitcnwfikea iruh iawgukwtuLotwa iaWaelWm :7.3 clwvWt",
+  "unit": "",
+  "source": "Source : Ministry of Education",
+  "notes": [
+    "Note: Sum of schools in this table does not add up to total number of schools as schools overlap in levels",
+    "1_/ Excludes children with special needs."
+  ],
+  "columns": [
+    "Locality",
+    "egcnidukWvwyik udwdwA - No. of Students1_/",
+    "Pre - Primary - udwdwa egclUkcs - No .of schools",
+    "Pre - Primary - udwdwa egclUkcs - Both Sexes",
+    "Pre - Primary - ccnehcnwa - Females",
+    "Pre - Primary - cnia wtcawscnia - % of Females",
+    "Primary Level - udwdwa egclUkcs - No .of schools",
+    "Primary Level - udwdwa egclUkcs - Both Sexes",
+    "Primary Level - ccnehcnwa - Females",
+    "Primary Level - cniawtcawscnia - % of Females",
+    "Lower Secondary Level - udwdwa egclUkcs - No .of schools",
+    "Lower Secondary Level - udwdwa egclUkcs - Both Sexes",
+    "Lower Secondary Level - ccnehcnwa - Females",
+    "Lower Secondary Level - cniawtcawscnia - % of Females",
+    "Higher Secondary Level - udwdwa egclUkcs - No .of schools",
+    "Higher Secondary Level - udwdwa egclUkcs - Both Sexes",
+    "Higher Secondary Level - ccnehcnwa - Females",
+    "Higher Secondary Level - cniawtcawscnia - % of Females"
+  ],
+  "row_count": 23
+}

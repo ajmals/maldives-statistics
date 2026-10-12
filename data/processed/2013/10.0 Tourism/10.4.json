@@ -1,0 +1,23 @@
+{
+  "table_id": "10.4",
+  "title_en": "Table 10.4 : RESORTS BY TYPE OF LEASE HOLDER, OPERATOR AND MANAGEMENT, 2011 - 2012",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [
+    "Lease Holder",
+    "Local (L)",
+    "Joint Venture (JV)",
+    "Foreign (F)"
+  ],
+  "columns": [
+    "Type - year",
+    "Lease Holder - 2011",
+    "Lease Holder - 2012",
+    "Operator - 2011",
+    "Operator - 2012",
+    "Management - 2011",
+    "Management - 2012"
+  ],
+  "row_count": 4
+}

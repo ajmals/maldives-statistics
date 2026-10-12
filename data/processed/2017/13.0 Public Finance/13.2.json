@@ -1,0 +1,34 @@
+{
+  "table_id": "13.2",
+  "title_en": "Table 13.2 : SUMMARY OF CENTRAL GOVERNMENT FINANCE, 2013 - 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury.",
+  "notes": [
+    "1_/ Excludes grants for direct expenditure by donors.",
+    "2_/ Primarily reflects net borrowing from MMA.",
+    "3_/ Sales of capital assets (include privatization of Airport in 2009",
+    "4_/ Starting from 2012, Overall balance is calculated excluding net lending"
+  ],
+  "columns": [
+    "(In million MVR) - Particulars",
+    "(In million MVR) - 2008",
+    "(In million MVR) - 2009",
+    "(In million MVR) - 2010",
+    "(In million MVR) - 2011",
+    "(In million MVR) - Revised - 2012",
+    "(In million MVR) - Actuals - 2012",
+    "(In million MVR) - Actuals - 2013",
+    "(In million MVR) - Actual - 2014",
+    "(In million MVR) - Actual - 2015",
+    "(In million MVR) - Revised - 2016",
+    "(In million MVR) - Estimate - 2017",
+    "(In million MVR) - Estimate - 2018",
+    "(In million MVR) - Estimate - 2019",
+    "(In million MVR) - Percentage Change - 2012 - 2013",
+    "(In million MVR) - Percentage Change - 2013 - 2014",
+    "(In million MVR) - Percentage Change - 2014 - 2015",
+    "(In million MVR) - Percentage Change - 2015-2016"
+  ],
+  "row_count": 17
+}

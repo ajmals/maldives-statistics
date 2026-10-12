@@ -1,0 +1,24 @@
+{
+  "table_id": "3.4",
+  "title_en": "TABLE 3.4: RESIDENT POPULATION BY SEX, NATIONALITY AND LOCALITY (ATOLLS), 2014",
+  "title_dv": "ތާވަލު 3.4: ރާއްޖޭގައި ދިރިއުޅޭ އާބާދީ، ޖިންސުގެ ގޮތުން ދިވެހީން އަދި ބިދޭސީންގެ އަދަދު، 2014",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Resident population 2014 - Total - Both sexes",
+    "Resident population 2014 - Total - Male",
+    "Resident population 2014 - Total - Female",
+    "Resident population 2014 - Maldivians - Both sexes",
+    "Resident population 2014 - Maldivians - Male",
+    "Resident population 2014 - Maldivians - Female",
+    "Resident population 2014 - Foreigners - Both sexes",
+    "Resident population 2014 - Foreigners - Male",
+    "Resident population 2014 - Foreigners - Female",
+    "Column_28",
+    "Column_29",
+    "Column_30"
+  ],
+  "row_count": 28
+}

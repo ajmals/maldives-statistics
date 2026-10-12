@@ -1,0 +1,29 @@
+{
+  "table_id": "6.2",
+  "title_en": "Table 6.2: HEALTH PERSONNEL BY LOCALS AND EXPATRIATES, 2017",
+  "title_dv": "2017, udwdwA egcnIsEdib iaWncnihevid Wrukctwkcawswm iawgWriaWd IHcaiB : 6.2 clwvWt",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: Pvt. Sector data includes ADK,IMDC ,Medica and FMDD hospital only",
+    "All data except for pharmacist / pharmacy assistants are taken fron HR reports provided by health facilities",
+    "2_/: Pharmacists / Pharmacy Assistant data is taken from MFDA Pharmacy Registration Unit's available records on the number of pharmacist cards issued.",
+    "މަޢުލޫމާތު ދެއްވީ: މިނިސްޓްރީ އޮފް ހެލްތް",
+    "2_/ ފާރމަސިސްޓުންނާއި އެސިސްޓަންޓް ފާރމަސިސްޓޫން (ޕްރައިވެޓް ސެކްޓަރ)"
+  ],
+  "columns": [
+    "Column_1",
+    "Total",
+    "Total - expat",
+    "Total - local",
+    "PUBLIC SECTOR - MALE' - expat",
+    "PUBLIC SECTOR - MALE' - local",
+    "PUBLIC SECTOR - ATOLLS - expat",
+    "PUBLIC SECTOR - ATOLLS - local",
+    "PUBLIC SECTOR - REPUBLIC - expat",
+    "PUBLIC SECTOR - REPUBLIC - local",
+    "PRIVATE SECTOR - REPUBLIC - expat",
+    "PRIVATE SECTOR - REPUBLIC - local"
+  ],
+  "row_count": 12
+}

@@ -1,0 +1,19 @@
+{
+  "table_id": "8.14fig8.6",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.14: Trend showing logged cases from 1992 to 2010",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2011",
+  "year_min": 2011,
+  "year_max": 2011,
+  "row_count": 19,
+  "column_count": 2,
+  "columns": [
+    "Item",
+    2011
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.14fig8.6.csv"
+}

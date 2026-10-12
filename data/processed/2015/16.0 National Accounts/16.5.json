@@ -1,0 +1,28 @@
+{
+  "table_id": "16.5",
+  "title_en": "Table 16.5 : GROSS DOMESTIC PRODUCT (AT CURRENT PRICES),GROWTH RATES, BY KIND OF ACTIVITY, 2003 - 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "1_/ Revised in October 2015",
+    "MVR 8.4942617 per PPP$ (2003)"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at current prices) - Industry / Economic Activity - 2003",
+    "(In percent , at current prices) - Industry / Economic Activity - 2004",
+    "(In percent , at current prices) - Industry / Economic Activity - 2005",
+    "(In percent , at current prices) - Industry / Economic Activity - 2006",
+    "(In percent , at current prices) - Industry / Economic Activity - 2007",
+    "(In percent , at current prices) - Industry / Economic Activity - 2008",
+    "(In percent , at current prices) - Industry / Economic Activity - 2009",
+    "(In percent , at current prices) - Industry / Economic Activity - 2010",
+    "(In percent , at current prices) - Industry / Economic Activity - 2011",
+    "(In percent , at current prices) - Industry / Economic Activity - 2012",
+    "(In percent , at current prices) - Industry / Economic Activity - 20131_/",
+    "(cniawtcawscnia ,cnugwa egcaerwhwaea) - Revised - Industry / Economic Activity - 20141_/"
+  ],
+  "row_count": 25
+}

@@ -1,0 +1,26 @@
+{
+  "table_id": "5.9",
+  "title_en": "Table 5.9: Civil Servants Classified by sector, 2022",
+  "title_dv": "ތާވަލު 5.9: ވަޒީފާ އަދާކުރާ ދާއިރާގެ ގޮތުން ސިވިލް ސަރވަންޓުން ބެހިފައިވާ ގޮތް، 2022",
+  "unit": "",
+  "source": "Source: Civil Service Commision",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "Agency",
+    "Atoll Council",
+    "Authority",
+    "Bureau",
+    "City Council",
+    "Department",
+    "Health Centre",
+    "Health Services Center",
+    "Hospitals",
+    "Island Council",
+    "Ministry",
+    "Other",
+    "School"
+  ],
+  "row_count": 23
+}

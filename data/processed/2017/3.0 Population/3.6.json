@@ -1,0 +1,21 @@
+{
+  "table_id": "3.6",
+  "title_en": "Table 3.6 : ABRIDGE LIFE TABLE OF MALDIVES, 2008 - 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: The life table for 2016 figures is preliminary, this is expected to change once we get the final records of the deaths of vital statistics from Ministry of Health.",
+    "Souce: National Bureau of Statistics"
+  ],
+  "columns": [
+    "Age",
+    "2008 - Life Expectancy e(x) - Male",
+    "2008 - Life Expectancy e(x) - Female",
+    "2009 - Life Expectancy e(x) - Male",
+    "2009 - Life Expectancy e(x) - Female",
+    "2010 - Life Expectancy e(x) - Male",
+    "2010 - Life Expectancy e(x) - Female"
+  ],
+  "row_count": 57
+}

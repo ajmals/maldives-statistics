@@ -1,0 +1,10 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Cargo (kg) - In,Cargo (kg) - Out,Mail (kg) - In,Mail (kg) - Out
+Total,1854,52366,52708,40457,10651.7,4023,1157.8
+International Flights,62,2248,3728,4063,,24,10
+International Scheduled,62,2248,3728,4063,,24,10
+IAS,62,2248,3728,4063,,24,10
+International Charter,,,,,,,
+International Non-Scheduled,,,,,,,
+Domestic flights,1792,50118,48980,36394,10651.7,3999,1147.8
+Island Aviation (Scheduled),1790,50073,48938,36394,10651.7,3999,1147.8
+Villa Air,2,45,42,,,,

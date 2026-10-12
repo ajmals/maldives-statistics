@@ -1,0 +1,28 @@
+{
+  "table_id": "Public-Finance",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "(In million rufiyaa)",
+  "source": "",
+  "notes": [
+    "1_/ Includes capital revenue",
+    "2_/ Excludes grants for direct expenditure by donors",
+    "3_/ Overall Balance including Grants"
+  ],
+  "columns": [
+    "PUBLIC FINANCE - (In million rufiyaa)",
+    "PUBLIC FINANCE",
+    "PUBLIC FINANCE - 2006",
+    "PUBLIC FINANCE - 2007",
+    "PUBLIC FINANCE - 2008",
+    "PUBLIC FINANCE - 2009",
+    "PUBLIC FINANCE - 2010",
+    "PUBLIC FINANCE - 2011",
+    "PUBLIC FINANCE - 2012",
+    "PUBLIC FINANCE - 2013",
+    "PUBLIC FINANCE - 2014",
+    "PUBLIC FINANCE - 2015",
+    "PUBLIC FINANCE - 2016 - actual"
+  ],
+  "row_count": 26
+}

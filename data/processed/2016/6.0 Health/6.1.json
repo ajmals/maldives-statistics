@@ -1,0 +1,23 @@
+{
+  "table_id": "6.1",
+  "title_en": "Table 6.1 : DISTRIBUTION OF MEDICAL STAFF IN MALE' AND ATOLLS - 2015",
+  "title_dv": "ތާވަލު 6.1: ޞިއްޙީ ދާއިރާގައި މަސައްކަތްކުރާ މީހުންގެ އަދަދު، 2015",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: Included pvt sectors here are ADK,IMDC and Medica only."
+  ],
+  "columns": [
+    "Categories of Health Personnel",
+    "Republic ejcaWr - Both sexes",
+    "Republic ejcaWr - Male",
+    "Republic ejcaWr - Female",
+    "Male' - Both sexes",
+    "Male' - Male",
+    "Male' - Female",
+    "Atolls cawtuLotwa - Both sexes",
+    "Atolls cawtuLotwa - Male",
+    "Atolls cawtuLotwa - Female"
+  ],
+  "row_count": 18
+}

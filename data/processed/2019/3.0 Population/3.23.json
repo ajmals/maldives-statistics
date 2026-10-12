@@ -1,0 +1,19 @@
+{
+  "table_id": "3.23",
+  "title_en": "TABLE 3.23: NUMBER OF MARRIAGES, 2017 - 2018",
+  "title_dv": "ތާވަލު 3.23: ކައިވެނީގެ އަދަދު، 2017 - 2018",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atoll/island",
+    "Court",
+    "2017 - Total",
+    "2017 - Monogamous",
+    "2017 - Polygamous",
+    "2018 - Total",
+    "2018 - Monogamous",
+    "2018 - Polygamous"
+  ],
+  "row_count": 4
+}

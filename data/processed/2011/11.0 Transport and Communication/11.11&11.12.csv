@@ -1,0 +1,14 @@
+Month,Total,International Flights - Arrival,International Flights - Departure,International Flights - Direct Transit,Domestic Flights - Arrival,Domestic Flights - Departure,Domestic Flights - Direct Transit
+Total,"106,299","1,752","1,484",0,"52,307","50,756","4,981"
+January,"8,302",0,0,0,"4,191","4,111",408
+February,"8,405",21,21,0,"4,182","4,181",285
+March,"10,541",35,23,0,"5,223","5,260",247
+April,"8,446",56,44,0,"4,195","4,151",314
+May,"7,006",7,4,0,"3,419","3,576",579
+June,"7,854",0,0,0,"4,124","3,730",594
+July,"7,741",0,0,0,"3,941","3,800",534
+August,"7,350",0,0,0,"3,903","3,447",309
+September,"7,467",0,0,0,"3,670","3,797",369
+October,"8,150",0,0,0,"3,878","4,272",823
+November,"12,106",885,786,0,"5,021","5,414",196
+December,"12,931",748,606,0,"6,560","5,017",323

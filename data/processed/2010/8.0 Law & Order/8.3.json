@@ -1,0 +1,17 @@
+{
+  "table_id": "8.3",
+  "title_en": "Table 8.3: LOGGED CASES FROM THE YEAR 2008 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Se rvice",
+  "notes": [],
+  "columns": [
+    "Number of cases logged",
+    "2008",
+    "per 10,000 population",
+    "2009",
+    "per 10,000 population_2",
+    "%change over previous year"
+  ],
+  "row_count": 8
+}

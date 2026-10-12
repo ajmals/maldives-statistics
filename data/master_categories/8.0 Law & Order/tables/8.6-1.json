@@ -1,0 +1,19 @@
+{
+  "table_id": "8.6-1",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.6: TREND SHOWING LOGGED CASES, 1992 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 27,
+  "column_count": 2,
+  "columns": [
+    "Item",
+    2019
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.6-1.csv"
+}

@@ -1,0 +1,23 @@
+{
+  "table_id": "18.19",
+  "title_en": "Table 18.19 : NUMBER OF PERSONS COVERED UNDER DIFFERENT SOCIAL PROTECTION SCHEMES BY LOCALITY, 2025",
+  "title_dv": "ތާވަލް 18.19: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން އަތޮޅުތަކުން ޚިދުމަތްދެވިފައިވާ މީހުންގެ އަދަދު، 2025",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "Note: Universal Health Insuarance Scheme named \"Aasandha\" was introduced in January 2012 and replaced the existing schemes \"Madhana\" and \"Madhana Plus\".",
+    "* New born babies are included here under a separate system generated ID with mother's data. These data will be updated later with the processing of registration of the Child's National ID"
+  ],
+  "columns": [
+    "Locality",
+    "HEALTH INSURANCE SCHEMES - Aasandha",
+    "SINGLE PARENT ALLOWANCE - Parent",
+    "SINGLE PARENT ALLOWANCE - Children",
+    "FOSTER PARENT ALLOWANCE - Parent",
+    "FOSTER PARENT ALLOWANCE - Children",
+    "EMERGENCY MEDICAL WELFARE",
+    "DISABILITY ALLOWANCE - EMERGENCY MEDICAL WELFARE",
+    "FOOD SUBSIDY - EMERGENCY MEDICAL WELFARE"
+  ],
+  "row_count": 23
+}

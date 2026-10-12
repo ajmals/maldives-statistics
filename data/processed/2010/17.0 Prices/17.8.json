@@ -1,0 +1,22 @@
+{
+  "table_id": "17.8",
+  "title_en": "Table 17.8 Producer Price Indices by Industry, 2001‐2009",
+  "title_dv": "ތާވަލް 17.8: އުފެއްދުންތެރިންގެ އަގުގެ މިންގަނޑު، އިޤްތިސާދީ ބައިތަކުން 2001 - 2009",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [],
+  "columns": [
+    "(Index base: 2001 quarter 1 = 100)) - Industry",
+    "(Index base: 2001 quarter 1 = 100)) - BASE WEIGHT",
+    "(Index base: 2001 quarter 1 = 100)) - 2001",
+    "(Index base: 2001 quarter 1 = 100)) - 2002",
+    "(Index base: 2001 quarter 1 = 100)) - 2003",
+    "(Index base: 2001 quarter 1 = 100)) - 2004",
+    "(Index base: 2001 quarter 1 = 100)) - 2005",
+    "(Index base: 2001 quarter 1 = 100)) - 2006",
+    "(Index base: 2001 quarter 1 = 100)) - 2007",
+    "(Index base: 2001 quarter 1 = 100)) - 2008",
+    "(Index base: 2001 quarter 1 = 100)) - 2009"
+  ],
+  "row_count": 23
+}

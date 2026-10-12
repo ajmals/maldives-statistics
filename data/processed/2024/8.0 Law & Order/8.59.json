@@ -1,0 +1,33 @@
+{
+  "table_id": "8.59",
+  "title_en": "Table 8.59: NUMBER OF CHILD ABUSE CASES REPORTED TO MoSFD and FCSC's BY TYPE, 2023",
+  "title_dv": "ތާވަލު 8.59: ޢުމުރުފުރާގެ ގޮތުން ކުޑަކުދިންނަށް ކުރާ އަނިޔާއާއިބެހެގޮތުން ހުށަހެޅިފައިވާ މައްސަލަތައް، 2023",
+  "unit": "",
+  "source": "Source: Ministry of Social and Family Development",
+  "notes": [],
+  "columns": [
+    "Main Case Types",
+    "Violence Against Children - Sexual abuse - Male",
+    "Violence Against Children - Sexual abuse - Female",
+    "Violence Against Children - Physical Abuse - Male",
+    "Violence Against Children - Physical Abuse - Female",
+    "Violence Against Children - Emotional Abuse - Male",
+    "Violence Against Children - Emotional Abuse - Female",
+    "Violence Against Children - Neglect - Male",
+    "Violence Against Children - Neglect - Female",
+    "Violence Against Children - Victim of Bullying - Male",
+    "Violence Against Children - Victim of Bullying - Female",
+    "Violence Against Children - Victim of Cyber Bullying - Male",
+    "Violence Against Children - Victim of Cyber Bullying - Female",
+    "Violence Against Children - Victims of Harrasement - Male",
+    "Violence Against Children - Victims of Harrasement - Female",
+    "Violence Against Children - Witness to Domestic Violence - Male",
+    "Violence Against Children - Witness to Domestic Violence - Female",
+    "Violence Against Children - Others - Male",
+    "Violence Against Children - Others - Female",
+    "Violence Against Children - Total - Male",
+    "Violence Against Children - Total - Female",
+    "Violence Against Children - Total - Both sex"
+  ],
+  "row_count": 7
+}

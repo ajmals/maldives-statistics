@@ -1,0 +1,27 @@
+{
+  "table_id": "2.4",
+  "title_en": "Table 2.4: WASTE TRANSPORTED TO THILAFUSHI FROM MALE' , 2004 - 2014, (in tons)",
+  "title_dv": "ތާވަލް 2.4 : މާލެއިން ތިލަފުއްޓަށް ގެންދެވުނު ކުނި، 2004 - 2014 (ޓަނުން)",
+  "unit": "",
+  "source": "Source: Waste Management Section / Malé City Council",
+  "notes": [
+    "2004",
+    "Industrial",
+    "Domestic"
+  ],
+  "columns": [
+    "Type of waste",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014"
+  ],
+  "row_count": 3
+}

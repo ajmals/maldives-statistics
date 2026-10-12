@@ -1,0 +1,40 @@
+{
+  "table_id": "14.11",
+  "title_en": "Table 14.11: Financial Soundness Indicator, 2020 - 2025",
+  "title_dv": "ތާވަލު 14.11: ފައިނޭންޝަލް ސައުންޑްނެސް އިންޑިކޭޓާރސް، 2020- 2025",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "NOTE:",
+    "This table has been compiled in line with the IMF 2019 Financial Soundness Indicators Compilation Guide",
+    "1/ Refers to lending to the three largest economic sectors as a proportion to the total gross loans to the nonfinancial corporations"
+  ],
+  "columns": [
+    "(In percent) - Particulars - Capital adequacy",
+    "(In percent) - 2020 - Mar",
+    "(In percent) - 2020 - Jun",
+    "(In percent) - 2020 - Sep",
+    "(In percent) - 2020 - Dec",
+    "(In percent) - 2021 - Mar",
+    "(In percent) - 2021 - Jun",
+    "(In percent) - 2021 - Sep",
+    "(In percent) - 2021 - Dec",
+    "(In percent) - 2022 - Mar",
+    "(In percent) - 2022 - Jun",
+    "(In percent) - 2022 - Sep",
+    "(In percent) - 2022 - Dec",
+    "(In percent) - 2023 - Mar",
+    "(In percent) - 2023 - Jun",
+    "(In percent) - 2023 - Sep",
+    "(In percent) - 2023 - Dec",
+    "(In percent) - 2024 - Mar",
+    "(In percent) - 2024 - Jun",
+    "(In percent) - 2024 - Sep",
+    "(In percent) - 2024 - Dec",
+    "(In percent) - 2025 - Mar",
+    "(In percent) - 2025 - Jun",
+    "(In percent) - 2025 - Sep",
+    "(In percent) - 2025 - Dec"
+  ],
+  "row_count": 18
+}

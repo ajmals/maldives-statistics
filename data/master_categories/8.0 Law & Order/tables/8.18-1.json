@@ -1,0 +1,24 @@
+{
+  "table_id": "8.18-1",
+  "category": "8.0 Law & Order",
+  "title_en": "TABLE 8.18: POLICE PERSONNEL BY SEX AND FINANCIAL RESOURCES, 2013 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2013 – 2018",
+  "year_min": 2013,
+  "year_max": 2018,
+  "row_count": 4,
+  "column_count": 7,
+  "columns": [
+    "Item",
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.18-1.csv"
+}

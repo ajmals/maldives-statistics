@@ -1,0 +1,39 @@
+{
+  "table_id": "3.9",
+  "title_en": "Table 3.9 : LIVE BIRTHS AND INFANT DEATHS, 2007 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Health Information,Projects, Monitoring & Coordination Section / Health Information Unit",
+    "1-/ Total include Maldivia ns born abroad",
+    "Note: IMR 2010 for the Rep ublic calculated by including the infants and live births occurred abroad"
+  ],
+  "columns": [
+    "Particulars",
+    "Republic",
+    "Male'",
+    "Atolls",
+    "Republic_2",
+    "Male'_2",
+    "Atolls_2",
+    "2007 - Republic",
+    "2007 - Male'",
+    "2007 - Atolls",
+    "2008 - Republic",
+    "2008 - Male'",
+    "2008 - Atolls",
+    "2009 - Republic",
+    "2009 - Male'",
+    "2009 - Atolls",
+    "2010 - Republic",
+    "2010 - Male'",
+    "2010 - Atolls",
+    "2010 - Abroad",
+    "2011 - Republic",
+    "2011 - Male'",
+    "2011 - Atolls",
+    "2011 - Abroad"
+  ],
+  "row_count": 11
+}

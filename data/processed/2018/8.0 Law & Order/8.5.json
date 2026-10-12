@@ -1,0 +1,23 @@
+{
+  "table_id": "8.5",
+  "title_en": "Table 8.5: LOGGED CASES 2014 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [
+    "Note: 1_/: Data revised"
+  ],
+  "columns": [
+    "Number of cases logged",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "20161_/",
+    "2017"
+  ],
+  "row_count": 13
+}

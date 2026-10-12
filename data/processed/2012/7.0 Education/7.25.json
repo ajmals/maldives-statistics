@@ -1,0 +1,24 @@
+{
+  "table_id": "7.25",
+  "title_en": "TABLE 7.24: STUDENT ENROLMENT AND GRADUATE OUTPUT IN SELECTED HIGHER EDUCATION INSTITUTIONS IN MALDIVES, 2010 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of Higher Education",
+  "notes": [
+    "Note: NA= Data not available for 2010"
+  ],
+  "columns": [
+    "Institution",
+    "Type of Institution",
+    "Type of Institution_2",
+    "Students Enrolled - 2010",
+    "Students Enrolled - 2011",
+    "Graduate output - 2010",
+    "Graduate output - 2011",
+    "Repeaters - 2010",
+    "Repeaters - 2011",
+    "Dropouts - 2010",
+    "Dropouts - 2011"
+  ],
+  "row_count": 16
+}

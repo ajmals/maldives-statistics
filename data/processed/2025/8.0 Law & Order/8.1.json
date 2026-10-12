@@ -1,0 +1,23 @@
+{
+  "table_id": "8.1",
+  "title_en": "Table 8.1: LOGGED CASES FROM THE YEAR, 2016 - 2024",
+  "title_dv": "ތާވަލު 8.1: ހުށަހެޅިފައިވާ މައްސަލަތައް، 2016- 2024",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Logged Cases",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2024 - % share 2024",
+    "2024 - % change over 2023"
+  ],
+  "row_count": 26
+}

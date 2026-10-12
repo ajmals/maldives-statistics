@@ -1,0 +1,29 @@
+{
+  "table_id": "10.10",
+  "title_en": "Table 10.10 BED CAPACITY OF TOURIST RESORTS AND THE DISTANCE FROM MALE' INTERNATIONAL AIRPORT, 2007 - 2015",
+  "title_dv": "ތާވަލު 10.10: ރިސޯޓްތަކުގެ އެނދުގެ ޖާގައާއި ބައިނަލްއަޤަވާމީ ވައިގެ ބަނދަރާއިހުރި ދުރުމިން، 2007 - 2015",
+  "unit": "",
+  "source": "Source: Ministry of Tourism",
+  "notes": [
+    "Note: 2010 & 2013 revised",
+    "* Resorts beds include marinas"
+  ],
+  "columns": [
+    "Column_1",
+    "Resorts",
+    "Year of Initial - Operation",
+    "Initial Bed - Capacity",
+    "Distance from - Airport (in Km)",
+    "Bed Capacity (end year)* - 2007",
+    "Bed Capacity (end year)* - 2008",
+    "Bed Capacity (end year)* - 2009",
+    "Bed Capacity (end year)* - 2010",
+    "Bed Capacity (end year)* - 2011",
+    "Bed Capacity (end year)* - 2012",
+    "Bed Capacity (end year)* - 2013",
+    "Bed Capacity (end year)* - 2014",
+    "Bed Capacity (end year)* - 2015",
+    "% Share - in 2015"
+  ],
+  "row_count": 135
+}

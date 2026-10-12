@@ -1,0 +1,36 @@
+{
+  "table_id": "19.9",
+  "category": "19.0 Human rights",
+  "title_en": "",
+  "unit": "",
+  "source": "Source : Depart ment of National Planning",
+  "notes": [
+    "Note: Data hav e been taken from the past publications of the Statistical Yearbook of Maldives",
+    "FIG: POPULATION PYRAMID (POPULATION AND HOUSING CENSUS OF 1985, 1990, 1995, 2000 & 2006"
+  ],
+  "time_span": "1985 – 2006",
+  "year_min": 1985,
+  "year_max": 2006,
+  "row_count": 24,
+  "column_count": 16,
+  "columns": [
+    "Item",
+    "Both Sexes - 1985",
+    "Both Sexes - 1990",
+    "Both Sexes - 1995",
+    "Both Sexes - 2000",
+    "Both Sexes - 2006",
+    "Female - 1985",
+    "Female - 1990",
+    "Female - 1995",
+    "Female - 2000",
+    "Female - 2006",
+    "Male - 1985",
+    "Male - 1990",
+    "Male - 1995",
+    "Male - 2000",
+    "Male - 2006"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/19.9.csv"
+}

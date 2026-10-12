@@ -1,0 +1,32 @@
+{
+  "table_id": "6.2",
+  "title_en": "Table 6.2: HEALTH PERSONNEL BY LOCALS AND EXPATRIATES, 2018",
+  "title_dv": "2018, udwdwA egcnIsEdib iaWncnihevid Wrukctwkcawswm iawgWriaWd IHcaiB : 6.2 clwvWt",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note:",
+    "Data as of : 01 January to 31 December 2018",
+    "Atoll data includes hospitals and Health Centers",
+    "Data taken from the HR reports collected from health facilities",
+    "Pvt. Sector data includes ADK,IMDC,Tree Top and FMDD hospital only",
+    "IMDC is the only private hospital in periphery",
+    "މަޢުލޫމާތު ދެއްވީ: މިނިސްޓްރީ އޮފް ހެލްތް",
+    "2_/ ފާރމަސިސްޓުންނާއި އެސިސްޓަންޓް ފާރމަސިސްޓޫން (ޕްރައިވެޓް ސެކްޓަރ)"
+  ],
+  "columns": [
+    "Column_1",
+    "Total",
+    "Total - expat",
+    "Total - local",
+    "PUBLIC SECTOR - MALE' - expat",
+    "PUBLIC SECTOR - MALE' - local",
+    "PUBLIC SECTOR - ATOLLS - expat",
+    "PUBLIC SECTOR - ATOLLS - local",
+    "PUBLIC SECTOR - REPUBLIC - expat",
+    "PUBLIC SECTOR - REPUBLIC - local",
+    "PRIVATE SECTOR - REPUBLIC - expat",
+    "PRIVATE SECTOR - REPUBLIC - local"
+  ],
+  "row_count": 12
+}

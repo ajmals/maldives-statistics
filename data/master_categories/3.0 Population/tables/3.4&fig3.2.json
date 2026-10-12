@@ -1,0 +1,25 @@
+{
+  "table_id": "3.4&fig3.2",
+  "category": "3.0 Population",
+  "title_en": "Table 3.4 : NUMBER OF INHABITED ISLANDS BY SIZE AND CLASS OF POPULATION",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "Note:R.Kandholhudhoo, M.Madifushi, Dh.Gemendhoo and Th.Vilufushi people were displaced to other islands due to tsunami"
+  ],
+  "time_span": "1985 – 2006",
+  "year_min": 1985,
+  "year_max": 2006,
+  "row_count": 15,
+  "column_count": 6,
+  "columns": [
+    "Item",
+    1985,
+    1990,
+    1995,
+    2000,
+    2006
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/3.4&fig3.2.csv"
+}

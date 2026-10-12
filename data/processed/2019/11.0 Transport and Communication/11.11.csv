@@ -1,0 +1,11 @@
+Airline,Flight Movements,Passengers - In,Passengers - Out,Cargo (kg) - In,Cargo (kg) - Out,Mail (kg) - In,Mail (kg) - Out
+Total,2107,68133,68251,85565.3,5958.95,7127,923.3
+International Flights,128,3248,3159,23309,,58,
+International Scheduled,110,3177,3007,23234,,58,
+IAS,109,3173,3003,23234,,58,
+Venuslink Flight Support,1,4,4,,,,
+International Charter,16,67,148,75,,,
+IAS,16,67,148,75,,,
+International Non-Scheduled,2,4,4,,,,
+Domestic flights,1979,64885,65092,62256.3,5958.95,7069,923.3
+Island Aviation (Scheduled),1979,64885,65092,62256.3,5958.95,7069,923.3

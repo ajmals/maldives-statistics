@@ -1,0 +1,30 @@
+{
+  "table_id": "7.7",
+  "title_en": "Table 7.7: NUMBER OF STUDENTS BY GRADE, SECTOR AND GENDER",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [],
+  "columns": [
+    "2023-2024 - Government",
+    "2023-2024 - Sex",
+    "2023-2024 - Number of Students by grade and locality - TOTAL",
+    "2023-2024 - Number of Students by grade and locality - BN",
+    "2023-2024 - Number of Students by grade and locality - N",
+    "2023-2024 - Number of Students by grade and locality - LKG",
+    "2023-2024 - Number of Students by grade and locality - UKG",
+    "2023-2024 - Number of Students by grade and locality - GR1",
+    "2023-2024 - Number of Students by grade and locality - GR2",
+    "2023-2024 - Number of Students by grade and locality - GR3",
+    "2023-2024 - Number of Students by grade and locality - GR4",
+    "2023-2024 - Number of Students by grade and locality - GR5",
+    "2023-2024 - Number of Students by grade and locality - GR6",
+    "2023-2024 - Number of Students by grade and locality - GR7",
+    "2023-2024 - Number of Students by grade and locality - GR8",
+    "2023-2024 - Number of Students by grade and locality - GR9",
+    "2023-2024 - Number of Students by grade and locality - GR10",
+    "2023-2024 - Number of Students by grade and locality - GR11",
+    "2023-2024 - Number of Students by grade and locality - GR12"
+  ],
+  "row_count": 64
+}

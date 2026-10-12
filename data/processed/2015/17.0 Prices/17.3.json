@@ -1,0 +1,35 @@
+{
+  "table_id": "17.3",
+  "title_en": "Table 17.3 : INFLATION RATES, REPUBLIC, 1985 - 2014",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: National Bureau of Statistics",
+  "notes": [
+    "Note:",
+    "Prior to June 2004, the food and non-beverages category includes tobacco & narcotics category",
+    "Prior to January 1996, the fish category seperately is not available",
+    "Prior to June 2004, the transport category includes communication category",
+    "Prior to June 2004, the recreation & cultute category includes education category",
+    "Prior to June 1996, the Housing, Water. Electricity,Gas and other fuels category includes only rent",
+    "na- Not available"
+  ],
+  "columns": [
+    "(Index - base: June 2012=100) - Major Groups - Republic",
+    "(Index - base: June 2012=100) - Inflation rates - 1985",
+    "(Index - base: June 2012=100) - Inflation rates - 1986",
+    "(Index - base: June 2012=100) - Inflation rates - 1987",
+    "(Index - base: June 2012=100) - Inflation rates - 1988",
+    "(Index - base: June 2012=100) - Inflation rates - 1989",
+    "(Index - base: June 2012=100) - Inflation rates - 1990",
+    "(Index - base: June 2012=100) - Inflation rates - 1991",
+    "(Index - base: June 2012=100) - Inflation rates - 1992",
+    "(Index - base: June 2012=100) - Inflation rates - 1993",
+    "(Index - base: June 2012=100) - Inflation rates - 1994",
+    "(Index - base: June 2012=100) - Inflation rates - 1995",
+    "(Index - base: June 2012=100) - Inflation rates - 1996",
+    "(Index - base: June 2012=100) - Inflation rates - 1997",
+    "(Index - base: June 2012=100) - Inflation rates - 1998",
+    "(Index - base: June 2012=100) - Inflation rates - 1999"
+  ],
+  "row_count": 36
+}

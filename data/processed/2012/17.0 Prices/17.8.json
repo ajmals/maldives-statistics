@@ -1,0 +1,42 @@
+{
+  "table_id": "17.8",
+  "title_en": "Table 17.8 : EXCHANGE RATES, 2008 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Monetary Authority.",
+  "notes": [
+    "1/ In April 2011, the exchange rate regime was changed from a fixed rate regime to a band of 20 percent around a central parity of Rf12.8 per US dollar"
+  ],
+  "columns": [
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Type of Currency",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Mar_2",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Jun_2",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Sep_2",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Dec_3",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Mar_3",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Jun_3",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Sep_3",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - Dec_5",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2008 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2008 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2008 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2008 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2009 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2009 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2009 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2009 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2010 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2010 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2010 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2010 - Dec",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2011 - Mar",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2011 - Jun",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2011 - Sep",
+    "(In Rufiyaa per foreign currency unit; end of period mid) - 2011 - Dec"
+  ],
+  "row_count": 17
+}

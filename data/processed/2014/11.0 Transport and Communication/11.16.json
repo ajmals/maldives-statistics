@@ -1,0 +1,37 @@
+{
+  "table_id": "11.16",
+  "title_en": "Table 11.16 : NUMBER OF AIRCRAFT MOVEMENTS AT DOMESTIC AIRPORTS BY MONTH, 2011-2013",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "1_/ Started operation in October 2011",
+    "2_/ Started operation in October 2012",
+    "3_/ Started operation in January 2013",
+    "ADh.Maamigili",
+    "B.Dharavandhoo",
+    "GA. Koodoo"
+  ],
+  "columns": [
+    "Month",
+    "L.Kadhdhoo - 2011",
+    "L.Kadhdhoo - 2012",
+    "L.Kadhdhoo - 2013",
+    "GDh.Kaadedhdhoo - 2011",
+    "GDh.Kaadedhdhoo - 2012",
+    "GDh.Kaadedhdhoo - 2013",
+    "HDh.Hanimaadhoo - 2011",
+    "HDh.Hanimaadhoo - 2012",
+    "HDh.Hanimaadhoo - 2013",
+    "Gn.Fuvahmulah 1_/ - 2011",
+    "Gn.Fuvahmulah 1_/ - 2012",
+    "Gn.Fuvahmulah 1_/ - 2013",
+    "ADh.Maamigili 1_/ - 2011",
+    "ADh.Maamigili 1_/ - 2012",
+    "ADh.Maamigili 1_/ - 2013",
+    "B.Dharavandhoo 2_/ - 2012",
+    "B.Dharavandhoo 2_/ - 2013",
+    "GA.Koodoo 3_/ - 2013"
+  ],
+  "row_count": 13
+}

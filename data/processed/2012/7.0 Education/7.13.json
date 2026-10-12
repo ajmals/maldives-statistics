@@ -1,0 +1,16 @@
+{
+  "table_id": "7.13",
+  "title_en": "Table 7.13: Number of single session schools, 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministr y of Education",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Total",
+    "No: of Schools - Government Schools",
+    "No: of Schools - Private Schools",
+    "No: of Schools - Community School"
+  ],
+  "row_count": 3
+}

@@ -1,0 +1,18 @@
+{
+  "table_id": "11.15",
+  "title_en": "Table 11.15 : CARGO HANDLED AT DOMESTIC AIRPORTS BY MONTH, 2009 ( in kg )",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Civil Aviation and Communication",
+  "notes": [],
+  "columns": [
+    "Month",
+    "L.Kadhdhoo - In",
+    "L.Kadhdhoo - Out",
+    "GDh.Kaadedhdhoo - In",
+    "GDh.Kaadedhdhoo - Out",
+    "HDh.Hanimaadhoo - In",
+    "HDh.Hanimaadhoo - Out"
+  ],
+  "row_count": 13
+}

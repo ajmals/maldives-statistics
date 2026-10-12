@@ -1,0 +1,31 @@
+{
+  "table_id": "12.2-1",
+  "category": "12.0 Electricity and water",
+  "title_en": "Table 12.2 : MONTHLY ELECTRICITY PRODUCTION BY PUBLIC SECTOR, 2018",
+  "unit": "",
+  "source": "Source: State Electric Company Limited",
+  "notes": [],
+  "time_span": "2019",
+  "year_min": 2019,
+  "year_max": 2019,
+  "row_count": 37,
+  "column_count": 14,
+  "columns": [
+    "Item",
+    "Apr - 2019",
+    "Aug - 2019",
+    "Dec - 2019",
+    "Feb - 2019",
+    "Jan - 2019",
+    "Jul - 2019",
+    "Jun - 2019",
+    "Mar - 2019",
+    "May - 2019",
+    "Nov - 2019",
+    "Oct - 2019",
+    "Sep - 2019",
+    "Total - 2019"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/12.2-1.csv"
+}

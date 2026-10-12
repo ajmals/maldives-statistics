@@ -1,0 +1,36 @@
+{
+  "table_id": "Poverty",
+  "category": "indicators",
+  "title_en": "",
+  "unit": "",
+  "source": "Source: Household Income and Expenditure Surveys",
+  "notes": [
+    "1/ Consumption aggregate is derived by aggregating households’ expenditures on goods and services so as to approximate the value of consumption achieved during the refernce period. It excludes lumpy expenditures such as on weddings, housing constructions,Consumer Durables,actual rent paid, travel abroad for Hajj. Consumption aggregate is used to define the measure of welfare which is used for poverty analysis.",
+    "2/ Poverty lines for previous years have been adjusted to account for inflation.",
+    "Note: Internation poverty line is measured in purchasing power parity (PPP) dollars. $1.25 is equivalent to MVR 17 in 2010 and MVR 12 in 2003."
+  ],
+  "time_span": "2002 – 2021",
+  "year_min": 2002,
+  "year_max": 2021,
+  "row_count": 11,
+  "column_count": 15,
+  "columns": [
+    "Item",
+    "POVERTY INDICATORS - 2018",
+    "POVERTY INDICATORS -  - Atolls - 2016",
+    "POVERTY INDICATORS -  - Male' - 2016",
+    "POVERTY INDICATORS - /2003 - Atolls - 2002",
+    "POVERTY INDICATORS - /2003 - Male' - 2002",
+    "POVERTY INDICATORS - /2003 - Republic - 2002",
+    "POVERTY INDICATORS - /2010 - Atolls - 2009",
+    "POVERTY INDICATORS - /2010 - Male' - 2009",
+    "POVERTY INDICATORS - /2010 - Republic - 2009",
+    "POVERTY INDICATORS - Republic - 2018",
+    "Unnamed: 1 - 2021",
+    "Unnamed: 3 - 2021",
+    "Unnamed: 4 - 2021",
+    "Unnamed: 5 - 2021"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/Poverty.csv"
+}

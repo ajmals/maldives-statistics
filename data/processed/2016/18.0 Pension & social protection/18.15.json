@@ -1,0 +1,27 @@
+{
+  "table_id": "18.15",
+  "title_en": "TABLE 18.15: EMPLOYEES REGISTERED IN THE RETIREMENT PENSION SCHEME, BY TYPE OF EMPLOYER, END OF 2015",
+  "title_dv": "ތާވަލު 18.15 : ތަނުގެ ބާވަތުން، ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްގައި ރެޖިސްޓަރކޮށްފައިވާ މުވައްޒަފުންގެ ޢަދަދު ، 2015",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [],
+  "columns": [
+    "Place",
+    "2013 - Total",
+    "2013 - Male",
+    "2013 - Female",
+    "2014 - Total",
+    "2014 - Male",
+    "2014 - Female",
+    "2015 - Total",
+    "2015 - Male",
+    "2015 - Female",
+    "% share - 2013",
+    "% share - 2014",
+    "% share - 2015",
+    "% share of females - 2013",
+    "% share of females - 2014",
+    "% share of females - 2015"
+  ],
+  "row_count": 13
+}

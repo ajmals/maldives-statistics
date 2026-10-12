@@ -1,0 +1,18 @@
+{
+  "table_id": "10.5",
+  "title_en": "Table 10.5 : TOURIST ARRIVALS, AVERAGE DURATION OF STAY AND TOURIST BED-NIGHTS BY MONTH, 2010 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Tourism, Arts & Culture",
+  "notes": [
+    "Department of Immigration & Emigration",
+    "Note: *Tourist Bed night figures include resorts/hotels/safaris & guesthouses"
+  ],
+  "columns": [
+    "Month",
+    "2009 - irukwdEh cnirevurutwf - udwdwA egEr - Tourist Bed-nights",
+    "2009 - egcnirevurutwf - udwdwA - Tourist Arrivals",
+    "2009 - ukwyirevurutwf cSokcjercvea - udwdwA egEr irukwdEh - Average Duration of Stay (in days)"
+  ],
+  "row_count": 43
+}

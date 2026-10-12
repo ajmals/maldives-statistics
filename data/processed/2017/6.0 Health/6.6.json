@@ -1,0 +1,26 @@
+{
+  "table_id": "6.6",
+  "title_en": "Table 6.6 : IN - PATIENT HEALTH CARE IN INDIRA GANDHI MEMORIAL HOSPITAL, 2010 - 2016",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Indira Gandhi Memorial Hospital",
+  "notes": [
+    "*number of hospital beds are given according to the number on end of the year."
+  ],
+  "columns": [
+    "Indira Gandhi Memorial Hospital",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "row_count": 6
+}

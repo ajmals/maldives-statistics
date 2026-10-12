@@ -1,0 +1,18 @@
+{
+  "table_id": "3.16",
+  "title_en": "Table 3.15 : POPULATION MIGRATED AND REGISTERED IN MALE' BY ATOLLS OF PREVIOUS REGISTRATION, 2012",
+  "title_dv": "ތާވަލު 3.15: މާލޭގެ ރަށްވެހިންނަށްވެ މާލޭގައި ރަޖިސްޓްރީވެފައިވާ އާބާދީ ކުރިން ރަޖިސްޓްރީވެފައިވާ އަތޮޅު، 2012",
+  "unit": "",
+  "source": "Source : Male' City Council and Department of National Planning",
+  "notes": [],
+  "columns": [
+    "Atolls of - previous residence",
+    "Total",
+    "%",
+    "Age Group - 0-17",
+    "Age Group - 18-34",
+    "Age Group - 35-49",
+    "Age Group - 50-64"
+  ],
+  "row_count": 63
+}

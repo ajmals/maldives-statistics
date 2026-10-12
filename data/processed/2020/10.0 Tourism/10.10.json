@@ -1,0 +1,37 @@
+{
+  "table_id": "10.10",
+  "title_en": "Table 10.10 : PROPORTION OF TOURISM REVENUE AND EXPENDITURE TO CENTRAL GOVERNMENT BUDGET, 2010 - 2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Finance and Treasury",
+  "notes": [
+    "Note:",
+    "* Tourism Revenue: 2010 onwards the figures include Tourism tax, and Resort lease rent (Resort kuli)",
+    "* 2011 onwards Tourism Goods and Services tax has been included in Total Revenue",
+    "* 2012 onwards lease period Extension fee has been included in Total Revenue",
+    "* Tourism Tax was abolished in Nov 2014",
+    "* Green tax introduced in Nov 2015",
+    "* TGST rate was increased from 8% to 12% starting Nov 2014",
+    "* lease period extension fee (consession fee for upto 50 years) was started in mid 2014 after a court ruling. LPEF will be paid in 6 installments, most of which fall for 2015. The last payment will be in March 2016.",
+    "* lease period extension fee (consession fee for upto 50 years) was started in mid 2014 after a court ruling. LPEF will be paid in 6 installments, most of which fall for 2015. The last payment will be in March 2016.",
+    "* Resort lease rent for 2015 - 2017 includes the amount for new revenue measures in budget 2015",
+    "* Resort lease rent for 2016 - 2018 includes the amount for new revenue measures in budget 2016"
+  ],
+  "columns": [
+    "(In Million MVR) - Particulars - Central Government Budget",
+    "(In Million MVR) - 2010",
+    "(In Million MVR) - 2011",
+    "(In Million MVR) - 2012",
+    "(In Million MVR) - 2013",
+    "(In Million MVR) - 2014",
+    "(In Million MVR) - Actual - 2015",
+    "(In Million MVR) - Actual - 2016",
+    "(In Million MVR) - Actual - 2017",
+    "(In Million MVR) - Actual - 2018",
+    "(In Million MVR) - Revised - 2019",
+    "(In Million MVR) - Estimate - 2020",
+    "(In Million MVR) - Estimate - 2021",
+    "(In Million MVR) - Estimate - 2022"
+  ],
+  "row_count": 13
+}

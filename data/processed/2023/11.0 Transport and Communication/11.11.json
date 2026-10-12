@@ -1,0 +1,37 @@
+{
+  "table_id": "11.11",
+  "title_en": "Table 11.11 TRANSPORT MOVEMENTS AT HANIMAADHOO INTERNATIONAL AIRPORT BY AIRLINE, CROSS-CLASSIFIED BY PASSENGER, CARGO AND MAIL, 2022",
+  "title_dv": "2021 ,cliaem iaWlwdum unulufua iaWncnurwjcniswf irukurutwfurutwd cnurwhwfuTOb egukwtcniawlrwaea ikeaikea cSwrwdnwbegiawv ImWvcqwaclwniawb UdWminwh 11.11:clwvWt",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "Table 11.11 TRANSPORT MOVEMENTS AT HANIMAADHOO INTERNATIONAL AIRPORT BY AIRLINE, CROSS-CLASSIFIED BY PASSENGER, CARGO AND MAIL, 2021",
+    "Passengers",
+    "Airline",
+    "Flight Movements",
+    "Total",
+    "International Flights",
+    "International Scheduled",
+    "IAS",
+    "Venuslink Flight Support",
+    "International Charter",
+    "IAS",
+    "International Non-Scheduled",
+    "Domestic flights",
+    "Island Aviation (Scheduled)",
+    "Manta Aviation",
+    "Villa Air",
+    "Other Domestic"
+  ],
+  "columns": [
+    "Airline",
+    "Flight Movements",
+    "Passengers - In",
+    "Passengers - Out",
+    "Cargo (kg) - In",
+    "Cargo (kg) - Out",
+    "Mail (kg) - In",
+    "Mail (kg) - Out"
+  ],
+  "row_count": 13
+}

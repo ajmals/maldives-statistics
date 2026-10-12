@@ -1,0 +1,30 @@
+{
+  "table_id": "8.19-1",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.19: NUMBER OF VICTIMS BY TYPE OF OFFENCE AND SEX, 2016 - 2018",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "time_span": "2017 – 2019",
+  "year_min": 2017,
+  "year_max": 2019,
+  "row_count": 26,
+  "column_count": 13,
+  "columns": [
+    "Item",
+    "Column_2 - 2019",
+    "Number of Logged cases - 2017",
+    "Number of Logged cases - 2018",
+    "Number of Logged cases_2 - 2017",
+    "Number of Logged cases_2 - 2018",
+    "Number of Victims - Both Sexes - 2017",
+    "Number of Victims - Both Sexes - 2018",
+    "Number of Victims - Female - 2017",
+    "Number of Victims - Female - 2018",
+    "Number of Victims - Female_2 - 2018",
+    "Number of Victims - Male - 2017",
+    "Number of Victims - Male - 2018"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/8.19-1.csv"
+}

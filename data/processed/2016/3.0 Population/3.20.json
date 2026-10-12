@@ -1,0 +1,19 @@
+{
+  "table_id": "3.20",
+  "title_en": "TABLE 3.20: NUMBER OF MARRIAGES, 2014 - 2015",
+  "title_dv": "ތާވަލު 3.20: ކައިވެނީގެ އަދަދު، 2014 - 2015",
+  "unit": "",
+  "source": "Source: Department of Judicial Administration",
+  "notes": [],
+  "columns": [
+    "Atoll/island",
+    "Court",
+    "2014 - Total",
+    "2014 - Monogamous",
+    "2014 - Polygamous",
+    "2015 - Total",
+    "2015 - Monogamous",
+    "2015 - Polygamous"
+  ],
+  "row_count": 4
+}

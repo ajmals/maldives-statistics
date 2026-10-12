@@ -1,0 +1,30 @@
+{
+  "table_id": "18.23",
+  "title_en": "Table 18.23 : EXPENDITURE UNDER HEALTH INSURANCE SCHEMES BY ISLAND, 2014 - 2017",
+  "title_dv": "ތާވަލް 18.23: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން ހިނގިޚަރަދު 2014 - 2017",
+  "unit": "",
+  "source": "Source: National Social Protection Agency",
+  "notes": [
+    "1_/ Population relocated to other islands under population consolidation programme",
+    "2_/ Population displaced to other islands due to tsunami",
+    "3_/ Newly inhabited under population consolidation programme",
+    "Expenditure is based on the claims approved."
+  ],
+  "columns": [
+    "Locality",
+    "Column_2",
+    "Column_3",
+    "Column_4",
+    "Column_6",
+    "Column_7",
+    "Column_8",
+    "Column_10",
+    "Column_11",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2017_2"
+  ],
+  "row_count": 228
+}

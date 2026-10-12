@@ -1,0 +1,24 @@
+{
+  "table_id": "16.5",
+  "title_en": "Table 16.5 : GROSS DOMESTIC PRODUCT (AT CURRENT PRICES),GROWTH RATES, BY KIND OF ACTIVITY, 2015-2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of National Planning, Housing and Infrastructure",
+  "notes": [
+    "Note : na = not available",
+    "Published in August 2023"
+  ],
+  "columns": [
+    "ISIC",
+    "Industry / Economic Activity",
+    "(In percent , at current prices) - 2015",
+    "(In percent , at current prices) - 2016",
+    "(In percent , at current prices) - 2017",
+    "(In percent , at current prices) - 2018",
+    "(In percent , at current prices) - 2019",
+    "(In percent , at current prices) - 2020",
+    "(In percent , at current prices) - 2021",
+    "(In percent , at current prices) - 2022"
+  ],
+  "row_count": 33
+}

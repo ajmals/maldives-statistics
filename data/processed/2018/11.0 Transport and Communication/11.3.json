@@ -1,0 +1,28 @@
+{
+  "table_id": "11.3",
+  "title_en": "Table 11.3 : REGISTERED AND NEWLY REGISTERED VEHICLES ACCORDING TO TYPE, 2016 - 2017",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Transport Authority",
+  "notes": [],
+  "columns": [
+    "Type of Vehicles",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2010_2",
+    "2011_2",
+    "2012_2",
+    "2013_2",
+    "2014_2",
+    "2015_2",
+    "2016_2",
+    "2017_2"
+  ],
+  "row_count": 45
+}

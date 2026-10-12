@@ -1,0 +1,30 @@
+{
+  "table_id": "8.2",
+  "title_en": "TABLE 8.2 : NUMBER OF LOGGED CASES BY LOCALITY & TYPE OF CASES, 2017 - 2021",
+  "title_dv": "ތާވަލު 8.2: މާލެ އަދި އަތޮޅުތަކުން ހުށަހެޅިފައިވާ މައްސަލަތަކުގެ ޢަދަދު އަދި ބާވަތް، 2017- 2021",
+  "unit": "",
+  "source": "Source: Maldives Police Service",
+  "notes": [],
+  "columns": [
+    "Type of case",
+    "2017 - Republic",
+    "2017 - Male'",
+    "2017 - Atolls",
+    "2018 - Republic",
+    "2018 - Male'",
+    "2018 - Atolls",
+    "2019 - Republic",
+    "2019 - Male'",
+    "2019 - Atolls",
+    "2020 - Republic",
+    "2020 - Male'",
+    "2020 - Atolls",
+    "2021 - Republic",
+    "2021 - Male'",
+    "2021 - Atolls",
+    "2021 - % change over 2020 - Republic",
+    "2021 - % change over 2020 - Male'",
+    "2021 - % change over 2020 - Atolls"
+  ],
+  "row_count": 24
+}

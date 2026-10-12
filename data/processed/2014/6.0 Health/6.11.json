@@ -1,0 +1,33 @@
+{
+  "table_id": "6.11",
+  "title_en": "Table 6.11: ESTIMATED IMMUNIZATION COVERAGE BY ISLAND, 2013",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Health Protection Agency / EPI program",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Measles",
+    "MMR",
+    "Bacillus - Climate Guerin - (BCG) Dozes",
+    "Diptheria,Partusis,Tatnus - (DPT) Dozes (phasing out) - 1st",
+    "Diptheria,Partusis,Tatnus - (DPT) Dozes (phasing out) - 2nd",
+    "Diptheria,Partusis,Tatnus - (DPT) Dozes (phasing out) - 3rd",
+    "Tetanus Toxide - (TT) Dozes * - 1st",
+    "Tetanus Toxide - (TT) Dozes * - 2nd",
+    "Tetanus Toxide - (TT) Dozes * - 3rd",
+    "Tetanus Toxide - (TT) Dozes * - 4th",
+    "Tetanus Toxide - (TT) Dozes * - 5th",
+    "Tetanus Toxide - Hepatitis B - 1st",
+    "Tetanus Toxide - Hepatitis B - 2nd",
+    "Tetanus Toxide - Hepatitis B - 3rd",
+    "Pentavalent Vaccine - 1st",
+    "Pentavalent Vaccine - 2nd",
+    "Pentavalent Vaccine - 3rd",
+    "Oral Polio Vaccine - (OPV) Dozes - 1st",
+    "Oral Polio Vaccine - (OPV) Dozes - 2nd",
+    "Oral Polio Vaccine - (OPV) Dozes - 3rd",
+    "Oral Polio Vaccine - (OPV) Dozes - 4th"
+  ],
+  "row_count": 215
+}

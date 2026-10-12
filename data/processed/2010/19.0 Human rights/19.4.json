@@ -1,0 +1,23 @@
+{
+  "table_id": "19.4",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ma ldives Customs Services",
+  "notes": [
+    "Note: Data have been taken from the past publications of the Statistical Yearbook of Maldives"
+  ],
+  "columns": [
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - Year",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - Value in '000 Rufiya - Imports",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - Value in '000 Rufiya - Exports",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - Value in '000 US$. - Imports",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - Value in '000 US$. - Exports",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - Trade balance in '000 US$",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - % change in Rufiya - Imports % chn",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - % change in Rufiya - Exports % chn",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - % change in US$ - Imports",
+    "19.4: TOTAL EXPORTS AND IMPORTS, 1972 - 2009 - % change in US$ - Exports"
+  ],
+  "row_count": 37
+}

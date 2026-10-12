@@ -1,0 +1,23 @@
+{
+  "table_id": "18.27",
+  "title_en": "Table 18.27: Aasandha Services provided by type, 2018 -2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "Note: For 2024, the Emergency evacuation figure represents the number unique evacuations. Sent abroad cases includes cases referred from Maldives and may incude multiple cases of same patient.",
+    "Note: For 2024, the Emergency evacuation figure represents the number unique evacuations. Sent abroad cases includes cases referred from Maldives and may incude multiple cases of same patient.",
+    "These expenditures are based on the blocked amount in MVR"
+  ],
+  "columns": [
+    "Service",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "row_count": 4
+}

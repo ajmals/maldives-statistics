@@ -1,0 +1,30 @@
+{
+  "table_id": "18.19",
+  "title_en": "Table 18.19 : EXPENDITURE ON AASANDHA SERVICES BY TYPE OF INSTITUTION , 2014",
+  "title_dv": "ތާވަލް 18.19: އިޖްތިމާއީ ރައްކާތެރިކަމުގެ ދަށުން ދެވޭ ޙިދުމަތްތައް ފޯރުކޮށްދޭ ތަންތަނަށް ކުރެވިފައިވާ ޚަރަދު، 2014",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "National Social Protection Agency",
+    "Note: These expenditures are based on the blocked amount",
+    "Locality",
+    "Locality",
+    "Republic",
+    "Male'",
+    "Atolls",
+    "Overseas",
+    "National Social Protection Agency",
+    "Note: These expenditures are based on the blocked amount"
+  ],
+  "columns": [
+    "Locality",
+    "Total Expenditure (MVR)",
+    "Hospitals",
+    "Pharmacies",
+    "Opticals",
+    "Clinics",
+    "Airfare Tickets",
+    "Emergency Evacuation - Sea"
+  ],
+  "row_count": 4
+}

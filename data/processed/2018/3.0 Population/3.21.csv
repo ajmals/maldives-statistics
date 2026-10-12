@@ -1,0 +1,9 @@
+Column_1,Column_2,Column_3,Column_4,Column_5,Column_6,Column_7,Female - 5237,Female - 5237_2,Female - 5237_3
+Number of times married,2015,2015,2016,2016,2017,2017,First,2655,2657
+Number of times married,Male,Female,Male,Female,Male,Female,Second,1345,1349
+Number of times married,,,,,,,Third,651,640
+Total,5763,5763,5488,5488,5237,5237,Fourth or more,586,591
+First,3026,2999,2773,2716,2655,2657,,,
+Second,1464,1547,1469,1521,1345,1349,,,
+Third,635,631,620,650,651,640,,Male,Female
+Fourth or more,638,586,626,601,586,591,,50.696964,50.735154

@@ -1,0 +1,20 @@
+{
+  "table_id": "9.7",
+  "title_en": "Table 9.7 : AVERAGE NUMBER OF VESSELS ENGAGED PER MONTH IN FISHING AND",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry o f Fisheries and Agriculture",
+  "notes": [],
+  "columns": [
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Locality",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Fishing Trips - Mechanised - Masdhoni",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Fishing Trips - Sailing - Masdhoni",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Fishing Trips - EEZ - Vessels",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Fishing Trips - EEZ - Vessels_2",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Average no. of vessels engaged per month - Mechanised - Masdhoni",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Average no. of vessels engaged per month - Sailing - Masdhoni",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Average no. of vessels engaged per month - EEZ - Vessels",
+    "NUMBER OF FISHING TRIPS BY LOCALITY, 2009 - Average no. of vessels engaged per month - EEZ - Vessels_2"
+  ],
+  "row_count": 51
+}

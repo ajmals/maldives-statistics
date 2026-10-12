@@ -1,0 +1,35 @@
+{
+  "table_id": "11.15",
+  "title_en": "Table 11.15 : PASSENGER MOVEMENTS AT DOMESTIC AIRPORTS BY MONTH, 2013",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "L.Kadhdhoo",
+    "GDh.Kaadedhdhoo",
+    "HDh.Hanimaadhoo",
+    "Gn.Fuvahmulah",
+    "ADh.Maamigili",
+    "B.Dharavandhoo",
+    "GA. Koodoo",
+    "296238"
+  ],
+  "columns": [
+    "Month",
+    "L.Kadhdhoo - In",
+    "L.Kadhdhoo - Out",
+    "GDh.Kaadedhdhoo - In",
+    "GDh.Kaadedhdhoo - Out",
+    "HDh.Hanimaadhoo - In",
+    "HDh.Hanimaadhoo - Out",
+    "Gn.Fuvahmulah - In",
+    "Gn.Fuvahmulah - Out",
+    "ADh.Maamigili - In",
+    "ADh.Maamigili - Out",
+    "B.Dharavandhoo - In",
+    "B.Dharavandhoo - Out",
+    "GA. Koodoo - In",
+    "GA. Koodoo - Out"
+  ],
+  "row_count": 13
+}

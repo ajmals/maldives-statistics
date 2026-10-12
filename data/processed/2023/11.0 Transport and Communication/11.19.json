@@ -1,0 +1,35 @@
+{
+  "table_id": "11.19",
+  "title_en": "Table 11.19 : AIRCRAFT MOVEMENT AT GAN INTERNATIONAL AIRPORT BY MONTH, 2021",
+  "title_dv": "ތާވަލު 11.19: މަސްމަހުގެ ގޮތުން ގަން އިންޓަރނޭޝަނަލް އެއަރޕޯޓުން ދަތުރުކުރި ފްލައިޓްތައް، 2021",
+  "unit": "",
+  "source": "Source: Civil Aviation Authority",
+  "notes": [
+    "Month",
+    "Month",
+    "Total",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "columns": [
+    "Month",
+    "Grand total",
+    "International Flights - Total",
+    "International Flights - Scheduled",
+    "International Flights - Non-Scheduled",
+    "Domestic Flights - Total",
+    "Domestic Flights - Scheduled",
+    "Domestic Flights - Non-Scheduled"
+  ],
+  "row_count": 13
+}

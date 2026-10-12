@@ -1,0 +1,30 @@
+{
+  "table_id": "3.13",
+  "title_en": "Table 3.13 : MARRIAGES AND DIVORCES IN MALE' AND ATOLLS, 2008 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source:Department of Ju dicial Administration",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "2008 - Marriages",
+    "2008 - Divorces",
+    "2008 - Faskh",
+    "2008 - Thafreeq",
+    "2009 - Marriages",
+    "2009 - Divorces",
+    "2009 - Faskh",
+    "2009 - Thafreeq",
+    "2010 - Marriages",
+    "2010 - Divorces",
+    "2010 - Faskh",
+    "2010 - Thafreeq",
+    "2011 - Marriages",
+    "2011 - Divorces",
+    "2011 - Faskh",
+    "2011 - Thafreeq",
+    "% Change over previous year of - Marriages",
+    "% Change over previous year of - Divorces"
+  ],
+  "row_count": 23
+}

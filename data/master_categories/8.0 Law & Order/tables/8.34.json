@@ -1,0 +1,31 @@
+{
+  "table_id": "8.34",
+  "category": "8.0 Law & Order",
+  "title_en": "Table 8.34: Number of investigation completed cases, 2014 - 2017",
+  "unit": "",
+  "source": "Source: Aniti Corruption Commision",
+  "notes": [],
+  "time_span": "2015 – 2023",
+  "year_min": 2015,
+  "year_max": 2023,
+  "row_count": 295,
+  "column_count": 14,
+  "columns": [
+    "Item",
+    "Column_6 - 2019",
+    "Column_7 - 2020",
+    "Details - 2019",
+    "Details - 2020",
+    "Value - 2015",
+    "Value - 2016",
+    "Value - 2017",
+    "Value - 2018",
+    "Value - 2019",
+    "Value - 2020",
+    "Value - 2021",
+    "Value - 2022",
+    "Value - 2023"
+  ],
+  "editions_covered": 6,
+  "csv_file": "tables/8.34.csv"
+}

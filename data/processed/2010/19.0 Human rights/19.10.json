@@ -1,0 +1,24 @@
+{
+  "table_id": "19.10",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Depart ment of National Planning",
+  "notes": [
+    "Note: Data have been taken from the past publications of the Statistical Yearbook of Maldives",
+    "Note: Data have been taken from the past publications of the Statistical Yearbook of Maldives"
+  ],
+  "columns": [
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Both sexes",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - All ages",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Age Group - <20",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Age Group - 20-34",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Age Group - 35+",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Age Group - Not stated",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Percentage - Age Group - <20",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Percentage - Age Group - 20-34",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Percentage - Age Group - 35+",
+    "19.10 : PERSONS SENTENCED BY AGE AND SEX, 1980 - 2009 - Percentage - Age Group - Not stated"
+  ],
+  "row_count": 98
+}

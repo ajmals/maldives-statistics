@@ -1,0 +1,20 @@
+{
+  "table_id": "18.21",
+  "title_en": "Table 18.21 : EXPENDITURE ON PERSONS COVERED UNDER AASANDHA POLICIES BY TYPE OF SERVICE, 2014 - 2019",
+  "title_dv": "ތާވަލް 18.21: ޚިދުމަތުގެ ބާވަތުން އާސަންދައިގެ ދަށުން ކުރެވިފައިވާ ޚަރަދު 2014 - 2019",
+  "unit": "",
+  "source": "Source: Aasandha Pvt Ltd",
+  "notes": [
+    "Note: These expenditures are based on the blocked amount"
+  ],
+  "columns": [
+    "Type of Service",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "row_count": 10
+}

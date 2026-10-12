@@ -1,0 +1,26 @@
+{
+  "table_id": "Money-and-Banking",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "(In million Rufiyaa, end of period)",
+  "source": "",
+  "notes": [
+    "Note: 1_/: Data Revised"
+  ],
+  "columns": [
+    "MONEY AND BANKING - (In million Rufiyaa, end of period)",
+    "MONEY AND BANKING - 2006",
+    "MONEY AND BANKING - 2007",
+    "MONEY AND BANKING - 2008",
+    "MONEY AND BANKING - 2009",
+    "MONEY AND BANKING - 2010",
+    "MONEY AND BANKING - 2011",
+    "MONEY AND BANKING - 2012",
+    "MONEY AND BANKING - 2013",
+    "MONEY AND BANKING - 2014",
+    "MONEY AND BANKING - 2015",
+    "MONEY AND BANKING - 20161_/",
+    "MONEY AND BANKING - 2017"
+  ],
+  "row_count": 18
+}

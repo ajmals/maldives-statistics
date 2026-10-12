@@ -1,0 +1,18 @@
+{
+  "table_id": "Political-parties-Elections",
+  "title_en": "",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [],
+  "columns": [
+    "POLITICAL PARTIES",
+    "POLITICAL PARTIES - 2011",
+    "POLITICAL PARTIES - 2012",
+    "POLITICAL PARTIES - 2013",
+    "POLITICAL PARTIES - 2014",
+    "POLITICAL PARTIES - 2015",
+    "POLITICAL PARTIES - 2016"
+  ],
+  "row_count": 9
+}

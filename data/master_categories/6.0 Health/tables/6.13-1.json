@@ -1,0 +1,39 @@
+{
+  "table_id": "6.13-1",
+  "category": "6.0 Health",
+  "title_en": "Table 6.13: Number of registered thalassaemia cases by Age group and sex, 2020",
+  "unit": "",
+  "source": "Source: Maldivian Blood Services",
+  "notes": [
+    "Sex",
+    "Sex",
+    "Total",
+    "Female",
+    "Male",
+    "Sex",
+    "Sex",
+    "Total",
+    "Female",
+    "Male",
+    "Sex",
+    "Sex",
+    "Total",
+    "Male",
+    "Female"
+  ],
+  "time_span": "2025",
+  "year_min": 2025,
+  "year_max": 2025,
+  "row_count": 3,
+  "column_count": 6,
+  "columns": [
+    "Item",
+    "Age group - 1 - 5 - 2025",
+    "Age group - 15 - 19 - 2025",
+    "Age group - 6 - 9 - 2025",
+    "Age group - less than 1 yrs - 2025",
+    "Total - 2025"
+  ],
+  "editions_covered": 1,
+  "csv_file": "tables/6.13-1.csv"
+}

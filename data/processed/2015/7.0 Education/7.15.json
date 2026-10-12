@@ -1,0 +1,30 @@
+{
+  "table_id": "7.15",
+  "title_en": "Table 7.15: Number of students sat and passed in the O'level examination by Atolls, 2010 - 2014",
+  "title_dv": "ތާވަލް 7.15: ޖީ. ސީ. އޯ ލެވެލް އިމްތިހާނުގައި ބައިވެރިވި ދަރިވަރުންގެ ޢަދަދާއި ފާސްވި ދަރިވަރުންގެ ޢަދަދު، 2010 - 2014",
+  "unit": "",
+  "source": "Source: Ministry of Education",
+  "notes": [
+    "Note: 1. Here \"Passed\" means five or more subjects passed.",
+    "2. Passed grades are A, B and C"
+  ],
+  "columns": [
+    "Region",
+    "2010 - Candidates",
+    "2010 - Passed",
+    "2010 - % passed",
+    "2011 - Candidates",
+    "2011 - Passed",
+    "2011 - % passed",
+    "2012 - Candidates",
+    "2012 - Passed",
+    "2012 - % passed",
+    "2013 - Candidates",
+    "2013 - Passed",
+    "2013 - % passed",
+    "2014 - Candidates",
+    "2014 - Passed",
+    "2014 - % passed"
+  ],
+  "row_count": 23
+}

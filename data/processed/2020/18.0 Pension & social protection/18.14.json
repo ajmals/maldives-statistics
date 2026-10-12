@@ -1,0 +1,17 @@
+{
+  "table_id": "18.14",
+  "title_en": "TABLE 18.14: EMPLOYEES AND ESTABLISHMENTS REGISTERED IN THE RETIREMENT PENSION SCHEME, END OF 2019",
+  "title_dv": "ތާވަލު 18.14 : އެކި ދާއިރާތަކުން ރިޓާޔަމަންޓް ޕެންޝަން ސްކީމްގައި ރެޖިސްޓްރީކޮށްފައިވާ ތަންތަނުގެ ޢަދަދާއި މުވައްޒަފުންގެ އަދަދު، 2019",
+  "unit": "",
+  "source": "Source: Maldives Pension Administration",
+  "notes": [
+    "Note: The Difference between values in this table is due to some members vahing multiple contracts with more than one employer"
+  ],
+  "columns": [
+    "Industry",
+    "Establishments",
+    "Employment",
+    "% share"
+  ],
+  "row_count": 27
+}

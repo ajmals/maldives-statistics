@@ -1,0 +1,26 @@
+{
+  "table_id": "3.9",
+  "title_en": "Table 3.9 : LIVE BIRTHS AND INFANT DEATHS, 2015 - 2018",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: 1_/ Total include Maldivians born abroad"
+  ],
+  "columns": [
+    "Particulars",
+    "2015 - Republic",
+    "2015 - Male'",
+    "2015 - Atolls",
+    "2015 - Abroad",
+    "2016 - Republic",
+    "2016 - Male'",
+    "2016 - Atolls",
+    "2016 - Abroad",
+    "2017 - Republic",
+    "2017 - Male'",
+    "2017 - Atolls",
+    "2017 - Abroad"
+  ],
+  "row_count": 10
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "16.10",
+  "title_en": "Table 16.10: GROSS DOMESTIC PRODUCT (AT CURRENT PRICES), GROWTH RATES, BY KIND OF ACTIVITY, 2015-2024",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Maldives Bureau of Statistics / Ministry of Finance and Public Enterprises",
+  "notes": [
+    "Note : na = not available",
+    "Published in September 2025"
+  ],
+  "columns": [
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - Industry / Economic Activity",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2015",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2016",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2017",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2018",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2019",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2020",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2021",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2022",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2023",
+    "(Estimated using expenditure approach) - (In percent , 2019 =100) - 2024"
+  ],
+  "row_count": 13
+}

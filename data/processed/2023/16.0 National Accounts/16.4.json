@@ -1,0 +1,25 @@
+{
+  "table_id": "16.4",
+  "title_en": "Table 16.4 : GROSS DOMESTIC PRODUCT (AT CURRENT PRICES), BY KIND OF ACTIVITY , 2014-2022",
+  "title_dv": "",
+  "unit": "",
+  "source": "މައުލޫމާތު ދެއްވި ފަރާތް: - މޯލްޑްވްސް ބިއުރޯ އޮފް ސްޓެޓިސްޓިކްސް / މިނިސްޓްރީ އޮފް ނެޝަނަލް ޕްލޭނިންގ، ހައުސިންގ އެންޑް އިންފްރާ ސްޓްރަކްޗަރ",
+  "notes": [
+    "Note : na = not available",
+    "Published in August 2023"
+  ],
+  "columns": [
+    "(Estimated using production approach) - ISIC",
+    "(Estimated using production approach) - Industry / Economic Activity",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2014",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2015",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2016",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2017",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2018",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2019",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2020",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2021",
+    "(Estimated using production approach) - (In Million MVR , at current prices) - 2022"
+  ],
+  "row_count": 39
+}

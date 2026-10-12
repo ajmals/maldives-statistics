@@ -1,0 +1,21 @@
+{
+  "table_id": "8.52",
+  "title_en": "Table 8.52: Number of children at Childrens Shelter, Fiyavathi, by age group and sex, 2016 - 2018",
+  "title_dv": "ތާވަލު 8.52: ހުޅުމާލެ ފިޔަވަތީގައި ތިބި ކުޑަކުދިންގެ އަދަދު , 2016 - 2018",
+  "unit": "",
+  "source": "Source: Ministry of Gender, Family and Social Services",
+  "notes": [],
+  "columns": [
+    "Age group",
+    "2016 - Number of Children - Both Sexes",
+    "2016 - Number of Children - Male",
+    "2016 - Number of Children - Female",
+    "2017 - Number of Children - Both Sexes",
+    "2017 - Number of Children - Male",
+    "2017 - Number of Children - Female",
+    "2018 - Number of Children - Both Sexes",
+    "2018 - Number of Children - Male",
+    "2018 - Number of Children - Female"
+  ],
+  "row_count": 9
+}

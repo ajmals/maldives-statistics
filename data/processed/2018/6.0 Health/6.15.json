@@ -1,0 +1,24 @@
+{
+  "table_id": "6.15",
+  "title_en": "Table 6.15: TOTAL NO. OF REPORTED CASES BY SELECTED DISEASES BY LOCALITY, 2017",
+  "title_dv": "ތާވަލު 6.15: ތަނުގެ ގޮތުން ރިޕޯޓްކުރެވިފައިވާ ބަލިތައް، 2017",
+  "unit": "",
+  "source": "Source: Health Protection Agency",
+  "notes": [],
+  "columns": [
+    "Locality",
+    "Acute Respiratory Infection - Under 5 years",
+    "Acute Respiratory Infection - Above 5 years",
+    "Viral Fever - Under 5 years",
+    "Viral Fever - Above 5 years",
+    "Diarrhoea - Under 5 years",
+    "Diarrhoea - Above 5 years",
+    "Scrub Typhus - Under 5 years",
+    "Scrub Typhus - Above 5 years",
+    "*Dengue Fever - Under 5 years",
+    "*Dengue Fever - Above 5 years",
+    "**Typhoid - Under 5 years",
+    "**Typhoid - Above 5 years"
+  ],
+  "row_count": 24
+}

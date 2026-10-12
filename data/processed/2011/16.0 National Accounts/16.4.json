@@ -1,0 +1,31 @@
+{
+  "table_id": "16.4",
+  "title_en": "Table 16.4 : GROSS DOMESTIC PRODUCT (AT CURRENT PRICES), BY KIND OF ACTIVITY , 2003 - 2011",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Department of National Planning",
+  "notes": [
+    "1_/ Revised on 10 Nov. 2002",
+    "2_/ Revised on 16 Dec. 2002",
+    "3_/ Revised on 24 Dec 2003",
+    "4_/ Revised on February 2006",
+    "GDP per capita at current market prices (PPP$)",
+    "GDP Deflator",
+    "Published in April 2011",
+    "Rf 8.1 per PPP US$ (ADB, purchasing power parity, 2005)"
+  ],
+  "columns": [
+    "(Estimated using production approach) - (In Million Rf , at current prices) - ISIC",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - Industry / Economic Activity",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - 2003",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - 2004",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - 2005",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - 2006",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - Final - 2007",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - Revised - 2008",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - Estimates - 2009",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - Provisional - 2010",
+    "(Estimated using production approach) - (In Million Rf , at current prices) - Projected - 2011"
+  ],
+  "row_count": 27
+}

@@ -1,0 +1,20 @@
+{
+  "table_id": "7.20",
+  "title_en": "Table 7.20 : PASS PERCENTAGE OF STUDENTS, 2008 - 2009",
+  "title_dv": "",
+  "unit": "",
+  "source": "",
+  "notes": [
+    "Note: Pass = result of A, B or C"
+  ],
+  "columns": [
+    "Number of subjects passed",
+    "2008 - Both sexes",
+    "2008 - Male",
+    "2008 - Female",
+    "2009 - Both sexes",
+    "2009 - Male",
+    "2009 - Female"
+  ],
+  "row_count": 4
+}

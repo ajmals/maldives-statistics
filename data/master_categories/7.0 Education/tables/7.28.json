@@ -1,0 +1,27 @@
+{
+  "table_id": "7.28",
+  "category": "7.0 Education",
+  "title_en": "Table 7.28: Number of staff by gender, nationality and type of employment, 2019",
+  "unit": "",
+  "source": "Source: Ministry of Higher Education",
+  "notes": [],
+  "time_span": "2020 – 2022",
+  "year_min": 2020,
+  "year_max": 2022,
+  "row_count": 3,
+  "column_count": 10,
+  "columns": [
+    "Item",
+    "Female - 2020",
+    "Female - 2021",
+    "Female - 2022",
+    "Locality_2 - 2020",
+    "Locality_2 - 2021",
+    "Locality_2 - 2022",
+    "Male - 2020",
+    "Male - 2021",
+    "Male - 2022"
+  ],
+  "editions_covered": 3,
+  "csv_file": "tables/7.28.csv"
+}

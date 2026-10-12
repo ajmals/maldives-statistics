@@ -1,0 +1,15 @@
+{
+  "table_id": "6.10",
+  "title_en": "Table 6.10: Number of Inpatients by speciality and sex, 2019",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Indira Gandhi Memorial Hospital",
+  "notes": [],
+  "columns": [
+    "Outpatients",
+    "Both sexes",
+    "Male",
+    "Female"
+  ],
+  "row_count": 23
+}

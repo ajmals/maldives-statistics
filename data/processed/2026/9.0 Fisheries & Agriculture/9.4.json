@@ -1,0 +1,32 @@
+{
+  "table_id": "9.4",
+  "title_en": "Table 9.4 : FISH CATCH BY MONTH, 2018 - 2025",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Fisheries, Agriculture and Ocean Resources",
+  "notes": [
+    "(*) - Indicates if the percentage change is greater than 100."
+  ],
+  "columns": [
+    "(In metric tons) - Month",
+    "(In metric tons) - 2017",
+    "(In metric tons) - Fish catch - 2018",
+    "(In metric tons) - Fish catch - 2019",
+    "(In metric tons) - Fish catch - 2020",
+    "(In metric tons) - Fish catch - 2021",
+    "(In metric tons) - Fish catch - 2022",
+    "(In metric tons) - Fish catch - 2023",
+    "(In metric tons) - Fish catch - 2024",
+    "(In metric tons) - Fish catch - 2025",
+    "(In metric tons) - Percentage share - 2018",
+    "(In metric tons) - Percentage share - 2019",
+    "(In metric tons) - Percentage share - 2020",
+    "(In metric tons) - Percentage share - 2021",
+    "(In metric tons) - Percentage share - 2022",
+    "(In metric tons) - Percentage share - 2023",
+    "(In metric tons) - Percentage share - 2024",
+    "(In metric tons) - Percentage share - 2025",
+    "(In metric tons) - % change over - previous year 2024"
+  ],
+  "row_count": 13
+}

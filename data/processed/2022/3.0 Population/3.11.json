@@ -1,0 +1,26 @@
+{
+  "table_id": "3.11",
+  "title_en": "Table 3.11 : INFANT DEATHS BY AGE AND SEX, 2010 - 2021",
+  "title_dv": "",
+  "unit": "",
+  "source": "Source: Ministry of Health",
+  "notes": [
+    "Note: 1_/: Data includes Maldivians and foreigners, but excluded deaths occurred abroad"
+  ],
+  "columns": [
+    "Age (in days) and Sex",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "20211_/"
+  ],
+  "row_count": 20
+}
