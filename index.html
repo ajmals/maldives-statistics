@@ -79,7 +79,12 @@
             <button class="tab-btn highlight-tab" id="tab-btn-tsunami" role="tab" aria-selected="false" aria-controls="pane-tsunami" data-target="pane-tsunami">
               <span class="tab-icon">🌊</span>
               <span>2004 Tsunami</span>
-              <span class="badge-shock">Crisis Focus</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn highlight-rose" id="tab-btn-covid" role="tab" aria-selected="false" aria-controls="pane-covid" data-target="pane-covid">
+              <span class="tab-icon">🦠</span>
+              <span>COVID-19 Shock</span>
             </button>
           </li>
           <li role="presentation">
@@ -98,7 +103,6 @@
             <button class="tab-btn highlight-gold" id="tab-btn-greater-male" role="tab" aria-selected="false" aria-controls="pane-greater-male" data-target="pane-greater-male">
               <span class="tab-icon">🏙️</span>
               <span>Greater Malé</span>
-              <span class="badge-density">Density</span>
             </button>
           </li>
           <li role="presentation">
@@ -549,6 +553,214 @@
         </div>
         <div class="card-footer-notes" style="margin-top: 1rem; border-top: 1px solid var(--border-subtle); padding-top: 0.85rem; font-size: 0.82rem; line-height: 1.6;">
           <span>ℹ️ <strong>Data Source & Pre-2008 Notice:</strong> Because statistical yearbooks prior to 2008 are not archived digitally on the <a href="https://statisticsmaldives.gov.mv/yearbook/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline;">NBS Yearbook portal</a>, 2004 Tsunami loss estimates, displaced counts, and reconstruction capital outlays are derived from official retrospective tables in subsequent yearbooks (NBS Categories 10.0, 13.9, 13.11, 16.0) and the <em>Joint World Bank / ADB / UN Tsunami Damage Assessment (2005)</em>.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 2B: COVID-19 PANDEMIC SHOCK & RECOVERY
+         ==================================================================== -->
+    <section id="pane-covid" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-covid">
+      <div class="alert-banner-shock">
+        <div class="alert-icon-wrap">⚡</div>
+        <div class="alert-content">
+          <div class="alert-badge-wrap">
+            <span class="badge-shock">Pandemic Crisis Focus</span>
+            <span id="covid-kpi-phase-tag" class="font-mono text-rose" style="font-weight: 700; font-size: 0.85rem; margin-left: 0.5rem;">[Phase: 2020 Complete Border Shutdown]</span>
+          </div>
+          <h3 class="alert-title">COVID-19 Pandemic: The Greatest Economic Shock in Modern Maldivian History</h3>
+          <p class="alert-desc">On March 27, 2020, the Maldives took the unprecedented step of shutting its international borders. For the next 110 days, international tourist arrivals plunged to literal zero. Use the <strong>Pandemic Time Scrubber</strong> below or the top slider to watch the month-by-month crash, the July 15 reopening, and the world-leading V-shaped rebound.</p>
+        </div>
+      </div>
+
+      <!-- Dedicated Pandemic Month-by-Month Scrubber & Live Ticker -->
+      <div class="covid-scrubber-card" id="covid-interactive-scrubber">
+        <div class="covid-scrubber-top">
+          <div class="covid-scrubber-heading">
+            <span class="scrubber-badge">Pandemic Time Scrubber</span>
+            <span class="covid-scrubber-title">Live Month: <strong id="covid-ticker-month" class="font-mono text-accent">Apr 2020</strong></span>
+          </div>
+          <div class="covid-controls-wrap">
+            <button id="covid-play-btn" class="btn-primary-sm">
+              <svg id="covid-play-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span id="covid-play-text">Play COVID Simulation</span>
+            </button>
+            <div class="scrubber-quick-jumps">
+              <button class="jump-pill" data-covid-month="0">2019 Normal</button>
+              <button class="jump-pill alert-jump active" data-covid-month="15">Apr 2020 Zero Line</button>
+              <button class="jump-pill" data-covid-month="18">Jul 2020 Reopen</button>
+              <button class="jump-pill" data-covid-month="23">Dec 2020 Russia #1</button>
+              <button class="jump-pill" data-covid-month="32">Aug 2021 India #1</button>
+              <button class="jump-pill" data-covid-month="47">Dec 2022 Normal</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-wrapper" style="margin-top: 0.65rem;">
+          <input type="range" id="covid-month-slider" min="0" max="47" step="1" value="15" aria-label="Select Pandemic Month">
+          <div class="slider-ticks font-mono">
+            <span>Jan 2019 (Peak)</span>
+            <span class="text-rose">Apr 2020 (Zero)</span>
+            <span>Jul 2020 (Reopen)</span>
+            <span>Jan 2021 (Rebound)</span>
+            <span>Jan 2022</span>
+            <span>Dec 2022</span>
+          </div>
+        </div>
+
+        <!-- Live Ticker Banner -->
+        <div class="covid-ticker-banner" id="covid-status-ticker">
+          <div class="ticker-col">
+            <span class="ticker-label">Monthly Tourist Arrivals</span>
+            <span class="ticker-val font-mono" id="covid-ticker-visitors">0 Tourists</span>
+          </div>
+          <div class="ticker-col">
+            <span class="ticker-label">Border / Operational Status</span>
+            <span class="ticker-badge font-mono" id="covid-ticker-phase">100% Nationwide Border Closure</span>
+          </div>
+          <div class="ticker-col-wide">
+            <span class="ticker-label">Key Pandemic Milestone</span>
+            <span class="ticker-note" id="covid-ticker-note">March 27 border closure halts all international flights. Commercial resort islands completely evacuated; nation relies on fishing fleet.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reactive COVID KPI Metrics Ribbon (Updates with Scrubber) -->
+      <div class="kpi-banner-grid" style="margin-top: 1.25rem;">
+        <div class="kpi-card border-negative" id="card-covid-gdp">
+          <div class="kpi-title">Real GDP Impact</div>
+          <div class="kpi-value font-mono negative" id="covid-val-gdp">-33.5%</div>
+          <div class="kpi-delta negative" id="covid-delta-gdp">Historic economic crash</div>
+          <div class="kpi-footer font-mono" id="covid-footer-gdp">Lost $2.0B USD output</div>
+        </div>
+
+        <div class="kpi-card border-negative" id="card-covid-tourists">
+          <div class="kpi-title">Annual Visitors</div>
+          <div class="kpi-value font-mono negative" id="covid-val-tourists">555,494</div>
+          <div class="kpi-delta negative" id="covid-delta-tourists">-67.4% from 1.70M peak</div>
+          <div class="kpi-footer font-mono" id="covid-footer-tourists">Apr–Jun: 0 arrivals</div>
+        </div>
+
+        <div class="kpi-card" id="card-covid-market">
+          <div class="kpi-title">#1 Origin Market</div>
+          <div class="kpi-value font-mono" id="covid-val-market">Russia (61k)</div>
+          <div class="kpi-delta info" id="covid-delta-market">China dropped: 284k → 34k</div>
+          <div class="kpi-footer font-mono" id="covid-footer-market">Market rotation underway</div>
+        </div>
+
+        <div class="kpi-card" id="card-covid-borders">
+          <div class="kpi-title">Border / Bubble Model</div>
+          <div class="kpi-value font-mono" id="covid-val-borders" style="font-size: 1.35rem;">Closed → Bubble</div>
+          <div class="kpi-delta" id="covid-delta-borders">Reopened 15 July 2020</div>
+          <div class="kpi-footer font-mono" id="covid-footer-borders">"One Island, One Resort"</div>
+        </div>
+
+        <div class="kpi-card border-positive" id="card-covid-fish">
+          <div class="kpi-title">Tuna Catch Buffer</div>
+          <div class="kpi-value font-mono positive" id="covid-val-fish">148,600 MT</div>
+          <div class="kpi-delta positive" id="covid-delta-fish">+10.2% YoY growth</div>
+          <div class="kpi-footer font-mono" id="covid-footer-fish">Domestic food security</div>
+        </div>
+
+        <div class="kpi-card border-negative" id="card-covid-debt">
+          <div class="kpi-title">Debt-to-GDP Surge</div>
+          <div class="kpi-value font-mono negative" id="covid-val-debt">151.4%</div>
+          <div class="kpi-delta negative" id="covid-delta-debt">+72.6 percentage pts spike</div>
+          <div class="kpi-footer font-mono" id="covid-footer-debt">Emergency fiscal borrowing</div>
+        </div>
+      </div>
+
+      <!-- COVID Detailed Charts -->
+      <div class="grid-2-col">
+        <div class="dashboard-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Monthly Tourist Arrivals Anatomy (2019 – 2022)</h3>
+              <p class="card-sub">Visualizing the border closure cliff (April–June 2020: 0 tourists), July 15 reopening, and the aggressive V-shaped recovery curve.</p>
+            </div>
+            <span class="card-tag">Monthly Visitor Counts</span>
+          </div>
+          <div class="chart-container" style="height: 340px;">
+            <canvas id="chart-covid-monthly"></canvas>
+          </div>
+          <div class="card-footer-notes">
+            <span>✈️ Reopening without quarantine on July 15, 2020 allowed the Maldives to capture pent-up global travel demand months ahead of competitors.</span>
+          </div>
+        </div>
+
+        <div class="dashboard-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Source Market Pivot: The Post-COVID Re-Alignment</h3>
+              <p class="card-sub">How Russia and India surged to replace locked-down China and Western Europe during 2020–2022, before China returned in 2024.</p>
+            </div>
+            <span class="card-tag">Top Origin Nationalities</span>
+          </div>
+          <div class="chart-container" style="height: 340px;">
+            <canvas id="chart-covid-market-shift"></canvas>
+          </div>
+          <div class="card-footer-notes">
+            <span>🔄 India grew from 166k (2019) to #1 market in 2021 (291k). Russia became the top market in 2020 (61k) and surged to 222k in 2021.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-2-col">
+        <div class="dashboard-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Economic Contraction Benchmark: Maldives vs World & SIDS</h3>
+              <p class="card-sub">Comparison of 2020 GDP drop and 2021 rebound rates against global averages and Small Island Developing States (SIDS).</p>
+            </div>
+            <span class="card-tag">Real GDP Growth Rate (%)</span>
+          </div>
+          <div class="chart-container" style="height: 300px;">
+            <canvas id="chart-covid-benchmark"></canvas>
+          </div>
+        </div>
+
+        <div class="dashboard-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Crisis Timeline & Structural Policy Innovations</h3>
+              <p class="card-sub">Key institutional milestones that guided the nation through the pandemic.</p>
+            </div>
+            <span class="card-tag">Milestone Log</span>
+          </div>
+          <div class="timeline-log">
+            <div class="log-item">
+              <span class="log-date font-mono">27 Mar 2020</span>
+              <div class="log-body">
+                <strong>International Border Closure:</strong> On-arrival tourist visas suspended; nationwide travel restrictions and resort lockdowns enforced.
+              </div>
+            </div>
+            <div class="log-item">
+              <span class="log-date font-mono">15 Jul 2020</span>
+              <div class="log-body">
+                <strong>Early International Reopening:</strong> First country in South Asia to reopen borders without quarantine, utilizing isolated resort islands as self-contained quarantine bubbles.
+              </div>
+            </div>
+            <div class="log-item">
+              <span class="log-date font-mono">15 Oct 2020</span>
+              <div class="log-body">
+                <strong>Guesthouse Reopening:</strong> Local island tourism allowed to resume under strict safety protocols and PCR testing mandates.
+              </div>
+            </div>
+            <div class="log-item">
+              <span class="log-date font-mono">Dec 2021</span>
+              <div class="log-body">
+                <strong>1.32M Milestone:</strong> Surpassed government annual target of 1.0M arrivals, driven by massive traffic from India and Russia.
+              </div>
+            </div>
+            <div class="log-item">
+              <span class="log-date font-mono">2023–2024</span>
+              <div class="log-body">
+                <strong>Historical Peak Surpassed:</strong> Welcomed over 1.88M (2023) and 2.05M (2024) tourists, establishing new all-time records.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

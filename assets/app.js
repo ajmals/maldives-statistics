@@ -120,12 +120,14 @@
       setupTabs();
       setupTimelineScrubber();
       setupTsunamiScrubber();
+      setupCovidScrubber();
       setupCatalog();
       setupPillarJumps();
       
       // Update initial KPI values
       updateYearKPIs(state.selectedYear);
       setTsunamiPhase(state.tsunamiPhaseIndex);
+      setCovidMonth(state.covidMonthIndex);
       
       // Initialize charts for active tab
       renderChartsForTab('pane-360');
@@ -232,10 +234,12 @@
       targetBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
 
-    // Re-synchronize active year and Tsunami phase when switching tabs
+    // Re-synchronize active year, Tsunami phase and COVID month when switching tabs
     updateYearKPIs(state.selectedYear);
-    if (targetId === 'pane-tsunami' || targetId === 'pane-covid') {
+    if (targetId === 'pane-tsunami') {
       setTsunamiPhase(state.tsunamiPhaseIndex);
+    } else if (targetId === 'pane-covid') {
+      setCovidMonth(state.covidMonthIndex);
     }
 
     // Render charts for this tab
@@ -482,12 +486,148 @@
     state.charts.tsunamiTourism.update('none');
   }
 
-  // Backward compatibility alias for setupCovidScrubber
+  // =========================================================================
+  // 5B. COVID-19 PANDEMIC MONTH-BY-MONTH SCRUBBER & SIMULATION
+  // =========================================================================
   function setupCovidScrubber() {
-    setupTsunamiScrubber();
+    if (!els.covidMonthSlider) return;
+
+    els.covidMonthSlider.addEventListener('input', (e) => {
+      const idx = parseInt(e.target.value, 10);
+      setCovidMonth(idx);
+    });
+
+    els.covidJumpPills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const m = parseInt(pill.getAttribute('data-covid-month'), 10);
+        if (!isNaN(m)) {
+          if (els.covidMonthSlider) els.covidMonthSlider.value = m;
+          setCovidMonth(m);
+        }
+      });
+    });
+
+    if (els.covidPlayBtn) {
+      els.covidPlayBtn.addEventListener('click', toggleCovidPlay);
+    }
   }
+
+  function toggleCovidPlay() {
+    if (state.isCovidPlaying) {
+      stopCovidPlay();
+    } else {
+      startCovidPlay();
+    }
+  }
+
+  function startCovidPlay() {
+    state.isCovidPlaying = true;
+    if (els.covidPlayText) els.covidPlayText.textContent = 'Pause Simulation';
+    if (els.covidPlayIcon) {
+      els.covidPlayIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+    }
+
+    state.covidPlayInterval = setInterval(() => {
+      let nextM = state.covidMonthIndex + 1;
+      if (nextM > 47) nextM = 0;
+      if (els.covidMonthSlider) els.covidMonthSlider.value = nextM;
+      setCovidMonth(nextM);
+    }, 280);
+  }
+
+  function stopCovidPlay() {
+    state.isCovidPlaying = false;
+    if (state.covidPlayInterval) clearInterval(state.covidPlayInterval);
+    state.covidPlayInterval = null;
+    if (els.covidPlayText) els.covidPlayText.textContent = 'Play COVID Simulation';
+    if (els.covidPlayIcon) {
+      els.covidPlayIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+    }
+  }
+
   function setCovidMonth(index) {
-    setTsunamiPhase(Math.min(5, Math.floor(index / 8)));
+    if (!state.data || !state.data.covid_shock || !state.data.covid_shock.monthly_arrivals) return;
+    const list = state.data.covid_shock.monthly_arrivals;
+    if (index < 0 || index >= list.length) return;
+
+    state.covidMonthIndex = index;
+    const item = list[index];
+
+    // Highlight active jump pill
+    els.covidJumpPills.forEach(p => {
+      const m = parseInt(p.getAttribute('data-covid-month'), 10);
+      p.classList.toggle('active', m === index);
+    });
+
+    // Update Ticker Month & Visitors
+    if (els.covidTickerMonth) {
+      els.covidTickerMonth.textContent = `${item.month} ${item.year}`;
+    }
+    if (els.covidTickerVisitors) {
+      els.covidTickerVisitors.textContent = `${formatNum(item.arrivals)} Tourists`;
+      els.covidTickerVisitors.style.color = item.arrivals === 0 ? 'var(--rose)' : 'var(--accent)';
+    }
+
+    // Contextual Phase & Note Generator
+    let phaseText = '';
+    let noteText = '';
+    let badgeClass = 'ticker-badge';
+
+    if (item.year === 2019) {
+      phaseText = 'Normal Pre-COVID Operating Conditions';
+      noteText = `Normal tourism operations. China is the #1 market (${formatNum(item.arrivals)} monthly visitors from worldwide origins).`;
+      badgeClass = 'ticker-badge text-accent';
+    } else if (item.year === 2020 && (item.month === 'Jan' || item.month === 'Feb')) {
+      phaseText = 'First Global Alarms';
+      noteText = 'COVID-19 spreads globally. Flights from mainland China suspended; European demand remains temporarily strong.';
+    } else if (item.year === 2020 && item.month === 'Mar') {
+      phaseText = 'March 27: Complete Border Seal';
+      noteText = 'Borders completely closed on March 27. On-arrival visas cancelled; resorts locked down; tourists evacuated.';
+    } else if (item.year === 2020 && (item.month === 'Apr' || item.month === 'May' || item.month === 'Jun')) {
+      phaseText = '100% Nationwide Border Closure (0 Arrivals)';
+      noteText = '110-day total aviation shutdown. Zero international tourist arrivals. Local pole-and-line tuna fishing sustains island communities.';
+      badgeClass = 'ticker-badge text-rose';
+    } else if (item.year === 2020 && item.month === 'Jul') {
+      phaseText = 'July 15 Historic Reopening';
+      noteText = 'Maldives becomes one of the world\'s first nations to reopen without quarantine, leveraging natural resort island quarantine bubbles.';
+    } else if (item.year === 2020 && (item.month === 'Aug' || item.month === 'Sep' || item.month === 'Oct')) {
+      phaseText = 'Early Reopening Bubbles (Russia & UAE)';
+      noteText = 'Aeroflot, Emirates, and Qatar Airways resume scheduled routes. Russia surges to become the #1 tourist origin country.';
+    } else if (item.year === 2020 && (item.month === 'Nov' || item.month === 'Dec')) {
+      phaseText = 'Winter Season Restart (Russia #1)';
+      noteText = 'December arrivals cross 96k. High occupancy returns to private island resorts while European competitors remain under lockdowns.';
+    } else if (item.year === 2021 && (item.month === 'Jan' || item.month === 'Feb' || item.month === 'Mar')) {
+      phaseText = 'V-Shaped Recovery Accelerates (India Surge)';
+      noteText = 'India becomes the fastest growing origin market, crossing 30k visitors per month. Air-travel bubbles facilitate direct connections.';
+    } else if (item.year === 2021 && (item.month === 'Apr' || item.month === 'May')) {
+      phaseText = 'South Asia Delta Wave Travel Pause';
+      noteText = 'Temporary pause on South Asian tourist visas during the regional Delta wave; European traffic sustains baseline occupancy.';
+    } else if (item.year === 2021 && (item.month === 'Jul' || item.month === 'Aug' || item.month === 'Sep')) {
+      phaseText = 'Record Rebound: India & Russia Lead';
+      noteText = 'Monthly arrivals surpass 140,000. Maldives leads global post-pandemic recovery with universal vaccine campaigns across resort staff.';
+    } else if (item.year === 2021 && (item.month === 'Oct' || item.month === 'Nov' || item.month === 'Dec')) {
+      phaseText = '1.32M Annual Milestone Surpassed';
+      noteText = 'Annual total reaches 1,321,937 tourists (+138% YoY growth), smashing initial government recovery projections.';
+    } else if (item.year === 2022) {
+      phaseText = 'Full Normalization & European Return';
+      noteText = 'UK, Germany, and Italy rebound strongly alongside India and Russia. Total annual visitors reach 1.68 million.';
+    }
+
+    if (els.covidTickerPhase) {
+      els.covidTickerPhase.textContent = phaseText;
+      els.covidTickerPhase.className = badgeClass;
+    }
+    if (els.covidTickerNote) {
+      els.covidTickerNote.textContent = noteText;
+    }
+
+    // Update monthly chart active marker
+    updateCovidMonthlyChartMarker(index);
+  }
+
+  function updateCovidMonthlyChartMarker(index) {
+    if (!state.charts.covidMonthly) return;
+    state.charts.covidMonthly.update('none');
   }
 
   // =========================================================================
@@ -912,8 +1052,10 @@
     if (tabId === 'pane-360') {
       renderGrowthCompassChart();
       renderGdpGrowthTimelineChart();
-    } else if (tabId === 'pane-tsunami' || tabId === 'pane-covid') {
+    } else if (tabId === 'pane-tsunami') {
       renderTsunamiCharts();
+    } else if (tabId === 'pane-covid') {
+      renderCovidCharts();
     } else if (tabId === 'pane-economy') {
       renderGdpSectorsChart();
       renderFiscalBalanceChart();
@@ -1085,7 +1227,7 @@
 
   // Chart 3: Tsunami Tourism Shock & V-Shaped Rebound (2002–2008)
   function renderTsunamiTourismChart() {
-    const ctx = document.getElementById('chart-tsunami-tourism') || document.getElementById('chart-covid-monthly');
+    const ctx = document.getElementById('chart-tsunami-tourism');
     if (!ctx) return;
     if (state.charts.tsunamiTourism) state.charts.tsunamiTourism.destroy();
 
@@ -1271,7 +1413,7 @@
 
   // Chart: Triple Crisis Benchmark (Tsunami vs GFC vs COVID)
   function renderTsunamiBenchmarkChart() {
-    const ctx = document.getElementById('chart-tsunami-benchmark') || document.getElementById('chart-covid-benchmark');
+    const ctx = document.getElementById('chart-tsunami-benchmark');
     if (!ctx) return;
     if (state.charts.tsunamiBenchmark) state.charts.tsunamiBenchmark.destroy();
 
@@ -1316,10 +1458,170 @@
     });
   }
 
-  // Backward-compatibility aliases for covid chart functions
-  function renderCovidMonthlyChart() { renderTsunamiTourismChart(); }
-  function renderCovidMarketShiftChart() { renderTsunamiAtollsChart(); }
-  function renderCovidBenchmarkChart() { renderTsunamiBenchmarkChart(); }
+  // =========================================================================
+  // COVID-19 CRISIS SHOCK CHARTS
+  // =========================================================================
+  function renderCovidCharts() {
+    renderCovidMonthlyChart();
+    renderCovidMarketShiftChart();
+    renderCovidBenchmarkChart();
+  }
+
+  // Chart 3B: Monthly Tourist Arrivals Anatomy (2019–2022)
+  function renderCovidMonthlyChart() {
+    const ctx = document.getElementById('chart-covid-monthly');
+    if (!ctx) return;
+    if (state.charts.covidMonthly) state.charts.covidMonthly.destroy();
+
+    const colors = getChartColors();
+    const points = state.data.covid_shock.monthly_arrivals;
+    const labels = points.map(p => `${p.month} ${p.year.toString().slice(2)}`);
+    const values = points.map(p => p.arrivals);
+
+    state.charts.covidMonthly = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [{
+          label: 'Monthly Visitors',
+          data: values,
+          borderColor: colors.accent,
+          backgroundColor: (ctx) => {
+            const chart = ctx.chart;
+            const { ctx: c, chartArea } = chart;
+            if (!chartArea) return null;
+            const gradient = c.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+            gradient.addColorStop(0, 'rgba(14, 165, 233, 0.35)');
+            gradient.addColorStop(1, 'rgba(14, 165, 233, 0.0)');
+            return gradient;
+          },
+          fill: true,
+          borderWidth: 2.5,
+          tension: 0.3,
+          pointRadius: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? 8 : 2),
+          pointBackgroundColor: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? '#f43f5e' : colors.accent),
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? 3 : 0),
+          pointHoverRadius: 8
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (item) => `${formatNum(item.parsed.y)} Tourists`
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text, maxTicksLimit: 16 } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // Chart 4B: Post-COVID Source Market Shift
+  function renderCovidMarketShiftChart() {
+    const ctx = document.getElementById('chart-covid-market-shift');
+    if (!ctx) return;
+    if (state.charts.covidMarket) state.charts.covidMarket.destroy();
+
+    const colors = getChartColors();
+    const data = state.data.covid_shock.market_rotation;
+    const labels = data.map(d => d.country);
+
+    state.charts.covidMarket = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: '2019 (Pre-COVID)',
+            data: data.map(d => d['2019']),
+            backgroundColor: '#64748b',
+            borderRadius: 3
+          },
+          {
+            label: '2020 (Lockdown)',
+            data: data.map(d => d['2020']),
+            backgroundColor: colors.rose,
+            borderRadius: 3
+          },
+          {
+            label: '2021 (Rebound)',
+            data: data.map(d => d['2021']),
+            backgroundColor: colors.emerald,
+            borderRadius: 3
+          },
+          {
+            label: '2024 (Peak)',
+            data: data.map(d => d['2024']),
+            backgroundColor: colors.accent,
+            borderRadius: 3
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: {
+            callbacks: { label: (item) => `${item.dataset.label}: ${formatNum(item.parsed.y)}` }
+          }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+        }
+      }
+    });
+  }
+
+  // Chart 5B: COVID Economic Contraction Benchmark
+  function renderCovidBenchmarkChart() {
+    const ctx = document.getElementById('chart-covid-benchmark');
+    if (!ctx) return;
+    if (state.charts.covidBenchmark) state.charts.covidBenchmark.destroy();
+
+    const colors = getChartColors();
+    state.charts.covidBenchmark = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Maldives', 'Small Island States (SIDS)', 'World Average'],
+        datasets: [
+          {
+            label: '2020 Contraction (%)',
+            data: [-33.5, -8.6, -3.1],
+            backgroundColor: colors.rose,
+            borderRadius: 4
+          },
+          {
+            label: '2021 Rebound (%)',
+            data: [41.7, 4.8, 6.0],
+            backgroundColor: colors.emerald,
+            borderRadius: 4
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          tooltip: { callbacks: { label: (item) => `${item.dataset.label}: ${item.parsed.y}%` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => `${v}%` } }
+        }
+      }
+    });
+  }
 
   // Chart 6: GDP Sectors
   function renderGdpSectorsChart() {

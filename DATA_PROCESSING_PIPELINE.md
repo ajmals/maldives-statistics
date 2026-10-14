@@ -92,11 +92,9 @@ Statistical Yearbooks publish discrete annual slices. To enable multi-decade tim
 
 * Synthesizes longitudinal time-series (2000–2026) across 10 national macroeconomic pillars.
 * Merges census demographic cohorts (1995–2014) and population projections (2014–2030) from [`data/demographics_pyramid.json`](data/demographics_pyramid.json).
-* Builds the **2004 Indian Ocean Tsunami Crisis Focus** payload:
-  * 6-phase timeline scrubber (2004 Pre-Tsunami Baseline, Dec 26 Strike, 2005 Aftermath, 2006 Rebound, 2008 R. Dhuvaafaru Resettlement, 2010 Safer Islands).
-  * Displaced populations by affected atoll (Raa, Laamu, Thaa, Gaafu Alifu, Meemu, Dhaalu).
-  * Capital reconstruction outlay across housing, harbours, and utilities (NBS Cat 13.9 & 13.11).
-  * Triple-crisis comparative benchmark (2004 Tsunami vs 2008 GFC vs 2020 COVID).
+* Builds the **2004 Indian Ocean Tsunami** and **COVID-19 Pandemic Shock** crisis analytics payloads:
+  * **2004 Tsunami**: 6-phase timeline scrubber, displaced populations by atoll, post-tsunami reconstruction capital expenditure (NBS Cat 13.9 & 13.11), and comparative shock contraction benchmarks.
+  * **COVID-19 Pandemic**: 48-month continuous visitor arrival trajectory (2019–2022), April–June 2020 aviation closure anatomy, source market rotation (Russia & India surge), and global SIDS comparative benchmarks.
 * Exports lightweight, pre-indexed JSON and JS payloads to [`assets/`](assets/) to power the zero-backend client-side web dashboard.
 
 ---
