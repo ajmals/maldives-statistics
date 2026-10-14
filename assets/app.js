@@ -1,8 +1,8 @@
 /**
  * app.js
- * Master Client-Side Engine for the Maldives National Statistics Observatory
+ * Master Client-Side Engine for the Maldives Economic & Island Monitor
  * Manages 360-degree timeline scrubber, Chart.js instances, tabs, catalog search,
- * and the interactive COVID-19 pandemic simulation scrubber.
+ * and the 2004 Tsunami Crisis Focus simulation scrubber.
  */
 
 (function () {
@@ -15,7 +15,10 @@
     selectedYear: 2024,
     isPlaying: false,
     playInterval: null,
-    covidMonthIndex: 15, // Default Apr 2020 (the historic zero line)
+    tsunamiPhaseIndex: 1, // Default Phase 1: Dec 26, 2004 Wave Strike & State of Emergency
+    isTsunamiPlaying: false,
+    tsunamiPlayInterval: null,
+    covidMonthIndex: 15,
     isCovidPlaying: false,
     covidPlayInterval: null,
     catalogQuery: '',
@@ -29,6 +32,9 @@
   const els = {
     themeBtn: document.getElementById('theme-toggle-btn'),
     themeIcon: document.getElementById('theme-icon-svg'),
+    subnavScroll: document.getElementById('subnav-scroll'),
+    subnavPrevBtn: document.getElementById('subnav-scroll-prev'),
+    subnavNextBtn: document.getElementById('subnav-scroll-next'),
     tabButtons: document.querySelectorAll('.tab-btn'),
     tabPanes: document.querySelectorAll('.tab-pane'),
     slider: document.getElementById('timeline-slider'),
@@ -47,7 +53,19 @@
     pageNextBtn: document.getElementById('page-next-btn'),
     pageIndicator: document.getElementById('page-indicator'),
 
-    // COVID Interactive Scrubber Elements
+    // Tsunami Crisis Interactive Scrubber Elements
+    tsunamiPhaseSlider: document.getElementById('tsunami-phase-slider'),
+    tsunamiPlayBtn: document.getElementById('tsunami-play-btn'),
+    tsunamiPlayText: document.getElementById('tsunami-play-text'),
+    tsunamiPlayIcon: document.getElementById('tsunami-play-icon'),
+    tsunamiTickerPhaseName: document.getElementById('tsunami-ticker-phase-name'),
+    tsunamiTickerVisitors: document.getElementById('tsunami-ticker-visitors'),
+    tsunamiTickerStatus: document.getElementById('tsunami-ticker-status'),
+    tsunamiTickerNote: document.getElementById('tsunami-ticker-note'),
+    tsunamiJumpPills: document.querySelectorAll('[data-tsunami-phase]'),
+    tsunamiPhaseTag: document.getElementById('tsunami-kpi-phase-tag'),
+
+    // COVID Interactive Scrubber Elements (Backward-compatibility)
     covidMonthSlider: document.getElementById('covid-month-slider'),
     covidPlayBtn: document.getElementById('covid-play-btn'),
     covidPlayText: document.getElementById('covid-play-text'),
@@ -101,13 +119,13 @@
       setupThemeToggle();
       setupTabs();
       setupTimelineScrubber();
-      setupCovidScrubber();
+      setupTsunamiScrubber();
       setupCatalog();
       setupPillarJumps();
       
       // Update initial KPI values
       updateYearKPIs(state.selectedYear);
-      setCovidMonth(state.covidMonthIndex);
+      setTsunamiPhase(state.tsunamiPhaseIndex);
       
       // Initialize charts for active tab
       renderChartsForTab('pane-360');
@@ -147,7 +165,7 @@
   }
 
   // =========================================================================
-  // 3. TABS NAVIGATION
+  // 3. TABS NAVIGATION & RESPONSIVE SCROLLING
   // =========================================================================
   function setupTabs() {
     els.tabButtons.forEach(btn => {
@@ -156,6 +174,31 @@
         switchTab(targetId);
       });
     });
+
+    // Subnav Horizontal Scroll Arrows
+    const scrollContainer = els.subnavScroll || document.getElementById('subnav-scroll');
+    const prevBtn = els.subnavPrevBtn || document.getElementById('subnav-scroll-prev');
+    const nextBtn = els.subnavNextBtn || document.getElementById('subnav-scroll-next');
+
+    if (scrollContainer && prevBtn && nextBtn) {
+      const updateArrows = () => {
+        const sl = scrollContainer.scrollLeft;
+        const maxScroll = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+        const hasOverflow = maxScroll > 5;
+        prevBtn.style.display = hasOverflow && sl > 10 ? 'flex' : 'none';
+        nextBtn.style.display = hasOverflow && sl < maxScroll - 10 ? 'flex' : 'none';
+      };
+
+      scrollContainer.addEventListener('scroll', updateArrows, { passive: true });
+      window.addEventListener('resize', updateArrows);
+      prevBtn.addEventListener('click', () => {
+        scrollContainer.scrollBy({ left: -260, behavior: 'smooth' });
+      });
+      nextBtn.addEventListener('click', () => {
+        scrollContainer.scrollBy({ left: 260, behavior: 'smooth' });
+      });
+      setTimeout(updateArrows, 150);
+    }
 
     if (els.catalogBtn) {
       els.catalogBtn.addEventListener('click', () => {
@@ -172,20 +215,27 @@
     if (!targetId || state.activeTab === targetId) return;
     state.activeTab = targetId;
 
+    let targetBtn = null;
     els.tabButtons.forEach(btn => {
       const isTarget = btn.getAttribute('data-target') === targetId;
       btn.classList.toggle('active', isTarget);
       btn.setAttribute('aria-selected', isTarget ? 'true' : 'false');
+      if (isTarget) targetBtn = btn;
     });
 
     els.tabPanes.forEach(pane => {
       pane.classList.toggle('active', pane.id === targetId);
     });
 
-    // Re-synchronize active year and month when switching tabs
+    // Center active tab smoothly inside subnav scroll frame
+    if (targetBtn && els.subnavScroll) {
+      targetBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+
+    // Re-synchronize active year and Tsunami phase when switching tabs
     updateYearKPIs(state.selectedYear);
-    if (targetId === 'pane-covid') {
-      setCovidMonth(state.covidMonthIndex);
+    if (targetId === 'pane-tsunami' || targetId === 'pane-covid') {
+      setTsunamiPhase(state.tsunamiPhaseIndex);
     }
 
     // Render charts for this tab
@@ -280,147 +330,164 @@
   }
 
   // =========================================================================
-  // 5. COVID-19 PANDEMIC MONTH SCRUBBER & SIMULATION
+  // 5. 2004 TSUNAMI CRISIS PHASE SCRUBBER & SIMULATION
   // =========================================================================
-  function setupCovidScrubber() {
-    if (!els.covidMonthSlider) return;
+  function setupTsunamiScrubber() {
+    if (!els.tsunamiPhaseSlider) return;
 
-    els.covidMonthSlider.addEventListener('input', (e) => {
+    els.tsunamiPhaseSlider.addEventListener('input', (e) => {
       const idx = parseInt(e.target.value, 10);
-      setCovidMonth(idx);
+      setTsunamiPhase(idx);
     });
 
-    els.covidJumpPills.forEach(pill => {
+    els.tsunamiJumpPills.forEach(pill => {
       pill.addEventListener('click', () => {
-        const m = parseInt(pill.getAttribute('data-covid-month'), 10);
-        if (!isNaN(m)) {
-          els.covidMonthSlider.value = m;
-          setCovidMonth(m);
+        const p = parseInt(pill.getAttribute('data-tsunami-phase'), 10);
+        if (!isNaN(p)) {
+          if (els.tsunamiPhaseSlider) els.tsunamiPhaseSlider.value = p;
+          setTsunamiPhase(p);
         }
       });
     });
 
-    if (els.covidPlayBtn) {
-      els.covidPlayBtn.addEventListener('click', toggleCovidPlay);
+    if (els.tsunamiPlayBtn) {
+      els.tsunamiPlayBtn.addEventListener('click', toggleTsunamiPlay);
     }
   }
 
-  function toggleCovidPlay() {
-    if (state.isCovidPlaying) {
-      stopCovidPlay();
+  function toggleTsunamiPlay() {
+    if (state.isTsunamiPlaying) {
+      stopTsunamiPlay();
     } else {
-      startCovidPlay();
+      startTsunamiPlay();
     }
   }
 
-  function startCovidPlay() {
-    state.isCovidPlaying = true;
-    if (els.covidPlayText) els.covidPlayText.textContent = 'Pause Simulation';
-    if (els.covidPlayIcon) {
-      els.covidPlayIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
+  function startTsunamiPlay() {
+    state.isTsunamiPlaying = true;
+    if (els.tsunamiPlayText) els.tsunamiPlayText.textContent = 'Pause Simulation';
+    if (els.tsunamiPlayIcon) {
+      els.tsunamiPlayIcon.innerHTML = '<rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect>';
     }
 
-    state.covidPlayInterval = setInterval(() => {
-      let nextM = state.covidMonthIndex + 1;
-      if (nextM > 47) nextM = 0;
-      if (els.covidMonthSlider) els.covidMonthSlider.value = nextM;
-      setCovidMonth(nextM);
-    }, 280);
+    state.tsunamiPlayInterval = setInterval(() => {
+      let nextP = state.tsunamiPhaseIndex + 1;
+      if (nextP > 5) nextP = 0;
+      if (els.tsunamiPhaseSlider) els.tsunamiPhaseSlider.value = nextP;
+      setTsunamiPhase(nextP);
+    }, 1800);
   }
 
-  function stopCovidPlay() {
-    state.isCovidPlaying = false;
-    if (state.covidPlayInterval) clearInterval(state.covidPlayInterval);
-    state.covidPlayInterval = null;
-    if (els.covidPlayText) els.covidPlayText.textContent = 'Play COVID Simulation';
-    if (els.covidPlayIcon) {
-      els.covidPlayIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
+  function stopTsunamiPlay() {
+    state.isTsunamiPlaying = false;
+    if (state.tsunamiPlayInterval) clearInterval(state.tsunamiPlayInterval);
+    state.tsunamiPlayInterval = null;
+    if (els.tsunamiPlayText) els.tsunamiPlayText.textContent = 'Play Tsunami Simulation';
+    if (els.tsunamiPlayIcon) {
+      els.tsunamiPlayIcon.innerHTML = '<polygon points="5 3 19 12 5 21 5 3"></polygon>';
     }
   }
 
-  function setCovidMonth(index) {
-    if (!state.data || !state.data.covid_shock || !state.data.covid_shock.monthly_arrivals) return;
-    const list = state.data.covid_shock.monthly_arrivals;
-    if (index < 0 || index >= list.length) return;
+  function setTsunamiPhase(index) {
+    if (!state.data || !state.data.tsunami_shock || !state.data.tsunami_shock.phases) return;
+    const phases = state.data.tsunami_shock.phases;
+    if (index < 0 || index >= phases.length) return;
 
-    state.covidMonthIndex = index;
-    const item = list[index];
+    state.tsunamiPhaseIndex = index;
+    const phase = phases[index];
 
     // Highlight active jump pill
-    els.covidJumpPills.forEach(p => {
-      const m = parseInt(p.getAttribute('data-covid-month'), 10);
-      p.classList.toggle('active', m === index);
+    els.tsunamiJumpPills.forEach(p => {
+      const idx = parseInt(p.getAttribute('data-tsunami-phase'), 10);
+      p.classList.toggle('active', idx === index);
     });
 
-    // Update Ticker Month & Visitors
-    if (els.covidTickerMonth) {
-      els.covidTickerMonth.textContent = `${item.month} ${item.year}`;
-    }
-    if (els.covidTickerVisitors) {
-      els.covidTickerVisitors.textContent = `${formatNum(item.arrivals)} Tourists`;
-      els.covidTickerVisitors.style.color = item.arrivals === 0 ? 'var(--rose)' : 'var(--accent)';
+    // Update Slider
+    if (els.tsunamiPhaseSlider) {
+      els.tsunamiPhaseSlider.value = index;
     }
 
-    // Contextual Phase & Note Generator
-    let phaseText = '';
-    let noteText = '';
-    let badgeClass = 'ticker-badge';
-
-    if (item.year === 2019) {
-      phaseText = 'Normal Pre-COVID Operating Conditions';
-      noteText = `Normal tourism operations. China is the #1 market (${formatNum(item.arrivals)} monthly visitors from worldwide origins).`;
-      badgeClass = 'ticker-badge text-accent';
-    } else if (item.year === 2020 && (item.month === 'Jan' || item.month === 'Feb')) {
-      phaseText = 'First Global Alarms';
-      noteText = 'COVID-19 spreads globally. Flights from mainland China suspended; European demand remains temporarily strong.';
-    } else if (item.year === 2020 && item.month === 'Mar') {
-      phaseText = 'March 27: Complete Border Seal';
-      noteText = 'Borders completely closed on March 27. On-arrival visas cancelled; resorts locked down; tourists evacuated.';
-    } else if (item.year === 2020 && (item.month === 'Apr' || item.month === 'May' || item.month === 'Jun')) {
-      phaseText = '100% Nationwide Border Closure (0 Arrivals)';
-      noteText = '110-day total aviation shutdown. Zero international tourist arrivals. Local pole-and-line tuna fishing sustains island communities.';
-      badgeClass = 'ticker-badge text-rose';
-    } else if (item.year === 2020 && item.month === 'Jul') {
-      phaseText = 'July 15 Historic Reopening';
-      noteText = 'Maldives becomes one of the world\'s first nations to reopen without quarantine, leveraging natural resort island quarantine bubbles.';
-    } else if (item.year === 2020 && (item.month === 'Aug' || item.month === 'Sep' || item.month === 'Oct')) {
-      phaseText = 'Early Reopening Bubbles (Russia & UAE)';
-      noteText = 'Aeroflot, Emirates, and Qatar Airways resume scheduled routes. Russia surges to become the #1 tourist origin country.';
-    } else if (item.year === 2020 && (item.month === 'Nov' || item.month === 'Dec')) {
-      phaseText = 'Winter Season Restart (Russia #1)';
-      noteText = 'December arrivals cross 96k. High occupancy returns to private island resorts while European competitors remain under lockdowns.';
-    } else if (item.year === 2021 && (item.month === 'Jan' || item.month === 'Feb' || item.month === 'Mar')) {
-      phaseText = 'V-Shaped Recovery Accelerates (India Surge)';
-      noteText = 'India becomes the fastest growing origin market, crossing 30k visitors per month. Air-travel bubbles facilitate direct connections.';
-    } else if (item.year === 2021 && (item.month === 'Apr' || item.month === 'May')) {
-      phaseText = 'South Asia Delta Wave Travel Pause';
-      noteText = 'Temporary pause on South Asian tourist visas during the regional Delta wave; European traffic sustains baseline occupancy.';
-    } else if (item.year === 2021 && (item.month === 'Jul' || item.month === 'Aug' || item.month === 'Sep')) {
-      phaseText = 'Record Rebound: India & Russia Lead';
-      noteText = 'Monthly arrivals surpass 140,000. Maldives leads global post-pandemic recovery with universal vaccine campaigns across resort staff.';
-    } else if (item.year === 2021 && (item.month === 'Oct' || item.month === 'Nov' || item.month === 'Dec')) {
-      phaseText = '1.32M Annual Milestone Surpassed';
-      noteText = 'Annual total reaches 1,321,937 tourists (+138% YoY growth), smashing initial government recovery projections.';
-    } else if (item.year === 2022) {
-      phaseText = 'Full Normalization & European Return';
-      noteText = 'UK, Germany, and Italy rebound strongly alongside India and Russia. Total annual visitors reach 1.68 million.';
+    // Update Header Tag
+    if (els.tsunamiPhaseTag) {
+      els.tsunamiPhaseTag.textContent = `[Active Phase: ${phase.phase_name}]`;
     }
 
-    if (els.covidTickerPhase) {
-      els.covidTickerPhase.textContent = phaseText;
-      els.covidTickerPhase.className = badgeClass;
+    // Update Live Ticker
+    if (els.tsunamiTickerPhaseName) {
+      els.tsunamiTickerPhaseName.textContent = phase.phase_name;
     }
-    if (els.covidTickerNote) {
-      els.covidTickerNote.textContent = noteText;
+    if (els.tsunamiTickerVisitors) {
+      const isCollapse = phase.year === 2005;
+      els.tsunamiTickerVisitors.textContent = `${formatNum(phase.tourists)} Tourists`;
+      els.tsunamiTickerVisitors.style.color = isCollapse ? 'var(--rose)' : 'var(--accent)';
+    }
+    if (els.tsunamiTickerStatus) {
+      if (phase.index === 0) {
+        els.tsunamiTickerStatus.textContent = 'Normal Coastal Operations • 87 Resorts';
+        els.tsunamiTickerStatus.className = 'ticker-badge font-mono text-accent';
+      } else if (phase.index === 1 || phase.index === 2) {
+        els.tsunamiTickerStatus.textContent = '187 Islands Flooded • 14 Evacuated';
+        els.tsunamiTickerStatus.className = 'ticker-badge font-mono text-rose';
+      } else if (phase.index === 3) {
+        els.tsunamiTickerStatus.textContent = 'Reconstruction Surge • 85 Resorts Re-opened';
+        els.tsunamiTickerStatus.className = 'ticker-badge font-mono text-positive';
+      } else if (phase.index === 4) {
+        els.tsunamiTickerStatus.textContent = 'R. Dhuvaafaru Inhabited • 4,000 Resettled';
+        els.tsunamiTickerStatus.className = 'ticker-badge font-mono text-accent';
+      } else {
+        els.tsunamiTickerStatus.textContent = 'Safer Islands Standard • NDMA Protocols';
+        els.tsunamiTickerStatus.className = 'ticker-badge font-mono text-positive';
+      }
+    }
+    if (els.tsunamiTickerNote) {
+      els.tsunamiTickerNote.textContent = phase.summary;
     }
 
-    // Update monthly chart active marker
-    updateCovidMonthlyChartMarker(index);
+    // Reactive KPI cards update
+    const elGdp = document.getElementById('tsunami-val-gdp');
+    const elDamage = document.getElementById('tsunami-val-damage');
+    const elDisplaced = document.getElementById('tsunami-val-displaced');
+    const elIslands = document.getElementById('tsunami-val-islands');
+    const elTourists = document.getElementById('tsunami-val-tourists');
+    const elRebuild = document.getElementById('tsunami-val-rebuild');
+
+    if (elGdp) {
+      const g = phase.gdp_growth;
+      elGdp.textContent = `${g > 0 ? '+' : ''}${g}%`;
+      elGdp.className = `kpi-value font-mono ${g < 0 ? 'negative' : 'positive'}`;
+    }
+    if (elDamage) {
+      elDamage.innerHTML = phase.index === 0 ? '$0 <small>USD</small>' : '$470M <small>USD</small>';
+    }
+    if (elDisplaced) {
+      elDisplaced.textContent = phase.displaced > 0 ? `${formatNum(phase.displaced)}+` : '0';
+    }
+    if (elIslands) {
+      elIslands.innerHTML = phase.islands_inundated > 0 ? `${phase.islands_inundated} <small>/ 198</small>` : 'Normal';
+    }
+    if (elTourists) {
+      elTourists.textContent = formatNum(phase.tourists);
+      elTourists.className = `kpi-value font-mono ${phase.year === 2005 ? 'negative' : ''}`;
+    }
+    if (elRebuild) {
+      elRebuild.innerHTML = phase.index === 0 ? 'Normal Budget' : '2.5B+ <small>MVR</small>';
+    }
+
+    // Update active highlight on Tsunami tourism chart
+    updateTsunamiTourismChartMarker(phase.year);
   }
 
-  function updateCovidMonthlyChartMarker(index) {
-    if (!state.charts.covidMonthly) return;
-    state.charts.covidMonthly.update('none');
+  function updateTsunamiTourismChartMarker(activeYear) {
+    if (!state.charts.tsunamiTourism) return;
+    state.charts.tsunamiTourism.update('none');
+  }
+
+  // Backward compatibility alias for setupCovidScrubber
+  function setupCovidScrubber() {
+    setupTsunamiScrubber();
+  }
+  function setCovidMonth(index) {
+    setTsunamiPhase(Math.min(5, Math.floor(index / 8)));
   }
 
   // =========================================================================
@@ -845,10 +912,8 @@
     if (tabId === 'pane-360') {
       renderGrowthCompassChart();
       renderGdpGrowthTimelineChart();
-    } else if (tabId === 'pane-covid') {
-      renderCovidMonthlyChart();
-      renderCovidMarketShiftChart();
-      renderCovidBenchmarkChart();
+    } else if (tabId === 'pane-tsunami' || tabId === 'pane-covid') {
+      renderTsunamiCharts();
     } else if (tabId === 'pane-economy') {
       renderGdpSectorsChart();
       renderFiscalBalanceChart();
@@ -1008,42 +1073,78 @@
     });
   }
 
-  // Chart 3: COVID Monthly Arrivals Anatomy (with Active Scrubber Marker)
-  function renderCovidMonthlyChart() {
-    const ctx = document.getElementById('chart-covid-monthly');
+  // =========================================================================
+  // TSUNAMI CRISIS CHARTS
+  // =========================================================================
+  function renderTsunamiCharts() {
+    renderTsunamiTourismChart();
+    renderTsunamiAtollsChart();
+    renderTsunamiReconstructionChart();
+    renderTsunamiBenchmarkChart();
+  }
+
+  // Chart 3: Tsunami Tourism Shock & V-Shaped Rebound (2002–2008)
+  function renderTsunamiTourismChart() {
+    const ctx = document.getElementById('chart-tsunami-tourism') || document.getElementById('chart-covid-monthly');
     if (!ctx) return;
-    if (state.charts.covidMonthly) state.charts.covidMonthly.destroy();
+    if (state.charts.tsunamiTourism) state.charts.tsunamiTourism.destroy();
 
     const colors = getChartColors();
-    const points = state.data.covid_shock.monthly_arrivals;
-    const labels = points.map(p => `${p.month} ${p.year.toString().slice(2)}`);
-    const values = points.map(p => p.arrivals);
+    const dataList = (state.data && state.data.tsunami_shock && state.data.tsunami_shock.annual_trajectory) || [
+      { year: 2002, tourists: 484680 },
+      { year: 2003, tourists: 563593 },
+      { year: 2004, tourists: 616716 },
+      { year: 2005, tourists: 395320 },
+      { year: 2006, tourists: 601923 },
+      { year: 2007, tourists: 675889 },
+      { year: 2008, tourists: 683012 }
+    ];
 
-    state.charts.covidMonthly = new Chart(ctx, {
+    const labels = dataList.map(d => {
+      if (d.year === 2004) return '2004 (Peak)';
+      if (d.year === 2005) return '2005 (Tsunami -36%)';
+      if (d.year === 2006) return '2006 (Rebound +52%)';
+      return d.year.toString();
+    });
+    const values = dataList.map(d => d.tourists);
+    const activePhase = (state.data && state.data.tsunami_shock && state.data.tsunami_shock.phases)
+      ? state.data.tsunami_shock.phases[state.tsunamiPhaseIndex]
+      : null;
+    const activeYear = activePhase ? activePhase.year : 2004;
+
+    state.charts.tsunamiTourism = new Chart(ctx, {
       type: 'line',
       data: {
         labels: labels,
         datasets: [{
-          label: 'Monthly Visitors',
+          label: 'Annual Tourists',
           data: values,
-          borderColor: colors.accent,
+          borderColor: '#0284c7',
           backgroundColor: (ctx) => {
             const chart = ctx.chart;
             const { ctx: c, chartArea } = chart;
             if (!chartArea) return null;
             const gradient = c.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
-            gradient.addColorStop(0, 'rgba(14, 165, 233, 0.35)');
+            gradient.addColorStop(0, 'rgba(14, 165, 233, 0.4)');
             gradient.addColorStop(1, 'rgba(14, 165, 233, 0.0)');
             return gradient;
           },
           fill: true,
-          borderWidth: 2.5,
-          tension: 0.3,
-          pointRadius: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? 8 : 2),
-          pointBackgroundColor: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? '#f43f5e' : colors.accent),
+          borderWidth: 3,
+          tension: 0.35,
+          pointRadius: (ctx) => {
+            const row = dataList[ctx.dataIndex];
+            return (row && row.year === activeYear) ? 8 : (row && row.year === 2005 ? 7 : 4);
+          },
+          pointBackgroundColor: (ctx) => {
+            const row = dataList[ctx.dataIndex];
+            if (row && row.year === 2005) return '#f43f5e';
+            if (row && row.year === activeYear) return '#0ea5e9';
+            return colors.accent;
+          },
           pointBorderColor: '#ffffff',
-          pointBorderWidth: (ctx) => (ctx.dataIndex === state.covidMonthIndex ? 3 : 0),
-          pointHoverRadius: 8
+          pointBorderWidth: 2,
+          pointHoverRadius: 9
         }]
       },
       options: {
@@ -1058,92 +1159,143 @@
           }
         },
         scales: {
-          x: { grid: { color: colors.grid }, ticks: { color: colors.text, maxTicksLimit: 16 } },
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text } },
           y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
         }
       }
     });
   }
 
-  // Chart 4: Post-COVID Market Shift
-  function renderCovidMarketShiftChart() {
-    const ctx = document.getElementById('chart-covid-market-shift');
+  // Chart 4: Displaced Population & Severe Damage by Atoll
+  function renderTsunamiAtollsChart() {
+    const ctx = document.getElementById('chart-tsunami-atolls') || document.getElementById('chart-covid-market-shift');
     if (!ctx) return;
-    if (state.charts.covidMarket) state.charts.covidMarket.destroy();
+    if (state.charts.tsunamiAtolls) state.charts.tsunamiAtolls.destroy();
 
     const colors = getChartColors();
-    const data = state.data.covid_shock.market_rotation;
-    const labels = data.map(d => d.country);
+    const dataList = (state.data && state.data.tsunami_shock && state.data.tsunami_shock.atoll_displacement) || [
+      { atoll: 'Raa (Kandholhudhoo)', displaced: 3600, status: 'Flattened; Relocated to Dhuvaafaru' },
+      { atoll: 'Laamu (Kalhaidhoo/Gan)', displaced: 2800, status: 'Relocated to Gamu' },
+      { atoll: 'Thaa (Vilufushi/Madifushi)', displaced: 2400, status: 'Evacuated; Reconstructed 2009' },
+      { atoll: 'Gaafu Alifu (Villingili)', displaced: 2200, status: 'Coastline breaches' },
+      { atoll: 'Meemu (Madifushi/Kolhufushi)', displaced: 1600, status: 'Relocated to Maamigili' },
+      { atoll: 'Dhaalu (Gemendhoo/Vaanee)', displaced: 1450, status: 'Relocated to Kudahuvadhoo' }
+    ];
 
-    state.charts.covidMarket = new Chart(ctx, {
+    state.charts.tsunamiAtolls = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: labels,
-        datasets: [
-          {
-            label: '2019 (Pre-COVID)',
-            data: data.map(d => d['2019']),
-            backgroundColor: '#64748b',
-            borderRadius: 3
-          },
-          {
-            label: '2020 (Lockdown)',
-            data: data.map(d => d['2020']),
-            backgroundColor: colors.rose,
-            borderRadius: 3
-          },
-          {
-            label: '2021 (Rebound)',
-            data: data.map(d => d['2021']),
-            backgroundColor: colors.emerald,
-            borderRadius: 3
-          },
-          {
-            label: '2024 (Peak)',
-            data: data.map(d => d['2024']),
-            backgroundColor: colors.accent,
-            borderRadius: 3
-          }
-        ]
+        labels: dataList.map(d => d.atoll),
+        datasets: [{
+          label: 'Displaced Population',
+          data: dataList.map(d => d.displaced),
+          backgroundColor: [
+            '#f43f5e',
+            '#fb7185',
+            '#f97316',
+            '#38bdf8',
+            '#0284c7',
+            '#6366f1'
+          ],
+          borderRadius: 4
+        }]
       },
       options: {
+        indexAxis: 'y',
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-          legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
+          legend: { display: false },
           tooltip: {
-            callbacks: { label: (item) => `${item.dataset.label}: ${formatNum(item.parsed.y)}` }
+            callbacks: {
+              afterLabel: (item) => {
+                const row = dataList[item.dataIndex];
+                return row ? `Status: ${row.status}` : '';
+              },
+              label: (item) => `Displaced: ${formatNum(item.parsed.x)} Maldivians`
+            }
           }
         },
         scales: {
-          x: { grid: { display: false }, ticks: { color: colors.text } },
-          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } }
+          x: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => formatNum(v) } },
+          y: { grid: { display: false }, ticks: { color: colors.text, font: { size: 11 } } }
         }
       }
     });
   }
 
-  // Chart 5: COVID Benchmark
-  function renderCovidBenchmarkChart() {
-    const ctx = document.getElementById('chart-covid-benchmark');
+  // Chart 5: Post-Tsunami Reconstruction & Public Infrastructure
+  function renderTsunamiReconstructionChart() {
+    const ctx = document.getElementById('chart-tsunami-reconstruction');
     if (!ctx) return;
-    if (state.charts.covidBenchmark) state.charts.covidBenchmark.destroy();
+    if (state.charts.tsunamiReconstruction) state.charts.tsunamiReconstruction.destroy();
 
     const colors = getChartColors();
-    state.charts.covidBenchmark = new Chart(ctx, {
+    const dataList = (state.data && state.data.tsunami_shock && state.data.tsunami_shock.reconstruction_budget) || [
+      { category: 'Foreign Grant Assistance', amount_mvr: 840.2 },
+      { category: 'Tsunami Recovery & Reconstruction', amount_mvr: 437.7 },
+      { category: 'Basic Housing for Victims', amount_mvr: 270.7 },
+      { category: 'Harbours & Infrastructure', amount_mvr: 192.0 },
+      { category: 'Utility & Sewerage Systems', amount_mvr: 135.4 },
+      { category: 'Fisheries/Ag Rehabilitation', amount_mvr: 28.5 }
+    ];
+
+    state.charts.tsunamiReconstruction = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Maldives', 'Small Island States (SIDS)', 'World Average'],
+        labels: dataList.map(d => d.category),
+        datasets: [{
+          label: 'Capital Spending (Million MVR)',
+          data: dataList.map(d => d.amount_mvr),
+          backgroundColor: '#0284c7',
+          hoverBackgroundColor: '#38bdf8',
+          borderRadius: 4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: { label: (item) => `${item.dataset.label}: ${item.parsed.y.toFixed(1)}M MVR` }
+          }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { color: colors.text, maxRotation: 25, font: { size: 10 } } },
+          y: { grid: { color: colors.grid }, ticks: { color: colors.text, callback: (v) => `${v}M` } }
+        }
+      }
+    });
+  }
+
+  // Chart: Triple Crisis Benchmark (Tsunami vs GFC vs COVID)
+  function renderTsunamiBenchmarkChart() {
+    const ctx = document.getElementById('chart-tsunami-benchmark') || document.getElementById('chart-covid-benchmark');
+    if (!ctx) return;
+    if (state.charts.tsunamiBenchmark) state.charts.tsunamiBenchmark.destroy();
+
+    const colors = getChartColors();
+    state.charts.tsunamiBenchmark = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['2004 Tsunami (2005)', '2008 GFC (2009)', '2020 COVID-19'],
         datasets: [
           {
-            label: '2020 Contraction (%)',
-            data: [-33.5, -8.6, -3.1],
+            label: 'Real GDP Shock (%)',
+            data: [-8.7, -3.6, -33.5],
             backgroundColor: colors.rose,
             borderRadius: 4
           },
           {
-            label: '2021 Rebound (%)',
-            data: [41.7, 4.8, 6.0],
+            label: 'Arrivals Drop (%)',
+            data: [-35.9, -4.0, -67.4],
+            backgroundColor: colors.amber,
+            borderRadius: 4
+          },
+          {
+            label: 'V-Rebound Growth (%)',
+            data: [18.0, 7.1, 41.7],
             backgroundColor: colors.emerald,
             borderRadius: 4
           }
@@ -1154,7 +1306,7 @@
         maintainAspectRatio: false,
         plugins: {
           legend: { position: 'top', labels: { color: colors.text, boxWidth: 12 } },
-          tooltip: { callbacks: { label: (item) => `${item.dataset.label}: ${item.parsed.y}%` } }
+          tooltip: { callbacks: { label: (item) => `${item.dataset.label}: ${item.parsed.y >= 0 ? '+' : ''}${item.parsed.y}%` } }
         },
         scales: {
           x: { grid: { display: false }, ticks: { color: colors.text } },
@@ -1163,6 +1315,11 @@
       }
     });
   }
+
+  // Backward-compatibility aliases for covid chart functions
+  function renderCovidMonthlyChart() { renderTsunamiTourismChart(); }
+  function renderCovidMarketShiftChart() { renderTsunamiAtollsChart(); }
+  function renderCovidBenchmarkChart() { renderTsunamiBenchmarkChart(); }
 
   // Chart 6: GDP Sectors
   function renderGdpSectorsChart() {
@@ -2091,12 +2248,12 @@
   }
 
   // =========================================================================
-  // ANIMATED EXPATRIATE LABOR FORCE BY COUNTRY OF ORIGIN (2008–2024)
+  // ANIMATED EXPATRIATE LABOR FORCE BY COUNTRY OF ORIGIN (2008–2026)
   // =========================================================================
   const expatLaborState = {
     initialized: false,
     isPlaying: false,
-    year: 2024,
+    year: 2026,
     timer: null,
     chart: null
   };
@@ -2136,7 +2293,7 @@
 
   function startExpatPlayback() {
     if (!state.data.expat_timeline) return;
-    if (expatLaborState.year >= 2024) expatLaborState.year = 2008;
+    if (expatLaborState.year >= 2026) expatLaborState.year = 2008;
 
     expatLaborState.isPlaying = true;
     const playBtn = document.getElementById('expat-play-btn');
@@ -2164,7 +2321,7 @@
   }
 
   function advanceExpatFrame() {
-    if (expatLaborState.year >= 2024) {
+    if (expatLaborState.year >= 2026) {
       expatLaborState.year = 2008;
     } else {
       expatLaborState.year += 1;
@@ -2173,8 +2330,8 @@
   }
 
   function updateExpatUI(year) {
-    if (!state.data || !state.data.expat_timeline) return;
-    const row = state.data.expat_timeline.find(r => r.year === year) || state.data.expat_timeline[state.data.expat_timeline.length - 1];
+    if (!state.data || !state.data.expat_timeline || !state.data.expat_timeline.length) return;
+    const row = state.data.expat_timeline.find(r => r.year === year) || state.data.expat_timeline.find(r => r.year === Math.min(Math.max(year, 2008), 2026)) || state.data.expat_timeline[0];
 
     const slider = document.getElementById('expat-range-slider');
     if (slider) slider.value = row.year;

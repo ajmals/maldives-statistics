@@ -3,12 +3,14 @@
 This archive provides **consolidated, harmonized longitudinal datasets** for every statistical category across all published editions of the **Statistical Yearbook of Maldives (2008 – 2026)** by the **National Bureau of Statistics (NBS)**.
 
 ## Key Capabilities & Structure
+- **Primary Source**: National Bureau of Statistics (NBS), Maldives — [`https://statisticsmaldives.gov.mv/yearbook/`](https://statisticsmaldives.gov.mv/yearbook/)
 - **Total Categories**: 22
 - **Total Time-Series Observations**: 958,949
 - **Master SQLite Database ([`maldives_statistics_master.db`](maldives_statistics_master.db))**: A unified, high-performance database containing all tables, indexes, and the complete `all_stats_panel` repository across all 19 editions.
 - **Category Tidy Panel CSVs (`master_panel.csv`)**: Long-format master files for each category containing all variables and all years.
 - **Harmonized Wide CSVs (`tables/<table_id>.csv`)**: Multi-year tables with continuous chronological year columns, merging historical overlap with latest official revisions taking precedence.
 - **Per-Category SQLite Databases (`<category>.db`)**: Standalone self-contained database for each specific domain.
+- **Pre-2008 Archival Notice**: Yearbooks published prior to 2008 are not archived in downloadable digital spreadsheet format on the NBS web portal; pre-2008 longitudinal records (e.g., 2004 Tsunami baseline, Census series) are harmonized from retrospective historical tables published in later yearbooks (2008–2014) and official joint post-disaster assessments.
 
 ## Category Breakdown & Quick Links
 

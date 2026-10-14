@@ -1,4 +1,4 @@
-# Maldives National Statistics Observatory (2000–2026)
+# Maldives Economic & Island Monitor (2000–2026)
 ### Multi-Year Open Data Archive & Interactive Longitudinal Dashboard
 
 [![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-brightgreen?style=for-the-badge&logo=github)](https://ajmals.github.io/maldives-statistics/)
@@ -9,12 +9,12 @@
 
 > 🚀 **Live Interactive Web Application**: [https://ajmals.github.io/maldives-statistics/](https://ajmals.github.io/maldives-statistics/)
 
-[![Maldives National Statistics Observatory](assets/dashboard_screenshot.png)](https://ajmals.github.io/maldives-statistics/)
+[![Maldives Economic & Island Monitor](assets/dashboard_screenshot.png)](https://ajmals.github.io/maldives-statistics/)
 *Click the image above to open the live interactive dashboard.*
 
 ---
 
-A unified, machine-readable open data repository and interactive observatory synthesized from **19 editions of the official Statistical Yearbook of Maldives (2008–2026)**, published by the **National Bureau of Statistics (NBS)**, Maldives.
+A unified, machine-readable open data repository and interactive dashboard tracking **27 years of national development (2000–2026)**, synthesized from **19 editions of the official Statistical Yearbook of Maldives (2008–2026)**, published by the **National Bureau of Statistics (NBS)**, Maldives.
 
 This platform bridges the gap between raw government publications and modern computational analysis: transforming **3,937 extracted tabular datasets** into **22 thematic categories**, unifying **958,949 longitudinal observations**, and providing an **interactive client-side dashboard** hosted live on GitHub Pages.
 
@@ -30,11 +30,25 @@ Built with modern HTML5, Vanilla CSS3, JavaScript, and Chart.js, the dashboard r
 ### 🌟 Key Dashboard Features:
 - **360° Longitudinal Macro Timeline (2000–2026)**: Multi-decade synchronization tracking real GDP, tourist arrivals, resorts in operation, government revenue, budget expenditure, fish catch & exports, and CPI inflation.
 - **Animated Population Pyramid (1995–2030)**: Interactive year-on-year demographic transitions across 17 age cohorts, featuring official Census milestones (1995, 2000, 2006, 2014) and NBS projections (2014–2030). Includes filters for gender, Maldivian vs. Foreign expat population, and geographic breakdown (Republic, Malé, Atolls).
-- **Monthly COVID-19 Shock & Rebound (2019–2021)**: Interactive month-by-month scrubber detailing the border closure, subsequent geopolitical market pivot (India, Russia, Europe), and rapid economic recovery.
+- **2004 Indian Ocean Tsunami [Crisis Focus]**: Interactive 6-phase reconstruction scrubber and macroeconomic impact analyzer, detailing the Dec 26 wave strike, displacement of 29,000+ islanders (~10% of national population), -8.7% GDP contraction, and the multi-billion MVR national reconstruction program (housing, harbours, R. Dhuvaafaru model resettlement, and Safer Islands coastal defense).
 - **190-Island Interactive Directory**: Live search, filtering, and multi-parameter sorting across all 190 inhabited administrative islands by population, land area, population density, and distance to Malé.
 - **Greater Malé Urban Agglomeration**: Spatial density and demographic growth analytics contrasting Malé Island, Hulhumalé, and Villimalé.
 - **Global Benchmarking Suite**: Contextualizes Maldivian density, tourist influx, and economic ratios against international benchmarks (Paris, Manhattan, Manila, Tokyo, Iceland, Singapore).
 - **Master Data Catalog Explorer**: Direct keyword and category search across 470+ longitudinal tables with instant links to download clean CSV datasets.
+
+---
+
+## 🏛️ Official Data Source & Pre-2008 Archive Notice
+
+All primary data in this repository is sourced from the official statistical publications of the **National Bureau of Statistics (NBS)**, Ministry of National Planning, Housing and Infrastructure, Republic of Maldives:
+🔗 **[https://statisticsmaldives.gov.mv/yearbook/](https://statisticsmaldives.gov.mv/yearbook/)**
+
+> [!NOTE]
+> ### ⚠️ Data Availability & Missing Pre-2008 Yearbooks Notice
+> - **Digital Portal Coverage (2008–2026)**: The NBS online yearbook portal hosts digital directories for **19 annual editions** (2008 through 2026).
+> - **Missing Pre-2008 Digital Editions**: Statistical Yearbooks published **prior to 2008 are not archived as digital downloadable spreadsheets on the NBS web portal** (earlier records were published exclusively as physical printed book volumes or internal ministry archives).
+> - **2008 Edition Structure**: In the 2008 online archive, only a single introductory index table was published in downloadable web format; comprehensive chapter-by-chapter spreadsheet archives commence with the 2009 edition.
+> - **How Pre-2008 Longitudinal Data Was Harmonized**: To provide continuous multi-decade coverage from 2000 through 2026 (including the **2004 Tsunami baseline & shock**, historical GDP series, and Census 1995/2000/2006 demographic cohorts), our pipeline synthesized data from official **retrospective historical tables** published in subsequent yearbooks (e.g. 2008–2014 editions) alongside the *Joint World Bank / ADB / UN Tsunami Damage Assessment (2005)*.
 
 ---
 
@@ -151,6 +165,8 @@ maldives-statistics/
 ---
 
 ## 📜 Citation & Attribution
-* **Data Source**: National Bureau of Statistics (NBS), Ministry of National Planning, Housing and Infrastructure, Republic of Maldives.
-* **Publications**: *Statistical Yearbook of Maldives* (Editions 2008 through 2026).
-* **Licensing**: Data is compiled and published under open statistical access terms by the NBS.
+* **Primary Data Source**: National Bureau of Statistics (NBS), Ministry of National Planning, Housing and Infrastructure, Republic of Maldives.
+* **Official Online Portal**: [https://statisticsmaldives.gov.mv/yearbook/](https://statisticsmaldives.gov.mv/yearbook/) (Digital editions 2008 through 2026).
+* **Historical Post-Disaster Baseline**: *Joint World Bank / ADB / UN System: Maldives Post-Tsunami Damage and Needs Assessment* (January 2005).
+* **Pre-2008 Archival Note**: Yearbooks prior to 2008 exist solely as older print editions and are not hosted digitally on the NBS portal; pre-2008 data in this repository is synthesized from retrospective historical tables published in subsequent editions (2008–2014) and official census series.
+* **Licensing**: Public statistical data compiled and distributed under open government access terms by the NBS.

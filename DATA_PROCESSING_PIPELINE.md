@@ -41,6 +41,11 @@ The pipeline transforms heterogeneous, human-formatted government publications i
 ### Stage 1: Discovery & Scraper (`scripts/download_yearbooks.py`)
 * **Source**: Scrapes the official National Bureau of Statistics (NBS) portal (`https://statisticsmaldives.gov.mv/yearbook/`).
 * **Multi-Year Coverage**: Automatically crawls and indexes 19 editions (2008 to 2026).
+* **Pre-2008 Archive Availability & Gap Handling**:
+  * The NBS online portal exclusively hosts digital web directories from **2008 through 2026**.
+  * Yearbooks published prior to 2008 are **missing from the online digital portal** (older editions were physical print volumes).
+  * The 2008 online archive itself only published an introductory index table, with full multi-chapter downloadable spreadsheets commencing with the 2009 edition.
+  * To bridge continuous longitudinal metrics for 2000–2007 (such as the 2004 Tsunami baseline, historical GDP, and Census 1995/2000/2006 records), the pipeline ingests official **retrospective historical tables** published in subsequent yearbooks (e.g. 2008–2014 editions) alongside multilateral post-disaster reports (*Joint World Bank / ADB / UN Tsunami Assessment 2005*).
 * **Resilient Ingestion**:
   * Resolves broken ministry URLs, unescapes HTML entities, and safely encodes URI components.
   * Implements dynamic extension fallback (`.xlsx` ↔ `.xls`) for mislabeled server links.
@@ -87,7 +92,11 @@ Statistical Yearbooks publish discrete annual slices. To enable multi-decade tim
 
 * Synthesizes longitudinal time-series (2000–2026) across 10 national macroeconomic pillars.
 * Merges census demographic cohorts (1995–2014) and population projections (2014–2030) from [`data/demographics_pyramid.json`](data/demographics_pyramid.json).
-* Assembles month-by-month COVID-19 border closure and market pivot tracking.
+* Builds the **2004 Indian Ocean Tsunami Crisis Focus** payload:
+  * 6-phase timeline scrubber (2004 Pre-Tsunami Baseline, Dec 26 Strike, 2005 Aftermath, 2006 Rebound, 2008 R. Dhuvaafaru Resettlement, 2010 Safer Islands).
+  * Displaced populations by affected atoll (Raa, Laamu, Thaa, Gaafu Alifu, Meemu, Dhaalu).
+  * Capital reconstruction outlay across housing, harbours, and utilities (NBS Cat 13.9 & 13.11).
+  * Triple-crisis comparative benchmark (2004 Tsunami vs 2008 GFC vs 2020 COVID).
 * Exports lightweight, pre-indexed JSON and JS payloads to [`assets/`](assets/) to power the zero-backend client-side web dashboard.
 
 ---

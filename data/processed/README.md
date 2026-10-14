@@ -3,10 +3,17 @@
 This directory hosts clean, standardized, machine-readable datasets extracted from official Statistical Yearbooks of Maldives published by the **National Bureau of Statistics (NBS)**.
 
 ## Repository Summary
+- **Primary Source**: National Bureau of Statistics (NBS), Ministry of National Planning, Housing and Infrastructure — [`https://statisticsmaldives.gov.mv/yearbook/`](https://statisticsmaldives.gov.mv/yearbook/)
 - **Total Years Covered**: 19 (2008 – 2026)
 - **Total Clean Tables Converted**: 3,937
 - **Formats Provided**: Clean Tabular UTF-8 CSVs + Structured Companion JSON Metadata
 - **Standardization**: Stripped pure Dhivehi & Thaana script columns/rows, unified English column headers, resolved merged header hierarchies, removed chart/graphic artifacts, preserved full numerical precision.
+
+## ⚠️ Data Provenance & Pre-2008 Yearbooks Availability Notice
+- **Online Archive Coverage**: The NBS website hosts digital yearbook directories for editions from **2008 through 2026**.
+- **Missing Pre-2008 Editions**: Yearbooks published **prior to 2008 are not archived online in downloadable digital spreadsheet format** on the ministry portal (they exist only as older physical print publications).
+- **2008 Edition Structure**: In the 2008 online archive, only a single introductory index table was published in downloadable web format; comprehensive multi-chapter spreadsheet archives commence with the 2009 edition.
+- **Retrospective Data Bridging**: Multi-decade time-series in this repository extending prior to 2008 (such as the 2004 Tsunami baseline, Census 1995/2000/2006 records, and longitudinal GDP from 1995) are harmonized using official retrospective time-series tables published in subsequent yearbooks (2008–2014) and joint multilateral post-disaster assessments.
 
 ## Year-by-Year Catalog Breakdown
 

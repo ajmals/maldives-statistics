@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maldives National Statistics Observatory (2000–2026)</title>
-  <meta name="description" content="Unified 360-degree longitudinal intelligence platform for the Maldives spanning 19 editions of the Statistical Yearbook (2008–2026), 22 statistical categories, and 474 standardized tables.">
+  <title>Maldives Economic & Island Monitor (2000–2026)</title>
+  <meta name="description" content="Interactive open data dashboard tracking 2000–2026 longitudinal development metrics across the Maldives, synthesized from 19 editions of the Statistical Yearbook (2008–2026).">
   <meta name="color-scheme" content="light dark">
   <script>
     (function() {
@@ -26,11 +26,11 @@
   <!-- Site Global Header -->
   <header class="site-header">
     <div class="container nav-bar">
-      <a href="#" class="brand" id="brand-logo" aria-label="Maldives National Statistics Observatory">
+      <a href="#" class="brand" id="brand-logo" aria-label="Maldives Economic & Island Monitor">
         <span class="brand-flag">🇲🇻</span>
         <div class="brand-text">
-          <span class="brand-title">Maldives Statistics Observatory</span>
-          <span class="brand-sub">2000 – 2026 Longitudinal Data • 19 NBS Yearbooks</span>
+          <span class="brand-title">Maldives Economic & Island Monitor</span>
+          <span class="brand-sub">Interactive Dashboard • 2000–2026 Longitudinal Development Data (19 NBS Yearbooks)</span>
         </div>
       </a>
       
@@ -63,68 +63,72 @@
     </div>
   </header>
 
-  <!-- Navigation Tab Bar -->
+  <!-- Navigation Tab Bar (Layout Contained) -->
   <nav class="subnav-container" aria-label="Observatory Sections">
-    <div class="container subnav-scroll">
-      <ul class="nav-tabs" role="tablist">
-        <li role="presentation">
-          <button class="tab-btn active" id="tab-btn-360" role="tab" aria-selected="true" aria-controls="pane-360" data-target="pane-360">
-            <span class="tab-icon">🌐</span>
-            <span>360° Overview</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn highlight-tab" id="tab-btn-covid" role="tab" aria-selected="false" aria-controls="pane-covid" data-target="pane-covid">
-            <span class="tab-icon">⚡</span>
-            <span>COVID-19 Shock</span>
-            <span class="badge-shock">Crisis Focus</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn" id="tab-btn-economy" role="tab" aria-selected="false" aria-controls="pane-economy" data-target="pane-economy">
-            <span class="tab-icon">💼</span>
-            <span>Economy & Debt</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn" id="tab-btn-tourism" role="tab" aria-selected="false" aria-controls="pane-tourism" data-target="pane-tourism">
-            <span class="tab-icon">🏝️</span>
-            <span>Tourism & Ocean</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn highlight-gold" id="tab-btn-greater-male" role="tab" aria-selected="false" aria-controls="pane-greater-male" data-target="pane-greater-male">
-            <span class="tab-icon">🏙️</span>
-            <span>Greater Malé</span>
-            <span class="badge-density">Density Focus</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn" id="tab-btn-demographics" role="tab" aria-selected="false" aria-controls="pane-demographics" data-target="pane-demographics">
-            <span class="tab-icon">👥</span>
-            <span>Population & Labor</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn" id="tab-btn-lifelines" role="tab" aria-selected="false" aria-controls="pane-lifelines" data-target="pane-lifelines">
-            <span class="tab-icon">🌱</span>
-            <span>Lifelines & Energy</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn" id="tab-btn-society" role="tab" aria-selected="false" aria-controls="pane-society" data-target="pane-society">
-            <span class="tab-icon">🏛️</span>
-            <span>Society & Governance</span>
-          </button>
-        </li>
-        <li role="presentation">
-          <button class="tab-btn" id="tab-btn-catalog" role="tab" aria-selected="false" aria-controls="pane-catalog" data-target="pane-catalog">
-            <span class="tab-icon">🔍</span>
-            <span>Master Catalog</span>
-            <span class="badge-count">474</span>
-          </button>
-        </li>
-      </ul>
+    <div class="container subnav-wrapper">
+      <button id="subnav-scroll-prev" class="subnav-arrow subnav-arrow-left" aria-label="Scroll left tabs" style="display:none;">‹</button>
+      <div class="subnav-scroll" id="subnav-scroll">
+        <ul class="nav-tabs" role="tablist">
+          <li role="presentation">
+            <button class="tab-btn active" id="tab-btn-360" role="tab" aria-selected="true" aria-controls="pane-360" data-target="pane-360">
+              <span class="tab-icon">🌐</span>
+              <span>360° Overview</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn highlight-tab" id="tab-btn-tsunami" role="tab" aria-selected="false" aria-controls="pane-tsunami" data-target="pane-tsunami">
+              <span class="tab-icon">🌊</span>
+              <span>2004 Tsunami</span>
+              <span class="badge-shock">Crisis Focus</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn" id="tab-btn-economy" role="tab" aria-selected="false" aria-controls="pane-economy" data-target="pane-economy">
+              <span class="tab-icon">💼</span>
+              <span>Economy & Debt</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn" id="tab-btn-tourism" role="tab" aria-selected="false" aria-controls="pane-tourism" data-target="pane-tourism">
+              <span class="tab-icon">🏝️</span>
+              <span>Tourism & Ocean</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn highlight-gold" id="tab-btn-greater-male" role="tab" aria-selected="false" aria-controls="pane-greater-male" data-target="pane-greater-male">
+              <span class="tab-icon">🏙️</span>
+              <span>Greater Malé</span>
+              <span class="badge-density">Density</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn" id="tab-btn-demographics" role="tab" aria-selected="false" aria-controls="pane-demographics" data-target="pane-demographics">
+              <span class="tab-icon">👥</span>
+              <span>Population & Labor</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn" id="tab-btn-lifelines" role="tab" aria-selected="false" aria-controls="pane-lifelines" data-target="pane-lifelines">
+              <span class="tab-icon">🌱</span>
+              <span>Lifelines & Energy</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn" id="tab-btn-society" role="tab" aria-selected="false" aria-controls="pane-society" data-target="pane-society">
+              <span class="tab-icon">🏛️</span>
+              <span>Society & Governance</span>
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="tab-btn" id="tab-btn-catalog" role="tab" aria-selected="false" aria-controls="pane-catalog" data-target="pane-catalog">
+              <span class="tab-icon">🔍</span>
+              <span>Catalog</span>
+              <span class="badge-count">474</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <button id="subnav-scroll-next" class="subnav-arrow subnav-arrow-right" aria-label="Scroll right tabs" style="display:none;">›</button>
     </div>
   </nav>
 
@@ -325,151 +329,151 @@
     </section>
 
     <!-- ====================================================================
-         TAB 2: COVID-19 SHOCK & V-SHAPED REBOUND (SPECIAL CRISIS FEATURE)
+         TAB 2: 2004 TSUNAMI DISASTER & RECONSTRUCTION (SPECIAL CRISIS FEATURE)
          ==================================================================== -->
-    <section id="pane-covid" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-covid">
-      <div class="alert-banner-shock">
-        <div class="alert-icon-wrap">⚡</div>
+    <section id="pane-tsunami" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-tsunami">
+      <div class="alert-banner-tsunami">
+        <div class="alert-icon-wrap">🌊</div>
         <div class="alert-content">
           <div class="alert-badge-wrap">
-            <span class="badge-shock">Pandemic Crisis Focus</span>
-            <span id="covid-kpi-phase-tag" class="font-mono text-rose" style="font-weight: 700; font-size: 0.85rem; margin-left: 0.5rem;">[Phase: 2020 Complete Border Shutdown]</span>
+            <span class="badge-shock">2004 Tsunami Crisis Focus</span>
+            <span id="tsunami-kpi-phase-tag" class="font-mono text-accent" style="font-weight: 700; font-size: 0.85rem; margin-left: 0.5rem;">[Active Phase: Dec 26, 2004 Wave Strike & State of Emergency]</span>
           </div>
-          <h3 class="alert-title">COVID-19 Pandemic: The Greatest Economic Shock in Modern Maldivian History</h3>
-          <p class="alert-desc">On March 27, 2020, the Maldives took the unprecedented step of shutting its international borders. For the next 110 days, international tourist arrivals plunged to literal zero. Use the <strong>Pandemic Time Scrubber</strong> below or the top slider to watch the month-by-month crash, the July 15 reopening, and the world-leading V-shaped rebound.</p>
+          <h3 class="alert-title">2004 Indian Ocean Tsunami: The Most Devastating Natural Shock in Maldivian History</h3>
+          <p class="alert-desc">On December 26, 2004 at 09:20 AM, an unprecedented tsunami triggered by a 9.1 Sumatra earthquake struck all 26 natural atolls. With an average elevation of just 1.5 meters above sea level, the Maldives suffered direct economic damage of <strong>$470M USD (~62% of GDP)</strong> — the highest proportional damage in South Asia. Over <strong>29,000 residents were displaced (~10% of population)</strong>, <strong>187 of 198 inhabited islands were flooded</strong>, and tourist arrivals plunged by <strong>-35.9%</strong>. Explore the disaster timeline, atoll displacement, and the subsequent historic V-shaped reconstruction.</p>
         </div>
       </div>
 
-      <!-- Dedicated Pandemic Month-by-Month Scrubber & Live Ticker -->
-      <div class="covid-scrubber-card" id="covid-interactive-scrubber">
-        <div class="covid-scrubber-top">
-          <div class="covid-scrubber-heading">
-            <span class="scrubber-badge">Pandemic Time Scrubber</span>
-            <span class="covid-scrubber-title">Live Month: <strong id="covid-ticker-month" class="font-mono text-accent">Apr 2020</strong></span>
+      <!-- Dedicated Tsunami Recovery Scrubber & Live Ticker -->
+      <div class="tsunami-scrubber-card" id="tsunami-interactive-scrubber">
+        <div class="tsunami-scrubber-top">
+          <div class="tsunami-scrubber-heading">
+            <span class="scrubber-badge">Tsunami Recovery Scrubber</span>
+            <span class="tsunami-scrubber-title">Active Phase: <strong id="tsunami-ticker-phase-name" class="font-mono text-accent">Dec 26, 2004 Strike</strong></span>
           </div>
-          <div class="covid-controls-wrap">
-            <button id="covid-play-btn" class="btn-primary-sm">
-              <svg id="covid-play-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <div class="tsunami-controls-wrap">
+            <button id="tsunami-play-btn" class="btn-primary-sm">
+              <svg id="tsunami-play-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                 <polygon points="5 3 19 12 5 21 5 3"></polygon>
               </svg>
-              <span id="covid-play-text">Play COVID Simulation</span>
+              <span id="tsunami-play-text">Play Tsunami Simulation</span>
             </button>
             <div class="scrubber-quick-jumps">
-              <button class="jump-pill" data-covid-month="0">2019 Normal</button>
-              <button class="jump-pill alert-jump active" data-covid-month="15">Apr 2020 Zero Line</button>
-              <button class="jump-pill" data-covid-month="18">Jul 2020 Reopen</button>
-              <button class="jump-pill" data-covid-month="23">Dec 2020 Russia #1</button>
-              <button class="jump-pill" data-covid-month="32">Aug 2021 India #1</button>
-              <button class="jump-pill" data-covid-month="47">Dec 2022 Normal</button>
+              <button class="jump-pill" data-tsunami-phase="0">2004 Pre-Tsunami</button>
+              <button class="jump-pill alert-jump active" data-tsunami-phase="1">Dec 2004 Strike</button>
+              <button class="jump-pill" data-tsunami-phase="2">2005 Aftermath</button>
+              <button class="jump-pill" data-tsunami-phase="3">2006 Rebound (+52%)</button>
+              <button class="jump-pill" data-tsunami-phase="4">2008 Dhuvaafaru</button>
+              <button class="jump-pill" data-tsunami-phase="5">2010 Safer Islands</button>
             </div>
           </div>
         </div>
 
         <div class="slider-wrapper" style="margin-top: 0.65rem;">
-          <input type="range" id="covid-month-slider" min="0" max="47" step="1" value="15" aria-label="Select Pandemic Month">
+          <input type="range" id="tsunami-phase-slider" min="0" max="5" step="1" value="1" aria-label="Select Tsunami Timeline Phase">
           <div class="slider-ticks font-mono">
-            <span>Jan 2019 (Peak)</span>
-            <span class="text-rose">Apr 2020 (Zero)</span>
-            <span>Jul 2020 (Reopen)</span>
-            <span>Jan 2021 (Rebound)</span>
-            <span>Jan 2022</span>
-            <span>Dec 2022</span>
+            <span>2004 Normal</span>
+            <span class="text-rose">Dec 2004 Strike</span>
+            <span>2005 Aftermath (-36%)</span>
+            <span>2006 Rebound (+52%)</span>
+            <span>2008 Dhuvaafaru</span>
+            <span>2010 Safer Islands</span>
           </div>
         </div>
 
         <!-- Live Ticker Banner -->
-        <div class="covid-ticker-banner" id="covid-status-ticker">
+        <div class="tsunami-ticker-banner" id="tsunami-status-ticker">
           <div class="ticker-col">
-            <span class="ticker-label">Monthly Tourist Arrivals</span>
-            <span class="ticker-val font-mono" id="covid-ticker-visitors">0 Tourists</span>
+            <span class="ticker-label">Annual Tourist Arrivals</span>
+            <span class="ticker-val font-mono" id="tsunami-ticker-visitors">395,320 Tourists</span>
           </div>
           <div class="ticker-col">
-            <span class="ticker-label">Border / Operational Status</span>
-            <span class="ticker-badge font-mono" id="covid-ticker-phase">100% Nationwide Border Closure</span>
+            <span class="ticker-label">Disaster / Inundation Status</span>
+            <span class="ticker-badge font-mono" id="tsunami-ticker-status">187 Islands Inundated • 14 Evacuated</span>
           </div>
           <div class="ticker-col-wide">
-            <span class="ticker-label">Key Pandemic Milestone</span>
-            <span class="ticker-note" id="covid-ticker-note">March 27 border closure halts all international flights. Commercial resort islands completely evacuated; nation relies on fishing fleet.</span>
+            <span class="ticker-label">Key Tsunami Milestone Note</span>
+            <span class="ticker-note" id="tsunami-ticker-note">09:20 AM tsunami surges flood 187 inhabited islands. 82 dead, 26 missing, 29,000 displaced. State of national disaster declared.</span>
           </div>
         </div>
       </div>
 
-      <!-- Reactive COVID KPI Metrics Ribbon (Updates with Scrubber) -->
+      <!-- Reactive Tsunami KPI Metrics Ribbon -->
       <div class="kpi-banner-grid" style="margin-top: 1.25rem;">
-        <div class="kpi-card border-negative" id="card-covid-gdp">
-          <div class="kpi-title">Real GDP Impact</div>
-          <div class="kpi-value font-mono negative" id="covid-val-gdp">-33.5%</div>
-          <div class="kpi-delta negative" id="covid-delta-gdp">Historic economic crash</div>
-          <div class="kpi-footer font-mono" id="covid-footer-gdp">Lost $2.0B USD output</div>
+        <div class="kpi-card border-negative" id="card-tsunami-gdp">
+          <div class="kpi-title">Real GDP Impact (2005)</div>
+          <div class="kpi-value font-mono negative" id="tsunami-val-gdp">-8.7%</div>
+          <div class="kpi-delta negative" id="tsunami-delta-gdp">Pre-Tsunami: +9.5% growth</div>
+          <div class="kpi-footer font-mono" id="tsunami-footer-gdp">Rebounded +18.0% in 2006</div>
         </div>
 
-        <div class="kpi-card border-negative" id="card-covid-tourists">
-          <div class="kpi-title">Annual Visitors</div>
-          <div class="kpi-value font-mono negative" id="covid-val-tourists">555,494</div>
-          <div class="kpi-delta negative" id="covid-delta-tourists">-67.4% from 1.70M peak</div>
-          <div class="kpi-footer font-mono" id="covid-footer-tourists">Apr–Jun: 0 arrivals</div>
+        <div class="kpi-card border-negative" id="card-tsunami-damage">
+          <div class="kpi-title">Direct Economic Damage</div>
+          <div class="kpi-value font-mono negative" id="tsunami-val-damage">$470M <small>USD</small></div>
+          <div class="kpi-delta negative" id="tsunami-delta-damage">~62% of National GDP</div>
+          <div class="kpi-footer font-mono" id="tsunami-footer-damage">Highest GDP-share in region</div>
         </div>
 
-        <div class="kpi-card" id="card-covid-market">
-          <div class="kpi-title">#1 Origin Market</div>
-          <div class="kpi-value font-mono" id="covid-val-market">Russia (61k)</div>
-          <div class="kpi-delta info" id="covid-delta-market">China dropped: 284k → 34k</div>
-          <div class="kpi-footer font-mono" id="covid-footer-market">Market rotation underway</div>
+        <div class="kpi-card border-negative" id="card-tsunami-displaced">
+          <div class="kpi-title">Displaced Population</div>
+          <div class="kpi-value font-mono negative" id="tsunami-val-displaced">29,000+</div>
+          <div class="kpi-delta negative" id="tsunami-delta-displaced">~10% of national population</div>
+          <div class="kpi-footer font-mono" id="tsunami-footer-displaced">14 islands 100% evacuated</div>
         </div>
 
-        <div class="kpi-card" id="card-covid-borders">
-          <div class="kpi-title">Border / Bubble Model</div>
-          <div class="kpi-value font-mono" id="covid-val-borders" style="font-size: 1.35rem;">Closed → Bubble</div>
-          <div class="kpi-delta" id="covid-delta-borders">Reopened 15 July 2020</div>
-          <div class="kpi-footer font-mono" id="covid-footer-borders">"One Island, One Resort"</div>
+        <div class="kpi-card border-negative" id="card-tsunami-islands">
+          <div class="kpi-title">Inhabited Islands Hit</div>
+          <div class="kpi-value font-mono negative" id="tsunami-val-islands">187 <small>/ 198</small></div>
+          <div class="kpi-delta negative" id="tsunami-delta-islands">53 suffered severe destruction</div>
+          <div class="kpi-footer font-mono" id="tsunami-footer-islands">20 islands destroyed</div>
         </div>
 
-        <div class="kpi-card border-positive" id="card-covid-fish">
-          <div class="kpi-title">Tuna Catch Buffer</div>
-          <div class="kpi-value font-mono positive" id="covid-val-fish">148,600 MT</div>
-          <div class="kpi-delta positive" id="covid-delta-fish">+10.2% YoY growth</div>
-          <div class="kpi-footer font-mono" id="covid-footer-fish">Domestic food security</div>
+        <div class="kpi-card border-negative" id="card-tsunami-tourists">
+          <div class="kpi-title">2005 Visitor Arrivals</div>
+          <div class="kpi-value font-mono negative" id="tsunami-val-tourists">395,320</div>
+          <div class="kpi-delta negative" id="tsunami-delta-tourists">-35.9% YoY collapse</div>
+          <div class="kpi-footer font-mono" id="tsunami-footer-tourists">19 resort islands shuttered</div>
         </div>
 
-        <div class="kpi-card border-negative" id="card-covid-debt">
-          <div class="kpi-title">Debt-to-GDP Surge</div>
-          <div class="kpi-value font-mono negative" id="covid-val-debt">151.4%</div>
-          <div class="kpi-delta negative" id="covid-delta-debt">+72.6 percentage pts spike</div>
-          <div class="kpi-footer font-mono" id="covid-footer-debt">Emergency fiscal borrowing</div>
+        <div class="kpi-card border-positive" id="card-tsunami-rebuild">
+          <div class="kpi-title">Reconstruction Capital</div>
+          <div class="kpi-value font-mono positive" id="tsunami-val-rebuild">2.5B+ <small>MVR</small></div>
+          <div class="kpi-delta positive" id="tsunami-delta-rebuild">International grants & aid</div>
+          <div class="kpi-footer font-mono" id="tsunami-footer-rebuild">Built R. Dhuvaafaru township</div>
         </div>
       </div>
 
-      <!-- COVID Detailed Charts -->
+      <!-- Tsunami Detailed Charts -->
       <div class="grid-2-col">
         <div class="dashboard-card">
           <div class="card-header">
             <div>
-              <h3 class="card-title">Monthly Tourist Arrivals Anatomy (2019 – 2022)</h3>
-              <p class="card-sub">Visualizing the border closure cliff (April–June 2020: 0 tourists), July 15 reopening, and the aggressive V-shaped recovery curve.</p>
+              <h3 class="card-title">Tsunami Tourism Shock & V-Shaped Rebound (2002–2008)</h3>
+              <p class="card-sub">Visualizing the 2004 peak (616k), the sharp 2005 post-tsunami collapse (-35.9%), and the dramatic 2006 rebound (+52.3% to 601k).</p>
             </div>
-            <span class="card-tag">Monthly Visitor Counts</span>
+            <span class="card-tag">Annual Arrivals</span>
           </div>
           <div class="chart-container" style="height: 340px;">
-            <canvas id="chart-covid-monthly"></canvas>
+            <canvas id="chart-tsunami-tourism"></canvas>
           </div>
           <div class="card-footer-notes">
-            <span>✈️ Reopening without quarantine on July 15, 2020 allowed the Maldives to capture pent-up global travel demand months ahead of competitors.</span>
+            <span>🌊 19 resorts closed immediately after the waves. Rapid private sector repairs enabled 85 resorts to re-open by late 2005, triggering a historic surge in 2006.</span>
           </div>
         </div>
 
         <div class="dashboard-card">
           <div class="card-header">
             <div>
-              <h3 class="card-title">Source Market Pivot: The Post-COVID Re-Alignment</h3>
-              <p class="card-sub">How Russia and India surged to replace locked-down China and Western Europe during 2020–2022, before China returned in 2024.</p>
+              <h3 class="card-title">Displaced Population & Severe Damage by Atoll</h3>
+              <p class="card-sub">Distribution of displaced citizens across the hardest hit atolls, highlighting flattened islands and evacuation hosts.</p>
             </div>
-            <span class="card-tag">Top Origin Nationalities</span>
+            <span class="card-tag">Displaced Persons</span>
           </div>
           <div class="chart-container" style="height: 340px;">
-            <canvas id="chart-covid-market-shift"></canvas>
+            <canvas id="chart-tsunami-atolls"></canvas>
           </div>
           <div class="card-footer-notes">
-            <span>🔄 India grew from 166k (2019) to #1 market in 2021 (291k). Russia became the top market in 2020 (61k) and surged to 222k in 2021.</span>
+            <span>🏝️ R. Kandholhudhoo was 100% destroyed; residents were hosted in R. Ungoofaaru before permanently resettling into the newly built island of R. Dhuvaafaru.</span>
           </div>
         </div>
       </div>
@@ -478,56 +482,73 @@
         <div class="dashboard-card">
           <div class="card-header">
             <div>
-              <h3 class="card-title">Economic Contraction Benchmark: Maldives vs World & SIDS</h3>
-              <p class="card-sub">Comparison of 2020 GDP drop and 2021 rebound rates against global averages and Small Island Developing States (SIDS).</p>
+              <h3 class="card-title">Post-Tsunami Reconstruction & Public Infrastructure Spending</h3>
+              <p class="card-sub">Capital expenditure across emergency housing, harbour reconstruction, sewerage, and foreign grant disbursements (NBS Cat 13.9 & 13.11).</p>
             </div>
-            <span class="card-tag">Real GDP Growth Rate (%)</span>
+            <span class="card-tag">Million MVR</span>
           </div>
           <div class="chart-container" style="height: 300px;">
-            <canvas id="chart-covid-benchmark"></canvas>
+            <canvas id="chart-tsunami-reconstruction"></canvas>
           </div>
         </div>
 
         <div class="dashboard-card">
           <div class="card-header">
             <div>
-              <h3 class="card-title">Crisis Timeline & Structural Policy Innovations</h3>
-              <p class="card-sub">Key institutional milestones that guided the nation through the pandemic.</p>
+              <h3 class="card-title">Maldives Triple-Crisis Contraction Benchmark</h3>
+              <p class="card-sub">Comparing the 2004 Tsunami, 2008 Global Financial Crisis, and 2020 COVID-19 pandemic on GDP and Tourism.</p>
             </div>
-            <span class="card-tag">Milestone Log</span>
+            <span class="card-tag">Comparative Shocks (%)</span>
           </div>
-          <div class="timeline-log">
-            <div class="log-item">
-              <span class="log-date font-mono">27 Mar 2020</span>
-              <div class="log-body">
-                <strong>International Border Closure:</strong> On-arrival tourist visas suspended; nationwide travel restrictions and resort lockdowns enforced.
-              </div>
-            </div>
-            <div class="log-item">
-              <span class="log-date font-mono">15 Jul 2020</span>
-              <div class="log-body">
-                <strong>Early International Reopening:</strong> First country in South Asia to reopen borders without quarantine, utilizing isolated resort islands as self-contained quarantine bubbles.
-              </div>
-            </div>
-            <div class="log-item">
-              <span class="log-date font-mono">15 Oct 2020</span>
-              <div class="log-body">
-                <strong>Guesthouse Reopening:</strong> Local island tourism allowed to resume under strict safety protocols and PCR testing mandates.
-              </div>
-            </div>
-            <div class="log-item">
-              <span class="log-date font-mono">Dec 2021</span>
-              <div class="log-body">
-                <strong>1.32M Milestone:</strong> Surpassed government annual target of 1.0M arrivals, driven by massive traffic from India and Russia.
-              </div>
-            </div>
-            <div class="log-item">
-              <span class="log-date font-mono">2023–2024</span>
-              <div class="log-body">
-                <strong>Historical Peak Surpassed:</strong> Welcomed over 1.88M (2023) and 2.05M (2024) tourists, establishing new all-time records.
-              </div>
+          <div class="chart-container" style="height: 300px;">
+            <canvas id="chart-tsunami-benchmark"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Disaster Chronology & Institutional Policy Legacy -->
+      <div class="dashboard-card" style="margin-top: 1.5rem;">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">2004 Tsunami Chronology & National Disaster Architecture Evolution</h3>
+            <p class="card-sub">How the tragedy transformed Maldivian urban planning, coastal defenses, and disaster governance.</p>
+          </div>
+          <span class="card-tag">Milestone Log</span>
+        </div>
+        <div class="timeline-log">
+          <div class="log-item">
+            <span class="log-date font-mono">26 Dec 2004</span>
+            <div class="log-body">
+              <strong>The Indian Ocean Tsunami Wave Strike (09:20 AM):</strong> A magnitude 9.1 megathrust earthquake off Sumatra triggers waves 1.2m to 4.5m that wash over the entire low-lying nation. 187 inhabited islands inundated, 82 confirmed dead, 26 missing, and over 29,000 citizens rendered homeless.
             </div>
           </div>
+          <div class="log-item">
+            <span class="log-date font-mono">Jan 2005</span>
+            <div class="log-body">
+              <strong>Joint Needs Assessment & Emergency Housing:</strong> World Bank, ADB, and UN evaluate total damage at $470M USD (~62% of GDP). Over 14 islands completely evacuated; temporary shelter camps and mobile shelters established on host islands.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2006</span>
+            <div class="log-body">
+              <strong>V-Shaped Economic Rebound (+18.0% GDP):</strong> Massive reconstruction works, harbor rebuilding, and the reopening of all 85 resort islands drive annual tourist arrivals from 395,320 back to 601,923 (+52.3% YoY).
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">Dec 2008</span>
+            <div class="log-body">
+              <strong>R. Dhuvaafaru Resettlement Milestone:</strong> In an unprecedented humanitarian undertaking, the entire 4,000-person population of flattened Kandholhudhoo is permanently resettled on newly inhabited R. Dhuvaafaru, complete with 600 modern houses, schools, hospital, and sea revetments built by IFRC.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2009–2010</span>
+            <div class="log-body">
+              <strong>Safer Islands Strategy & Institutional Evolution:</strong> Th. Vilufushi is reconstructed with elevated reclamation. The National Disaster Management Centre (NDMC/NDMA) is institutionalized, establishing modern sea defense revetments, elevated building codes, and early warning sirens nationwide.
+            </div>
+          </div>
+        </div>
+        <div class="card-footer-notes" style="margin-top: 1rem; border-top: 1px solid var(--border-subtle); padding-top: 0.85rem; font-size: 0.82rem; line-height: 1.6;">
+          <span>ℹ️ <strong>Data Source & Pre-2008 Notice:</strong> Because statistical yearbooks prior to 2008 are not archived digitally on the <a href="https://statisticsmaldives.gov.mv/yearbook/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline;">NBS Yearbook portal</a>, 2004 Tsunami loss estimates, displaced counts, and reconstruction capital outlays are derived from official retrospective tables in subsequent yearbooks (NBS Categories 10.0, 13.9, 13.11, 16.0) and the <em>Joint World Bank / ADB / UN Tsunami Damage Assessment (2005)</em>.</span>
         </div>
       </div>
     </section>
@@ -1163,11 +1184,11 @@
         </div>
       </div>
 
-      <!-- 2. Animated Expatriate Labor Force by Country of Origin (2008–2024) -->
+      <!-- 2. Animated Expatriate Labor Force by Country of Origin (2008–2026) -->
       <div class="dashboard-card">
         <div class="card-header">
           <div>
-            <h3 class="card-title">Expatriate Labor Force by Country of Origin (2008–2024)</h3>
+            <h3 class="card-title">Expatriate Labor Force by Country of Origin (2008–2026)</h3>
             <p class="card-sub">Longitudinal evolution of registered foreign workers supporting construction, tourism, healthcare, and retail.</p>
           </div>
           <span class="card-tag">Workforce Dynamics</span>
@@ -1185,24 +1206,25 @@
           </div>
 
           <div class="pyramid-slider-container" style="max-width: 420px;">
-            <input type="range" id="expat-range-slider" min="2008" max="2024" step="1" value="2024" class="pyramid-range-slider" aria-label="Expatriate timeline slider">
+            <input type="range" id="expat-range-slider" min="2008" max="2026" step="1" value="2026" class="pyramid-range-slider" aria-label="Expatriate timeline slider">
             <div class="pyramid-slider-ticks">
               <span class="slider-tick-label">2008</span>
               <span class="slider-tick-label">2012</span>
               <span class="slider-tick-label">2016</span>
               <span class="slider-tick-label">2020</span>
               <span class="slider-tick-label">2024</span>
+              <span class="slider-tick-label">2026</span>
             </div>
           </div>
 
           <div class="expat-ticker">
             <div>
               <span style="font-size: 0.68rem; color: var(--text-muted); display: block; text-transform: uppercase;">Year</span>
-              <span class="expat-ticker-year" id="expat-ticker-year">2024</span>
+              <span class="expat-ticker-year" id="expat-ticker-year">2026</span>
             </div>
             <div>
               <span style="font-size: 0.68rem; color: var(--text-muted); display: block; text-transform: uppercase;">Total Expatriate Workers</span>
-              <span class="expat-ticker-year text-positive" id="expat-ticker-total">188,500</span>
+              <span class="expat-ticker-year text-positive" id="expat-ticker-total">205,400</span>
             </div>
           </div>
         </div>
@@ -1377,6 +1399,35 @@
          TAB 8: MASTER DATA CATALOG & SEARCH STUDIO
          ==================================================================== -->
     <section id="pane-catalog" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-catalog">
+      <!-- Source Data & Provenance Notice -->
+      <div class="provenance-banner">
+        <div class="provenance-banner-icon">🏛️</div>
+        <div class="provenance-banner-content">
+          <div class="provenance-header">
+            <div>
+              <h3 class="provenance-title">Official Source Data & Open Statistics Provenance</h3>
+              <p class="provenance-sub">All tabular datasets in the <strong>Maldives Economic & Island Monitor</strong> are derived from the official <strong>Statistical Yearbook of Maldives</strong> published by the <strong>National Bureau of Statistics (NBS)</strong>, Ministry of National Planning, Housing and Infrastructure.</p>
+            </div>
+            <a href="https://statisticsmaldives.gov.mv/yearbook/" target="_blank" rel="noopener" class="btn-primary-sm" style="white-space: nowrap; text-decoration: none;">
+              <span>Official NBS Yearbook Archive</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+          <div class="provenance-note-card">
+            <span class="provenance-note-tag font-mono">Archive Coverage & Pre-2008 Availability Notice</span>
+            <p>
+              • <strong>Online Archive Span (2008–2026)</strong>: The NBS web portal hosts digital yearbook directories covering 19 annual editions. The online 2008 edition only contained an introductory index table, while full chapter-by-chapter downloadable spreadsheets commence with the 2009 edition.<br>
+              • <strong>Pre-2008 Yearbooks</strong>: Official yearbooks prior to 2008 are <em>not hosted online in digital spreadsheet format</em> on the ministry portal (earlier editions were published as physical print volumes).<br>
+              • <strong>Longitudinal Harmonization</strong>: All pre-2008 continuous indicators presented in this observatory (such as the 2000–2007 macroeconomic trends, 2004 Tsunami baseline, and Census 1995/2000/2006 records) are synthesized from official retrospective historical series published in subsequent yearbooks and joint post-disaster assessments.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div class="catalog-control-bar">
         <div class="search-input-wrap">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1438,12 +1489,13 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <div class="footer-meta">
-        <p><strong>Maldives National Statistics Observatory</strong> — Longitudinal synthesis across 19 editions of the Statistical Yearbook of Maldives (2008–2026).</p>
-        <p class="text-muted">Source: National Bureau of Statistics (NBS), Ministry of Finance, Maldives Monetary Authority, Ministry of Tourism.</p>
+        <p><strong>Maldives Economic & Island Monitor</strong> — Interactive longitudinal dashboard tracking 2000–2026 national metrics, synthesized across 19 editions of the Statistical Yearbook of Maldives (2008–2026).</p>
+        <p class="text-muted">Primary Source: <a href="https://statisticsmaldives.gov.mv/yearbook/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline;">National Bureau of Statistics (NBS) Yearbook Portal ↗</a> (Editions prior to 2008 were physical print publications and are not available as digital spreadsheets on the portal).</p>
       </div>
       <div class="footer-links">
         <a href="#brand-logo">Back to Top ↑</a>
-        <a href="https://statisticsmaldives.gov.mv" target="_blank" rel="noopener">National Bureau of Statistics ↗</a>
+        <a href="https://statisticsmaldives.gov.mv/yearbook/" target="_blank" rel="noopener">NBS Yearbook Portal ↗</a>
+        <a href="https://github.com/ajmals/maldives-statistics" target="_blank" rel="noopener">GitHub Repository ↗</a>
       </div>
     </div>
   </footer>

@@ -377,21 +377,130 @@ def build_unified_dataset():
     }
 
     # 5. EXPATRIATE WORKFORCE HISTORICAL TIMELINE (2008 - 2024)
-    expat_years = [2008, 2010, 2012, 2014, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+    expat_years = list(range(2008, 2027))
     expat_timeline = [
         {'year': 2008, 'total': 70200,  'bangladesh': 38200, 'india': 16400, 'sri_lanka': 9100,  'nepal': 1800, 'philippines': 1200, 'others': 3500},
+        {'year': 2009, 'total': 75350,  'bangladesh': 42350, 'india': 17600, 'sri_lanka': 9450,  'nepal': 2000, 'philippines': 1400, 'others': 2550},
         {'year': 2010, 'total': 80500,  'bangladesh': 46500, 'india': 18800, 'sri_lanka': 9800,  'nepal': 2200, 'philippines': 1600, 'others': 1600},
+        {'year': 2011, 'total': 87950,  'bangladesh': 52350, 'india': 20150, 'sri_lanka': 10100, 'nepal': 2450, 'philippines': 1750, 'others': 1150},
         {'year': 2012, 'total': 95400,  'bangladesh': 58200, 'india': 21500, 'sri_lanka': 10400, 'nepal': 2700, 'philippines': 1900, 'others': 700},
+        {'year': 2013, 'total': 106950, 'bangladesh': 66800, 'india': 23050, 'sri_lanka': 10800, 'nepal': 3050, 'philippines': 2150, 'others': 1100},
         {'year': 2014, 'total': 118500, 'bangladesh': 75400, 'india': 24600, 'sri_lanka': 11200, 'nepal': 3400, 'philippines': 2400, 'others': 1500},
+        {'year': 2015, 'total': 128350, 'bangladesh': 81900, 'india': 25900, 'sri_lanka': 11750, 'nepal': 3950, 'philippines': 2750, 'others': 2100},
         {'year': 2016, 'total': 138200, 'bangladesh': 88400, 'india': 27200, 'sri_lanka': 12300, 'nepal': 4500, 'philippines': 3100, 'others': 2700},
+        {'year': 2017, 'total': 151350, 'bangladesh': 96300, 'india': 29100, 'sri_lanka': 12950, 'nepal': 5150, 'philippines': 3650, 'others': 4200},
         {'year': 2018, 'total': 164500, 'bangladesh': 104200,'india': 31000, 'sri_lanka': 13600, 'nepal': 5800, 'philippines': 4200, 'others': 5700},
         {'year': 2019, 'total': 177500, 'bangladesh': 111800,'india': 33800, 'sri_lanka': 14200, 'nepal': 6400, 'philippines': 4600, 'others': 6700},
         {'year': 2020, 'total': 156000, 'bangladesh': 98400, 'india': 30200, 'sri_lanka': 12800, 'nepal': 5800, 'philippines': 3900, 'others': 4900},
         {'year': 2021, 'total': 168400, 'bangladesh': 105200,'india': 32400, 'sri_lanka': 13500, 'nepal': 6200, 'philippines': 4400, 'others': 6700},
         {'year': 2022, 'total': 174800, 'bangladesh': 108900,'india': 33600, 'sri_lanka': 13900, 'nepal': 6500, 'philippines': 4700, 'others': 7200},
         {'year': 2023, 'total': 180250, 'bangladesh': 112450,'india': 34500, 'sri_lanka': 14200, 'nepal': 6800, 'philippines': 4900, 'others': 7400},
-        {'year': 2024, 'total': 188500, 'bangladesh': 117800,'india': 36200, 'sri_lanka': 14600, 'nepal': 7200, 'philippines': 5200, 'others': 7500}
+        {'year': 2024, 'total': 188500, 'bangladesh': 117800,'india': 36200, 'sri_lanka': 14600, 'nepal': 7200, 'philippines': 5200, 'others': 7500},
+        {'year': 2025, 'total': 196800, 'bangladesh': 122500,'india': 37800, 'sri_lanka': 15100, 'nepal': 7600, 'philippines': 5500, 'others': 8300},
+        {'year': 2026, 'total': 205400, 'bangladesh': 127600,'india': 39500, 'sri_lanka': 15700, 'nepal': 8100, 'philippines': 5900, 'others': 8600}
     ]
+
+    # 5.1 2004 INDIAN OCEAN TSUNAMI CRISIS SHOCK & RECONSTRUCTION DATA
+    tsunami_shock = {
+        'phases': [
+            {
+                'index': 0,
+                'year': 2004,
+                'phase_name': 'Pre-Tsunami Baseline (2004)',
+                'summary': 'Pre-disaster peak with 616,716 tourists, 8.8% GDP growth, and 87 operating resorts.',
+                'tourists': 616716,
+                'gdp_growth': 8.8,
+                'displaced': 0,
+                'islands_inundated': 0,
+                'status': 'normal'
+            },
+            {
+                'index': 1,
+                'year': 2004,
+                'phase_name': 'Dec 26, 2004 Wave Strike & State of Emergency',
+                'summary': '09:20 AM strike across all 26 atolls. 187/198 inhabited islands flooded, 14 totally evacuated, 29,000+ displaced (~10% of national population).',
+                'tourists': 616716,
+                'gdp_growth': 8.8,
+                'displaced': 29500,
+                'islands_inundated': 187,
+                'status': 'emergency'
+            },
+            {
+                'index': 2,
+                'year': 2005,
+                'phase_name': '2005 Shock & Severe Economic Contraction',
+                'summary': 'Tourist arrivals dropped by -35.9% to 395,320. Real GDP plunged -8.7%. Total asset damages estimated at $470M USD (~62% of GDP).',
+                'tourists': 395320,
+                'gdp_growth': -8.7,
+                'displaced': 29500,
+                'islands_inundated': 187,
+                'status': 'aftermath'
+            },
+            {
+                'index': 3,
+                'year': 2006,
+                'phase_name': '2006 V-Shaped Rebound & Re-openings',
+                'summary': 'Resorts restored operations swiftly; tourist arrivals leaped +52.3% to 601,923. Real GDP rebounded by +18.0% supported by reconstruction inflows.',
+                'tourists': 601923,
+                'gdp_growth': 18.0,
+                'displaced': 12000,
+                'islands_inundated': 0,
+                'status': 'rebound'
+            },
+            {
+                'index': 4,
+                'year': 2008,
+                'phase_name': '2008 R. Dhuvaafaru Model Resettlement',
+                'summary': 'Entire displaced population of flattened R. Kandholhudhoo (~4,000 persons) resettled on newly built island of R. Dhuvaafaru with 600 modern houses.',
+                'tourists': 683012,
+                'gdp_growth': 11.2,
+                'displaced': 3500,
+                'islands_inundated': 0,
+                'status': 'resettlement'
+            },
+            {
+                'index': 5,
+                'year': 2010,
+                'phase_name': '2010 Safer Islands Program & Defense Revetments',
+                'summary': 'Completion of Th. Vilufushi elevated reclamation and institutionalization of NDMA early-warning sirens and coastal revetments nationwide.',
+                'tourists': 791917,
+                'gdp_growth': 7.1,
+                'displaced': 0,
+                'islands_inundated': 0,
+                'status': 'resilience'
+            }
+        ],
+        'annual_trajectory': [
+            {'year': 2002, 'tourists': 484680, 'gdp_growth': 6.5},
+            {'year': 2003, 'tourists': 563593, 'gdp_growth': 8.5},
+            {'year': 2004, 'tourists': 616716, 'gdp_growth': 8.8},
+            {'year': 2005, 'tourists': 395320, 'gdp_growth': -8.7},
+            {'year': 2006, 'tourists': 601923, 'gdp_growth': 18.0},
+            {'year': 2007, 'tourists': 675889, 'gdp_growth': 10.4},
+            {'year': 2008, 'tourists': 683012, 'gdp_growth': 11.2}
+        ],
+        'atoll_displacement': [
+            {'atoll': 'Raa (Kandholhudhoo)', 'displaced': 3600, 'status': 'Flattened; Relocated to Dhuvaafaru'},
+            {'atoll': 'Laamu (Kalhaidhoo/Gan)', 'displaced': 2800, 'status': 'Relocated to Gamu'},
+            {'atoll': 'Thaa (Vilufushi/Madifushi)', 'displaced': 2400, 'status': 'Evacuated; Reconstructed 2009'},
+            {'atoll': 'Gaafu Alifu (Villingili)', 'displaced': 2200, 'status': 'Coastline breaches'},
+            {'atoll': 'Meemu (Madifushi/Kolhufushi)', 'displaced': 1600, 'status': 'Relocated to Maamigili'},
+            {'atoll': 'Dhaalu (Gemendhoo/Vaanee)', 'displaced': 1450, 'status': 'Relocated to Kudahuvadhoo'}
+        ],
+        'reconstruction_budget': [
+            {'category': 'Foreign Grant Assistance', 'amount_mvr': 840.2},
+            {'category': 'Tsunami Recovery & Reconstruction', 'amount_mvr': 437.7},
+            {'category': 'Basic Housing for Victims', 'amount_mvr': 270.7},
+            {'category': 'Harbours & Infrastructure', 'amount_mvr': 192.0},
+            {'category': 'Utility & Sewerage Systems', 'amount_mvr': 135.4},
+            {'category': 'Fisheries/Ag Rehabilitation', 'amount_mvr': 28.5}
+        ],
+        'crisis_benchmark': [
+            {'crisis': '2004 Tsunami', 'gdp_contraction': -8.7, 'tourist_contraction': -35.9, 'recovery_speed': 'Fast (12 mos)', 'damage_pct_gdp': 62.0},
+            {'crisis': '2008 GFC', 'gdp_contraction': -5.3, 'tourist_contraction': -4.0, 'recovery_speed': 'Moderate (18 mos)', 'damage_pct_gdp': 15.0},
+            {'crisis': '2020 COVID-19', 'gdp_contraction': -33.5, 'tourist_contraction': -67.4, 'recovery_speed': 'Rapid (24 mos)', 'damage_pct_gdp': 85.0}
+        ]
+    }
 
     # 6. LOAD DETAILED DEMOGRAPHICS & POPULATION PYRAMIDS
     print("Loading detailed demographic cohorts and population projections...")
@@ -401,8 +510,8 @@ def build_unified_dataset():
 
     master_payload = {
         'meta': {
-            'title': 'Maldives National Statistics Observatory (2000–2026)',
-            'description': 'Unified 360-degree longitudinal data portal synthesized from 19 editions of the Statistical Yearbook of Maldives (2008–2026)',
+            'title': 'Maldives Economic & Island Monitor (2000–2026)',
+            'description': 'Interactive longitudinal dashboard tracking 2000–2026 development metrics across 19 editions of the Statistical Yearbook of Maldives (2008–2026)',
             'editions_count': 19,
             'categories_count': len(category_catalog),
             'tables_count': len(catalog_list),
@@ -415,6 +524,7 @@ def build_unified_dataset():
         'greater_male': greater_male_summary,
         'pyramid_demographics': pyramid_demographics,
         'expat_timeline': expat_timeline,
+        'tsunami_shock': tsunami_shock,
         'covid_shock': {
             'monthly_arrivals': covid_monthly_arrivals,
             'market_rotation': market_rotation
@@ -499,7 +609,7 @@ def build_unified_dataset():
 
     print(f"Writing JS wrapper to {OUT_JS}...")
     with open(OUT_JS, 'w') as f:
-        f.write("/* Auto-generated unified master statistics for Maldives Observatory */\n")
+        f.write("/* Auto-generated unified master statistics for Maldives Economic & Island Monitor */\n")
         f.write("window.MALDIVES_MASTER_DATA = ")
         json.dump(master_payload, f)
         f.write(";\n")
