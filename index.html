@@ -248,38 +248,97 @@
         </div>
       </div>
 
-      <!-- Overview Charts Section -->
-      <div class="grid-2-col">
-        <div class="dashboard-card">
-          <div class="card-header">
-            <div>
-              <h3 class="card-title">25 Years of Transformation: Macro Growth Compass (2000–2026)</h3>
-              <p class="card-sub">Synchronized index trajectory comparing Tourist Arrivals, Nominal GDP, Population, and Power Generation normalized to year 2000.</p>
-            </div>
-            <span class="card-tag">Indexed Baseline (2000 = 100)</span>
+      <!-- Flagship 25-Year Shocks & Milestones Showcase -->
+      <div class="shocks-showcase-card" id="shocks-overview-showcase">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">25 Years of Shocks & National Milestones (2000–2026)</h3>
+            <p class="card-sub">Interactive chronicle of external crises, policy transformations, natural catastrophes, and mega-infrastructure cycles that defined modern Maldives.</p>
           </div>
-          <div class="chart-container" style="height: 340px;">
-            <canvas id="chart-growth-compass"></canvas>
-          </div>
-          <div class="card-footer-notes">
-            <span>💡 Highlights: Tourist arrivals multiplied 4.8×, GDP multiplied 8.8×, electricity consumption surged 9.5× while population doubled.</span>
+          <span class="card-tag">Economic Heartbeat</span>
+        </div>
+
+        <!-- Interactive Milestone Quick-Select Ribbon -->
+        <div class="shocks-ribbon-container">
+          <span class="shocks-ribbon-label">Key Milestones:</span>
+          <div class="shocks-ribbon-scroll" id="shocks-event-ribbon">
+            <button class="shocks-event-pill active pill-negative" data-event-id="tsunami_2004">🌊 2004 Tsunami</button>
+            <button class="shocks-event-pill" data-event-id="gfc_2008">📉 2008–09 GFC</button>
+            <button class="shocks-event-pill" data-event-id="guesthouses_2010">🏘️ 2010 Guesthouses</button>
+            <button class="shocks-event-pill" data-event-id="tax_deval_2011">💱 2011 Tax & FX</button>
+            <button class="shocks-event-pill pill-negative" data-event-id="water_crisis_2014">💧 2014 Water Crisis</button>
+            <button class="shocks-event-pill" data-event-id="bridge_boom_2018">🌉 2016–18 Bridge Boom</button>
+            <button class="shocks-event-pill pill-negative" data-event-id="covid_2020">🦠 2020 COVID Shock</button>
+            <button class="shocks-event-pill" data-event-id="ukraine_commodity_2022">⛽ 2022 Energy Shock</button>
+            <button class="shocks-event-pill" data-event-id="debt_wall_2024_2026">📈 2024–26 Peak & Debt</button>
           </div>
         </div>
 
-        <div class="dashboard-card">
-          <div class="card-header">
-            <div>
-              <h3 class="card-title">Real GDP Growth Rate vs Historic Shocks (%)</h3>
-              <p class="card-sub">Annual percentage change in Real GDP capturing the 2005 Tsunami (-8.7%), 2009 Global Recession (-3.6%), and the 2020 Pandemic Shock (-33.5%).</p>
+        <!-- Dynamic Event Impact Intel Card -->
+        <div class="shocks-intel-card intel-negative" id="shocks-intel-card">
+          <div class="intel-header">
+            <div class="intel-title-wrap">
+              <span class="intel-badge" id="intel-badge">🌊 Natural Disaster</span>
+              <h4 class="intel-title" id="intel-title">2004 Indian Ocean Tsunami</h4>
+              <span class="intel-year font-mono" id="intel-year">2004–2005</span>
             </div>
-            <span class="card-tag">Constant 2014 MVR</span>
+            <button class="intel-jump-btn" id="intel-jump-btn" data-jump-tab="pane-tsunami">
+              <span>Deep-Dive Tab</span>
+              <span class="jump-arrow">→</span>
+            </button>
           </div>
-          <div class="chart-container" style="height: 340px;">
-            <canvas id="chart-gdp-growth-timeline"></canvas>
+          <div class="intel-body-grid">
+            <div class="intel-metrics-strip">
+              <div class="intel-metric">
+                <span class="intel-metric-label">Real GDP Shock</span>
+                <span class="intel-metric-val negative font-mono" id="intel-val-gdp">-8.7% (2005)</span>
+              </div>
+              <div class="intel-metric">
+                <span class="intel-metric-label">Visitor Arrivals</span>
+                <span class="intel-metric-val negative font-mono" id="intel-val-tourists">-35.9% (395k)</span>
+              </div>
+              <div class="intel-metric">
+                <span class="intel-metric-label">Public Debt Impact</span>
+                <span class="intel-metric-val font-mono" id="intel-val-debt">+14.2% pts</span>
+              </div>
+              <div class="intel-metric">
+                <span class="intel-metric-label">Key Shock Feature</span>
+                <span class="intel-metric-val font-mono" id="intel-val-fact">19 Resorts Closed</span>
+              </div>
+            </div>
+            <div class="intel-text-wrap">
+              <p class="intel-summary" id="intel-summary">The deadliest catastrophe in modern Maldivian history. Over 29,000 citizens displaced (~10% of national population) across 39 severely damaged islands, completely flattening R. Kandholhudhoo and halting tourism.</p>
+              <div class="intel-legacy">
+                <strong>🏛️ Policy & Institutional Legacy:</strong>
+                <span id="intel-legacy-text">Prompted the multi-billion MVR international reconstruction effort, the founding of R. Dhuvaafaru model resettlement island, and the national "Safer Islands" sea-defense revetment strategy.</span>
+              </div>
+            </div>
           </div>
-          <div class="card-footer-notes">
-            <span>🔴 2020 saw one of the sharpest GDP contractions in the world, followed by a +41.7% V-shaped rebound in 2021.</span>
+        </div>
+
+        <!-- The Combined High-Impact Dual-Axis Chart: GDP Growth % (Bars) + Public Debt-to-GDP % (Line) -->
+        <div class="chart-container" style="height: 380px;">
+          <canvas id="chart-gdp-growth-timeline"></canvas>
+        </div>
+        <div class="card-footer-notes">
+          <span>💡 <strong>Interactive Exploration:</strong> Click any milestone pill above or click bars directly on the chart to inspect that specific historical event, its economic impact, and policy legacy.</span>
+        </div>
+      </div>
+
+      <!-- Macro Growth Compass (2000–2026) -->
+      <div class="dashboard-card" style="margin-top: 1.5rem;">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">25 Years of Transformation: Macro Growth Compass (2000–2026)</h3>
+            <p class="card-sub">Synchronized index trajectory comparing Tourist Arrivals, Nominal GDP, Population, and Power Generation normalized to year 2000.</p>
           </div>
+          <span class="card-tag">Indexed Baseline (2000 = 100)</span>
+        </div>
+        <div class="chart-container" style="height: 340px;">
+          <canvas id="chart-growth-compass"></canvas>
+        </div>
+        <div class="card-footer-notes">
+          <span>💡 Highlights: Tourist arrivals multiplied 4.8×, GDP multiplied 8.8×, electricity consumption surged 9.5× while resident population doubled.</span>
         </div>
       </div>
 
@@ -847,6 +906,49 @@
           </div>
         </div>
       </div>
+
+      <!-- Historical Fiscal Shocks & Debt Milestones -->
+      <div class="dashboard-card" style="margin-top: 1.5rem;">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Fiscal & Sovereign Debt Shocks: Key Historical Milestones</h3>
+            <p class="card-sub">How catastrophic external events and sovereign borrowing cycles restructured national public finances.</p>
+          </div>
+          <span class="card-tag">Policy Log</span>
+        </div>
+        <div class="timeline-log">
+          <div class="log-item">
+            <span class="log-date font-mono">2004–2005</span>
+            <div class="log-body">
+              <strong>Tsunami Emergency Reconstruction Outlays:</strong> Rebuilding destroyed harbors, schools, and sanitation across 39 islands necessitated over 2.5B MVR in international grants and emergency deficits.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2011</span>
+            <div class="log-body">
+              <strong>Rufiyaa Devaluation & Modern Tax System:</strong> Exchange rate peg adjusted to 15.42 MVR/USD. Concurrently, Parliament passed the modern Goods and Services Tax (GST/TGST) and Business Profit Tax (BPT), shifting state revenues away from volatile customs duties.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2016–2018</span>
+            <div class="log-body">
+              <strong>Mega-Infrastructure Debt Expansion:</strong> Heavy bilateral debt financing for the Sinamalé Bridge, Velana Airport new runway/terminal, and 16 Hiyaa housing towers pushed total public debt past 80% of GDP.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2020</span>
+            <div class="log-body">
+              <strong>COVID-19 Fiscal Shock:</strong> Border shutdown eliminated 67% of annual tourist arrivals, causing a -33.5% GDP collapse and spiking public debt-to-GDP to a historic peak of 151.4%.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2024–2026</span>
+            <div class="log-body">
+              <strong>Sovereign Debt Maturity Wall:</strong> Amortization on external sovereign bonds (notably the $500M international Sukuk due in 2026) drove acute US dollar rationing and emergency bilateral currency swaps with India (RBI) and China (PBOC).
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ====================================================================
@@ -963,6 +1065,49 @@
               <span class="font-mono">158</span>
               <span class="font-mono">148</span>
               <span class="font-mono">160</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Historical Tourism Milestones & Structural Pivots -->
+      <div class="dashboard-card" style="margin-top: 1.5rem;">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Historical Tourism Milestones & Structural Shifts</h3>
+            <p class="card-sub">Key policy innovations, market rotations, and capacity revolutions across 50+ years of Maldivian hospitality.</p>
+          </div>
+          <span class="card-tag">Chronology</span>
+        </div>
+        <div class="timeline-log">
+          <div class="log-item">
+            <span class="log-date font-mono">1972</span>
+            <div class="log-body">
+              <strong>Birth of Maldivian Tourism:</strong> Kurumba Village and Bandos Island open with ~280 beds, launching commercial aviation travel to the Maldives and initiating the transition away from an agrarian fisheries-only economy.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2009–2010</span>
+            <div class="log-body">
+              <strong>Inhabited Island Guesthouse Legalization:</strong> The strict "One Island, One Resort" policy is decentralized. Local citizens are permitted to operate guesthouses on residential islands, rapidly scaling budget tourism in Maafushi, Thulusdhoo, Dhigurah, and Ukulhas to over 14,800 beds.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2020</span>
+            <div class="log-body">
+              <strong>Historic Border Closure & 110-Day Shutdown:</strong> Flights grounded from March 27 to July 15. The Maldives reopens ahead of global competitors using resort island quarantine bubbles, igniting a dramatic V-shaped rebound led by India and Russia.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2022</span>
+            <div class="log-body">
+              <strong>Russia–Ukraine War Origin Rotation:</strong> Amid European airspace bans and sanctions, Russian travelers make the Maldives their premier luxury holiday haven, maintaining baseline occupancy despite global aviation disruptions.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2024</span>
+            <div class="log-body">
+              <strong>All-Time 2 Million Arrival Record:</strong> Annual arrivals cross 2,050,000 visitors for the first time in history, supported by the expanded Velana International Airport code-F runway and passenger capacity.
             </div>
           </div>
         </div>
@@ -1539,6 +1684,37 @@
           </div>
           <div class="card-footer-notes">
             <span>💧 Emergency relief has fallen from 87+ islands down to 28 in 2024 as nationwide reverse osmosis desalination plant projects came online.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Critical Lifelines & Utility Shocks -->
+      <div class="dashboard-card" style="margin-top: 1.5rem;">
+        <div class="card-header">
+          <div>
+            <h3 class="card-title">Critical Island Lifelines: Shocks & Policy Responses</h3>
+            <p class="card-sub">Pivotal utility emergencies that redefined urban resilience, freshwater security, and renewable energy mandates.</p>
+          </div>
+          <span class="card-tag">Resilience Log</span>
+        </div>
+        <div class="timeline-log">
+          <div class="log-item">
+            <span class="log-date font-mono">Dec 2014</span>
+            <div class="log-body">
+              <strong>Malé Capital Water Crisis (MWSC Fire):</strong> A catastrophic electrical fire knocked out all desalination units in the capital city for 10 days, cutting off piped water to 130,000+ residents. The crisis necessitated emergency international naval airlifts and forced a national mandate for secondary backup desalination facilities and strategic island storage reserves.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2018</span>
+            <div class="log-body">
+              <strong>Sinamalé Cross-Atoll Power & Fiber Link:</strong> Opening of the bridge infrastructure corridor enabled unified power distribution, multi-operator optical fiber loops, and utility interconnection between Malé, Hulhulé, and Hulhumalé.
+            </div>
+          </div>
+          <div class="log-item">
+            <span class="log-date font-mono">2022</span>
+            <div class="log-body">
+              <strong>Global Commodity & Diesel Price Surge:</strong> Russia-Ukraine geopolitical tensions drove global oil past $120/barrel, increasing state fuel subsidies beyond 2.5B MVR to keep island electricity tariffs stable, accelerating national solar PV microgrid installations across all atolls.
+            </div>
           </div>
         </div>
       </div>

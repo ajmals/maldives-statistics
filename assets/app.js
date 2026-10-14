@@ -25,6 +25,7 @@
     catalogCategory: 'all',
     catalogPage: 1,
     catalogPageSize: 20,
+    selectedShockEventId: 'tsunami_2004',
     charts: {}
   };
 
@@ -123,6 +124,7 @@
       setupCovidScrubber();
       setupCatalog();
       setupPillarJumps();
+      setupShocksShowcase();
       
       // Update initial KPI values
       updateYearKPIs(state.selectedYear);
@@ -877,6 +879,18 @@
         setCovidMonth(42);
       }
     }
+
+    // Auto-sync Shocks Ribbon and Intel Card if this year matches a historical milestone
+    const matchedEvent = HISTORICAL_SHOCKS_EVENTS.find(e => e.year === year);
+    if (matchedEvent) {
+      document.querySelectorAll('.shocks-event-pill').forEach(p => {
+        p.classList.toggle('active', p.getAttribute('data-event-id') === matchedEvent.id);
+      });
+      updateShocksIntelCard(matchedEvent);
+    }
+    if (state.charts.gdpGrowth) {
+      state.charts.gdpGrowth.update('none');
+    }
   }
 
   // --- 3. GREATER MALÉ KPIS & BANNER ---
@@ -1171,7 +1185,258 @@
     });
   }
 
-  // Chart 2: Real GDP Growth Timeline
+  // =========================================================================
+  // 360° OVERVIEW: HISTORICAL SHOCKS & TURNING POINTS ENGINE
+  // =========================================================================
+  const HISTORICAL_SHOCKS_EVENTS = [
+    {
+      id: 'tsunami_2004',
+      year: 2004,
+      displayYear: '2004–2005',
+      title: '2004 Indian Ocean Tsunami',
+      badge: '🌊 Natural Disaster',
+      type: 'negative',
+      stats: {
+        gdpGrowth: '-8.7% (2005)',
+        arrivals: '-35.9% (395k)',
+        debtChange: '+14.2% pts',
+        highlightKey: '19 Resorts Closed'
+      },
+      summary: 'The deadliest catastrophe in modern Maldivian history. Over 29,000 citizens displaced (~10% of national population) across 39 severely damaged islands, completely flattening R. Kandholhudhoo and halting tourism.',
+      legacy: 'Prompted the multi-billion MVR international reconstruction effort, the founding of R. Dhuvaafaru model resettlement island, and the national "Safer Islands" sea-defense revetment strategy.',
+      jumpTab: 'pane-tsunami'
+    },
+    {
+      id: 'gfc_2008',
+      year: 2009,
+      displayYear: '2008–2009',
+      title: 'Global Financial Crisis (GFC)',
+      badge: '📉 External Economic Shock',
+      type: 'warning',
+      stats: {
+        gdpGrowth: '-3.6% (2009)',
+        arrivals: '-4.0% (655k)',
+        debtChange: 'Deficit spiked to 14.8%',
+        highlightKey: 'European Demand Slump'
+      },
+      summary: 'The collapse of Lehman Brothers and subsequent Eurozone debt crisis dried up luxury travel bookings from the UK, Italy, and Germany (which comprised 70%+ of arrivals at the time).',
+      legacy: 'Forced the Maldives to actively diversify destination marketing toward emerging Asian markets (China and India) to hedge against European dependency.',
+      jumpTab: 'pane-economy'
+    },
+    {
+      id: 'guesthouses_2010',
+      year: 2010,
+      displayYear: '2010',
+      title: 'Inhabited Island Guesthouse Revolution',
+      badge: '🏘️ Structural Reform',
+      type: 'positive',
+      stats: {
+        gdpGrowth: '+7.1%',
+        arrivals: '+20.7% (791k)',
+        debtChange: 'Local beds +12.4%',
+        highlightKey: 'Island Economy Born'
+      },
+      summary: 'The Maldives ended the four-decade "one island, one resort" policy by legalizing commercial tourist accommodations on inhabited islands, opening the door for budget-conscious independent travelers.',
+      legacy: 'Transformed islands like Maafushi, Thulusdhoo, and Ukulhas into thriving SME hubs, democratized hospitality income to local families, and created the nationwide inter-atoll speedboat network.',
+      jumpTab: 'pane-tourism'
+    },
+    {
+      id: 'tax_deval_2011',
+      year: 2011,
+      displayYear: '2011',
+      title: 'Rufiyaa Devaluation & Modern Tax System',
+      badge: '💱 Fiscal & Currency Pivot',
+      type: 'warning',
+      stats: {
+        gdpGrowth: '+8.7%',
+        arrivals: '931,333',
+        debtChange: 'TGST & BPT Passed',
+        highlightKey: 'Peg reset to 15.42 MVR'
+      },
+      summary: 'The Maldives Monetary Authority (MMA) abandoned the rigid 12.85 MVR/USD peg and allowed the Rufiyaa to devalue by 20% to 15.42 MVR. Concurrently, Parliament passed the modern Goods and Services Tax (GST/TGST) and Business Profit Tax (BPT).',
+      legacy: 'Replaced erratic import duties and flat resort leases with consumption taxes that became the state’s primary revenue driver, while institutionalizing chronic parallel market dollar pressures.',
+      jumpTab: 'pane-economy'
+    },
+    {
+      id: 'water_crisis_2014',
+      year: 2014,
+      displayYear: '2014',
+      title: 'Malé Capital City Water Crisis',
+      badge: '💧 Critical Utility Shock',
+      type: 'negative',
+      stats: {
+        gdpGrowth: '+7.3%',
+        arrivals: '1.20M (Milestone)',
+        debtChange: 'Emergency Capex',
+        highlightKey: '130k People Cut Off'
+      },
+      summary: 'A massive electrical fire at the MWSC desalination headquarters crippled 100% of piped potable water in Malé for nearly 10 days, exposing the perilous single-point-of-failure vulnerabilities of the capital\'s extreme urban density.',
+      legacy: 'Catalyzed multi-million-dollar investments into decentralized secondary water plants, reverse osmosis storage tanks, and regional rainwater harvesting across all atolls.',
+      jumpTab: 'pane-lifelines'
+    },
+    {
+      id: 'bridge_boom_2018',
+      year: 2018,
+      displayYear: '2016–2018',
+      title: 'Sinamalé Bridge & Mega-Capex Era',
+      badge: '🌉 Infrastructure Revolution',
+      type: 'info',
+      stats: {
+        gdpGrowth: '+8.1% (2018)',
+        arrivals: '1.48M',
+        debtChange: 'Debt climbed >75%',
+        highlightKey: 'Hulhumalé Connected'
+      },
+      summary: 'Inauguration of the 2.1 km China-Maldives Friendship Bridge physically linked Malé, the international airport at Hulhulé, and Hulhumalé, alongside a new code-F runway at Velana Airport and 16 Hiyaa housing towers.',
+      legacy: 'Triggered a massive population relocation to Hulhumalé, transforming Greater Malé into a unified metropolitan conurbation while significantly expanding external sovereign debt.',
+      jumpTab: 'pane-greater-male'
+    },
+    {
+      id: 'covid_2020',
+      year: 2020,
+      displayYear: '2020',
+      title: 'COVID-19 Pandemic Border Shutdown',
+      badge: '🦠 Deepest Macroeconomic Shock',
+      type: 'negative',
+      stats: {
+        gdpGrowth: '-33.5% (Historic Crash)',
+        arrivals: '-67.4% (555k)',
+        debtChange: 'Debt spiked to 151.4%',
+        highlightKey: '110 Days Zero Arrivals'
+      },
+      summary: 'On March 27, 2020, international borders closed completely for 110 days. Zero foreign tourist arrivals plunged the tourism-dependent nation into a $2.0B USD output loss and triggered unprecedented sovereign borrowing.',
+      legacy: 'Reopened on July 15 without quarantine using the "One Island, One Resort" natural bubble model, sparking the fastest V-shaped tourism recovery in the world led by India and Russia.',
+      jumpTab: 'pane-covid'
+    },
+    {
+      id: 'ukraine_commodity_2022',
+      year: 2022,
+      displayYear: '2022',
+      title: 'Russia–Ukraine War & Commodity Squeeze',
+      badge: '⛽ Energy & Inflation Squeeze',
+      type: 'warning',
+      stats: {
+        gdpGrowth: '+13.9%',
+        arrivals: '1.68M',
+        debtChange: 'Fuel Subsidies >2.5B',
+        highlightKey: 'Russia Remained #1 Market'
+      },
+      summary: 'Global diesel, food, and shipping inflation spiked domestic import bills for a nation 100% reliant on imported fuel for electricity and marine speedboats. Despite sanctions, Russian tourists made the Maldives their primary luxury sanctuary.',
+      legacy: 'Skyrocketed government electricity and fuel subsidy expenditures, accelerating national policy urgency for solar microgrids and agricultural self-sufficiency.',
+      jumpTab: 'pane-lifelines'
+    },
+    {
+      id: 'debt_wall_2024_2026',
+      year: 2024,
+      displayYear: '2024–2026',
+      title: '2M Arrivals Peak vs Sovereign Debt Wall',
+      badge: '📈 Record Peak & Fiscal Crunch',
+      type: 'alert',
+      stats: {
+        gdpGrowth: '+5.5% (2024)',
+        arrivals: '2.05M (Record Peak)',
+        debtChange: '124B MVR Total Debt',
+        highlightKey: '$500M Sukuk Due 2026'
+      },
+      summary: 'While annual arrivals broke historic records crossing 2.05 million tourists in 2024, acute foreign currency shortages and a major external debt maturity wall (including the $500M international Sukuk due in 2026) tightened liquidity.',
+      legacy: 'Triggered emergency bilateral foreign currency swaps with India (RBI) and China (PBOC), TGST rate adjustments, and structural fiscal consolidation programs.',
+      jumpTab: 'pane-economy'
+    }
+  ];
+
+  function setupShocksShowcase() {
+    const pills = document.querySelectorAll('.shocks-event-pill');
+    pills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        const eventId = pill.getAttribute('data-event-id');
+        selectShockEvent(eventId, true);
+      });
+    });
+
+    const jumpBtn = document.getElementById('intel-jump-btn');
+    if (jumpBtn) {
+      jumpBtn.addEventListener('click', () => {
+        const targetTab = jumpBtn.getAttribute('data-jump-tab');
+        if (targetTab) {
+          switchTab(targetTab);
+          window.scrollTo({ top: 120, behavior: 'smooth' });
+        }
+      });
+    }
+
+    // Set initial event display
+    selectShockEvent('tsunami_2004', false);
+  }
+
+  function selectShockEvent(eventId, syncTimeline) {
+    const ev = HISTORICAL_SHOCKS_EVENTS.find(e => e.id === eventId);
+    if (!ev) return;
+
+    state.selectedShockEventId = eventId;
+
+    // Update active pill
+    document.querySelectorAll('.shocks-event-pill').forEach(p => {
+      const isTarget = p.getAttribute('data-event-id') === eventId;
+      p.classList.toggle('active', isTarget);
+    });
+
+    // Update Intel Card
+    updateShocksIntelCard(ev);
+
+    // Sync master timeline scrubber if requested
+    if (syncTimeline && ev.year) {
+      state.selectedYear = ev.year;
+      if (els.slider) els.slider.value = ev.year;
+      if (els.yearDisplay) els.yearDisplay.textContent = ev.year;
+      updateYearKPIs(ev.year);
+    }
+
+    // Update chart highlight
+    if (state.charts.gdpGrowth) {
+      state.charts.gdpGrowth.update('none');
+    }
+  }
+
+  function updateShocksIntelCard(ev) {
+    const card = document.getElementById('shocks-intel-card');
+    const badge = document.getElementById('intel-badge');
+    const title = document.getElementById('intel-title');
+    const year = document.getElementById('intel-year');
+    const valGdp = document.getElementById('intel-val-gdp');
+    const valTourists = document.getElementById('intel-val-tourists');
+    const valDebt = document.getElementById('intel-val-debt');
+    const valFact = document.getElementById('intel-val-fact');
+    const summary = document.getElementById('intel-summary');
+    const legacy = document.getElementById('intel-legacy-text');
+    const jumpBtn = document.getElementById('intel-jump-btn');
+
+    if (!card) return;
+
+    card.className = `shocks-intel-card intel-${ev.type || 'info'}`;
+    if (badge) badge.textContent = ev.badge;
+    if (title) title.textContent = ev.title;
+    if (year) year.textContent = ev.displayYear || ev.year;
+
+    if (valGdp) {
+      valGdp.textContent = ev.stats.gdpGrowth;
+      valGdp.className = `intel-metric-val font-mono ${ev.stats.gdpGrowth.includes('-') ? 'negative' : 'positive'}`;
+    }
+    if (valTourists) {
+      valTourists.textContent = ev.stats.arrivals;
+      valTourists.className = `intel-metric-val font-mono ${ev.stats.arrivals.includes('-') ? 'negative' : ''}`;
+    }
+    if (valDebt) valDebt.textContent = ev.stats.debtChange;
+    if (valFact) valFact.textContent = ev.stats.highlightKey;
+
+    if (summary) summary.textContent = ev.summary;
+    if (legacy) legacy.textContent = ev.legacy;
+
+    if (jumpBtn) {
+      jumpBtn.setAttribute('data-jump-tab', ev.jumpTab || 'pane-economy');
+    }
+  }
+
+  // Chart 2: Flagship Shocks & Milestones Dual-Axis Timeline (GDP Growth % + Public Debt-to-GDP %)
   function renderGdpGrowthTimelineChart() {
     const ctx = document.getElementById('chart-gdp-growth-timeline');
     if (!ctx) return;
@@ -1181,34 +1446,159 @@
     const rows = state.data.timeline.filter(r => r.year >= 2000 && r.year <= 2026);
     const labels = rows.map(r => r.year);
     const growthRates = rows.map(r => r.gdp_growth_pct);
+    const debtRatios = rows.map(r => r.debt_pct_gdp || null);
+
+    // Event years mapped for custom markers
+    const eventYearMap = {};
+    HISTORICAL_SHOCKS_EVENTS.forEach(ev => {
+      eventYearMap[ev.year] = ev;
+    });
 
     state.charts.gdpGrowth = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: labels,
-        datasets: [{
-          label: 'Real GDP Growth (%)',
-          data: growthRates,
-          backgroundColor: growthRates.map(v => v >= 0 ? colors.emerald : colors.rose),
-          borderRadius: 3
-        }]
+        datasets: [
+          {
+            type: 'bar',
+            label: 'Real GDP Growth (%)',
+            data: growthRates,
+            backgroundColor: (c) => {
+              const yr = rows[c.dataIndex]?.year;
+              const val = growthRates[c.dataIndex];
+              const isSelected = yr === state.selectedYear;
+              if (isSelected) {
+                return val >= 0 ? '#34d399' : '#fb7185';
+              }
+              return val >= 0 ? colors.emerald : colors.rose;
+            },
+            borderColor: (c) => {
+              const yr = rows[c.dataIndex]?.year;
+              return yr === state.selectedYear ? '#ffffff' : 'transparent';
+            },
+            borderWidth: (c) => (rows[c.dataIndex]?.year === state.selectedYear ? 2 : 0),
+            borderRadius: 4,
+            yAxisID: 'y',
+            order: 2
+          },
+          {
+            type: 'line',
+            label: 'Public Debt-to-GDP (%)',
+            data: debtRatios,
+            borderColor: colors.amber,
+            backgroundColor: 'transparent',
+            borderWidth: 2.5,
+            borderDash: [5, 4],
+            tension: 0.35,
+            pointRadius: (c) => {
+              const yr = rows[c.dataIndex]?.year;
+              if (yr === state.selectedYear) return 7;
+              return eventYearMap[yr] ? 5 : 2;
+            },
+            pointBackgroundColor: (c) => {
+              const yr = rows[c.dataIndex]?.year;
+              if (yr === state.selectedYear) return '#ffffff';
+              return eventYearMap[yr] ? colors.amber : colors.text;
+            },
+            pointBorderColor: colors.amber,
+            pointBorderWidth: 2,
+            yAxisID: 'y1',
+            order: 1
+          }
+        ]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        onClick: (event, elements) => {
+          if (!elements || elements.length === 0) return;
+          const idx = elements[0].index;
+          const row = rows[idx];
+          if (!row) return;
+
+          // Sync timeline
+          state.selectedYear = row.year;
+          if (els.slider) els.slider.value = row.year;
+          if (els.yearDisplay) els.yearDisplay.textContent = row.year;
+          updateYearKPIs(row.year);
+
+          // If this year matches an event, update shock card
+          const ev = HISTORICAL_SHOCKS_EVENTS.find(e => e.year === row.year);
+          if (ev) {
+            selectShockEvent(ev.id, false);
+          } else {
+            state.charts.gdpGrowth.update('none');
+          }
+        },
         plugins: {
-          legend: { display: false },
+          legend: {
+            position: 'top',
+            labels: {
+              color: colors.text,
+              boxWidth: 12,
+              usePointStyle: true
+            }
+          },
           tooltip: {
             callbacks: {
-              label: (item) => `Real GDP: ${item.parsed.y >= 0 ? '+' : ''}${item.parsed.y}%`
+              afterTitle: (items) => {
+                if (!items || items.length === 0) return '';
+                const yr = rows[items[0].dataIndex]?.year;
+                const ev = eventYearMap[yr];
+                return ev ? `\n⭐ Milestone: ${ev.title} (${ev.badge})` : '';
+              },
+              label: (item) => {
+                if (item.datasetIndex === 0) {
+                  const val = item.parsed.y;
+                  return `Real GDP Growth: ${val >= 0 ? '+' : ''}${val}%`;
+                }
+                if (item.datasetIndex === 1) {
+                  return `Debt-to-GDP: ${item.parsed.y ? item.parsed.y + '%' : 'N/A'}`;
+                }
+                return '';
+              }
             }
           }
         },
         scales: {
-          x: { grid: { display: false }, ticks: { color: colors.text, maxTicksLimit: 12 } },
+          x: {
+            grid: { display: false },
+            ticks: {
+              color: colors.text,
+              maxTicksLimit: 14,
+              font: { weight: 500 }
+            }
+          },
           y: {
+            type: 'linear',
+            position: 'left',
             grid: { color: colors.grid },
-            ticks: { color: colors.text, callback: (v) => `${v}%` }
+            ticks: {
+              color: colors.text,
+              callback: (v) => `${v}%`
+            },
+            title: {
+              display: true,
+              text: 'Real GDP Growth (%)',
+              color: colors.textMuted,
+              font: { size: 11 }
+            }
+          },
+          y1: {
+            type: 'linear',
+            position: 'right',
+            grid: { display: false },
+            ticks: {
+              color: colors.amber,
+              callback: (v) => `${v}%`
+            },
+            title: {
+              display: true,
+              text: 'Debt-to-GDP (%)',
+              color: colors.amber,
+              font: { size: 11 }
+            }
           }
         }
       }

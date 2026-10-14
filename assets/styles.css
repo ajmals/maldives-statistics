@@ -1878,3 +1878,243 @@ input[type="range"]#timeline-slider::-webkit-slider-thumb:hover {
     gap: 0.2rem;
   }
 }
+
+/* ==========================================================================
+   25-Year Shocks & Milestones Flagship Showcase (360° Overview)
+   ========================================================================== */
+.shocks-showcase-card {
+  margin-top: 1.75rem;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.shocks-ribbon-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  padding: 0.6rem 0.85rem;
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+}
+
+.shocks-ribbon-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.shocks-ribbon-scroll {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.shocks-event-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: var(--bg-surface);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+}
+
+.shocks-event-pill:hover {
+  color: var(--text-main);
+  border-color: var(--border-focus);
+  background-color: var(--bg-surface-elevated);
+  transform: translateY(-1px);
+}
+
+.shocks-event-pill.active {
+  background-color: rgba(14, 165, 233, 0.15);
+  color: var(--accent);
+  border-color: rgba(14, 165, 233, 0.5);
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.2);
+}
+
+.shocks-event-pill.pill-negative.active {
+  background-color: rgba(244, 63, 94, 0.15);
+  color: var(--rose);
+  border-color: rgba(244, 63, 94, 0.5);
+  box-shadow: 0 0 10px rgba(244, 63, 94, 0.2);
+}
+
+.shocks-intel-card {
+  background: linear-gradient(135deg, var(--bg-surface-elevated), var(--bg-surface));
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 1.5rem;
+  transition: border-color var(--transition-fast);
+}
+
+.shocks-intel-card.intel-negative {
+  border-left-color: var(--rose);
+}
+.shocks-intel-card.intel-warning {
+  border-left-color: var(--amber);
+}
+.shocks-intel-card.intel-positive {
+  border-left-color: var(--emerald);
+}
+
+.intel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0.75rem;
+}
+
+.intel-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.intel-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+  background-color: rgba(14, 165, 233, 0.12);
+  color: var(--accent);
+  border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.intel-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.intel-year {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.intel-jump-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-surface);
+  color: var(--accent);
+  border: 1px solid rgba(14, 165, 233, 0.4);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.intel-jump-btn:hover {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+.intel-body-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .intel-body-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.intel-metrics-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+  background-color: var(--bg-surface);
+  padding: 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.intel-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.intel-metric-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.intel-metric-val {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.intel-metric-val.negative {
+  color: var(--rose);
+}
+.intel-metric-val.positive {
+  color: var(--emerald);
+}
+
+.intel-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.intel-summary {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.intel-legacy {
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+  background-color: var(--bg-surface);
+  border-left: 2px solid var(--accent);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.intel-legacy strong {
+  color: var(--text-main);
+}
